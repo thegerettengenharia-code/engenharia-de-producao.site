@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engenharia de Produção — Portal Técnico</title>
+  <meta name="description" content="Portal completo sobre Engenharia de Produção com fundamentos, Lean Manufacturing, Qualidade, Segurança, Normas e muito mais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter">EP</text></svg>
+        <span>Eng<span class="accent">Pro</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#topicos">Tópicos</a>
+        <a href="#sobre">Sobre</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <div class="hero-badge">Portal Técnico</div>
+      <h1 class="hero-title">Engenharia de<br><span class="gradient-text">Produção</span></h1>
+      <p class="hero-sub">Fundamentos · Lean · Qualidade · Segurança · Normas · Indústria 4.0</p>
+      <p class="hero-desc">Conteúdo completo sobre os pilares da engenharia de produção industrial, desde os fundamentos clássicos até as fronteiras da Indústria 4.0.</p>
+      <div class="hero-actions">
+        <a href="#topicos" class="btn-primary">Explorar Tópicos</a>
+        <a href="#sobre" class="btn-outline">Sobre o Projeto</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-num" data-count="16">0</span><span class="stat-label">Capítulos</span></div>
+        <div class="stat-item"><span class="stat-num" data-count="180">0</span><span class="stat-label">Subtópicos</span></div>
+        <div class="stat-item"><span class="stat-num" data-count="100">0</span><span class="stat-label">% Técnico</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Role para explorar</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+    </div>
+  </section>
+
+  <!-- TOPICS SECTION -->
+  <section class="topics" id="topicos">
+    <div class="section-header">
+      <span class="section-tag">Conteúdo</span>
+      <h2 class="section-title">Todos os <span class="gradient-text">Tópicos</span></h2>
+      <p class="section-desc">Navegue por 16 capítulos completos sobre Engenharia de Produção</p>
+    </div>
+    <div class="topics-grid" id="topicsGrid">
+    </div>
+  </section>
+
+  <!-- TOPIC DETAIL -->
+  <section class="topic-detail" id="topicDetail" style="display:none">
+    <div class="section-header">
+      <button class="btn-back" id="btnBack">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar
+      </button>
+      <span class="section-tag" id="detailTag">Capítulo</span>
+      <h2 class="section-title" id="detailTitle">Título</h2>
+      <p class="section-desc" id="detailDesc">Descrição</p>
+    </div>
+    <div class="detail-content" id="detailContent"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="sobre">
+    <div class="section-header">
+      <span class="section-tag">Projeto</span>
+      <h2 class="section-title">Sobre o <span class="gradient-text">Portal</span></h2>
+      <p class="section-desc">Um compêndio técnico de Engenharia de Produção para estudantes, profissionais e entusiastas</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>Conteúdo Estruturado</h3>
+        <p>16 capítulos organizados didaticamente com centenas de subtópicos técnicos.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Sempre Atualizado</h3>
+        <p>Conteúdo alinhado com as normas vigentes (NRs, ISOs) e as práticas mais recentes da indústria.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Foco Prático</h3>
+        <p>Exemplos reais da indústria, com aplicações em AutoCAD, SolidWorks, NanoCAD e projetos reais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg width="28" height="28" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter">EP</text></svg>
+        <span>EngPro — Portal Técnico de Engenharia de Produção</span>
+      </div>
+      <p class="footer-copy">Conteúdo técnico livre para fins educacionais. Baseado em normas ABNT, ISO, NRs e bibliografia clássica da engenharia de produção.</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- LOADING -->
+  <div class="loader" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
