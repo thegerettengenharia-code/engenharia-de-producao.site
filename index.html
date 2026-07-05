@@ -5,135 +5,487 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Engenharia de Produção — Portal Técnico</title>
   <meta name="description" content="Portal completo sobre Engenharia de Produção com fundamentos, Lean Manufacturing, Qualidade, Segurança, Normas e muito mais.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-track{background:#0a0e1a}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#f7a600,#ff6b35);border-radius:4px}
+::selection{background:#f7a60055;color:#fff}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+  background:#070b15;
+  color:#c8d0e0;
+  overflow-x:hidden;
+  line-height:1.7;
+  min-height:100vh;
+}
+a{color:inherit;text-decoration:none}
+:root{
+  --accent:#f7a600;
+  --accent2:#ff6b35;
+  --accent-glow:#f7a60033;
+  --bg-dark:#070b15;
+  --bg-card:#0e1525;
+  --bg-card2:#131b30;
+  --text:#c8d0e0;
+  --text-dim:#6b7a99;
+  --text-bright:#f0f4ff;
+  --border:#1a2540;
+  --radius:12px;
+  --radius-lg:20px;
+  --shadow:0 8px 32px #00000066;
+  --transition:0.3s cubic-bezier(.4,0,.2,1);
+}
+.loader{position:fixed;inset:0;z-index:9999;background:#070b15;display:flex;align-items:center;justify-content:center;transition:opacity .6s,visibility .6s}
+.loader.hidden{opacity:0;visibility:hidden}
+.loader-spinner{width:50px;height:50px;border:3px solid #1a2540;border-top-color:#f7a600;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#bg-canvas .shape{position:absolute;border-radius:50%;opacity:.04;animation:float 20s ease-in-out infinite}
+#bg-canvas .shape:nth-child(1){width:600px;height:600px;background:radial-gradient(circle,#f7a600,transparent);top:-5%;left:-5%;animation-delay:0s}
+#bg-canvas .shape:nth-child(2){width:400px;height:400px;background:radial-gradient(circle,#ff6b35,transparent);bottom:-10%;right:-5%;animation-delay:-5s}
+#bg-canvas .shape:nth-child(3){width:300px;height:300px;background:radial-gradient(circle,#4a9eff,transparent);top:40%;right:10%;animation-delay:-10s}
+#bg-canvas .shape:nth-child(4){width:200px;height:200px;background:radial-gradient(circle,#00d4aa,transparent);bottom:20%;left:15%;animation-delay:-15s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(30px,-30px) scale(1.05)}50%{transform:translate(-20px,20px) scale(.95)}75%{transform:translate(40px,10px) scale(1.02)}}
+.navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#070b15ee,#070b1500);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:var(--transition)}
+.navbar.scrolled{background:#070b15f2;border-bottom-color:#1a2540}
+.nav-inner{width:100%;max-width:1200px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:1.25rem;font-weight:800;color:#f0f4ff}
+.nav-logo .accent{color:var(--accent)}
+.nav-links{display:flex;gap:8px}
+.nav-links a{padding:6px 18px;border-radius:8px;font-size:.9rem;font-weight:500;color:var(--text);transition:var(--transition);position:relative}
+.nav-links a:hover,.nav-links a.active{color:#f0f4ff;background:#ffffff0a}
+.nav-links a.active::after{content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:20px;height:2px;border-radius:2px;background:var(--accent)}
+.nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
+.nav-toggle span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px;transition:var(--transition)}
+.nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.nav-toggle.active span:nth-child(2){opacity:0}
+.nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.hero{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:100px 24px 60px}
+.hero-content{max-width:800px;animation:fadeUp 1s ease-out}
+.hero-badge{display:inline-block;padding:6px 20px;border-radius:20px;background:var(--accent-glow);border:1px solid #f7a60033;font-size:.8rem;font-weight:600;color:var(--accent);margin-bottom:24px;letter-spacing:1px;text-transform:uppercase}
+.hero-title{font-size:clamp(2.8rem,8vw,5.5rem);font-weight:900;line-height:1.05;color:#f0f4ff;margin-bottom:20px;letter-spacing:-2px}
+.gradient-text{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{font-size:clamp(1rem,2vw,1.3rem);font-weight:500;color:var(--text);margin-bottom:16px}
+.hero-desc{font-size:1.05rem;color:var(--text-dim);max-width:600px;margin:0 auto 32px;line-height:1.7}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:60px}
+.btn-primary,.btn-outline{padding:14px 32px;border-radius:var(--radius);font-weight:600;font-size:1rem;cursor:pointer;transition:var(--transition);display:inline-flex;align-items:center;gap:8px}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#070b15;border:none;box-shadow:0 4px 20px #f7a60044}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px #f7a60066}
+.btn-outline{background:transparent;color:#f0f4ff;border:1px solid var(--border)}
+.btn-outline:hover{background:#ffffff0a;border-color:var(--accent)}
+.btn-back{display:inline-flex;align-items:center;gap:6px;background:var(--bg-card);border:1px solid var(--border);color:var(--text);padding:8px 18px;border-radius:8px;font-size:.9rem;cursor:pointer;transition:var(--transition);margin-bottom:16px}
+.btn-back:hover{border-color:var(--accent);color:#f0f4ff}
+.hero-stats{display:flex;gap:40px;justify-content:center;flex-wrap:wrap}
+.stat-item{display:flex;flex-direction:column;align-items:center;gap:4px}
+.stat-num{font-size:2.5rem;font-weight:800;color:#f0f4ff;font-variant-numeric:tabular-nums}
+.stat-label{font-size:.85rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px}
+.hero-scroll{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--text-dim);font-size:.75rem;text-transform:uppercase;letter-spacing:2px;animation:bounce 2s ease-in-out infinite}
+.section-header{text-align:center;max-width:700px;margin:0 auto 60px;padding:0 24px}
+.section-tag{display:inline-block;padding:4px 16px;border-radius:16px;background:var(--accent-glow);border:1px solid #f7a60022;font-size:.8rem;font-weight:600;color:var(--accent);margin-bottom:16px;letter-spacing:1px;text-transform:uppercase}
+.section-title{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;color:#f0f4ff;margin-bottom:16px;line-height:1.1}
+.section-desc{font-size:1.1rem;color:var(--text-dim);line-height:1.7}
+section{padding:100px 24px;position:relative;z-index:1}
+.topics{max-width:1200px;margin:0 auto}
+.topics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:0 24px}
+.topic-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px 24px;cursor:pointer;transition:var(--transition);position:relative;overflow:hidden}
+.topic-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0;transition:var(--transition)}
+.topic-card:hover{transform:translateY(-4px);border-color:#f7a60044;box-shadow:0 12px 40px #00000088}
+.topic-card:hover::before{opacity:1}
+.topic-card .card-num{font-family:'Courier New',monospace;font-size:.75rem;font-weight:500;color:var(--accent);margin-bottom:8px}
+.topic-card h3{font-size:1.15rem;font-weight:700;color:#f0f4ff;margin-bottom:8px}
+.topic-card p{font-size:.9rem;color:var(--text-dim);line-height:1.6;margin-bottom:16px}
+.topic-card .card-topics{display:flex;flex-wrap:wrap;gap:6px}
+.topic-card .card-topics span{padding:2px 10px;border-radius:6px;background:#ffffff06;border:1px solid var(--border);font-size:.75rem;color:var(--text-dim)}
+.topic-detail{max-width:900px;margin:0 auto;animation:fadeUp .4s ease-out}
+.detail-content{padding:0 24px}
+.detail-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px;margin-bottom:20px;transition:var(--transition)}
+.detail-block:hover{border-color:#1e2d50}
+.detail-block h4{font-size:1.2rem;font-weight:700;color:#f0f4ff;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.detail-block h4 .h-icon{color:var(--accent);flex-shrink:0}
+.detail-block p{font-size:.95rem;color:var(--text);line-height:1.8;margin-bottom:12px}
+.detail-block p:last-child{margin-bottom:0}
+.detail-block ul{padding-left:20px;margin-bottom:12px}
+.detail-block ul li{margin-bottom:6px;font-size:.92rem;color:var(--text);line-height:1.6}
+.detail-block ul li::marker{color:var(--accent)}
+.detail-highlight{background:linear-gradient(135deg,#0e1a2a,#0e1525);border-left:3px solid var(--accent);padding:16px 20px;border-radius:0 var(--radius) var(--radius) 0;margin:16px 0;font-size:.9rem;color:var(--text)}
+.detail-highlight strong{color:var(--accent)}
+.about{max-width:1200px;margin:0 auto}
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:0 24px}
+@media(max-width:768px){.about-grid{grid-template-columns:1fr}}
+.about-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px 28px;transition:var(--transition);text-align:center}
+.about-card:hover{transform:translateY(-4px);border-color:#f7a60033}
+.about-icon{width:60px;height:60px;border-radius:16px;background:var(--accent-glow);border:1px solid #f7a60033;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;color:var(--accent)}
+.about-card h3{font-size:1.2rem;font-weight:700;color:#f0f4ff;margin-bottom:10px}
+.about-card p{font-size:.92rem;color:var(--text-dim);line-height:1.7}
+.footer{border-top:1px solid var(--border);padding:40px 24px;position:relative;z-index:1}
+.footer-inner{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+.footer-brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--text-bright)}
+.footer-copy{font-size:.85rem;color:var(--text-dim);max-width:500px}
+.scroll-top{position:fixed;bottom:24px;right:24px;z-index:999;width:44px;height:44px;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition);opacity:0;visibility:hidden;transform:translateY(10px)}
+.scroll-top.visible{opacity:1;visibility:visible;transform:translateY(0)}
+.scroll-top:hover{background:var(--accent);color:#070b15;border-color:var(--accent)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-8px)}}
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s ease-out,transform .6s ease-out}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+@media(max-width:768px){
+  .nav-links{position:fixed;top:64px;left:0;right:0;flex-direction:column;background:#070b15f5;backdrop-filter:blur(20px);padding:16px;gap:4px;border-bottom:1px solid var(--border);transform:translateY(-110%);transition:var(--transition)}
+  .nav-links.open{transform:translateY(0)}
+  .nav-toggle{display:flex}
+  .hero-title{letter-spacing:-1px}
+  .hero-stats{gap:24px}
+  .stat-num{font-size:2rem}
+  .topics-grid{grid-template-columns:1fr}
+  .detail-block{padding:20px}
+}
+@media(max-width:480px){
+  .hero-title{font-size:2.2rem}
+  .hero-actions{flex-direction:column}
+  .btn-primary,.btn-outline{width:100%;justify-content:center}
+  section{padding:60px 16px}
+  .section-header{margin-bottom:40px}
+}
+  </style>
 </head>
 <body>
-  <div id="canvas-container"></div>
+  <div id="bg-canvas"><div class="shape"></div><div class="shape"></div><div class="shape"></div><div class="shape"></div></div>
 
-  <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter">EP</text></svg>
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Arial">EP</text></svg>
         <span>Eng<span class="accent">Pro</span></span>
       </a>
       <div class="nav-links" id="navLinks">
-        <a href="#inicio" class="active">Início</a>
-        <a href="#topicos">Tópicos</a>
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#topicos">Topicos</a>
         <a href="#sobre">Sobre</a>
       </div>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </nav>
 
-  <!-- HERO -->
   <section class="hero" id="inicio">
     <div class="hero-content">
-      <div class="hero-badge">Portal Técnico</div>
-      <h1 class="hero-title">Engenharia de<br><span class="gradient-text">Produção</span></h1>
-      <p class="hero-sub">Fundamentos · Lean · Qualidade · Segurança · Normas · Indústria 4.0</p>
-      <p class="hero-desc">Conteúdo completo sobre os pilares da engenharia de produção industrial, desde os fundamentos clássicos até as fronteiras da Indústria 4.0.</p>
+      <div class="hero-badge">Portal Tecnico</div>
+      <h1 class="hero-title">Engenharia de<br><span class="gradient-text">Producao</span></h1>
+      <p class="hero-sub">Fundamentos  Lean  Qualidade  Seguranca  Normas  Industria 4.0</p>
+      <p class="hero-desc">Conteudo completo sobre os pilares da engenharia de producao industrial, desde os fundamentos classicos ate as fronteiras da Industria 4.0.</p>
       <div class="hero-actions">
-        <a href="#topicos" class="btn-primary">Explorar Tópicos</a>
+        <a href="#topicos" class="btn-primary">Explorar Topicos</a>
         <a href="#sobre" class="btn-outline">Sobre o Projeto</a>
       </div>
       <div class="hero-stats">
-        <div class="stat-item"><span class="stat-num" data-count="16">0</span><span class="stat-label">Capítulos</span></div>
-        <div class="stat-item"><span class="stat-num" data-count="180">0</span><span class="stat-label">Subtópicos</span></div>
-        <div class="stat-item"><span class="stat-num" data-count="100">0</span><span class="stat-label">% Técnico</span></div>
+        <div class="stat-item"><span class="stat-num" data-count="16">0</span><span class="stat-label">Capitulos</span></div>
+        <div class="stat-item"><span class="stat-num" data-count="180">0</span><span class="stat-label">Subtopicos</span></div>
+        <div class="stat-item"><span class="stat-num" data-count="100">0</span><span class="stat-label">Tecnico</span></div>
       </div>
     </div>
-    <div class="hero-scroll">
-      <span>Role para explorar</span>
+    <div class="hero-scroll"><span>Role para explorar</span>
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
     </div>
   </section>
 
-  <!-- TOPICS SECTION -->
   <section class="topics" id="topicos">
     <div class="section-header">
-      <span class="section-tag">Conteúdo</span>
-      <h2 class="section-title">Todos os <span class="gradient-text">Tópicos</span></h2>
-      <p class="section-desc">Navegue por 16 capítulos completos sobre Engenharia de Produção</p>
+      <span class="section-tag">Conteudo</span>
+      <h2 class="section-title">Todos os <span class="gradient-text">Topicos</span></h2>
+      <p class="section-desc">Navegue por 16 capitulos completos sobre Engenharia de Producao</p>
     </div>
-    <div class="topics-grid" id="topicsGrid">
-    </div>
+    <div class="topics-grid" id="topicsGrid"></div>
   </section>
 
-  <!-- TOPIC DETAIL -->
   <section class="topic-detail" id="topicDetail" style="display:none">
     <div class="section-header">
       <button class="btn-back" id="btnBack">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Voltar
       </button>
-      <span class="section-tag" id="detailTag">Capítulo</span>
-      <h2 class="section-title" id="detailTitle">Título</h2>
-      <p class="section-desc" id="detailDesc">Descrição</p>
+      <span class="section-tag" id="detailTag">Capitulo</span>
+      <h2 class="section-title" id="detailTitle">Titulo</h2>
+      <p class="section-desc" id="detailDesc">Descricao</p>
     </div>
     <div class="detail-content" id="detailContent"></div>
   </section>
 
-  <!-- ABOUT -->
   <section class="about" id="sobre">
     <div class="section-header">
       <span class="section-tag">Projeto</span>
       <h2 class="section-title">Sobre o <span class="gradient-text">Portal</span></h2>
-      <p class="section-desc">Um compêndio técnico de Engenharia de Produção para estudantes, profissionais e entusiastas</p>
+      <p class="section-desc">Um compendio tecnico de Engenharia de Producao para estudantes, profissionais e entusiastas</p>
     </div>
     <div class="about-grid">
       <div class="about-card">
         <div class="about-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         </div>
-        <h3>Conteúdo Estruturado</h3>
-        <p>16 capítulos organizados didaticamente com centenas de subtópicos técnicos.</p>
+        <h3>Conteudo Estruturado</h3>
+        <p>16 capitulos organizados didaticamente com centenas de subtopicos tecnicos.</p>
       </div>
       <div class="about-card">
         <div class="about-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
         </div>
         <h3>Sempre Atualizado</h3>
-        <p>Conteúdo alinhado com as normas vigentes (NRs, ISOs) e as práticas mais recentes da indústria.</p>
+        <p>Conteudo alinhado com as normas vigentes (NRs, ISOs) e as praticas mais recentes da industria.</p>
       </div>
       <div class="about-card">
         <div class="about-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
         </div>
-        <h3>Foco Prático</h3>
-        <p>Exemplos reais da indústria, com aplicações em AutoCAD, SolidWorks, NanoCAD e projetos reais.</p>
+        <h3>Foco Pratico</h3>
+        <p>Exemplos reais da industria, com aplicacoes em AutoCAD, SolidWorks, NanoCAD e projetos reais.</p>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <svg width="28" height="28" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter">EP</text></svg>
-        <span>EngPro — Portal Técnico de Engenharia de Produção</span>
+        <svg width="28" height="28" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Arial">EP</text></svg>
+        <span>EngPro  Portal Tecnico de Engenharia de Producao</span>
       </div>
-      <p class="footer-copy">Conteúdo técnico livre para fins educacionais. Baseado em normas ABNT, ISO, NRs e bibliografia clássica da engenharia de produção.</p>
+      <p class="footer-copy">Conteudo tecnico livre para fins educacionais. Baseado em normas ABNT, ISO, NRs e bibliografia classica da engenharia de producao.</p>
     </div>
   </footer>
 
-  <!-- SCROLL TO TOP -->
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
 
-  <!-- LOADING -->
-  <div class="loader" id="loader">
-    <div class="loader-spinner"></div>
-  </div>
+  <div class="loader" id="loader"><div class="loader-spinner"></div></div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="js/three-scene.js"></script>
-  <script src="js/content.js"></script>
-  <script src="js/main.js"></script>
+  <script>
+const T=[
+{d:1,n:"01",t:"Engenharia de Producao",g:"Fundamentos Gerais",s:"Fundamentos classicos da engenharia de producao: evolucao historica, sistemas produtivos, PCP, estoques, custos, logistica.",k:["Taylorismo","Fordismo","STP","PCP","MRP","OEE","TOC","Layout"],
+b:[
+{ti:"Evolucao Historica",c:"<p>A 1a Revolucao Industrial (sec. XVIII, Inglaterra) marcou a mecanizacao com a maquina a vapor. A 2a Revolucao (sec. XIX-XX) trouxe eletricidade e aco em larga escala. O <strong>Taylorismo (1911)</strong> de Frederick Taylor introduziu a Administracao Cientifica: estudo de tempos e movimentos, separacao planejamento/execucao. O <strong>Fordismo (1913)</strong> de Henry Ford criou a linha de montagem movel, producao em massa e pecas intercambiaveis. O <strong>Sistema Toyota de Producao (STP)</strong> de Taiichi Ohno e Eiji Toyoda originou o Lean Manufacturing, baseado em producao puxada e eliminacao de desperdicios.</p>"},
+{ti:"Tipos de Sistemas Produtivos",c:"<ul><li><strong>Producao continua:</strong> fluxo ininterrupto, alto volume, baixissima variedade (refinarias, siderurgicas).</li><li><strong>Producao intermitente (lotes):</strong> fabricacao de lotes de produtos diferentes na mesma estrutura, com setups entre eles.</li><li><strong>Producao por projeto:</strong> produto unico, nao repetitivo (construcao civil, naval).</li><li><strong>Producao em massa:</strong> grande volume, produto padronizado  modelo fordista.</li><li><strong>Customizacao em massa:</strong> variedade com eficiencia de massa via Industria 4.0.</li></ul>"},
+{ti:"Arranjo Fisico (Layout)",c:"<ul><li><strong>Por produto (em linha):</strong> postos na sequencia exata. Alta eficiencia, baixa flexibilidade.</li><li><strong>Por processo (funcional):</strong> maquinas do mesmo tipo agrupadas. Alta flexibilidade.</li><li><strong>Celular:</strong> Tecnologia de Grupo  maquinas diferentes em celula dedicada a uma familia de pecas.</li><li><strong>Posicional:</strong> produto parado, recursos se deslocam (navios, pontes).</li><li><strong>Combinado:</strong> maioria das fabricas reais mistura arranjos.</li></ul>"},
+{ti:"PCP  Planejamento e Controle da Producao",c:"<p>O PCP decide o que, quanto, quando e onde produzir. <strong>Previsao de demanda:</strong> qualitativa (Delphi) ou quantitativa (medias moveis). <strong>Planejamento agregado:</strong> niveis de producao e mao de obra. <strong>MPS:</strong> plano mestre de producao. <strong>Sequenciamento:</strong> FIFO, SPT, EDD. <strong>MRP:</strong> calcula materiais necessarios a partir do MPS e BOM. <strong>MRP II:</strong> incorpora capacidade financeira. <strong>ERP:</strong> SAP, TOTVS, Oracle  sistemas integrados.</p>"},
+{ti:"Gestao de Estoques",c:"<ul><li><strong>Curva ABC:</strong> classe A (20% itens, 80% valor)  controle rigoroso.</li><li><strong>LEC/EOQ:</strong> Q* = (2DS/H)  lote economico de compra.</li><li><strong>Ponto de pedido (ROP):</strong> nivel que dispara novo pedido.</li><li><strong>Estoque de seguranca:</strong> colchao contra variabilidade.</li><li><strong>Giro de estoque:</strong> CPV  estoque medio.</li></ul>"},
+{ti:"Produtividade e OEE",c:"<p><strong>OEE = Disponibilidade x Performance x Qualidade</strong></p><ul><li>Disponibilidade: tempo produzindo  tempo planejado.</li><li>Performance: velocidade real  velocidade ideal.</li><li>Qualidade: pecas boas  pecas totais.</li></ul><p>OEE classe mundial  85%.</p>"},
+{ti:"Custos, Engenharia Economica e TOC",c:"<p><strong>Custos:</strong> fixos x variaveis, diretos x indiretos, custeio por absorcao, custeio ABC. <strong>VPL, TIR, Payback:</strong> ferramentas de engenharia economica. <strong>TOC (Goldratt):</strong> todo sistema tem um gargalo  5 passos de focalizacao.</p><p><strong>Gestao de projetos:</strong> PMBOK, EAP/WBS, PERT/CPM. <strong>Supply Chain:</strong> integracao fornecedores a cliente. Efeito chicote (bullwhip). <strong>Simulacao:</strong> Arena, Promodel, FlexSim.</p>"},
+{ti:"Gestao da Manutencao",c:"<ul><li><strong>Corretiva:</strong> apos a falha.</li><li><strong>Preventiva:</strong> baseada em tempo.</li><li><strong>Preditiva:</strong> baseada na condicao (vibracao, termografia, oleo).</li><li><strong>TPM (8 pilares):</strong> manutencao autonoma, planejada, da qualidade, melhoria especifica, gestao inicial, treinamento, seguranca, TPM administrativo.</li><li><strong>MTBF/MTTR:</strong> confiabilidade e disponibilidade.</li></ul>"}
+]},
+{d:2,n:"02",t:"Lean Manufacturing",g:"Producao Enxuta",s:"Sistema Toyota de Producao, eliminacao de desperdicios, kanban, kaizen, 5S, SMED, VSM, gestao visual.",k:["STP","Muda","Kaizen","5S","Kanban","VSM","SMED","JIT"],
+b:[
+{ti:"Filosofia STP",c:"<p>O <strong>Sistema Toyota de Producao</strong> (Taiichi Ohno) baseia-se em dois pilares: <strong>JIT</strong> (produzir so o necessario, no momento necessario) e <strong>Jidoka</strong> (maquinas com inteligencia para parar ao detectar anomalias). Objetivo: eliminacao total de desperdicios.</p>"},
+{ti:"Os 8 Desperdicios (Muda)",c:"<ol><li>Superproducao (o pior)</li><li>Espera</li><li>Transporte</li><li>Processamento excessivo</li><li>Estoque</li><li>Movimento</li><li>Defeitos</li><li>Potencial humano subutilizado</li></ol><p><strong>Mura</strong> (variacao), <strong>Muri</strong> (sobrecarga).</p>"},
+{ti:"VSM  Mapeamento do Fluxo de Valor",c:"<p>Ferramenta visual que mapeia todas as etapas do processo. <strong>Estado atual:</strong> como e hoje. <strong>Estado futuro:</strong> como deveria ser apos eliminar desperdicios. Indicadores: takt time, tempo de ciclo, lead time, % de valor agregado.</p>"},
+{ti:"Kanban e Just in Time",c:"<p><strong>Kanban:</strong> cartao/sinal que controla o fluxo de materiais na producao puxada. <strong>Takt time = Tempo disponivel  Demanda.</strong> Producao puxada (cliente puxa) x empurrada (MRP tradicional).</p>"},
+{ti:"Heijunka e Kaizen",c:"<p><strong>Heijunka:</strong> nivelamento da producao em volume e variedade. <strong>Kaizen:</strong> melhoria continua envolvendo todos os niveis. Eventos Kaizen (Kaizen Blitz) de 3-5 dias para melhoria focada.</p>"},
+{ti:"5S",c:"<ol><li><strong>Seiri</strong> (Utilizacao)</li><li><strong>Seiton</strong> (Ordenacao)</li><li><strong>Seiso</strong> (Limpeza)</li><li><strong>Seiketsu</strong> (Padronizacao)</li><li><strong>Shitsuke</strong> (Disciplina)</li></ol>"},
+{ti:"Poka-yoke, SMED e Gestao Visual",c:"<p><strong>Poka-yoke:</strong> dispositivo a prova de erro. <strong>Jidoka/Andon:</strong> sinalizacao de problemas. <strong>SMED:</strong> troca rapida de ferramenta (<10 min), separando setup interno do externo. <strong>Standard Work:</strong> trabalho padronizado. <strong>A3 Thinking:</strong> resolucao de problemas em uma folha A3.</p>"}
+]},
+{d:3,n:"03",t:"Qualidade Total (TQM)",g:"Gestao da Qualidade",s:"Evolucao da qualidade, gurus, PDCA, CEP, Six Sigma, Lean Six Sigma, SGQ.",k:["Deming","PDCA","CEP","Six Sigma","DMAIC","SGQ"],
+b:[
+{ti:"Evolucao e Gurus",c:"<p>4 eras: Inspecao  Controle Estatistico (Shewhart)  Garantia da Qualidade  TQM. <strong>Deming:</strong> 14 pontos, PDCA. <strong>Juran:</strong> Trilogia da Qualidade. <strong>Crosby:</strong> Zero defeito. <strong>Ishikawa:</strong> Espinha de peixe. <strong>Feigenbaum, Taguchi.</strong></p>"},
+{ti:"PDCA e CEP",c:"<p><strong>PDCA:</strong> Plan(planejar), Do(fazer), Check(verificar), Act(agir). <strong>Cartas de Shewhart:</strong> monitoram variacao do processo (LSC, Media, LIC). Causas comuns x especiais. Cartas X-barra & R, p, np, c, u.</p>"},
+{ti:"Capabilidade e Six Sigma",c:"<p><strong>Cp, Cpk:</strong> indices de capabilidade. Cp = (LSE-LIE)/6. Cp/Cpk  1,33 = processo capaz. <strong>Six Sigma:</strong> 3,4 DPMO. <strong>DMAIC:</strong> Define, Measure, Analyze, Improve, Control. <strong>Lean Six Sigma:</strong> une Lean e Six Sigma.</p>"},
+{ti:"SGQ e APQP",c:"<p><strong>SGQ:</strong> Sistema de Gestao da Qualidade  manual, nao conformidade, acoes corretivas, auditorias (1a, 2a, 3a parte). <strong>APQP:</strong> Advanced Product Quality Planning. <strong>PPAP:</strong> Production Part Approval Process (18 elementos). <strong>VOC, NPS.</strong></p>"}
+]},
+{d:4,n:"04",t:"Ferramentas da Qualidade",g:"Ferramentas Gerenciais",s:"7 ferramentas classicas, 7 novas, 5W2H, FMEA, QFD, MASP, A3.",k:["Ishikawa","Pareto","5W2H","FMEA","QFD","MASP"],
+b:[
+{ti:"7 Ferramentas Classicas",c:"<ol><li>Ishikawa (Causa e Efeito)</li><li>Folha de Verificacao</li><li>Pareto (80/20)</li><li>Histograma</li><li>Dispersao</li><li>Fluxograma</li><li>Carta de Controle</li></ol>"},
+{ti:"Novas Ferramentas",c:"<ol><li>Afinidades</li><li>Relacoes</li><li>Arvore</li><li>Matricial</li><li>Priorizacao</li><li>PDPC</li><li>Setas (PERT/CPM)</li></ol>"},
+{ti:"5W2H, FMEA e QFD",c:"<p><strong>5W2H:</strong> What, Why, Where, When, Who, How, How much. <strong>5 Porques:</strong> analise de causa raiz. <strong>FMEA:</strong> Severidade x Ocorrencia x Deteccao = NPR. <strong>QFD (Casa da Qualidade):</strong> traduz voz do cliente em requisitos tecnicos.</p>"},
+{ti:"MASP e Relatorio A3",c:"<p><strong>MASP:</strong> Metodo de Analise e Solucao de Problemas (8 etapas). <strong>Relatorio A3:</strong> problema, estado atual, analise, contramedidas, plano, acompanhamento.</p>"}
+]},
+{d:5,n:"05",t:"Seguranca do Trabalho",g:"Higiene e Seguranca",s:"Acidentes, EPI/EPC, PGR, CIPA, SESMT, NRs, LOTO, APR.",k:["CAT","EPI","PGR","CIPA","LOTO","NR-35"],
+b:[
+{ti:"Conceitos Fundamentais",c:"<p><strong>Acidente de trabalho:</strong> ocorrencia nao programada com lesao. <strong>CAT:</strong> comunicacao ao INSS. <strong>Teoria do Dominio (Heinrich):</strong> 5 fatores em sequencia.</p>"},
+{ti:"Hierarquia de Controle",c:"<ol><li>Eliminacao</li><li>Substituicao</li><li>Engenharia</li><li>Administrativo</li><li>EPI</li></ol>"},
+{ti:"EPI, EPC e Programas",c:"<p><strong>EPI:</strong> capacete, oculos, luva, bota  todo EPI precisa de CA. <strong>EPC:</strong> protecao coletiva. <strong>PGR, PCMSO, CIPA, SESMT.</strong> Insalubridade (10-40%) e Periculosidade (30%).</p>"},
+{ti:"Procedimentos Criticos",c:"<p><strong>LOTO:</strong> bloqueio e etiquetagem de energia. <strong>APR:</strong> Analise Preliminar de Risco. <strong>PT:</strong> Permissao de Trabalho. <strong>DDS:</strong> Dialogo Diario de Seguranca.</p>"}
+]},
+{d:6,n:"06",t:"Normas e ISOs",g:"Sistemas de Gestao",s:"ISO 9001, 14001, 45001, IATF 16949, NRs, ABNT, ASTM.",k:["ISO 9001","ISO 14001","ISO 45001","NR-12","ASME"],
+b:[
+{ti:"Sistemas ISO",c:"<p><strong>ISO 9001:</strong> Qualidade. <strong>ISO 14001:</strong> Ambiental. <strong>ISO 45001:</strong> Saude e Seguranca Ocupacional. <strong>ISO 50001:</strong> Energia. <strong>IATF 16949:</strong> Automotivo (APQP, PPAP, FMEA, MSA, SPC). <strong>ISO 27001:</strong> Seguranca da Informacao.</p>"},
+{ti:"Normas Regulamentadoras",c:"<p>Principais NRs: NR-1 (GRO), NR-5 (CIPA), NR-6 (EPI), NR-10 (Eletrica), NR-11 (Movimentacao), NR-12 (Maquinas), NR-13 (Caldeiras), NR-15 (Insalubridade), NR-16 (Periculosidade), NR-17 (Ergonomia), NR-33 (Espaco Confinado), NR-35 (Altura).</p>"},
+{ti:"Normas Tecnicas",c:"<p><strong>ABNT</strong> (NBR), <strong>ASTM</strong> (materiais), <strong>SAE</strong> (acos), <strong>ASME</strong> (caldeiras, vasos de pressao), <strong>API</strong> (petroleo), <strong>AWS</strong> (soldagem). <strong>INMETRO:</strong> metrologia e calibracao.</p>"}
+]},
+{d:7,n:"07",t:"Ergonomia",g:"Saude Ocupacional",s:"Ergonomia fisica, cognitiva e organizacional, NR-17, NIOSH, RULA, REBA.",k:["NR-17","AET","NIOSH","RULA","REBA","LER/DORT"],
+b:[
+{ti:"Fundamentos",c:"<p><strong>Ergonomia fisica:</strong> posturas, movimento, antropometria. <strong>Cognitiva:</strong> carga mental, estresse. <strong>Organizacional:</strong> turnos, comunicacao.</p>"},
+{ti:"NR-17 e AET",c:"<p><strong>NR-17:</strong> condicoes de trabalho, levantamento de carga, mobiliario, pausas. <strong>AET:</strong> Analise Ergonomica do Trabalho.</p>"},
+{ti:"NIOSH, RULA e REBA",c:"<p><strong>Equacao de NIOSH:</strong> Limite de Peso Recomendado (LPR) para levantamento. <strong>RULA:</strong> membros superiores. <strong>REBA:</strong> corpo inteiro. <strong>OWAS.</strong> <strong>LER/DORT:</strong> prevencao com pausas, rodizio, postos ajustaveis.</p>"}
+]},
+{d:8,n:"08",t:"Administracao",g:"Gestao Empresarial",s:"Teorias da administracao, SWOT, BSC, lideranca, motivacao, gestao de pessoas.",k:["SWOT","BSC","Maslow","Herzberg","Lideranca"],
+b:[
+{ti:"Teorias da Administracao",c:"<p><strong>Cientifica (Taylor):</strong> eficiencia operacional. <strong>Classica (Fayol):</strong> 14 principios. <strong>Relações Humanas (Mayo):</strong> fator humano. <strong>Burocratica (Weber):</strong> regras e hierarquia. <strong>Sistemica / Contingencial.</strong></p>"},
+{ti:"Planejamento e Estrategia",c:"<p><strong>SWOT (FOFA):</strong> Forcas, Fraquezas, Oportunidades, Ameacas. <strong>BSC:</strong> 4 perspectivas: financeira, clientes, processos, aprendizado.</p>"},
+{ti:"Lideranca e Pessoas",c:"<p><strong>Maslow:</strong> hierarquia de necessidades. <strong>Herzberg:</strong> fatores higienicos x motivacionais. <strong>McGregor:</strong> Teoria X e Y. Estilos: autocritico, democratico, liberal. <strong>RH:</strong> recrutamento, treinamento, avaliacao de desempenho, 360.</p>"}
+]},
+{d:9,n:"09",t:"Industria 4.0",g:"Manufatura Avancada",s:"IoT, Big Data, IA, Digital Twin, manufatura aditiva, cobots, MES, SCADA.",k:["IoT","Digital Twin","3D","Cobots","MES","SCADA","IA"],
+b:[
+{ti:"As 4 Revolucoes",c:"<p>1a (vapor, mecanizacao)  2a (eletricidade, aco)  3a (computadores, automacao)  4a (IoT, IA, sistemas ciber-fisicos).</p>"},
+{ti:"IoT, Big Data e IA",c:"<p><strong>IIoT:</strong> sensores conectados no chao de fabrica. <strong>Big Data:</strong> analise de grandes volumes de dados. <strong>IA / Machine Learning:</strong> manutencao preditiva, otimizacao de qualidade, previsao de demanda.</p>"},
+{ti:"Digital Twin e Manufatura Aditiva",c:"<p><strong>Gemeo Digital:</strong> replica virtual de sistemas fisicos. <strong>Impressao 3D (FDM, SLA, SLS, DMLS):</strong> fabricacao camada por camada. <strong>Cobots:</strong> robos colaborativos (Universal Robots, Fanuc CRX). <strong>MES, SCADA, CLPs.</strong></p>"}
+]},
+{d:10,n:"10",t:"Ambiente Organizacional",g:"Clima e Cultura",s:"Clima organizacional, cultura, saude mental, QVT, engajamento.",k:["Clima","Cultura","Burnout","QVT","360"],
+b:[
+{ti:"Clima e Cultura",c:"<p><strong>Clima:</strong> percepcao compartilhada sobre o ambiente. <strong>Cultura:</strong> crencas, valores, normas (Schein: artefatos, valores, pressupostos).</p>"},
+{ti:"Saude Mental e QVT",c:"<p><strong>Burnout:</strong> exaustao profissional (CID-11). <strong>QVT:</strong> compensacao, condicoes, desenvolvimento, integracao. <strong>Comunicacao interna, endomarketing, diversidade, onboarding.</strong></p>"}
+]},
+{d:11,n:"11",t:"Engenharia de Processos",g:"Modelagem e BPM",s:"BPMN, BPM, BPR, POP, capacidade de processo, simulacao.",k:["BPMN","BPM","BPR","POP","Processos"],
+b:[
+{ti:"Modelagem BPMN",c:"<p><strong>BPMN:</strong> notacao padronizada com piscinas, eventos, atividades, gateways. <strong>BPM:</strong> gestao de processos como ativos. <strong>BPR:</strong> redesenho radical (Hammer & Champy). <strong>POP, IT, fluxogramas.</strong></p>"},
+{ti:"Fabricacao Mecanica",c:"<p>Processos integrados com <strong>AutoCAD, SolidWorks, NanoCAD:</strong> usinagem (torneamento, fresamento), conformacao, soldagem, fundicao. Simulacao com Arena, FlexSim.</p>"}
+]},
+{d:12,n:"12",t:"Desenvolvimento de Produtos",g:"PDP e Stage-Gate",s:"Processo de desenvolvimento, DFM, DFA, DFMA, CAD/CAM/CAE.",k:["Stage-Gate","DFM","DFA","CAD/CAM","CAE","Inovacao"],
+b:[
+{ti:"PDP e Stage-Gate",c:"<p><strong>PDP:</strong> pre-desenvolvimento, desenvolvimento, pos-desenvolvimento. <strong>Stage-Gate (Cooper):</strong> portoes de decisao Go/Kill entre fases.</p>"},
+{ti:"DFx e CAD/CAM/CAE",c:"<p><strong>DFM, DFA, DFMA:</strong> projeto para manufatura e montagem. <strong>CAD:</strong> AutoCAD, SolidWorks, Inventor, CATIA, NanoCAD. <strong>CAM:</strong> codigo CNC. <strong>CAE:</strong> simulacao FEM, CFD.</p>"}
+]},
+{d:13,n:"13",t:"Industria Metalurgica",g:"Metalurgia Fisica",s:"Diagrama Fe-C, acos, ferros fundidos, conformacao, soldagem, END.",k:["Fe-C","Soldagem","MIG/MAG","TIG","END","ASME"],
+b:[
+{ti:"Metalurgia Fisica",c:"<p><strong>Diagrama Fe-C:</strong> fases dos acos (ferrita, austenita, cementita, perlita, martensita). <strong>Acos:</strong> ate 2,11% C. <strong>Ferros fundidos:</strong> 2,11 a 6,67% C.</p>"},
+{ti:"Soldagem e Ensaios",c:"<p><strong>SMAW (eletrodo revestido), MIG/MAG (arame continuo), TIG (eletrodo de tungstenio), Arco submerso, Laser.</strong> <strong>END:</strong> Liquido Penetrante, Particula Magnetica, Ultrassom, Radiografia. <strong>Ensaios mecanicos:</strong> tracao, dureza (HB, HRC, HV), impacto Charpy, fadiga.</p>"}
+]},
+{d:14,n:"14",t:"Fundicoes em Geral",g:"Processos de Fundicao",s:"Areia verde, cera perdida, die casting, sistema de canais, massalotes.",k:["Areia Verde","Cera Perdida","Die Casting","Massalote","MAGMASoft"],
+b:[
+{ti:"Processos de Fundicao",c:"<p><strong>Areia verde:</strong> molde de silica + argila + agua. <strong>Cera perdida:</strong> alta precisao. <strong>Die casting:</strong> injecao sob pressao. <strong>Coquilha, centrifugo, continuo.</strong> Sistema de canais: descida, distribuicao, ataque. Massalotes para alimentacao da solidificacao.</p>"},
+{ti:"Solidificacao e Defeitos",c:"<p>Defeitos: porosidade, rechupe, inclusoes, trincas. <strong>Simulacao:</strong> MAGMASoft, ProCAST. Fornos: cubilo, inducao, arco.</p>"}
+]},
+{d:15,n:"15",t:"Fundicao de Ferro Fundido",g:"Cinzento e Nodular",s:"Ferros cinzento, nodular, maleavel, ADI. Nodulizacao, inoculacao.",k:["Cinzento","Nodular","ADI","Nodulizacao","Grafita"],
+b:[
+{ti:"Classificacao",c:"<p><strong>Cinzento:</strong> grafita lamelar, alto amortecimento. <strong>Nodular:</strong> nódulos esferoidais, alta resistencia e ductilidade. <strong>ADI:</strong> austemperado, matriz bainitica. <strong>CGI (vermicular).</strong></p>"},
+{ti:"Nodulizacao e Normas",c:"<p><strong>Nodulizacao:</strong> tratamento com Mg/FeSiMg. Metodos: sanduiche, tundish cover, arame. <strong>Inoculacao:</strong> FeSi para nucleacao. <strong>Normas:</strong> ASTM A48 (cinzento), ASTM A536 (nodular).</p>"}
+]},
+{d:16,n:"16",t:"Tratamento Termico",g:"Metalurgia Termica",s:"TTT, CCT, recozimento, normalizacao, tempera, revenimento, cementacao.",k:["TTT","CCT","Cementacao","Nitretacao","Martensita","Jominy"],
+b:[
+{ti:"Fundamentos",c:"<p><strong>Diagramas TTT e CCT:</strong> fases resultantes da temperatura e taxa de resfriamento. Resfriamento lento: perlita. Rapido: martensita (muito dura e fragil). Revenimento reduz fragilidade.</p>"},
+{ti:"Tratamentos Termoquimicos",c:"<p><strong>Cementacao:</strong> adiciona C a superficie. <strong>Nitretacao:</strong> adiciona N (500-530C). <strong>Tempera superficial:</strong> inducao ou chama. <strong>Ensaio Jominy:</strong> temperabilidade. Fornos: continuos, batelada, vacuo, atmosfera controlada.</p>"}
+]}
+];
+
+(function(){
+  'use strict';
+  var loader=document.getElementById('loader');
+  window.addEventListener('load',function(){loader.classList.add('hidden')});
+  setTimeout(function(){loader.classList.add('hidden')},3000);
+
+  var navbar=document.getElementById('navbar');
+  var navToggle=document.getElementById('navToggle');
+  var navLinks=document.getElementById('navLinks');
+
+  window.addEventListener('scroll',function(){navbar.classList.toggle('scrolled',window.scrollY>80)});
+
+  navToggle.addEventListener('click',function(){
+    navToggle.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+
+  document.querySelectorAll('.nav-links a').forEach(function(a){
+    a.addEventListener('click',function(){
+      navToggle.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
+  });
+
+  var scrollTop=document.getElementById('scrollTop');
+  window.addEventListener('scroll',function(){
+    scrollTop.classList.toggle('visible',window.scrollY>600);
+  });
+  scrollTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+
+  function animateCounters(){
+    document.querySelectorAll('.stat-num[data-count]').forEach(function(el){
+      var target=parseInt(el.dataset.count);
+      if(el.dataset.animated)return;
+      el.dataset.animated='true';
+      var current=0;
+      var step=Math.ceil(target/60);
+      var timer=setInterval(function(){
+        current+=step;
+        if(current>=target){current=target;clearInterval(timer)}
+        el.textContent=current;
+      },20);
+    });
+  }
+
+  var observer=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        if(e.target.classList.contains('hero-stats'))animateCounters();
+      }
+    });
+  },{threshold:.2});
+
+  var heroStats=document.querySelector('.hero-stats');
+  if(heroStats)observer.observe(heroStats);
+
+  var topicsGrid=document.getElementById('topicsGrid');
+  var topicDetail=document.getElementById('topicDetail');
+  var btnBack=document.getElementById('btnBack');
+  var detailTag=document.getElementById('detailTag');
+  var detailTitle=document.getElementById('detailTitle');
+  var detailDesc=document.getElementById('detailDesc');
+  var detailContent=document.getElementById('detailContent');
+
+  function renderTopics(){
+    topicsGrid.innerHTML='';
+    T.forEach(function(t){
+      var card=document.createElement('div');
+      card.className='topic-card fade-in';
+      card.innerHTML='<div class="card-num">Capitulo '+t.n+'</div><h3>'+t.d+'. '+t.t+'</h3><p>'+t.s+'</p><div class="card-topics">'+t.k.map(function(k){return '<span>'+k+'</span>'}).join('')+'</div>';
+      card.addEventListener('click',function(){openDetail(t.d)});
+      topicsGrid.appendChild(card);
+    });
+    document.querySelectorAll('.fade-in').forEach(function(el){observer.observe(el)});
+  }
+
+  function openDetail(id){
+    var topic=null;
+    for(var i=0;i<T.length;i++){if(T[i].d===id){topic=T[i];break}}
+    if(!topic)return;
+    detailTag.textContent='Capitulo '+topic.n;
+    detailTitle.textContent=topic.d+'. '+topic.t;
+    detailDesc.textContent=topic.s;
+    var html='';
+    for(var j=0;j<topic.b.length;j++){
+      html+='<div class="detail-block fade-in"><h4><span class="h-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></span> '+topic.b[j].ti+'</h4>'+topic.b[j].c+'</div>';
+    }
+    detailContent.innerHTML=html;
+    topicsGrid.parentElement.style.display='none';
+    topicDetail.style.display='block';
+    window.scrollTo({top:topicDetail.offsetTop-100,behavior:'smooth'});
+    document.querySelectorAll('.detail-block').forEach(function(el){observer.observe(el)});
+  }
+
+  btnBack.addEventListener('click',function(){
+    topicDetail.style.display='none';
+    topicsGrid.parentElement.style.display='block';
+    window.scrollTo({top:topicsGrid.parentElement.offsetTop-80,behavior:'smooth'});
+  });
+
+  renderTopics();
+
+  var hash=window.location.hash;
+  if(hash==='#topicos'){
+    setTimeout(function(){document.getElementById('topicos').scrollIntoView({behavior:'smooth'})},500);
+  }
+
+  var sections=document.querySelectorAll('section[id]');
+  var navAnchors=document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll',function(){
+    var current='inicio';
+    sections.forEach(function(s){
+      if(window.scrollY>=s.offsetTop-200)current=s.id;
+    });
+    navAnchors.forEach(function(a){
+      a.classList.toggle('active',a.getAttribute('href')==='#'+current);
+    });
+  });
+
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape' && topicDetail.style.display==='block')btnBack.click();
+  });
+})();
+  </script>
 </body>
 </html>
