@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="auto">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Técnica — EngPro</title>
+  <meta name="description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .doc para impressão e edição.">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
+      <div class="nav-links"><a href="topicos.html" class="nav-link">Tópicos</a><a href="modelos-cad.html" class="nav-link">Modelos CAD</a><a href="cursos.html" class="nav-link">Cursos</a><a href="biblioteca.html" class="nav-link active">Biblioteca</a><a href="sobre.html" class="nav-link">Sobre</a></div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
+    <div class="mobile-nav-inner"><nav class="mobile-nav-links">
+      <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+      <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
+      <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+      <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+      <a href="sobre.html" class="mobile-nav-link">Sobre</a>
+    </nav></div>
+  </div>
+
+  <main>
+    <div class="page-header">
+      <span class="eyebrow">Recursos para Download</span>
+      <h1>Biblioteca Técnica<br><span class="accent">Formulários e Diagramas</span></h1>
+      <p>Formulários técnicos, checklists e diagramas utilizados no ambiente organizacional industrial. Disponíveis para download no formato .doc.</p>
+    </div>
+
+    <div class="form-grid" id="formGrid"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a><p class="footer-tagline">Portal técnico de Engenharia de Produção.</p></div>
+      <nav class="footer-nav" aria-label="Rodapé"><div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos</a></li></ul></div></nav>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 EngPro</p><div class="footer-links"><a href="sobre.html">Sobre</a></div></div>
+  </footer>
+
+  <script src="assets/data/conteudo.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const grid = document.getElementById('formGrid');
+    if (!grid || !window.SITE_DATA) return;
+
+    grid.innerHTML = window.SITE_DATA.formularios.map(f => `
+      <article class="form-card">
+        <div class="form-card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+        </div>
+        <h3>${f.nome}</h3>
+        <p>${f.descricao}</p>
+        <a href="#" class="form-download" data-form="${f.id}">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download .doc
+        </a>
+      </article>
+    `).join('');
+
+    // Generate .doc files on click
+    grid.addEventListener('click', function(e) {
+      const btn = e.target.closest('.form-download');
+      if (!btn) return;
+      e.preventDefault();
+      const formId = btn.dataset.form;
+      const form = window.SITE_DATA.formularios.find(f => f.id === formId);
+      if (!form) return;
+
+      const content = `
+FORMULÁRIO TÉCNICO - ${form.nome}
+================================================================================
+Fonte: EngPro - Portal de Engenharia de Produção
+Licença: Livre para uso educacional e profissional
+================================================================================
+
+Dados do Formulário:
+- Nome: ${form.nome}
+- Descrição: ${form.descricao}
+- ID de Referência: ${form.id}
+- Data de Emissão: ${new Date().toLocaleDateString('pt-BR')}
+
+================================================================================
+INSTRUÇÕES DE USO
+Este formulário é um template para aplicação no ambiente organizacional industrial.
+Preencha todos os campos conforme a realidade do processo avaliado.
+================================================================================
+
+1. IDENTIFICAÇÃO
+   Empresa: ____________________________________________________
+   Setor/Área: _________________________________________________
+   Data: ____/____/________
+   Responsável pelo Preenchimento: ______________________________
+   Cargo/Função: _______________________________________________
+
+2. OBJETIVO DA AVALIAÇÃO
+   ______________________________________________________________________________
+   ______________________________________________________________________________
+   ______________________________________________________________________________
+
+3. CRITÉRIOS AVALIADOS
+   ┌─────────────────────────────────────────────────────────────────────────────┐
+   │ Item | Descrição                     | Status (OK/OK+Obs/NOK) | Observações │
+   ├─────────────────────────────────────────────────────────────────────────────┤
+   │  1   |                               |                      |              │
+   │  2   |                               |                      |              │
+   │  3   |                               |                      |              │
+   │  4   |                               |                      |              │
+   │  5   |                               |                      |              │
+   │  6   |                               |                      |              │
+   │  7   |                               |                      |              │
+   │  8   |                               |                      |              │
+   │  9   |                               |                      |              │
+   │ 10   |                               |                      |              │
+   └─────────────────────────────────────────────────────────────────────────────┘
+
+4. ANÁLISE E AÇÕES RECOMENDADAS
+   ______________________________________________________________________________
+   ______________________________________________________________________________
+   ______________________________________________________________________________
+
+5. CRONOGRAMA DE AÇÃO
+   ┌────────────────────────────────────────────────────────────┐
+   │ Ação      | Responsável   | Prazo        | Status          │
+   ├────────────────────────────────────────────────────────────┤
+   │           |               |              |                 │
+   │           |               |              |                 │
+   │           |               |              |                 │
+   └────────────────────────────────────────────────────────────┘
+
+6. APROVAÇÕES
+   Elaborado por: ___________________________ Data: ____/____/________
+   Aprovado por:  ___________________________ Data: ____/____/________
+
+================================================================================
+Documento gerado pelo EngPro - Portal de Engenharia de Produção
+www.engpro.tech
+================================================================================
+`.trim();
+
+      const blob = new Blob([content], { type: 'application/msword' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${form.id}-${form.nome.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}.doc`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    });
+
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+    document.getElementById('themeToggle')?.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    document.getElementById('navToggle')?.addEventListener('click', () => {
+      const o = document.getElementById('mobileNavOverlay');
+      const exp = document.getElementById('navToggle').getAttribute('aria-expanded') === 'true';
+      document.getElementById('navToggle').setAttribute('aria-expanded', String(!exp));
+      o?.classList.toggle('open',!exp); o?.removeAttribute('hidden');
+    });
+    document.getElementById('mobileNavOverlay')?.addEventListener('click', e => {
+      if (e.target === document.getElementById('mobileNavOverlay')) {
+        document.getElementById('navToggle')?.setAttribute('aria-expanded','false');
+        document.getElementById('mobileNavOverlay')?.classList.remove('open');
+      }
+    });
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar')?.classList.toggle('scrolled', window.scrollY > 60);
+    }, {passive:true});
+  });
+  </script>
+</body>
+</html>

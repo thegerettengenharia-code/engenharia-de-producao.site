@@ -3,75 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="EngPro — Portal Técnico de Engenharia de Produção. Conteúdo profundo sobre Indústria 4.0/5.0, Smart Cities, Blockchain, 5G Industrial, Realidade Aumentada/Virtual.">
-  <meta name="theme-color" content="#FDFBF7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#1A1512" media="(prefers-color-scheme: dark)">
-  <title>EngPro — Engenharia de Produção Avançada</title>
-
-  <!-- Preconnect for performance -->
+  <meta name="description" content="EngPro — Portal completo de Engenharia de Produção. 30+ áreas, 500+ tópicos, modelos CAD, cursos gratuitos, formulários técnicos e muito mais.">
+  <meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0C0A09" media="(prefers-color-scheme: dark)">
+  <title>EngPro — Engenharia de Produção</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-  <!-- Fonts: Clash Display (display) + Plus Jakarta Sans (body) + JetBrains Mono (mono) -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-
-  <!-- Design Tokens -->
-  <link rel="stylesheet" href="assets/css/design-tokens.css">
-
-  <!-- Main Styles -->
   <link rel="stylesheet" href="assets/css/main.css">
-
-  <!-- GSAP + ScrollTrigger (via CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
-
-  <!-- Main JS -->
-  <script src="assets/js/main.js" defer></script>
-
-  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 </head>
 <body>
-  <!-- =========================================================================
-       NOISE OVERLAY (Fixed, pointer-events-none)
-       ========================================================================= -->
   <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
 
-  <!-- =========================================================================
-       PROGRESS BAR
-       ========================================================================= -->
-  <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura da página"></div>
-
-  <!-- =========================================================================
-       NAVBAR — Fluid Pill, detached from top
-       ========================================================================= -->
+  <!-- Navbar -->
   <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="#inicio" class="nav-logo" aria-label="EngPro — Portal Técnico de Engenharia de Produção">
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true" class="nav-logo-icon">
+      <a href="index.html" class="nav-logo" aria-label="EngPro — Engenharia de Produção">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-          <text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display, sans-serif">EP</text>
+          <text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text>
         </svg>
         <span>Eng<span class="accent">Pro</span></span>
       </a>
-
       <div class="nav-links" id="navLinks" role="menubar">
-        <a href="#inicio" class="nav-link active" role="menuitem" data-section="inicio">Início</a>
-        <a href="#topicos" class="nav-link" role="menuitem" data-section="topicos">Tópicos</a>
-        <a href="#sobre" class="nav-link" role="menuitem" data-section="sobre">Sobre</a>
-        <a href="#contato" class="nav-link" role="menuitem" data-section="contato">Contato</a>
+        <a href="topicos.html" class="nav-link" role="menuitem">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link" role="menuitem">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" role="menuitem">Cursos</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem">Biblioteca</a>
+        <a href="sobre.html" class="nav-link" role="menuitem">Sobre</a>
       </div>
-
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false" title="Alternar tema claro/escuro (Atalho: T)">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false" title="Alternar tema claro/escuro">
           <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
           <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-
-        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
           <span class="hamburger-line" aria-hidden="true"></span>
           <span class="hamburger-line" aria-hidden="true"></span>
           <span class="hamburger-line" aria-hidden="true"></span>
@@ -80,21 +50,19 @@
     </div>
   </nav>
 
-  <!-- =========================================================================
-       MOBILE NAV OVERLAY (Hidden by default, revealed via JS)
-       ========================================================================= -->
+  <!-- Mobile Nav -->
   <div class="mobile-nav-overlay" id="mobileNavOverlay" role="dialog" aria-modal="true" aria-label="Menu de navegação" hidden>
     <div class="mobile-nav-inner">
       <nav class="mobile-nav-links" role="navigation" aria-label="Menu principal mobile">
-        <a href="#inicio" class="mobile-nav-link" data-section="inicio">Início</a>
-        <a href="#topicos" class="mobile-nav-link" data-section="topicos">Tópicos</a>
-        <a href="#sobre" class="mobile-nav-link" data-section="sobre">Sobre</a>
-        <a href="#contato" class="mobile-nav-link" data-section="contato">Contato</a>
+        <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+        <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
+        <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+        <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
-      <div class="mobile-nav-footer">
-        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema" aria-pressed="false">
-          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <div class="mobile-nav-footer" style="margin-top:40px;text-align:center">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema" style="color:rgba(255,255,255,0.7);display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;border:1px solid rgba(255,255,255,0.1)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
           <span>Alternar tema</span>
         </button>
       </div>
@@ -102,117 +70,97 @@
   </div>
 
   <main id="main">
-    <!-- =========================================================================
-         HERO — Editorial Split Layout
-         ========================================================================= -->
+    <!-- HERO -->
     <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <canvas id="three-canvas" aria-hidden="true"></canvas>
       <div class="hero-bg" aria-hidden="true">
-        <div class="hero-gradient-orb orb-1"></div>
-        <div class="hero-gradient-orb orb-2"></div>
         <div class="hero-grid-pattern"></div>
       </div>
-
       <div class="hero-content">
         <div class="hero-left">
-          <span class="eyebrow" data-reveal>Portal Técnico</span>
+          <span class="eyebrow" data-reveal>Portal Técnico Completo</span>
           <h1 id="hero-title" class="hero-title" data-reveal>
-            Engenharia de<br><span class="accent">Produção</span><br>Avançada
+            Engenharia de<br><span class="accent">Produção</span>
           </h1>
           <p class="hero-subtitle" data-reveal>
-            Conteúdo técnico profundo sobre Indústria 4.0/5.0, Smart Cities, Blockchain Industrial, 5G Privativo e Realidade Estendida. Dados reais, normas brasileiras, cases de mercado.
+            Mais de 500 tópicos técnicos organizados em 30 áreas essenciais. Modelos CAD, 
+            cursos gratuitos, biblioteca de formulários e conteúdo profundo para sua formação 
+            e atuação profissional.
           </p>
-
           <div class="hero-stats" data-reveal>
-            <div class="stat">
-              <div class="stat-num" data-count="5">0</div>
-              <div class="stat-label">Capítulos Técnicos</div>
-            </div>
-            <div class="stat">
-              <div class="stat-num" data-count="47">0</div>
-              <div class="stat-label">Subtópicos</div>
-            </div>
-            <div class="stat">
-              <div class="stat-num" data-count="127">0</div>
-              <div class="stat-label">Cases Brasileiros</div>
-            </div>
-            <div class="stat">
-              <div class="stat-num" data-count="2024">0</div>
-              <div class="stat-label">Dados Atualizados</div>
-            </div>
+            <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Áreas Técnicas</div></div>
+            <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Tópicos Detalhados</div></div>
+            <div class="stat"><div class="stat-num">12</div><div class="stat-label">Cursos Gratuitos</div></div>
+            <div class="stat"><div class="stat-num">8</div><div class="stat-label">Modelos CAD</div></div>
           </div>
-
           <div class="hero-cta" data-reveal>
-            <button class="btn btn-primary btn-lg" data-href="#topicos">
+            <a href="topicos.html" class="btn btn-primary btn-lg">
               <span>Explorar Tópicos</span>
               <span class="btn-icon" aria-hidden="true">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
-            </button>
-            <button class="btn btn-ghost btn-lg" data-href="#sobre">
-              <span>Sobre o Projeto</span>
-            </button>
+            </a>
+            <a href="modelos-cad.html" class="btn btn-ghost btn-lg">
+              <span>Ver Modelos CAD</span>
+            </a>
           </div>
         </div>
-
         <div class="hero-right" data-reveal>
           <div class="hero-visual">
             <div class="visual-card visual-card-1" data-parallax="0.15">
               <div class="visual-card-inner">
-                <span class="visual-tag">Indústria 4.0/5.0</span>
+                <span class="visual-tag">Indústria 4.0</span>
                 <h3>Transformação Digital</h3>
-                <p>R$ 382 bi na economia digital industrial brasileira (2024)</p>
+                <p>IoT, IA, Gêmeo Digital e Manufatura Aditiva aplicados à produção industrial.</p>
                 <div class="visual-metric">
-                  <span class="metric-value">+42%</span>
-                  <span class="metric-label">Crescimento YoY</span>
+                  <span class="metric-value">R$ 382 bi</span>
+                  <span class="metric-label">Economia Digital Industrial (2024)</span>
                 </div>
               </div>
             </div>
             <div class="visual-card visual-card-2" data-parallax="0.25">
               <div class="visual-card-inner">
-                <span class="visual-tag">Smart Cities</span>
-                <h3>Cidades Inteligentes</h3>
-                <p>127 cidades com projetos estruturados no Brasil</p>
+                <span class="visual-tag">Qualidade</span>
+                <h3>Gestão da Qualidade</h3>
+                <p>ISO 9001, Seis Sigma, FMEA, CEP e todas as ferramentas da qualidade.</p>
                 <div class="visual-metric">
-                  <span class="metric-value">R$ 14,3 bi</span>
-                  <span class="metric-label">Investimentos</span>
+                  <span class="metric-value">15+</span>
+                  <span class="metric-label">Ferramentas da Qualidade</span>
                 </div>
               </div>
             </div>
             <div class="visual-card visual-card-3" data-parallax="0.1">
               <div class="visual-card-inner">
-                <span class="visual-tag">5G Industrial</span>
-                <h3>Conectividade Avançada</h3>
-                <p>38 redes privativas 5G ativas na indústria</p>
+                <span class="visual-tag">Lean</span>
+                <h3>Lean Manufacturing</h3>
+                <p>Produção enxuta, Kanban, SMED, TPM, VSM e eliminação de desperdícios.</p>
                 <div class="visual-metric">
-                  <span class="metric-value">8 ms</span>
-                  <span class="metric-label">Latência URLLC</span>
+                  <span class="metric-value">8</span>
+                  <span class="metric-label">Tipos de Desperdício (Muda)</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="hero-scroll-indicator" aria-hidden="true">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
         <span>Explorar</span>
       </div>
     </section>
 
-    <!-- =========================================================================
-         TOPICS — Asymmetrical Bento Grid
-         ========================================================================= -->
+    <!-- CATEGORIAS -->
     <section id="topicos" class="section topics" aria-labelledby="topics-title">
       <div class="section-header" data-reveal>
-        <span class="eyebrow">Capítulos Técnicos</span>
-        <h2 id="topics-title" class="section-title">Conhecimento<wbr>Profundo</h2>
-        <p class="section-subtitle">Cinco pilares da engenharia de produção moderna, cada um com subcategorias detalhadas, dados de mercado brasileiros, normas técnicas e cases reais de implementação.</p>
+        <span class="eyebrow">Áreas do Conhecimento</span>
+        <h2 id="topics-title" class="section-title">Todas as Áreas da<br>Engenharia de Produção</h2>
+        <p class="section-subtitle">Navegue por 30 áreas técnicas com centenas de tópicos detalhados, exemplos práticos e referências atualizadas para a indústria brasileira.</p>
       </div>
 
       <div class="search-wrapper" data-reveal>
         <div class="search-box">
           <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-          <input type="search" id="searchInput" class="search-input" placeholder="Buscar tópicos, palavras-chave, normas..." aria-label="Buscar tópicos" autocomplete="off">
+          <input type="search" id="searchInput" class="search-input" placeholder="Buscar área ou tópico..." aria-label="Buscar na engenharia de produção" autocomplete="off">
           <button class="search-clear" id="searchClear" aria-label="Limpar busca" hidden>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
@@ -220,26 +168,21 @@
         <div class="search-hint" id="searchHint" aria-live="polite"></div>
       </div>
 
-      <div class="topics-grid" id="topicsGrid" role="list" aria-label="Tópicos de engenharia de produção">
-        <!-- Cards rendered by JS -->
-      </div>
-
+      <div class="topics-grid" id="topicsGrid" role="list" aria-label="Áreas da engenharia de produção"></div>
       <div class="search-empty" id="searchEmpty" hidden>
         <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
         <h3>Nenhum resultado encontrado</h3>
-        <p>Tente termos como <strong>"Smart Cities"</strong>, <strong>"Blockchain"</strong>, <strong>"5G"</strong>, <strong>"Realidade Aumentada"</strong> ou <strong>"Economia Digital"</strong>.</p>
+        <p>Tente termos como <strong>"Lean"</strong>, <strong>"Qualidade"</strong>, <strong>"Logística"</strong> ou <strong>"Produção"</strong>.</p>
       </div>
     </section>
 
-    <!-- =========================================================================
-         TOPIC DETAIL — Slide-over panel (hidden by default)
-         ========================================================================= -->
+    <!-- TOPIC DETAIL -->
     <section id="topicDetail" class="topic-detail" hidden aria-labelledby="detailTitle" role="region">
       <div class="topic-detail-backdrop" id="topicDetailBackdrop" aria-hidden="true"></div>
       <div class="topic-detail-panel">
         <header class="topic-detail-header">
           <div class="topic-detail-meta">
-            <span class="detail-tag" id="detailTag">Capítulo</span>
+            <span class="detail-tag" id="detailTag">Área</span>
             <button class="detail-close" id="detailClose" aria-label="Fechar detalhes">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             </button>
@@ -251,213 +194,140 @@
       </div>
     </section>
 
-    <!-- =========================================================================
-         ABOUT — Z-Axis Cascade Layout
-         ========================================================================= -->
-    <section id="sobre" class="section about" aria-labelledby="about-title">
-      <div class="about-bg" aria-hidden="true">
-        <div class="about-gradient-orb"></div>
-      </div>
-
+    <!-- MODELOS CAD DESTAQUE -->
+    <section class="section" style="background:var(--bg-alt)" aria-labelledby="cad-title">
       <div class="section-header" data-reveal>
-        <span class="eyebrow">Sobre o Projeto</span>
-        <h2 id="about-title" class="section-title">Missão &<wbr>Metodologia</h2>
-        <p class="section-subtitle">EngPro nasce da necessidade de consolidar conhecimento técnico de alto nível em português, com rigor de dados, rastreabilidade normativa e visão prática de implementação industrial.</p>
+        <span class="eyebrow">Modelos para Download</span>
+        <h2 id="cad-title" class="section-title">Modelos CAD <span class="accent">Grátis</span></h2>
+        <p class="section-subtitle">Projetos reais em AutoCAD, SolidWorks e NanoCAD para download. Conjuntos mecânicos, estruturas, dispositivos e mais.</p>
       </div>
-
-      <div class="about-grid" data-reveal>
-        <article class="about-card double-bezel" data-reveal-item>
-          <div class="card-outer">
-            <div class="card-inner">
-              <div class="card-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-              </div>
-              <h3>Rigor Técnico</h3>
-              <p>Todos os dados referenciam fontes primárias: IBGE, FGV, ANEEL, ANATEL, ABNT, NRs, CNI, relatórios setoriais. Nada é inventado.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="about-card double-bezel" data-reveal-item>
-          <div class="card-outer">
-            <div class="card-inner">
-              <div class="card-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              </div>
-              <h3>Atualização Contínua</h3>
-              <p>Base de dados revisada trimestralmente. Novos casos, normas atualizadas (ABNT NBR ISO 2024), tecnologias emergentes.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="about-card double-bezel" data-reveal-item>
-          <div class="card-outer">
-            <div class="card-inner">
-              <div class="card-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              </div>
-              <h3>Comunidade Técnica</h3>
-              <p>Engenheiros, pesquisadores, gestores industriais e estudantes. Contribuições via GitHub, revisão por pares, discussões técnicas.</p>
-            </div>
-          </div>
-        </article>
-      </div>
-
+      <div class="resource-grid" id="cadGrid" style="padding:0 0 40px"></div>
       <div class="about-cta" data-reveal>
-        <button class="btn btn-primary btn-lg" data-href="#contato">
-          <span>Contribuir com o Projeto</span>
+        <a href="modelos-cad.html" class="btn btn-primary btn-lg">
+          <span>Ver Todos os Modelos</span>
           <span class="btn-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </span>
-        </button>
+        </a>
       </div>
     </section>
 
-    <!-- =========================================================================
-         CONTACT — Editorial Split
-         ========================================================================= -->
-    <section id="contato" class="section contact" aria-labelledby="contact-title">
+    <!-- CURSOS DESTAQUE -->
+    <section class="section" aria-labelledby="cursos-title">
       <div class="section-header" data-reveal>
-        <span class="eyebrow">Contato & Colaboração</span>
-        <h2 id="contact-title" class="section-title">Vamos<wbr>Construir</h2>
-        <p class="section-subtitle">Tem dados para contribuir, encontrou uma inconsistência, ou quer propor um novo capítulo? Abra uma issue ou envie um e-mail.</p>
+        <span class="eyebrow">Capacitação Gratuita</span>
+        <h2 id="cursos-title" class="section-title">Cursos <span class="accent">Gratuitos</span></h2>
+        <p class="section-subtitle">Cursos livres e trilhas de aprendizagem gratuitas em plataformas como SENAI, Fundação Bradesco, SEBRAE, Coursera e Microsoft Learn.</p>
       </div>
+      <div class="course-grid" id="courseGrid" style="padding:0 0 40px"></div>
+      <div class="about-cta" data-reveal>
+        <a href="cursos.html" class="btn btn-primary btn-lg">
+          <span>Ver Todos os Cursos</span>
+          <span class="btn-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
 
-      <div class="contact-grid" data-reveal>
-        <div class="contact-info">
-          <div class="contact-item" data-reveal-item>
-            <div class="contact-icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <!-- SOBRE -->
+    <section id="sobre" class="section about" aria-labelledby="about-title">
+      <div class="about-bg" aria-hidden="true"></div>
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Sobre o Projeto</span>
+        <h2 id="about-title" class="section-title">Portal de Referência em<br>Engenharia de Produção</h2>
+        <p class="section-subtitle">Conteúdo técnico rigoroso, organizado e gratuito para estudantes, engenheiros e gestores industriais.</p>
+      </div>
+      <div class="about-grid" data-reveal>
+        <article class="about-card" data-reveal-item>
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
-            <div>
-              <h4>E-mail</h4>
-              <a href="mailto:contato@engpro.tech" class="contact-link">contato@engpro.tech</a>
+            <h3>Rigor Técnico</h3>
+            <p>Todo conteúdo é referenciado em fontes oficiais: ABNT, ISO, NRs, IBGE, CNI. Nada é inventado.</p>
+          </div></div>
+        </article>
+        <article class="about-card" data-reveal-item>
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
             </div>
-          </div>
-
-          <div class="contact-item" data-reveal-item>
-            <div class="contact-icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18c-5 0-5-5.5-5-8a5 5 0 0 1 10 0c0 2.5-5 8-5 8z"/><path d="M12 14c1.5 0 2.5-1 2.5-2S13.5 10 12 10s-2.5 1-2.5 2 1 2.5 2.5 2.5z"/></svg>
+            <h3>Atualização Contínua</h3>
+            <p>Conteúdo revisado periodicamente com novas normas, tecnologias e cases do mercado industrial brasileiro.</p>
+          </div></div>
+        </article>
+        <article class="about-card" data-reveal-item>
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
-            <div>
-              <h4>GitHub</h4>
-              <a href="https://github.com/engpro/portal" target="_blank" rel="noopener" class="contact-link">github.com/engpro/portal</a>
-            </div>
-          </div>
-
-          <div class="contact-item" data-reveal-item>
-            <div class="contact-icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
-            </div>
-            <div>
-              <h4>LinkedIn</h4>
-              <a href="https://linkedin.com/company/engpro" target="_blank" rel="noopener" class="contact-link">linkedin.com/company/engpro</a>
-            </div>
-          </div>
-        </div>
-
-        <form class="contact-form double-bezel" data-reveal>
-          <div class="card-outer">
-            <div class="card-inner">
-              <div class="form-group">
-                <label for="name" class="form-label">Nome</label>
-                <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome" required aria-required="true">
-              </div>
-              <div class="form-group">
-                <label for="email" class="form-label">E-mail</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required aria-required="true">
-              </div>
-              <div class="form-group">
-                <label for="subject" class="form-label">Assunto</label>
-                <select id="subject" name="subject" class="form-select" required aria-required="true">
-                  <option value="">Selecione</option>
-                  <option value="contribuicao">Contribuição de Dados/Case</option>
-                  <option value="correcao">Correção Técnica</option>
-                  <option value="novo-topico">Proposta de Novo Capítulo</option>
-                  <option value="parceria">Parceria / Patrocínio</option>
-                  <option value="outro">Outro</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="message" class="form-label">Mensagem</label>
-                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Descreva sua contribuição, correção ou proposta..." required aria-required="true"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-full">
-                <span>Enviar Mensagem</span>
-                <span class="btn-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-                </span>
-              </button>
-            </div>
-          </div>
-        </form>
+            <h3>Comunidade</h3>
+            <p>Engenheiros, gestores e estudantes colaboram com conteúdo. Contribuições via GitHub.</p>
+          </div></div>
+        </article>
       </div>
     </section>
   </main>
 
-  <!-- =========================================================================
-       FOOTER
-       ========================================================================= -->
+  <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="#inicio" class="footer-logo" aria-label="EngPro — Voltar ao topo">
+        <a href="index.html" class="footer-logo" aria-label="EngPro — Voltar ao topo">
           <svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
             <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-            <text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display, sans-serif">EP</text>
+            <text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text>
           </svg>
           <span>Eng<span class="accent">Pro</span></span>
         </a>
-        <p class="footer-tagline">Engenharia de Produção Avançada — Conhecimento técnico rigoroso para a indústria brasileira.</p>
+        <p class="footer-tagline">Portal técnico de Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
       </div>
-
       <nav class="footer-nav" aria-label="Navegação do rodapé">
         <div class="footer-nav-group">
           <h4>Navegação</h4>
           <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#topicos">Tópicos</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </div>
-        <div class="footer-nav-group">
-          <h4>Capítulos</h4>
-          <ul>
-            <li><a href="#" data-topic="221">Smart Cities</a></li>
-            <li><a href="#" data-topic="222">Economia Digital</a></li>
-            <li><a href="#" data-topic="223">Blockchain Industrial</a></li>
-            <li><a href="#" data-topic="224">5G Industrial</a></li>
-            <li><a href="#" data-topic="225">RA/RV Industrial</a></li>
+            <li><a href="topicos.html">Tópicos</a></li>
+            <li><a href="modelos-cad.html">Modelos CAD</a></li>
+            <li><a href="cursos.html">Cursos Gratuitos</a></li>
+            <li><a href="biblioteca.html">Biblioteca</a></li>
           </ul>
         </div>
         <div class="footer-nav-group">
           <h4>Recursos</h4>
           <ul>
-            <li><a href="https://github.com/engpro/portal" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a href="#contato">Contribuir</a></li>
-            <li><a href="#contato">Reportar Erro</a></li>
-            <li><a href="#contato">Propor Capítulo</a></li>
+            <li><a href="modelos-cad.html">Modelos CAD</a></li>
+            <li><a href="cursos.html">Cursos Grátis</a></li>
+            <li><a href="biblioteca.html">Formulários .doc</a></li>
+            <li><a href="topicos.html">Conteúdo Técnico</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-group">
+          <h4>Engenharia</h4>
+          <ul>
+            <li><a href="topicos.html">PCP</a></li>
+            <li><a href="topicos.html">Qualidade</a></li>
+            <li><a href="topicos.html">Lean Manufacturing</a></li>
+            <li><a href="topicos.html">Supply Chain</a></li>
           </ul>
         </div>
       </nav>
     </div>
-
     <div class="footer-bottom">
-      <p class="copyright">© 2024 EngPro. Portal técnico de Engenharia de Produção. Dados de fontes públicas oficiais.</p>
+      <p class="copyright">&copy; 2025 EngPro. Portal técnico de Engenharia de Produção.</p>
       <div class="footer-links">
-        <a href="#contato" class="footer-link">Privacidade</a>
-        <a href="#contato" class="footer-link">Termos de Uso</a>
-        <a href="#contato" class="footer-link">Acessibilidade</a>
+        <a href="sobre.html" class="footer-link">Sobre</a>
+        <a href="#" class="footer-link">Privacidade</a>
+        <a href="#" class="footer-link">Termos</a>
       </div>
     </div>
   </footer>
 
-  <!-- =========================================================================
-       SCROLL TO TOP
-       ========================================================================= -->
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
+
+  <script src="assets/data/conteudo.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
