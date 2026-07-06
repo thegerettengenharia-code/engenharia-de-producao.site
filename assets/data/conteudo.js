@@ -6,25 +6,25 @@ window.SITE_DATA = {
 
       "id": "pcp",
 
-      "nome": "Planejamento e Controle da Produ├º├úo",
+      "nome": "Planejamento e Controle da Produção",
 
       "icone": "calendar-clock",
 
       "cor": "#2563eb",
 
-      "descricao": "Fundamentos do PCP: planejamento, programa├º├úo e controle da produ├º├úo industrial.",
+      "descricao": "Fundamentos do PCP: planejamento, programação e controle da produção industrial.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Planejamento da produ├º├úo",
+          "titulo": "Planejamento da produção",
 
-          "definicao": "Processo de defini├º├úo de metas produtivas, aloca├º├úo de recursos e estabelecimento de diretrizes para atender ├á demanda prevista no curto, m├®dio e longo prazo. Envolve decis├Áes sobre volumes, prazos e capacidades, funcionando como guia mestre para toda a opera├º├úo fabril.",
+          "definicao": "Processo de definição de metas produtivas, alocação de recursos e estabelecimento de diretrizes para atender á demanda prevista no curto, médio e longo prazo. Envolve decisões sobre volumes, prazos e capacidades, funcionando como guia mestre para toda a operação fabril.",
 
           "topicos": [
 
-            "Previs├úo de demanda",
+            "Previsão de demanda",
 
             "Plano agregado",
 
@@ -38,7 +38,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Defini├º├úo do mix de produ├º├úo mensal",
+            "Definição do mix de produção mensal",
 
             "Planejamento de turnos e horas-extras",
 
@@ -50,9 +50,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Programa├º├úo da produ├º├úo",
+          "titulo": "Programação da produção",
 
-          "definicao": "Etapa que detalha o sequenciamento das ordens de produ├º├úo no tempo, definindo quais produtos ser├úo fabricados, em quais m├íquinas, em quais quantidades e em que momento. Traduz o plano mestre em ordens execut├íveis no ch├úo de f├íbrica.",
+          "definicao": "Etapa que detalha o sequenciamento das ordens de produção no tempo, definindo quais produtos serão fabricados, em quais méquinas, em quais quantidades e em que momento. Traduz o plano mestre em ordens executéveis no chão de fébrica.",
 
           "topicos": [
 
@@ -60,9 +60,9 @@ window.SITE_DATA = {
 
             "Carregamento",
 
-            "Libera├º├úo de ordens",
+            "Liberação de ordens",
 
-            "Heur├¡sticas de programa├º├úo"
+            "Heurísticas de programação"
 
           ],
 
@@ -70,11 +70,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa├º├úo di├íria de linhas de montagem",
+            "Programação diéria de linhas de montagem",
 
-            "Aloca├º├úo de ordens em m├íquinas com restri├º├Áes",
+            "Alocação de ordens em méquinas com restrições",
 
-            "Uso de software APS para otimiza├º├úo"
+            "Uso de software APS para otimização"
 
           ]
 
@@ -82,31 +82,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Controle da produ├º├úo",
+          "titulo": "Controle da produção",
 
-          "definicao": "Acompanhamento sistem├ítico da execu├º├úo produtiva para verificar se o que foi planejado est├í sendo cumprido. Identifica desvios entre o programado e o realizado, acionando a├º├Áes corretivas para manter o fluxo dentro dos prazos e custos estabelecidos.",
+          "definicao": "Acompanhamento sistemético da execução produtiva para verificar se o que foi planejado esté sendo cumprido. Identifica desvios entre o programado e o realizado, acionando ações corretivas para manter o fluxo dentro dos prazos e custos estabelecidos.",
 
           "topicos": [
 
-            "Apontamento de produ├º├úo",
+            "Apontamento de produção",
 
             "Indicadores de desempenho",
 
             "OEE",
 
-            "Desvios e corre├º├Áes"
+            "Desvios e correções"
 
           ],
 
-          "formula": "OEE = Disponibilidade ├ù Performance ├ù Qualidade",
+          "formula": "OEE = Disponibilidade ú Performance ú Qualidade",
 
           "aplicacoes": [
 
-            "Acompanhamento di├írio de ordens via sistemas MES",
+            "Acompanhamento diério de ordens via sistemas MES",
 
-            "An├ílise de gargalos produtivos",
+            "Anélise de gargalos produtivos",
 
-            "Relat├│rios de efici├¬ncia por centro de trabalho"
+            "Relatórios de eficiência por centro de trabalho"
 
           ]
 
@@ -116,7 +116,7 @@ window.SITE_DATA = {
 
           "titulo": "Balanceamento de linhas",
 
-          "definicao": "T├®cnica de distribui├º├úo uniforme das cargas de trabalho entre as esta├º├Áes de uma linha de produ├º├úo, minimizando o tempo ocioso e maximizando a efici├¬ncia. Busca igualar o tempo de ciclo de cada esta├º├úo ao takt time do sistema produtivo.",
+          "definicao": "Técnica de distribuição uniforme das cargas de trabalho entre as estações de uma linha de produção, minimizando o tempo ocioso e maximizando a eficiência. Busca igualar o tempo de ciclo de cada estação ao takt time do sistema produtivo.",
 
           "topicos": [
 
@@ -124,21 +124,21 @@ window.SITE_DATA = {
 
             "Takt time",
 
-            "Esta├º├Áes de trabalho",
+            "Estações de trabalho",
 
-            "├ìndice de balanceamento"
+            "ìndice de balanceamento"
 
           ],
 
-          "formula": "IE = (╬ú ti / (n ├ù tc)) ├ù 100%",
+          "formula": "IE = (╬ú ti / (n ú tc)) ú 100%",
 
           "aplicacoes": [
 
             "Linhas de montagem automotiva",
 
-            "Linhas de eletr├┤nicos",
+            "Linhas de eletrônicos",
 
-            "Redu├º├úo de gargalos em manufatura"
+            "Redução de gargalos em manufatura"
 
           ]
 
@@ -148,7 +148,7 @@ window.SITE_DATA = {
 
           "titulo": "Sequenciamento de ordens",
 
-          "definicao": "Processo de ordena├º├úo das ordens de produ├º├úo em uma sequ├¬ncia l├│gica que otimiza crit├®rios como menor tempo total, menor atraso ou maior uso de capacidade. Utiliza regras como FIFO, EDD, SPT e algoritmos avan├ºados de otimiza├º├úo.",
+          "definicao": "Processo de ordenação das ordens de produção em uma sequência lógica que otimiza critérios como menor tempo total, menor atraso ou maior uso de capacidade. Utiliza regras como FIFO, EDD, SPT e algoritmos avançados de otimização.",
 
           "topicos": [
 
@@ -158,7 +158,7 @@ window.SITE_DATA = {
 
             "SPT",
 
-            "Johnson para 2 m├íquinas"
+            "Johnson para 2 méquinas"
 
           ],
 
@@ -166,11 +166,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Sequenciamento de ordens em f├íbricas t├¬xteis",
+            "Sequenciamento de ordens em fébricas têxteis",
 
-            "Prioriza├º├úo de pedidos urgentes",
+            "Priorização de pedidos urgentes",
 
-            "Programa├º├úo em ambientes job shop"
+            "Programação em ambientes job shop"
 
           ]
 
@@ -180,15 +180,15 @@ window.SITE_DATA = {
 
           "titulo": "Controle de capacidade produtiva",
 
-          "definicao": "Atividade que verifica se a capacidade instalada (m├úo de obra, m├íquinas, turnos) ├® suficiente para cumprir o plano de produ├º├úo. Ajusta recursos por meio de horas extras, subcontrata├º├úo ou altera├º├úo de turnos quando h├í desequil├¡brio entre carga e capacidade.",
+          "definicao": "Atividade que verifica se a capacidade instalada (mão de obra, méquinas, turnos) é suficiente para cumprir o plano de produção. Ajusta recursos por meio de horas extras, subcontratação ou alteração de turnos quando hé desequilíbrio entre carga e capacidade.",
 
           "topicos": [
 
             "CRP ÔÇö Capacity Requirements Planning",
 
-            "Capacidade dispon├¡vel",
+            "Capacidade disponível",
 
-            "Capacidade necess├íria",
+            "Capacidade necesséria",
 
             "Nivelamento de recursos"
 
@@ -198,11 +198,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├ílculo de capacidade em fundi├º├Áes",
+            "Célculo de capacidade em fundições",
 
-            "Planejamento de turnos extras em ind├║stria aliment├¡cia",
+            "Planejamento de turnos extras em indústria alimentícia",
 
-            "Simula├º├úo de cen├írios de expans├úo"
+            "Simulação de cenérios de expansão"
 
           ]
 
@@ -210,31 +210,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Previs├úo de demanda",
+          "titulo": "Previsão de demanda",
 
-          "definicao": "Estimativa das quantidades de produtos ou servi├ºos que os clientes comprar├úo em um per├¡odo futuro. Emprega m├®todos quantitativos (s├®ries temporais, causais) e qualitativos (painel de especialistas, delphi) para subsidiar o planejamento produtivo e financeiro.",
+          "definicao": "Estimativa das quantidades de produtos ou serviços que os clientes comprarão em um período futuro. Emprega métodos quantitativos (séries temporais, causais) e qualitativos (painel de especialistas, delphi) para subsidiar o planejamento produtivo e financeiro.",
 
           "topicos": [
 
-            "M├®dias m├│veis",
+            "Médias móveis",
 
-            "Suaviza├º├úo exponencial",
+            "Suavização exponencial",
 
             "Sazonalidade",
 
-            "Erro de previs├úo (MAD, MAPE)"
+            "Erro de previsão (MAD, MAPE)"
 
           ],
 
-          "formula": "Ft+1 = ╬▒ ├ù Dt + (1 ÔêÆ ╬▒) ├ù Ft",
+          "formula": "Ft+1 = ╬▒ ú Dt + (1 ÔêÆ ╬▒) ú Ft",
 
           "aplicacoes": [
 
-            "Previs├úo de vendas sazonais no varejo",
+            "Previsão de vendas sazonais no varejo",
 
-            "Planejamento de compras de mat├®rias-primas",
+            "Planejamento de compras de matérias-primas",
 
-            "Dimensionamento de estoques de seguran├ºa"
+            "Dimensionamento de estoques de segurança"
 
           ]
 
@@ -244,17 +244,17 @@ window.SITE_DATA = {
 
           "titulo": "Planejamento agregado",
 
-          "definicao": "Planejamento de m├®dio prazo (6 a 18 meses) que define taxas de produ├º├úo, n├¡veis de estoque e for├ºa de trabalho em termos agregados ÔÇö fam├¡lias de produtos, n├úo itens individuais. Busca minimizar custos totais atendendo ├á demanda prevista com recursos dispon├¡veis.",
+          "definicao": "Planejamento de médio prazo (6 a 18 meses) que define taxas de produção, níveis de estoque e força de trabalho em termos agregados ÔÇö famílias de produtos, não itens individuais. Busca minimizar custos totais atendendo á demanda prevista com recursos disponíveis.",
 
           "topicos": [
 
-            "Estrat├®gia de persegui├º├úo",
+            "Estratégia de perseguição",
 
-            "Estrat├®gia nivelada",
+            "Estratégia nivelada",
 
-            "Estrat├®gia mista",
+            "Estratégia mista",
 
-            "Programa├º├úo linear"
+            "Programação linear"
 
           ],
 
@@ -262,11 +262,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento semestral de produ├º├úo em montadoras",
+            "Planejamento semestral de produção em montadoras",
 
-            "Dimensionamento de quadro de funcion├írios",
+            "Dimensionamento de quadro de funcionérios",
 
-            "Decis├úo entre produzir ou estocar"
+            "Decisão entre produzir ou estocar"
 
           ]
 
@@ -274,31 +274,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Plano Mestre de Produ├º├úo (PMP)",
+          "titulo": "Plano Mestre de Produção (PMP)",
 
-          "definicao": "Desdobramento do planejamento agregado em itens finais para horizontes de 6 a 12 semanas. Estabelece quanto e quando produzir cada produto acabado, servindo como entrada principal para o c├ílculo de necessidade de materiais (MRP).",
+          "definicao": "Desdobramento do planejamento agregado em itens finais para horizontes de 6 a 12 semanas. Estabelece quanto e quando produzir cada produto acabado, servindo como entrada principal para o célculo de necessidade de materiais (MRP).",
 
           "topicos": [
 
             "MPS ÔÇö Master Production Schedule",
 
-            "Dispon├¡vel para promessa (ATP)",
+            "Disponível para promessa (ATP)",
 
             "Horizonte de planejamento",
 
-            "Explos├úo de materiais"
+            "Explosão de materiais"
 
           ],
 
-          "formula": "ATP = Saldo dispon├¡vel + Produ├º├úo programada ÔêÆ Pedidos confirmados",
+          "formula": "ATP = Saldo disponível + Produção programada ÔêÆ Pedidos confirmados",
 
           "aplicacoes": [
 
-            "Programa├º├úo semanal em ind├║stria moveleira",
+            "Programação semanal em indústria moveleira",
 
-            "Gest├úo de entregas ao cliente final",
+            "Gestão de entregas ao cliente final",
 
-            "Interface com vendas e log├¡stica"
+            "Interface com vendas e logística"
 
           ]
 
@@ -308,13 +308,13 @@ window.SITE_DATA = {
 
           "titulo": "MRP ÔÇö Material Requirements Planning",
 
-          "definicao": "Sistema l├│gico que calcula as necessidades de materiais a partir da demanda independente (PMP), da lista de materiais (BOM) e dos estoques dispon├¡veis. Determina quantidades e momentos das ordens de compra e produ├º├úo para garantir o abastecimento sem excessos.",
+          "definicao": "Sistema lógico que calcula as necessidades de materiais a partir da demanda independente (PMP), da lista de materiais (BOM) e dos estoques disponíveis. Determina quantidades e momentos das ordens de compra e produção para garantir o abastecimento sem excessos.",
 
           "topicos": [
 
-            "Explos├úo da BOM",
+            "Explosão da BOM",
 
-            "Necessidade l├¡quida",
+            "Necessidade líquida",
 
             "Lead time offset",
 
@@ -326,11 +326,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├ílculo de compras em ind├║stria metal├║rgica",
+            "Célculo de compras em indústria metalúrgica",
 
-            "Planejamento de componentes eletr├┤nicos",
+            "Planejamento de componentes eletrônicos",
 
-            "Gest├úo de materiais dependentes"
+            "Gestão de materiais dependentes"
 
           ]
 
@@ -340,17 +340,17 @@ window.SITE_DATA = {
 
           "titulo": "MRP II",
 
-          "definicao": "Evolu├º├úo do MRP que integra o planejamento de materiais com recursos de capacidade, finan├ºas, compras e vendas em um sistema unificado. Permite simular cen├írios de produ├º├úo considerando restri├º├Áes de m├íquinas, m├úo de obra e fluxo de caixa.",
+          "definicao": "Evolução do MRP que integra o planejamento de materiais com recursos de capacidade, finanças, compras e vendas em um sistema unificado. Permite simular cenérios de produção considerando restrições de méquinas, mão de obra e fluxo de caixa.",
 
           "topicos": [
 
             "Manufacturing Resource Planning",
 
-            "Simula├º├úo de cen├írios",
+            "Simulação de cenérios",
 
             "Fechamento do ciclo",
 
-            "Integra├º├úo financeira"
+            "Integração financeira"
 
           ],
 
@@ -358,11 +358,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento fabril integrado ao or├ºamento",
+            "Planejamento fabril integrado ao orçamento",
 
-            "Simula├º├úo de expans├úo de capacidade",
+            "Simulação de expansão de capacidade",
 
-            "Fechamento financeiro mensal alinhado ├á produ├º├úo"
+            "Fechamento financeiro mensal alinhado á produção"
 
           ]
 
@@ -372,17 +372,17 @@ window.SITE_DATA = {
 
           "titulo": "ERP ÔÇö Enterprise Resource Planning",
 
-          "definicao": "Sistema integrado de gest├úo que unifica todos os processos de neg├│cio (produ├º├úo, finan├ºas, RH, log├¡stica, vendas) em uma ├║nica base de dados. O MRP ├® um m├│dulo dentro do ERP que trata especificamente do planejamento de materiais e capacidade.",
+          "definicao": "Sistema integrado de gestão que unifica todos os processos de negócio (produção, finanças, RH, logística, vendas) em uma única base de dados. O MRP é um módulo dentro do ERP que trata especificamente do planejamento de materiais e capacidade.",
 
           "topicos": [
 
-            "M├│dulos integrados",
+            "Módulos integrados",
 
             "SAP / Oracle / Totvs",
 
-            "Implementa├º├úo e parametriza├º├úo",
+            "Implementação e parametrização",
 
-            "Integra├º├úo com WMS e TMS"
+            "Integração com WMS e TMS"
 
           ],
 
@@ -390,11 +390,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo integrada da cadeia de suprimentos",
+            "Gestão integrada da cadeia de suprimentos",
 
-            "Automa├º├úo de processos financeiros",
+            "Automação de processos financeiros",
 
-            "Visibilidade em tempo real das opera├º├Áes"
+            "Visibilidade em tempo real das operações"
 
           ]
 
@@ -404,17 +404,17 @@ window.SITE_DATA = {
 
           "titulo": "APS ÔÇö Advanced Planning and Scheduling",
 
-          "definicao": "Sistema avan├ºado de planejamento e programa├º├úo que utiliza algoritmos de otimiza├º├úo (programa├º├úo linear, metaheur├¡sticas) para gerar cronogramas fact├¡veis considerando restri├º├Áes complexas de capacidade, materiais e prazos simultaneamente.",
+          "definicao": "Sistema avançado de planejamento e programação que utiliza algoritmos de otimização (programação linear, metaheurísticas) para gerar cronogramas factíveis considerando restrições complexas de capacidade, materiais e prazos simultaneamente.",
 
           "topicos": [
 
-            "Algoritmos gen├®ticos",
+            "Algoritmos genéticos",
 
-            "Otimiza├º├úo restritiva",
+            "Otimização restritiva",
 
-            "Programa├º├úo finita",
+            "Programação finita",
 
-            "Simula├º├úo de cen├írios"
+            "Simulação de cenérios"
 
           ],
 
@@ -422,11 +422,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa├º├úo de produ├º├úo em ind├║strias qu├¡micas",
+            "Programação de produção em indústrias químicas",
 
-            "Otimiza├º├úo de sequenciamento em bebidas",
+            "Otimização de sequenciamento em bebidas",
 
-            "Planejamento com restri├º├Áes de validade"
+            "Planejamento com restrições de validade"
 
           ]
 
@@ -446,13 +446,13 @@ window.SITE_DATA = {
 
       "id": "qualidade",
 
-      "nome": "Gest├úo da Qualidade",
+      "nome": "Gestão da Qualidade",
 
       "icone": "badge-check",
 
       "cor": "#16a34a",
 
-      "descricao": "Sistemas de gest├úo, ferramentas e normas para garantia da qualidade industrial.",
+      "descricao": "Sistemas de gestão, ferramentas e normas para garantia da qualidade industrial.",
 
       "subtopicos": [
 
@@ -460,17 +460,17 @@ window.SITE_DATA = {
 
           "titulo": "Controle de qualidade",
 
-          "definicao": "Conjunto de atividades operacionais de verifica├º├úo e inspe├º├úo para assegurar que os produtos e processos atendam aos requisitos especificados. Inclui medi├º├Áes, ensaios e an├ílises ao longo de todo o fluxo produtivo para identificar n├úo conformidades.",
+          "definicao": "Conjunto de atividades operacionais de verificação e inspeção para assegurar que os produtos e processos atendam aos requisitos especificados. Inclui medições, ensaios e anélises ao longo de todo o fluxo produtivo para identificar não conformidades.",
 
           "topicos": [
 
-            "Inspe├º├úo por amostragem",
+            "Inspeção por amostragem",
 
-            "Atributos vs vari├íveis",
+            "Atributos vs variéveis",
 
             "Planos de amostragem",
 
-            "Inspe├º├úo na fonte"
+            "Inspeção na fonte"
 
           ],
 
@@ -478,11 +478,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Inspe├º├úo de lotes recebidos de fornecedores",
+            "Inspeção de lotes recebidos de fornecedores",
 
-            "Controle dimensional de pe├ºas usinadas",
+            "Controle dimensional de peças usinadas",
 
-            "Verifica├º├úo de conformidade em linhas de envase"
+            "Verificação de conformidade em linhas de envase"
 
           ]
 
@@ -492,7 +492,7 @@ window.SITE_DATA = {
 
           "titulo": "Garantia da qualidade",
 
-          "definicao": "Conjunto de a├º├Áes planejadas e sistem├íticas necess├írias para proporcionar confian├ºa de que um produto ou servi├ºo atender├í aos requisitos de qualidade. Foca na preven├º├úo de defeitos por meio da estrutura├º├úo de processos, documenta├º├úo e auditorias.",
+          "definicao": "Conjunto de ações planejadas e sisteméticas necessérias para proporcionar confiança de que um produto ou serviço atenderé aos requisitos de qualidade. Foca na prevenção de defeitos por meio da estruturação de processos, documentação e auditorias.",
 
           "topicos": [
 
@@ -502,7 +502,7 @@ window.SITE_DATA = {
 
             "Rastreabilidade",
 
-            "Acredita├º├úo"
+            "Acreditação"
 
           ],
 
@@ -510,7 +510,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de SGQ baseado na ISO 9001",
+            "Implementação de SGQ baseado na ISO 9001",
 
             "Auditorias internas de processo",
 
@@ -522,17 +522,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Inspe├º├úo de processos",
+          "titulo": "Inspeção de processos",
 
-          "definicao": "Atividade de monitoramento cont├¡nuo dos par├ómetros de processo para garantir que as varia├º├Áes se mantenham dentro dos limites especificados. Pode ser realizada por amostragem estat├¡stica ou censo, com uso de instrumentos de medi├º├úo e dispositivos autom├íticos.",
+          "definicao": "Atividade de monitoramento contínuo dos parômetros de processo para garantir que as variações se mantenham dentro dos limites especificados. Pode ser realizada por amostragem estatística ou censo, com uso de instrumentos de medição e dispositivos autométicos.",
 
           "topicos": [
 
-            "Inspe├º├úo na linha",
+            "Inspeção na linha",
 
             "Controle dimensional",
 
-            "Ensaios destrutivos e n├úo destrutivos",
+            "Ensaios destrutivos e não destrutivos",
 
             "Carta de controle"
 
@@ -542,11 +542,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Monitoramento de temperatura em tratamento t├®rmico",
+            "Monitoramento de temperatura em tratamento térmico",
 
-            "Inspe├º├úo visual automatizada em eletr├┤nicos",
+            "Inspeção visual automatizada em eletrônicos",
 
-            "Medi├º├úo de dureza em lotes metal├║rgicos"
+            "Medição de dureza em lotes metalúrgicos"
 
           ]
 
@@ -556,7 +556,7 @@ window.SITE_DATA = {
 
           "titulo": "Auditorias da qualidade",
 
-          "definicao": "Processo sistem├ítico, independente e documentado para obter evid├¬ncias objetivas e avaliar a conformidade dos processos e produtos com crit├®rios pr├®-estabelecidos. Divide-se em auditorias de primeira, segunda e terceira parte.",
+          "definicao": "Processo sistemético, independente e documentado para obter evidências objetivas e avaliar a conformidade dos processos e produtos com critérios pré-estabelecidos. Divide-se em auditorias de primeira, segunda e terceira parte.",
 
           "topicos": [
 
@@ -564,7 +564,7 @@ window.SITE_DATA = {
 
             "Auditoria de fornecedores",
 
-            "Auditoria de certifica├º├úo",
+            "Auditoria de certificação",
 
             "Non-conformity report"
 
@@ -574,11 +574,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Auditoria interna pr├®-certifica├º├úo ISO 9001",
+            "Auditoria interna pré-certificação ISO 9001",
 
             "Auditoria de fornecedores automotivos",
 
-            "Auditorias de manuten├º├úo de certifica├º├úo"
+            "Auditorias de manutenção de certificação"
 
           ]
 
@@ -588,17 +588,17 @@ window.SITE_DATA = {
 
           "titulo": "ISO 9001:2025",
 
-          "definicao": "Norma internacional que especifica requisitos para um Sistema de Gest├úo da Qualidade, focando na capacidade de fornecer produtos e servi├ºos conformes e na melhoria cont├¡nua da satisfa├º├úo do cliente. Estrutura-se em cl├íusulas baseadas no ciclo PDCA.",
+          "definicao": "Norma internacional que especifica requisitos para um Sistema de Gestão da Qualidade, focando na capacidade de fornecer produtos e serviços conformes e na melhoria contínua da satisfação do cliente. Estrutura-se em cléusulas baseadas no ciclo PDCA.",
 
           "topicos": [
 
-            "Contexto da organiza├º├úo",
+            "Contexto da organização",
 
-            "Lideran├ºa",
+            "Liderança",
 
             "Planejamento",
 
-            "Avalia├º├úo de desempenho"
+            "Avaliação de desempenho"
 
           ],
 
@@ -606,11 +606,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo de SGQ em ind├║strias",
+            "Certificação de SGQ em indústrias",
 
-            "Estrutura├º├úo de processos documentados",
+            "Estruturação de processos documentados",
 
-            "Melhoria cont├¡nua baseada em indicadores"
+            "Melhoria contínua baseada em indicadores"
 
           ]
 
@@ -620,7 +620,7 @@ window.SITE_DATA = {
 
           "titulo": "ISO 14001:2024",
 
-          "definicao": "Norma internacional para Sistemas de Gest├úo Ambiental que estabelece requisitos para identificar, controlar e reduzir impactos ambientais das opera├º├Áes. Adota a abordagem PDCA e o ciclo de melhoria cont├¡nua para gest├úo de aspectos ambientais.",
+          "definicao": "Norma internacional para Sistemas de Gestão Ambiental que estabelece requisitos para identificar, controlar e reduzir impactos ambientais das operações. Adota a abordagem PDCA e o ciclo de melhoria contínua para gestão de aspectos ambientais.",
 
           "topicos": [
 
@@ -628,7 +628,7 @@ window.SITE_DATA = {
 
             "Requisitos legais",
 
-            "Emerg├¬ncias ambientais",
+            "Emergências ambientais",
 
             "Indicadores de desempenho ambiental"
 
@@ -640,9 +640,9 @@ window.SITE_DATA = {
 
             "Licenciamento ambiental industrial",
 
-            "Programas de redu├º├úo de res├¡duos",
+            "Programas de redução de resíduos",
 
-            "Gest├úo de efluentes e emiss├Áes"
+            "Gestão de efluentes e emissões"
 
           ]
 
@@ -652,17 +652,17 @@ window.SITE_DATA = {
 
           "titulo": "ISO 45001:2023",
 
-          "definicao": "Norma que define requisitos para Sistemas de Gest├úo de Sa├║de e Seguran├ºa Ocupacional, ajudando organiza├º├Áes a prevenir les├Áes e doen├ºas relacionadas ao trabalho. Integra-se com ISO 9001 e ISO 14001 no modelo de estrutura de alto n├¡vel (HLS).",
+          "definicao": "Norma que define requisitos para Sistemas de Gestão de Saúde e Segurança Ocupacional, ajudando organizações a prevenir lesões e doenças relacionadas ao trabalho. Integra-se com ISO 9001 e ISO 14001 no modelo de estrutura de alto nível (HLS).",
 
           "topicos": [
 
-            "Identifica├º├úo de perigos",
+            "Identificação de perigos",
 
-            "Avalia├º├úo de riscos",
+            "Avaliação de riscos",
 
             "Controles operacionais",
 
-            "Investiga├º├úo de incidentes"
+            "Investigação de incidentes"
 
           ],
 
@@ -670,11 +670,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de seguran├ºa em f├íbricas",
+            "Gestão de segurança em fébricas",
 
             "Programas de ergonomia no trabalho",
 
-            "Redu├º├úo de taxas de acidentes"
+            "Redução de taxas de acidentes"
 
           ]
 
@@ -682,17 +682,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "CEP ÔÇö Controle Estat├¡stico do Processo",
+          "titulo": "CEP ÔÇö Controle Estatístico do Processo",
 
-          "definicao": "Metodologia estat├¡stica de monitoramento cont├¡nuo de processos produtivos por meio de gr├íficos de controle, detectando varia├º├Áes anormais antes que gerem produtos n├úo conformes. Baseia-se nos princ├¡pios de Shewhart e na an├ílise de variabilidade.",
+          "definicao": "Metodologia estatística de monitoramento contínuo de processos produtivos por meio de gréficos de controle, detectando variações anormais antes que gerem produtos não conformes. Baseia-se nos princípios de Shewhart e na anélise de variabilidade.",
 
           "topicos": [
 
-            "Gr├íficos X╠ä-R",
+            "Gréficos X╠ä-R",
 
-            "Gr├íficos X╠ä-S",
+            "Gréficos X╠ä-S",
 
-            "Gr├íficos p, np, c, u",
+            "Gréficos p, np, c, u",
 
             "Capacidade Cp e Cpk"
 
@@ -704,9 +704,9 @@ window.SITE_DATA = {
 
             "Controle dimensional em linha de usinagem",
 
-            "Monitoramento de peso l├¡quido em envase",
+            "Monitoramento de peso líquido em envase",
 
-            "An├ílise de estabilidade em processos qu├¡micos"
+            "Anélise de estabilidade em processos químicos"
 
           ]
 
@@ -716,7 +716,7 @@ window.SITE_DATA = {
 
           "titulo": "Seis Sigma",
 
-          "definicao": "Metodologia estruturada de melhoria que visa reduzir a variabilidade dos processos a n├¡veis de 3,4 defeitos por milh├úo de oportunidades (DPMO). Combina ferramentas estat├¡sticas e gerenciais para alcan├ºar excel├¬ncia operacional orientada a dados.",
+          "definicao": "Metodologia estruturada de melhoria que visa reduzir a variabilidade dos processos a níveis de 3,4 defeitos por milhão de oportunidades (DPMO). Combina ferramentas estatísticas e gerenciais para alcançar excelência operacional orientada a dados.",
 
           "topicos": [
 
@@ -724,21 +724,21 @@ window.SITE_DATA = {
 
             "DMADV",
 
-            "Pap├®is Belts",
+            "Papéis Belts",
 
-            "DPMO e n├¡vel sigma"
+            "DPMO e nível sigma"
 
           ],
 
-          "formula": "DPMO = (N┬║ defeitos / (N┬║ unidades ├ù N┬║ oportunidades)) ├ù 10ÔüÂ",
+          "formula": "DPMO = (N┬║ defeitos / (N┬║ unidades ú N┬║ oportunidades)) ú 10ÔüÂ",
 
           "aplicacoes": [
 
-            "Redu├º├úo de refugos em inje├º├úo pl├ística",
+            "Redução de refugos em injeção pléstica",
 
-            "Otimiza├º├úo de processos banc├írios",
+            "Otimização de processos bancérios",
 
-            "Melhoria de lead time log├¡stico"
+            "Melhoria de lead time logístico"
 
           ]
 
@@ -748,7 +748,7 @@ window.SITE_DATA = {
 
           "titulo": "Lean Six Sigma",
 
-          "definicao": "Integra├º├úo das filosofias Lean Manufacturing (elimina├º├úo de desperd├¡cios) e Seis Sigma (redu├º├úo de variabilidade) em uma abordagem ├║nica de melhoria cont├¡nua. Utiliza o DMAIC como estrutura e incorpora ferramentas lean como VSM e 5S.",
+          "definicao": "Integração das filosofias Lean Manufacturing (eliminação de desperdícios) e Seis Sigma (redução de variabilidade) em uma abordagem única de melhoria contínua. Utiliza o DMAIC como estrutura e incorpora ferramentas lean como VSM e 5S.",
 
           "topicos": [
 
@@ -756,7 +756,7 @@ window.SITE_DATA = {
 
             "VSM",
 
-            "Redu├º├úo de desperd├¡cios",
+            "Redução de desperdícios",
 
             "Fluxo puxado"
 
@@ -766,11 +766,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Melhoria integrada em ind├║stria farmac├¬utica",
+            "Melhoria integrada em indústria farmacêutica",
 
-            "Otimiza├º├úo de fluxo hospitalar",
+            "Otimização de fluxo hospitalar",
 
-            "Projetos de redu├º├úo de custos log├¡sticos"
+            "Projetos de redução de custos logísticos"
 
           ]
 
@@ -780,17 +780,17 @@ window.SITE_DATA = {
 
           "titulo": "PDCA e SDCA",
 
-          "definicao": "Ciclo PDCA (Plan-Do-Check-Act) ├® o m├®todo iterativo de melhoria cont├¡nua composto por quatro etapas: planejar, executar, verificar e agir corretivamente. O SDCA (Standardize-Do-Check-Act) ├® usado para padronizar e estabilizar processos antes de melhor├í-los.",
+          "definicao": "Ciclo PDCA (Plan-Do-Check-Act) é o método iterativo de melhoria contínua composto por quatro etapas: planejar, executar, verificar e agir corretivamente. O SDCA (Standardize-Do-Check-Act) é usado para padronizar e estabilizar processos antes de melhoré-los.",
 
           "topicos": [
 
             "Ciclo de Deming",
 
-            "Padroniza├º├úo",
+            "Padronização",
 
-            "A├º├úo corretiva",
+            "Ação corretiva",
 
-            "Melhoria cont├¡nua"
+            "Melhoria contínua"
 
           ],
 
@@ -798,11 +798,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de projetos de melhoria",
+            "Estruturação de projetos de melhoria",
 
-            "Estabiliza├º├úo de novos processos",
+            "Estabilização de novos processos",
 
-            "Rotina de gest├úo da qualidade"
+            "Rotina de gestão da qualidade"
 
           ]
 
@@ -810,19 +810,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "MASP ÔÇö M├®todo de An├ílise e Solu├º├úo de Problemas",
+          "titulo": "MASP ÔÇö Método de Anélise e Solução de Problemas",
 
-          "definicao": "Metodologia estruturada de 8 etapas para identifica├º├úo, an├ílise e elimina├º├úo de problemas cr├┤nicos na qualidade. Derivado do QC Story japon├¬s, utiliza ferramentas como diagrama de Ishikawa, 5 porqu├¬s e gr├ífico de Pareto em sua aplica├º├úo.",
+          "definicao": "Metodologia estruturada de 8 etapas para identificação, anélise e eliminação de problemas crônicos na qualidade. Derivado do QC Story japonês, utiliza ferramentas como diagrama de Ishikawa, 5 porquês e gréfico de Pareto em sua aplicação.",
 
           "topicos": [
 
-            "Identifica├º├úo do problema",
+            "Identificação do problema",
 
-            "An├ílise de causas",
+            "Anélise de causas",
 
-            "Plano de a├º├úo (5W2H)",
+            "Plano de ação (5W2H)",
 
-            "Verifica├º├úo dos resultados"
+            "Verificação dos resultados"
 
           ],
 
@@ -830,9 +830,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elimina├º├úo de falhas recorrentes em produ├º├úo",
+            "Eliminação de falhas recorrentes em produção",
 
-            "Redu├º├úo de reclama├º├Áes de clientes",
+            "Redução de reclamações de clientes",
 
             "Projetos de melhoria em processos administrativos"
 
@@ -844,7 +844,7 @@ window.SITE_DATA = {
 
           "titulo": "FMEA ÔÇö Failure Mode and Effects Analysis",
 
-          "definicao": "Ferramenta preventiva que identifica modos de falha potenciais em produtos ou processos, avalia seus efeitos e riscos (severidade, ocorr├¬ncia, detec├º├úo) e prioriza a├º├Áes para reduzir ou eliminar riscos. Existem FMEA de projeto, processo e sistema.",
+          "definicao": "Ferramenta preventiva que identifica modos de falha potenciais em produtos ou processos, avalia seus efeitos e riscos (severidade, ocorrência, detecção) e prioriza ações para reduzir ou eliminar riscos. Existem FMEA de projeto, processo e sistema.",
 
           "topicos": [
 
@@ -854,19 +854,19 @@ window.SITE_DATA = {
 
             "Efeito e causa",
 
-            "Plano de a├º├úo preventiva"
+            "Plano de ação preventiva"
 
           ],
 
-          "formula": "RPN = S ├ù O ├ù D",
+          "formula": "RPN = S ú O ú D",
 
           "aplicacoes": [
 
-            "An├ílise de riscos em projetos automotivos",
+            "Anélise de riscos em projetos automotivos",
 
-            "Preven├º├úo de falhas em processos aeron├íuticos",
+            "Prevenção de falhas em processos aeronéuticos",
 
-            "Desenvolvimento de produtos eletr├┤nicos"
+            "Desenvolvimento de produtos eletrônicos"
 
           ]
 
@@ -876,7 +876,7 @@ window.SITE_DATA = {
 
           "titulo": "APQP ÔÇö Advanced Product Quality Planning",
 
-          "definicao": "Estrutura padronizada de planejamento da qualidade de produtos, amplamente usada no setor automotivo. Organiza em cinco fases o desenvolvimento desde o conceito at├® o lan├ºamento, garantindo que todos os requisitos de qualidade sejam atendidos antes da produ├º├úo em s├®rie.",
+          "definicao": "Estrutura padronizada de planejamento da qualidade de produtos, amplamente usada no setor automotivo. Organiza em cinco fases o desenvolvimento desde o conceito até o lançamento, garantindo que todos os requisitos de qualidade sejam atendidos antes da produção em série.",
 
           "topicos": [
 
@@ -886,7 +886,7 @@ window.SITE_DATA = {
 
             "Design do processo",
 
-            "Valida├º├úo"
+            "Validação"
 
           ],
 
@@ -896,9 +896,9 @@ window.SITE_DATA = {
 
             "Desenvolvimento de novos modelos automotivos",
 
-            "Qualifica├º├úo de fornecedores",
+            "Qualificação de fornecedores",
 
-            "Lan├ºamento de produtos industriais complexos"
+            "Lançamento de produtos industriais complexos"
 
           ]
 
@@ -908,11 +908,11 @@ window.SITE_DATA = {
 
           "titulo": "PPAP ÔÇö Production Part Approval Process",
 
-          "definicao": "Processo padronizado do setor automotivo que certifica que todos os requisitos de engenharia e qualidade de um componente foram atendidos antes do in├¡cio da produ├º├úo em s├®rie. Exige 18 itens de submiss├úo, incluindo dimensional, testes de material e capabilidade.",
+          "definicao": "Processo padronizado do setor automotivo que certifica que todos os requisitos de engenharia e qualidade de um componente foram atendidos antes do início da produção em série. Exige 18 itens de submissão, incluindo dimensional, testes de material e capabilidade.",
 
           "topicos": [
 
-            "N├¡veis de submiss├úo",
+            "Níveis de submissão",
 
             "PSW",
 
@@ -926,11 +926,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Homologa├º├úo de pe├ºas automotivas",
+            "Homologação de peças automotivas",
 
-            "Valida├º├úo de ferramentais de estamparia",
+            "Validação de ferramentais de estamparia",
 
-            "Libera├º├úo de fornecedores de autope├ºas"
+            "Liberação de fornecedores de autopeças"
 
           ]
 
@@ -940,7 +940,7 @@ window.SITE_DATA = {
 
           "titulo": "MSA ÔÇö Measurement Systems Analysis",
 
-          "definicao": "Conjunto de estudos estat├¡sticos para avaliar a qualidade de sistemas de medi├º├úo, incluindo repetitividade, reprodutibilidade, vi├®s, linearidade e estabilidade. Garante que os dados coletados s├úo confi├íveis para decis├Áes de controle de qualidade.",
+          "definicao": "Conjunto de estudos estatísticos para avaliar a qualidade de sistemas de medição, incluindo repetitividade, reprodutibilidade, viés, linearidade e estabilidade. Garante que os dados coletados são confiéveis para decisões de controle de qualidade.",
 
           "topicos": [
 
@@ -950,19 +950,19 @@ window.SITE_DATA = {
 
             "Reprodutibilidade",
 
-            "Estudo de vi├®s"
+            "Estudo de viés"
 
           ],
 
-          "formula": "% R&R = (¤â┬▓ MS / ¤â┬▓ Total) ├ù 100%",
+          "formula": "% R&R = (¤â┬▓ MS / ¤â┬▓ Total) ú 100%",
 
           "aplicacoes": [
 
-            "Valida├º├úo de paqu├¡metros e micr├┤metros",
+            "Validação de paquímetros e micrômetros",
 
-            "Qualifica├º├úo de sistemas de medi├º├úo automatizados",
+            "Qualificação de sistemas de medição automatizados",
 
-            "Controle de balan├ºas em linhas de envase"
+            "Controle de balanças em linhas de envase"
 
           ]
 
@@ -972,11 +972,11 @@ window.SITE_DATA = {
 
           "titulo": "SPC ÔÇö Statistical Process Control",
 
-          "definicao": "Aplica├º├úo de m├®todos estat├¡sticos para monitorar e controlar a variabilidade de processos produtivos em tempo real. Utiliza gr├íficos de controle, histogramas e an├ílise de capacidade para detectar desvios e manter o processo dentro dos limites especificados.",
+          "definicao": "Aplicação de métodos estatísticos para monitorar e controlar a variabilidade de processos produtivos em tempo real. Utiliza gréficos de controle, histogramas e anélise de capacidade para detectar desvios e manter o processo dentro dos limites especificados.",
 
           "topicos": [
 
-            "Varia├º├úo comum vs especial",
+            "Variação comum vs especial",
 
             "Limites de controle",
 
@@ -990,9 +990,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Monitoramento em tempo real em ind├║stria de semicondutores",
+            "Monitoramento em tempo real em indústria de semicondutores",
 
-            "Controle de processos cont├¡nuos em papel e celulose",
+            "Controle de processos contínuos em papel e celulose",
 
             "Dashboard de qualidade fabril"
 
@@ -1004,7 +1004,7 @@ window.SITE_DATA = {
 
           "titulo": "Kaizen",
 
-          "definicao": "Filosofia japonesa de melhoria cont├¡nua incremental baseada na participa├º├úo de todos os colaboradores, do ch├úo de f├íbrica ├á alta dire├º├úo. Kaizen significa literalmente \"mudan├ºa para melhor\" e ├® operacionalizado por meio de eventos focados (kaizen events) e pequenas melhorias di├írias.",
+          "definicao": "Filosofia japonesa de melhoria contínua incremental baseada na participação de todos os colaboradores, do chão de fébrica á alta direção. Kaizen significa literalmente \"mudança para melhor\" e é operacionalizado por meio de eventos focados (kaizen events) e pequenas melhorias diérias.",
 
           "topicos": [
 
@@ -1012,7 +1012,7 @@ window.SITE_DATA = {
 
             "Gemba Kaizen",
 
-            "Fluxo cont├¡nuo",
+            "Fluxo contínuo",
 
             "Melhoria incremental vs disruptiva"
 
@@ -1022,11 +1022,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de setup em prensas",
+            "Redução de setup em prensas",
 
-            "Melhoria de layout de c├®lulas",
+            "Melhoria de layout de células",
 
-            "Otimiza├º├úo de fluxo de materiais"
+            "Otimização de fluxo de materiais"
 
           ]
 
@@ -1036,13 +1036,13 @@ window.SITE_DATA = {
 
           "titulo": "Programa 5S",
 
-          "definicao": "Metodologia de gest├úo visual e organiza├º├úo do ambiente de trabalho baseada em cinco sensos: Seiri (utiliza├º├úo), Seiton (ordena├º├úo), Seis┼ì (limpeza), Seiketsu (padroniza├º├úo) e Shitsuke (disciplina). Cria as condi├º├Áes b├ísicas para qualidade, produtividade e seguran├ºa.",
+          "definicao": "Metodologia de gestão visual e organização do ambiente de trabalho baseada em cinco sensos: Seiri (utilização), Seiton (ordenação), Seis┼ì (limpeza), Seiketsu (padronização) e Shitsuke (disciplina). Cria as condições bésicas para qualidade, produtividade e segurança.",
 
           "topicos": [
 
-            "Senso de utiliza├º├úo",
+            "Senso de utilização",
 
-            "Senso de ordena├º├úo",
+            "Senso de ordenação",
 
             "Senso de limpeza",
 
@@ -1054,11 +1054,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Organiza├º├úo de postos de trabalho",
+            "Organização de postos de trabalho",
 
-            "Redu├º├úo de desperd├¡cios de movimenta├º├úo",
+            "Redução de desperdícios de movimentação",
 
-            "Cria├º├úo de cultura de disciplina operacional"
+            "Criação de cultura de disciplina operacional"
 
           ]
 
@@ -1068,17 +1068,17 @@ window.SITE_DATA = {
 
           "titulo": "Poka-Yoke",
 
-          "definicao": "Dispositivo ou mecanismo ├á prova de falhas que previne a ocorr├¬ncia de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo-a-passo, e ├® uma ferramenta essencial do zero defeito no Lean.",
+          "definicao": "Dispositivo ou mecanismo á prova de falhas que previne a ocorrência de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo-a-passo, e é uma ferramenta essencial do zero defeito no Lean.",
 
           "topicos": [
 
-            "Dispositivos de detec├º├úo",
+            "Dispositivos de detecção",
 
-            "Preven├º├úo vs detec├º├úo",
+            "Prevenção vs detecção",
 
-            "Sistemas de parada autom├ítica",
+            "Sistemas de parada automética",
 
-            "Controles f├¡sicos e sensores"
+            "Controles físicos e sensores"
 
           ],
 
@@ -1088,9 +1088,9 @@ window.SITE_DATA = {
 
             "Gabaritos que impedem montagem invertida",
 
-            "Sensores de presen├ºa em linhas de montagem",
+            "Sensores de presença em linhas de montagem",
 
-            "Contadores autom├íticos de pe├ºas"
+            "Contadores autométicos de peças"
 
           ]
 
@@ -1100,7 +1100,7 @@ window.SITE_DATA = {
 
           "titulo": "DMAIC",
 
-          "definicao": "Acr├┤nimo das cinco fases do m├®todo de melhoria do Seis Sigma: Define (definir), Measure (medir), Analyze (analisar), Improve (melhorar) e Control (controlar). Estrutura projetos de forma sistem├ítica, orientada a dados e focada na elimina├º├úo de causas raiz de defeitos.",
+          "definicao": "Acrônimo das cinco fases do método de melhoria do Seis Sigma: Define (definir), Measure (medir), Analyze (analisar), Improve (melhorar) e Control (controlar). Estrutura projetos de forma sistemética, orientada a dados e focada na eliminação de causas raiz de defeitos.",
 
           "topicos": [
 
@@ -1110,7 +1110,7 @@ window.SITE_DATA = {
 
             "Analyze ÔÇö Causa raiz",
 
-            "Improve ÔÇö Solu├º├Áes",
+            "Improve ÔÇö Soluções",
 
             "Control ÔÇö Plano de controle"
 
@@ -1120,11 +1120,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projetos de redu├º├úo de defeitos em fundi├º├úo",
+            "Projetos de redução de defeitos em fundição",
 
-            "Otimiza├º├úo de processos administrativos",
+            "Otimização de processos administrativos",
 
-            "Redu├º├úo de variabilidade em processos qu├¡micos"
+            "Redução de variabilidade em processos químicos"
 
           ]
 
@@ -1134,7 +1134,7 @@ window.SITE_DATA = {
 
           "titulo": "Benchmarking",
 
-          "definicao": "Processo sistem├ítico de compara├º├úo de produtos, servi├ºos e pr├íticas organizacionais com os melhores do mercado (benchmarks), visando identificar oportunidades de melhoria e superar o desempenho da concorr├¬ncia. Pode ser competitivo, funcional ou interno.",
+          "definicao": "Processo sistemético de comparação de produtos, serviços e préticas organizacionais com os melhores do mercado (benchmarks), visando identificar oportunidades de melhoria e superar o desempenho da concorrência. Pode ser competitivo, funcional ou interno.",
 
           "topicos": [
 
@@ -1142,9 +1142,9 @@ window.SITE_DATA = {
 
             "Benchmarking funcional",
 
-            "Indicadores de compara├º├úo",
+            "Indicadores de comparação",
 
-            "An├ílise de lacunas (gap analysis)"
+            "Anélise de lacunas (gap analysis)"
 
           ],
 
@@ -1152,11 +1152,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Compara├º├úo de OEE com l├¡deres do setor",
+            "Comparação de OEE com líderes do setor",
 
-            "Identifica├º├úo de melhores pr├íticas log├¡sticas",
+            "Identificação de melhores préticas logísticas",
 
-            "An├ílise de custos de qualidade frente ├á concorr├¬ncia"
+            "Anélise de custos de qualidade frente á concorrência"
 
           ]
 
@@ -1183,25 +1183,25 @@ window.SITE_DATA = {
 
       "cor": "#d97706",
 
-      "descricao": "Produ├º├úo enxuta: elimina├º├úo de desperd├¡cios, fluxo cont├¡nuo e melhoria cont├¡nua.",
+      "descricao": "Produção enxuta: eliminação de desperdícios, fluxo contínuo e melhoria contínua.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Produ├º├úo enxuta",
+          "titulo": "Produção enxuta",
 
-          "definicao": "Filosofia de gest├úo originada do Sistema Toyota de Produ├º├úo que busca maximizar o valor ao cliente eliminando sistematicamente desperd├¡cios. Opera com menos recursos (estoque, espa├ºo, m├úo de obra) e maior flexibilidade, produzindo exatamente o necess├írio no momento necess├írio.",
+          "definicao": "Filosofia de gestão originada do Sistema Toyota de Produção que busca maximizar o valor ao cliente eliminando sistematicamente desperdícios. Opera com menos recursos (estoque, espaço, mão de obra) e maior flexibilidade, produzindo exatamente o necessério no momento necessério.",
 
           "topicos": [
 
-            "Sistema Toyota de Produ├º├úo",
+            "Sistema Toyota de Produção",
 
             "Valor sob perspectiva do cliente",
 
             "Fluxo puxado",
 
-            "Melhoria cont├¡nua"
+            "Melhoria contínua"
 
           ],
 
@@ -1209,11 +1209,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Transforma├º├úo lean em ind├║strias de manufatura",
+            "Transformação lean em indústrias de manufatura",
 
-            "Redu├º├úo de lead time em processos",
+            "Redução de lead time em processos",
 
-            "Implementa├º├úo de c├®lulas de produ├º├úo"
+            "Implementação de células de produção"
 
           ]
 
@@ -1221,13 +1221,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Elimina├º├úo dos 8 desperd├¡cios (Muda)",
+          "titulo": "Eliminação dos 8 desperdícios (Muda)",
 
-          "definicao": "Identifica├º├úo e remo├º├úo das oito categorias de atividades que n├úo agregam valor: superprodu├º├úo, espera, transporte, excesso de processamento, estoque, movimenta├º├úo, defeitos e talento subutilizado. O acr├┤nimo DOWNTIME resume cada desperd├¡cio.",
+          "definicao": "Identificação e remoção das oito categorias de atividades que não agregam valor: superprodução, espera, transporte, excesso de processamento, estoque, movimentação, defeitos e talento subutilizado. O acrônimo DOWNTIME resume cada desperdício.",
 
           "topicos": [
 
-            "Superprodu├º├úo",
+            "Superprodução",
 
             "Espera",
 
@@ -1237,7 +1237,7 @@ window.SITE_DATA = {
 
             "Estoque excessivo",
 
-            "Movimenta├º├úo",
+            "Movimentação",
 
             "Defeitos",
 
@@ -1249,11 +1249,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Mapeamento de desperd├¡cios em linhas de montagem",
+            "Mapeamento de desperdícios em linhas de montagem",
 
-            "Redu├º├úo de movimenta├º├úo em almoxarifados",
+            "Redução de movimentação em almoxarifados",
 
-            "Elimina├º├úo de esperas em processos administrativos"
+            "Eliminação de esperas em processos administrativos"
 
           ]
 
@@ -1263,11 +1263,11 @@ window.SITE_DATA = {
 
           "titulo": "Just in Time (JIT)",
 
-          "definicao": "Pilar do Lean Manufacturing que preconiza produzir apenas o necess├írio, na quantidade necess├íria e no momento necess├írio. Elimina estoques intermedi├írios, reduz lead times e exp├Áe problemas ocultos no fluxo produtivo atrav├®s da redu├º├úo dos estoques de prote├º├úo.",
+          "definicao": "Pilar do Lean Manufacturing que preconiza produzir apenas o necessério, na quantidade necesséria e no momento necessério. Elimina estoques intermediérios, reduz lead times e expõe problemas ocultos no fluxo produtivo através da redução dos estoques de proteção.",
 
           "topicos": [
 
-            "Fluxo cont├¡nuo",
+            "Fluxo contínuo",
 
             "Takt time",
 
@@ -1283,9 +1283,9 @@ window.SITE_DATA = {
 
             "Abastecimento sincronizado de linhas de montagem",
 
-            "Produ├º├úo sob demanda em ind├║stria de eletr├┤nicos",
+            "Produção sob demanda em indústria de eletrônicos",
 
-            "Redu├º├úo dr├ística de WIP"
+            "Redução dréstica de WIP"
 
           ]
 
@@ -1295,29 +1295,29 @@ window.SITE_DATA = {
 
           "titulo": "Kanban",
 
-          "definicao": "Sistema visual de sinaliza├º├úo que controla o fluxo de materiais e a produ├º├úo por meio de cart├Áes ou sinais eletr├┤nicos. Opera como um sistema puxado: cada processo retira do anterior somente o que precisa, na quantidade indicada pelo kanban.",
+          "definicao": "Sistema visual de sinalização que controla o fluxo de materiais e a produção por meio de cartões ou sinais eletrônicos. Opera como um sistema puxado: cada processo retira do anterior somente o que precisa, na quantidade indicada pelo kanban.",
 
           "topicos": [
 
-            "Kanban de produ├º├úo",
+            "Kanban de produção",
 
-            "Kanban de movimenta├º├úo",
+            "Kanban de movimentação",
 
-            "Cart├úo kanban",
+            "Cartão kanban",
 
             "Loop kanban"
 
           ],
 
-          "formula": "N┬║ kanbans = (D ├ù L ├ù (1 + S)) / Q",
+          "formula": "N┬║ kanbans = (D ú L ú (1 + S)) / Q",
 
           "aplicacoes": [
 
-            "Abastecimento de linhas na ind├║stria automotiva",
+            "Abastecimento de linhas na indústria automotiva",
 
-            "Gest├úo visual de estoques intermedi├írios",
+            "Gestão visual de estoques intermediérios",
 
-            "Sinaliza├º├úo de reposi├º├úo em supermercados"
+            "Sinalização de reposição em supermercados"
 
           ]
 
@@ -1325,9 +1325,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Heijunka ÔÇö Nivelamento da produ├º├úo",
+          "titulo": "Heijunka ÔÇö Nivelamento da produção",
 
-          "definicao": "T├®cnica de nivelamento do volume e mix de produ├º├úo para absorver flutua├º├Áes de demanda sem gerar picos de produ├º├úo ou estoques excessivos. Distribui a produ├º├úo de diferentes modelos em pequenos lotes ao longo do dia, estabilizando a carga de trabalho.",
+          "definicao": "Técnica de nivelamento do volume e mix de produção para absorver flutuações de demanda sem gerar picos de produção ou estoques excessivos. Distribui a produção de diferentes modelos em pequenos lotes ao longo do dia, estabilizando a carga de trabalho.",
 
           "topicos": [
 
@@ -1335,9 +1335,9 @@ window.SITE_DATA = {
 
             "Caixa Heijunka",
 
-            "Produ├º├úo em pequenos lotes",
+            "Produção em pequenos lotes",
 
-            "Pico de produ├º├úo"
+            "Pico de produção"
 
           ],
 
@@ -1347,9 +1347,9 @@ window.SITE_DATA = {
 
             "Nivelamento de modelos em montadoras",
 
-            "Programa├º├úo nivelada em ind├║stria de alimentos",
+            "Programação nivelada em indústria de alimentos",
 
-            "Redu├º├úo de flutua├º├úo na carga fabril"
+            "Redução de flutuação na carga fabril"
 
           ]
 
@@ -1357,19 +1357,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Jidoka ÔÇö Automa├º├úo com toque humano",
+          "titulo": "Jidoka ÔÇö Automação com toque humano",
 
-          "definicao": "Segundo pilar do Lean, confere ├ás m├íquinas e operadores a capacidade de detectar anormalidades e parar imediatamente a produ├º├úo, evitando a gera├º├úo de defeitos em s├®rie. Significa \"automa├º├úo com intelig├¬ncia humana\", combinando m├íquina e autonomia.",
+          "definicao": "Segundo pilar do Lean, confere ás méquinas e operadores a capacidade de detectar anormalidades e parar imediatamente a produção, evitando a geração de defeitos em série. Significa \"automação com inteligência humana\", combinando méquina e autonomia.",
 
           "topicos": [
 
-            "Parada autom├ítica",
+            "Parada automética",
 
             "Andon",
 
             "Poka-yoke",
 
-            "Separa├º├úo homem-m├íquina"
+            "Separação homem-méquina"
 
           ],
 
@@ -1381,7 +1381,7 @@ window.SITE_DATA = {
 
             "Sistemas de parada por torque em montagem",
 
-            "Detec├º├úo autom├ítica de n├úo conformidades"
+            "Detecção automética de não conformidades"
 
           ]
 
@@ -1391,17 +1391,17 @@ window.SITE_DATA = {
 
           "titulo": "Andon",
 
-          "definicao": "Sistema de sinaliza├º├úo visual e sonora que alerta sobre anormalidades na linha de produ├º├úo, permitindo parada imediata para corre├º├úo. Geralmente usa pain├®is luminosos com cores (verde = normal, amarelo = alerta, vermelho = parada) para comunica├º├úo em tempo real.",
+          "definicao": "Sistema de sinalização visual e sonora que alerta sobre anormalidades na linha de produção, permitindo parada imediata para correção. Geralmente usa painéis luminosos com cores (verde = normal, amarelo = alerta, vermelho = parada) para comunicação em tempo real.",
 
           "topicos": [
 
             "Painel visual",
 
-            "Sinaliza├º├úo de problemas",
+            "Sinalização de problemas",
 
             "Parada de linha",
 
-            "Resposta r├ípida"
+            "Resposta répida"
 
           ],
 
@@ -1409,11 +1409,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Ch├úo de f├íbrica automotivo",
+            "Chão de fébrica automotivo",
 
-            "Linhas de montagem de eletrodom├®sticos",
+            "Linhas de montagem de eletrodomésticos",
 
-            "Sistemas de chamada de manuten├º├úo"
+            "Sistemas de chamada de manutenção"
 
           ]
 
@@ -1423,29 +1423,29 @@ window.SITE_DATA = {
 
           "titulo": "Takt Time",
 
-          "definicao": "Ritmo de produ├º├úo necess├írio para atender ├á demanda do cliente no tempo dispon├¡vel. ├ë a frequ├¬ncia com que uma pe├ºa ou produto deve ser produzido para sincronizar a produ├º├úo com as vendas. Serve como refer├¬ncia para o balanceamento de linhas.",
+          "definicao": "Ritmo de produção necessério para atender á demanda do cliente no tempo disponível. ë a frequência com que uma peça ou produto deve ser produzido para sincronizar a produção com as vendas. Serve como referência para o balanceamento de linhas.",
 
           "topicos": [
 
             "Ritmo da demanda",
 
-            "Tempo dispon├¡vel vs necess├írio",
+            "Tempo disponível vs necessério",
 
-            "Sincroniza├º├úo produ├º├úo-venda",
+            "Sincronização produção-venda",
 
             "Balanceamento"
 
           ],
 
-          "formula": "Takt Time = Tempo Dispon├¡vel / Demanda do Cliente",
+          "formula": "Takt Time = Tempo Disponível / Demanda do Cliente",
 
           "aplicacoes": [
 
-            "Dimensionamento de linhas de produ├º├úo",
+            "Dimensionamento de linhas de produção",
 
-            "Defini├º├úo do n├║mero de operadores necess├írios",
+            "Definição do número de operadores necessérios",
 
-            "Avalia├º├úo se a f├íbrica atende ao volume demandado"
+            "Avaliação se a fébrica atende ao volume demandado"
 
           ]
 
@@ -1455,13 +1455,13 @@ window.SITE_DATA = {
 
           "titulo": "Tempo de ciclo",
 
-          "definicao": "Intervalo de tempo entre a produ├º├úo de duas unidades consecutivas em um processo produtivo. Representa a capacidade real da opera├º├úo e deve ser menor ou igual ao takt time para que a demanda seja atendida sem atrasos.",
+          "definicao": "Intervalo de tempo entre a produção de duas unidades consecutivas em um processo produtivo. Representa a capacidade real da operação e deve ser menor ou igual ao takt time para que a demanda seja atendida sem atrasos.",
 
           "topicos": [
 
-            "Tempo de opera├º├úo",
+            "Tempo de operação",
 
-            "Tempo de m├íquina",
+            "Tempo de méquina",
 
             "Tempo de setup",
 
@@ -1469,15 +1469,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Tempo de Ciclo = Tempo Total de Opera├º├úo / N┬║ de Pe├ºas Produzidas",
+          "formula": "Tempo de Ciclo = Tempo Total de Operação / N┬║ de Peças Produzidas",
 
           "aplicacoes": [
 
-            "Medi├º├úo de produtividade em c├®lulas de manufatura",
+            "Medição de produtividade em células de manufatura",
 
-            "Compara├º├úo com takt time para identificar gargalos",
+            "Comparação com takt time para identificar gargalos",
 
-            "An├ílise de capacidade de equipamentos"
+            "Anélise de capacidade de equipamentos"
 
           ]
 
@@ -1485,17 +1485,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Fluxo cont├¡nuo",
+          "titulo": "Fluxo contínuo",
 
-          "definicao": "Estado ideal da produ├º├úo enxuta no qual os produtos se movem de uma etapa para a seguinte sem paradas, filas ou estoques intermedi├írios. Cada pe├ºa ├® processada e imediatamente transferida ├á pr├│xima opera├º├úo, reduzindo drasticamente o lead time total.",
+          "definicao": "Estado ideal da produção enxuta no qual os produtos se movem de uma etapa para a seguinte sem paradas, filas ou estoques intermediérios. Cada peça é processada e imediatamente transferida á próxima operação, reduzindo drasticamente o lead time total.",
 
           "topicos": [
 
-            "C├®lulas em U",
+            "Células em U",
 
             "One-piece flow",
 
-            "Redu├º├úo de WIP",
+            "Redução de WIP",
 
             "Layout enxuto"
 
@@ -1505,11 +1505,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reorganiza├º├úo de layout em c├®lulas de manufatura",
+            "Reorganização de layout em células de manufatura",
 
-            "Elimina├º├úo de transportes entre processos",
+            "Eliminação de transportes entre processos",
 
-            "Fluxo unit├írio em montagem de componentes"
+            "Fluxo unitério em montagem de componentes"
 
           ]
 
@@ -1519,7 +1519,7 @@ window.SITE_DATA = {
 
           "titulo": "Value Stream Mapping (VSM)",
 
-          "definicao": "Ferramenta de mapeamento que representa visualmente todo o fluxo de materiais e informa├º├Áes desde o fornecedor at├® o cliente final. Identifica atividades que agregam e que n├úo agregam valor, servindo como guia para o projeto do estado futuro enxuto.",
+          "definicao": "Ferramenta de mapeamento que representa visualmente todo o fluxo de materiais e informações desde o fornecedor até o cliente final. Identifica atividades que agregam e que não agregam valor, servindo como guia para o projeto do estado futuro enxuto.",
 
           "topicos": [
 
@@ -1527,7 +1527,7 @@ window.SITE_DATA = {
 
             "Estado futuro",
 
-            "├ìcones VSM",
+            "ìcones VSM",
 
             "Kaizen bursts"
 
@@ -1537,11 +1537,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Diagn├│stico de fluxo produtivo em f├íbricas",
+            "Diagnóstico de fluxo produtivo em fébricas",
 
-            "Identifica├º├úo de desperd├¡cios ocultos",
+            "Identificação de desperdícios ocultos",
 
-            "Plano de transforma├º├úo lean"
+            "Plano de transformação lean"
 
           ]
 
@@ -1551,17 +1551,17 @@ window.SITE_DATA = {
 
           "titulo": "Trabalho padronizado",
 
-          "definicao": "Documenta├º├úo detalhada e padroniza├º├úo da melhor sequ├¬ncia de opera├º├Áes conhecida para cada atividade produtiva. Estabelece o m├®todo seguro, eficiente e reprodut├¡vel que serve como base para o kaizen e a garantia da qualidade consistente.",
+          "definicao": "Documentação detalhada e padronização da melhor sequência de operações conhecida para cada atividade produtiva. Estabelece o método seguro, eficiente e reprodutível que serve como base para o kaizen e a garantia da qualidade consistente.",
 
           "topicos": [
 
-            "Folha de opera├º├úo padr├úo",
+            "Folha de operação padrão",
 
-            "Tempo padr├úo",
+            "Tempo padrão",
 
-            "Sequ├¬ncia padronizada",
+            "Sequência padronizada",
 
-            "Estoque padr├úo"
+            "Estoque padrão"
 
           ],
 
@@ -1569,7 +1569,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Cria├º├úo de instru├º├Áes de trabalho em linhas de montagem",
+            "Criação de instruções de trabalho em linhas de montagem",
 
             "Treinamento de novos operadores",
 
@@ -1581,19 +1581,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "SMED ÔÇö Troca R├ípida de Ferramentas",
+          "titulo": "SMED ÔÇö Troca Répida de Ferramentas",
 
-          "definicao": "Metodologia para reduzir o tempo de setup de m├íquinas e equipamentos a menos de 10 minutos. Separa as atividades de setup interno (com m├íquina parada) de externo (com m├íquina operando), convertendo atividades internas em externas para minimizar paradas.",
+          "definicao": "Metodologia para reduzir o tempo de setup de méquinas e equipamentos a menos de 10 minutos. Separa as atividades de setup interno (com méquina parada) de externo (com méquina operando), convertendo atividades internas em externas para minimizar paradas.",
 
           "topicos": [
 
             "Setup interno e externo",
 
-            "Opera├º├Áes paralelas",
+            "Operações paralelas",
 
-            "Padroniza├º├úo de ferramentas",
+            "Padronização de ferramentas",
 
-            "Cunhas e dispositivos de fixa├º├úo r├ípida"
+            "Cunhas e dispositivos de fixação répida"
 
           ],
 
@@ -1601,11 +1601,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de setup em prensas hidr├íulicas",
+            "Redução de setup em prensas hidréulicas",
 
-            "Troca r├ípida em m├íquinas injetoras",
+            "Troca répida em méquinas injetoras",
 
-            "Flexibiliza├º├úo de linhas de envase"
+            "Flexibilização de linhas de envase"
 
           ]
 
@@ -1613,15 +1613,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "TPM ÔÇö Manuten├º├úo Produtiva Total",
+          "titulo": "TPM ÔÇö Manutenção Produtiva Total",
 
-          "definicao": "Programa de manuten├º├úo que envolve todos os colaboradores na maximiza├º├úo da efici├¬ncia dos equipamentos. Busca zero quebra, zero defeito e zero acidente por meio de manuten├º├úo aut├┤noma, manuten├º├úo planejada e treinamento cont├¡nuo.",
+          "definicao": "Programa de manutenção que envolve todos os colaboradores na maximização da eficiência dos equipamentos. Busca zero quebra, zero defeito e zero acidente por meio de manutenção autônoma, manutenção planejada e treinamento contínuo.",
 
           "topicos": [
 
-            "Manuten├º├úo aut├┤noma",
+            "Manutenção autônoma",
 
-            "Manuten├º├úo planejada",
+            "Manutenção planejada",
 
             "OEE",
 
@@ -1629,15 +1629,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "OEE = Disponibilidade ├ù Performance ├ù Qualidade",
+          "formula": "OEE = Disponibilidade ú Performance ú Qualidade",
 
           "aplicacoes": [
 
-            "Programas TPM em ind├║strias de processo cont├¡nuo",
+            "Programas TPM em indústrias de processo contínuo",
 
-            "Aumento de vida ├║til de m├íquinas ferramenta",
+            "Aumento de vida útil de méquinas ferramenta",
 
-            "Redu├º├úo de paradas n├úo planejadas"
+            "Redução de paradas não planejadas"
 
           ]
 
@@ -1645,19 +1645,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo visual",
+          "titulo": "Gestão visual",
 
-          "definicao": "Conjunto de pr├íticas que tornam as informa├º├Áes do processo vis├¡veis, intuitivas e acess├¡veis a todos no ambiente de trabalho. Quadros kanban, pain├®is andon, marca├º├Áes de piso (shadow boards) e gr├íficos de desempenho s├úo exemplos t├¡picos.",
+          "definicao": "Conjunto de préticas que tornam as informações do processo visíveis, intuitivas e acessíveis a todos no ambiente de trabalho. Quadros kanban, painéis andon, marcações de piso (shadow boards) e gréficos de desempenho são exemplos típicos.",
 
           "topicos": [
 
-            "Pain├®is de indicadores",
+            "Painéis de indicadores",
 
             "Shadow boards",
 
-            "Sinaliza├º├úo de ch├úo",
+            "Sinalização de chão",
 
-            "Quadros de gest├úo ├á vista"
+            "Quadros de gestão á vista"
 
           ],
 
@@ -1665,11 +1665,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de indicadores em reuni├Áes di├írias",
+            "Gestão de indicadores em reuniões diérias",
 
-            "Organiza├º├úo visual de ferramentas",
+            "Organização visual de ferramentas",
 
-            "Acompanhamento de produ├º├úo em tempo real"
+            "Acompanhamento de produção em tempo real"
 
           ]
 
@@ -1679,11 +1679,11 @@ window.SITE_DATA = {
 
           "titulo": "Mura e Muri",
 
-          "definicao": "Mura representa a varia├º├úo ou desn├¡vel no ritmo de produ├º├úo que causa desbalanceamento e superlota├º├úo entre processos. Muri significa sobrecarga de equipamentos ou operadores al├®m dos limites razo├íveis. Ambos geram desperd├¡cios e devem ser eliminados junto com o muda.",
+          "definicao": "Mura representa a variação ou desnível no ritmo de produção que causa desbalanceamento e superlotação entre processos. Muri significa sobrecarga de equipamentos ou operadores além dos limites razoéveis. Ambos geram desperdícios e devem ser eliminados junto com o muda.",
 
           "topicos": [
 
-            "Varia├º├úo de demanda",
+            "Variação de demanda",
 
             "Sobrecarga de trabalho",
 
@@ -1699,9 +1699,9 @@ window.SITE_DATA = {
 
             "Nivelamento de carga de trabalho",
 
-            "Redu├º├úo de horas extras excessivas",
+            "Redução de horas extras excessivas",
 
-            "Preven├º├úo de les├Áes por esfor├ºo repetitivo"
+            "Prevenção de lesões por esforço repetitivo"
 
           ]
 
@@ -1711,17 +1711,17 @@ window.SITE_DATA = {
 
           "titulo": "Gemba Walk",
 
-          "definicao": "Pr├ítica de lideran├ºa em que gestores v├úo at├® o gemba (local real onde o valor ├® criado) para observar processos, fazer perguntas e identificar oportunidades de melhoria. N├úo ├® inspe├º├úo, mas uma forma de respeito e apoio ao time operacional.",
+          "definicao": "Prética de liderança em que gestores vão até o gemba (local real onde o valor é criado) para observar processos, fazer perguntas e identificar oportunidades de melhoria. Não é inspeção, mas uma forma de respeito e apoio ao time operacional.",
 
           "topicos": [
 
-            "Observa├º├úo no ch├úo de f├íbrica",
+            "Observação no chão de fébrica",
 
-            "Lideran├ºa lean",
+            "Liderança lean",
 
             "Conversa com operadores",
 
-            "Identifica├º├úo de desperd├¡cios"
+            "Identificação de desperdícios"
 
           ],
 
@@ -1729,11 +1729,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rotina de gest├úo di├íria em ind├║strias",
+            "Rotina de gestão diéria em indústrias",
 
-            "Identifica├º├úo de anormalidades no posto de trabalho",
+            "Identificação de anormalidades no posto de trabalho",
 
-            "Desenvolvimento de lideran├ºa lean"
+            "Desenvolvimento de liderança lean"
 
           ]
 
@@ -1743,7 +1743,7 @@ window.SITE_DATA = {
 
           "titulo": "Hoshin Kanri",
 
-          "definicao": "M├®todo de desdobramento da estrat├®gia organizacional em metas e planos de a├º├úo em todos os n├¡veis hier├írquicos. Alinha a dire├º├úo estrat├®gica com a execu├º├úo operacional usando o conceito de catchball para garantir o comprometimento de toda a organiza├º├úo.",
+          "definicao": "Método de desdobramento da estratégia organizacional em metas e planos de ação em todos os níveis hierérquicos. Alinha a direção estratégica com a execução operacional usando o conceito de catchball para garantir o comprometimento de toda a organização.",
 
           "topicos": [
 
@@ -1753,7 +1753,7 @@ window.SITE_DATA = {
 
             "Catchball",
 
-            "Revis├úo peri├│dica"
+            "Revisão periódica"
 
           ],
 
@@ -1763,9 +1763,9 @@ window.SITE_DATA = {
 
             "Desdobramento de metas anuais em plantas fabris",
 
-            "Alinhamento estrat├®gico de indicadores",
+            "Alinhamento estratégico de indicadores",
 
-            "Gest├úo por diretrizes em grupos empresariais"
+            "Gestão por diretrizes em grupos empresariais"
 
           ]
 
@@ -1773,15 +1773,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Relat├│rio A3",
+          "titulo": "Relatório A3",
 
-          "definicao": "Ferramenta padronizada de solu├º├úo de problemas estruturada em uma ├║nica folha A3, contendo: contexto, estado atual, an├ílise de causas, estado futuro, plano de a├º├úo e indicadores. Promove pensamento estruturado, concis├úo e foco no m├®todo PDCA.",
+          "definicao": "Ferramenta padronizada de solução de problemas estruturada em uma única folha A3, contendo: contexto, estado atual, anélise de causas, estado futuro, plano de ação e indicadores. Promove pensamento estruturado, concisão e foco no método PDCA.",
 
           "topicos": [
 
             "A3 de proposta",
 
-            "A3 de solu├º├úo de problemas",
+            "A3 de solução de problemas",
 
             "A3 de status",
 
@@ -1793,11 +1793,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Documenta├º├úo de projetos de melhoria",
+            "Documentação de projetos de melhoria",
 
-            "An├ílise de desvios de qualidade",
+            "Anélise de desvios de qualidade",
 
-            "Propostas de investimento e mudan├ºa"
+            "Propostas de investimento e mudança"
 
           ]
 
@@ -1807,17 +1807,17 @@ window.SITE_DATA = {
 
           "titulo": "Chaku-Chaku",
 
-          "definicao": "M├®todo de opera├º├úo em que o operador carrega e descarrega pe├ºas em m├║ltiplas m├íquinas dispostas em sequ├¬ncia, caminhando de uma ├á outra. Cada m├íquina processa automaticamente ap├│s o carregamento, permitindo que um operador alimente v├írias m├íquinas simultaneamente.",
+          "definicao": "Método de operação em que o operador carrega e descarrega peças em múltiplas méquinas dispostas em sequência, caminhando de uma á outra. Cada méquina processa automaticamente após o carregamento, permitindo que um operador alimente vérias méquinas simultaneamente.",
 
           "topicos": [
 
-            "C├®lula em U",
+            "Célula em U",
 
             "Multifuncionalidade",
 
-            "Automa├º├úo de ciclo",
+            "Automação de ciclo",
 
-            "Separa├º├úo homem-m├íquina"
+            "Separação homem-méquina"
 
           ],
 
@@ -1825,11 +1825,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├®lulas de usinagem com m├║ltiplos equipamentos",
+            "Células de usinagem com múltiplos equipamentos",
 
-            "Linhas de montagem automatizadas com supervis├úo humana",
+            "Linhas de montagem automatizadas com supervisão humana",
 
-            "Fabrica├º├úo de componentes met├ílicos"
+            "Fabricação de componentes metélicos"
 
           ]
 
@@ -1839,17 +1839,17 @@ window.SITE_DATA = {
 
           "titulo": "Supermercado de linha",
 
-          "definicao": "├ürea de armazenamento descentralizado localizada pr├│xima aos pontos de uso, que opera sob o princ├¡pio do sistema puxado. O processo cliente retira itens do supermercado, e o processo fornecedor rep├Áe exatamente o que foi consumido, gerando um fluxo controlado.",
+          "definicao": "ürea de armazenamento descentralizado localizada próxima aos pontos de uso, que opera sob o princípio do sistema puxado. O processo cliente retira itens do supermercado, e o processo fornecedor repõe exatamente o que foi consumido, gerando um fluxo controlado.",
 
           "topicos": [
 
             "Sistema puxado",
 
-            "Ponto de reposi├º├úo",
+            "Ponto de reposição",
 
             "Kanban de abastecimento",
 
-            "Gest├úo visual de estoque"
+            "Gestão visual de estoque"
 
           ],
 
@@ -1859,9 +1859,9 @@ window.SITE_DATA = {
 
             "Abastecimento de componentes em linhas de montagem",
 
-            "Estoque descentralizado em c├®lulas de produ├º├úo",
+            "Estoque descentralizado em células de produção",
 
-            "Reposi├º├úo puxada em almoxarifados"
+            "Reposição puxada em almoxarifados"
 
           ]
 
@@ -1882,13 +1882,13 @@ window.SITE_DATA = {
 
       "id": "logistica",
 
-      "nome": "Log├¡stica",
+      "nome": "Logística",
 
       "icone": "truck",
 
       "cor": "#7c3aed",
 
-      "descricao": "Transporte, distribui├º├úo, armazenagem e gest├úo log├¡stica integrada.",
+      "descricao": "Transporte, distribuição, armazenagem e gestão logística integrada.",
 
       "subtopicos": [
 
@@ -1896,15 +1896,15 @@ window.SITE_DATA = {
 
           "titulo": "Transporte e modais",
 
-          "definicao": "Atividade log├¡stica que movimenta materiais e produtos entre pontos da cadeia de suprimentos. Os principais modais s├úo: rodovi├írio (mais flex├¡vel no Brasil), ferrovi├írio (grandes volumes), aquavi├írio (baixo custo), a├®reo (alta velocidade) e dutovi├írio (fluxo cont├¡nuo).",
+          "definicao": "Atividade logística que movimenta materiais e produtos entre pontos da cadeia de suprimentos. Os principais modais são: rodoviério (mais flexível no Brasil), ferroviério (grandes volumes), aquaviério (baixo custo), aéreo (alta velocidade) e dutoviério (fluxo contínuo).",
 
           "topicos": [
 
-            "Modal rodovi├írio",
+            "Modal rodoviério",
 
-            "Modal ferrovi├írio",
+            "Modal ferroviério",
 
-            "Modal aquavi├írio",
+            "Modal aquaviério",
 
             "Multimodalidade e intermodalidade"
 
@@ -1914,9 +1914,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Sele├º├úo de modal para exporta├º├úo de gr├úos",
+            "Seleção de modal para exportação de grãos",
 
-            "Distribui├º├úo urbana de encomendas",
+            "Distribuição urbana de encomendas",
 
             "Transporte de cargas perigosas"
 
@@ -1926,19 +1926,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Distribui├º├úo f├¡sica",
+          "titulo": "Distribuição física",
 
-          "definicao": "Conjunto de opera├º├Áes respons├íveis por disponibilizar o produto acabado ao consumidor final no local e momento certos. Envolve armazenagem, gest├úo de pedidos, separa├º├úo, carregamento e transporte de entrega, sendo o elo final entre a produ├º├úo e o mercado.",
+          "definicao": "Conjunto de operações responséveis por disponibilizar o produto acabado ao consumidor final no local e momento certos. Envolve armazenagem, gestão de pedidos, separação, carregamento e transporte de entrega, sendo o elo final entre a produção e o mercado.",
 
           "topicos": [
 
-            "Canais de distribui├º├úo",
+            "Canais de distribuição",
 
-            "Centros de distribui├º├úo",
+            "Centros de distribuição",
 
             "Entregas last mile",
 
-            "N├¡vel de servi├ºo"
+            "Nível de serviço"
 
           ],
 
@@ -1946,11 +1946,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de rede de distribui├º├úo regional",
+            "Estruturação de rede de distribuição regional",
 
-            "Otimiza├º├úo de rotas de entrega",
+            "Otimização de rotas de entrega",
 
-            "Estrat├®gias de distribui├º├úo direta vs indireta"
+            "Estratégias de distribuição direta vs indireta"
 
           ]
 
@@ -1958,19 +1958,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Armazenagem e centros de distribui├º├úo",
+          "titulo": "Armazenagem e centros de distribuição",
 
-          "definicao": "Atividades de guarda organizada de materiais e produtos em instala├º├Áes planejadas, combinando espa├ºos f├¡sicos, equipamentos de movimenta├º├úo e sistemas de informa├º├úo. Centros de distribui├º├úo s├úo armaz├®ns focalizados na r├ípida movimenta├º├úo e expedi├º├úo de produtos.",
+          "definicao": "Atividades de guarda organizada de materiais e produtos em instalações planejadas, combinando espaços físicos, equipamentos de movimentação e sistemas de informação. Centros de distribuição são armazéns focalizados na répida movimentação e expedição de produtos.",
 
           "topicos": [
 
-            "Layout de armaz├®m",
+            "Layout de armazém",
 
-            "Endere├ºamento",
+            "Endereçamento",
 
-            "Equipamentos de movimenta├º├úo",
+            "Equipamentos de movimentação",
 
-            "Gest├úo por zonas"
+            "Gestão por zonas"
 
           ],
 
@@ -1980,9 +1980,9 @@ window.SITE_DATA = {
 
             "Projeto de layout de CD",
 
-            "Dimensionamento de ├íreas de armazenagem",
+            "Dimensionamento de éreas de armazenagem",
 
-            "Automa├º├úo de armaz├®ns com esteiras e sorters"
+            "Automação de armazéns com esteiras e sorters"
 
           ]
 
@@ -1992,11 +1992,11 @@ window.SITE_DATA = {
 
           "titulo": "Cross docking",
 
-          "definicao": "Opera├º├úo log├¡stica em que a carga recebida ├® imediatamente transferida para a expedi├º├úo sem passar pela estocagem, reduzindo custos de armazenagem. Pode ser do tipo pr├®-distribu├¡do (carga j├í separada por destino) ou consolidado (reagrupado no CD).",
+          "definicao": "Operação logística em que a carga recebida é imediatamente transferida para a expedição sem passar pela estocagem, reduzindo custos de armazenagem. Pode ser do tipo pré-distribuído (carga jé separada por destino) ou consolidado (reagrupado no CD).",
 
           "topicos": [
 
-            "Cross docking pr├®-distribu├¡do",
+            "Cross docking pré-distribuído",
 
             "Cross docking consolidado",
 
@@ -2010,11 +2010,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Centros de distribui├º├úo de supermercados",
+            "Centros de distribuição de supermercados",
 
-            "Opera├º├Áes de e-commerce com alta rotatividade",
+            "Operações de e-commerce com alta rotatividade",
 
-            "Recebimento e expedi├º├úo sincronizados em montadoras"
+            "Recebimento e expedição sincronizados em montadoras"
 
           ]
 
@@ -2024,7 +2024,7 @@ window.SITE_DATA = {
 
           "titulo": "Milk Run",
 
-          "definicao": "Roteiro de coleta programada em que um ve├¡culo passa por m├║ltiplos fornecedores em um trajeto definido para consolidar cargas menores em uma ├║nica viagem at├® a f├íbrica. Reduz custos de frete, frequ├¬ncia de entregas e estoque em tr├ónsito.",
+          "definicao": "Roteiro de coleta programada em que um veículo passa por múltiplos fornecedores em um trajeto definido para consolidar cargas menores em uma única viagem até a fébrica. Reduz custos de frete, frequência de entregas e estoque em trônsito.",
 
           "topicos": [
 
@@ -2032,7 +2032,7 @@ window.SITE_DATA = {
 
             "Janela de tempo",
 
-            "Consolida├º├úo de cargas",
+            "Consolidação de cargas",
 
             "Abastecimento JIT"
 
@@ -2046,7 +2046,7 @@ window.SITE_DATA = {
 
             "Coleta de insumos de fornecedores regionais",
 
-            "Redu├º├úo de custos log├¡sticos inbound"
+            "Redução de custos logísticos inbound"
 
           ]
 
@@ -2054,19 +2054,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de frotas",
+          "titulo": "Gestão de frotas",
 
-          "definicao": "Administra├º├úo dos ve├¡culos utilizados no transporte de cargas, incluindo aquisi├º├úo, manuten├º├úo, controle de custos, roteiriza├º├úo e monitoramento. Busca maximizar a disponibilidade e produtividade dos ve├¡culos enquanto minimiza custos operacionais e de combust├¡vel.",
+          "definicao": "Administração dos veículos utilizados no transporte de cargas, incluindo aquisição, manutenção, controle de custos, roteirização e monitoramento. Busca maximizar a disponibilidade e produtividade dos veículos enquanto minimiza custos operacionais e de combustível.",
 
           "topicos": [
 
             "Rastreamento veicular",
 
-            "Manuten├º├úo preventiva",
+            "Manutenção preventiva",
 
             "Custo por km rodado",
 
-            "Renova├º├úo de frota"
+            "Renovação de frota"
 
           ],
 
@@ -2074,11 +2074,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de frotas de entregas urbanas",
+            "Gestão de frotas de entregas urbanas",
 
-            "Monitoramento de caminh├Áes via telemetria",
+            "Monitoramento de caminhões via telemetria",
 
-            "Planejamento de manuten├º├úo com base em horas"
+            "Planejamento de manutenção com base em horas"
 
           ]
 
@@ -2088,29 +2088,29 @@ window.SITE_DATA = {
 
           "titulo": "Fretes e tabelas de frete",
 
-          "definicao": "Sistema de precifica├º├úo do transporte de cargas, que considera vari├íveis como dist├óncia, peso, cubicagem, tipo de carga e prazo. As tabelas de frete definem os valores de refer├¬ncia e podem ser negociadas entre embarcadores e transportadoras.",
+          "definicao": "Sistema de precificação do transporte de cargas, que considera variéveis como distôncia, peso, cubicagem, tipo de carga e prazo. As tabelas de frete definem os valores de referência e podem ser negociadas entre embarcadores e transportadoras.",
 
           "topicos": [
 
             "Frete peso vs frete valor",
 
-            "Ped├ígio e taxa de risco",
+            "Pedégio e taxa de risco",
 
             "Tabela ANTT",
 
-            "Negocia├º├úo de fretes"
+            "Negociação de fretes"
 
           ],
 
-          "formula": "Frete = (Dist├óncia ├ù Custo Vari├ível) + Custo Fixo + Margem",
+          "formula": "Frete = (Distôncia ú Custo Variével) + Custo Fixo + Margem",
 
           "aplicacoes": [
 
-            "C├ílculo de frete para or├ºamentos",
+            "Célculo de frete para orçamentos",
 
-            "Compara├º├úo entre transportadoras",
+            "Comparação entre transportadoras",
 
-            "An├ílise de rentabilidade de cargas"
+            "Anélise de rentabilidade de cargas"
 
           ]
 
@@ -2118,19 +2118,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Cadeia log├¡stica integrada",
+          "titulo": "Cadeia logística integrada",
 
-          "definicao": "Vis├úo sist├¬mica que coordena e integra todos os fluxos log├¡sticos ÔÇö suprimentos, produ├º├úo e distribui├º├úo ÔÇö como um ├║nico sistema. Busca eliminar silos funcionais, compartilhar informa├º├Áes em tempo real e otimizar o desempenho global da cadeia.",
+          "definicao": "Visão sistêmica que coordena e integra todos os fluxos logísticos ÔÇö suprimentos, produção e distribuição ÔÇö como um único sistema. Busca eliminar silos funcionais, compartilhar informações em tempo real e otimizar o desempenho global da cadeia.",
 
           "topicos": [
 
-            "Integra├º├úo supply chain",
+            "Integração supply chain",
 
-            "Fluxo de informa├º├Áes",
+            "Fluxo de informações",
 
-            "Colabora├º├úo entre elos",
+            "Colaboração entre elos",
 
-            "Indicadores log├¡sticos"
+            "Indicadores logísticos"
 
           ],
 
@@ -2138,11 +2138,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Integra├º├úo entre PCP e log├¡stica de distribui├º├úo",
+            "Integração entre PCP e logística de distribuição",
 
-            "Compartilhamento de previs├úo de demanda com fornecedores",
+            "Compartilhamento de previsão de demanda com fornecedores",
 
-            "Sincroniza├º├úo de opera├º├Áes inbound e outbound"
+            "Sincronização de operações inbound e outbound"
 
           ]
 
@@ -2150,19 +2150,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Log├¡stica reversa",
+          "titulo": "Logística reversa",
 
-          "definicao": "Processo de planejamento e opera├º├úo do fluxo de retorno de produtos, embalagens e materiais do ponto de consumo ao ponto de origem. Visa o reaproveitamento, reciclagem ou descarte adequado, sendo obrigat├│ria por lei em setores como eletroeletr├┤nicos e embalagens.",
+          "definicao": "Processo de planejamento e operação do fluxo de retorno de produtos, embalagens e materiais do ponto de consumo ao ponto de origem. Visa o reaproveitamento, reciclagem ou descarte adequado, sendo obrigatória por lei em setores como eletroeletrônicos e embalagens.",
 
           "topicos": [
 
-            "P├│s-consumo",
+            "Pós-consumo",
 
-            "P├│s-venda",
+            "Pós-venda",
 
             "Centros de triagem",
 
-            "Pol├¡tica Nacional de Res├¡duos S├│lidos"
+            "Política Nacional de Resíduos Sólidos"
 
           ],
 
@@ -2170,11 +2170,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Log├¡stica reversa de embalagens de agrot├│xicos",
+            "Logística reversa de embalagens de agrotóxicos",
 
             "Retorno de produtos defeituosos para recall",
 
-            "Reciclagem de res├¡duos eletr├┤nicos"
+            "Reciclagem de resíduos eletrônicos"
 
           ]
 
@@ -2182,15 +2182,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Log├¡stica internacional",
+          "titulo": "Logística internacional",
 
-          "definicao": "Conjunto de opera├º├Áes de transporte, documenta├º├úo, desembara├ºo aduaneiro e seguros para movimenta├º├úo de mercadorias entre pa├¡ses. Envolve conhecimento especializado em com├®rcio exterior, regimes aduaneiros e acordos comerciais bilaterais e multilaterais.",
+          "definicao": "Conjunto de operações de transporte, documentação, desembaraço aduaneiro e seguros para movimentação de mercadorias entre países. Envolve conhecimento especializado em comércio exterior, regimes aduaneiros e acordos comerciais bilaterais e multilaterais.",
 
           "topicos": [
 
-            "Desembara├ºo aduaneiro",
+            "Desembaraço aduaneiro",
 
-            "Documenta├º├úo internacional",
+            "Documentação internacional",
 
             "Regimes aduaneiros especiais",
 
@@ -2202,11 +2202,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Exporta├º├úo de produtos manufaturados",
+            "Exportação de produtos manufaturados",
 
-            "Importa├º├úo de insumos industriais",
+            "Importação de insumos industriais",
 
-            "Opera├º├Áes de com├®rcio exterior via portos e aeroportos"
+            "Operações de comércio exterior via portos e aeroportos"
 
           ]
 
@@ -2216,7 +2216,7 @@ window.SITE_DATA = {
 
           "titulo": "Incoterms 2024",
 
-          "definicao": "Conjunto de 11 termos padronizados pela C├ómara de Com├®rcio Internacional (CCI) que definem as responsabilidades, riscos e custos entre comprador e vendedor em transa├º├Áes internacionais. Incluem termos para qualquer modal (EXW, FCA, CPT, CIP, DPU, DAP, DDP) e para transporte aquavi├írio (FAS, FOB, CFR, CIF).",
+          "definicao": "Conjunto de 11 termos padronizados pela Cômara de Comércio Internacional (CCI) que definem as responsabilidades, riscos e custos entre comprador e vendedor em transações internacionais. Incluem termos para qualquer modal (EXW, FCA, CPT, CIP, DPU, DAP, DDP) e para transporte aquaviério (FAS, FOB, CFR, CIF).",
 
           "topicos": [
 
@@ -2234,11 +2234,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Defini├º├úo de responsabilidades em contratos de exporta├º├úo",
+            "Definição de responsabilidades em contratos de exportação",
 
-            "C├ílculo de custos log├¡sticos internacionais",
+            "Célculo de custos logísticos internacionais",
 
-            "Negocia├º├úo de riscos entre importador e exportador"
+            "Negociação de riscos entre importador e exportador"
 
           ]
 
@@ -2248,17 +2248,17 @@ window.SITE_DATA = {
 
           "titulo": "WMS ÔÇö Warehouse Management System",
 
-          "definicao": "Sistema de software projetado para controlar e otimizar as opera├º├Áes de armazenagem, incluindo recebimento, endere├ºamento, estocagem, separa├º├úo (picking), embalagem e expedi├º├úo. Integra-se com ERP e utiliza tecnologias como RFID e coletores de dados.",
+          "definicao": "Sistema de software projetado para controlar e otimizar as operações de armazenagem, incluindo recebimento, endereçamento, estocagem, separação (picking), embalagem e expedição. Integra-se com ERP e utiliza tecnologias como RFID e coletores de dados.",
 
           "topicos": [
 
-            "Endere├ºamento din├ómico",
+            "Endereçamento dinômico",
 
             "Picking por onda",
 
-            "Integra├º├úo ERP-WMS",
+            "Integração ERP-WMS",
 
-            "RFID e c├│digo de barras"
+            "RFID e código de barras"
 
           ],
 
@@ -2266,11 +2266,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de grandes centros de distribui├º├úo",
+            "Gestão de grandes centros de distribuição",
 
             "Controle de estoque com rastreabilidade por lote",
 
-            "Otimiza├º├úo de rotas de separa├º├úo"
+            "Otimização de rotas de separação"
 
           ]
 
@@ -2280,15 +2280,15 @@ window.SITE_DATA = {
 
           "titulo": "TMS ÔÇö Transport Management System",
 
-          "definicao": "Sistema de gest├úo de transporte que automatiza o planejamento, execu├º├úo e monitoramento de fretes e entregas. Otimiza carregamentos, seleciona transportadoras, calcula fretes, gera documenta├º├úo e acompanha entregas em tempo real.",
+          "definicao": "Sistema de gestão de transporte que automatiza o planejamento, execução e monitoramento de fretes e entregas. Otimiza carregamentos, seleciona transportadoras, calcula fretes, gera documentação e acompanha entregas em tempo real.",
 
           "topicos": [
 
-            "Roteiriza├º├úo",
+            "Roteirização",
 
-            "Consolida├º├úo de cargas",
+            "Consolidação de cargas",
 
-            "Gest├úo de fretes",
+            "Gestão de fretes",
 
             "Monitoramento de entregas"
 
@@ -2298,9 +2298,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento de rotas de entregas di├írias",
+            "Planejamento de rotas de entregas diérias",
 
-            "Consolida├º├úo de cargas para reduzir fretes",
+            "Consolidação de cargas para reduzir fretes",
 
             "Acompanhamento de performance de transportadoras"
 
@@ -2310,19 +2310,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Roteiriza├º├úo de entregas",
+          "titulo": "Roteirização de entregas",
 
-          "definicao": "Defini├º├úo da sequ├¬ncia de paradas e trajetos mais eficiente para ve├¡culos de entrega, considerando restri├º├Áes como janelas de tempo, capacidade e dist├óncias. Utiliza algoritmos de otimiza├º├úo como o Problema do Caixeiro Viajante (PCV) e VRP (Vehicle Routing Problem).",
+          "definicao": "Definição da sequência de paradas e trajetos mais eficiente para veículos de entrega, considerando restrições como janelas de tempo, capacidade e distôncias. Utiliza algoritmos de otimização como o Problema do Caixeiro Viajante (PCV) e VRP (Vehicle Routing Problem).",
 
           "topicos": [
 
-            "VRP cl├íssico",
+            "VRP cléssico",
 
             "Janelas de tempo",
 
-            "Restri├º├Áes de capacidade",
+            "Restrições de capacidade",
 
-            "Otimiza├º├úo por algoritmos"
+            "Otimização por algoritmos"
 
           ],
 
@@ -2330,11 +2330,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Roteiriza├º├úo de entregas urbanas de bebidas",
+            "Roteirização de entregas urbanas de bebidas",
 
-            "Otimiza├º├úo de frotas de distribui├º├úo de alimentos",
+            "Otimização de frotas de distribuição de alimentos",
 
-            "Planejamento de rotas de servi├ºos de campo"
+            "Planejamento de rotas de serviços de campo"
 
           ]
 
@@ -2342,9 +2342,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Operadores log├¡sticos",
+          "titulo": "Operadores logísticos",
 
-          "definicao": "Empresas prestadoras de servi├ºos log├¡sticos terceirizados (3PL) que oferecem solu├º├Áes integradas de transporte, armazenagem, gest├úo de estoques e servi├ºos de valor agregado. Podem atuar como 4PL quando gerenciam toda a cadeia log├¡stica do contratante.",
+          "definicao": "Empresas prestadoras de serviços logísticos terceirizados (3PL) que oferecem soluções integradas de transporte, armazenagem, gestão de estoques e serviços de valor agregado. Podem atuar como 4PL quando gerenciam toda a cadeia logística do contratante.",
 
           "topicos": [
 
@@ -2352,7 +2352,7 @@ window.SITE_DATA = {
 
             "4PL ÔÇö Fourth Party Logistics",
 
-            "Contratos de presta├º├úo de servi├ºos",
+            "Contratos de prestação de serviços",
 
             "Indicadores SLA"
 
@@ -2362,11 +2362,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Terceiriza├º├úo de opera├º├Áes de CD",
+            "Terceirização de operações de CD",
 
-            "Contrata├º├úo de gest├úo de transporte dedicada",
+            "Contratação de gestão de transporte dedicada",
 
-            "Opera├º├Áes log├¡sticas integradas para e-commerce"
+            "Operações logísticas integradas para e-commerce"
 
           ]
 
@@ -2376,17 +2376,17 @@ window.SITE_DATA = {
 
           "titulo": "Armazenagem a granel",
 
-          "definicao": "Sistema de estocagem de materiais sem embalagem individual, geralmente gr├úos, min├®rios, l├¡quidos ou produtos qu├¡micos. Utiliza silos, tanques, e p├ítios com equipamentos espec├¡ficos para movimenta├º├úo e controle de estoque de materiais a granel.",
+          "definicao": "Sistema de estocagem de materiais sem embalagem individual, geralmente grãos, minérios, líquidos ou produtos químicos. Utiliza silos, tanques, e pétios com equipamentos específicos para movimentação e controle de estoque de materiais a granel.",
 
           "topicos": [
 
             "Silos e tanques",
 
-            "P├ítios de armazenagem",
+            "Pétios de armazenagem",
 
             "Controle de temperatura e umidade",
 
-            "Equipamentos de movimenta├º├úo"
+            "Equipamentos de movimentação"
 
           ],
 
@@ -2394,11 +2394,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Armazenagem de gr├úos em cooperativas agr├¡colas",
+            "Armazenagem de grãos em cooperativas agrícolas",
 
-            "Estocagem de produtos qu├¡micos a granel",
+            "Estocagem de produtos químicos a granel",
 
-            "Armazenagem de min├®rio de ferro em portos"
+            "Armazenagem de minério de ferro em portos"
 
           ]
 
@@ -2408,7 +2408,7 @@ window.SITE_DATA = {
 
           "titulo": "Picking e packing",
 
-          "definicao": "Picking ├® o processo de separa├º├úo e coleta dos itens do estoque para atender aos pedidos dos clientes. Packing ├® a embalagem e prepara├º├úo dos produtos separados para expedi├º├úo. Juntos, representam as opera├º├Áes finais do CD antes do carregamento.",
+          "definicao": "Picking é o processo de separação e coleta dos itens do estoque para atender aos pedidos dos clientes. Packing é a embalagem e preparação dos produtos separados para expedição. Juntos, representam as operações finais do CD antes do carregamento.",
 
           "topicos": [
 
@@ -2418,7 +2418,7 @@ window.SITE_DATA = {
 
             "Picking por voz",
 
-            "Embalagem e consolida├º├úo"
+            "Embalagem e consolidação"
 
           ],
 
@@ -2426,11 +2426,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Separa├º├úo de pedidos em CDs de varejo",
+            "Separação de pedidos em CDs de varejo",
 
-            "Opera├º├Áes de e-commerce com alto volume",
+            "Operações de e-commerce com alto volume",
 
-            "Automa├º├úo de picking com esteiras e rob├┤s"
+            "Automação de picking com esteiras e robôs"
 
           ]
 
@@ -2438,19 +2438,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de armaz├®ns",
+          "titulo": "Gestão de armazéns",
 
-          "definicao": "Supervis├úo e controle das opera├º├Áes di├írias de um armaz├®m ou centro de distribui├º├úo, incluindo recebimento, estocagem, invent├írio, separa├º├úo, expedi├º├úo e seguran├ºa. Integra pessoas, processos e tecnologia para garantir efici├¬ncia, acuracidade e produtividade.",
+          "definicao": "Supervisão e controle das operações diérias de um armazém ou centro de distribuição, incluindo recebimento, estocagem, inventério, separação, expedição e segurança. Integra pessoas, processos e tecnologia para garantir eficiência, acuracidade e produtividade.",
 
           "topicos": [
 
-            "Recebimento e confer├¬ncia",
+            "Recebimento e conferência",
 
-            "Estocagem e endere├ºamento",
+            "Estocagem e endereçamento",
 
-            "Invent├írio rotativo",
+            "Inventério rotativo",
 
-            "Expedi├º├úo e cross-docking"
+            "Expedição e cross-docking"
 
           ],
 
@@ -2458,11 +2458,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rotina de gest├úo de armaz├®ns fabris",
+            "Rotina de gestão de armazéns fabris",
 
-            "Opera├º├úo de CD para distribui├º├úo nacional",
+            "Operação de CD para distribuição nacional",
 
-            "Implementa├º├úo de boas pr├íticas de armazenagem"
+            "Implementação de boas préticas de armazenagem"
 
           ]
 
@@ -2470,9 +2470,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Centros de distribui├º├úo",
+          "titulo": "Centros de distribuição",
 
-          "definicao": "Instala├º├úo log├¡stica projetada para receber grandes volumes de produtos, armazen├í-los temporariamente e redistribu├¡-los em menores quantidades para m├║ltiplos destinos. Diferem de armaz├®ns convencionais pelo foco na r├ípida movimenta├º├úo e rota├º├úo de estoques.",
+          "definicao": "Instalação logística projetada para receber grandes volumes de produtos, armazené-los temporariamente e redistribuí-los em menores quantidades para múltiplos destinos. Diferem de armazéns convencionais pelo foco na répida movimentação e rotação de estoques.",
 
           "topicos": [
 
@@ -2482,7 +2482,7 @@ window.SITE_DATA = {
 
             "CD regional",
 
-            "Automa├º├úo de CD"
+            "Automação de CD"
 
           ],
 
@@ -2492,7 +2492,7 @@ window.SITE_DATA = {
 
             "Rede de CDs de rede varejista",
 
-            "CD de e-commerce para entregas r├ípidas",
+            "CD de e-commerce para entregas répidas",
 
             "Cross-docking em CDs de atacado"
 
@@ -2521,7 +2521,7 @@ window.SITE_DATA = {
 
       "cor": "#0891b2",
 
-      "descricao": "Gest├úo da cadeia de suprimentos, compras e relacionamento com fornecedores.",
+      "descricao": "Gestão da cadeia de suprimentos, compras e relacionamento com fornecedores.",
 
       "subtopicos": [
 
@@ -2529,17 +2529,17 @@ window.SITE_DATA = {
 
           "titulo": "Cadeia de suprimentos integrada",
 
-          "definicao": "Rede interligada de organiza├º├Áes, pessoas, atividades e informa├º├Áes envolvidas no fluxo de produtos e servi├ºos desde os fornecedores de mat├®ria-prima at├® o consumidor final. A gest├úo integrada busca coordenar todos os elos para maximizar o valor gerado ao cliente e reduzir custos totais.",
+          "definicao": "Rede interligada de organizações, pessoas, atividades e informações envolvidas no fluxo de produtos e serviços desde os fornecedores de matéria-prima até o consumidor final. A gestão integrada busca coordenar todos os elos para maximizar o valor gerado ao cliente e reduzir custos totais.",
 
           "topicos": [
 
-            "Integra├º├úo vertical",
+            "Integração vertical",
 
-            "Integra├º├úo horizontal",
+            "Integração horizontal",
 
-            "Parcerias estrat├®gicas",
+            "Parcerias estratégicas",
 
-            "Governan├ºa da cadeia"
+            "Governança da cadeia"
 
           ],
 
@@ -2547,11 +2547,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Coordena├º├úo entre fabricante e rede de distribui├º├úo",
+            "Coordenação entre fabricante e rede de distribuição",
 
-            "Share de informa├º├Áes de demanda com fornecedores",
+            "Share de informações de demanda com fornecedores",
 
-            "Gest├úo colaborativa de estoques (CPFR)"
+            "Gestão colaborativa de estoques (CPFR)"
 
           ]
 
@@ -2561,17 +2561,17 @@ window.SITE_DATA = {
 
           "titulo": "Compras e suprimentos",
 
-          "definicao": "Fun├º├úo organizacional respons├ível pela aquisi├º├úo de materiais, insumos, servi├ºos e equipamentos necess├írios ├á opera├º├úo da empresa. Inclui sele├º├úo de fornecedores, negocia├º├úo, emiss├úo de pedidos e gest├úo de contratos, visando menor custo total e seguran├ºa de abastecimento.",
+          "definicao": "Função organizacional responsével pela aquisição de materiais, insumos, serviços e equipamentos necessérios á operação da empresa. Inclui seleção de fornecedores, negociação, emissão de pedidos e gestão de contratos, visando menor custo total e segurança de abastecimento.",
 
           "topicos": [
 
             "Ciclo de compras",
 
-            "Negocia├º├úo estrat├®gica",
+            "Negociação estratégica",
 
-            "Gest├úo de contratos",
+            "Gestão de contratos",
 
-            "Compras sustent├íveis"
+            "Compras sustentéveis"
 
           ],
 
@@ -2579,11 +2579,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Aquisi├º├úo de mat├®rias-primas para ind├║stria",
+            "Aquisição de matérias-primas para indústria",
 
-            "Compra de servi├ºos de manuten├º├úo",
+            "Compra de serviços de manutenção",
 
-            "E-procurement em grandes organiza├º├Áes"
+            "E-procurement em grandes organizações"
 
           ]
 
@@ -2593,7 +2593,7 @@ window.SITE_DATA = {
 
           "titulo": "Planejamento de materiais",
 
-          "definicao": "Processo de determinar as necessidades futuras de materiais, componentes e insumos para atender ao plano de produ├º├úo. Utiliza dados de demanda, estoques e lead times para calcular as quantidades e momentos de reposi├º├úo, evitando faltas ou excessos.",
+          "definicao": "Processo de determinar as necessidades futuras de materiais, componentes e insumos para atender ao plano de produção. Utiliza dados de demanda, estoques e lead times para calcular as quantidades e momentos de reposição, evitando faltas ou excessos.",
 
           "topicos": [
 
@@ -2601,21 +2601,21 @@ window.SITE_DATA = {
 
             "Bill of Materials (BOM)",
 
-            "Lead time de reposi├º├úo",
+            "Lead time de reposição",
 
-            "Estoque de seguran├ºa"
+            "Estoque de segurança"
 
           ],
 
-          "formula": "Necessidade L├¡quida = Necessidade Bruta ÔêÆ Estoque Dispon├¡vel ÔêÆ Recebimentos Programados",
+          "formula": "Necessidade Líquida = Necessidade Bruta ÔêÆ Estoque Disponível ÔêÆ Recebimentos Programados",
 
           "aplicacoes": [
 
-            "Planejamento de insumos em ind├║stria qu├¡mica",
+            "Planejamento de insumos em indústria química",
 
-            "Gest├úo de materiais indiretos (MRO)",
+            "Gestão de materiais indiretos (MRO)",
 
-            "Abastecimento programado de linhas de produ├º├úo"
+            "Abastecimento programado de linhas de produção"
 
           ]
 
@@ -2623,19 +2623,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de fornecedores",
+          "titulo": "Gestão de fornecedores",
 
-          "definicao": "Conjunto de pr├íticas e processos para gerenciar o relacionamento com fornecedores, desde a sele├º├úo e contrata├º├úo at├® a avalia├º├úo de desempenho e desenvolvimento. Busca construir parcerias de longo prazo baseadas em confian├ºa, qualidade, custo e inova├º├úo.",
+          "definicao": "Conjunto de préticas e processos para gerenciar o relacionamento com fornecedores, desde a seleção e contratação até a avaliação de desempenho e desenvolvimento. Busca construir parcerias de longo prazo baseadas em confiança, qualidade, custo e inovação.",
 
           "topicos": [
 
-            "Segmenta├º├úo de fornecedores",
+            "Segmentação de fornecedores",
 
-            "Avalia├º├úo de desempenho",
+            "Avaliação de desempenho",
 
             "Desenvolvimento de fornecedores",
 
-            "Gest├úo de riscos"
+            "Gestão de riscos"
 
           ],
 
@@ -2645,9 +2645,9 @@ window.SITE_DATA = {
 
             "Programas de desenvolvimento de fornecedores automotivos",
 
-            "Scorecard de fornecedores estrat├®gicos",
+            "Scorecard de fornecedores estratégicos",
 
-            "Gest├úo de contratos de longo prazo"
+            "Gestão de contratos de longo prazo"
 
           ]
 
@@ -2655,17 +2655,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Homologa├º├úo de fornecedores",
+          "titulo": "Homologação de fornecedores",
 
-          "definicao": "Processo formal de qualifica├º├úo e aprova├º├úo de novos fornecedores para garantir que atendem aos requisitos t├®cnicos, de qualidade, capacidade produtiva, financeiros e socioambientais da empresa contratante. Inclui auditorias, visitas t├®cnicas e an├ílise de documentos.",
+          "definicao": "Processo formal de qualificação e aprovação de novos fornecedores para garantir que atendem aos requisitos técnicos, de qualidade, capacidade produtiva, financeiros e socioambientais da empresa contratante. Inclui auditorias, visitas técnicas e anélise de documentos.",
 
           "topicos": [
 
             "Auditoria de fornecedores",
 
-            "Qualifica├º├úo t├®cnica",
+            "Qualificação técnica",
 
-            "Certifica├º├Áes exigidas",
+            "Certificações exigidas",
 
             "Cadastro de fornecedores"
 
@@ -2675,9 +2675,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Homologa├º├úo para ind├║stria automotiva (PPAP)",
+            "Homologação para indústria automotiva (PPAP)",
 
-            "Qualifica├º├úo de fornecedores de servi├ºos log├¡sticos",
+            "Qualificação de fornecedores de serviços logísticos",
 
             "Processo de onboarding de fornecedores de TI"
 
@@ -2687,19 +2687,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de contratos",
+          "titulo": "Gestão de contratos",
 
-          "definicao": "Processo estruturado de cria├º├úo, execu├º├úo, monitoramento e encerramento de contratos com fornecedores e parceiros. Inclui defini├º├úo de cl├íusulas, prazos, pre├ºos, n├¡veis de servi├ºo (SLAs) e condi├º├Áes de renova├º├úo, garantindo conformidade e mitiga├º├úo de riscos.",
+          "definicao": "Processo estruturado de criação, execução, monitoramento e encerramento de contratos com fornecedores e parceiros. Inclui definição de cléusulas, prazos, preços, níveis de serviço (SLAs) e condições de renovação, garantindo conformidade e mitigação de riscos.",
 
           "topicos": [
 
-            "Cl├íusulas contratuais",
+            "Cléusulas contratuais",
 
             "SLA ÔÇö Service Level Agreement",
 
-            "Reajustes e revis├Áes",
+            "Reajustes e revisões",
 
-            "Gest├úo de aditivos"
+            "Gestão de aditivos"
 
           ],
 
@@ -2707,9 +2707,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Contratos de fornecimento de mat├®ria-prima",
+            "Contratos de fornecimento de matéria-prima",
 
-            "Contratos de presta├º├úo de servi├ºos log├¡sticos",
+            "Contratos de prestação de serviços logísticos",
 
             "Acordos de confidencialidade (NDA)"
 
@@ -2721,17 +2721,17 @@ window.SITE_DATA = {
 
           "titulo": "S&OP ÔÇö Sales and Operations Planning",
 
-          "definicao": "Processo integrado de planejamento t├ítico que alinha as ├íreas de vendas, marketing, produ├º├úo, log├¡stica e finan├ºas em um ├║nico plano consensado para horizontes de 6 a 18 meses. Re├║ne previs├Áes de demanda, planos de suprimento e an├ílise de capacidade em reuni├Áes mensais.",
+          "definicao": "Processo integrado de planejamento tético que alinha as éreas de vendas, marketing, produção, logística e finanças em um único plano consensado para horizontes de 6 a 18 meses. Reúne previsões de demanda, planos de suprimento e anélise de capacidade em reuniões mensais.",
 
           "topicos": [
 
-            "Previs├úo de demanda",
+            "Previsão de demanda",
 
             "Plano de suprimento",
 
-            "Reuni├úo executiva",
+            "Reunião executiva",
 
-            "Indicadores de acur├ícia"
+            "Indicadores de acurécia"
 
           ],
 
@@ -2739,11 +2739,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Alinhamento entre vendas e produ├º├úo em montadoras",
+            "Alinhamento entre vendas e produção em montadoras",
 
-            "Planejamento integrado em ind├║stria farmac├¬utica",
+            "Planejamento integrado em indústria farmacêutica",
 
-            "Revis├úo mensal de planos em bens de consumo"
+            "Revisão mensal de planos em bens de consumo"
 
           ]
 
@@ -2753,17 +2753,17 @@ window.SITE_DATA = {
 
           "titulo": "Planejamento integrado",
 
-          "definicao": "Abordagem que consolida os planos funcionais (vendas, produ├º├úo, compras, distribui├º├úo) em um ├║nico plano mestre, otimizando trade-offs entre custo, n├¡vel de servi├ºo e utiliza├º├úo de capacidade. Utiliza modelos matem├íticos e simula├º├úo para cen├írios.",
+          "definicao": "Abordagem que consolida os planos funcionais (vendas, produção, compras, distribuição) em um único plano mestre, otimizando trade-offs entre custo, nível de serviço e utilização de capacidade. Utiliza modelos mateméticos e simulação para cenérios.",
 
           "topicos": [
 
-            "Planejamento t├ítico integrado",
+            "Planejamento tético integrado",
 
-            "Simula├º├úo de cen├írios",
+            "Simulação de cenérios",
 
-            "Otimiza├º├úo multiobjetivo",
+            "Otimização multiobjetivo",
 
-            "Trade-off custo ├ù servi├ºo"
+            "Trade-off custo ú serviço"
 
           ],
 
@@ -2771,9 +2771,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Integra├º├úo planos de demanda e suprimento",
+            "Integração planos de demanda e suprimento",
 
-            "Simula├º├úo de cen├írios de ruptura",
+            "Simulação de cenérios de ruptura",
 
             "Planejamento agregado de recursos"
 
@@ -2783,9 +2783,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de estoques",
+          "titulo": "Gestão de estoques",
 
-          "definicao": "Conjunto de pol├¡ticas, m├®todos e a├º├Áes para determinar os n├¡veis adequados de cada item em estoque, equilibrando os custos de manuten├º├úo contra os riscos e custos de falta. Inclui classifica├º├úo ABC, defini├º├úo de ponto de pedido, lotes econ├┤micos e estoques de seguran├ºa.",
+          "definicao": "Conjunto de políticas, métodos e ações para determinar os níveis adequados de cada item em estoque, equilibrando os custos de manutenção contra os riscos e custos de falta. Inclui classificação ABC, definição de ponto de pedido, lotes econômicos e estoques de segurança.",
 
           "topicos": [
 
@@ -2793,21 +2793,21 @@ window.SITE_DATA = {
 
             "Ponto de pedido",
 
-            "Estoque de seguran├ºa",
+            "Estoque de segurança",
 
             "Giro de estoque"
 
           ],
 
-          "formula": "PP = (DM ├ù TR) + ES",
+          "formula": "PP = (DM ú TR) + ES",
 
           "aplicacoes": [
 
-            "Defini├º├úo de pol├¡ticas de estoque por categoria",
+            "Definição de políticas de estoque por categoria",
 
-            "Redu├º├úo de rupturas em CDs",
+            "Redução de rupturas em CDs",
 
-            "Otimiza├º├úo de n├¡veis de estoque na cadeia"
+            "Otimização de níveis de estoque na cadeia"
 
           ]
 
@@ -2817,17 +2817,17 @@ window.SITE_DATA = {
 
           "titulo": "E-procurement",
 
-          "definicao": "Sistemas eletr├┤nicos de compras baseados em plataformas web que automatizam o ciclo de compras, desde a requisi├º├úo at├® o pagamento. Integram-se com ERPs, utilizam cat├ílogos eletr├┤nicos e permitem leil├Áes reversos, cota├º├Áes online e contratos digitais.",
+          "definicao": "Sistemas eletrônicos de compras baseados em plataformas web que automatizam o ciclo de compras, desde a requisição até o pagamento. Integram-se com ERPs, utilizam catélogos eletrônicos e permitem leilões reversos, cotações online e contratos digitais.",
 
           "topicos": [
 
-            "Cat├ílogo eletr├┤nico",
+            "Catélogo eletrônico",
 
-            "Leil├úo reverso",
+            "Leilão reverso",
 
-            "Cota├º├úo online",
+            "Cotação online",
 
-            "Integra├º├úo com ERP"
+            "Integração com ERP"
 
           ],
 
@@ -2837,9 +2837,9 @@ window.SITE_DATA = {
 
             "Compras de materiais indiretos via marketplace",
 
-            "Leil├úo eletr├┤nico para redu├º├úo de custos",
+            "Leilão eletrônico para redução de custos",
 
-            "Automa├º├úo do fluxo de aprova├º├úo de compras"
+            "Automação do fluxo de aprovação de compras"
 
           ]
 
@@ -2849,17 +2849,17 @@ window.SITE_DATA = {
 
           "titulo": "RFQ e RFP",
 
-          "definicao": "RFQ (Request for Quotation) ├® uma solicita├º├úo de cota├º├úo para itens claramente especificados. RFP (Request for Proposal) ├® uma solicita├º├úo de proposta para solu├º├Áes complexas. Ambos s├úo processos formais de cota├º├úo que permitem comparar fornecedores de forma estruturada.",
+          "definicao": "RFQ (Request for Quotation) é uma solicitação de cotação para itens claramente especificados. RFP (Request for Proposal) é uma solicitação de proposta para soluções complexas. Ambos são processos formais de cotação que permitem comparar fornecedores de forma estruturada.",
 
           "topicos": [
 
-            "RFQ ÔÇö Solicita├º├úo de cota├º├úo",
+            "RFQ ÔÇö Solicitação de cotação",
 
-            "RFP ÔÇö Solicita├º├úo de proposta",
+            "RFP ÔÇö Solicitação de proposta",
 
-            "RFI ÔÇö Solicita├º├úo de informa├º├úo",
+            "RFI ÔÇö Solicitação de informação",
 
-            "Matriz de avalia├º├úo"
+            "Matriz de avaliação"
 
           ],
 
@@ -2867,11 +2867,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Cota├º├úo de mat├®rias-primas padronizadas",
+            "Cotação de matérias-primas padronizadas",
 
-            "Contrata├º├úo de servi├ºos complexos de log├¡stica",
+            "Contratação de serviços complexos de logística",
 
-            "Sele├º├úo de fornecedores de TI por RFP"
+            "Seleção de fornecedores de TI por RFP"
 
           ]
 
@@ -2879,31 +2879,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Avalia├º├úo de desempenho de fornecedores",
+          "titulo": "Avaliação de desempenho de fornecedores",
 
-          "definicao": "Processo sistem├ítico de medi├º├úo e an├ílise do desempenho dos fornecedores com base em crit├®rios como qualidade, prazo, pre├ºo, capacidade de resposta e inova├º├úo. Utiliza scorecards, dashboards e reuni├Áes peri├│dicas de revis├úo para impulsionar a melhoria cont├¡nua.",
+          "definicao": "Processo sistemético de medição e anélise do desempenho dos fornecedores com base em critérios como qualidade, prazo, preço, capacidade de resposta e inovação. Utiliza scorecards, dashboards e reuniões periódicas de revisão para impulsionar a melhoria contínua.",
 
           "topicos": [
 
             "Scorecard de fornecedores",
 
-            "KPIs log├¡sticos",
+            "KPIs logísticos",
 
             "Balanced Scorecard",
 
-            "Reuni├Áes de revis├úo"
+            "Reuniões de revisão"
 
           ],
 
-          "formula": "OTIF = (Pedidos entregues no prazo e completos / Total de pedidos) ├ù 100%",
+          "formula": "OTIF = (Pedidos entregues no prazo e completos / Total de pedidos) ú 100%",
 
           "aplicacoes": [
 
-            "Avalia├º├úo trimestral de transportadoras",
+            "Avaliação trimestral de transportadoras",
 
             "Programa de desenvolvimento de fornecedores",
 
-            "Premia├º├úo de melhores fornecedores do ano"
+            "Premiação de melhores fornecedores do ano"
 
           ]
 
@@ -2911,17 +2911,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de categorias",
+          "titulo": "Gestão de categorias",
 
-          "definicao": "Abordagem estrat├®gica de compras que segmenta os gastos da empresa em categorias homog├¬neas e desenvolve estrat├®gias espec├¡ficas para cada uma. Analisa o mercado fornecedor, consolida volumes, negocia contratos globais e gerencia o relacionamento por categoria.",
+          "definicao": "Abordagem estratégica de compras que segmenta os gastos da empresa em categorias homogêneas e desenvolve estratégias específicas para cada uma. Analisa o mercado fornecedor, consolida volumes, negocia contratos globais e gerencia o relacionamento por categoria.",
 
           "topicos": [
 
-            "An├ílise de gastos (spend analysis)",
+            "Anélise de gastos (spend analysis)",
 
-            "Estrat├®gia por categoria",
+            "Estratégia por categoria",
 
-            "Consolida├º├úo de fornecedores",
+            "Consolidação de fornecedores",
 
             "Plano de categoria"
 
@@ -2931,11 +2931,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de compras por categoria em grandes grupos",
+            "Estruturação de compras por categoria em grandes grupos",
 
-            "Redu├º├úo de custos via consolida├º├úo de fornecedores",
+            "Redução de custos via consolidação de fornecedores",
 
-            "An├ílise de gastos totais por fam├¡lia de materiais"
+            "Anélise de gastos totais por família de materiais"
 
           ]
 
@@ -2945,17 +2945,17 @@ window.SITE_DATA = {
 
           "titulo": "Supply Chain Risk Management",
 
-          "definicao": "Processo de identifica├º├úo, avalia├º├úo e mitiga├º├úo de riscos que podem interromper o fluxo de materiais, informa├º├Áes ou finan├ºas na cadeia de suprimentos. Inclui riscos geopol├¡ticos, desastres naturais, fal├¬ncia de fornecedores, ruptura log├¡stica e ciberataques.",
+          "definicao": "Processo de identificação, avaliação e mitigação de riscos que podem interromper o fluxo de materiais, informações ou finanças na cadeia de suprimentos. Inclui riscos geopolíticos, desastres naturais, falência de fornecedores, ruptura logística e ciberataques.",
 
           "topicos": [
 
             "Mapeamento de riscos",
 
-            "Planos de conting├¬ncia",
+            "Planos de contingência",
 
             "Dual sourcing",
 
-            "Resili├¬ncia da cadeia"
+            "Resiliência da cadeia"
 
           ],
 
@@ -2963,11 +2963,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de riscos em cadeias globais de semicondutores",
+            "Gestão de riscos em cadeias globais de semicondutores",
 
-            "Planos de conting├¬ncia para fornecedores ├║nicos",
+            "Planos de contingência para fornecedores únicos",
 
-            "Monitoramento de riscos geopol├¡ticos em tempo real"
+            "Monitoramento de riscos geopolíticos em tempo real"
 
           ]
 
@@ -2977,13 +2977,13 @@ window.SITE_DATA = {
 
           "titulo": "SCOR Model",
 
-          "definicao": "Modelo de refer├¬ncia de processos desenvolvido pelo APICS para diagn├│stico e melhoria de cadeias de suprimentos. Estrutura-se em 6 processos principais (Plan, Source, Make, Deliver, Return, Enable) com m├®tricas padronizadas para comparar desempenho entre empresas e setores.",
+          "definicao": "Modelo de referência de processos desenvolvido pelo APICS para diagnóstico e melhoria de cadeias de suprimentos. Estrutura-se em 6 processos principais (Plan, Source, Make, Deliver, Return, Enable) com métricas padronizadas para comparar desempenho entre empresas e setores.",
 
           "topicos": [
 
             "Processos SCOR",
 
-            "M├®tricas de n├¡vel 1",
+            "Métricas de nível 1",
 
             "Best practices",
 
@@ -2995,7 +2995,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Diagn├│stico de maturidade da cadeia",
+            "Diagnóstico de maturidade da cadeia",
 
             "Benchmarking entre plantas industriais",
 
@@ -3019,27 +3019,27 @@ window.SITE_DATA = {
 
       "id": "estoques",
 
-      "nome": "Gest├úo de Estoques",
+      "nome": "Gestão de Estoques",
 
       "icone": "archive",
 
       "cor": "#dc2626",
 
-      "descricao": "M├®todos e t├®cnicas para administra├º├úo eficiente de estoques industriais.",
+      "descricao": "Métodos e técnicas para administração eficiente de estoques industriais.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Estoque m├¡nimo",
+          "titulo": "Estoque mínimo",
 
-          "definicao": "Quantidade m├¡nima de um item que deve ser mantida em estoque para garantir a continuidade das opera├º├Áes durante o tempo de reposi├º├úo. ├ë calculado com base no consumo m├®dio di├írio e no lead time, funcionando como gatilho para iniciar o processo de compra.",
+          "definicao": "Quantidade mínima de um item que deve ser mantida em estoque para garantir a continuidade das operações durante o tempo de reposição. ë calculado com base no consumo médio diério e no lead time, funcionando como gatilho para iniciar o processo de compra.",
 
           "topicos": [
 
-            "Consumo m├®dio di├írio",
+            "Consumo médio diério",
 
-            "Lead time de reposi├º├úo",
+            "Lead time de reposição",
 
             "Ponto de pedido",
 
@@ -3047,15 +3047,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "EM├¡n = CMD ├ù TR",
+          "formula": "EMín = CMD ú TR",
 
           "aplicacoes": [
 
-            "Defini├º├úo de n├¡veis m├¡nimos em almoxarifado industrial",
+            "Definição de níveis mínimos em almoxarifado industrial",
 
-            "Parametriza├º├úo de sistemas ERP",
+            "Parametrização de sistemas ERP",
 
-            "Controle de estoques de materiais cr├¡ticos"
+            "Controle de estoques de materiais críticos"
 
           ]
 
@@ -3063,9 +3063,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Estoque m├íximo",
+          "titulo": "Estoque méximo",
 
-          "definicao": "Quantidade m├íxima desej├ível de um item em estoque, determinada pela capacidade de armazenagem, pelo capital dispon├¡vel e pela pol├¡tica de compras. Evita excessos que geram custos financeiros, riscos de obsolesc├¬ncia e ocupa├º├úo desnecess├íria de espa├ºo.",
+          "definicao": "Quantidade méxima desejével de um item em estoque, determinada pela capacidade de armazenagem, pelo capital disponível e pela política de compras. Evita excessos que geram custos financeiros, riscos de obsolescência e ocupação desnecesséria de espaço.",
 
           "topicos": [
 
@@ -3073,21 +3073,21 @@ window.SITE_DATA = {
 
             "Capital de giro",
 
-            "Lote econ├┤mico",
+            "Lote econômico",
 
-            "Obsolesc├¬ncia"
+            "Obsolescência"
 
           ],
 
-          "formula": "EM├íx = EM├¡n + Lote de Compra",
+          "formula": "EMéx = EMín + Lote de Compra",
 
           "aplicacoes": [
 
-            "Dimensionamento de capacidade de armaz├®ns",
+            "Dimensionamento de capacidade de armazéns",
 
-            "Pol├¡ticas de compra por item",
+            "Políticas de compra por item",
 
-            "Gest├úo de estoques sazonais"
+            "Gestão de estoques sazonais"
 
           ]
 
@@ -3095,31 +3095,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Estoque de seguran├ºa",
+          "titulo": "Estoque de segurança",
 
-          "definicao": "Quantidade adicional mantida al├®m da demanda esperada para absorver varia├º├Áes da demanda e do lead time de reposi├º├úo, protegendo contra rupturas. Seu dimensionamento considera o n├¡vel de servi├ºo desejado, o desvio padr├úo da demanda e a variabilidade do suprimento.",
+          "definicao": "Quantidade adicional mantida além da demanda esperada para absorver variações da demanda e do lead time de reposição, protegendo contra rupturas. Seu dimensionamento considera o nível de serviço desejado, o desvio padrão da demanda e a variabilidade do suprimento.",
 
           "topicos": [
 
-            "N├¡vel de servi├ºo",
+            "Nível de serviço",
 
-            "Desvio padr├úo da demanda",
+            "Desvio padrão da demanda",
 
-            "Lead time vari├ível",
+            "Lead time variével",
 
-            "Fator de seguran├ºa Z"
+            "Fator de segurança Z"
 
           ],
 
-          "formula": "ES = Z ├ù ¤âd ├ù ÔêÜL",
+          "formula": "ES = Z ú ¤âd ú ÔêÜL",
 
           "aplicacoes": [
 
-            "Prote├º├úo contra varia├º├Áes sazonais de venda",
+            "Proteção contra variações sazonais de venda",
 
-            "Buffer para fornecedores com lead time inst├ível",
+            "Buffer para fornecedores com lead time instével",
 
-            "Garantia de n├¡vel de servi├ºo ao cliente"
+            "Garantia de nível de serviço ao cliente"
 
           ]
 
@@ -3129,7 +3129,7 @@ window.SITE_DATA = {
 
           "titulo": "Giro de estoque",
 
-          "definicao": "Indicador que mede quantas vezes o estoque de um item ├® renovado em determinado per├¡odo (geralmente um ano). Quanto maior o giro, mais eficiente ├® a gest├úo do estoque, indicando que o capital investido est├í sendo convertido em vendas rapidamente.",
+          "definicao": "Indicador que mede quantas vezes o estoque de um item é renovado em determinado período (geralmente um ano). Quanto maior o giro, mais eficiente é a gestão do estoque, indicando que o capital investido esté sendo convertido em vendas rapidamente.",
 
           "topicos": [
 
@@ -3137,21 +3137,21 @@ window.SITE_DATA = {
 
             "Custo das vendas",
 
-            "Estoque m├®dio",
+            "Estoque médio",
 
             "Dias de cobertura"
 
           ],
 
-          "formula": "Giro = Custo das Mercadorias Vendidas / Estoque M├®dio",
+          "formula": "Giro = Custo das Mercadorias Vendidas / Estoque Médio",
 
           "aplicacoes": [
 
-            "Avalia├º├úo de efici├¬ncia de gest├úo de estoques",
+            "Avaliação de eficiência de gestão de estoques",
 
-            "Compara├º├úo de desempenho entre categorias de produtos",
+            "Comparação de desempenho entre categorias de produtos",
 
-            "Identifica├º├úo de itens encalhados"
+            "Identificação de itens encalhados"
 
           ]
 
@@ -3161,17 +3161,17 @@ window.SITE_DATA = {
 
           "titulo": "Curva ABC",
 
-          "definicao": "M├®todo de classifica├º├úo de materiais baseado no princ├¡pio de Pareto, que separa os itens em tr├¬s categorias: A (itens de alto valor, 80% do valor, 20% dos itens), B (valor intermedi├írio) e C (baixo valor, muitos itens). Permite focar esfor├ºos nos itens de maior impacto financeiro.",
+          "definicao": "Método de classificação de materiais baseado no princípio de Pareto, que separa os itens em três categorias: A (itens de alto valor, 80% do valor, 20% dos itens), B (valor intermediério) e C (baixo valor, muitos itens). Permite focar esforços nos itens de maior impacto financeiro.",
 
           "topicos": [
 
-            "Classifica├º├úo A (80% valor)",
+            "Classificação A (80% valor)",
 
-            "Classifica├º├úo B (15% valor)",
+            "Classificação B (15% valor)",
 
-            "Classifica├º├úo C (5% valor)",
+            "Classificação C (5% valor)",
 
-            "Frequ├¬ncia de ressuprimento"
+            "Frequência de ressuprimento"
 
           ],
 
@@ -3179,11 +3179,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prioriza├º├úo de itens A para controle rigoroso",
+            "Priorização de itens A para controle rigoroso",
 
-            "Pol├¡ticas de compra diferenciadas por classe",
+            "Políticas de compra diferenciadas por classe",
 
-            "Foco de invent├írio em itens de maior valor"
+            "Foco de inventério em itens de maior valor"
 
           ]
 
@@ -3191,23 +3191,23 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Invent├írios f├¡sicos e rotativos",
+          "titulo": "Inventérios físicos e rotativos",
 
-          "definicao": "Invent├írio f├¡sico ├® a contagem total de todos os itens do estoque em uma data espec├¡fica. O invent├írio rotativo (ciclo de contagem) conta continuamente uma parcela do estoque ao longo do ano, classificada por valor (ABC), mantendo a acuracidade sem parar as opera├º├Áes.",
+          "definicao": "Inventério físico é a contagem total de todos os itens do estoque em uma data específica. O inventério rotativo (ciclo de contagem) conta continuamente uma parcela do estoque ao longo do ano, classificada por valor (ABC), mantendo a acuracidade sem parar as operações.",
 
           "topicos": [
 
-            "Contagem c├¡clica",
+            "Contagem cíclica",
 
-            "Acur├ícia de estoque",
+            "Acurécia de estoque",
 
-            "Classifica├º├úo ABC para invent├írio",
+            "Classificação ABC para inventério",
 
-            "Ajustes e diverg├¬ncias"
+            "Ajustes e divergências"
 
           ],
 
-          "formula": "Acur├ícia = (N┬║ itens corretos / N┬║ itens contados) ├ù 100%",
+          "formula": "Acurécia = (N┬║ itens corretos / N┬║ itens contados) ú 100%",
 
           "aplicacoes": [
 
@@ -3215,7 +3215,7 @@ window.SITE_DATA = {
 
             "Recontagem de itens classe A semanal",
 
-            "Ajuste de diverg├¬ncias cont├íbeis de estoque"
+            "Ajuste de divergências contébeis de estoque"
 
           ]
 
@@ -3225,11 +3225,11 @@ window.SITE_DATA = {
 
           "titulo": "FIFO ÔÇö First In First Out",
 
-          "definicao": "M├®todo de controle e avalia├º├úo de estoques no qual o primeiro item que entra no estoque ├® o primeiro a sair. ├ë amplamente utilizado para produtos perec├¡veis, itens com prazo de validade e materiais sujeitos a obsolesc├¬ncia, garantindo maior frescor e menor perda.",
+          "definicao": "Método de controle e avaliação de estoques no qual o primeiro item que entra no estoque é o primeiro a sair. ë amplamente utilizado para produtos perecíveis, itens com prazo de validade e materiais sujeitos a obsolescência, garantindo maior frescor e menor perda.",
 
           "topicos": [
 
-            "PEPS (Portugu├¬s)",
+            "PEPS (Português)",
 
             "Controle por lote",
 
@@ -3243,11 +3243,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de alimentos e bebidas",
+            "Gestão de alimentos e bebidas",
 
             "Controle de medicamentos com data de validade",
 
-            "Armazenagem de produtos qu├¡micos sens├¡veis"
+            "Armazenagem de produtos químicos sensíveis"
 
           ]
 
@@ -3257,17 +3257,17 @@ window.SITE_DATA = {
 
           "titulo": "LIFO ÔÇö Last In First Out",
 
-          "definicao": "M├®todo de avalia├º├úo de estoques em que o ├║ltimo item recebido ├® o primeiro a ser vendido ou consumido. Tem efeito fiscal em per├¡odos inflacion├írios (reduz lucro tribut├ível), mas n├úo ├® aceito pelo fisco brasileiro (Receita Federal) para fins de IRPJ e CSLL.",
+          "definicao": "Método de avaliação de estoques em que o último item recebido é o primeiro a ser vendido ou consumido. Tem efeito fiscal em períodos inflacionérios (reduz lucro tributével), mas não é aceito pelo fisco brasileiro (Receita Federal) para fins de IRPJ e CSLL.",
 
           "topicos": [
 
-            "UEPS (Portugu├¬s)",
+            "UEPS (Português)",
 
             "Efeitos fiscais",
 
-            "Infla├º├úo e custo",
+            "Inflação e custo",
 
-            "N├úo permitido no Brasil"
+            "Não permitido no Brasil"
 
           ],
 
@@ -3275,11 +3275,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Avalia├º├úo de estoque para relat├│rios gerenciais",
+            "Avaliação de estoque para relatórios gerenciais",
 
-            "An├ílise de impacto inflacion├írio",
+            "Anélise de impacto inflacionério",
 
-            "Uso em pa├¡ses que permitem (EUA, IFRS)"
+            "Uso em países que permitem (EUA, IFRS)"
 
           ]
 
@@ -3289,7 +3289,7 @@ window.SITE_DATA = {
 
           "titulo": "FEFO ÔÇö First Expire First Out",
 
-          "definicao": "M├®todo de movimenta├º├úo de estoques que prioriza a sa├¡da dos itens com prazo de validade mais pr├│ximo do vencimento, independentemente da data de entrada. Essencial para produtos farmac├¬uticos, alimentos perec├¡veis e itens com shelf life cr├¡tico.",
+          "definicao": "Método de movimentação de estoques que prioriza a saída dos itens com prazo de validade mais próximo do vencimento, independentemente da data de entrada. Essencial para produtos farmacêuticos, alimentos perecíveis e itens com shelf life crítico.",
 
           "topicos": [
 
@@ -3299,7 +3299,7 @@ window.SITE_DATA = {
 
             "Rastreabilidade por lote",
 
-            "Redu├º├úo de perdas"
+            "Redução de perdas"
 
           ],
 
@@ -3307,11 +3307,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Farm├ícias e distribuidoras de medicamentos",
+            "Farmécias e distribuidoras de medicamentos",
 
-            "Cadeia do frio de alimentos perec├¡veis",
+            "Cadeia do frio de alimentos perecíveis",
 
-            "Gest├úo de produtos sangu├¡neos e hemoderivados"
+            "Gestão de produtos sanguíneos e hemoderivados"
 
           ]
 
@@ -3321,7 +3321,7 @@ window.SITE_DATA = {
 
           "titulo": "EOQ ÔÇö Economic Order Quantity",
 
-          "definicao": "Modelo matem├ítico desenvolvido por Ford W. Harris (1913) que determina a quantidade ideal de um pedido para minimizar os custos totais de estocagem e de pedido. Equilibra o custo de manter estoque com o custo de realizar pedidos, encontrando o lote ├│timo.",
+          "definicao": "Modelo matemético desenvolvido por Ford W. Harris (1913) que determina a quantidade ideal de um pedido para minimizar os custos totais de estocagem e de pedido. Equilibra o custo de manter estoque com o custo de realizar pedidos, encontrando o lote ótimo.",
 
           "topicos": [
 
@@ -3339,11 +3339,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├ílculo de lote de compra de mat├®rias-primas",
+            "Célculo de lote de compra de matérias-primas",
 
-            "Defini├º├úo de lotes de ressuprimento em CDs",
+            "Definição de lotes de ressuprimento em CDs",
 
-            "Pol├¡tica de compras em ind├║strias de manufatura"
+            "Política de compras em indústrias de manufatura"
 
           ]
 
@@ -3351,17 +3351,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Reposi├º├úo autom├ítica",
+          "titulo": "Reposição automética",
 
-          "definicao": "Sistema que dispara ordens de compra automaticamente quando o estoque atinge o ponto de pedido, sem interven├º├úo manual. Integrado ao ERP, utiliza par├ómetros como lead time, estoque de seguran├ºa e lote econ├┤mico para definir quantidades e momentos de reposi├º├úo.",
+          "definicao": "Sistema que dispara ordens de compra automaticamente quando o estoque atinge o ponto de pedido, sem intervenção manual. Integrado ao ERP, utiliza parômetros como lead time, estoque de segurança e lote econômico para definir quantidades e momentos de reposição.",
 
           "topicos": [
 
-            "Par├ómetros de reposi├º├úo",
+            "Parômetros de reposição",
 
             "Trigger de pedido",
 
-            "Integra├º├úo com fornecedores",
+            "Integração com fornecedores",
 
             "Min-Max"
 
@@ -3371,9 +3371,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reposi├º├úo automatizada de materiais indiretos",
+            "Reposição automatizada de materiais indiretos",
 
-            "Abastecimento autom├ítico de linhas de produ├º├úo",
+            "Abastecimento automético de linhas de produção",
 
             "Sistemas VMI com fornecedores"
 
@@ -3385,27 +3385,27 @@ window.SITE_DATA = {
 
           "titulo": "Ponto de pedido",
 
-          "definicao": "N├¡vel de estoque que dispara a emiss├úo de um novo pedido de compra ou produ├º├úo. ├ë calculado multiplicando o consumo m├®dio di├írio pelo lead time de reposi├º├úo, acrescido do estoque de seguran├ºa para cobrir varia├º├Áes.",
+          "definicao": "Nível de estoque que dispara a emissão de um novo pedido de compra ou produção. ë calculado multiplicando o consumo médio diério pelo lead time de reposição, acrescido do estoque de segurança para cobrir variações.",
 
           "topicos": [
 
             "Lead time",
 
-            "Consumo m├®dio di├írio",
+            "Consumo médio diério",
 
-            "Estoque de seguran├ºa",
+            "Estoque de segurança",
 
             "Trigger de compra"
 
           ],
 
-          "formula": "PP = (CMD ├ù TR) + ES",
+          "formula": "PP = (CMD ú TR) + ES",
 
           "aplicacoes": [
 
-            "Parametriza├º├úo de sistemas de gest├úo de estoques",
+            "Parametrização de sistemas de gestão de estoques",
 
-            "Defini├º├úo de quando comprar cada insumo",
+            "Definição de quando comprar cada insumo",
 
             "Controle de abastecimento just-in-time"
 
@@ -3417,29 +3417,29 @@ window.SITE_DATA = {
 
           "titulo": "Cobertura de estoque",
 
-          "definicao": "Indicador que expressa o n├║mero de dias que o estoque atual ├® suficiente para atender ├á demanda m├®dia futura sem novos suprimentos. Quanto maior a cobertura, maior o capital empatado; quanto menor, maior o risco de ruptura.",
+          "definicao": "Indicador que expressa o número de dias que o estoque atual é suficiente para atender á demanda média futura sem novos suprimentos. Quanto maior a cobertura, maior o capital empatado; quanto menor, maior o risco de ruptura.",
 
           "topicos": [
 
             "Dias de estoque",
 
-            "Consumo m├®dio di├írio",
+            "Consumo médio diério",
 
-            "N├¡vel de servi├ºo",
+            "Nível de serviço",
 
             "Capital de giro"
 
           ],
 
-          "formula": "Cobertura (dias) = Estoque Atual / Consumo M├®dio Di├írio",
+          "formula": "Cobertura (dias) = Estoque Atual / Consumo Médio Diério",
 
           "aplicacoes": [
 
-            "Monitoramento de n├¡vel de estoque por CD",
+            "Monitoramento de nível de estoque por CD",
 
-            "An├ílise de excesso de estoque",
+            "Anélise de excesso de estoque",
 
-            "Planejamento de ofertas e promo├º├Áes"
+            "Planejamento de ofertas e promoções"
 
           ]
 
@@ -3447,9 +3447,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "N├¡vel de servi├ºo",
+          "titulo": "Nível de serviço",
 
-          "definicao": "M├®trica que mede a capacidade de atender ├á demanda dos clientes sem ruptura de estoque, expressa como percentual de itens ou pedidos atendidos no prazo. N├¡veis de servi├ºo mais altos exigem maiores estoques de seguran├ºa e implicam trade-off com custos.",
+          "definicao": "Métrica que mede a capacidade de atender á demanda dos clientes sem ruptura de estoque, expressa como percentual de itens ou pedidos atendidos no prazo. Níveis de serviço mais altos exigem maiores estoques de segurança e implicam trade-off com custos.",
 
           "topicos": [
 
@@ -3463,15 +3463,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "N├¡vel de Servi├ºo = (Pedidos Atendidos / Total de Pedidos) ├ù 100%",
+          "formula": "Nível de Serviço = (Pedidos Atendidos / Total de Pedidos) ú 100%",
 
           "aplicacoes": [
 
-            "Defini├º├úo de meta de atendimento ao cliente",
+            "Definição de meta de atendimento ao cliente",
 
-            "Dimensionamento de estoque de seguran├ºa por n├¡vel de servi├ºo",
+            "Dimensionamento de estoque de segurança por nível de serviço",
 
-            "Avalia├º├úo de desempenho de CDs"
+            "Avaliação de desempenho de CDs"
 
           ]
 
@@ -3479,9 +3479,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Estoque pulm├úo",
+          "titulo": "Estoque pulmão",
 
-          "definicao": "Estoque estrat├®gico mantido entre processos produtivos sequenciais para desacopl├í-los, absorvendo varia├º├Áes de ritmo e evitando que uma parada em uma etapa pare toda a linha ao mesmo tempo. ├ë um estoque intermedi├írio que protege o fluxo cont├¡nuo.",
+          "definicao": "Estoque estratégico mantido entre processos produtivos sequenciais para desacoplé-los, absorvendo variações de ritmo e evitando que uma parada em uma etapa pare toda a linha ao mesmo tempo. ë um estoque intermediério que protege o fluxo contínuo.",
 
           "topicos": [
 
@@ -3489,7 +3489,7 @@ window.SITE_DATA = {
 
             "Desacoplamento de processos",
 
-            "Fluxo cont├¡nuo vs pulm├úo",
+            "Fluxo contínuo vs pulmão",
 
             "Gargalos produtivos"
 
@@ -3499,11 +3499,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Buffers entre c├®lulas de usinagem",
+            "Buffers entre células de usinagem",
 
-            "Pulm├úo entre estamparia e montagem",
+            "Pulmão entre estamparia e montagem",
 
-            "Prote├º├úo contra quebra de m├íquina a montante"
+            "Proteção contra quebra de méquina a montante"
 
           ]
 
@@ -3513,17 +3513,17 @@ window.SITE_DATA = {
 
           "titulo": "Estoque sazonal",
 
-          "definicao": "Estoque acumulado em per├¡odos de baixa demanda para atender picos sazonais futuros (Natal, Dia das M├úes, safra agr├¡cola). Permite nivelar a produ├º├úo ao longo do ano, evitando capacidade ociosa em per├¡odos baixos e sobrecarga em per├¡odos de pico.",
+          "definicao": "Estoque acumulado em períodos de baixa demanda para atender picos sazonais futuros (Natal, Dia das Mães, safra agrícola). Permite nivelar a produção ao longo do ano, evitando capacidade ociosa em períodos baixos e sobrecarga em períodos de pico.",
 
           "topicos": [
 
             "Sazonalidade de demanda",
 
-            "Nivelamento da produ├º├úo",
+            "Nivelamento da produção",
 
             "Custo de armazenagem sazonal",
 
-            "Previs├úo de demanda sazonal"
+            "Previsão de demanda sazonal"
 
           ],
 
@@ -3533,9 +3533,9 @@ window.SITE_DATA = {
 
             "Estoque de brinquedos para Natal",
 
-            "Armazenagem de gr├úos p├│s-colheita",
+            "Armazenagem de grãos pós-colheita",
 
-            "Estoque de bebidas para ver├úo"
+            "Estoque de bebidas para verão"
 
           ]
 
@@ -3545,15 +3545,15 @@ window.SITE_DATA = {
 
           "titulo": "Estoque especulativo",
 
-          "definicao": "Estoque adquirido com objetivo de prote├º├úo contra aumentos esperados de pre├ºo, desabastecimento de mercado, greves ou mudan├ºas cambiais. ├ë uma decis├úo estrat├®gica de compra baseada em an├ílise de mercado, n├úo em necessidade imediata de produ├º├úo.",
+          "definicao": "Estoque adquirido com objetivo de proteção contra aumentos esperados de preço, desabastecimento de mercado, greves ou mudanças cambiais. ë uma decisão estratégica de compra baseada em anélise de mercado, não em necessidade imediata de produção.",
 
           "topicos": [
 
-            "Prote├º├úo cambial",
+            "Proteção cambial",
 
-            "Aumento de pre├ºo previsto",
+            "Aumento de preço previsto",
 
-            "Escassez de mat├®ria-prima",
+            "Escassez de matéria-prima",
 
             "Risco de desabastecimento"
 
@@ -3563,11 +3563,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Compra antecipada de a├ºo antes de reajuste",
+            "Compra antecipada de aço antes de reajuste",
 
-            "Estoque de semicondutores em cen├írio de escassez",
+            "Estoque de semicondutores em cenério de escassez",
 
-            "Prote├º├úo contra greve de transportadoras"
+            "Proteção contra greve de transportadoras"
 
           ]
 
@@ -3577,17 +3577,17 @@ window.SITE_DATA = {
 
           "titulo": "Estoque obsoleto",
 
-          "definicao": "Itens que perderam total ou parcialmente seu valor de uso por altera├º├Áes tecnol├│gicas, descontinua├º├úo de produtos, vencimento, danos ou mudan├ºas nas especifica├º├Áes. Representa perda financeira direta e deve ser identificado, provisionado e descartado adequadamente.",
+          "definicao": "Itens que perderam total ou parcialmente seu valor de uso por alterações tecnológicas, descontinuação de produtos, vencimento, danos ou mudanças nas especificações. Representa perda financeira direta e deve ser identificado, provisionado e descartado adequadamente.",
 
           "topicos": [
 
-            "Obsolesc├¬ncia tecnol├│gica",
+            "Obsolescência tecnológica",
 
             "Validade vencida",
 
-            "Provis├úo cont├íbil",
+            "Provisão contébil",
 
-            "Descarte sustent├ível"
+            "Descarte sustentével"
 
           ],
 
@@ -3595,9 +3595,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Identifica├º├úo de itens obsoletos em almoxarifado",
+            "Identificação de itens obsoletos em almoxarifado",
 
-            "Baixa cont├íbil de estoque sem giro",
+            "Baixa contébil de estoque sem giro",
 
             "Programas de reciclagem de materiais obsoletos"
 
@@ -3609,29 +3609,29 @@ window.SITE_DATA = {
 
           "titulo": "Custo de armazenagem",
 
-          "definicao": "Custo total de manter itens em estoque, incluindo aluguel ou deprecia├º├úo do espa├ºo, m├úo de obra, seguros, impostos, perdas, obsolesc├¬ncia e custo de oportunidade do capital investido. Representa tipicamente 20-30% do valor do estoque ao ano.",
+          "definicao": "Custo total de manter itens em estoque, incluindo aluguel ou depreciação do espaço, mão de obra, seguros, impostos, perdas, obsolescência e custo de oportunidade do capital investido. Representa tipicamente 20-30% do valor do estoque ao ano.",
 
           "topicos": [
 
             "Custo de oportunidade",
 
-            "Custo de espa├ºo",
+            "Custo de espaço",
 
-            "Seguro, perdas e obsolesc├¬ncia",
+            "Seguro, perdas e obsolescência",
 
             "Custo total de estocagem"
 
           ],
 
-          "formula": "Custo Armazenagem Anual = Estoque M├®dio ├ù Taxa de Armazenagem (%)",
+          "formula": "Custo Armazenagem Anual = Estoque Médio ú Taxa de Armazenagem (%)",
 
           "aplicacoes": [
 
-            "C├ílculo do custo log├¡stico total",
+            "Célculo do custo logístico total",
 
-            "Justificativa financeira para redu├º├úo de estoques",
+            "Justificativa financeira para redução de estoques",
 
-            "Decis├úo entre produzir ou terceirizar armazenagem"
+            "Decisão entre produzir ou terceirizar armazenagem"
 
           ]
 
@@ -3639,31 +3639,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Classifica├º├úo XYZ",
+          "titulo": "Classificação XYZ",
 
-          "definicao": "Classifica├º├úo de materiais baseada na previsibilidade e variabilidade da demanda: X (demanda est├ível e previs├¡vel), Y (varia├º├úo moderada, sazonalidade) e Z (demanda irregular e imprevis├¡vel). Usada em conjunto com a curva ABC para definir pol├¡ticas de estoque refinadas.",
+          "definicao": "Classificação de materiais baseada na previsibilidade e variabilidade da demanda: X (demanda estével e previsível), Y (variação moderada, sazonalidade) e Z (demanda irregular e imprevisível). Usada em conjunto com a curva ABC para definir políticas de estoque refinadas.",
 
           "topicos": [
 
-            "Classe X ÔÇö previs├¡vel",
+            "Classe X ÔÇö previsível",
 
-            "Classe Y ÔÇö varia├º├úo moderada",
+            "Classe Y ÔÇö variação moderada",
 
-            "Classe Z ÔÇö imprevis├¡vel",
+            "Classe Z ÔÇö imprevisível",
 
             "Matriz ABC/XYZ"
 
           ],
 
-          "formula": "CV = ¤â / ╬╝ (Coeficiente de Varia├º├úo)",
+          "formula": "CV = ¤â / ╬╝ (Coeficiente de Variação)",
 
           "aplicacoes": [
 
-            "Pol├¡ticas de estoque combinadas ABC ├ù XYZ",
+            "Políticas de estoque combinadas ABC ú XYZ",
 
-            "Estrat├®gias de ressuprimento por classe de demanda",
+            "Estratégias de ressuprimento por classe de demanda",
 
-            "Aplica├º├úo de previs├úo estat├¡stica diferenciada"
+            "Aplicação de previsão estatística diferenciada"
 
           ]
 
@@ -3683,13 +3683,13 @@ window.SITE_DATA = {
 
       "id": "ciencia-dados",
 
-      "nome": "Ci├¬ncia de Dados",
+      "nome": "Ciência de Dados",
 
       "icone": "database",
 
       "cor": "#6366f1",
 
-      "descricao": "Ferramentas e t├®cnicas de an├ílise de dados aplicadas ├á ind├║stria.",
+      "descricao": "Ferramentas e técnicas de anélise de dados aplicadas á indústria.",
 
       "subtopicos": [
 
@@ -3697,13 +3697,13 @@ window.SITE_DATA = {
 
         "Tableau",
 
-        "Excel Avan├ºado",
+        "Excel Avançado",
 
         "Python para engenharia",
 
         "Pandas e NumPy",
 
-        "R estat├¡stico",
+        "R estatístico",
 
         "SQL para consultas",
 
@@ -3711,23 +3711,23 @@ window.SITE_DATA = {
 
         "Dashboards e KPIs",
 
-        "ETL e integra├º├úo de dados",
+        "ETL e integração de dados",
 
         "Big Data industrial",
 
         "Data Mining",
 
-        "VBA para automa├º├úo",
+        "VBA para automação",
 
         "DAX e M (Power BI)",
 
         "Web Scraping para dados",
 
-        "An├ílise preditiva",
+        "Anélise preditiva",
 
-        "Visualiza├º├úo de dados",
+        "Visualização de dados",
 
-        "Estat├¡stica com Python (SciPy)"
+        "Estatística com Python (SciPy)"
 
       ]
 
@@ -3742,47 +3742,47 @@ window.SITE_DATA = {
 
       "id": "automacao",
 
-      "nome": "Automa├º├úo Industrial",
+      "nome": "Automação Industrial",
 
       "icone": "cpu",
 
       "cor": "#e11d48",
 
-      "descricao": "Sistemas automatizados, CLPs, rob├│tica e Ind├║stria 4.0.",
+      "descricao": "Sistemas automatizados, CLPs, robótica e Indústria 4.0.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "CLP ÔÇö Controlador L├│gico Program├ível",
+          "titulo": "CLP ÔÇö Controlador Lógico Programével",
 
-          "definicao": "Equipamento eletr├┤nico digital program├ível que utiliza mem├│ria para armazenar instru├º├Áes e implementar fun├º├Áes de controle, como l├│gica combinat├│ria, sequenciamento, temporiza├º├úo e opera├º├Áes aritm├®ticas. Opera em ciclo de varredura (scan) cont├¡nuo, lendo entradas, executando o programa e atualizando sa├¡das em tempo real.",
+          "definicao": "Equipamento eletrônico digital programével que utiliza memória para armazenar instruções e implementar funções de controle, como lógica combinatória, sequenciamento, temporização e operações aritméticas. Opera em ciclo de varredura (scan) contínuo, lendo entradas, executando o programa e atualizando saídas em tempo real.",
 
           "topicos": [
 
             "Arquitetura de CLPs",
 
-            "Linguagens de programa├º├úo (Ladder, FBD, SFC, ST, IL)",
+            "Linguagens de programação (Ladder, FBD, SFC, ST, IL)",
 
             "Ciclo de scan",
 
-            "M├│dulos de E/S digitais e anal├│gicos",
+            "Módulos de E/S digitais e analógicos",
 
             "IEC 61131-3"
 
           ],
 
-          "formula": "Tscan = Tleitura + Texecu├º├úo + Tescrita",
+          "formula": "Tscan = Tleitura + Texecução + Tescrita",
 
           "aplicacoes": [
 
             "Controle de linhas de montagem automotivas",
 
-            "Automa├º├úo de m├íquinas injetoras e CNC",
+            "Automação de méquinas injetoras e CNC",
 
             "Sistemas de bombeamento e saneamento",
 
-            "Controle de processos discretos na ind├║stria aliment├¡cia"
+            "Controle de processos discretos na indústria alimentícia"
 
           ]
 
@@ -3792,19 +3792,19 @@ window.SITE_DATA = {
 
           "titulo": "SCADA ÔÇö Supervisory Control and Data Acquisition",
 
-          "definicao": "Sistema computacional que permite monitorar, controlar e adquirir dados de processos industriais em tempo real, integrando CLPs, RTUs e sensores em uma interface centralizada com IHM. Coleta dados de campo, processa alarmes, gera hist├│ricos e possibilita opera├º├úo remota.",
+          "definicao": "Sistema computacional que permite monitorar, controlar e adquirir dados de processos industriais em tempo real, integrando CLPs, RTUs e sensores em uma interface centralizada com IHM. Coleta dados de campo, processa alarmes, gera históricos e possibilita operação remota.",
 
           "topicos": [
 
-            "Arquitetura SCADA (monoposto, cliente-servidor, distribu├¡da)",
+            "Arquitetura SCADA (monoposto, cliente-servidor, distribuída)",
 
             "RTU ÔÇö Remote Terminal Unit",
 
-            "IHM ÔÇö Interface Homem-M├íquina",
+            "IHM ÔÇö Interface Homem-Méquina",
 
             "Protocolos OPC-UA, MQTT, Modbus",
 
-            "Hist├│rico e banco de dados de processo"
+            "Histórico e banco de dados de processo"
 
           ],
 
@@ -3812,13 +3812,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Supervis├úo de subesta├º├Áes el├®tricas",
+            "Supervisão de subestações elétricas",
 
             "Controle de oleodutos e gasodutos",
 
-            "Gest├úo de esta├º├Áes de tratamento de ├ígua e efluentes",
+            "Gestão de estações de tratamento de égua e efluentes",
 
-            "Monitoramento de parques e├│licos e usinas solares"
+            "Monitoramento de parques eólicos e usinas solares"
 
           ]
 
@@ -3828,15 +3828,15 @@ window.SITE_DATA = {
 
           "titulo": "Sensores industriais",
 
-          "definicao": "Dispositivos que convertem grandezas f├¡sicas (temperatura, press├úo, vaz├úo, n├¡vel, posi├º├úo) em sinais el├®tricos interpret├íveis por CLPs e sistemas de controle. S├úo o primeiro elo na cadeia de automa├º├úo, fornecendo dados cr├¡ticos para a tomada de decis├úo em tempo real.",
+          "definicao": "Dispositivos que convertem grandezas físicas (temperatura, pressão, vazão, nível, posição) em sinais elétricos interpretéveis por CLPs e sistemas de controle. São o primeiro elo na cadeia de automação, fornecendo dados críticos para a tomada de decisão em tempo real.",
 
           "topicos": [
 
             "Sensores de temperatura (termopar, RTD, termistor)",
 
-            "Sensores de press├úo e vaz├úo",
+            "Sensores de pressão e vazão",
 
-            "Sensores indutivos, capacitivos e ├│pticos",
+            "Sensores indutivos, capacitivos e ópticos",
 
             "Encoders e resolvers",
 
@@ -3848,11 +3848,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Monitoramento de vari├íveis de processo em refinarias",
+            "Monitoramento de variéveis de processo em refinarias",
 
-            "Detec├º├úo de presen├ºa em esteiras transportadoras",
+            "Detecção de presença em esteiras transportadoras",
 
-            "Medi├º├úo de n├¡vel em tanques e silos",
+            "Medição de nível em tanques e silos",
 
             "Controle de temperatura em fornos industriais"
 
@@ -3864,33 +3864,33 @@ window.SITE_DATA = {
 
           "titulo": "Atuadores e motores",
 
-          "definicao": "Elementos finais de controle que convertem sinais el├®tricos do CLP em a├º├Áes f├¡sicas, como movimento rotativo, linear ou abertura de v├ílvulas. Incluem motores el├®tricos, servoacionamentos, cilindros pneum├íticos, hidr├íulicos e atuadores el├®tricos.",
+          "definicao": "Elementos finais de controle que convertem sinais elétricos do CLP em ações físicas, como movimento rotativo, linear ou abertura de vélvulas. Incluem motores elétricos, servoacionamentos, cilindros pneuméticos, hidréulicos e atuadores elétricos.",
 
           "topicos": [
 
-            "Motores de indu├º├úo trif├ísicos",
+            "Motores de indução trifésicos",
 
             "Servomotores e motores de passo",
 
-            "Cilindros pneum├íticos e hidr├íulicos",
+            "Cilindros pneuméticos e hidréulicos",
 
-            "V├ílvulas de controle (globo, borboleta, esfera)",
+            "Vélvulas de controle (globo, borboleta, esfera)",
 
-            "Inversores de frequ├¬ncia e soft-starters"
+            "Inversores de frequência e soft-starters"
 
           ],
 
-          "formula": "P = ÔêÜ3 ├ù V ├ù I ├ù cos(¤å) ├ù ╬À",
+          "formula": "P = ÔêÜ3 ú V ú I ú cos(¤å) ú ╬À",
 
           "aplicacoes": [
 
-            "Movimenta├º├úo de bra├ºos rob├│ticos",
+            "Movimentação de braços robóticos",
 
-            "Acionamento de bombas centr├¡fugas",
+            "Acionamento de bombas centrífugas",
 
-            "Atua├º├úo de v├ílvulas em processos qu├¡micos",
+            "Atuação de vélvulas em processos químicos",
 
-            "Posicionamento preciso em m├íquinas-ferramenta"
+            "Posicionamento preciso em méquinas-ferramenta"
 
           ]
 
@@ -3898,21 +3898,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Rob├│tica industrial",
+          "titulo": "Robótica industrial",
 
-          "definicao": "Ramo da automa├º├úo que utiliza manipuladores mec├ónicos program├íveis com m├║ltiplos graus de liberdade para executar tarefas repetitivas, precisas ou perigosas. Os rob├┤s industriais s├úo classificados por geometria (articulada, cartesiana, SCARA, paralela) e por capacidade de carga.",
+          "definicao": "Ramo da automação que utiliza manipuladores mecônicos programéveis com múltiplos graus de liberdade para executar tarefas repetitivas, precisas ou perigosas. Os robôs industriais são classificados por geometria (articulada, cartesiana, SCARA, paralela) e por capacidade de carga.",
 
           "topicos": [
 
-            "Classifica├º├úo de rob├┤s por geometria e aplica├º├úo",
+            "Classificação de robôs por geometria e aplicação",
 
-            "Controladores e linguagens de programa├º├úo rob├│tica",
+            "Controladores e linguagens de programação robótica",
 
             "Efetuadores finais (grippers, ferramentas)",
 
-            "Sensores de for├ºa e vis├úo para rob├┤s",
+            "Sensores de força e visão para robôs",
 
-            "Seguran├ºa em c├®lulas robotizadas (ISO 10218, ISO/TS 15066)"
+            "Segurança em células robotizadas (ISO 10218, ISO/TS 15066)"
 
           ],
 
@@ -3920,13 +3920,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Soldagem a arco e ponto na ind├║stria automotiva",
+            "Soldagem a arco e ponto na indústria automotiva",
 
             "Pintura e revestimento automatizados",
 
-            "Paletiza├º├úo e embalagem",
+            "Paletização e embalagem",
 
-            "Montagem de componentes eletr├┤nicos"
+            "Montagem de componentes eletrônicos"
 
           ]
 
@@ -3936,7 +3936,7 @@ window.SITE_DATA = {
 
           "titulo": "IIoT ÔÇö Industrial Internet of Things",
 
-          "definicao": "Extens├úo da Internet das Coisas para o ambiente industrial, conectando m├íquinas, sensores e sistemas por meio de redes de comunica├º├úo para coleta e troca de dados. Permite monitoramento remoto, manuten├º├úo preditiva e otimiza├º├úo de processos baseada em dados.",
+          "definicao": "Extensão da Internet das Coisas para o ambiente industrial, conectando méquinas, sensores e sistemas por meio de redes de comunicação para coleta e troca de dados. Permite monitoramento remoto, manutenção preditiva e otimização de processos baseada em dados.",
 
           "topicos": [
 
@@ -3948,7 +3948,7 @@ window.SITE_DATA = {
 
             "Digital twin alimentado por IIoT",
 
-            "Ciberseguran├ºa em IIoT (IEC 62443)"
+            "Cibersegurança em IIoT (IEC 62443)"
 
           ],
 
@@ -3956,13 +3956,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Monitoramento de vibra├º├úo em motores",
+            "Monitoramento de vibração em motores",
 
-            "Rastreabilidade de lotes na produ├º├úo",
+            "Rastreabilidade de lotes na produção",
 
-            "Gest├úo energ├®tica de plantas industriais",
+            "Gestão energética de plantas industriais",
 
-            "Manuten├º├úo preditiva de ativos cr├¡ticos"
+            "Manutenção preditiva de ativos críticos"
 
           ]
 
@@ -3970,19 +3970,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ind├║stria 4.0",
+          "titulo": "Indústria 4.0",
 
-          "definicao": "Conceito que representa a quarta revolu├º├úo industrial, caracterizada pela integra├º├úo de sistemas ciberf├¡sicos (CPS), IoT, intelig├¬ncia artificial e computa├º├úo em nuvem nos processos produtivos. Visa f├íbricas inteligentes com produ├º├úo flex├¡vel, aut├┤noma e orientada a dados.",
+          "definicao": "Conceito que representa a quarta revolução industrial, caracterizada pela integração de sistemas ciberfísicos (CPS), IoT, inteligência artificial e computação em nuvem nos processos produtivos. Visa fébricas inteligentes com produção flexível, autônoma e orientada a dados.",
 
           "topicos": [
 
-            "Pilares da Ind├║stria 4.0 (BCG)",
+            "Pilares da Indústria 4.0 (BCG)",
 
-            "Sistemas ciberf├¡sicos (CPS)",
+            "Sistemas ciberfísicos (CPS)",
 
-            "Integra├º├úo horizontal e vertical",
+            "Integração horizontal e vertical",
 
-            "Manufatura ├ígil e mass customization",
+            "Manufatura égil e mass customization",
 
             "Arquitetura RAMI 4.0"
 
@@ -3992,13 +3992,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "F├íbricas inteligentes com ch├úo de f├íbrica digitalizado",
+            "Fébricas inteligentes com chão de fébrica digitalizado",
 
-            "Customiza├º├úo em massa de produtos",
+            "Customização em massa de produtos",
 
-            "Log├¡stica aut├┤noma com AGVs",
+            "Logística autônoma com AGVs",
 
-            "G├¬meos digitais de linhas de produ├º├úo"
+            "Gêmeos digitais de linhas de produção"
 
           ]
 
@@ -4008,7 +4008,7 @@ window.SITE_DATA = {
 
           "titulo": "Sistemas embarcados",
 
-          "definicao": "Sistemas computacionais dedicados a uma fun├º├úo espec├¡fica dentro de um sistema maior, com recursos limitados de processamento e mem├│ria. Em automa├º├úo, est├úo presentes em CLPs, IHMs, controladores de motores e dispositivos IoT industriais.",
+          "definicao": "Sistemas computacionais dedicados a uma função específica dentro de um sistema maior, com recursos limitados de processamento e memória. Em automação, estão presentes em CLPs, IHMs, controladores de motores e dispositivos IoT industriais.",
 
           "topicos": [
 
@@ -4018,7 +4018,7 @@ window.SITE_DATA = {
 
             "Firmware e bootloaders",
 
-            "Interfaces de comunica├º├úo (SPI, I2C, CAN, UART)",
+            "Interfaces de comunicação (SPI, I2C, CAN, UART)",
 
             "Projeto de hardware embarcado"
 
@@ -4030,7 +4030,7 @@ window.SITE_DATA = {
 
             "Controladores de acesso e catracas",
 
-            "M├│dulos de aquisi├º├úo de dados",
+            "Módulos de aquisição de dados",
 
             "Sistemas de rastreamento veicular",
 
@@ -4042,21 +4042,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Vis├úo computacional",
+          "titulo": "Visão computacional",
 
-          "definicao": "Campo da intelig├¬ncia artificial que capacita m├íquinas a interpretar e processar imagens do mundo real. Na ind├║stria, ├® usada para inspe├º├úo de qualidade, leitura de c├│digos, guiamento de rob├┤s e monitoramento de processos.",
+          "definicao": "Campo da inteligência artificial que capacita méquinas a interpretar e processar imagens do mundo real. Na indústria, é usada para inspeção de qualidade, leitura de códigos, guiamento de robôs e monitoramento de processos.",
 
           "topicos": [
 
-            "C├ómeras industriais (├írea scan, line scan)",
+            "Cômeras industriais (érea scan, line scan)",
 
             "Processamento de imagens (OpenCV, HALCON)",
 
-            "Deep learning para detec├º├úo de defeitos",
+            "Deep learning para detecção de defeitos",
 
-            "Sistemas de ilumina├º├úo e ├│ptica",
+            "Sistemas de iluminação e óptica",
 
-            "Integra├º├úo com CLPs e rob├┤s"
+            "Integração com CLPs e robôs"
 
           ],
 
@@ -4064,13 +4064,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Inspe├º├úo ├│ptica de soldas",
+            "Inspeção óptica de soldas",
 
-            "Leitura de c├│digos Data Matrix e QR",
+            "Leitura de códigos Data Matrix e QR",
 
-            "Identifica├º├úo de pe├ºas em esteiras",
+            "Identificação de peças em esteiras",
 
-            "Medi├º├úo dimensional automatizada"
+            "Medição dimensional automatizada"
 
           ]
 
@@ -4080,7 +4080,7 @@ window.SITE_DATA = {
 
           "titulo": "Redes industriais (Profibus, Ethernet/IP)",
 
-          "definicao": "Protocolos de comunica├º├úo padronizados para interligar CLPs, sensores, atuadores e sistemas supervis├│rios no ambiente industrial. S├úo classificadas em redes de campo (fieldbus) e redes Ethernet industriais, cada qual com requisitos espec├¡ficos de determinismo e confiabilidade.",
+          "definicao": "Protocolos de comunicação padronizados para interligar CLPs, sensores, atuadores e sistemas supervisórios no ambiente industrial. São classificadas em redes de campo (fieldbus) e redes Ethernet industriais, cada qual com requisitos específicos de determinismo e confiabilidade.",
 
           "topicos": [
 
@@ -4090,9 +4090,9 @@ window.SITE_DATA = {
 
             "Redes de sensores sem fio (WirelessHART)",
 
-            "Comuta├º├úo e roteamento industrial",
+            "Comutação e roteamento industrial",
 
-            "Seguran├ºa em redes industriais"
+            "Segurança em redes industriais"
 
           ],
 
@@ -4100,13 +4100,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Comunica├º├úo entre CLPs em c├®lulas de manufatura",
+            "Comunicação entre CLPs em células de manufatura",
 
             "Controle de movimento sincronizado",
 
-            "Integra├º├úo de sensores distribu├¡dos",
+            "Integração de sensores distribuídos",
 
-            "Redund├óncia de dados em sistemas cr├¡ticos"
+            "Redundôncia de dados em sistemas críticos"
 
           ]
 
@@ -4114,17 +4114,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "IHM ÔÇö Interface Homem-M├íquina",
+          "titulo": "IHM ÔÇö Interface Homem-Méquina",
 
-          "definicao": "Interface gr├ífica que permite a intera├º├úo entre operadores e m├íquinas ou processos, exibindo dados em tempo real, alarmes, gr├íficos de tend├¬ncia e comandos de controle. Pode ser implementada como pain├®is dedicados ou software em PC.",
+          "definicao": "Interface gréfica que permite a interação entre operadores e méquinas ou processos, exibindo dados em tempo real, alarmes, gréficos de tendência e comandos de controle. Pode ser implementada como painéis dedicados ou software em PC.",
 
           "topicos": [
 
-            "Pain├®is IHM touch screen",
+            "Painéis IHM touch screen",
 
-            "Software supervis├│rio com IHM integrada",
+            "Software supervisório com IHM integrada",
 
-            "Desenvolvimento de telas (tags, anima├º├Áes, receitas)",
+            "Desenvolvimento de telas (tags, animações, receitas)",
 
             "Alarmes e eventos",
 
@@ -4136,11 +4136,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Salas de controle de processos cont├¡nuos",
+            "Salas de controle de processos contínuos",
 
-            "Pain├®is de m├íquina em c├®lulas de manufatura",
+            "Painéis de méquina em células de manufatura",
 
-            "Supervis├úo de linhas de envase",
+            "Supervisão de linhas de envase",
 
             "Monitoramento de utilidades industriais"
 
@@ -4152,31 +4152,31 @@ window.SITE_DATA = {
 
           "titulo": "Controladores PID",
 
-          "definicao": "Algoritmo de controle realimentado que calcula o sinal de sa├¡da com base no erro entre o valor desejado (setpoint) e o valor medido, aplicando a├º├Áes proporcional (P), integral (I) e derivativa (D). ├ë o m├®todo mais difundido para controle cont├¡nuo de processos.",
+          "definicao": "Algoritmo de controle realimentado que calcula o sinal de saída com base no erro entre o valor desejado (setpoint) e o valor medido, aplicando ações proporcional (P), integral (I) e derivativa (D). ë o método mais difundido para controle contínuo de processos.",
 
           "topicos": [
 
-            "A├º├Áes P, PI, PID e suas caracter├¡sticas",
+            "Ações P, PI, PID e suas características",
 
             "Sintonia de controladores (Ziegler-Nichols, IMC)",
 
             "Controle cascata, feedforward e ratio",
 
-            "PID digital e discretiza├º├úo",
+            "PID digital e discretização",
 
-            "Satua├º├úo e anti-windup"
+            "Satuação e anti-windup"
 
           ],
 
-          "formula": "u(t) = Kp ├ù e(t) + Ki ├ù Ôê½e(¤ä)d¤ä + Kd ├ù de(t)/dt",
+          "formula": "u(t) = Kp ú e(t) + Ki ú Ôê½e(¤ä)d¤ä + Kd ú de(t)/dt",
 
           "aplicacoes": [
 
             "Controle de temperatura em reatores",
 
-            "Regula├º├úo de vaz├úo e press├úo em tubula├º├Áes",
+            "Regulação de vazão e pressão em tubulações",
 
-            "Controle de n├¡vel em tanques",
+            "Controle de nível em tanques",
 
             "Malhas de velocidade em motores"
 
@@ -4186,21 +4186,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Sistemas supervis├│rios",
+          "titulo": "Sistemas supervisórios",
 
-          "definicao": "Plataformas de software que integram aquisi├º├úo, processamento e exibi├º├úo de dados de processo, permitindo supervis├úo centralizada e tomada de decis├úo em tempo real. Incluem funcionalidades de alarme, hist├│rico, relat├│rios e interface com sistemas corporativos.",
+          "definicao": "Plataformas de software que integram aquisição, processamento e exibição de dados de processo, permitindo supervisão centralizada e tomada de decisão em tempo real. Incluem funcionalidades de alarme, histórico, relatórios e interface com sistemas corporativos.",
 
           "topicos": [
 
-            "Configura├º├úo de tags e drivers de comunica├º├úo",
+            "Configuração de tags e drivers de comunicação",
 
-            "Telas de supervis├úo e navega├º├úo",
+            "Telas de supervisão e navegação",
 
-            "Relat├│rios e hist├│ricos",
+            "Relatórios e históricos",
 
-            "Integra├º├úo com MES e ERP",
+            "Integração com MES e ERP",
 
-            "Redund├óncia e alta disponibilidade"
+            "Redundôncia e alta disponibilidade"
 
           ],
 
@@ -4208,13 +4208,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Central de opera├º├úo de plantas petroqu├¡micas",
+            "Central de operação de plantas petroquímicas",
 
-            "Controle de sistemas de gera├º├úo de energia",
+            "Controle de sistemas de geração de energia",
 
-            "Automa├º├úo de edif├¡cios inteligentes",
+            "Automação de edifícios inteligentes",
 
-            "Monitoramento de esta├º├Áes de tratamento"
+            "Monitoramento de estações de tratamento"
 
           ]
 
@@ -4222,31 +4222,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Acionamentos el├®tricos",
+          "titulo": "Acionamentos elétricos",
 
-          "definicao": "Sistemas que controlam a partida, parada, velocidade, torque e sentido de rota├º├úo de motores el├®tricos. Incluem contatores, soft-starters, inversores de frequ├¬ncia e servoconversores, sendo essenciais para efici├¬ncia energ├®tica e automa├º├úo de m├íquinas.",
+          "definicao": "Sistemas que controlam a partida, parada, velocidade, torque e sentido de rotação de motores elétricos. Incluem contatores, soft-starters, inversores de frequência e servoconversores, sendo essenciais para eficiência energética e automação de méquinas.",
 
           "topicos": [
 
-            "Partida direta, estrela-tri├óngulo e suave",
+            "Partida direta, estrela-triôngulo e suave",
 
-            "Inversores de frequ├¬ncia (VFD)",
+            "Inversores de frequência (VFD)",
 
             "Servoacionamentos com malha fechada",
 
-            "Dimensionamento de cabos e prote├º├Áes",
+            "Dimensionamento de cabos e proteções",
 
-            "Efici├¬ncia energ├®tica e normas IE3/IE4"
+            "Eficiência energética e normas IE3/IE4"
 
           ],
 
-          "formula": "n(rpm) = 120 ├ù f / p",
+          "formula": "n(rpm) = 120 ú f / p",
 
           "aplicacoes": [
 
             "Acionamento de transportadores e elevadores",
 
-            "Controle de bombas hidr├íulicas",
+            "Controle de bombas hidréulicas",
 
             "Posicionamento de eixos em centros de usinagem",
 
@@ -4258,35 +4258,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Pneum├ítica e hidr├íulica",
+          "titulo": "Pneumética e hidréulica",
 
-          "definicao": "Tecnologias de automa├º├úo que utilizam fluidos pressurizados (ar comprimido na pneum├ítica; ├│leo na hidr├íulica) para gerar movimento linear ou rotativo. A pneum├ítica ├® preferida para aplica├º├Áes de baixa a m├®dia for├ºa; a hidr├íulica para altas cargas e precis├úo de posicionamento.",
+          "definicao": "Tecnologias de automação que utilizam fluidos pressurizados (ar comprimido na pneumética; óleo na hidréulica) para gerar movimento linear ou rotativo. A pneumética é preferida para aplicações de baixa a média força; a hidréulica para altas cargas e precisão de posicionamento.",
 
           "topicos": [
 
-            "Cilindros de simples e dupla a├º├úo",
+            "Cilindros de simples e dupla ação",
 
-            "V├ílvulas direcionais, reguladoras e proporcionais",
+            "Vélvulas direcionais, reguladoras e proporcionais",
 
-            "Unidades de prepara├º├úo de ar (FRL)",
+            "Unidades de preparação de ar (FRL)",
 
-            "Bombas hidr├íulicas e atuadores",
+            "Bombas hidréulicas e atuadores",
 
             "Normas ISO 4414 e ISO 4413"
 
           ],
 
-          "formula": "F = P ├ù A",
+          "formula": "F = P ú A",
 
           "aplicacoes": [
 
-            "Automa├º├úo de linhas de montagem (pneum├ítica)",
+            "Automação de linhas de montagem (pneumética)",
 
-            "Prensas e injetoras hidr├íulicas",
+            "Prensas e injetoras hidréulicas",
 
-            "Sistemas de fixa├º├úo e clamping",
+            "Sistemas de fixação e clamping",
 
-            "Atua├º├úo de v├ílvulas em processos"
+            "Atuação de vélvulas em processos"
 
           ]
 
@@ -4294,21 +4294,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Rob├┤s colaborativos (Cobots)",
+          "titulo": "Robôs colaborativos (Cobots)",
 
-          "definicao": "Rob├┤s projetados para operar em espa├ºo compartilhado com seres humanos, com sensores de for├ºa, limita├º├úo de pot├¬ncia e parada segura por contato. Diferem dos rob├┤s industriais tradicionais por dispensar cercas de seguran├ºa e facilitar a reprograma├º├úo.",
+          "definicao": "Robôs projetados para operar em espaço compartilhado com seres humanos, com sensores de força, limitação de potência e parada segura por contato. Diferem dos robôs industriais tradicionais por dispensar cercas de segurança e facilitar a reprogramação.",
 
           "topicos": [
 
-            "Norma ISO/TS 15066 para rob├┤s colaborativos",
+            "Norma ISO/TS 15066 para robôs colaborativos",
 
-            "Modos de opera├º├úo colaborativa",
+            "Modos de operação colaborativa",
 
-            "Sensoriamento de torque e for├ºa",
+            "Sensoriamento de torque e força",
 
-            "Aplica├º├Áes pick-and-place e inspe├º├úo",
+            "Aplicações pick-and-place e inspeção",
 
-            "Compara├º├úo com rob├┤s industriais tradicionais"
+            "Comparação com robôs industriais tradicionais"
 
           ],
 
@@ -4316,13 +4316,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Alimenta├º├úo de m├íquinas CNC por operador + cobot",
+            "Alimentação de méquinas CNC por operador + cobot",
 
             "Montagem assistida de componentes delicados",
 
-            "Inspe├º├úo de qualidade colaborativa",
+            "Inspeção de qualidade colaborativa",
 
-            "Embalagem e paletiza├º├úo em pequenas empresas"
+            "Embalagem e paletização em pequenas empresas"
 
           ]
 
@@ -4330,19 +4330,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "C├®lulas de manufatura flex├¡vel",
+          "titulo": "Células de manufatura flexível",
 
-          "definicao": "Arranjo produtivo que integra m├íquinas CNC, rob├┤s, sistemas de armazenamento e transporte automatizado, capazes de fabricar fam├¡lias de pe├ºas com m├¡nima interven├º├úo manual. A flexibilidade permite alterar rapidamente a produ├º├úo entre modelos sem grandes reconfigura├º├Áes.",
+          "definicao": "Arranjo produtivo que integra méquinas CNC, robôs, sistemas de armazenamento e transporte automatizado, capazes de fabricar famílias de peças com mínima intervenção manual. A flexibilidade permite alterar rapidamente a produção entre modelos sem grandes reconfigurações.",
 
           "topicos": [
 
-            "Layout de c├®lulas flex├¡veis (U-shape, linear)",
+            "Layout de células flexíveis (U-shape, linear)",
 
             "Sistemas de paletes e magazines",
 
             "Controle centralizado e scheduling",
 
-            "Mudan├ºa r├ípida de ferramentas (SMED)",
+            "Mudança répida de ferramentas (SMED)",
 
             "Indicadores OEE e flexibilidade"
 
@@ -4352,13 +4352,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Usinagem de fam├¡lias de pe├ºas automotivas",
+            "Usinagem de famílias de peças automotivas",
 
-            "Manufatura de componentes aeron├íuticos",
+            "Manufatura de componentes aeronéuticos",
 
-            "Produ├º├úo de dispositivos m├®dicos",
+            "Produção de dispositivos médicos",
 
-            "Fabrica├º├úo de pe├ºas por encomenda"
+            "Fabricação de peças por encomenda"
 
           ]
 
@@ -4366,21 +4366,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Identifica├º├úo por RF (RFID)",
+          "titulo": "Identificação por RF (RFID)",
 
-          "definicao": "Tecnologia de identifica├º├úo autom├ítica por radiofrequ├¬ncia que utiliza etiquetas (tags) passivas ou ativas para rastrear produtos, ferramentas e ativos ao longo da cadeia produtiva. Diferencia-se do c├│digo de barras por n├úo exigir linha de visada e permitir leitura em lote.",
+          "definicao": "Tecnologia de identificação automética por radiofrequência que utiliza etiquetas (tags) passivas ou ativas para rastrear produtos, ferramentas e ativos ao longo da cadeia produtiva. Diferencia-se do código de barras por não exigir linha de visada e permitir leitura em lote.",
 
           "topicos": [
 
             "Tags passivas, ativas e semi-passivas",
 
-            "Frequ├¬ncias LF, HF, UHF e micro-ondas",
+            "Frequências LF, HF, UHF e micro-ondas",
 
-            "Leitores fixos e m├│veis",
+            "Leitores fixos e móveis",
 
-            "Padr├Áes ISO 18000 e EPC Gen2",
+            "Padrões ISO 18000 e EPC Gen2",
 
-            "Integra├º├úo com MES e WMS"
+            "Integração com MES e WMS"
 
           ],
 
@@ -4388,13 +4388,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rastreabilidade de pe├ºas na montagem",
+            "Rastreabilidade de peças na montagem",
 
             "Controle de estoque automatizado",
 
-            "Identifica├º├úo de ferramentas e dispositivos",
+            "Identificação de ferramentas e dispositivos",
 
-            "Log├¡stica reversa e cadeia de suprimentos"
+            "Logística reversa e cadeia de suprimentos"
 
           ]
 
@@ -4404,19 +4404,19 @@ window.SITE_DATA = {
 
           "titulo": "OPC-UA e MQTT",
 
-          "definicao": "Protocolos de comunica├º├úo modernos para integra├º├úo de dados industriais. OPC-UA (Open Platform Communications ÔÇö Unified Architecture) padroniza a troca de dados entre diferentes fabricantes com seguran├ºa e modelagem de informa├º├Áes. MQTT (Message Queuing Telemetry Transport) ├® um protocolo leve de mensageria publish/subscribe ideal para IIoT.",
+          "definicao": "Protocolos de comunicação modernos para integração de dados industriais. OPC-UA (Open Platform Communications ÔÇö Unified Architecture) padroniza a troca de dados entre diferentes fabricantes com segurança e modelagem de informações. MQTT (Message Queuing Telemetry Transport) é um protocolo leve de mensageria publish/subscribe ideal para IIoT.",
 
           "topicos": [
 
             "Arquitetura cliente-servidor OPC-UA",
 
-            "Modelo de informa├º├úo e namespace",
+            "Modelo de informação e namespace",
 
-            "MQTT brokers e t├│picos",
+            "MQTT brokers e tópicos",
 
-            "Qualidade de servi├ºo (QoS) em MQTT",
+            "Qualidade de serviço (QoS) em MQTT",
 
-            "Seguran├ºa e certificados OPC-UA"
+            "Segurança e certificados OPC-UA"
 
           ],
 
@@ -4424,9 +4424,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Integra├º├úo de ch├úo de f├íbrica com sistemas cloud",
+            "Integração de chão de fébrica com sistemas cloud",
 
-            "Coleta de dados de m├║ltiplos CLPs heterog├¬neos",
+            "Coleta de dados de múltiplos CLPs heterogêneos",
 
             "Telemetria de ativos remotos",
 
@@ -4449,31 +4449,31 @@ window.SITE_DATA = {
 
       "id": "transf-digital",
 
-      "nome": "Transforma├º├úo Digital",
+      "nome": "Transformação Digital",
 
       "icone": "zap",
 
       "cor": "#ea580c",
 
-      "descricao": "Digitaliza├º├úo, IA, g├¬meo digital e tecnologias habilitadoras da Ind├║stria 5.0.",
+      "descricao": "Digitalização, IA, gêmeo digital e tecnologias habilitadoras da Indústria 5.0.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Digitaliza├º├úo industrial",
+          "titulo": "Digitalização industrial",
 
-          "definicao": "Processo de convers├úo de processos, documentos e opera├º├Áes anal├│gicas para formatos digitais, habilitando automa├º├úo, rastreabilidade e an├ílise de dados. Vai al├®m da simples digitaliza├º├úo de pap├®is, envolvendo a integra├º├úo de sistemas e a conectividade de ativos.",
+          "definicao": "Processo de conversão de processos, documentos e operações analógicas para formatos digitais, habilitando automação, rastreabilidade e anélise de dados. Vai além da simples digitalização de papéis, envolvendo a integração de sistemas e a conectividade de ativos.",
 
           "topicos": [
 
-            "Estrat├®gia de transforma├º├úo digital",
+            "Estratégia de transformação digital",
 
             "Digital twin e digital thread",
 
-            "Elimina├º├úo de dados em papel",
+            "Eliminação de dados em papel",
 
-            "Integra├º├úo OT/IT",
+            "Integração OT/IT",
 
             "Indicadores de maturidade digital"
 
@@ -4483,13 +4483,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Digitaliza├º├úo de ordens de servi├ºo e checklists",
+            "Digitalização de ordens de serviço e checklists",
 
-            "Captura autom├ítica de dados de produ├º├úo",
+            "Captura automética de dados de produção",
 
-            "Documenta├º├úo t├®cnica 100% digital",
+            "Documentação técnica 100% digital",
 
-            "Assinatura eletr├┤nica em processos industriais"
+            "Assinatura eletrônica em processos industriais"
 
           ]
 
@@ -4497,17 +4497,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Intelig├¬ncia Artificial na ind├║stria",
+          "titulo": "Inteligência Artificial na indústria",
 
-          "definicao": "Ramo da computa├º├úo que desenvolve sistemas capazes de executar tarefas que normalmente requerem intelig├¬ncia humana: aprendizado, racioc├¡nio, percep├º├úo e tomada de decis├úo. Na ind├║stria, ├® aplicada em controle de qualidade preditivo, otimiza├º├úo de processos e manuten├º├úo inteligente.",
+          "definicao": "Ramo da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana: aprendizado, raciocínio, percepção e tomada de decisão. Na indústria, é aplicada em controle de qualidade preditivo, otimização de processos e manutenção inteligente.",
 
           "topicos": [
 
-            "Machine Learning (supervisionado, n├úo supervisionado, refor├ºo)",
+            "Machine Learning (supervisionado, não supervisionado, reforço)",
 
-            "Deep Learning para vis├úo computacional",
+            "Deep Learning para visão computacional",
 
-            "IA generativa para projeto e documenta├º├úo",
+            "IA generativa para projeto e documentação",
 
             "Sistemas especialistas e controle fuzzy",
 
@@ -4519,13 +4519,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Detec├º├úo de defeitos em tempo real com vis├úo IA",
+            "Detecção de defeitos em tempo real com visão IA",
 
-            "Previs├úo de demanda e planejamento de produ├º├úo",
+            "Previsão de demanda e planejamento de produção",
 
-            "Otimiza├º├úo de par├ómetros de processo",
+            "Otimização de parômetros de processo",
 
-            "Chatbots para assist├¬ncia t├®cnica"
+            "Chatbots para assistência técnica"
 
           ]
 
@@ -4535,7 +4535,7 @@ window.SITE_DATA = {
 
           "titulo": "Big Data e Analytics",
 
-          "definicao": "Conjunto de t├®cnicas e tecnologias para capturar, armazenar, processar e analisar grandes volumes de dados estruturados e n├úo estruturados gerados por sistemas industriais. Permite extrair correla├º├Áes, padr├Áes e insights que orientam decis├Áes estrat├®gicas e operacionais.",
+          "definicao": "Conjunto de técnicas e tecnologias para capturar, armazenar, processar e analisar grandes volumes de dados estruturados e não estruturados gerados por sistemas industriais. Permite extrair correlações, padrões e insights que orientam decisões estratégicas e operacionais.",
 
           "topicos": [
 
@@ -4545,9 +4545,9 @@ window.SITE_DATA = {
 
             "Ferramentas (Hadoop, Spark, Kafka)",
 
-            "An├ílise descritiva, diagn├│stica, preditiva e prescritiva",
+            "Anélise descritiva, diagnóstica, preditiva e prescritiva",
 
-            "Visualiza├º├úo de dados com dashboards"
+            "Visualização de dados com dashboards"
 
           ],
 
@@ -4555,11 +4555,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de causa raiz de falhas recorrentes",
+            "Anélise de causa raiz de falhas recorrentes",
 
-            "Otimiza├º├úo de mix de produ├º├úo por margem",
+            "Otimização de mix de produção por margem",
 
-            "Segmenta├º├úo de clientes e personaliza├º├úo",
+            "Segmentação de clientes e personalização",
 
             "Monitoramento de KPI em tempo real"
 
@@ -4569,21 +4569,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Computa├º├úo em nuvem",
+          "titulo": "Computação em nuvem",
 
-          "definicao": "Modelo de computa├º├úo que permite acesso on-demand a recursos computacionais compartilhados (servidores, armazenamento, bancos de dados, redes, software) pela internet. Na ind├║stria, viabiliza IIoT, an├ílise avan├ºada e sistemas de gest├úo escal├íveis com redu├º├úo de custos de infraestrutura.",
+          "definicao": "Modelo de computação que permite acesso on-demand a recursos computacionais compartilhados (servidores, armazenamento, bancos de dados, redes, software) pela internet. Na indústria, viabiliza IIoT, anélise avançada e sistemas de gestão escaléveis com redução de custos de infraestrutura.",
 
           "topicos": [
 
-            "IaaS, PaaS, SaaS ÔÇö modelos de servi├ºo",
+            "IaaS, PaaS, SaaS ÔÇö modelos de serviço",
 
-            "Nuvem p├║blica, privada e h├¡brida",
+            "Nuvem pública, privada e híbrida",
 
             "Cloud industrial (AWS Industry, Azure for Industry)",
 
             "Edge computing vs. Cloud computing",
 
-            "Seguran├ºa e conformidade (LGPD) em nuvem"
+            "Segurança e conformidade (LGPD) em nuvem"
 
           ],
 
@@ -4595,9 +4595,9 @@ window.SITE_DATA = {
 
             "Sistemas ERP e MES em SaaS",
 
-            "Armazenamento e an├ílise de dados hist├│ricos",
+            "Armazenamento e anélise de dados históricos",
 
-            "Machine Learning como servi├ºo (MLaaS)"
+            "Machine Learning como serviço (MLaaS)"
 
           ]
 
@@ -4605,19 +4605,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "G├¬meo Digital (Digital Twin)",
+          "titulo": "Gêmeo Digital (Digital Twin)",
 
-          "definicao": "R├®plica virtual de um sistema, produto ou processo que reflete seu estado em tempo real por meio de dados de sensores e simula├º├Áes. Permite prever comportamentos, testar cen├írios e otimizar opera├º├Áes sem intervir no sistema f├¡sico.",
+          "definicao": "Réplica virtual de um sistema, produto ou processo que reflete seu estado em tempo real por meio de dados de sensores e simulações. Permite prever comportamentos, testar cenérios e otimizar operações sem intervir no sistema físico.",
 
           "topicos": [
 
-            "G├¬meo digital de produto, processo e sistema",
+            "Gêmeo digital de produto, processo e sistema",
 
-            "Modelagem 3D e simula├º├úo multi-f├¡sica",
+            "Modelagem 3D e simulação multi-física",
 
-            "Sincroniza├º├úo em tempo real com dados IIoT",
+            "Sincronização em tempo real com dados IIoT",
 
-            "G├¬meo digital de f├íbrica (Digital Factory)",
+            "Gêmeo digital de fébrica (Digital Factory)",
 
             "Ferramentas (Unity, Siemens Tecnomatix, Ansys Twin Builder)"
 
@@ -4627,13 +4627,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de fluxo produtivo antes da implementa├º├úo",
+            "Simulação de fluxo produtivo antes da implementação",
 
-            "Monitoramento e predi├º├úo de desgaste de m├íquinas",
+            "Monitoramento e predição de desgaste de méquinas",
 
-            "Otimiza├º├úo de efici├¬ncia energ├®tica",
+            "Otimização de eficiência energética",
 
-            "Comissionamento virtual de linhas de produ├º├úo"
+            "Comissionamento virtual de linhas de produção"
 
           ]
 
@@ -4643,7 +4643,7 @@ window.SITE_DATA = {
 
           "titulo": "IoT e IIoT",
 
-          "definicao": "Rede de objetos f├¡sicos conectados ├á internet que coletam e trocam dados. A IoT industrial (IIoT) estende esse conceito ao ambiente fabril, conectando sensores, m├íquinas e sistemas para monitoramento, automa├º├úo e otimiza├º├úo baseada em dados.",
+          "definicao": "Rede de objetos físicos conectados á internet que coletam e trocam dados. A IoT industrial (IIoT) estende esse conceito ao ambiente fabril, conectando sensores, méquinas e sistemas para monitoramento, automação e otimização baseada em dados.",
 
           "topicos": [
 
@@ -4653,9 +4653,9 @@ window.SITE_DATA = {
 
             "Plataformas IoT (ThingsBoard, AWS IoT, Azure IoT)",
 
-            "An├ílise de borda (edge analytics)",
+            "Anélise de borda (edge analytics)",
 
-            "Seguran├ºa em dispositivos IoT (TLS, PKI)"
+            "Segurança em dispositivos IoT (TLS, PKI)"
 
           ],
 
@@ -4665,11 +4665,11 @@ window.SITE_DATA = {
 
             "Cidades inteligentes e utilidades",
 
-            "Agricultura de precis├úo",
+            "Agricultura de precisão",
 
-            "Monitoramento de frota e log├¡stica",
+            "Monitoramento de frota e logística",
 
-            "Medi├º├úo inteligente de energia"
+            "Medição inteligente de energia"
 
           ]
 
@@ -4677,21 +4677,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ind├║stria 5.0",
+          "titulo": "Indústria 5.0",
 
-          "definicao": "Evolu├º├úo da Ind├║stria 4.0 que coloca o ser humano no centro da produ├º├úo, integrando tecnologias digitais com sustentabilidade, resili├¬ncia e bem-estar social. Valoriza a coopera├º├úo homem-m├íquina (cobots), personaliza├º├úo em massa e produ├º├úo regenerativa.",
+          "definicao": "Evolução da Indústria 4.0 que coloca o ser humano no centro da produção, integrando tecnologias digitais com sustentabilidade, resiliência e bem-estar social. Valoriza a cooperação homem-méquina (cobots), personalização em massa e produção regenerativa.",
 
           "topicos": [
 
-            "Human-centricity (produ├º├úo centrada no humano)",
+            "Human-centricity (produção centrada no humano)",
 
-            "Resili├¬ncia de cadeias de suprimento",
+            "Resiliência de cadeias de suprimento",
 
-            "Sustentabilidade e produ├º├úo regenerativa",
+            "Sustentabilidade e produção regenerativa",
 
             "Tecnologias habilitadoras 5.0",
 
-            "Diferen├ºas entre Ind├║stria 4.0 e 5.0"
+            "Diferenças entre Indústria 4.0 e 5.0"
 
           ],
 
@@ -4699,13 +4699,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Linhas de produ├º├úo com rob├┤s colaborativos",
+            "Linhas de produção com robôs colaborativos",
 
-            "F├íbricas regenerativas com energia limpa",
+            "Fébricas regenerativas com energia limpa",
 
-            "Produ├º├úo customizada com participa├º├úo do cliente",
+            "Produção customizada com participação do cliente",
 
-            "Modelos de neg├│cio baseados em servitiza├º├úo"
+            "Modelos de negócio baseados em servitização"
 
           ]
 
@@ -4713,17 +4713,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Blockchain na ind├║stria",
+          "titulo": "Blockchain na indústria",
 
-          "definicao": "Tecnologia de registro distribu├¡do que garante imutabilidade, rastreabilidade e transpar├¬ncia em transa├º├Áes e dados compartilhados entre m├║ltiplos participantes. Na cadeia de suprimentos, assegura a origem e o hist├│rico de produtos e materiais.",
+          "definicao": "Tecnologia de registro distribuído que garante imutabilidade, rastreabilidade e transparência em transações e dados compartilhados entre múltiplos participantes. Na cadeia de suprimentos, assegura a origem e o histórico de produtos e materiais.",
 
           "topicos": [
 
             "Estrutura de blocos, hash e consenso",
 
-            "Blockchain p├║blica vs. privada vs. cons├│rcio",
+            "Blockchain pública vs. privada vs. consórcio",
 
-            "Smart contracts para automa├º├úo de acordos",
+            "Smart contracts para automação de acordos",
 
             "Rastreabilidade na cadeia de suprimentos",
 
@@ -4735,13 +4735,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rastreabilidade de alimentos da fazenda ├á mesa",
+            "Rastreabilidade de alimentos da fazenda á mesa",
 
-            "Certifica├º├úo de origem de materiais",
+            "Certificação de origem de materiais",
 
-            "Contratos inteligentes para pagamentos autom├íticos",
+            "Contratos inteligentes para pagamentos autométicos",
 
-            "Prote├º├úo de propriedade intelectual industrial"
+            "Proteção de propriedade intelectual industrial"
 
           ]
 
@@ -4751,19 +4751,19 @@ window.SITE_DATA = {
 
           "titulo": "Realidade Aumentada (AR)",
 
-          "definicao": "Tecnologia que sobrep├Áe elementos digitais (imagens, textos, anima├º├Áes) ao ambiente real em tempo real, visualizada por ├│culos inteligentes, tablets ou smartphones. Na ind├║stria, ├® usada para treinamento, assist├¬ncia remota e instru├º├Áes de montagem sobrepostas.",
+          "definicao": "Tecnologia que sobrepõe elementos digitais (imagens, textos, animações) ao ambiente real em tempo real, visualizada por óculos inteligentes, tablets ou smartphones. Na indústria, é usada para treinamento, assistência remota e instruções de montagem sobrepostas.",
 
           "topicos": [
 
             "Marcadores e tracking visual",
 
-            "├ôculos AR (Microsoft HoloLens, Magic Leap)",
+            "ôculos AR (Microsoft HoloLens, Magic Leap)",
 
             "Desenvolvimento com Unity e AR Foundation",
 
-            "AR para manuten├º├úo assistida",
+            "AR para manutenção assistida",
 
-            "Integra├º├úo com sistemas PLM e CMMS"
+            "Integração com sistemas PLM e CMMS"
 
           ],
 
@@ -4771,11 +4771,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Instru├º├Áes de montagem projetadas sobre o produto",
+            "Instruções de montagem projetadas sobre o produto",
 
-            "Manuten├º├úo remota com especialista via AR",
+            "Manutenção remota com especialista via AR",
 
-            "Inspe├º├úo visual com sobreposi├º├úo de dados",
+            "Inspeção visual com sobreposição de dados",
 
             "Treinamento de operadores em ambiente seguro"
 
@@ -4787,19 +4787,19 @@ window.SITE_DATA = {
 
           "titulo": "Realidade Virtual (VR)",
 
-          "definicao": "Ambiente digital imersivo gerado por computador, no qual o usu├írio interage por meio de ├│culos VR e controladores. Na engenharia, ├® usada para simula├º├úo de projetos, valida├º├úo de layout fabril e treinamento em situa├º├Áes de risco sem exposi├º├úo real.",
+          "definicao": "Ambiente digital imersivo gerado por computador, no qual o usuério interage por meio de óculos VR e controladores. Na engenharia, é usada para simulação de projetos, validação de layout fabril e treinamento em situações de risco sem exposição real.",
 
           "topicos": [
 
-            "├ôculos VR (Meta Quest, HTC Vive, Pico)",
+            "ôculos VR (Meta Quest, HTC Vive, Pico)",
 
             "Desenvolvimento em Unity 3D e Unreal Engine",
 
-            "Simula├º├úo de processos e ergonomia",
+            "Simulação de processos e ergonomia",
 
-            "Treinamento de seguran├ºa em VR",
+            "Treinamento de segurança em VR",
 
-            "Revis├úo de projeto colaborativa em VR"
+            "Revisão de projeto colaborativa em VR"
 
           ],
 
@@ -4807,13 +4807,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de layout de f├íbrica antes da constru├º├úo",
+            "Simulação de layout de fébrica antes da construção",
 
-            "Treinamento de opera├º├úo de m├íquinas complexas",
+            "Treinamento de operação de méquinas complexas",
 
             "Ergonomia virtual para projeto de postos",
 
-            "Revis├úo de prot├│tipos 3D em escala real"
+            "Revisão de protótipos 3D em escala real"
 
           ]
 
@@ -4823,17 +4823,17 @@ window.SITE_DATA = {
 
           "titulo": "Manufatura aditiva (3D Printing)",
 
-          "definicao": "Processo de fabrica├º├úo por adi├º├úo sucessiva de camadas de material (pl├ístico, metal, cer├ómica) a partir de um modelo digital 3D. Permite geometrias complexas, redu├º├úo de peso, customiza├º├úo em massa e prototipagem r├ípida, com impacto direto na cadeia de suprimentos.",
+          "definicao": "Processo de fabricação por adição sucessiva de camadas de material (pléstico, metal, cerômica) a partir de um modelo digital 3D. Permite geometrias complexas, redução de peso, customização em massa e prototipagem répida, com impacto direto na cadeia de suprimentos.",
 
           "topicos": [
 
             "FDM, SLA, SLS, DMLS, EBM ÔÇö tecnologias",
 
-            "Materiais para impress├úo 3D industrial",
+            "Materiais para impressão 3D industrial",
 
             "Design for Additive Manufacturing (DfAM)",
 
-            "P├│s-processamento e acabamento",
+            "Pós-processamento e acabamento",
 
             "Normas ASTM F42 e ISO 52900"
 
@@ -4843,13 +4843,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prototipagem r├ípida de componentes",
+            "Prototipagem répida de componentes",
 
-            "Produ├º├úo de pe├ºas de reposi├º├úo sob demanda",
+            "Produção de peças de reposição sob demanda",
 
-            "Implantes m├®dicos personalizados",
+            "Implantes médicos personalizados",
 
-            "Ferramentas e dispositivos de produ├º├úo leves"
+            "Ferramentas e dispositivos de produção leves"
 
           ]
 
@@ -4857,21 +4857,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ciberseguran├ºa industrial",
+          "titulo": "Cibersegurança industrial",
 
-          "definicao": "Pr├íticas, tecnologias e processos para proteger sistemas de controle industrial (ICS), redes, dispositivos e dados contra ataques cibern├®ticos. Difere da seguran├ºa de TI por exigir disponibilidade cont├¡nua, baixa lat├¬ncia e prote├º├úo de sistemas legados.",
+          "definicao": "Préticas, tecnologias e processos para proteger sistemas de controle industrial (ICS), redes, dispositivos e dados contra ataques cibernéticos. Difere da segurança de TI por exigir disponibilidade contínua, baixa latência e proteção de sistemas legados.",
 
           "topicos": [
 
-            "IEC 62443 ÔÇö normas para seguran├ºa ICS",
+            "IEC 62443 ÔÇö normas para segurança ICS",
 
-            "Segmenta├º├úo de redes OT e IT",
+            "Segmentação de redes OT e IT",
 
             "Firewalls industriais e DMZ",
 
-            "Detec├º├úo de intrus├úo em redes industriais",
+            "Detecção de intrusão em redes industriais",
 
-            "Gest├úo de vulnerabilidades e patch management"
+            "Gestão de vulnerabilidades e patch management"
 
           ],
 
@@ -4879,13 +4879,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prote├º├úo de subesta├º├Áes de energia contra ataques",
+            "Proteção de subestações de energia contra ataques",
 
-            "Seguran├ºa de redes SCADA",
+            "Segurança de redes SCADA",
 
-            "Prote├º├úo de dados de propriedade intelectual industrial",
+            "Proteção de dados de propriedade intelectual industrial",
 
-            "Conformidade com regulamenta├º├Áes de seguran├ºa digital"
+            "Conformidade com regulamentações de segurança digital"
 
           ]
 
@@ -4895,7 +4895,7 @@ window.SITE_DATA = {
 
           "titulo": "Edge Computing",
 
-          "definicao": "Modelo computacional que processa dados pr├│ximo ├á fonte geradora (na borda da rede), reduzindo lat├¬ncia e tr├ífego para a nuvem. Cr├¡tico para aplica├º├Áes industriais que exigem resposta em tempo real, como controle de m├íquinas e an├ílise preditiva local.",
+          "definicao": "Modelo computacional que processa dados próximo á fonte geradora (na borda da rede), reduzindo latência e tréfego para a nuvem. Crítico para aplicações industriais que exigem resposta em tempo real, como controle de méquinas e anélise preditiva local.",
 
           "topicos": [
 
@@ -4905,7 +4905,7 @@ window.SITE_DATA = {
 
             "Processamento de streaming em tempo real",
 
-            "Orquestra├º├úo de containers no edge (K3s, Docker)",
+            "Orquestração de containers no edge (K3s, Docker)",
 
             "Plataformas edge industriais (Siemens Industrial Edge, AWS Outposts)"
 
@@ -4915,13 +4915,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de vibra├º├úo em tempo real na m├íquina",
+            "Anélise de vibração em tempo real na méquina",
 
-            "Controle de qualidade com infer├¬ncia de IA local",
+            "Controle de qualidade com inferência de IA local",
 
-            "Redu├º├úo de tr├ífego de dados para a nuvem",
+            "Redução de tréfego de dados para a nuvem",
 
-            "Opera├º├úo offline com sincroniza├º├úo posterior"
+            "Operação offline com sincronização posterior"
 
           ]
 
@@ -4931,17 +4931,17 @@ window.SITE_DATA = {
 
           "titulo": "5G industrial",
 
-          "definicao": "Quinta gera├º├úo de redes m├│veis que oferece alta largura de banda, baix├¡ssima lat├¬ncia (1-10 ms) e suporte a massiva conex├úo de dispositivos. Na ind├║stria, viabiliza controle remoto de m├íquinas, rob├│tica colaborativa sem fio e f├íbricas totalmente m├│veis.",
+          "definicao": "Quinta geração de redes móveis que oferece alta largura de banda, baixíssima latência (1-10 ms) e suporte a massiva conexão de dispositivos. Na indústria, viabiliza controle remoto de méquinas, robótica colaborativa sem fio e fébricas totalmente móveis.",
 
           "topicos": [
 
             "Redes 5G privativas (NPN)",
 
-            "Network slicing para aplica├º├Áes industriais",
+            "Network slicing para aplicações industriais",
 
-            "URLLC, eMBB, mMTC ÔÇö categorias de servi├ºo",
+            "URLLC, eMBB, mMTC ÔÇö categorias de serviço",
 
-            "Integra├º├úo 5G com TSN (Time-Sensitive Networking)",
+            "Integração 5G com TSN (Time-Sensitive Networking)",
 
             "Casos de uso 5G em manufatura"
 
@@ -4953,11 +4953,11 @@ window.SITE_DATA = {
 
             "Controle remoto de guindastes e AGVs",
 
-            "Realidade aumentada com streaming de v├¡deo 4K",
+            "Realidade aumentada com streaming de vídeo 4K",
 
-            "Comunica├º├úo machine-to-machine ultraconfi├ível",
+            "Comunicação machine-to-machine ultraconfiével",
 
-            "Monitoramento por v├¡deo de alta resolu├º├úo"
+            "Monitoramento por vídeo de alta resolução"
 
           ]
 
@@ -4967,19 +4967,19 @@ window.SITE_DATA = {
 
           "titulo": "IA Generativa na manufatura",
 
-          "definicao": "Ramo da intelig├¬ncia artificial focado na gera├º├úo de conte├║do novo (texto, imagens, c├│digo, modelos 3D) a partir de modelos treinados como GPT, DALL-E e Stable Diffusion. Na manufatura, acelera projeto de produto, documenta├º├úo t├®cnica e programa├º├úo de m├íquinas.",
+          "definicao": "Ramo da inteligência artificial focado na geração de conteúdo novo (texto, imagens, código, modelos 3D) a partir de modelos treinados como GPT, DALL-E e Stable Diffusion. Na manufatura, acelera projeto de produto, documentação técnica e programação de méquinas.",
 
           "topicos": [
 
-            "LLMs aplicados ├á engenharia",
+            "LLMs aplicados á engenharia",
 
-            "Gera├º├úo de c├│digo G-code e PLC",
+            "Geração de código G-code e PLC",
 
             "Design generativo para manufatura aditiva",
 
-            "Documenta├º├úo t├®cnica autom├ítica",
+            "Documentação técnica automética",
 
-            "Assistentes virtuais para ch├úo de f├íbrica"
+            "Assistentes virtuais para chão de fébrica"
 
           ],
 
@@ -4987,13 +4987,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gera├º├úo autom├ítica de relat├│rios de qualidade",
+            "Geração automética de relatórios de qualidade",
 
-            "Projeto generativo de pe├ºas otimizadas",
+            "Projeto generativo de peças otimizadas",
 
             "Assistente virtual para troubleshooting",
 
-            "Tradu├º├úo e padroniza├º├úo de documenta├º├úo t├®cnica"
+            "Tradução e padronização de documentação técnica"
 
           ]
 
@@ -5001,21 +5001,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Sistemas ciberf├¡sicos (CPS)",
+          "titulo": "Sistemas ciberfísicos (CPS)",
 
-          "definicao": "Integra├º├úo de componentes computacionais (software, redes) com processos f├¡sicos (sensores, atuadores, m├íquinas), onde o sistema digital monitora e controla o processo f├¡sico em malha fechada. Base da Ind├║stria 4.0, seguindo a arquitetura 5C (conex├úo, convers├úo, cyber, cogni├º├úo, configura├º├úo).",
+          "definicao": "Integração de componentes computacionais (software, redes) com processos físicos (sensores, atuadores, méquinas), onde o sistema digital monitora e controla o processo físico em malha fechada. Base da Indústria 4.0, seguindo a arquitetura 5C (conexão, conversão, cyber, cognição, configuração).",
 
           "topicos": [
 
             "Arquitetura 5C dos CPS",
 
-            "Comunica├º├úo m├íquina a m├íquina (M2M)",
+            "Comunicação méquina a méquina (M2M)",
 
-            "Modelagem e simula├º├úo de CPS",
+            "Modelagem e simulação de CPS",
 
             "CPS aplicados a manufatura e energia",
 
-            "Desafios de seguran├ºa e interoperabilidade"
+            "Desafios de segurança e interoperabilidade"
 
           ],
 
@@ -5023,13 +5023,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Controle aut├┤nomo de tr├ífego urbano",
+            "Controle autônomo de tréfego urbano",
 
-            "Redes el├®tricas inteligentes (Smart Grid)",
+            "Redes elétricas inteligentes (Smart Grid)",
 
-            "Manufatura aut├┤noma com auto-configura├º├úo",
+            "Manufatura autônoma com auto-configuração",
 
-            "Ve├¡culos aut├┤nomos e sistemas de transporte"
+            "Veículos autônomos e sistemas de transporte"
 
           ]
 
@@ -5039,19 +5039,19 @@ window.SITE_DATA = {
 
           "titulo": "Digital Thread",
 
-          "definicao": "Fluxo cont├¡nuo de dados integrados ao longo de todo o ciclo de vida do produto, desde o projeto conceitual at├® o descarte. Conecta PLM, ERP, MES, manufatura e servi├ºo de campo, garantindo rastreabilidade e consist├¬ncia da informa├º├úo.",
+          "definicao": "Fluxo contínuo de dados integrados ao longo de todo o ciclo de vida do produto, desde o projeto conceitual até o descarte. Conecta PLM, ERP, MES, manufatura e serviço de campo, garantindo rastreabilidade e consistência da informação.",
 
           "topicos": [
 
-            "Conex├úo entre PLM, ERP, MES e SCADA",
+            "Conexão entre PLM, ERP, MES e SCADA",
 
-            "Rastreabilidade de vers├Áes e mudan├ºas de engenharia",
+            "Rastreabilidade de versões e mudanças de engenharia",
 
             "Digital thread vs. Digital twin",
 
-            "Padr├Áes (STEP AP242, QIF, MTConnect)",
+            "Padrões (STEP AP242, QIF, MTConnect)",
 
-            "Implementa├º├úo em arquiteturas de TI industriais"
+            "Implementação em arquiteturas de TI industriais"
 
           ],
 
@@ -5059,13 +5059,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rastreabilidade completa de lotes e mat├®rias-primas",
+            "Rastreabilidade completa de lotes e matérias-primas",
 
-            "Gest├úo de mudan├ºas de engenharia em cascata",
+            "Gestão de mudanças de engenharia em cascata",
 
-            "Hist├│rico de manuten├º├úo vinculado ao serial number",
+            "Histórico de manutenção vinculado ao serial number",
 
-            "Conformidade regulat├│ria (FDA, INMETRO)"
+            "Conformidade regulatória (FDA, INMETRO)"
 
           ]
 
@@ -5073,21 +5073,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "F├íbrica aut├┤noma",
+          "titulo": "Fébrica autônoma",
 
-          "definicao": "Conceito de manufatura onde a produ├º├úo opera com m├¡nima interven├º├úo humana, utilizando decis├Áes baseadas em IA, rob├┤s aut├┤nomos, sistemas de auto-otimiza├º├úo e log├¡stica intra-f├íbrica sem operador. Representa o est├ígio mais avan├ºado de maturidade da Ind├║stria 4.0.",
+          "definicao": "Conceito de manufatura onde a produção opera com mínima intervenção humana, utilizando decisões baseadas em IA, robôs autônomos, sistemas de auto-otimização e logística intra-fébrica sem operador. Representa o estégio mais avançado de maturidade da Indústria 4.0.",
 
           "topicos": [
 
-            "N├¡veis de autonomia na manufatura",
+            "Níveis de autonomia na manufatura",
 
-            "Sistemas de scheduling aut├┤nomo",
+            "Sistemas de scheduling autônomo",
 
-            "Log├¡stica com AGVs e drones",
+            "Logística com AGVs e drones",
 
-            "Auto-otimiza├º├úo de par├ómetros de processo",
+            "Auto-otimização de parômetros de processo",
 
-            "Manuten├º├úo aut├┤noma com IA"
+            "Manutenção autônoma com IA"
 
           ],
 
@@ -5097,11 +5097,11 @@ window.SITE_DATA = {
 
             "Linhas de montagem sem operadores (lights-out)",
 
-            "Armaz├®ns totalmente automatizados",
+            "Armazéns totalmente automatizados",
 
-            "Centros de usinagem n├úo tripulados",
+            "Centros de usinagem não tripulados",
 
-            "F├íbricas de semicondutores com automa├º├úo total"
+            "Fébricas de semicondutores com automação total"
 
           ]
 
@@ -5109,19 +5109,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "G├¬meo digital de processo",
+          "titulo": "Gêmeo digital de processo",
 
-          "definicao": "R├®plica virtual de um processo produtivo espec├¡fico (n├úo do produto), usada para simular, monitorar e otimizar o comportamento din├ómico da produ├º├úo. Permite testar varia├º├Áes de par├ómetros, identificar gargalos e prever o impacto de mudan├ºas sem interromper a opera├º├úo real.",
+          "definicao": "Réplica virtual de um processo produtivo específico (não do produto), usada para simular, monitorar e otimizar o comportamento dinômico da produção. Permite testar variações de parômetros, identificar gargalos e prever o impacto de mudanças sem interromper a operação real.",
 
           "topicos": [
 
-            "Modelagem de processos cont├¡nuos e discretos",
+            "Modelagem de processos contínuos e discretos",
 
-            "Simula├º├úo de eventos discretos (DES)",
+            "Simulação de eventos discretos (DES)",
 
-            "Calibra├º├úo com dados hist├│ricos e em tempo real",
+            "Calibração com dados históricos e em tempo real",
 
-            "Otimiza├º├úo de setpoints com g├¬meo digital",
+            "Otimização de setpoints com gêmeo digital",
 
             "Ferramentas (AnyLogic, Simulink, Aspen Plus)"
 
@@ -5131,11 +5131,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Otimiza├º├úo de consumo energ├®tico de um forno",
+            "Otimização de consumo energético de um forno",
 
-            "Simula├º├úo de cen├írios de produ├º├úo futuros",
+            "Simulação de cenérios de produção futuros",
 
-            "Detec├º├úo de desvios de processo em tempo real",
+            "Detecção de desvios de processo em tempo real",
 
             "Treinamento de operadores em ambiente virtual de processo"
 
@@ -5157,31 +5157,31 @@ window.SITE_DATA = {
 
       "id": "manutencao",
 
-      "nome": "Gest├úo da Manuten├º├úo",
+      "nome": "Gestão da Manutenção",
 
       "icone": "tool",
 
       "cor": "#a21caf",
 
-      "descricao": "Estrat├®gias de manuten├º├úo, confiabilidade e disponibilidade de ativos.",
+      "descricao": "Estratégias de manutenção, confiabilidade e disponibilidade de ativos.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Manuten├º├úo preventiva",
+          "titulo": "Manutenção preventiva",
 
-          "definicao": "Estrat├®gia de manuten├º├úo baseada em interven├º├Áes programadas por tempo de opera├º├úo, calend├írio ou ciclos de uso. Tem como objetivo reduzir a probabilidade de falha e manter o equipamento em condi├º├Áes seguras e eficientes de opera├º├úo.",
+          "definicao": "Estratégia de manutenção baseada em intervenções programadas por tempo de operação, calendério ou ciclos de uso. Tem como objetivo reduzir a probabilidade de falha e manter o equipamento em condições seguras e eficientes de operação.",
 
           "topicos": [
 
-            "Planos de manuten├º├úo preventiva",
+            "Planos de manutenção preventiva",
 
             "Periodicidade baseada em tempo e uso",
 
-            "Ordens de servi├ºo programadas",
+            "Ordens de serviço programadas",
 
-            "Checklists e procedimentos de inspe├º├úo",
+            "Checklists e procedimentos de inspeção",
 
             "Indicadores de cumprimento do plano"
 
@@ -5191,13 +5191,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Lubrifica├º├úo e troca de ├│leo programada",
+            "Lubrificação e troca de óleo programada",
 
-            "Substitui├º├úo de correias e filtros por calend├írio",
+            "Substituição de correias e filtros por calendério",
 
-            "Inspe├º├úo peri├│dica de sistemas el├®tricos",
+            "Inspeção periódica de sistemas elétricos",
 
-            "Calibra├º├úo de sensores e instrumentos"
+            "Calibração de sensores e instrumentos"
 
           ]
 
@@ -5205,19 +5205,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo corretiva",
+          "titulo": "Manutenção corretiva",
 
-          "definicao": "Interven├º├úo realizada ap├│s a ocorr├¬ncia de falha, com o objetivo de restaurar o equipamento ├ás condi├º├Áes normais de opera├º├úo. Pode ser classificada como emergencial (falha cr├¡tica) ou programada (falha n├úo cr├¡tica com reparo agendado).",
+          "definicao": "Intervenção realizada após a ocorrência de falha, com o objetivo de restaurar o equipamento ás condições normais de operação. Pode ser classificada como emergencial (falha crítica) ou programada (falha não crítica com reparo agendado).",
 
           "topicos": [
 
-            "Manuten├º├úo corretiva emergencial",
+            "Manutenção corretiva emergencial",
 
-            "Manuten├º├úo corretiva programada",
+            "Manutenção corretiva programada",
 
-            "An├ílise de criticidade para prioriza├º├úo",
+            "Anélise de criticidade para priorização",
 
-            "Gest├úo de ordens de servi├ºo corretivas",
+            "Gestão de ordens de serviço corretivas",
 
             "Registro de falhas e horas de reparo"
 
@@ -5227,13 +5227,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Substitui├º├úo de motor queimado",
+            "Substituição de motor queimado",
 
-            "Reparo emergencial de vazamento em tubula├º├úo",
+            "Reparo emergencial de vazamento em tubulação",
 
-            "Troca de placa eletr├┤nica defeituosa",
+            "Troca de placa eletrônica defeituosa",
 
-            "Recupera├º├úo de m├íquina ap├│s parada s├║bita"
+            "Recuperação de méquina após parada súbita"
 
           ]
 
@@ -5241,17 +5241,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo preditiva",
+          "titulo": "Manutenção preditiva",
 
-          "definicao": "Estrat├®gia baseada no monitoramento cont├¡nuo ou peri├│dico de par├ómetros de condi├º├úo (vibra├º├úo, temperatura, ├│leo, ultrassom) para prever falhas antes que ocorram. Permite intervir no momento ├│timo, maximizando a vida ├║til do componente.",
+          "definicao": "Estratégia baseada no monitoramento contínuo ou periódico de parômetros de condição (vibração, temperatura, óleo, ultrassom) para prever falhas antes que ocorram. Permite intervir no momento ótimo, maximizando a vida útil do componente.",
 
           "topicos": [
 
-            "An├ílise de vibra├º├úo",
+            "Anélise de vibração",
 
             "Termografia infravermelha",
 
-            "An├ílise de ├│leo lubrificante",
+            "Anélise de óleo lubrificante",
 
             "Ultrassom industrial",
 
@@ -5263,13 +5263,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Detec├º├úo precoce de falha em rolamentos",
+            "Detecção precoce de falha em rolamentos",
 
             "Monitoramento de desgaste em engrenagens",
 
-            "Identifica├º├úo de pontos quentes em pain├®is el├®tricos",
+            "Identificação de pontos quentes em painéis elétricos",
 
-            "An├ílise de contamina├º├úo em ├│leo hidr├íulico"
+            "Anélise de contaminação em óleo hidréulico"
 
           ]
 
@@ -5277,19 +5277,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo detectiva",
+          "titulo": "Manutenção detectiva",
 
-          "definicao": "Estrat├®gia de busca ativa por falhas ocultas (n├úo evidentes em opera├º├úo normal), por meio de testes e inspe├º├Áes peri├│dicas. Comum em sistemas de prote├º├úo, seguran├ºa e emerg├¬ncia, onde a falha s├│ se revela no momento da demanda.",
+          "definicao": "Estratégia de busca ativa por falhas ocultas (não evidentes em operação normal), por meio de testes e inspeções periódicas. Comum em sistemas de proteção, segurança e emergência, onde a falha só se revela no momento da demanda.",
 
           "topicos": [
 
-            "Testes de sistemas de seguran├ºa",
+            "Testes de sistemas de segurança",
 
-            "Inspe├º├úo de dispositivos de prote├º├úo",
+            "Inspeção de dispositivos de proteção",
 
-            "V├ílvulas de seguran├ºa e al├¡vio",
+            "Vélvulas de segurança e alívio",
 
-            "Sistemas de alarme e detec├º├úo de inc├¬ndio",
+            "Sistemas de alarme e detecção de incêndio",
 
             "Periodicidade de teste baseada em risco"
 
@@ -5301,11 +5301,11 @@ window.SITE_DATA = {
 
             "Teste funcional de SPDA e aterramento",
 
-            "Verifica├º├úo de sensores de g├ís",
+            "Verificação de sensores de gés",
 
-            "Teste de alarmes de pain├®is de controle",
+            "Teste de alarmes de painéis de controle",
 
-            "Inspe├º├úo de rel├®s de prote├º├úo el├®trica"
+            "Inspeção de relés de proteção elétrica"
 
           ]
 
@@ -5313,35 +5313,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "TPM ÔÇö Manuten├º├úo Produtiva Total",
+          "titulo": "TPM ÔÇö Manutenção Produtiva Total",
 
-          "definicao": "Metodologia de gest├úo originada no Jap├úo (JIPM) que busca zero falhas, zero defeitos e zero acidentes atrav├®s do envolvimento de todos os colaboradores. Estruturada em 8 pilares, integra manuten├º├úo aut├┤noma, planejada e melhoria focada.",
+          "definicao": "Metodologia de gestão originada no Japão (JIPM) que busca zero falhas, zero defeitos e zero acidentes através do envolvimento de todos os colaboradores. Estruturada em 8 pilares, integra manutenção autônoma, planejada e melhoria focada.",
 
           "topicos": [
 
             "8 pilares do TPM",
 
-            "Manuten├º├úo aut├┤noma (MA)",
+            "Manutenção autônoma (MA)",
 
-            "Melhoria espec├¡fica (kaizen)",
+            "Melhoria específica (kaizen)",
 
-            "Educa├º├úo e treinamento",
+            "Educação e treinamento",
 
             "OEE ÔÇö Overall Equipment Effectiveness"
 
           ],
 
-          "formula": "OEE = Disponibilidade ├ù Performance ├ù Qualidade",
+          "formula": "OEE = Disponibilidade ú Performance ú Qualidade",
 
           "aplicacoes": [
 
             "Programas TPM em montadoras automotivas",
 
-            "Redu├º├úo de quebras em linhas de envase",
+            "Redução de quebras em linhas de envase",
 
-            "Aumento de OEE em c├®lulas de usinagem",
+            "Aumento de OEE em células de usinagem",
 
-            "Cultura de manuten├º├úo aut├┤noma na produ├º├úo"
+            "Cultura de manutenção autônoma na produção"
 
           ]
 
@@ -5349,21 +5349,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "PCM ÔÇö Planejamento e Controle da Manuten├º├úo",
+          "titulo": "PCM ÔÇö Planejamento e Controle da Manutenção",
 
-          "definicao": "Fun├º├úo gerencial respons├ível por planejar, programar, controlar e analisar as atividades de manuten├º├úo. Envolve a gest├úo de ordens de servi├ºo, hist├│rico de equipamentos, planejamento de recursos e indicadores de desempenho da manuten├º├úo.",
+          "definicao": "Função gerencial responsével por planejar, programar, controlar e analisar as atividades de manutenção. Envolve a gestão de ordens de serviço, histórico de equipamentos, planejamento de recursos e indicadores de desempenho da manutenção.",
 
           "topicos": [
 
             "Estrutura de um PCM",
 
-            "Ordem de servi├ºo (OS) ÔÇö cria├º├úo e fluxo",
+            "Ordem de serviço (OS) ÔÇö criação e fluxo",
 
-            "Planejamento de recursos: m├úo de obra, pe├ºas, ferramentas",
+            "Planejamento de recursos: mão de obra, peças, ferramentas",
 
-            "Programa├º├úo semanal e di├íria",
+            "Programação semanal e diéria",
 
-            "KPIs de manuten├º├úo"
+            "KPIs de manutenção"
 
           ],
 
@@ -5371,13 +5371,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implanta├º├úo de rotinas de planejamento em ind├║strias",
+            "Implantação de rotinas de planejamento em indústrias",
 
-            "Controle de backlog de manuten├º├úo",
+            "Controle de backlog de manutenção",
 
-            "Gest├úo de estoque de sobressalentes cr├¡ticos",
+            "Gestão de estoque de sobressalentes críticos",
 
-            "An├ílise de custos de manuten├º├úo por equipamento"
+            "Anélise de custos de manutenção por equipamento"
 
           ]
 
@@ -5387,7 +5387,7 @@ window.SITE_DATA = {
 
           "titulo": "Confiabilidade (RAMS)",
 
-          "definicao": "Disciplina da engenharia que estuda a capacidade de um sistema desempenhar sua fun├º├úo requerida sob condi├º├Áes espec├¡ficas por um per├¡odo determinado. RAMS integra confiabilidade (Reliability), disponibilidade (Availability), mantenabilidade (Maintainability) e seguran├ºa (Safety).",
+          "definicao": "Disciplina da engenharia que estuda a capacidade de um sistema desempenhar sua função requerida sob condições específicas por um período determinado. RAMS integra confiabilidade (Reliability), disponibilidade (Availability), mantenabilidade (Maintainability) e segurança (Safety).",
 
           "topicos": [
 
@@ -5397,7 +5397,7 @@ window.SITE_DATA = {
 
             "Mantenabilidade (Maintainability)",
 
-            "Seguran├ºa (Safety)",
+            "Segurança (Safety)",
 
             "Engenharia de confiabilidade"
 
@@ -5409,9 +5409,9 @@ window.SITE_DATA = {
 
             "Garantia de confiabilidade em sistemas aeroespaciais",
 
-            "Projeto de sistemas com redund├óncia",
+            "Projeto de sistemas com redundôncia",
 
-            "An├ílise RAM de plantas petroqu├¡micas",
+            "Anélise RAM de plantas petroquímicas",
 
             "Metas contratuais de disponibilidade de ativos"
 
@@ -5423,17 +5423,17 @@ window.SITE_DATA = {
 
           "titulo": "Disponibilidade de equipamentos",
 
-          "definicao": "Percentual de tempo em que um equipamento est├í apto a operar, considerando o tempo total e as paradas por manuten├º├úo. ├ë um dos principais indicadores de desempenho da gest├úo de ativos.",
+          "definicao": "Percentual de tempo em que um equipamento esté apto a operar, considerando o tempo total e as paradas por manutenção. ë um dos principais indicadores de desempenho da gestão de ativos.",
 
           "topicos": [
 
-            "Disponibilidade intr├¡nseca",
+            "Disponibilidade intrínseca",
 
             "Disponibilidade operacional",
 
             "Disponibilidade global",
 
-            "C├ílculo de disponibilidade",
+            "Célculo de disponibilidade",
 
             "Fatores que afetam a disponibilidade"
 
@@ -5443,11 +5443,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Metas de disponibilidade em contratos de manuten├º├úo",
+            "Metas de disponibilidade em contratos de manutenção",
 
-            "Compara├º├úo de desempenho entre linhas de produ├º├úo",
+            "Comparação de desempenho entre linhas de produção",
 
-            "An├ílise de gargalos por indisponibilidade",
+            "Anélise de gargalos por indisponibilidade",
 
             "Dimensionamento de capacidade produtiva"
 
@@ -5459,15 +5459,15 @@ window.SITE_DATA = {
 
           "titulo": "MTBF ÔÇö Mean Time Between Failures",
 
-          "definicao": "M├®trica de confiabilidade que representa o tempo m├®dio entre falhas consecutivas de um equipamento repar├ível. Quanto maior o MTBF, mais confi├ível ├® o ativo.",
+          "definicao": "Métrica de confiabilidade que representa o tempo médio entre falhas consecutivas de um equipamento reparével. Quanto maior o MTBF, mais confiével é o ativo.",
 
           "topicos": [
 
-            "C├ílculo do MTBF",
+            "Célculo do MTBF",
 
-            "MTBF vs. MTTF (para itens n├úo repar├íveis)",
+            "MTBF vs. MTTF (para itens não reparéveis)",
 
-            "Coleta e valida├º├úo de dados de falha",
+            "Coleta e validação de dados de falha",
 
             "MTBF como entrada para dimensionamento de estoque",
 
@@ -5475,13 +5475,13 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "MTBF = Tempo Total de Opera├º├úo / N├║mero de Falhas",
+          "formula": "MTBF = Tempo Total de Operação / Número de Falhas",
 
           "aplicacoes": [
 
             "Benchmarking de confiabilidade entre equipamentos similares",
 
-            "Planejamento de manuten├º├úo preventiva",
+            "Planejamento de manutenção preventiva",
 
             "Garantia de contratos de desempenho",
 
@@ -5495,33 +5495,33 @@ window.SITE_DATA = {
 
           "titulo": "MTTR ÔÇö Mean Time To Repair",
 
-          "definicao": "M├®trica de mantenabilidade que mede o tempo m├®dio necess├írio para reparar um equipamento ap├│s a ocorr├¬ncia de uma falha. Inclui diagn├│stico, desmontagem, reparo, montagem e teste.",
+          "definicao": "Métrica de mantenabilidade que mede o tempo médio necessério para reparar um equipamento após a ocorrência de uma falha. Inclui diagnóstico, desmontagem, reparo, montagem e teste.",
 
           "topicos": [
 
             "Componentes do MTTR",
 
-            "Estrat├®gias para redu├º├úo do MTTR",
+            "Estratégias para redução do MTTR",
 
-            "MTTR no c├ílculo de disponibilidade",
+            "MTTR no célculo de disponibilidade",
 
-            "An├ílise de modos de falha que impactam reparo",
+            "Anélise de modos de falha que impactam reparo",
 
-            "Treinamento e documenta├º├úo para redu├º├úo de MTTR"
+            "Treinamento e documentação para redução de MTTR"
 
           ],
 
-          "formula": "MTTR = Tempo Total de Reparo / N├║mero de Falhas",
+          "formula": "MTTR = Tempo Total de Reparo / Número de Falhas",
 
           "aplicacoes": [
 
-            "Redu├º├úo de tempo de reparo em linhas cr├¡ticas",
+            "Redução de tempo de reparo em linhas críticas",
 
             "Projeto para mantenabilidade (Design for Maintenance)",
 
-            "Avalia├º├úo de desempenho da equipe de manuten├º├úo",
+            "Avaliação de desempenho da equipe de manutenção",
 
-            "Dimensionamento de equipes de plant├úo"
+            "Dimensionamento de equipes de plantão"
 
           ]
 
@@ -5529,21 +5529,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de falhas (RCA)",
+          "titulo": "Anélise de falhas (RCA)",
 
-          "definicao": "Metodologia estruturada para identificar as causas raiz de falhas em equipamentos ou processos, utilizando ferramentas como diagrama de Ishikawa, 5 Porqu├¬s e ├írvore l├│gica de falhas. Permite implementar a├º├Áes corretivas efetivas e evitar recorr├¬ncia.",
+          "definicao": "Metodologia estruturada para identificar as causas raiz de falhas em equipamentos ou processos, utilizando ferramentas como diagrama de Ishikawa, 5 Porquês e érvore lógica de falhas. Permite implementar ações corretivas efetivas e evitar recorrência.",
 
           "topicos": [
 
-            "M├®todo dos 5 Porqu├¬s",
+            "Método dos 5 Porquês",
 
             "Diagrama de Ishikawa (causa e efeito)",
 
-            "├ürvore de falhas (FTA)",
+            "ürvore de falhas (FTA)",
 
-            "An├ílise de modo e efeito de falha (FMEA)",
+            "Anélise de modo e efeito de falha (FMEA)",
 
-            "Plano de a├º├úo e valida├º├úo"
+            "Plano de ação e validação"
 
           ],
 
@@ -5551,13 +5551,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Investiga├º├úo de falhas recorrentes em m├íquinas",
+            "Investigação de falhas recorrentes em méquinas",
 
-            "An├ílise de acidentes industriais",
+            "Anélise de acidentes industriais",
 
-            "Melhoria cont├¡nua baseada em dados de campo",
+            "Melhoria contínua baseada em dados de campo",
 
-            "Redu├º├úo de custos com retrabalho de manuten├º├úo"
+            "Redução de custos com retrabalho de manutenção"
 
           ]
 
@@ -5565,21 +5565,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo centrada em confiabilidade (MCC/RCM)",
+          "titulo": "Manutenção centrada em confiabilidade (MCC/RCM)",
 
-          "definicao": "Metodologia sistem├ítica para determinar as estrat├®gias de manuten├º├úo mais adequadas para cada ativo, com base em suas fun├º├Áes, falhas funcionais e consequ├¬ncias. Utiliza diagrama de decis├úo para selecionar tarefas preventivas, preditivas ou corretivas aplic├íveis e efetivas.",
+          "definicao": "Metodologia sistemética para determinar as estratégias de manutenção mais adequadas para cada ativo, com base em suas funções, falhas funcionais e consequências. Utiliza diagrama de decisão para selecionar tarefas preventivas, preditivas ou corretivas aplicéveis e efetivas.",
 
           "topicos": [
 
-            "Diagrama de decis├úo RCM",
+            "Diagrama de decisão RCM",
 
-            "An├ílise de modos de falha e efeitos (FMEA)",
+            "Anélise de modos de falha e efeitos (FMEA)",
 
-            "Sele├º├úo de tarefas de manuten├º├úo",
+            "Seleção de tarefas de manutenção",
 
             "RCM vs. RCM2 vs. RCM3",
 
-            "Implementa├º├úo RCM com softwares especializados"
+            "Implementação RCM com softwares especializados"
 
           ],
 
@@ -5587,13 +5587,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Defini├º├úo de planos de manuten├º├úo para ativos cr├¡ticos",
+            "Definição de planos de manutenção para ativos críticos",
 
-            "Otimiza├º├úo de custos de manuten├º├úo em refinarias",
+            "Otimização de custos de manutenção em refinarias",
 
-            "Revis├úo de planos preventivos existentes",
+            "Revisão de planos preventivos existentes",
 
-            "Manuten├º├úo de sistemas aeron├íuticos"
+            "Manutenção de sistemas aeronéuticos"
 
           ]
 
@@ -5601,21 +5601,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo aut├┤noma",
+          "titulo": "Manutenção autônoma",
 
-          "definicao": "Pilar do TPM onde os operadores de produ├º├úo realizam atividades b├ísicas de manuten├º├úo, como limpeza, lubrifica├º├úo, inspe├º├úo e pequenos ajustes. Desenvolve o senso de propriedade do equipamento e libera a equipe t├®cnica para manuten├º├Áes mais complexas.",
+          "definicao": "Pilar do TPM onde os operadores de produção realizam atividades bésicas de manutenção, como limpeza, lubrificação, inspeção e pequenos ajustes. Desenvolve o senso de propriedade do equipamento e libera a equipe técnica para manutenções mais complexas.",
 
           "topicos": [
 
-            "Etapas de implementa├º├úo da manuten├º├úo aut├┤noma",
+            "Etapas de implementação da manutenção autônoma",
 
-            "Padr├Áes de limpeza e inspe├º├úo",
+            "Padrões de limpeza e inspeção",
 
             "Treinamento de operadores",
 
-            "Indicadores de manuten├º├úo aut├┤noma",
+            "Indicadores de manutenção autônoma",
 
-            "Integra├º├úo com manuten├º├úo planejada"
+            "Integração com manutenção planejada"
 
           ],
 
@@ -5623,13 +5623,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Rotinas di├írias de limpeza e lubrifica├º├úo",
+            "Rotinas diérias de limpeza e lubrificação",
 
-            "Inspe├º├úo sensorial (vis├úo, audi├º├úo, tato) por operadores",
+            "Inspeção sensorial (visão, audição, tato) por operadores",
 
-            "Identifica├º├úo e corre├º├úo de anomalias menores",
+            "Identificação e correção de anomalias menores",
 
-            "Padroniza├º├úo de postos de trabalho (5S + MA)"
+            "Padronização de postos de trabalho (5S + MA)"
 
           ]
 
@@ -5639,33 +5639,33 @@ window.SITE_DATA = {
 
           "titulo": "Engenharia de confiabilidade",
 
-          "definicao": "Disciplina que aplica princ├¡pios estat├¡sticos e de engenharia para garantir que um sistema ou equipamento opere sem falhas por um per├¡odo determinado. Utiliza ferramentas como distribui├º├úo de Weibull, testes de vida acelerada e an├ílise de dados de campo.",
+          "definicao": "Disciplina que aplica princípios estatísticos e de engenharia para garantir que um sistema ou equipamento opere sem falhas por um período determinado. Utiliza ferramentas como distribuição de Weibull, testes de vida acelerada e anélise de dados de campo.",
 
           "topicos": [
 
-            "Distribui├º├úo de Weibull e an├ílise de falhas",
+            "Distribuição de Weibull e anélise de falhas",
 
-            "Curva da banheira (infantil, aleat├│ria, desgaste)",
+            "Curva da banheira (infantil, aleatória, desgaste)",
 
             "Testes de confiabilidade (ALT, HALT)",
 
-            "Confiabilidade de sistemas: s├®rie, paralelo e k-out-of-n",
+            "Confiabilidade de sistemas: série, paralelo e k-out-of-n",
 
-            "Predi├º├úo de confiabilidade e FMECA"
+            "Predição de confiabilidade e FMECA"
 
           ],
 
-          "formula": "Rs = R1 ├ù R2 ├ù R3 (sistemas em s├®rie)",
+          "formula": "Rs = R1 ú R2 ú R3 (sistemas em série)",
 
           "aplicacoes": [
 
-            "Previs├úo de vida ├║til de componentes cr├¡ticos",
+            "Previsão de vida útil de componentes críticos",
 
             "Projeto de sistemas com requisitos de confiabilidade",
 
-            "An├ílise de garantia e campo",
+            "Anélise de garantia e campo",
 
-            "Suporte ├á decis├úo entre manuten├º├úo preventiva e corretiva"
+            "Suporte á decisão entre manutenção preventiva e corretiva"
 
           ]
 
@@ -5675,33 +5675,33 @@ window.SITE_DATA = {
 
           "titulo": "FMEA de equipamento",
 
-          "definicao": "Ferramenta de an├ílise de riscos que identifica modos de falha potenciais de um equipamento, suas causas, efeitos e prioriza a├º├Áes preventivas pelo N├║mero de Prioridade de Risco (NPR). ├ë uma etapa essencial do RCM.",
+          "definicao": "Ferramenta de anélise de riscos que identifica modos de falha potenciais de um equipamento, suas causas, efeitos e prioriza ações preventivas pelo Número de Prioridade de Risco (NPR). ë uma etapa essencial do RCM.",
 
           "topicos": [
 
             "Modo de falha, causa e efeito",
 
-            "├ìndices de severidade, ocorr├¬ncia e detec├º├úo",
+            "ìndices de severidade, ocorrência e detecção",
 
-            "NPR (N├║mero de Prioridade de Risco)",
+            "NPR (Número de Prioridade de Risco)",
 
-            "A├º├Áes preventivas e valida├º├úo",
+            "Ações preventivas e validação",
 
             "FMEA de processo vs. FMEA de equipamento"
 
           ],
 
-          "formula": "NPR = S ├ù O ├ù D",
+          "formula": "NPR = S ú O ú D",
 
           "aplicacoes": [
 
-            "An├ílise de riscos em equipamentos de produ├º├úo",
+            "Anélise de riscos em equipamentos de produção",
 
-            "Prioriza├º├úo de planos de manuten├º├úo",
+            "Priorização de planos de manutenção",
 
-            "Suporte ao RCM e ├á engenharia de confiabilidade",
+            "Suporte ao RCM e á engenharia de confiabilidade",
 
-            "Gest├úo de mudan├ºas (MOC) de equipamentos"
+            "Gestão de mudanças (MOC) de equipamentos"
 
           ]
 
@@ -5709,21 +5709,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de ├│leo e vibra├º├úo",
+          "titulo": "Anélise de óleo e vibração",
 
-          "definicao": "T├®cnicas preditivas complementares que monitoram a condi├º├úo de m├íquinas rotativas. A an├ílise de ├│leo identifica contamina├º├úo, desgaste e degrada├º├úo do lubrificante. A an├ílise de vibra├º├úo detecta desbalanceamento, desalinhamento e falhas de rolamentos.",
+          "definicao": "Técnicas preditivas complementares que monitoram a condição de méquinas rotativas. A anélise de óleo identifica contaminação, desgaste e degradação do lubrificante. A anélise de vibração detecta desbalanceamento, desalinhamento e falhas de rolamentos.",
 
           "topicos": [
 
-            "Espectroscopia e ferramentas de an├ílise de ├│leo",
+            "Espectroscopia e ferramentas de anélise de óleo",
 
-            "An├ílise de tend├¬ncias de vibra├º├úo",
+            "Anélise de tendências de vibração",
 
             "Espectro FFT e envelope",
 
-            "Normas ISO 10816 (vibra├º├úo) e ISO 4406 (├│leo)",
+            "Normas ISO 10816 (vibração) e ISO 4406 (óleo)",
 
-            "Integra├º├úo com CMMS e sistemas de monitoramento on-line"
+            "Integração com CMMS e sistemas de monitoramento on-line"
 
           ],
 
@@ -5733,11 +5733,11 @@ window.SITE_DATA = {
 
             "Monitoramento de caixas de engrenagens",
 
-            "Diagn├│stico de bombas centr├¡fugas",
+            "Diagnóstico de bombas centrífugas",
 
             "Acompanhamento de compressores alternativos",
 
-            "Programa de lubrifica├º├úo baseada em condi├º├úo"
+            "Programa de lubrificação baseada em condição"
 
           ]
 
@@ -5747,19 +5747,19 @@ window.SITE_DATA = {
 
           "titulo": "Termografia industrial",
 
-          "definicao": "T├®cnica preditiva que utiliza c├ómeras infravermelhas para medir a temperatura superficial de equipamentos e componentes el├®tricos, identificando pontos quentes anormais que indicam falhas incipientes, como mau contato, sobrecarga e desgaste de isolamento.",
+          "definicao": "Técnica preditiva que utiliza cômeras infravermelhas para medir a temperatura superficial de equipamentos e componentes elétricos, identificando pontos quentes anormais que indicam falhas incipientes, como mau contato, sobrecarga e desgaste de isolamento.",
 
           "topicos": [
 
-            "Princ├¡pios f├¡sicos da termografia",
+            "Princípios físicos da termografia",
 
-            "C├ómeras t├®rmicas e configura├º├Áes",
+            "Cômeras térmicas e configurações",
 
-            "Emissividade e corre├º├Áes",
+            "Emissividade e correções",
 
-            "Padr├Áes e normas (ABNT NBR 16214, ISO 18434)",
+            "Padrões e normas (ABNT NBR 16214, ISO 18434)",
 
-            "Categoriza├º├úo de anomalias t├®rmicas"
+            "Categorização de anomalias térmicas"
 
           ],
 
@@ -5767,13 +5767,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Inspe├º├úo de pain├®is el├®tricos e subesta├º├Áes",
+            "Inspeção de painéis elétricos e subestações",
 
-            "Detec├º├úo de falhas em isolamento t├®rmico",
+            "Detecção de falhas em isolamento térmico",
 
             "Monitoramento de fornos e reatores",
 
-            "An├ílise de motores e acoplamentos"
+            "Anélise de motores e acoplamentos"
 
           ]
 
@@ -5783,19 +5783,19 @@ window.SITE_DATA = {
 
           "titulo": "Ultrassom industrial",
 
-          "definicao": "T├®cnica preditiva que detecta ondas sonoras de alta frequ├¬ncia geradas por atrito, impacto, descargas el├®tricas e vazamentos. Permite identificar falhas em rolamentos, v├ílvulas, sistemas de v├ícuo e componentes el├®tricos em est├ígio inicial.",
+          "definicao": "Técnica preditiva que detecta ondas sonoras de alta frequência geradas por atrito, impacto, descargas elétricas e vazamentos. Permite identificar falhas em rolamentos, vélvulas, sistemas de vécuo e componentes elétricos em estégio inicial.",
 
           "topicos": [
 
-            "F├¡sica do ultrassom aplicado ├á manuten├º├úo",
+            "Física do ultrassom aplicado á manutenção",
 
-            "Detectores de ultrassom (modo heter├│dino)",
+            "Detectores de ultrassom (modo heteródino)",
 
-            "An├ílise de rolamentos com ultrassom",
+            "Anélise de rolamentos com ultrassom",
 
-            "Detec├º├úo de vazamentos em sistemas pressurizados",
+            "Detecção de vazamentos em sistemas pressurizados",
 
-            "Descargas parciais em equipamentos el├®tricos"
+            "Descargas parciais em equipamentos elétricos"
 
           ],
 
@@ -5803,13 +5803,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Detec├º├úo de vazamentos em redes de ar comprimido",
+            "Detecção de vazamentos em redes de ar comprimido",
 
-            "Inspe├º├úo de rolamentos de motores",
+            "Inspeção de rolamentos de motores",
 
-            "Monitoramento de v├ílvulas de controle",
+            "Monitoramento de vélvulas de controle",
 
-            "An├ílise de descargas parciais em cabos e transformadores"
+            "Anélise de descargas parciais em cabos e transformadores"
 
           ]
 
@@ -5817,21 +5817,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Manuten├º├úo baseada em condi├º├úo (CBM)",
+          "titulo": "Manutenção baseada em condição (CBM)",
 
-          "definicao": "Estrat├®gia que recomenda a├º├Áes de manuten├º├úo com base na condi├º├úo real do equipamento, monitorada por t├®cnicas preditivas (vibra├º├úo, termografia, ├│leo, ultrassom). Substitui interven├º├Áes por tempo fixo por decis├Áes orientadas por dados de condi├º├úo.",
+          "definicao": "Estratégia que recomenda ações de manutenção com base na condição real do equipamento, monitorada por técnicas preditivas (vibração, termografia, óleo, ultrassom). Substitui intervenções por tempo fixo por decisões orientadas por dados de condição.",
 
           "topicos": [
 
-            "T├®cnicas de monitoramento de condi├º├úo",
+            "Técnicas de monitoramento de condição",
 
-            "Limites de alarme e tend├¬ncias",
+            "Limites de alarme e tendências",
 
-            "Integra├º├úo CBM com sistemas CMMS",
+            "Integração CBM com sistemas CMMS",
 
-            "An├ílise de custo-benef├¡cio do CBM",
+            "Anélise de custo-benefício do CBM",
 
-            "CBM para m├íquinas rotativas e est├íticas"
+            "CBM para méquinas rotativas e estéticas"
 
           ],
 
@@ -5839,13 +5839,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Manuten├º├úo de turbinas e geradores",
+            "Manutenção de turbinas e geradores",
 
-            "Monitoramento cont├¡nuo de bombas cr├¡ticas",
+            "Monitoramento contínuo de bombas críticas",
 
-            "Programa CBM em frotas de caminh├Áes",
+            "Programa CBM em frotas de caminhões",
 
-            "Gest├úo de ativos de utilidades industriais"
+            "Gestão de ativos de utilidades industriais"
 
           ]
 
@@ -5853,21 +5853,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Sistema de gest├úo de manuten├º├úo (CMMS/SGM)",
+          "titulo": "Sistema de gestão de manutenção (CMMS/SGM)",
 
-          "definicao": "Software integrado que gerencia todas as atividades de manuten├º├úo: ordens de servi├ºo, planejamento, hist├│rico de equipamentos, estoque de pe├ºas e indicadores. Automatiza rotinas, melhora a rastreabilidade e suporta a tomada de decis├úo baseada em dados.",
+          "definicao": "Software integrado que gerencia todas as atividades de manutenção: ordens de serviço, planejamento, histórico de equipamentos, estoque de peças e indicadores. Automatiza rotinas, melhora a rastreabilidade e suporta a tomada de decisão baseada em dados.",
 
           "topicos": [
 
             "Funcionalidades de um CMMS",
 
-            "Cadastro de equipamentos e ├írvore de ativos",
+            "Cadastro de equipamentos e érvore de ativos",
 
-            "Gest├úo de ordens de servi├ºo (OS)",
+            "Gestão de ordens de serviço (OS)",
 
             "Controle de estoque de sobressalentes",
 
-            "Relat├│rios e KPIs automatizados"
+            "Relatórios e KPIs automatizados"
 
           ],
 
@@ -5875,13 +5875,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implanta├º├úo de sistema CMMS em plantas industriais",
+            "Implantação de sistema CMMS em plantas industriais",
 
-            "Gest├úo de manuten├º├úo de frotas",
+            "Gestão de manutenção de frotas",
 
-            "Controle de ordens de servi├ºo em hospitais",
+            "Controle de ordens de serviço em hospitais",
 
-            "Manuten├º├úo predial e facilities management"
+            "Manutenção predial e facilities management"
 
           ]
 
@@ -5906,15 +5906,15 @@ window.SITE_DATA = {
 
       "cor": "#0284c7",
 
-      "descricao": "Ergonomia, seguran├ºa do trabalho e sa├║de ocupacional.",
+      "descricao": "Ergonomia, segurança do trabalho e saúde ocupacional.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Ergonomia f├¡sica",
+          "titulo": "Ergonomia física",
 
-          "definicao": "Ramo da ergonomia que estuda a intera├º├úo entre o corpo humano e os elementos do sistema de trabalho, incluindo posturas, movimentos repetitivos, aplica├º├úo de for├ºa e organiza├º├úo f├¡sica do posto. Busca prevenir les├Áes musculoesquel├®ticas (LER/DORT) e promover conforto.",
+          "definicao": "Ramo da ergonomia que estuda a interação entre o corpo humano e os elementos do sistema de trabalho, incluindo posturas, movimentos repetitivos, aplicação de força e organização física do posto. Busca prevenir lesões musculoesqueléticas (LER/DORT) e promover conforto.",
 
           "topicos": [
 
@@ -5922,11 +5922,11 @@ window.SITE_DATA = {
 
             "Movimentos repetitivos",
 
-            "Aplica├º├úo de for├ºa",
+            "Aplicação de força",
 
-            "Antropometria est├ítica e din├ómica",
+            "Antropometria estética e dinômica",
 
-            "Biomec├ónica ocupacional"
+            "Biomecônica ocupacional"
 
           ],
 
@@ -5936,11 +5936,11 @@ window.SITE_DATA = {
 
             "Projeto de postos de trabalho em linhas de montagem",
 
-            "Dimensionamento de mesas e cadeiras para escrit├│rios",
+            "Dimensionamento de mesas e cadeiras para escritórios",
 
-            "An├ílise de riscos biomec├ónicos em atividades manuais",
+            "Anélise de riscos biomecônicos em atividades manuais",
 
-            "Adequa├º├úo de ferramentas manuais"
+            "Adequação de ferramentas manuais"
 
           ]
 
@@ -5950,15 +5950,15 @@ window.SITE_DATA = {
 
           "titulo": "Ergonomia cognitiva",
 
-          "definicao": "Campo que estuda os processos mentais envolvidos no trabalho: percep├º├úo, mem├│ria, racioc├¡nio, tomada de decis├úo e carga mental. Preocupa-se com a usabilidade de interfaces, complexidade de tarefas e fatores que afetam o desempenho cognitivo do trabalhador.",
+          "definicao": "Campo que estuda os processos mentais envolvidos no trabalho: percepção, memória, raciocínio, tomada de decisão e carga mental. Preocupa-se com a usabilidade de interfaces, complexidade de tarefas e fatores que afetam o desempenho cognitivo do trabalhador.",
 
           "topicos": [
 
             "Carga mental e fadiga cognitiva",
 
-            "Usabilidade de interfaces homem-m├íquina",
+            "Usabilidade de interfaces homem-méquina",
 
-            "Tomada de decis├úo sob press├úo",
+            "Tomada de decisão sob pressão",
 
             "Sistemas de alarme e alerta",
 
@@ -5972,9 +5972,9 @@ window.SITE_DATA = {
 
             "Projeto de IHMs de salas de controle",
 
-            "Simplifica├º├úo de procedimentos operacionais",
+            "Simplificação de procedimentos operacionais",
 
-            "Redu├º├úo de erros humanos em centros de distribui├º├úo",
+            "Redução de erros humanos em centros de distribuição",
 
             "Treinamento cognitivo para operadores"
 
@@ -5986,19 +5986,19 @@ window.SITE_DATA = {
 
           "titulo": "Ergonomia organizacional",
 
-          "definicao": "Dimens├úo da ergonomia que trata da estrutura├º├úo dos sistemas de trabalho, incluindo turnos, ritmo, conte├║do das tarefas, comunica├º├úo e cultura organizacional. Visa otimizar a efici├¬ncia do sistema considerando o bem-estar e a satisfa├º├úo dos trabalhadores.",
+          "definicao": "Dimensão da ergonomia que trata da estruturação dos sistemas de trabalho, incluindo turnos, ritmo, conteúdo das tarefas, comunicação e cultura organizacional. Visa otimizar a eficiência do sistema considerando o bem-estar e a satisfação dos trabalhadores.",
 
           "topicos": [
 
-            "Organiza├º├úo do trabalho e turnos",
+            "Organização do trabalho e turnos",
 
-            "Trabalho em equipe e comunica├º├úo",
+            "Trabalho em equipe e comunicação",
 
-            "Gest├úo participativa",
+            "Gestão participativa",
 
-            "Conte├║do e enriquecimento de tarefas",
+            "Conteúdo e enriquecimento de tarefas",
 
-            "Cultura de seguran├ºa"
+            "Cultura de segurança"
 
           ],
 
@@ -6006,13 +6006,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reestrutura├º├úo de escalas de turno",
+            "Reestruturação de escalas de turno",
 
             "Programas de trabalho em equipe autogerenciada",
 
-            "An├ílise de carga de trabalho em call centers",
+            "Anélise de carga de trabalho em call centers",
 
-            "Implementa├º├úo de ciclos de melhoria participativa"
+            "Implementação de ciclos de melhoria participativa"
 
           ]
 
@@ -6020,35 +6020,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Seguran├ºa do trabalho",
+          "titulo": "Segurança do trabalho",
 
-          "definicao": "Conjunto de medidas t├®cnicas, educacionais e administrativas para prevenir acidentes e doen├ºas ocupacionais. Engloba identifica├º├úo de riscos, implementa├º├úo de medidas de controle e promo├º├úo de uma cultura de seguran├ºa nas organiza├º├Áes.",
+          "definicao": "Conjunto de medidas técnicas, educacionais e administrativas para prevenir acidentes e doenças ocupacionais. Engloba identificação de riscos, implementação de medidas de controle e promoção de uma cultura de segurança nas organizações.",
 
           "topicos": [
 
-            "Preven├º├úo de acidentes",
+            "Prevenção de acidentes",
 
-            "An├ílise de riscos (APR)",
+            "Anélise de riscos (APR)",
 
-            "Inspe├º├Áes de seguran├ºa",
+            "Inspeções de segurança",
 
             "Treinamentos (NRs, CIPA)",
 
-            "Indicadores de seguran├ºa (TAE, TTF)"
+            "Indicadores de segurança (TAE, TTF)"
 
           ],
 
-          "formula": "TAE = (N┬║ de acidentes ├ù 1.000.000) / Horas-homem trabalhadas",
+          "formula": "TAE = (N┬║ de acidentes ú 1.000.000) / Horas-homem trabalhadas",
 
           "aplicacoes": [
 
-            "Programas de seguran├ºa comportamental",
+            "Programas de segurança comportamental",
 
-            "An├ílise de riscos em atividades cr├¡ticas",
+            "Anélise de riscos em atividades críticas",
 
-            "Investiga├º├úo de acidentes do trabalho",
+            "Investigação de acidentes do trabalho",
 
-            "Elabora├º├úo de planos de emerg├¬ncia"
+            "Elaboração de planos de emergência"
 
           ]
 
@@ -6058,19 +6058,19 @@ window.SITE_DATA = {
 
           "titulo": "Higiene ocupacional",
 
-          "definicao": "Ci├¬ncia que antecipa, reconhece, avalia e controla agentes ambientais (f├¡sicos, qu├¡micos e biol├│gicos) presentes nos locais de trabalho que podem causar doen├ºas ou desconforto. Fundamental para a preserva├º├úo da sa├║de do trabalhador.",
+          "definicao": "Ciência que antecipa, reconhece, avalia e controla agentes ambientais (físicos, químicos e biológicos) presentes nos locais de trabalho que podem causar doenças ou desconforto. Fundamental para a preservação da saúde do trabalhador.",
 
           "topicos": [
 
-            "Agentes f├¡sicos (ru├¡do, calor, radia├º├úo, vibra├º├úo)",
+            "Agentes físicos (ruído, calor, radiação, vibração)",
 
-            "Agentes qu├¡micos (gases, vapores, poeiras)",
+            "Agentes químicos (gases, vapores, poeiras)",
 
-            "Agentes biol├│gicos (fungos, bact├®rias, v├¡rus)",
+            "Agentes biológicos (fungos, bactérias, vírus)",
 
-            "Limites de exposi├º├úo ocupacional (LT, TWA, STEL)",
+            "Limites de exposição ocupacional (LT, TWA, STEL)",
 
-            "T├®cnicas de medi├º├úo e amostragem"
+            "Técnicas de medição e amostragem"
 
           ],
 
@@ -6078,13 +6078,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Medi├º├úo de ru├¡do em ind├║strias metal├║rgicas",
+            "Medição de ruído em indústrias metalúrgicas",
 
-            "Avalia├º├úo de exposi├º├úo a poeira de s├¡lica",
+            "Avaliação de exposição a poeira de sílica",
 
-            "Controle de agentes biol├│gicos em hospitais",
+            "Controle de agentes biológicos em hospitais",
 
-            "Monitoramento de calor em fundi├º├Áes"
+            "Monitoramento de calor em fundições"
 
           ]
 
@@ -6094,17 +6094,17 @@ window.SITE_DATA = {
 
           "titulo": "NRs ÔÇö Normas Regulamentadoras",
 
-          "definicao": "Conjunto de disposi├º├Áes legais complementares ├á Consolida├º├úo das Leis do Trabalho (CLT) que estabelecem obriga├º├Áes e requisitos m├¡nimos para a seguran├ºa e sa├║de no trabalho no Brasil. S├úo atualizadas pela Secretaria de Inspe├º├úo do Trabalho.",
+          "definicao": "Conjunto de disposições legais complementares á Consolidação das Leis do Trabalho (CLT) que estabelecem obrigações e requisitos mínimos para a segurança e saúde no trabalho no Brasil. São atualizadas pela Secretaria de Inspeção do Trabalho.",
 
           "topicos": [
 
             "NR-17 ÔÇö Ergonomia",
 
-            "NR-12 ÔÇö Seguran├ºa em M├íquinas",
+            "NR-12 ÔÇö Segurança em Méquinas",
 
             "NR-35 ÔÇö Trabalho em Altura",
 
-            "NR-33 ÔÇö Espa├ºo Confinado",
+            "NR-33 ÔÇö Espaço Confinado",
 
             "NR-06 ÔÇö EPI"
 
@@ -6114,13 +6114,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Adequa├º├úo de m├íquinas ├á NR-12",
+            "Adequação de méquinas á NR-12",
 
-            "Elabora├º├úo de laudos ergon├┤micos (NR-17)",
+            "Elaboração de laudos ergonômicos (NR-17)",
 
-            "Gest├úo de EPIs conforme NR-06",
+            "Gestão de EPIs conforme NR-06",
 
-            "Permiss├úo de trabalho conforme NR-35 e NR-33"
+            "Permissão de trabalho conforme NR-35 e NR-33"
 
           ]
 
@@ -6128,21 +6128,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise Ergon├┤mica do Trabalho (AET)",
+          "titulo": "Anélise Ergonômica do Trabalho (AET)",
 
-          "definicao": "Metodologia de an├ílise aprofundada da situa├º├úo real de trabalho, que investiga a atividade do trabalhador, as condi├º├Áes de execu├º├úo e as exig├¬ncias f├¡sicas e cognitivas. Subsidia recomenda├º├Áes de melhoria para adequar o trabalho ao ser humano.",
+          "definicao": "Metodologia de anélise aprofundada da situação real de trabalho, que investiga a atividade do trabalhador, as condições de execução e as exigências físicas e cognitivas. Subsidia recomendações de melhoria para adequar o trabalho ao ser humano.",
 
           "topicos": [
 
             "Demanda, tarefa e atividade",
 
-            "Observa├º├úo global e sistem├ítica",
+            "Observação global e sistemética",
 
-            "Entrevistas e autoconfronta├º├úo",
+            "Entrevistas e autoconfrontação",
 
-            "An├ílise da atividade real vs. prescrita",
+            "Anélise da atividade real vs. prescrita",
 
-            "Recomenda├º├Áes ergon├┤micas"
+            "Recomendações ergonômicas"
 
           ],
 
@@ -6150,13 +6150,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Diagn├│stico ergon├┤mico em montadoras",
+            "Diagnóstico ergonômico em montadoras",
 
-            "Adequa├º├úo de postos administrativos",
+            "Adequação de postos administrativos",
 
-            "Melhoria de processos com alto absente├¡smo",
+            "Melhoria de processos com alto absenteísmo",
 
-            "AET como subs├¡dio para a├º├úo civil p├║blica"
+            "AET como subsídio para ação civil pública"
 
           ]
 
@@ -6164,35 +6164,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Redu├º├úo de acidentes",
+          "titulo": "Redução de acidentes",
 
-          "definicao": "Conjunto de estrat├®gias e programas cont├¡nuos para diminuir a ocorr├¬ncia de acidentes do trabalho, combinando engenharia de seguran├ºa, treinamento, gest├úo comportamental e an├ílise de dados hist├│ricos para eliminar causas raiz.",
+          "definicao": "Conjunto de estratégias e programas contínuos para diminuir a ocorrência de acidentes do trabalho, combinando engenharia de segurança, treinamento, gestão comportamental e anélise de dados históricos para eliminar causas raiz.",
 
           "topicos": [
 
-            "Programa de preven├º├úo de acidentes",
+            "Programa de prevenção de acidentes",
 
-            "An├ílise de quase-acidentes",
+            "Anélise de quase-acidentes",
 
-            "Cultura de seguran├ºa",
+            "Cultura de segurança",
 
             "Indicadores proativos e reativos",
 
-            "C├¡rculos de seguran├ºa (kaizen de seguran├ºa)"
+            "Círculos de segurança (kaizen de segurança)"
 
           ],
 
-          "formula": "Taxa de Frequ├¬ncia (TF) = (N ├ù 1.000.000) / HHT",
+          "formula": "Taxa de Frequência (TF) = (N ú 1.000.000) / HHT",
 
           "aplicacoes": [
 
-            "Programa de metas de seguran├ºa em obras",
+            "Programa de metas de segurança em obras",
 
-            "Campanhas de seguran├ºa comportamental",
+            "Campanhas de segurança comportamental",
 
             "Sistema de reporte de quase-acidentes",
 
-            "An├ílise de tend├¬ncias de acidentalidade"
+            "Anélise de tendências de acidentalidade"
 
           ]
 
@@ -6202,19 +6202,19 @@ window.SITE_DATA = {
 
           "titulo": "PPRA e PCMSO",
 
-          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Preven├º├úo de Riscos Ambientais, substitu├¡do pelo PGR) e PCMSO (Programa de Controle M├®dico de Sa├║de Ocupacional). O PGR identifica e gerencia riscos ocupacionais; o PCMSO monitora a sa├║de dos trabalhadores por exames peri├│dicos.",
+          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Prevenção de Riscos Ambientais, substituído pelo PGR) e PCMSO (Programa de Controle Médico de Saúde Ocupacional). O PGR identifica e gerencia riscos ocupacionais; o PCMSO monitora a saúde dos trabalhadores por exames periódicos.",
 
           "topicos": [
 
             "PGR ÔÇö Programa de Gerenciamento de Riscos",
 
-            "Invent├írio de riscos ocupacionais",
+            "Inventério de riscos ocupacionais",
 
-            "Plano de a├º├úo do PGR",
+            "Plano de ação do PGR",
 
-            "PCMSO e exames m├®dicos (admissional, peri├│dico, demissional)",
+            "PCMSO e exames médicos (admissional, periódico, demissional)",
 
-            "ASO ÔÇö Atestado de Sa├║de Ocupacional"
+            "ASO ÔÇö Atestado de Saúde Ocupacional"
 
           ],
 
@@ -6222,13 +6222,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de PGR para ind├║strias",
+            "Elaboração de PGR para indústrias",
 
-            "Gest├úo de ASO em empresas de grande porte",
+            "Gestão de ASO em empresas de grande porte",
 
-            "Programa de exames peri├│dicos em mineradoras",
+            "Programa de exames periódicos em mineradoras",
 
-            "Monitoramento de exposi├º├úo a agentes nocivos"
+            "Monitoramento de exposição a agentes nocivos"
 
           ]
 
@@ -6238,7 +6238,7 @@ window.SITE_DATA = {
 
           "titulo": "CIPA e SESMT",
 
-          "definicao": "CIPA (Comiss├úo Interna de Preven├º├úo de Acidentes) ├® uma comiss├úo parit├íria de trabalhadores e empregados que promove a preven├º├úo. SESMT (Servi├ºos Especializados em Engenharia de Seguran├ºa e em Medicina do Trabalho) ├® a equipe t├®cnica multidisciplinar obrigat├│ria conforme grau de risco.",
+          "definicao": "CIPA (Comissão Interna de Prevenção de Acidentes) é uma comissão paritéria de trabalhadores e empregados que promove a prevenção. SESMT (Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho) é a equipe técnica multidisciplinar obrigatória conforme grau de risco.",
 
           "topicos": [
 
@@ -6246,9 +6246,9 @@ window.SITE_DATA = {
 
             "Dimensionamento do SESMT (NR-04)",
 
-            "Atribui├º├Áes e funcionamento da CIPA",
+            "Atribuições e funcionamento da CIPA",
 
-            "Engenheiro de seguran├ºa, t├®cnico, m├®dico e enfermeiro do trabalho",
+            "Engenheiro de segurança, técnico, médico e enfermeiro do trabalho",
 
             "Mapeamento de riscos pela CIPA"
 
@@ -6258,13 +6258,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reuni├Áes e inspe├º├Áes de CIPA em f├íbricas",
+            "Reuniões e inspeções de CIPA em fébricas",
 
-            "Elabora├º├úo de mapa de riscos",
+            "Elaboração de mapa de riscos",
 
-            "Gest├úo do SESMT em canteiros de obras",
+            "Gestão do SESMT em canteiros de obras",
 
-            "Treinamento de brigada de emerg├¬ncia"
+            "Treinamento de brigada de emergência"
 
           ]
 
@@ -6274,17 +6274,17 @@ window.SITE_DATA = {
 
           "titulo": "EPI e EPC",
 
-          "definicao": "EPI (Equipamento de Prote├º├úo Individual) protege o trabalhador individualmente contra riscos espec├¡ficos (capacete, luva, ├│culos). EPC (Equipamento de Prote├º├úo Coletiva) protege um grupo (redes de prote├º├úo, enclausuramento, exaust├úo). Ambos regulados pela NR-06.",
+          "definicao": "EPI (Equipamento de Proteção Individual) protege o trabalhador individualmente contra riscos específicos (capacete, luva, óculos). EPC (Equipamento de Proteção Coletiva) protege um grupo (redes de proteção, enclausuramento, exaustão). Ambos regulados pela NR-06.",
 
           "topicos": [
 
-            "Tipos de EPI (cabe├ºa, olhos, vias a├®reas, m├úos, p├®s)",
+            "Tipos de EPI (cabeça, olhos, vias aéreas, mãos, pés)",
 
-            "Certifica├º├úo e CA (Certificado de Aprova├º├úo)",
+            "Certificação e CA (Certificado de Aprovação)",
 
-            "Exaust├úo e ventila├º├úo local (EPC)",
+            "Exaustão e ventilação local (EPC)",
 
-            "Enclausuramento de m├íquinas",
+            "Enclausuramento de méquinas",
 
             "Treinamento e guarda de EPI"
 
@@ -6294,13 +6294,13 @@ window.SITE_DATA = {
 
           "aplicacoesacoes": [
 
-            "Distribui├º├úo e controle de EPI em ind├║strias",
+            "Distribuição e controle de EPI em indústrias",
 
-            "Instala├º├úo de sistema de exaust├úo em soldagem",
+            "Instalação de sistema de exaustão em soldagem",
 
-            "Prote├º├úo de m├íquinas com sensores de seguran├ºa",
+            "Proteção de méquinas com sensores de segurança",
 
-            "Programa de conscientiza├º├úo de uso de EPI"
+            "Programa de conscientização de uso de EPI"
 
           ]
 
@@ -6310,17 +6310,17 @@ window.SITE_DATA = {
 
           "titulo": "LOTO ÔÇö Lockout Tagout",
 
-          "definicao": "Procedimento de seguran├ºa que isola fontes de energia (el├®trica, mec├ónica, pneum├ítica, t├®rmica) de m├íquinas e equipamentos durante manuten├º├úo ou limpeza, utilizando cadeados e etiquetas de bloqueio. Previne acionamentos acidentais e protege a equipe.",
+          "definicao": "Procedimento de segurança que isola fontes de energia (elétrica, mecônica, pneumética, térmica) de méquinas e equipamentos durante manutenção ou limpeza, utilizando cadeados e etiquetas de bloqueio. Previne acionamentos acidentais e protege a equipe.",
 
           "topicos": [
 
             "Procedimento de bloqueio e etiquetagem",
 
-            "Identifica├º├úo de pontos de energia",
+            "Identificação de pontos de energia",
 
             "Cadeados, hasps e etiquetas",
 
-            "Verifica├º├úo de zero energia",
+            "Verificação de zero energia",
 
             "Treinamento e auditoria LOTO"
 
@@ -6330,13 +6330,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Bloqueio de pain├®is el├®tricos para manuten├º├úo",
+            "Bloqueio de painéis elétricos para manutenção",
 
-            "Isolamento de bombas e v├ílvulas",
+            "Isolamento de bombas e vélvulas",
 
-            "Manuten├º├úo de prensas e injetoras",
+            "Manutenção de prensas e injetoras",
 
-            "Procedimentos em refinarias e plantas qu├¡micas"
+            "Procedimentos em refinarias e plantas químicas"
 
           ]
 
@@ -6346,7 +6346,7 @@ window.SITE_DATA = {
 
           "titulo": "Ergonomia de posto de trabalho",
 
-          "definicao": "Aplica├º├úo de princ├¡pios ergon├┤micos ao design de esta├º├Áes de trabalho, considerando as dimens├Áes antropom├®tricas, alcances, ├óngulos de vis├úo e ajustabilidade dos m├│veis e equipamentos. Visa conforto, efici├¬ncia e preven├º├úo de les├Áes.",
+          "definicao": "Aplicação de princípios ergonômicos ao design de estações de trabalho, considerando as dimensões antropométricas, alcances, ôngulos de visão e ajustabilidade dos móveis e equipamentos. Visa conforto, eficiência e prevenção de lesões.",
 
           "topicos": [
 
@@ -6356,9 +6356,9 @@ window.SITE_DATA = {
 
             "Posicionamento de monitores e teclados",
 
-            "Ilumina├º├úo e ofuscamento",
+            "Iluminação e ofuscamento",
 
-            "An├ílise de alcance e zonas de conforto"
+            "Anélise de alcance e zonas de conforto"
 
           ],
 
@@ -6368,11 +6368,11 @@ window.SITE_DATA = {
 
             "Projeto de postos de trabalho administrativos",
 
-            "Adega├º├úo de c├®lulas de produ├º├úo com esteiras",
+            "Adegação de células de produção com esteiras",
 
             "Postos de checkout em supermercados",
 
-            "Cabines de opera├º├úo de m├íquinas"
+            "Cabines de operação de méquinas"
 
           ]
 
@@ -6382,19 +6382,19 @@ window.SITE_DATA = {
 
           "titulo": "Antropometria",
 
-          "definicao": "Ci├¬ncia da medi├º├úo das dimens├Áes e propor├º├Áes do corpo humano, aplicada ao design de postos de trabalho, equipamentos e produtos. Considera vari├íveis como estatura, alcance e per├¡metros para projetar para a popula├º├úo usu├íria.",
+          "definicao": "Ciência da medição das dimensões e proporções do corpo humano, aplicada ao design de postos de trabalho, equipamentos e produtos. Considera variéveis como estatura, alcance e perímetros para projetar para a população usuéria.",
 
           "topicos": [
 
-            "Medidas antropom├®tricas est├íticas e din├ómicas",
+            "Medidas antropométricas estéticas e dinômicas",
 
-            "Percentis e popula├º├úo-alvo",
+            "Percentis e população-alvo",
 
-            "Bases de dados antropom├®tricos brasileiros",
+            "Bases de dados antropométricos brasileiros",
 
-            "Aplica├º├úo: projeto para extremos vs. ajust├ível",
+            "Aplicação: projeto para extremos vs. ajustével",
 
-            "Diferen├ºas entre g├¬neros e etnias"
+            "Diferenças entre gêneros e etnias"
 
           ],
 
@@ -6404,9 +6404,9 @@ window.SITE_DATA = {
 
             "Projeto de cadeiras e assentos",
 
-            "Dimensionamento de cabines de ve├¡culos",
+            "Dimensionamento de cabines de veículos",
 
-            "Mobili├írio escolar",
+            "Mobiliério escolar",
 
             "Postos de trabalho em linhas de montagem"
 
@@ -6416,35 +6416,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Biomec├ónica ocupacional",
+          "titulo": "Biomecônica ocupacional",
 
-          "definicao": "Estudo dos movimentos, for├ºas e momentos atuantes no corpo humano durante o trabalho, aplicando princ├¡pios da mec├ónica para analisar posturas, esfor├ºos e riscos de les├Áes. Auxilia no projeto de tarefas com menor exig├¬ncia f├¡sica.",
+          "definicao": "Estudo dos movimentos, forças e momentos atuantes no corpo humano durante o trabalho, aplicando princípios da mecônica para analisar posturas, esforços e riscos de lesões. Auxilia no projeto de tarefas com menor exigência física.",
 
           "topicos": [
 
-            "Cinem├ítica e cin├®tica do movimento humano",
+            "Cinemética e cinética do movimento humano",
 
-            "Modelos biomec├ónicos (2D e 3D)",
+            "Modelos biomecônicos (2D e 3D)",
 
-            "An├ílise de levantamento de carga (NIOSH)",
+            "Anélise de levantamento de carga (NIOSH)",
 
-            "Torque e compress├úo no disco lombar",
+            "Torque e compressão no disco lombar",
 
-            "Ferramentas de an├ílise (3DSSPP, AnyBody)"
+            "Ferramentas de anélise (3DSSPP, AnyBody)"
 
           ],
 
-          "formula": "Equa├º├úo NIOSH: RWL = LC ├ù HM ├ù VM ├ù DM ├ù AM ├ù FM ├ù CM",
+          "formula": "Equação NIOSH: RWL = LC ú HM ú VM ú DM ú AM ú FM ú CM",
 
           "aplicacoes": [
 
-            "An├ílise de riscos de les├úo em levantamento de carga",
+            "Anélise de riscos de lesão em levantamento de carga",
 
-            "Projeto de movimenta├º├úo de materiais",
+            "Projeto de movimentação de materiais",
 
-            "Avalia├º├úo ergon├┤mica de ferramentas manuais",
+            "Avaliação ergonômica de ferramentas manuais",
 
-            "Redu├º├úo de dist├║rbios osteomusculares"
+            "Redução de distúrbios osteomusculares"
 
           ]
 
@@ -6454,33 +6454,33 @@ window.SITE_DATA = {
 
           "titulo": "Fatores humanos (Human Factors)",
 
-          "definicao": "Disciplina que estuda as capacidades e limita├º├Áes humanas no contexto de sistemas homem-m├íquina, integrando psicologia, engenharia e design. Busca otimizar o desempenho do sistema considerando os aspectos humanos, melhorando seguran├ºa e efici├¬ncia.",
+          "definicao": "Disciplina que estuda as capacidades e limitações humanas no contexto de sistemas homem-méquina, integrando psicologia, engenharia e design. Busca otimizar o desempenho do sistema considerando os aspectos humanos, melhorando segurança e eficiência.",
 
           "topicos": [
 
             "Erro humano e confiabilidade humana",
 
-            "Carga de trabalho e vigil├óncia",
+            "Carga de trabalho e vigilôncia",
 
-            "Tomada de decis├úo em situa├º├Áes de emerg├¬ncia",
+            "Tomada de decisão em situações de emergência",
 
-            "Sistemas de alarme e automa├º├úo",
+            "Sistemas de alarme e automação",
 
-            "Usabilidade e experi├¬ncia do usu├írio"
+            "Usabilidade e experiência do usuério"
 
           ],
 
-          "formula": "HEART: Probabilidade de erro humano (HEP) = NEP ├ù EPC ├ù APC",
+          "formula": "HEART: Probabilidade de erro humano (HEP) = NEP ú EPC ú APC",
 
           "aplicacoes": [
 
             "Projeto de salas de controle de usinas",
 
-            "An├ílise de erros em procedimentos de manuten├º├úo",
+            "Anélise de erros em procedimentos de manutenção",
 
-            "Interfaces de sistemas cr├¡ticos (avia├º├úo, nuclear)",
+            "Interfaces de sistemas críticos (aviação, nuclear)",
 
-            "Treinamento de equipes para situa├º├Áes de crise"
+            "Treinamento de equipes para situações de crise"
 
           ]
 
@@ -6488,35 +6488,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de riscos (APR)",
+          "titulo": "Anélise de riscos (APR)",
 
-          "definicao": "Ferramenta de seguran├ºa que identifica, avalia e controla os riscos de cada etapa de uma atividade ou tarefa, antes de sua execu├º├úo. ├ë realizada por meio de formul├írio padronizado e discutida com a equipe envolvida.",
+          "definicao": "Ferramenta de segurança que identifica, avalia e controla os riscos de cada etapa de uma atividade ou tarefa, antes de sua execução. ë realizada por meio de formulério padronizado e discutida com a equipe envolvida.",
 
           "topicos": [
 
-            "Etapas da APR: identifica├º├úo, avalia├º├úo, controle",
+            "Etapas da APR: identificação, avaliação, controle",
 
-            "Hierarquia de controles (elimina├º├úo, substitui├º├úo, engenharia, administrativo, EPI)",
+            "Hierarquia de controles (eliminação, substituição, engenharia, administrativo, EPI)",
 
-            "APR para trabalho em altura, el├®trico, espa├ºo confinado",
+            "APR para trabalho em altura, elétrico, espaço confinado",
 
-            "Permiss├úo de Trabalho (PT)",
+            "Permissão de Trabalho (PT)",
 
-            "An├ílise preliminar de riscos (APR) no projeto"
+            "Anélise preliminar de riscos (APR) no projeto"
 
           ],
 
-          "formula": "Risco = Probabilidade ├ù Severidade",
+          "formula": "Risco = Probabilidade ú Severidade",
 
           "aplicacoes": [
 
-            "APR para manuten├º├úo em altura",
+            "APR para manutenção em altura",
 
-            "APR para opera├º├úo de m├íquinas cr├¡ticas",
+            "APR para operação de méquinas críticas",
 
-            "An├ílise de riscos em atividades de log├¡stica",
+            "Anélise de riscos em atividades de logística",
 
-            "PT para trabalho a quente e escava├º├úo"
+            "PT para trabalho a quente e escavação"
 
           ]
 
@@ -6526,19 +6526,19 @@ window.SITE_DATA = {
 
           "titulo": "Mapa de riscos",
 
-          "definicao": "Representa├º├úo gr├ífica dos riscos existentes em cada setor ou posto de trabalho, utilizando c├¡rculos de tamanhos e cores diferentes para classificar a gravidade e tipo de risco (f├¡sico, qu├¡mico, biol├│gico, ergon├┤mico, de acidente). Exig├¬ncia da CIPA.",
+          "definicao": "Representação gréfica dos riscos existentes em cada setor ou posto de trabalho, utilizando círculos de tamanhos e cores diferentes para classificar a gravidade e tipo de risco (físico, químico, biológico, ergonômico, de acidente). Exigência da CIPA.",
 
           "topicos": [
 
-            "Cores padr├úo dos riscos (verde, vermelho, marrom, amarelo, azul)",
+            "Cores padrão dos riscos (verde, vermelho, marrom, amarelo, azul)",
 
             "Levantamento de riscos com os trabalhadores",
 
-            "Representa├º├úo gr├ífica do layout",
+            "Representação gréfica do layout",
 
-            "Atualiza├º├úo peri├│dica",
+            "Atualização periódica",
 
-            "Divulga├º├úo e treinamento sobre o mapa"
+            "Divulgação e treinamento sobre o mapa"
 
           ],
 
@@ -6546,13 +6546,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Mapeamento de riscos em ind├║strias",
+            "Mapeamento de riscos em indústrias",
 
             "Mapa de riscos em canteiros de obra",
 
-            "Identifica├º├úo participativa de perigos",
+            "Identificação participativa de perigos",
 
-            "Comunica├º├úo visual de seguran├ºa"
+            "Comunicação visual de segurança"
 
           ]
 
@@ -6560,21 +6560,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Preven├º├úo de acidentes",
+          "titulo": "Prevenção de acidentes",
 
-          "definicao": "Conjunto integrado de medidas de engenharia, treinamento, gest├úo e cultura organizacional para eliminar ou reduzir a ocorr├¬ncia de acidentes do trabalho. Envolve identifica├º├úo de perigos, an├ílise de causas e implementa├º├úo de controles efetivos.",
+          "definicao": "Conjunto integrado de medidas de engenharia, treinamento, gestão e cultura organizacional para eliminar ou reduzir a ocorrência de acidentes do trabalho. Envolve identificação de perigos, anélise de causas e implementação de controles efetivos.",
 
           "topicos": [
 
-            "Teoria dos domin├│s de Heinrich",
+            "Teoria dos dominós de Heinrich",
 
-            "Modelo de Reason (queijo su├¡├ºo)",
+            "Modelo de Reason (queijo suíço)",
 
-            "Causas imediatas e b├ísicas de acidentes",
+            "Causas imediatas e bésicas de acidentes",
 
-            "Investiga├º├úo de acidentes",
+            "Investigação de acidentes",
 
-            "Indicadores de desempenho em seguran├ºa"
+            "Indicadores de desempenho em segurança"
 
           ],
 
@@ -6582,13 +6582,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa de seguran├ºa baseada em comportamento",
+            "Programa de segurança baseada em comportamento",
 
-            "Sistema de gest├úo de seguran├ºa (ISO 45001)",
+            "Sistema de gestão de segurança (ISO 45001)",
 
-            "Auditorias de seguran├ºa em plantas industriais",
+            "Auditorias de segurança em plantas industriais",
 
-            "Campanhas de preven├º├úo sazonais"
+            "Campanhas de prevenção sazonais"
 
           ]
 
@@ -6596,21 +6596,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "ERP e GRO (Gest├úo de Riscos Ocupacionais)",
+          "titulo": "ERP e GRO (Gestão de Riscos Ocupacionais)",
 
-          "definicao": "Conjunto de processos integrados para identificar, analisar, avaliar e controlar os riscos ocupacionais (GRO), conforme NR-01. O ERP (Exame de Riscos Profissionais) ├® uma abordagem estruturada de gest├úo sistem├ítica de riscos ├á sa├║de e seguran├ºa dos trabalhadores.",
+          "definicao": "Conjunto de processos integrados para identificar, analisar, avaliar e controlar os riscos ocupacionais (GRO), conforme NR-01. O ERP (Exame de Riscos Profissionais) é uma abordagem estruturada de gestão sistemética de riscos á saúde e segurança dos trabalhadores.",
 
           "topicos": [
 
             "Processo GRO segundo NR-01",
 
-            "Invent├írio de riscos ocupacionais",
+            "Inventério de riscos ocupacionais",
 
-            "Plano de a├º├úo do PGR",
+            "Plano de ação do PGR",
 
-            "Monitoramento e revis├úo peri├│dica",
+            "Monitoramento e revisão periódica",
 
-            "Integra├º├úo GRO com outros sistemas (SGI)"
+            "Integração GRO com outros sistemas (SGI)"
 
           ],
 
@@ -6618,13 +6618,13 @@ window.SITE_DATA = {
 
           "aplicacoesacoes": [
 
-            "Implanta├º├úo do GRO em ind├║strias",
+            "Implantação do GRO em indústrias",
 
-            "Gest├úo integrada de riscos e seguran├ºa",
+            "Gestão integrada de riscos e segurança",
 
             "Auditoria interna de PGR",
 
-            "Revis├úo anual de riscos ocupacionais"
+            "Revisão anual de riscos ocupacionais"
 
           ]
 
@@ -6650,7 +6650,7 @@ window.SITE_DATA = {
 
       "cor": "#22c55e",
 
-      "descricao": "Pr├íticas sustent├íveis, ESG e economia circular na ind├║stria.",
+      "descricao": "Préticas sustentéveis, ESG e economia circular na indústria.",
 
       "subtopicos": [
 
@@ -6658,19 +6658,19 @@ window.SITE_DATA = {
 
           "titulo": "ESG ÔÇö Environmental, Social and Governance",
 
-          "definicao": "Conjunto de crit├®rios ambientais, sociais e de governan├ºa usados para avaliar o desempenho de sustentabilidade e a responsabilidade corporativa. Diferencia empresas comprometidas com pr├íticas ├®ticas e de baixo impacto, influenciando investidores e consumidores.",
+          "definicao": "Conjunto de critérios ambientais, sociais e de governança usados para avaliar o desempenho de sustentabilidade e a responsabilidade corporativa. Diferencia empresas comprometidas com préticas éticas e de baixo impacto, influenciando investidores e consumidores.",
 
           "topicos": [
 
-            "Pilar Ambiental (E): emiss├Áes, res├¡duos, recursos",
+            "Pilar Ambiental (E): emissões, resíduos, recursos",
 
             "Pilar Social (S): direitos humanos, diversidade, comunidade",
 
-            "Pilar Governan├ºa (G): compliance, transpar├¬ncia, ├®tica",
+            "Pilar Governança (G): compliance, transparência, ética",
 
-            "ESG ratings e ag├¬ncias avaliadoras",
+            "ESG ratings e agências avaliadoras",
 
-            "Relat├│rios ESG e frameworks (GRI, SASB, TCFD)"
+            "Relatórios ESG e frameworks (GRI, SASB, TCFD)"
 
           ],
 
@@ -6678,13 +6678,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de comit├¬ ESG corporativo",
+            "Estruturação de comitê ESG corporativo",
 
             "Reporte anual de sustentabilidade",
 
-            "Sele├º├úo de fornecedores com crit├®rios ESG",
+            "Seleção de fornecedores com critérios ESG",
 
-            "Acesso a linhas de cr├®dito verdes (green bonds)"
+            "Acesso a linhas de crédito verdes (green bonds)"
 
           ]
 
@@ -6694,19 +6694,19 @@ window.SITE_DATA = {
 
           "titulo": "Economia circular",
 
-          "definicao": "Modelo econ├┤mico regenerativo que mant├®m produtos, materiais e recursos em uso pelo maior tempo poss├¡vel, eliminando res├¡duos e polui├º├úo. Baseia-se em tr├¬s princ├¡pios: eliminar res├¡duos e polui├º├úo, circular materiais em seu maior valor e regenerar a natureza.",
+          "definicao": "Modelo econômico regenerativo que mantém produtos, materiais e recursos em uso pelo maior tempo possível, eliminando resíduos e poluição. Baseia-se em três princípios: eliminar resíduos e poluição, circular materiais em seu maior valor e regenerar a natureza.",
 
           "topicos": [
 
-            "Princ├¡pios da economia circular (Ellen MacArthur Foundation)",
+            "Princípios da economia circular (Ellen MacArthur Foundation)",
 
             "10 R's da circularidade (Recusar, Reduzir, Reusar, Reciclar...)",
 
-            "Ciclos biol├│gicos e t├®cnicos",
+            "Ciclos biológicos e técnicos",
 
             "Design para circularidade",
 
-            "Modelos de neg├│cio circulares (PaaS, servitiza├º├úo)"
+            "Modelos de negócio circulares (PaaS, servitização)"
 
           ],
 
@@ -6714,13 +6714,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Cadeias produtivas com res├¡duo zero",
+            "Cadeias produtivas com resíduo zero",
 
             "Remanufatura de motores e componentes",
 
-            "Produto como servi├ºo (lighting as a service)",
+            "Produto como serviço (lighting as a service)",
 
-            "Log├¡stica reversa de eletr├┤nicos"
+            "Logística reversa de eletrônicos"
 
           ]
 
@@ -6728,19 +6728,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo ambiental",
+          "titulo": "Gestão ambiental",
 
-          "definicao": "Sistema estruturado de pol├¡ticas, pr├íticas e procedimentos que uma organiza├º├úo adota para controlar seus impactos ambientais, cumprir regulamenta├º├Áes e melhorar continuamente seu desempenho ecol├│gico. Frequentemente alinhada ├á ISO 14001.",
+          "definicao": "Sistema estruturado de políticas, préticas e procedimentos que uma organização adota para controlar seus impactos ambientais, cumprir regulamentações e melhorar continuamente seu desempenho ecológico. Frequentemente alinhada á ISO 14001.",
 
           "topicos": [
 
-            "Pol├¡tica ambiental e objetivos",
+            "Política ambiental e objetivos",
 
             "Aspectos e impactos ambientais",
 
             "Atendimento a requisitos legais",
 
-            "SGA ÔÇö Sistema de Gest├úo Ambiental",
+            "SGA ÔÇö Sistema de Gestão Ambiental",
 
             "Auditoria ambiental (interna e externa)"
 
@@ -6750,13 +6750,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de SGA conforme ISO 14001",
+            "Implementação de SGA conforme ISO 14001",
 
-            "Gest├úo de licenciamento ambiental",
+            "Gestão de licenciamento ambiental",
 
-            "Programa de redu├º├úo de consumo de ├ígua",
+            "Programa de redução de consumo de égua",
 
-            "Monitoramento de efluentes e emiss├Áes"
+            "Monitoramento de efluentes e emissões"
 
           ]
 
@@ -6764,35 +6764,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Efici├¬ncia energ├®tica",
+          "titulo": "Eficiência energética",
 
-          "definicao": "Uso otimizado de energia para realizar um trabalho, reduzindo o consumo sem comprometer a produtividade. Envolve substitui├º├úo de equipamentos, automa├º├úo de sistemas, recupera├º├úo de calor e ado├º├úo de fontes renov├íveis.",
+          "definicao": "Uso otimizado de energia para realizar um trabalho, reduzindo o consumo sem comprometer a produtividade. Envolve substituição de equipamentos, automação de sistemas, recuperação de calor e adoção de fontes renovéveis.",
 
           "topicos": [
 
-            "Diagn├│stico energ├®tico e benchmarking",
+            "Diagnóstico energético e benchmarking",
 
-            "Motores de alta efici├¬ncia (IE3/IE4)",
+            "Motores de alta eficiência (IE3/IE4)",
 
-            "Sistemas de ilumina├º├úo LED com controle",
+            "Sistemas de iluminação LED com controle",
 
-            "Recupera├º├úo de calor residual",
+            "Recuperação de calor residual",
 
-            "Cogera├º├úo e trigera├º├úo"
+            "Cogeração e trigeração"
 
           ],
 
-          "formula": "Efici├¬ncia (%) = Energia ├║til / Energia total consumida ├ù 100",
+          "formula": "Eficiência (%) = Energia útil / Energia total consumida ú 100",
 
           "aplicacoes": [
 
-            "Industrial ÔÇö otimiza├º├úo de utilidades",
+            "Industrial ÔÇö otimização de utilidades",
 
-            "Substitui├º├úo de motores el├®tricos antigos",
+            "Substituição de motores elétricos antigos",
 
-            "Gest├úo de demanda em hor├írio de ponta",
+            "Gestão de demanda em horério de ponta",
 
-            "Certifica├º├úo Procel e etiquetagem energ├®tica"
+            "Certificação Procel e etiquetagem energética"
 
           ]
 
@@ -6800,21 +6800,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de res├¡duos s├│lidos",
+          "titulo": "Gestão de resíduos sólidos",
 
-          "definicao": "Conjunto de atividades de coleta, segrega├º├úo, armazenamento, transporte, tratamento e disposi├º├úo final de res├¡duos, seguindo a hierarquia: n├úo gera├º├úo, redu├º├úo, reuso, reciclagem, tratamento e disposi├º├úo final. Regida pela Pol├¡tica Nacional de Res├¡duos S├│lidos (PNRS).",
+          "definicao": "Conjunto de atividades de coleta, segregação, armazenamento, transporte, tratamento e disposição final de resíduos, seguindo a hierarquia: não geração, redução, reuso, reciclagem, tratamento e disposição final. Regida pela Política Nacional de Resíduos Sólidos (PNRS).",
 
           "topicos": [
 
-            "Classifica├º├úo de res├¡duos (perigosos e n├úo perigosos ÔÇö NBR 10004)",
+            "Classificação de resíduos (perigosos e não perigosos ÔÇö NBR 10004)",
 
-            "Coleta seletiva e log├¡stica reversa",
+            "Coleta seletiva e logística reversa",
 
-            "Tratamento (incinera├º├úo, compostagem, aterro)",
+            "Tratamento (incineração, compostagem, aterro)",
 
-            "MTR ÔÇö Manifesto de Transporte de Res├¡duos",
+            "MTR ÔÇö Manifesto de Transporte de Resíduos",
 
-            "Indicadores de gest├úo de res├¡duos"
+            "Indicadores de gestão de resíduos"
 
           ],
 
@@ -6822,11 +6822,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Plano de gerenciamento de res├¡duos industriais",
+            "Plano de gerenciamento de resíduos industriais",
 
-            "Programa de reciclagem em f├íbricas",
+            "Programa de reciclagem em fébricas",
 
-            "Destina├º├úo de res├¡duos perigosos",
+            "Destinação de resíduos perigosos",
 
             "Coprocessamento em fornos de cimento"
 
@@ -6838,33 +6838,33 @@ window.SITE_DATA = {
 
           "titulo": "Pegada de carbono (Carbon Footprint)",
 
-          "definicao": "Medida da quantidade total de gases de efeito estufa (GEE) emitidos direta ou indiretamente por uma atividade, produto, servi├ºo ou organiza├º├úo, expressa em toneladas de CO2 equivalente (tCO2e). Base para estrat├®gias de neutraliza├º├úo clim├ítica.",
+          "definicao": "Medida da quantidade total de gases de efeito estufa (GEE) emitidos direta ou indiretamente por uma atividade, produto, serviço ou organização, expressa em toneladas de CO2 equivalente (tCO2e). Base para estratégias de neutralização climética.",
 
           "topicos": [
 
-            "Escopos 1, 2 e 3 de emiss├Áes (GHG Protocol)",
+            "Escopos 1, 2 e 3 de emissões (GHG Protocol)",
 
-            "C├ílculo de emiss├Áes diretas e indiretas",
+            "Célculo de emissões diretas e indiretas",
 
-            "Fatores de emiss├úo por fonte energ├®tica",
+            "Fatores de emissão por fonte energética",
 
-            "Compensa├º├úo via cr├®ditos de carbono",
+            "Compensação via créditos de carbono",
 
-            "Declara├º├úo de pegada de carbono de produto"
+            "Declaração de pegada de carbono de produto"
 
           ],
 
-          "formula": "Pegada de Carbono (tCOÔéée) = ╬ú (Dado de Atividade ├ù Fator de Emiss├úo)",
+          "formula": "Pegada de Carbono (tCOÔéée) = ╬ú (Dado de Atividade ú Fator de Emissão)",
 
           "aplicacoes": [
 
-            "Invent├írio corporativo de GEE",
+            "Inventério corporativo de GEE",
 
             "Rotulagem de pegada de carbono em produtos",
 
-            "Compensa├º├úo de viagens corporativas",
+            "Compensação de viagens corporativas",
 
-            "Relat├│rios CDP (Carbon Disclosure Project)"
+            "Relatórios CDP (Carbon Disclosure Project)"
 
           ]
 
@@ -6872,19 +6872,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produ├º├úo mais limpa (P+L)",
+          "titulo": "Produção mais limpa (P+L)",
 
-          "definicao": "Estrat├®gia ambiental preventiva aplicada a processos, produtos e servi├ºos para aumentar a ecoefici├¬ncia e reduzir riscos ├á sa├║de humana e ao meio ambiente. Atua na fonte, minimizando o uso de mat├®rias-primas e a gera├º├úo de res├¡duos.",
+          "definicao": "Estratégia ambiental preventiva aplicada a processos, produtos e serviços para aumentar a ecoeficiência e reduzir riscos á saúde humana e ao meio ambiente. Atua na fonte, minimizando o uso de matérias-primas e a geração de resíduos.",
 
           "topicos": [
 
-            "N├¡veis da P+L (fonte, reciclagem interna, externa)",
+            "Níveis da P+L (fonte, reciclagem interna, externa)",
 
-            "Ecoefici├¬ncia e indicadores",
+            "Ecoeficiência e indicadores",
 
-            "Substitui├º├úo de insumos t├│xicos",
+            "Substituição de insumos tóxicos",
 
-            "Otimiza├º├úo de processos",
+            "Otimização de processos",
 
             "Estudos de caso P+L em setores industriais"
 
@@ -6894,13 +6894,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de solventes em pintura industrial",
+            "Redução de solventes em pintura industrial",
 
-            "Minimiza├º├úo de perdas em processos t├¬xteis",
+            "Minimização de perdas em processos têxteis",
 
-            "Substitui├º├úo de combust├¡veis f├│sseis",
+            "Substituição de combustíveis fósseis",
 
-            "Programas P+L em curtumes e frigor├¡ficos"
+            "Programas P+L em curtumes e frigoríficos"
 
           ]
 
@@ -6910,19 +6910,19 @@ window.SITE_DATA = {
 
           "titulo": "ISO 14001:2024",
 
-          "definicao": "Norma internacional que especifica requisitos para um Sistema de Gest├úo Ambiental (SGA), permitindo que organiza├º├Áes melhorem seu desempenho ambiental, cumpram obriga├º├Áes legais e alcancem objetivos ambientais de forma sistem├ítica.",
+          "definicao": "Norma internacional que especifica requisitos para um Sistema de Gestão Ambiental (SGA), permitindo que organizações melhorem seu desempenho ambiental, cumpram obrigações legais e alcancem objetivos ambientais de forma sistemética.",
 
           "topicos": [
 
             "Estrutura PDCA aplicada ao SGA",
 
-            "Contexto da organiza├º├úo e partes interessadas",
+            "Contexto da organização e partes interessadas",
 
-            "Pol├¡tica ambiental e planejamento",
+            "Política ambiental e planejamento",
 
-            "Avalia├º├úo de desempenho e auditoria",
+            "Avaliação de desempenho e auditoria",
 
-            "Melhoria cont├¡nua e n├úo conformidades"
+            "Melhoria contínua e não conformidades"
 
           ],
 
@@ -6930,13 +6930,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo de SGA em ind├║strias",
+            "Certificação de SGA em indústrias",
 
-            "Integra├º├úo com ISO 9001 e 45001",
+            "Integração com ISO 9001 e 45001",
 
-            "Redu├º├úo de multas e passivos ambientais",
+            "Redução de multas e passivos ambientais",
 
-            "Diferencial competitivo em licita├º├Áes"
+            "Diferencial competitivo em licitações"
 
           ]
 
@@ -6944,19 +6944,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Log├¡stica reversa",
+          "titulo": "Logística reversa",
 
-          "definicao": "Processo de planejamento, implementa├º├úo e controle do fluxo reverso de produtos e materiais ap├│s o consumo, para reaproveitamento, reciclagem ou descarte adequado. Instrumento da PNRS que compartilha responsabilidade entre fabricantes, distribuidores e consumidores.",
+          "definicao": "Processo de planejamento, implementação e controle do fluxo reverso de produtos e materiais após o consumo, para reaproveitamento, reciclagem ou descarte adequado. Instrumento da PNRS que compartilha responsabilidade entre fabricantes, distribuidores e consumidores.",
 
           "topicos": [
 
-            "Canais de distribui├º├úo reversos",
+            "Canais de distribuição reversos",
 
-            "Acordos setoriais de log├¡stica reversa",
+            "Acordos setoriais de logística reversa",
 
             "Centros de coleta e triagem",
 
-            "Fluxos: embalagens, eletroeletr├┤nicos, pneus, ├│leo",
+            "Fluxos: embalagens, eletroeletrônicos, pneus, óleo",
 
             "Indicadores de retorno e reciclagem"
 
@@ -6966,13 +6966,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Sistema de log├¡stica reversa de embalagens",
+            "Sistema de logística reversa de embalagens",
 
-            "Retorno de baterias e pilhas p├│s-consumo",
+            "Retorno de baterias e pilhas pós-consumo",
 
-            "Reaproveitamento de res├¡duos eletr├┤nicos",
+            "Reaproveitamento de resíduos eletrônicos",
 
-            "Programa de reciclagem de pneus inserv├¡veis"
+            "Programa de reciclagem de pneus inservíveis"
 
           ]
 
@@ -6980,19 +6980,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Relat├│rio de sustentabilidade (GRI)",
+          "titulo": "Relatório de sustentabilidade (GRI)",
 
-          "definicao": "Documento corporativo que divulga o desempenho econ├┤mico, ambiental e social de uma organiza├º├úo, seguindo padr├Áes da Global Reporting Initiative (GRI). Permite transpar├¬ncia e comparabilidade para stakeholders, incluindo investidores e sociedade.",
+          "definicao": "Documento corporativo que divulga o desempenho econômico, ambiental e social de uma organização, seguindo padrões da Global Reporting Initiative (GRI). Permite transparência e comparabilidade para stakeholders, incluindo investidores e sociedade.",
 
           "topicos": [
 
-            "Padr├Áes GRI (Universal, Setoriais, Tem├íticos)",
+            "Padrões GRI (Universal, Setoriais, Teméticos)",
 
             "Materialidade e engajamento de stakeholders",
 
-            "Indicadores GRI por dimens├úo",
+            "Indicadores GRI por dimensão",
 
-            "Verifica├º├úo externa e assurance",
+            "Verificação externa e assurance",
 
             "Relato integrado (IIRC) e sinergia GRI"
 
@@ -7002,11 +7002,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de relat├│rio anual GRI",
+            "Elaboração de relatório anual GRI",
 
-            "Reporte de ODS nos relat├│rios",
+            "Reporte de ODS nos relatórios",
 
-            "Comunica├º├úo de progresso ESG",
+            "Comunicação de progresso ESG",
 
             "Benchmarking setorial de sustentabilidade"
 
@@ -7016,21 +7016,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de ciclo de vida (ACV)",
+          "titulo": "Anélise de ciclo de vida (ACV)",
 
-          "definicao": "Metodologia padronizada (ISO 14040/14044) que quantifica os impactos ambientais de um produto, processo ou servi├ºo ao longo de todo seu ciclo de vida ÔÇö da extra├º├úo de mat├®rias-primas ao descarte final. Identifica hotspots e oportunidades de melhoria.",
+          "definicao": "Metodologia padronizada (ISO 14040/14044) que quantifica os impactos ambientais de um produto, processo ou serviço ao longo de todo seu ciclo de vida ÔÇö da extração de matérias-primas ao descarte final. Identifica hotspots e oportunidades de melhoria.",
 
           "topicos": [
 
-            "Etapas da ACV: defini├º├úo de objetivo, ICV, AICV, interpreta├º├úo",
+            "Etapas da ACV: definição de objetivo, ICV, AICV, interpretação",
 
-            "Categorias de impacto (aquecimento global, acidifica├º├úo, eutrofiza├º├úo)",
+            "Categorias de impacto (aquecimento global, acidificação, eutrofização)",
 
             "Softwares de ACV (SimaPro, GaBi, OpenLCA)",
 
             "Bancos de dados (Ecoinvent, ELCD)",
 
-            "Declara├º├úo Ambiental de Produto (EPD)"
+            "Declaração Ambiental de Produto (EPD)"
 
           ],
 
@@ -7038,13 +7038,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Compara├º├úo de impacto entre embalagens",
+            "Comparação de impacto entre embalagens",
 
-            "Design ecol├│gico de produtos",
+            "Design ecológico de produtos",
 
             "Rotulagem ambiental (Tipo I, II, III)",
 
-            "Suporte a declara├º├Áes de produto neutro em carbono"
+            "Suporte a declarações de produto neutro em carbono"
 
           ]
 
@@ -7052,35 +7052,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Invent├írio de GEE",
+          "titulo": "Inventério de GEE",
 
-          "definicao": "Documento que quantifica as emiss├Áes e remo├º├Áes de gases de efeito estufa de uma organiza├º├úo, seguindo metodologias como GHG Protocol e IPCC. Base para estrat├®gias de redu├º├úo, relat├│rios ESG e participa├º├úo em mercados de carbono.",
+          "definicao": "Documento que quantifica as emissões e remoções de gases de efeito estufa de uma organização, seguindo metodologias como GHG Protocol e IPCC. Base para estratégias de redução, relatórios ESG e participação em mercados de carbono.",
 
           "topicos": [
 
             "GHG Protocol ÔÇö Escopos 1, 2, 3",
 
-            "Metodologia IPCC para c├ílculo",
+            "Metodologia IPCC para célculo",
 
             "Incerteza e garantia de qualidade",
 
-            "Relat├│rio de invent├írio e verifica├º├úo",
+            "Relatório de inventério e verificação",
 
-            "Metas baseadas na ci├¬ncia (SBTi)"
+            "Metas baseadas na ciência (SBTi)"
 
           ],
 
-          "formula": "Emiss├úo = Dado de Atividade ├ù Fator de Emiss├úo ├ù GWP",
+          "formula": "Emissão = Dado de Atividade ú Fator de Emissão ú GWP",
 
           "aplicacoes": [
 
-            "Invent├írio corporativo anual de GEE",
+            "Inventério corporativo anual de GEE",
 
-            "Registro p├║blico no Programa GHG Protocol",
+            "Registro público no Programa GHG Protocol",
 
             "Metas SBTi (Science Based Targets)",
 
-            "Relat├│rio para bolsas de carbono"
+            "Relatório para bolsas de carbono"
 
           ]
 
@@ -7088,33 +7088,33 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Cr├®dito de carbono",
+          "titulo": "Crédito de carbono",
 
-          "definicao": "Certificado financeiro que representa a redu├º├úo ou remo├º├úo de uma tonelada de CO2 equivalente da atmosfera. Pode ser negociado em mercados regulados (MDL, ETS) ou volunt├írios (VCS, Gold Standard). Instrumento para financiar projetos clim├íticos.",
+          "definicao": "Certificado financeiro que representa a redução ou remoção de uma tonelada de CO2 equivalente da atmosfera. Pode ser negociado em mercados regulados (MDL, ETS) ou voluntérios (VCS, Gold Standard). Instrumento para financiar projetos climéticos.",
 
           "topicos": [
 
-            "Mercado regulado (Sistema Brasileiro de Com├®rcio de Emiss├Áes ÔÇö SBCE)",
+            "Mercado regulado (Sistema Brasileiro de Comércio de Emissões ÔÇö SBCE)",
 
-            "Mercado volunt├írio global",
+            "Mercado voluntério global",
 
-            "Metodologias de projetos de cr├®dito",
+            "Metodologias de projetos de crédito",
 
             "Registros (Verra, Gold Standard, MDL)",
 
-            "Compra e venda de cr├®ditos de carbono"
+            "Compra e venda de créditos de carbono"
 
           ],
 
-          "formula": "1 Cr├®dito = 1 tCOÔéée reduzida ou removida",
+          "formula": "1 Crédito = 1 tCOÔéée reduzida ou removida",
 
           "aplicacoes": [
 
             "Projetos de reflorestamento e REDD+",
 
-            "Gera├º├úo de energia renov├ível",
+            "Geração de energia renovével",
 
-            "Efici├¬ncia energ├®tica industrial",
+            "Eficiência energética industrial",
 
             "Metas de carbono neutro corporativo"
 
@@ -7126,23 +7126,23 @@ window.SITE_DATA = {
 
           "titulo": "Indicadores de sustentabilidade",
 
-          "definicao": "M├®tricas quantitativas e qualitativas usadas para medir e comunicar o desempenho de sustentabilidade de uma organiza├º├úo nas dimens├Áes ambiental, social e econ├┤mica. Permitem monitoramento de metas, benchmarking e transpar├¬ncia com stakeholders.",
+          "definicao": "Métricas quantitativas e qualitativas usadas para medir e comunicar o desempenho de sustentabilidade de uma organização nas dimensões ambiental, social e econômica. Permitem monitoramento de metas, benchmarking e transparência com stakeholders.",
 
           "topicos": [
 
-            "Indicadores de press├úo, estado e resposta (PER)",
+            "Indicadores de pressão, estado e resposta (PER)",
 
-            "Indicadores ambientais: emiss├Áes, ├ígua, res├¡duos, energia",
+            "Indicadores ambientais: emissões, égua, resíduos, energia",
 
-            "Indicadores sociais: seguran├ºa, diversidade, treinamento",
+            "Indicadores sociais: segurança, diversidade, treinamento",
 
-            "Indicadores econ├┤micos: valor distribu├¡do, investimento socioambiental",
+            "Indicadores econômicos: valor distribuído, investimento socioambiental",
 
             "Painel de indicadores ESG integrados"
 
           ],
 
-          "formula": "Intensidade de Carbono = tCOÔéée / Receita L├¡quida",
+          "formula": "Intensidade de Carbono = tCOÔéée / Receita Líquida",
 
           "aplicacoes": [
 
@@ -7160,19 +7160,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "ODS ÔÇö Objetivos de Desenvolvimento Sustent├ível",
+          "titulo": "ODS ÔÇö Objetivos de Desenvolvimento Sustentével",
 
-          "definicao": "Conjunto de 17 objetivos globais estabelecidos pela ONU na Agenda 2030, que abordam desafios como erradica├º├úo da pobreza, a├º├úo clim├ítica, consumo respons├ível e inova├º├úo industrial. As empresas mapeiam sua contribui├º├úo para os ODS como parte da estrat├®gia ESG.",
+          "definicao": "Conjunto de 17 objetivos globais estabelecidos pela ONU na Agenda 2030, que abordam desafios como erradicação da pobreza, ação climética, consumo responsével e inovação industrial. As empresas mapeiam sua contribuição para os ODS como parte da estratégia ESG.",
 
           "topicos": [
 
             "17 ODS e suas metas",
 
-            "ODS 9 ÔÇö Ind├║stria, Inova├º├úo e Infraestrutura",
+            "ODS 9 ÔÇö Indústria, Inovação e Infraestrutura",
 
-            "ODS 12 ÔÇö Consumo e Produ├º├úo Respons├íveis",
+            "ODS 12 ÔÇö Consumo e Produção Responséveis",
 
-            "ODS 13 ÔÇö A├º├úo Clim├ítica",
+            "ODS 13 ÔÇö Ação Climética",
 
             "Mapeamento de impacto nos ODS e relato"
 
@@ -7182,11 +7182,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Alinhamento de estrat├®gia corporativa aos ODS",
+            "Alinhamento de estratégia corporativa aos ODS",
 
-            "Relato de contribui├º├úo aos ODS",
+            "Relato de contribuição aos ODS",
 
-            "Inova├º├úo de produtos alinhada ao ODS 12",
+            "Inovação de produtos alinhada ao ODS 12",
 
             "Programas sociais alinhados ao ODS 1 e 10"
 
@@ -7198,19 +7198,19 @@ window.SITE_DATA = {
 
           "titulo": "Rotulagem ambiental",
 
-          "definicao": "Sistema de certifica├º├úo que atesta o desempenho ambiental de produtos ou servi├ºos, permitindo que consumidores identifiquem op├º├Áes mais sustent├íveis. Divide-se em Tipo I (ISO 14024), Tipo II (autodeclara├º├Áes, ISO 14021) e Tipo III (EPD, ISO 14025).",
+          "definicao": "Sistema de certificação que atesta o desempenho ambiental de produtos ou serviços, permitindo que consumidores identifiquem opções mais sustentéveis. Divide-se em Tipo I (ISO 14024), Tipo II (autodeclarações, ISO 14021) e Tipo III (EPD, ISO 14025).",
 
           "topicos": [
 
             "Selos ambientais no Brasil (ABNT, Procel, FSC, Ecolabel)",
 
-            "Declara├º├Áes ambientais de produto (EPD)",
+            "Declarações ambientais de produto (EPD)",
 
-            "Crit├®rios de certifica├º├úo e verifica├º├úo",
+            "Critérios de certificação e verificação",
 
-            "Greenwashing e boas pr├íticas de comunica├º├úo",
+            "Greenwashing e boas préticas de comunicação",
 
-            "Impacto na decis├úo de compra B2B e B2C"
+            "Impacto na decisão de compra B2B e B2C"
 
           ],
 
@@ -7218,13 +7218,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo FSC para produtos de papel",
+            "Certificação FSC para produtos de papel",
 
-            "Selos de efici├¬ncia energ├®tica (Procel/Energy Star)",
+            "Selos de eficiência energética (Procel/Energy Star)",
 
-            "EPD para materiais de constru├º├úo",
+            "EPD para materiais de construção",
 
-            "Alega├º├Áes ambientais verificadas em embalagens"
+            "Alegações ambientais verificadas em embalagens"
 
           ]
 
@@ -7234,19 +7234,19 @@ window.SITE_DATA = {
 
           "titulo": "Green Supply Chain",
 
-          "definicao": "Gest├úo da cadeia de suprimentos com crit├®rios ambientais em todas as etapas: sele├º├úo de fornecedores, transporte, armazenagem, produ├º├úo e distribui├º├úo. Busca reduzir a pegada ecol├│gica total, promovendo compras verdes, log├¡stica sustent├ível e parcerias circulares.",
+          "definicao": "Gestão da cadeia de suprimentos com critérios ambientais em todas as etapas: seleção de fornecedores, transporte, armazenagem, produção e distribuição. Busca reduzir a pegada ecológica total, promovendo compras verdes, logística sustentével e parcerias circulares.",
 
           "topicos": [
 
-            "Crit├®rios ambientais na sele├º├úo de fornecedores",
+            "Critérios ambientais na seleção de fornecedores",
 
-            "Transporte verde e otimiza├º├úo de rotas",
+            "Transporte verde e otimização de rotas",
 
-            "Embalagens retorn├íveis e recicl├íveis",
+            "Embalagens retornéveis e recicléveis",
 
             "Auditoria ambiental em fornecedores",
 
-            "Indicadores de desempenho de cadeia sustent├ível"
+            "Indicadores de desempenho de cadeia sustentével"
 
           ],
 
@@ -7254,13 +7254,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa de avalia├º├úo de fornecedores ambientais",
+            "Programa de avaliação de fornecedores ambientais",
 
-            "Substitui├º├úo de frotas por ve├¡culos el├®tricos",
+            "Substituição de frotas por veículos elétricos",
 
-            "Otimiza├º├úo de carga e redu├º├úo de viagens",
+            "Otimização de carga e redução de viagens",
 
-            "Embalagens retorn├íveis na cadeia automotiva"
+            "Embalagens retornéveis na cadeia automotiva"
 
           ]
 
@@ -7268,21 +7268,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Certifica├º├úo LEED e AQUA",
+          "titulo": "Certificação LEED e AQUA",
 
-          "definicao": "Sistemas de certifica├º├úo de edifica├º├Áes sustent├íveis. LEED (Leadership in Energy and Environmental Design) ├® internacional e avalia efici├¬ncia energ├®tica, ├ígua, materiais e conforto. AQUA-HQE ├® a vers├úo adaptada ao Brasil com base na metodologia francesa HQE.",
+          "definicao": "Sistemas de certificação de edificações sustentéveis. LEED (Leadership in Energy and Environmental Design) é internacional e avalia eficiência energética, égua, materiais e conforto. AQUA-HQE é a versão adaptada ao Brasil com base na metodologia francesa HQE.",
 
           "topicos": [
 
-            "Cr├®ditos LEED por categoria (SS, EA, WE, MR, IEQ)",
+            "Créditos LEED por categoria (SS, EA, WE, MR, IEQ)",
 
             "Processo AQUA: QAE e perfil ambiental",
 
-            "Efici├¬ncia h├¡drica e energ├®tica em edifica├º├Áes",
+            "Eficiência hídrica e energética em edificações",
 
-            "Materiais sustent├íveis e res├¡duos na constru├º├úo",
+            "Materiais sustentéveis e resíduos na construção",
 
-            "Custo-benef├¡cio e payback de certifica├º├Áes"
+            "Custo-benefício e payback de certificações"
 
           ],
 
@@ -7290,13 +7290,13 @@ window.SITE_DATA = {
 
           "aplicacoesacoes": [
 
-            "Projeto e constru├º├úo de galp├Áes industriais verdes",
+            "Projeto e construção de galpões industriais verdes",
 
-            "Edif├¡cios corporativos certificados LEED",
+            "Edifícios corporativos certificados LEED",
 
-            "Obras com certifica├º├úo AQUA",
+            "Obras com certificação AQUA",
 
-            "Adequa├º├úo de f├íbricas existentes para selos"
+            "Adequação de fébricas existentes para selos"
 
           ]
 
@@ -7304,35 +7304,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "ISO 50001 (Gest├úo de Energia)",
+          "titulo": "ISO 50001 (Gestão de Energia)",
 
-          "definicao": "Norma internacional para implementa├º├úo de um Sistema de Gest├úo de Energia (SGE), que ajuda organiza├º├Áes a melhorar efici├¬ncia, reduzir custos e diminuir emiss├Áes de GEE. Baseia-se no ciclo PDCA com foco em linha de base e indicadores de desempenho energ├®tico.",
+          "definicao": "Norma internacional para implementação de um Sistema de Gestão de Energia (SGE), que ajuda organizações a melhorar eficiência, reduzir custos e diminuir emissões de GEE. Baseia-se no ciclo PDCA com foco em linha de base e indicadores de desempenho energético.",
 
           "topicos": [
 
-            "Pol├¡tica energ├®tica e planejamento",
+            "Política energética e planejamento",
 
-            "Revis├úo energ├®tica e linha de base (EnB)",
+            "Revisão energética e linha de base (EnB)",
 
-            "Indicadores de desempenho energ├®tico (EnPI)",
+            "Indicadores de desempenho energético (EnPI)",
 
-            "Projetos de melhoria e verifica├º├úo de economia",
+            "Projetos de melhoria e verificação de economia",
 
-            "Auditoria e certifica├º├úo ISO 50001"
+            "Auditoria e certificação ISO 50001"
 
           ],
 
-          "formula": "EnPI = Consumo de energia / Vari├ível significativa",
+          "formula": "EnPI = Consumo de energia / Variével significativa",
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de SGE em ind├║strias intensivas em energia",
+            "Estruturação de SGE em indústrias intensivas em energia",
 
-            "Gest├úo de energia em sider├║rgicas e cimenteiras",
+            "Gestão de energia em siderúrgicas e cimenteiras",
 
-            "Redu├º├úo de consumo em sistemas de utilidades",
+            "Redução de consumo em sistemas de utilidades",
 
-            "Certifica├º├úo ISO 50001 para competitividade"
+            "Certificação ISO 50001 para competitividade"
 
           ]
 
@@ -7350,29 +7350,29 @@ window.SITE_DATA = {
 
       "id": "projetos",
 
-      "nome": "Gest├úo de Projetos",
+      "nome": "Gestão de Projetos",
 
       "icone": "folder-kanban",
 
       "cor": "#7c3aed",
 
-      "descricao": "Metodologias, ferramentas e boas pr├íticas para gerenciamento de projetos.",
+      "descricao": "Metodologias, ferramentas e boas préticas para gerenciamento de projetos.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Cronogramas e Gr├ífico de Gantt",
+          "titulo": "Cronogramas e Gréfico de Gantt",
 
-          "definicao": "Ferramenta visual de planejamento que representa as atividades do projeto em barras horizontais dispostas ao longo de uma escala temporal. Permite visualizar dura├º├Áes, depend├¬ncias, respons├íveis e o progresso de cada tarefa.",
+          "definicao": "Ferramenta visual de planejamento que representa as atividades do projeto em barras horizontais dispostas ao longo de uma escala temporal. Permite visualizar durações, dependências, responséveis e o progresso de cada tarefa.",
 
           "topicos": [
 
-            "Estrutura├º├úo do cronograma: atividades, dura├º├Áes, preced├¬ncias",
+            "Estruturação do cronograma: atividades, durações, precedências",
 
             "Software: MS Project, Primavera, GanttPRO",
 
-            "Depend├¬ncias: t├®rmino-in├¡cio, in├¡cio-in├¡cio",
+            "Dependências: término-início, início-início",
 
             "Folga total e livre",
 
@@ -7384,13 +7384,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento de obras de constru├º├úo civil",
+            "Planejamento de obras de construção civil",
 
-            "Cronograma de implanta├º├úo de ERP",
+            "Cronograma de implantação de ERP",
 
             "Projetos de P&D com marcos definidos",
 
-            "Sequenciamento de atividades em manuten├º├Áes de parada"
+            "Sequenciamento de atividades em manutenções de parada"
 
           ]
 
@@ -7398,21 +7398,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "EAP ÔÇö Estrutura Anal├¡tica do Projeto (WBS)",
+          "titulo": "EAP ÔÇö Estrutura Analítica do Projeto (WBS)",
 
-          "definicao": "Decomposi├º├úo hier├írquica do trabalho total do projeto em componentes menores e gerenci├íveis (pacotes de trabalho). Segue a regra 100%: deve representar todo o escopo do projeto. Base para cronograma, or├ºamento e aloca├º├úo de responsabilidades.",
+          "definicao": "Decomposição hierérquica do trabalho total do projeto em componentes menores e gerenciéveis (pacotes de trabalho). Segue a regra 100%: deve representar todo o escopo do projeto. Base para cronograma, orçamento e alocação de responsabilidades.",
 
           "topicos": [
 
-            "N├¡veis da EAP (projeto, fases, pacotes de trabalho)",
+            "Níveis da EAP (projeto, fases, pacotes de trabalho)",
 
             "Regra 100% da EAP",
 
-            "Codifica├º├úo e dicion├írio da EAP",
+            "Codificação e dicionério da EAP",
 
-            "Cria├º├úo por decomposi├º├úo ou modelo",
+            "Criação por decomposição ou modelo",
 
-            "Rela├º├úo com WBS de custos e responsabilidade"
+            "Relação com WBS de custos e responsabilidade"
 
           ],
 
@@ -7420,13 +7420,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "EAP para projetos de engenharia e constru├º├úo",
+            "EAP para projetos de engenharia e construção",
 
             "Detalhamento de escopo em projetos de software",
 
-            "Aloca├º├úo de pacotes de trabalho por equipe",
+            "Alocação de pacotes de trabalho por equipe",
 
-            "Integra├º├úo com curva S e EVM"
+            "Integração com curva S e EVM"
 
           ]
 
@@ -7434,21 +7434,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Caminho cr├¡tico (CPM)",
+          "titulo": "Caminho crítico (CPM)",
 
-          "definicao": "T├®cnica de an├ílise de rede que identifica a sequ├¬ncia mais longa de atividades dependentes em um cronograma, determinando a menor dura├º├úo poss├¡vel do projeto. Qualquer atraso em uma atividade de caminho cr├¡tico atrasa todo o projeto.",
+          "definicao": "Técnica de anélise de rede que identifica a sequência mais longa de atividades dependentes em um cronograma, determinando a menor duração possível do projeto. Qualquer atraso em uma atividade de caminho crítico atrasa todo o projeto.",
 
           "topicos": [
 
-            "Constru├º├úo da rede de preced├¬ncias",
+            "Construção da rede de precedências",
 
-            "C├ílculo forward e backward",
+            "Célculo forward e backward",
 
             "Folga total e folga livre",
 
-            "Identifica├º├úo das atividades cr├¡ticas",
+            "Identificação das atividades críticas",
 
-            "Compress├úo e crashing do cronograma"
+            "Compressão e crashing do cronograma"
 
           ],
 
@@ -7456,13 +7456,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento de constru├º├úo de pontes e rodovias",
+            "Planejamento de construção de pontes e rodovias",
 
-            "Cronograma de lan├ºamento de produto",
+            "Cronograma de lançamento de produto",
 
             "Projetos de obra industrial com prazo fixo",
 
-            "Otimiza├º├úo de paradas de manuten├º├úo"
+            "Otimização de paradas de manutenção"
 
           ]
 
@@ -7472,17 +7472,17 @@ window.SITE_DATA = {
 
           "titulo": "PERT",
 
-          "definicao": "T├®cnica de estimativa de dura├º├úo de atividades baseada em tr├¬s cen├írios: otimista (O), pessimista (P) e mais prov├ível (M). Calcula a dura├º├úo esperada ponderada e ├® ├║til quando h├í incerteza significativa sobre as dura├º├Áes das tarefas.",
+          "definicao": "Técnica de estimativa de duração de atividades baseada em três cenérios: otimista (O), pessimista (P) e mais provével (M). Calcula a duração esperada ponderada e é útil quando hé incerteza significativa sobre as durações das tarefas.",
 
           "topicos": [
 
             "Estimativa de 3 pontos (O, M, P)",
 
-            "C├ílculo da dura├º├úo esperada (TE)",
+            "Célculo da duração esperada (TE)",
 
-            "Vari├óncia e desvio padr├úo do projeto",
+            "Variôncia e desvio padrão do projeto",
 
-            "Probabilidade de conclus├úo no prazo",
+            "Probabilidade de conclusão no prazo",
 
             "PERT vs. CPM"
 
@@ -7492,11 +7492,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projetos de P&D e inova├º├úo",
+            "Projetos de P&D e inovação",
 
             "Estimativas em projetos de TI com incerteza",
 
-            "An├ílise de riscos de prazo em engenharia",
+            "Anélise de riscos de prazo em engenharia",
 
             "Planejamento de projetos complexos com novas tecnologias"
 
@@ -7508,19 +7508,19 @@ window.SITE_DATA = {
 
           "titulo": "Scrum e Agile",
 
-          "definicao": "Framework ├ígil de gerenciamento de projetos que utiliza sprints (itera├º├Áes fixas) para entregar valor incremental. Baseado em pilares de transpar├¬ncia, inspe├º├úo e adapta├º├úo, com pap├®is definidos (Product Owner, Scrum Master, Time de Desenvolvimento).",
+          "definicao": "Framework égil de gerenciamento de projetos que utiliza sprints (iterações fixas) para entregar valor incremental. Baseado em pilares de transparência, inspeção e adaptação, com papéis definidos (Product Owner, Scrum Master, Time de Desenvolvimento).",
 
           "topicos": [
 
-            "Pap├®is: PO, SM, Time",
+            "Papéis: PO, SM, Time",
 
             "Eventos: Sprint, Daily, Sprint Review, Retrospective",
 
             "Artefatos: Product Backlog, Sprint Backlog, Incremento",
 
-            "Estimativas ├ígeis (Planning Poker, Story Points)",
+            "Estimativas égeis (Planning Poker, Story Points)",
 
-            "Kanban como m├®todo complementar"
+            "Kanban como método complementar"
 
           ],
 
@@ -7528,13 +7528,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desenvolvimento ├ígil de software",
+            "Desenvolvimento égil de software",
 
             "Projetos de marketing e campanhas digitais",
 
-            "Inova├º├úo e prototipagem r├ípida",
+            "Inovação e prototipagem répida",
 
-            "Gest├úo de produtos digitais"
+            "Gestão de produtos digitais"
 
           ]
 
@@ -7544,7 +7544,7 @@ window.SITE_DATA = {
 
           "titulo": "Kanban de projetos",
 
-          "definicao": "M├®todo visual de gerenciamento de fluxo de trabalho baseado em cart├Áes (cards) organizados em colunas que representam etapas do processo. Limita o trabalho em andamento (WIP) para reduzir gargalos e melhorar a entrega cont├¡nua de valor.",
+          "definicao": "Método visual de gerenciamento de fluxo de trabalho baseado em cartões (cards) organizados em colunas que representam etapas do processo. Limita o trabalho em andamento (WIP) para reduzir gargalos e melhorar a entrega contínua de valor.",
 
           "topicos": [
 
@@ -7554,21 +7554,21 @@ window.SITE_DATA = {
 
             "Lead time e Cycle time",
 
-            "Gerenciamento do fluxo e m├®tricas",
+            "Gerenciamento do fluxo e métricas",
 
-            "Kanban vs. Scrum: diferen├ºas e combina├º├Áes"
+            "Kanban vs. Scrum: diferenças e combinações"
 
           ],
 
-          "formula": "Throughput = Entregas / Per├¡odo",
+          "formula": "Throughput = Entregas / Período",
 
           "aplicacoes": [
 
             "Acompanhamento de demandas de suporte",
 
-            "Gest├úo de portf├│lio de projetos",
+            "Gestão de portfólio de projetos",
 
-            "Processos de opera├º├Áes cont├¡nuas",
+            "Processos de operações contínuas",
 
             "Projetos de melhoria com entregas frequentes"
 
@@ -7580,19 +7580,19 @@ window.SITE_DATA = {
 
           "titulo": "PMBOK ÔÇö Project Management Body of Knowledge",
 
-          "definicao": "Guia de boas pr├íticas do Project Management Institute (PMI) que consolida conhecimentos, processos, entradas, ferramentas e sa├¡das para gerenciamento de projetos. Estruturado em 5 grupos de processos e 10 ├íreas de conhecimento (7┬¬ edi├º├úo: 12 princ├¡pios e 8 dom├¡nios).",
+          "definicao": "Guia de boas préticas do Project Management Institute (PMI) que consolida conhecimentos, processos, entradas, ferramentas e saídas para gerenciamento de projetos. Estruturado em 5 grupos de processos e 10 éreas de conhecimento (7┬¬ edição: 12 princípios e 8 domínios).",
 
           "topicos": [
 
-            "5 grupos de processos: inicia├º├úo, planejamento, execu├º├úo, controle, encerramento",
+            "5 grupos de processos: iniciação, planejamento, execução, controle, encerramento",
 
-            "10 ├íreas de conhecimento (6┬¬ ed.)",
+            "10 éreas de conhecimento (6┬¬ ed.)",
 
-            "Princ├¡pios do PMBOK 7┬¬ ed.",
+            "Princípios do PMBOK 7┬¬ ed.",
 
             "Adaptabilidade e tailoring",
 
-            "Certifica├º├úo PMP"
+            "Certificação PMP"
 
           ],
 
@@ -7600,13 +7600,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Padroniza├º├úo de processos de gest├úo de projetos",
+            "Padronização de processos de gestão de projetos",
 
-            "Prepara├º├úo para certifica├º├úo PMP",
+            "Preparação para certificação PMP",
 
-            "Projetos de constru├º├úo e engenharia de grande porte",
+            "Projetos de construção e engenharia de grande porte",
 
-            "Implanta├º├úo de PMO baseado em PMBOK"
+            "Implantação de PMO baseado em PMBOK"
 
           ]
 
@@ -7614,35 +7614,35 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de riscos em projetos",
+          "titulo": "Gestão de riscos em projetos",
 
-          "definicao": "Processo sistem├ítico de identificar, analisar, priorizar e responder a incertezas que podem afetar os objetivos do projeto. Inclui riscos positivos (oportunidades) e negativos (amea├ºas), com estrat├®gias de mitiga├º├úo, transfer├¬ncia, aceita├º├úo e explora├º├úo.",
+          "definicao": "Processo sistemético de identificar, analisar, priorizar e responder a incertezas que podem afetar os objetivos do projeto. Inclui riscos positivos (oportunidades) e negativos (ameaças), com estratégias de mitigação, transferência, aceitação e exploração.",
 
           "topicos": [
 
-            "Identifica├º├úo de riscos (brainstorming, checklists, SWOT)",
+            "Identificação de riscos (brainstorming, checklists, SWOT)",
 
-            "An├ílise qualitativa (probabilidade ├ù impacto)",
+            "Anélise qualitativa (probabilidade ú impacto)",
 
-            "An├ílise quantitativa (simula├º├úo de Monte Carlo)",
+            "Anélise quantitativa (simulação de Monte Carlo)",
 
-            "Estrat├®gias de resposta para amea├ºas e oportunidades",
+            "Estratégias de resposta para ameaças e oportunidades",
 
-            "Registro de riscos e reserva de conting├¬ncia"
+            "Registro de riscos e reserva de contingência"
 
           ],
 
-          "formula": "Exposi├º├úo ao risco = Probabilidade ├ù Impacto",
+          "formula": "Exposição ao risco = Probabilidade ú Impacto",
 
           "aplicacoes": [
 
-            "An├ílise de riscos em projetos de infraestrutura",
+            "Anélise de riscos em projetos de infraestrutura",
 
-            "Projetos com alto grau de incerteza tecnol├│gica",
+            "Projetos com alto grau de incerteza tecnológica",
 
-            "Gest├úo de riscos regulat├│rios em projetos",
+            "Gestão de riscos regulatórios em projetos",
 
-            "Reserva de conting├¬ncia para varia├º├Áes de prazo"
+            "Reserva de contingência para variações de prazo"
 
           ]
 
@@ -7650,21 +7650,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de custos em projetos",
+          "titulo": "Gestão de custos em projetos",
 
-          "definicao": "Processos de estimar, or├ºar e controlar custos para garantir que o projeto seja conclu├¡do dentro do or├ºamento aprovado. Envolve estimativas (bottom-up, param├®tricas), or├ºamenta├º├úo e monitoramento por meio de EVM e an├ílise de varia├º├úo.",
+          "definicao": "Processos de estimar, orçar e controlar custos para garantir que o projeto seja concluído dentro do orçamento aprovado. Envolve estimativas (bottom-up, paramétricas), orçamentação e monitoramento por meio de EVM e anélise de variação.",
 
           "topicos": [
 
-            "Estimativas de custo: an├íloga, param├®trica, bottom-up",
+            "Estimativas de custo: anéloga, paramétrica, bottom-up",
 
-            "Linha de base de custos e reserva de conting├¬ncia",
+            "Linha de base de custos e reserva de contingência",
 
-            "Acompanhamento or├ºament├írio",
+            "Acompanhamento orçamentério",
 
-            "Varia├º├úo de custo (CV = EV - AC)",
+            "Variação de custo (CV = EV - AC)",
 
-            "Previs├úo de custo final (EAC)"
+            "Previsão de custo final (EAC)"
 
           ],
 
@@ -7672,7 +7672,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Or├ºamento de projetos de constru├º├úo civil",
+            "Orçamento de projetos de construção civil",
 
             "Controle de custos em projetos de TI",
 
@@ -7686,21 +7686,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "├ügil vs. Tradicional",
+          "titulo": "ügil vs. Tradicional",
 
-          "definicao": "Compara├º├úo entre duas abordagens de gerenciamento de projetos: a tradicional (cascata, preditiva) ├® sequencial com escopo fixo; a ├ígil ├® iterativa com escopo adapt├ível. A escolha depende do n├¡vel de incerteza, complexidade e criticidade do projeto.",
+          "definicao": "Comparação entre duas abordagens de gerenciamento de projetos: a tradicional (cascata, preditiva) é sequencial com escopo fixo; a égil é iterativa com escopo adaptével. A escolha depende do nível de incerteza, complexidade e criticidade do projeto.",
 
           "topicos": [
 
-            "Modelo cascata (waterfall) ÔÇö fases r├¡gidas",
+            "Modelo cascata (waterfall) ÔÇö fases rígidas",
 
-            "Modelo ├ígil ÔÇö entregas iterativas e incrementais",
+            "Modelo égil ÔÇö entregas iterativas e incrementais",
 
             "Quando usar cada abordagem",
 
-            "Modelos h├¡bridos (├ígil + tradicional)",
+            "Modelos híbridos (égil + tradicional)",
 
-            "Crit├®rios de decis├úo por tipo de projeto"
+            "Critérios de decisão por tipo de projeto"
 
           ],
 
@@ -7710,11 +7710,11 @@ window.SITE_DATA = {
 
             "Projetos de engenharia com escopo fixo: tradicional",
 
-            "Projetos de software com requisitos incertos: ├ígil",
+            "Projetos de software com requisitos incertos: égil",
 
-            "Obras de constru├º├úo com entregas parciais: h├¡brido",
+            "Obras de construção com entregas parciais: híbrido",
 
-            "Projetos regulat├│rios com documenta├º├úo obrigat├│ria: tradicional"
+            "Projetos regulatórios com documentação obrigatória: tradicional"
 
           ]
 
@@ -7724,7 +7724,7 @@ window.SITE_DATA = {
 
           "titulo": "MS Project e similares",
 
-          "definicao": "Ferramentas de software para planejamento, programa├º├úo e controle de projetos. MS Project ├® a mais difundida, oferecendo Gantt, CPM, aloca├º├úo de recursos e EVM. Alternativas incluem Primavera, ProjectLibre, Jira, Trello, Monday.com e Asana.",
+          "definicao": "Ferramentas de software para planejamento, programação e controle de projetos. MS Project é a mais difundida, oferecendo Gantt, CPM, alocação de recursos e EVM. Alternativas incluem Primavera, ProjectLibre, Jira, Trello, Monday.com e Asana.",
 
           "topicos": [
 
@@ -7732,11 +7732,11 @@ window.SITE_DATA = {
 
             "Primavera P6: projetos de grande porte e EPC",
 
-            "Jira: gest├úo ├ígil de projetos de software",
+            "Jira: gestão égil de projetos de software",
 
-            "Trello/Asana: gest├úo visual simples",
+            "Trello/Asana: gestão visual simples",
 
-            "Integra├º├úo entre ferramentas de planejamento"
+            "Integração entre ferramentas de planejamento"
 
           ],
 
@@ -7748,9 +7748,9 @@ window.SITE_DATA = {
 
             "Acompanhamento de projetos de engenharia",
 
-            "Gest├úo de sprint em equipes Scrum",
+            "Gestão de sprint em equipes Scrum",
 
-            "Portf├│lio de projetos com MS Project Server"
+            "Portfólio de projetos com MS Project Server"
 
           ]
 
@@ -7758,21 +7758,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de stakeholders",
+          "titulo": "Gestão de stakeholders",
 
-          "definicao": "Processo de identificar todas as pessoas, grupos ou organiza├º├Áes que podem impactar ou serem impactados pelo projeto, analisar suas expectativas e influ├¬ncia, e desenvolver estrat├®gias de engajamento para garantir suporte e minimizar resist├¬ncias.",
+          "definicao": "Processo de identificar todas as pessoas, grupos ou organizações que podem impactar ou serem impactados pelo projeto, analisar suas expectativas e influência, e desenvolver estratégias de engajamento para garantir suporte e minimizar resistências.",
 
           "topicos": [
 
-            "Identifica├º├úo de stakeholders",
+            "Identificação de stakeholders",
 
-            "Matriz poder ├ù interesse (Salience)",
+            "Matriz poder ú interesse (Salience)",
 
             "Plano de engajamento de stakeholders",
 
-            "Canais de comunica├º├úo e frequ├¬ncia",
+            "Canais de comunicação e frequência",
 
-            "Gest├úo de conflitos e resist├¬ncia"
+            "Gestão de conflitos e resistência"
 
           ],
 
@@ -7782,11 +7782,11 @@ window.SITE_DATA = {
 
             "Mapeamento de stakeholders em projetos de infraestrutura",
 
-            "Engajamento de comunidades em projetos de minera├º├úo",
+            "Engajamento de comunidades em projetos de mineração",
 
-            "Comunica├º├úo com patrocinadores em projetos corporativos",
+            "Comunicação com patrocinadores em projetos corporativos",
 
-            "Gest├úo de equipes multifuncionais"
+            "Gestão de equipes multifuncionais"
 
           ]
 
@@ -7796,7 +7796,7 @@ window.SITE_DATA = {
 
           "titulo": "Termo de abertura do projeto",
 
-          "definicao": "Documento formal que autoriza o in├¡cio do projeto, nomeia o gerente de projetos e define a autoridade para alocar recursos organizacionais. Cont├®m objetivo, justificativa, requisitos de alto n├¡vel, marcos e or├ºamento preliminar.",
+          "definicao": "Documento formal que autoriza o início do projeto, nomeia o gerente de projetos e define a autoridade para alocar recursos organizacionais. Contém objetivo, justificativa, requisitos de alto nível, marcos e orçamento preliminar.",
 
           "topicos": [
 
@@ -7804,11 +7804,11 @@ window.SITE_DATA = {
 
             "Objetivo, escopo preliminar e entregas",
 
-            "Or├ºamento e prazos de alto n├¡vel",
+            "Orçamento e prazos de alto nível",
 
             "Riscos iniciais e premissas",
 
-            "Autoriza├º├úo e assinatura do patrocinador"
+            "Autorização e assinatura do patrocinador"
 
           ],
 
@@ -7820,9 +7820,9 @@ window.SITE_DATA = {
 
             "Alinhamento entre patrocinador e equipe",
 
-            "Deadline para aprova├º├úo de investimento",
+            "Deadline para aprovação de investimento",
 
-            "Documento de refer├¬ncia para planejamento subsequente"
+            "Documento de referência para planejamento subsequente"
 
           ]
 
@@ -7832,19 +7832,19 @@ window.SITE_DATA = {
 
           "titulo": "Project Charter",
 
-          "definicao": "Tamb├®m conhecido como Termo de Abertura, ├® o documento que formaliza a exist├¬ncia do projeto e concede ao gerente a autoridade necess├íria para mobilizar recursos da organiza├º├úo. Vincula o projeto ├á estrat├®gia organizacional.",
+          "definicao": "Também conhecido como Termo de Abertura, é o documento que formaliza a existência do projeto e concede ao gerente a autoridade necesséria para mobilizar recursos da organização. Vincula o projeto á estratégia organizacional.",
 
           "topicos": [
 
-            "Conte├║do t├¡pico do Project Charter",
+            "Conteúdo típico do Project Charter",
 
-            "Caso de neg├│cio e justificativa",
+            "Caso de negócio e justificativa",
 
-            "Designa├º├úo do gerente de projetos",
+            "Designação do gerente de projetos",
 
             "Marcos principais e cronograma macro",
 
-            "Aprova├º├úo e governan├ºa inicial"
+            "Aprovação e governança inicial"
 
           ],
 
@@ -7852,13 +7852,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "In├¡cio de projetos no portf├│lio corporativo",
+            "Início de projetos no portfólio corporativo",
 
-            "Governan├ºa de projetos via PMO",
+            "Governança de projetos via PMO",
 
-            "Comunica├º├úo da vis├úo do projeto ├á equipe",
+            "Comunicação da visão do projeto á equipe",
 
-            "Autoriza├º├úo formal em gate de abertura"
+            "Autorização formal em gate de abertura"
 
           ]
 
@@ -7868,19 +7868,19 @@ window.SITE_DATA = {
 
           "titulo": "Curva S do projeto",
 
-          "definicao": "Gr├ífico que representa o valor acumulado (custo, horas ou percentual) ao longo do tempo, formando um formato de 'S' t├¡pico. Usada para comparar o planejado (baseline) com o realizado e identificar desvios de cronograma e or├ºamento.",
+          "definicao": "Gréfico que representa o valor acumulado (custo, horas ou percentual) ao longo do tempo, formando um formato de 'S' típico. Usada para comparar o planejado (baseline) com o realizado e identificar desvios de cronograma e orçamento.",
 
           "topicos": [
 
-            "Constru├º├úo da curva S (planejado ├ù realizado)",
+            "Construção da curva S (planejado ú realizado)",
 
-            "An├ílise de desvios (SV, CV)",
+            "Anélise de desvios (SV, CV)",
 
-            "Previs├úo de tend├¬ncias com curva S",
+            "Previsão de tendências com curva S",
 
-            "Curva S na gest├úo de valor agregado (EVM)",
+            "Curva S na gestão de valor agregado (EVM)",
 
-            "Aplica├º├úo em relat├│rios de status"
+            "Aplicação em relatórios de status"
 
           ],
 
@@ -7888,13 +7888,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Relat├│rios mensais de progresso de obra",
+            "Relatórios mensais de progresso de obra",
 
             "Acompanhamento de projetos EPC",
 
             "Indicador visual para patrocinadores",
 
-            "An├ílise de desempenho em projetos de capital intensivo"
+            "Anélise de desempenho em projetos de capital intensivo"
 
           ]
 
@@ -7904,19 +7904,19 @@ window.SITE_DATA = {
 
           "titulo": "Earned Value Management (EVM)",
 
-          "definicao": "Metodologia integrada de gest├úo de projetos que combina medi├º├Áes de escopo, cronograma e custos para avaliar o desempenho e prever resultados futuros. Utiliza indicadores: PV (planned value), EV (earned value) e AC (actual cost).",
+          "definicao": "Metodologia integrada de gestão de projetos que combina medições de escopo, cronograma e custos para avaliar o desempenho e prever resultados futuros. Utiliza indicadores: PV (planned value), EV (earned value) e AC (actual cost).",
 
           "topicos": [
 
-            "PV, EV, AC ÔÇö defini├º├úo e obten├º├úo",
+            "PV, EV, AC ÔÇö definição e obtenção",
 
-            "Varia├º├Áes: SV (EV - PV), CV (EV - AC)",
+            "Variações: SV (EV - PV), CV (EV - AC)",
 
-            "├ìndices: SPI (EV/PV), CPI (EV/AC)",
+            "ìndices: SPI (EV/PV), CPI (EV/AC)",
 
-            "Previs├Áes: EAC, ETC, VAC",
+            "Previsões: EAC, ETC, VAC",
 
-            "EVM em projetos de engenharia e constru├º├úo"
+            "EVM em projetos de engenharia e construção"
 
           ],
 
@@ -7926,11 +7926,11 @@ window.SITE_DATA = {
 
             "Controle de desempenho de grandes projetos",
 
-            "Relat├│rios de progresso com indicadores objetivos",
+            "Relatórios de progresso com indicadores objetivos",
 
-            "Previs├úo de custo final de projetos",
+            "Previsão de custo final de projetos",
 
-            "An├ílise de efici├¬ncia de cronograma e custo"
+            "Anélise de eficiência de cronograma e custo"
 
           ]
 
@@ -7938,21 +7938,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Metodologia ├ügil (Scrum, XP, Kanban)",
+          "titulo": "Metodologia ügil (Scrum, XP, Kanban)",
 
-          "definicao": "Conjunto de m├®todos e pr├íticas para gerenciamento de projetos baseados no Manifesto ├ügil (indiv├¡duos, entregas, colabora├º├úo, resposta a mudan├ºas). Inclui Scrum (sprints, pap├®is), XP (pr├íticas de engenharia) e Kanban (fluxo cont├¡nuo).",
+          "definicao": "Conjunto de métodos e préticas para gerenciamento de projetos baseados no Manifesto ügil (indivíduos, entregas, colaboração, resposta a mudanças). Inclui Scrum (sprints, papéis), XP (préticas de engenharia) e Kanban (fluxo contínuo).",
 
           "topicos": [
 
-            "Manifesto ├ügil e seus 12 princ├¡pios",
+            "Manifesto ügil e seus 12 princípios",
 
-            "Scrum: pap├®is, eventos e artefatos",
+            "Scrum: papéis, eventos e artefatos",
 
             "XP (Extreme Programming): TDD, pair programming, refactoring",
 
             "Kanban: fluxo visual e WIP",
 
-            "Escalonamento ├ígil (SAFe, LeSS)"
+            "Escalonamento égil (SAFe, LeSS)"
 
           ],
 
@@ -7962,11 +7962,11 @@ window.SITE_DATA = {
 
             "Desenvolvimento de software em startups",
 
-            "Projetos de inova├º├úo e prototipagem",
+            "Projetos de inovação e prototipagem",
 
-            "Manuten├º├úo e evolu├º├úo de produtos digitais",
+            "Manutenção e evolução de produtos digitais",
 
-            "Equipes de marketing e design ├ígeis"
+            "Equipes de marketing e design égeis"
 
           ]
 
@@ -7976,19 +7976,19 @@ window.SITE_DATA = {
 
           "titulo": "Prince 2",
 
-          "definicao": "Metodologia estruturada de gerenciamento de projetos baseada em processos, originada no governo brit├ónico. Foca em justificativa cont├¡nua do neg├│cio, aprendizado, pap├®is definidos, gerenciamento por est├ígios, toler├óncias e exce├º├Áes.",
+          "definicao": "Metodologia estruturada de gerenciamento de projetos baseada em processos, originada no governo britônico. Foca em justificativa contínua do negócio, aprendizado, papéis definidos, gerenciamento por estégios, tolerôncias e exceções.",
 
           "topicos": [
 
-            "7 princ├¡pios: justificativa cont├¡nua, li├º├Áes aprendidas, pap├®is, est├ígios, toler├óncia, exce├º├úo, tailoring",
+            "7 princípios: justificativa contínua, lições aprendidas, papéis, estégios, tolerôncia, exceção, tailoring",
 
             "7 processos: starting up, directing, initiating, controlling, managing delivery, managing stage, closing",
 
-            "7 temas: business case, organiza├º├úo, qualidade, planos, risco, mudan├ºa, progresso",
+            "7 temas: business case, organização, qualidade, planos, risco, mudança, progresso",
 
             "Prince 2 vs. PMBOK",
 
-            "Certifica├º├úo Prince 2 Foundation e Practitioner"
+            "Certificação Prince 2 Foundation e Practitioner"
 
           ],
 
@@ -7996,13 +7996,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projetos governamentais e p├║blicos",
+            "Projetos governamentais e públicos",
 
-            "Projetos com forte governan├ºa e compliance",
+            "Projetos com forte governança e compliance",
 
-            "Grandes programas de transforma├º├úo",
+            "Grandes programas de transformação",
 
-            "Organiza├º├Áes que exigem certifica├º├úo Prince 2"
+            "Organizações que exigem certificação Prince 2"
 
           ]
 
@@ -8010,21 +8010,21 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de portf├│lio de projetos",
+          "titulo": "Gestão de portfólio de projetos",
 
-          "definicao": "Processo centralizado de gerenciamento de m├║ltiplos projetos e programas para maximizar o retorno sobre o investimento e alinhar a carteira de projetos ├á estrat├®gia organizacional. Inclui sele├º├úo, prioriza├º├úo, balanceamento e monitoramento do portf├│lio.",
+          "definicao": "Processo centralizado de gerenciamento de múltiplos projetos e programas para maximizar o retorno sobre o investimento e alinhar a carteira de projetos á estratégia organizacional. Inclui seleção, priorização, balanceamento e monitoramento do portfólio.",
 
           "topicos": [
 
-            "Sele├º├úo de projetos: alinhamento estrat├®gico e ROI",
+            "Seleção de projetos: alinhamento estratégico e ROI",
 
-            "Prioriza├º├úo: scoring, AHP, diagrama de bolhas",
+            "Priorização: scoring, AHP, diagrama de bolhas",
 
-            "Balanceamento de riscos e recursos no portf├│lio",
+            "Balanceamento de riscos e recursos no portfólio",
 
-            "KPIs de portf├│lio (valor, risco, alinhamento)",
+            "KPIs de portfólio (valor, risco, alinhamento)",
 
-            "Governan├ºa de portf├│lio e comit├¬s"
+            "Governança de portfólio e comitês"
 
           ],
 
@@ -8032,13 +8032,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo da carteira de projetos de P&D",
+            "Gestão da carteira de projetos de P&D",
 
-            "PMO corporativo de portf├│lio",
+            "PMO corporativo de portfólio",
 
-            "Decis├úo de go/no-go em gates de investimento",
+            "Decisão de go/no-go em gates de investimento",
 
-            "Aloca├º├úo de recursos entre projetos concorrentes"
+            "Alocação de recursos entre projetos concorrentes"
 
           ]
 
@@ -8048,19 +8048,19 @@ window.SITE_DATA = {
 
           "titulo": "PMO ÔÇö Project Management Office",
 
-          "definicao": "Estrutura organizacional que padroniza processos de gest├úo de projetos, fornece metodologias, ferramentas, treinamento e suporte, e pode exercer governan├ºa sobre projetos, programas e portf├│lio. Classifica-se em suporte, controle ou diretivo.",
+          "definicao": "Estrutura organizacional que padroniza processos de gestão de projetos, fornece metodologias, ferramentas, treinamento e suporte, e pode exercer governança sobre projetos, programas e portfólio. Classifica-se em suporte, controle ou diretivo.",
 
           "topicos": [
 
             "Tipos de PMO: suporte, controle, diretivo",
 
-            "Fun├º├Áes do PMO: metodologia, capacita├º├úo, auditoria",
+            "Funções do PMO: metodologia, capacitação, auditoria",
 
-            "Implanta├º├úo de PMO: maturidade e roadmap",
+            "Implantação de PMO: maturidade e roadmap",
 
             "KPI de performance do PMO",
 
-            "PMO ├ígil (Agile PMO)"
+            "PMO égil (Agile PMO)"
 
           ],
 
@@ -8068,13 +8068,13 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Padroniza├º├úo de pr├íticas em grandes organiza├º├Áes",
+            "Padronização de préticas em grandes organizações",
 
-            "Implanta├º├úo de escrit├│rio de projetos em empresas de engenharia",
+            "Implantação de escritório de projetos em empresas de engenharia",
 
-            "Governan├ºa e compliance de projetos",
+            "Governança e compliance de projetos",
 
-            "Desenvolvimento de compet├¬ncias em gest├úo de projetos"
+            "Desenvolvimento de competências em gestão de projetos"
 
           ]
 
@@ -8099,23 +8099,23 @@ window.SITE_DATA = {
 
       "cor": "#db2777",
 
-      "descricao": "Lideran├ºa, desenvolvimento de equipes e gest├úo de pessoas na ind├║stria.",
+      "descricao": "Liderança, desenvolvimento de equipes e gestão de pessoas na indústria.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Lideran├ºa industrial",
+          "titulo": "Liderança industrial",
 
-          "definicao": "Capacidade de influenciar e orientar equipes no ambiente fabril, promovendo engajamento, seguran├ºa e produtividade. Envolve estilos de lideran├ºa situacional, comunica├º├úo assertiva e tomada de decis├úo participativa para alcan├ºar metas operacionais e estrat├®gicas.",
+          "definicao": "Capacidade de influenciar e orientar equipes no ambiente fabril, promovendo engajamento, segurança e produtividade. Envolve estilos de liderança situacional, comunicação assertiva e tomada de decisão participativa para alcançar metas operacionais e estratégicas.",
 
           "topicos": [
 
-            "Lideran├ºa situacional",
+            "Liderança situacional",
 
-            "Comunica├º├úo n├úo-violenta",
+            "Comunicação não-violenta",
 
-            "Lideran├ºa lean"
+            "Liderança lean"
 
           ],
 
@@ -8123,9 +8123,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de turnos e lideran├ºa de ch├úo de f├íbrica",
+            "Gestão de turnos e liderança de chão de fébrica",
 
-            "Programas de desenvolvimento de l├¡deres operacionais",
+            "Programas de desenvolvimento de líderes operacionais",
 
             "Mentoria e coaching industrial"
 
@@ -8137,11 +8137,11 @@ window.SITE_DATA = {
 
           "titulo": "Desenvolvimento de equipes",
 
-          "definicao": "Processo cont├¡nuo de aprimoramento das habilidades t├®cnicas e comportamentais dos colaboradores, alinhado aos objetivos organizacionais. Baseia-se em diagn├│stico de compet├¬ncias, planos de desenvolvimento individual e indicadores de progresso.",
+          "definicao": "Processo contínuo de aprimoramento das habilidades técnicas e comportamentais dos colaboradores, alinhado aos objetivos organizacionais. Baseia-se em diagnóstico de competências, planos de desenvolvimento individual e indicadores de progresso.",
 
           "topicos": [
 
-            "Mapeamento de compet├¬ncias",
+            "Mapeamento de competências",
 
             "PDI ÔÇö Plano de Desenvolvimento Individual",
 
@@ -8153,11 +8153,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programas de capacita├º├úo t├®cnica para operadores",
+            "Programas de capacitação técnica para operadores",
 
-            "Forma├º├úo de equipes autogerenci├íveis",
+            "Formação de equipes autogerenciéveis",
 
-            "Avalia├º├úo de efic├ícia de treinamentos (Kirkpatrick)"
+            "Avaliação de eficécia de treinamentos (Kirkpatrick)"
 
           ]
 
@@ -8165,9 +8165,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Treinamento e capacita├º├úo",
+          "titulo": "Treinamento e capacitação",
 
-          "definicao": "Conjunto de a├º├Áes educacionais planejadas para suprir lacunas de compet├¬ncia e preparar colaboradores para fun├º├Áes espec├¡ficas. Inclui levantamento de necessidades, elabora├º├úo de conte├║do, execu├º├úo e medi├º├úo de resultados.",
+          "definicao": "Conjunto de ações educacionais planejadas para suprir lacunas de competência e preparar colaboradores para funções específicas. Inclui levantamento de necessidades, elaboração de conteúdo, execução e medição de resultados.",
 
           "topicos": [
 
@@ -8175,7 +8175,7 @@ window.SITE_DATA = {
 
             "EAD corporativo",
 
-            "Onboarding t├®cnico"
+            "Onboarding técnico"
 
           ],
 
@@ -8185,9 +8185,9 @@ window.SITE_DATA = {
 
             "Treinamento de NRs (Normas Regulamentadoras)",
 
-            "Capacita├º├úo em software ERP industrial",
+            "Capacitação em software ERP industrial",
 
-            "Programa de forma├º├úo de multiplicadores internos"
+            "Programa de formação de multiplicadores internos"
 
           ]
 
@@ -8195,9 +8195,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Avalia├º├úo de desempenho",
+          "titulo": "Avaliação de desempenho",
 
-          "definicao": "Sistema estruturado para mensurar a contribui├º├úo individual e coletiva dos colaboradores em rela├º├úo ├ás metas organizacionais. Utiliza m├®todos como autoavalia├º├úo, avalia├º├úo do gestor, 360┬░ e an├ílise por compet├¬ncias.",
+          "definicao": "Sistema estruturado para mensurar a contribuição individual e coletiva dos colaboradores em relação ás metas organizacionais. Utiliza métodos como autoavaliação, avaliação do gestor, 360┬░ e anélise por competências.",
 
           "topicos": [
 
@@ -8213,7 +8213,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Ciclo semestral de avalia├º├úo por compet├¬ncias",
+            "Ciclo semestral de avaliação por competências",
 
             "Feedbacks orientados a dados",
 
@@ -8227,15 +8227,15 @@ window.SITE_DATA = {
 
           "titulo": "Cultura organizacional",
 
-          "definicao": "Conjunto de valores, cren├ºas, normas e pr├íticas compartilhadas que moldam o comportamento dos indiv├¡duos dentro da organiza├º├úo industrial. Influencia diretamente o clima, a reten├º├úo de talentos e a efici├¬ncia operacional.",
+          "definicao": "Conjunto de valores, crenças, normas e préticas compartilhadas que moldam o comportamento dos indivíduos dentro da organização industrial. Influencia diretamente o clima, a retenção de talentos e a eficiência operacional.",
 
           "topicos": [
 
             "Cultura lean",
 
-            "Cultura de seguran├ºa",
+            "Cultura de segurança",
 
-            "Cultura de inova├º├úo"
+            "Cultura de inovação"
 
           ],
 
@@ -8243,11 +8243,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Diagn├│stico cultural por meio de surveys",
+            "Diagnóstico cultural por meio de surveys",
 
-            "Programas de reconhecimento e celebra├º├úo",
+            "Programas de reconhecimento e celebração",
 
-            "Integra├º├úo de valores organizacionais no dia a dia fabril"
+            "Integração de valores organizacionais no dia a dia fabril"
 
           ]
 
@@ -8255,17 +8255,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de conflitos",
+          "titulo": "Gestão de conflitos",
 
-          "definicao": "Processo de identifica├º├úo, media├º├úo e resolu├º├úo de diverg├¬ncias interpessoais ou interdepartamentais no ambiente de trabalho. Aplica t├®cnicas de comunica├º├úo, negocia├º├úo e media├º├úo para converter conflitos em oportunidades de melhoria.",
+          "definicao": "Processo de identificação, mediação e resolução de divergências interpessoais ou interdepartamentais no ambiente de trabalho. Aplica técnicas de comunicação, negociação e mediação para converter conflitos em oportunidades de melhoria.",
 
           "topicos": [
 
-            "Media├º├úo de conflitos",
+            "Mediação de conflitos",
 
-            "Negocia├º├úo colaborativa",
+            "Negociação colaborativa",
 
-            "An├ílise de causas de conflito"
+            "Anélise de causas de conflito"
 
           ],
 
@@ -8273,11 +8273,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Media├º├úo entre equipes de produ├º├úo e manuten├º├úo",
+            "Mediação entre equipes de produção e manutenção",
 
-            "Resolu├º├úo de conflitos sindicais",
+            "Resolução de conflitos sindicais",
 
-            "Treinamento em comunica├º├úo n├úo-violenta para gestores"
+            "Treinamento em comunicação não-violenta para gestores"
 
           ]
 
@@ -8287,7 +8287,7 @@ window.SITE_DATA = {
 
           "titulo": "Clima organizacional",
 
-          "definicao": "Percep├º├úo coletiva dos colaboradores sobre o ambiente de trabalho, incluindo satisfa├º├úo, motiva├º├úo e bem-estar. Mensurado por pesquisas peri├│dicas, o clima ├® indicador preditivo de produtividade, absente├¡smo e rotatividade.",
+          "definicao": "Percepção coletiva dos colaboradores sobre o ambiente de trabalho, incluindo satisfação, motivação e bem-estar. Mensurado por pesquisas periódicas, o clima é indicador preditivo de produtividade, absenteísmo e rotatividade.",
 
           "topicos": [
 
@@ -8295,17 +8295,17 @@ window.SITE_DATA = {
 
             "eNPS ÔÇö Employee Net Promoter Score",
 
-            "├ìndice de satisfa├º├úo"
+            "ìndice de satisfação"
 
           ],
 
-          "formula": "eNPS = (% Promotores - % Detratores) ├ù 100",
+          "formula": "eNPS = (% Promotores - % Detratores) ú 100",
 
           "aplicacoes": [
 
-            "Pesquisa de clima semestral com planos de a├º├úo",
+            "Pesquisa de clima semestral com planos de ação",
 
-            "Acompanhamento de indicadores de satisfa├º├úo por setor",
+            "Acompanhamento de indicadores de satisfação por setor",
 
             "Programas de qualidade de vida no trabalho"
 
@@ -8317,11 +8317,11 @@ window.SITE_DATA = {
 
           "titulo": "Endomarketing",
 
-          "definicao": "Conjunto de a├º├Áes de comunica├º├úo interna voltadas a engajar e motivar os colaboradores, alinhando-os ├á miss├úo, vis├úo e valores da empresa. Utiliza campanhas, eventos e canais internos para fortalecer o v├¡nculo organiza├º├úo-colaborador.",
+          "definicao": "Conjunto de ações de comunicação interna voltadas a engajar e motivar os colaboradores, alinhando-os á missão, visão e valores da empresa. Utiliza campanhas, eventos e canais internos para fortalecer o vínculo organização-colaborador.",
 
           "topicos": [
 
-            "Comunica├º├úo interna",
+            "Comunicação interna",
 
             "Campanhas de engajamento",
 
@@ -8333,11 +8333,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Campanhas de seguran├ºa do trabalho",
+            "Campanhas de segurança do trabalho",
 
             "Jornal mural e newsletter interna",
 
-            "Programas de integra├º├úo de novos colaboradores"
+            "Programas de integração de novos colaboradores"
 
           ]
 
@@ -8347,11 +8347,11 @@ window.SITE_DATA = {
 
           "titulo": "Onboarding",
 
-          "definicao": "Processo estruturado de integra├º├úo de novos colaboradores ├á cultura, processos e ferramentas da organiza├º├úo. Onboarding eficaz reduz o tempo at├® a produtividade plena e aumenta a reten├º├úo nos primeiros meses.",
+          "definicao": "Processo estruturado de integração de novos colaboradores á cultura, processos e ferramentas da organização. Onboarding eficaz reduz o tempo até a produtividade plena e aumenta a retenção nos primeiros meses.",
 
           "topicos": [
 
-            "Integra├º├úo cultural",
+            "Integração cultural",
 
             "Treinamento inicial",
 
@@ -8363,9 +8363,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Roteiro de integra├º├úo para novos operadores",
+            "Roteiro de integração para novos operadores",
 
-            "Checklists de onboarding por fun├º├úo",
+            "Checklists de onboarding por função",
 
             "Acompanhamento com mentor nos 90 dias iniciais"
 
@@ -8375,17 +8375,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Avalia├º├úo 360┬░",
+          "titulo": "Avaliação 360┬░",
 
-          "definicao": "M├®todo de avalia├º├úo de desempenho que coleta feedback de m├║ltiplas fontes ÔÇö gestores, pares, subordinados e clientes internos ÔÇö para formar uma vis├úo abrangente das compet├¬ncias do colaborador. Favorece o autoconhecimento e o desenvolvimento direcionado.",
+          "definicao": "Método de avaliação de desempenho que coleta feedback de múltiplas fontes ÔÇö gestores, pares, subordinados e clientes internos ÔÇö para formar uma visão abrangente das competências do colaborador. Favorece o autoconhecimento e o desenvolvimento direcionado.",
 
           "topicos": [
 
-            "Feedback multin├¡vel",
+            "Feedback multinível",
 
-            "Autoavalia├º├úo",
+            "Autoavaliação",
 
-            "Plano de desenvolvimento p├│s-360┬░"
+            "Plano de desenvolvimento pós-360┬░"
 
           ],
 
@@ -8393,11 +8393,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Avalia├º├úo anual de lideran├ºas",
+            "Avaliação anual de lideranças",
 
-            "Mapeamento de pontos fortes e ├íreas de melhoria",
+            "Mapeamento de pontos fortes e éreas de melhoria",
 
-            "Feedbacks 360┬░ para planos de sucess├úo"
+            "Feedbacks 360┬░ para planos de sucessão"
 
           ]
 
@@ -8405,17 +8405,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo por compet├¬ncias",
+          "titulo": "Gestão por competências",
 
-          "definicao": "Modelo de gest├úo de pessoas que identifica, desenvolve e avalia as compet├¬ncias t├®cnicas e comportamentais necess├írias para cada fun├º├úo. Integra recrutamento, treinamento, avalia├º├úo e carreira em torno de um cat├ílogo de compet├¬ncias organizacionais.",
+          "definicao": "Modelo de gestão de pessoas que identifica, desenvolve e avalia as competências técnicas e comportamentais necessérias para cada função. Integra recrutamento, treinamento, avaliação e carreira em torno de um catélogo de competências organizacionais.",
 
           "topicos": [
 
-            "Mapeamento de compet├¬ncias",
+            "Mapeamento de competências",
 
             "Trilhas de aprendizagem",
 
-            "Matriz de compet├¬ncias"
+            "Matriz de competências"
 
           ],
 
@@ -8423,11 +8423,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de matriz de compet├¬ncias por cargo",
+            "Elaboração de matriz de competências por cargo",
 
-            "Programas de certifica├º├úo interna",
+            "Programas de certificação interna",
 
-            "Recrutamento baseado em compet├¬ncias"
+            "Recrutamento baseado em competências"
 
           ]
 
@@ -8435,15 +8435,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Recrutamento e sele├º├úo",
+          "titulo": "Recrutamento e seleção",
 
-          "definicao": "Processo de atra├º├úo, triagem e escolha de candidatos para posi├º├Áes na organiza├º├úo. Envolve defini├º├úo de perfil, divulga├º├úo de vagas, entrevistas, testes e tomada de decis├úo alinhada ├ás necessidades t├®cnicas e culturais da empresa.",
+          "definicao": "Processo de atração, triagem e escolha de candidatos para posições na organização. Envolve definição de perfil, divulgação de vagas, entrevistas, testes e tomada de decisão alinhada ás necessidades técnicas e culturais da empresa.",
 
           "topicos": [
 
-            "Entrevista por compet├¬ncias",
+            "Entrevista por competências",
 
-            "Testes psicol├│gicos e t├®cnicos",
+            "Testes psicológicos e técnicos",
 
             "Assessment center"
 
@@ -8453,9 +8453,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Processo seletivo para operadores de produ├º├úo",
+            "Processo seletivo para operadores de produção",
 
-            "Recrutamento de lideran├ºas industriais",
+            "Recrutamento de lideranças industriais",
 
             "Bank de talentos e recrutamento interno"
 
@@ -8465,13 +8465,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Cargos e sal├írios",
+          "titulo": "Cargos e salérios",
 
-          "definicao": "Sistema de classifica├º├úo, hierarquiza├º├úo e remunera├º├úo dos cargos com base em crit├®rios objetivos como complexidade, responsabilidade e mercado. Visa garantir equidade interna e competitividade externa na pol├¡tica salarial.",
+          "definicao": "Sistema de classificação, hierarquização e remuneração dos cargos com base em critérios objetivos como complexidade, responsabilidade e mercado. Visa garantir equidade interna e competitividade externa na política salarial.",
 
           "topicos": [
 
-            "An├ílise e descri├º├úo de cargos",
+            "Anélise e descrição de cargos",
 
             "Pesquisa salarial",
 
@@ -8483,11 +8483,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de PCS ÔÇö Plano de Cargos e Sal├írios",
+            "Elaboração de PCS ÔÇö Plano de Cargos e Salérios",
 
-            "Revis├úo salarial anual",
+            "Revisão salarial anual",
 
-            "Estrutura├º├úo de carreira em Y (t├®cnica e gerencial)"
+            "Estruturação de carreira em Y (técnica e gerencial)"
 
           ]
 
@@ -8497,13 +8497,13 @@ window.SITE_DATA = {
 
           "titulo": "Benchmarking salarial",
 
-          "definicao": "Compara├º├úo sistem├ítica das faixas salariais e benef├¡cios praticados pela organiza├º├úo com os praticados pelo mercado de refer├¬ncia. Subsidia decis├Áes de atratividade e reten├º├úo de talentos.",
+          "definicao": "Comparação sistemética das faixas salariais e benefícios praticados pela organização com os praticados pelo mercado de referência. Subsidia decisões de atratividade e retenção de talentos.",
 
           "topicos": [
 
             "Pesquisa salarial setorial",
 
-            "An├ílise de benef├¡cios",
+            "Anélise de benefícios",
 
             "Posicionamento competitivo"
 
@@ -8513,11 +8513,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Participa├º├úo em pesquisas salariais da FIESP ou sindicatos",
+            "Participação em pesquisas salariais da FIESP ou sindicatos",
 
-            "Adequa├º├úo de benef├¡cios ao mercado industrial",
+            "Adequação de benefícios ao mercado industrial",
 
-            "Relat├│rio de competitividade salarial"
+            "Relatório de competitividade salarial"
 
           ]
 
@@ -8527,15 +8527,15 @@ window.SITE_DATA = {
 
           "titulo": "Plano de carreira",
 
-          "definicao": "Estrutura que define as trajet├│rias poss├¡veis de crescimento profissional dentro da organiza├º├úo, com crit├®rios claros de promo├º├úo, desenvolvimento e remunera├º├úo. Estimula o engajamento e a reten├º├úo ao oferecer perspectiva de evolu├º├úo.",
+          "definicao": "Estrutura que define as trajetórias possíveis de crescimento profissional dentro da organização, com critérios claros de promoção, desenvolvimento e remuneração. Estimula o engajamento e a retenção ao oferecer perspectiva de evolução.",
 
           "topicos": [
 
             "Carreira em Y",
 
-            "Trilhas de sucess├úo",
+            "Trilhas de sucessão",
 
-            "Crit├®rios de promo├º├úo"
+            "Critérios de promoção"
 
           ],
 
@@ -8543,11 +8543,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de carreira t├®cnica para operadores",
+            "Implementação de carreira técnica para operadores",
 
-            "Programa de trainees e sucess├úo",
+            "Programa de trainees e sucessão",
 
-            "Mapeamento de sucess├úo para posi├º├Áes-chave"
+            "Mapeamento de sucessão para posições-chave"
 
           ]
 
@@ -8555,9 +8555,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Engajamento e reten├º├úo de talentos",
+          "titulo": "Engajamento e retenção de talentos",
 
-          "definicao": "Estrat├®gias e pr├íticas voltadas a manter colaboradores motivados, produtivos e com baixa inten├º├úo de sa├¡da. Inclui reconhecimento, desenvolvimento, qualidade de vida e alinhamento de prop├│sito entre indiv├¡duo e organiza├º├úo.",
+          "definicao": "Estratégias e préticas voltadas a manter colaboradores motivados, produtivos e com baixa intenção de saída. Inclui reconhecimento, desenvolvimento, qualidade de vida e alinhamento de propósito entre indivíduo e organização.",
 
           "topicos": [
 
@@ -8569,15 +8569,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Taxa de rotatividade = (Desligamentos / Efetivo m├®dio) ├ù 100",
+          "formula": "Taxa de rotatividade = (Desligamentos / Efetivo médio) ú 100",
 
           "aplicacoes": [
 
             "Programa de reconhecimento por tempo de casa",
 
-            "Entrevistas de desligamento com plano de a├º├úo",
+            "Entrevistas de desligamento com plano de ação",
 
-            "A├º├Áes de quality of work life (QWL)"
+            "Ações de quality of work life (QWL)"
 
           ]
 
@@ -8585,17 +8585,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Soft skills na ind├║stria",
+          "titulo": "Soft skills na indústria",
 
-          "definicao": "Compet├¬ncias comportamentais como comunica├º├úo, trabalho em equipe, resolu├º├úo de problemas e adaptabilidade, essenciais para o ambiente industrial moderno. Com a Ind├║stria 4.0, soft skills tornaram-se t├úo relevantes quanto habilidades t├®cnicas.",
+          "definicao": "Competências comportamentais como comunicação, trabalho em equipe, resolução de problemas e adaptabilidade, essenciais para o ambiente industrial moderno. Com a Indústria 4.0, soft skills tornaram-se tão relevantes quanto habilidades técnicas.",
 
           "topicos": [
 
-            "Intelig├¬ncia emocional",
+            "Inteligência emocional",
 
-            "Comunica├º├úo efetiva",
+            "Comunicação efetiva",
 
-            "Pensamento cr├¡tico"
+            "Pensamento crítico"
 
           ],
 
@@ -8603,11 +8603,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Treinamentos de comunica├º├úo para lideran├ºas",
+            "Treinamentos de comunicação para lideranças",
 
-            "Din├ómicas de team building",
+            "Dinômicas de team building",
 
-            "Desenvolvimento de mentalidade lean e mejora cont├¡nua"
+            "Desenvolvimento de mentalidade lean e mejora contínua"
 
           ]
 
@@ -8617,7 +8617,7 @@ window.SITE_DATA = {
 
           "titulo": "HR Analytics",
 
-          "definicao": "Aplica├º├úo de an├ílise de dados e estat├¡stica sobre informa├º├Áes de RH para embasar decis├Áes estrat├®gicas sobre pessoas. Inclui an├ílise de turnover, absente├¡smo, produtividade, clima e ROI de treinamentos.",
+          "definicao": "Aplicação de anélise de dados e estatística sobre informações de RH para embasar decisões estratégicas sobre pessoas. Inclui anélise de turnover, absenteísmo, produtividade, clima e ROI de treinamentos.",
 
           "topicos": [
 
@@ -8637,7 +8637,7 @@ window.SITE_DATA = {
 
             "Modelo preditivo de risco de desligamento",
 
-            "Correla├º├úo entre clima e produtividade"
+            "Correlação entre clima e produtividade"
 
           ]
 
@@ -8647,7 +8647,7 @@ window.SITE_DATA = {
 
           "titulo": "Folha de pagamento industrial",
 
-          "definicao": "Processo mensal de c├ílculo e processamento dos sal├írios, encargos sociais, benef├¡cios e descontos dos colaboradores da ind├║stria. Deve estar em conformidade com a CLT, acordos sindicais e obriga├º├Áes acess├│rias como eSocial e FGTS.",
+          "definicao": "Processo mensal de célculo e processamento dos salérios, encargos sociais, benefícios e descontos dos colaboradores da indústria. Deve estar em conformidade com a CLT, acordos sindicais e obrigações acessórias como eSocial e FGTS.",
 
           "topicos": [
 
@@ -8659,15 +8659,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Sal├írio l├¡quido = Sal├írio bruto - INSS - IRRF - Benef├¡cios descontados + Vantagens",
+          "formula": "Salério líquido = Salério bruto - INSS - IRRF - Benefícios descontados + Vantagens",
 
           "aplicacoes": [
 
             "Processamento mensal da folha de 500+ colaboradores",
 
-            "Integra├º├úo com sistema de ponto eletr├┤nico",
+            "Integração com sistema de ponto eletrônico",
 
-            "Gera├º├úo de arquivos eSocial e DCTFWeb"
+            "Geração de arquivos eSocial e DCTFWeb"
 
           ]
 
@@ -8677,15 +8677,15 @@ window.SITE_DATA = {
 
           "titulo": "CLT e acordos sindicais",
 
-          "definicao": "Conjunto de normas trabalhistas regidas pela Consolida├º├úo das Leis do Trabalho (CLT) e complementadas por acordos e conven├º├Áes coletivas negociadas com sindicatos. Definem direitos, deveres, pisos salariais, jornada e condi├º├Áes espec├¡ficas da categoria industrial.",
+          "definicao": "Conjunto de normas trabalhistas regidas pela Consolidação das Leis do Trabalho (CLT) e complementadas por acordos e convenções coletivas negociadas com sindicatos. Definem direitos, deveres, pisos salariais, jornada e condições específicas da categoria industrial.",
 
           "topicos": [
 
-            "Negocia├º├úo coletiva",
+            "Negociação coletiva",
 
-            "Diss├¡dio",
+            "Dissídio",
 
-            "CIPA e seguran├ºa"
+            "CIPA e segurança"
 
           ],
 
@@ -8693,11 +8693,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Negocia├º├úo de acordo coletivo anual",
+            "Negociação de acordo coletivo anual",
 
-            "C├ílculo de adicional de periculosidade e insalubridade",
+            "Célculo de adicional de periculosidade e insalubridade",
 
-            "Gest├úo de banco de horas e jornada 12├ù36"
+            "Gestão de banco de horas e jornada 12ú36"
 
           ]
 
@@ -8722,15 +8722,15 @@ window.SITE_DATA = {
 
       "cor": "#0d9488",
 
-      "descricao": "Processo de desenvolvimento, engenharia simult├ónea e gest├úo do ciclo de vida.",
+      "descricao": "Processo de desenvolvimento, engenharia simultônea e gestão do ciclo de vida.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Engenharia simult├ónea",
+          "titulo": "Engenharia simultônea",
 
-          "definicao": "Abordagem integrada de desenvolvimento de produtos onde atividades de projeto, manufatura, suprimentos e qualidade ocorrem em paralelo, n├úo sequencialmente. Reduz o time-to-market e melhora a comunica├º├úo entre equipes multidisciplinares.",
+          "definicao": "Abordagem integrada de desenvolvimento de produtos onde atividades de projeto, manufatura, suprimentos e qualidade ocorrem em paralelo, não sequencialmente. Reduz o time-to-market e melhora a comunicação entre equipes multidisciplinares.",
 
           "topicos": [
 
@@ -8738,7 +8738,7 @@ window.SITE_DATA = {
 
             "Equipes multifuncionais",
 
-            "Concorr├¬ncia de projetos"
+            "Concorrência de projetos"
 
           ],
 
@@ -8746,11 +8746,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projeto automotivo com equipes simult├óneas de engenharia e manufatura",
+            "Projeto automotivo com equipes simultôneas de engenharia e manufatura",
 
-            "Redu├º├úo do ciclo de desenvolvimento de eletroeletr├┤nicos",
+            "Redução do ciclo de desenvolvimento de eletroeletrônicos",
 
-            "Integra├º├úo fornecedor-cliente no desenvolvimento"
+            "Integração fornecedor-cliente no desenvolvimento"
 
           ]
 
@@ -8760,11 +8760,11 @@ window.SITE_DATA = {
 
           "titulo": "Engenharia de valor",
 
-          "definicao": "Metodologia sistem├ítica para maximizar o valor funcional de um produto minimizando seus custos, sem comprometer qualidade ou desempenho. Analisa fun├º├Áes, identifica custos desnecess├írios e prop├Áe alternativas de projeto, materiais ou processos.",
+          "definicao": "Metodologia sistemética para maximizar o valor funcional de um produto minimizando seus custos, sem comprometer qualidade ou desempenho. Analisa funções, identifica custos desnecessérios e propõe alternativas de projeto, materiais ou processos.",
 
           "topicos": [
 
-            "An├ílise de valor",
+            "Anélise de valor",
 
             "Custo-alvo",
 
@@ -8772,13 +8772,13 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Valor = Fun├º├úo / Custo",
+          "formula": "Valor = Função / Custo",
 
           "aplicacoes": [
 
-            "Redesenho de componentes automotivos com redu├º├úo de 20% de custo",
+            "Redesenho de componentes automotivos com redução de 20% de custo",
 
-            "Substitui├º├úo de materiais sem perda de desempenho",
+            "Substituição de materiais sem perda de desempenho",
 
             "Workshops de engenharia de valor em produtos existentes"
 
@@ -8790,27 +8790,27 @@ window.SITE_DATA = {
 
           "titulo": "DFMA ÔÇö Design for Manufacturing and Assembly",
 
-          "definicao": "Metodologia de projeto que visa simplificar a manufatura e montagem de produtos desde as fases iniciais de concep├º├úo. Reduz n├║mero de pe├ºas, padroniza componentes e otimiza processos de fabrica├º├úo e montagem.",
+          "definicao": "Metodologia de projeto que visa simplificar a manufatura e montagem de produtos desde as fases iniciais de concepção. Reduz número de peças, padroniza componentes e otimiza processos de fabricação e montagem.",
 
           "topicos": [
 
-            "Redu├º├úo de componentes",
+            "Redução de componentes",
 
-            "Padroniza├º├úo",
+            "Padronização",
 
             "Montagem simplificada"
 
           ],
 
-          "formula": "Efici├¬ncia de montagem = (N┬║ m├¡nimo te├│rico de pe├ºas ├ù 3s) / Tempo real de montagem",
+          "formula": "Eficiência de montagem = (N┬║ mínimo teórico de peças ú 3s) / Tempo real de montagem",
 
           "aplicacoes": [
 
-            "Projeto de eletrodom├®sticos com 40% menos pe├ºas",
+            "Projeto de eletrodomésticos com 40% menos peças",
 
-            "Redesenho de conjuntos mec├ónicos para montagem automatizada",
+            "Redesenho de conjuntos mecônicos para montagem automatizada",
 
-            "An├ílise DFMA em produtos da linha branca"
+            "Anélise DFMA em produtos da linha branca"
 
           ]
 
@@ -8820,7 +8820,7 @@ window.SITE_DATA = {
 
           "titulo": "QFD ÔÇö Quality Function Deployment",
 
-          "definicao": "M├®todo estruturado para traduzir as necessidades e desejos do cliente (VOC ÔÇö Voice of Customer) em requisitos t├®cnicos de produto e processo. Utiliza a Matriz da Qualidade (House of Quality) para priorizar caracter├¡sticas cr├¡ticas.",
+          "definicao": "Método estruturado para traduzir as necessidades e desejos do cliente (VOC ÔÇö Voice of Customer) em requisitos técnicos de produto e processo. Utiliza a Matriz da Qualidade (House of Quality) para priorizar características críticas.",
 
           "topicos": [
 
@@ -8828,7 +8828,7 @@ window.SITE_DATA = {
 
             "VOC ÔÇö Voice of Customer",
 
-            "Desdobramento da fun├º├úo qualidade"
+            "Desdobramento da função qualidade"
 
           ],
 
@@ -8836,9 +8836,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desenvolvimento de novos ve├¡culos com foco nas prefer├¬ncias do consumidor",
+            "Desenvolvimento de novos veículos com foco nas preferências do consumidor",
 
-            "Prioriza├º├úo de especifica├º├Áes t├®cnicas em eletr├┤nicos",
+            "Priorização de especificações técnicas em eletrônicos",
 
             "Alinhamento entre marketing e engenharia em bens de consumo"
 
@@ -8850,13 +8850,13 @@ window.SITE_DATA = {
 
           "titulo": "PLM ÔÇö Product Lifecycle Management",
 
-          "definicao": "Sistema estrat├®gico de gest├úo do ciclo de vida do produto, desde a concep├º├úo at├® o descarte. Integra dados, processos e pessoas ao longo de todas as fases ÔÇö projeto, fabrica├º├úo, uso e fim de vida ÔÇö garantindo rastreabilidade e conformidade.",
+          "definicao": "Sistema estratégico de gestão do ciclo de vida do produto, desde a concepção até o descarte. Integra dados, processos e pessoas ao longo de todas as fases ÔÇö projeto, fabricação, uso e fim de vida ÔÇö garantindo rastreabilidade e conformidade.",
 
           "topicos": [
 
-            "Gest├úo de ciclo de vida",
+            "Gestão de ciclo de vida",
 
-            "Integra├º├úo CAD/PLM",
+            "Integração CAD/PLM",
 
             "Rastreabilidade de engenharia"
 
@@ -8866,11 +8866,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de plataforma PLM (Teamcenter, Windchill)",
+            "Implementação de plataforma PLM (Teamcenter, Windchill)",
 
-            "Gest├úo centralizada de BOMs e documentos t├®cnicos",
+            "Gestão centralizada de BOMs e documentos técnicos",
 
-            "Rastreabilidade de altera├º├Áes de engenharia (ECO/ECN)"
+            "Rastreabilidade de alterações de engenharia (ECO/ECN)"
 
           ]
 
@@ -8878,15 +8878,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Prot├│tipos r├ípidos",
+          "titulo": "Protótipos répidos",
 
-          "definicao": "T├®cnica de fabrica├º├úo de modelos f├¡sicos funcionais ou conceituais em curto prazo, utilizando manufatura aditiva (3D), usinagem CNC ou ferramentais r├ípidos. Acelera valida├º├úo de design, testes de forma e ajuste (fit & form) e comunica├º├úo com stakeholders.",
+          "definicao": "Técnica de fabricação de modelos físicos funcionais ou conceituais em curto prazo, utilizando manufatura aditiva (3D), usinagem CNC ou ferramentais répidos. Acelera validação de design, testes de forma e ajuste (fit & form) e comunicação com stakeholders.",
 
           "topicos": [
 
-            "Impress├úo 3D",
+            "Impressão 3D",
 
-            "Usinagem r├ípida",
+            "Usinagem répida",
 
             "Mockups funcionais"
 
@@ -8896,11 +8896,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prot├│tipos de componentes pl├ísticos por FDM/SLA",
+            "Protótipos de componentes plésticos por FDM/SLA",
 
-            "Modelos de apresenta├º├úo para aprova├º├úo de clientes",
+            "Modelos de apresentação para aprovação de clientes",
 
-            "Testes de ergonomia e usabilidade com prot├│tipos f├¡sicos"
+            "Testes de ergonomia e usabilidade com protótipos físicos"
 
           ]
 
@@ -8910,15 +8910,15 @@ window.SITE_DATA = {
 
           "titulo": "CAD/CAM/CAE",
 
-          "definicao": "Conjunto integrado de ferramentas computacionais para projeto (CAD ÔÇö Computer-Aided Design), manufatura (CAM ÔÇö Computer-Aided Manufacturing) e engenharia assistida por computador (CAE ÔÇö Computer-Aided Engineering). Permite modelagem 3D, simula├º├úo e gera├º├úo de c├│digo CNC.",
+          "definicao": "Conjunto integrado de ferramentas computacionais para projeto (CAD ÔÇö Computer-Aided Design), manufatura (CAM ÔÇö Computer-Aided Manufacturing) e engenharia assistida por computador (CAE ÔÇö Computer-Aided Engineering). Permite modelagem 3D, simulação e geração de código CNC.",
 
           "topicos": [
 
             "Modelagem 3D",
 
-            "Simula├º├úo estrutural",
+            "Simulação estrutural",
 
-            "Programa├º├úo CNC"
+            "Programação CNC"
 
           ],
 
@@ -8928,9 +8928,9 @@ window.SITE_DATA = {
 
             "Projeto de moldes injetores com SolidWorks",
 
-            "Simula├º├úo de elementos finitos em Autodesk Inventor",
+            "Simulação de elementos finitos em Autodesk Inventor",
 
-            "Gera├º├úo de c├│digo CAM para usinagem 5 eixos"
+            "Geração de código CAM para usinagem 5 eixos"
 
           ]
 
@@ -8940,15 +8940,15 @@ window.SITE_DATA = {
 
           "titulo": "PDP ÔÇö Processo de Desenvolvimento de Produto",
 
-          "definicao": "Modelo de refer├¬ncia que estrutura as etapas, atividades, decis├Áes e gates do desenvolvimento de produtos, desde o planejamento estrat├®gico at├® o acompanhamento p├│s-lan├ºamento. O PDP assegura consist├¬ncia, qualidade e governan├ºa no processo de inova├º├úo.",
+          "definicao": "Modelo de referência que estrutura as etapas, atividades, decisões e gates do desenvolvimento de produtos, desde o planejamento estratégico até o acompanhamento pós-lançamento. O PDP assegura consistência, qualidade e governança no processo de inovação.",
 
           "topicos": [
 
             "Macrofases do PDP",
 
-            "Gates de aprova├º├úo",
+            "Gates de aprovação",
 
-            "Documenta├º├úo do processo"
+            "Documentação do processo"
 
           ],
 
@@ -8956,9 +8956,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implanta├º├úo do PDP em ind├║stria de bens de capital",
+            "Implantação do PDP em indústria de bens de capital",
 
-            "Defini├º├úo de entreg├íveis por fase de desenvolvimento",
+            "Definição de entregéveis por fase de desenvolvimento",
 
             "Auditoria de maturidade do PDP organizacional"
 
@@ -8970,15 +8970,15 @@ window.SITE_DATA = {
 
           "titulo": "Stage-Gate",
 
-          "definicao": "Modelo de gest├úo de inova├º├úo que divide o processo de desenvolvimento em etapas (stages) separadas por pontos de decis├úo (gates). Cada gate avalia crit├®rios de qualidade, viabilidade t├®cnica e negocial antes de autorizar avan├ºo ├á etapa seguinte.",
+          "definicao": "Modelo de gestão de inovação que divide o processo de desenvolvimento em etapas (stages) separadas por pontos de decisão (gates). Cada gate avalia critérios de qualidade, viabilidade técnica e negocial antes de autorizar avanço á etapa seguinte.",
 
           "topicos": [
 
-            "Gates de decis├úo",
+            "Gates de decisão",
 
-            "Crit├®rios de go/no-go",
+            "Critérios de go/no-go",
 
-            "Gest├úo de portf├│lio de projetos"
+            "Gestão de portfólio de projetos"
 
           ],
 
@@ -8986,11 +8986,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Pipeline de inova├º├úo em ind├║stria farmac├¬utica",
+            "Pipeline de inovação em indústria farmacêutica",
 
-            "Revis├Áes trimestrais de portf├│lio de P&D",
+            "Revisões trimestrais de portfólio de P&D",
 
-            "Stage-gate para lan├ºamento de novos produtos aliment├¡cios"
+            "Stage-gate para lançamento de novos produtos alimentícios"
 
           ]
 
@@ -9000,27 +9000,27 @@ window.SITE_DATA = {
 
           "titulo": "DFMEA ÔÇö Design FMEA",
 
-          "definicao": "Ferramenta de an├ílise de modos de falha e seus efeitos aplicada ao projeto do produto. Identifica potenciais falhas de design, suas causas e efeitos, e prioriza a├º├Áes preventivas com base no RPN (Risk Priority Number).",
+          "definicao": "Ferramenta de anélise de modos de falha e seus efeitos aplicada ao projeto do produto. Identifica potenciais falhas de design, suas causas e efeitos, e prioriza ações preventivas com base no RPN (Risk Priority Number).",
 
           "topicos": [
 
-            "An├ílise de risco",
+            "Anélise de risco",
 
             "RPN ÔÇö Risk Priority Number",
 
-            "A├º├Áes preventivas"
+            "Ações preventivas"
 
           ],
 
-          "formula": "RPN = Severidade ├ù Ocorr├¬ncia ├ù Detec├º├úo",
+          "formula": "RPN = Severidade ú Ocorrência ú Detecção",
 
           "aplicacoes": [
 
             "DFMEA de sistema de freios automotivos",
 
-            "An├ílise de falhas em produto eletr├┤nico antes do lan├ºamento",
+            "Anélise de falhas em produto eletrônico antes do lançamento",
 
-            "Revis├úo DFMEA em mudan├ºas de engenharia"
+            "Revisão DFMEA em mudanças de engenharia"
 
           ]
 
@@ -9030,13 +9030,13 @@ window.SITE_DATA = {
 
           "titulo": "Engenharia reversa",
 
-          "definicao": "Processo de desmontagem e an├ílise de um produto existente para compreender seu projeto, funcionamento e especifica├º├Áes. Utiliza scanner 3D, medi├º├Áes e testes para gerar documenta├º├úo t├®cnica ou identificar oportunidades de melhoria.",
+          "definicao": "Processo de desmontagem e anélise de um produto existente para compreender seu projeto, funcionamento e especificações. Utiliza scanner 3D, medições e testes para gerar documentação técnica ou identificar oportunidades de melhoria.",
 
           "topicos": [
 
             "Scanner 3D",
 
-            "An├ílise dimensional",
+            "Anélise dimensional",
 
             "Redesenho a partir de amostra"
 
@@ -9046,9 +9046,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Digitaliza├º├úo e redesenho de pe├ºas sem CAD original",
+            "Digitalização e redesenho de peças sem CAD original",
 
-            "An├ílise de concorr├¬ncia por engenharia reversa",
+            "Anélise de concorrência por engenharia reversa",
 
             "Reengenharia de componentes obsoletos"
 
@@ -9060,7 +9060,7 @@ window.SITE_DATA = {
 
           "titulo": "Manufatura aditiva (prototipagem)",
 
-          "definicao": "Processo de fabrica├º├úo por adi├º├úo sucessiva de camadas de material (pl├ístico, metal, resina) a partir de modelo digital 3D. Utilizada para prototipagem r├ípida, ferramentas e at├® pe├ºas finais em pequena escala.",
+          "definicao": "Processo de fabricação por adição sucessiva de camadas de material (pléstico, metal, resina) a partir de modelo digital 3D. Utilizada para prototipagem répida, ferramentas e até peças finais em pequena escala.",
 
           "topicos": [
 
@@ -9076,11 +9076,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prototipagem funcional de pe├ºas pl├ísticas",
+            "Prototipagem funcional de peças plésticas",
 
-            "Produ├º├úo de dispositivos de fixa├º├úo (jigs & fixtures)",
+            "Produção de dispositivos de fixação (jigs & fixtures)",
 
-            "Fabrica├º├úo de pe├ºas met├ílicas sob medida"
+            "Fabricação de peças metélicas sob medida"
 
           ]
 
@@ -9088,13 +9088,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de requisitos",
+          "titulo": "Gestão de requisitos",
 
-          "definicao": "Processo sistem├ítico de elicita├º├úo, documenta├º├úo, an├ílise, valida├º├úo e gerenciamento de requisitos funcionais e n├úo-funcionais de um produto. Garante que o produto final atenda ├ás necessidades de clientes, normas e partes interessadas.",
+          "definicao": "Processo sistemético de elicitação, documentação, anélise, validação e gerenciamento de requisitos funcionais e não-funcionais de um produto. Garante que o produto final atenda ás necessidades de clientes, normas e partes interessadas.",
 
           "topicos": [
 
-            "Elicita├º├úo de requisitos",
+            "Elicitação de requisitos",
 
             "Matriz de rastreabilidade",
 
@@ -9106,11 +9106,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Documenta├º├úo de requisitos de sistema embarcado",
+            "Documentação de requisitos de sistema embarcado",
 
-            "Rastreabilidade entre requisitos e testes de valida├º├úo",
+            "Rastreabilidade entre requisitos e testes de validação",
 
-            "Gest├úo de mudan├ºas de requisitos em projetos complexos"
+            "Gestão de mudanças de requisitos em projetos complexos"
 
           ]
 
@@ -9120,7 +9120,7 @@ window.SITE_DATA = {
 
           "titulo": "Design for X (DfX)",
 
-          "definicao": "Conjunto de metodologias de projeto que consideram requisitos espec├¡ficos ao longo do desenvolvimento: manufatura (DfM), montagem (DfA), sustentabilidade (DfE), manuten├º├úo (DfS) e outros. Visa otimizar o produto para todo seu ciclo de vida.",
+          "definicao": "Conjunto de metodologias de projeto que consideram requisitos específicos ao longo do desenvolvimento: manufatura (DfM), montagem (DfA), sustentabilidade (DfE), manutenção (DfS) e outros. Visa otimizar o produto para todo seu ciclo de vida.",
 
           "topicos": [
 
@@ -9138,7 +9138,7 @@ window.SITE_DATA = {
 
             "Produto projetado para reciclagem (DfE)",
 
-            "Design de equipamentos para f├ícil manuten├º├úo em campo",
+            "Design de equipamentos para fécil manutenção em campo",
 
             "Projeto para desmontagem e fim de vida"
 
@@ -9148,17 +9148,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de valor",
+          "titulo": "Anélise de valor",
 
-          "definicao": "T├®cnica sistem├ítica de avalia├º├úo de produtos existentes para identificar e eliminar custos desnecess├írios sem comprometer fun├º├Áes essenciais. Foca na rela├º├úo fun├º├úo-custo e prop├Áe alternativas de projeto, materiais ou processos.",
+          "definicao": "Técnica sistemética de avaliação de produtos existentes para identificar e eliminar custos desnecessérios sem comprometer funções essenciais. Foca na relação função-custo e propõe alternativas de projeto, materiais ou processos.",
 
           "topicos": [
 
-            "An├ílise funcional",
+            "Anélise funcional",
 
-            "Custo por fun├º├úo",
+            "Custo por função",
 
-            "Alternativas de solu├º├úo"
+            "Alternativas de solução"
 
           ],
 
@@ -9166,11 +9166,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de custo de produto maduro em 15-30%",
+            "Redução de custo de produto maduro em 15-30%",
 
-            "Revis├úo anual de portf├│lio com an├ílise de valor",
+            "Revisão anual de portfólio com anélise de valor",
 
-            "Substitui├º├úo de materiais por alternativas de menor custo"
+            "Substituição de materiais por alternativas de menor custo"
 
           ]
 
@@ -9180,15 +9180,15 @@ window.SITE_DATA = {
 
           "titulo": "Redesenho de produto",
 
-          "definicao": "Processo de modifica├º├úo significativa de um produto existente para melhorar desempenho, reduzir custos, atualizar tecnologia ou atender novos requisitos regulat├│rios. Difere do desenvolvimento radical por partir de uma base j├í estabelecida.",
+          "definicao": "Processo de modificação significativa de um produto existente para melhorar desempenho, reduzir custos, atualizar tecnologia ou atender novos requisitos regulatórios. Difere do desenvolvimento radical por partir de uma base jé estabelecida.",
 
           "topicos": [
 
             "Melhoria incremental",
 
-            "Atualiza├º├úo tecnol├│gica",
+            "Atualização tecnológica",
 
-            "Adequa├º├úo normativa"
+            "Adequação normativa"
 
           ],
 
@@ -9198,9 +9198,9 @@ window.SITE_DATA = {
 
             "Redesenho de embalagens para sustentabilidade",
 
-            "Atualiza├º├úo de linha de produtos com novos componentes eletr├┤nicos",
+            "Atualização de linha de produtos com novos componentes eletrônicos",
 
-            "Adequa├º├úo de produto a novas normas regulamentadoras"
+            "Adequação de produto a novas normas regulamentadoras"
 
           ]
 
@@ -9208,9 +9208,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Desdobramento da fun├º├úo qualidade (QFD)",
+          "titulo": "Desdobramento da função qualidade (QFD)",
 
-          "definicao": "Desdobramento sistem├ítico dos requisitos do cliente em caracter├¡sticas de qualidade do produto, par├ómetros de processo e especifica├º├Áes de produ├º├úo. Garante que a voz do cliente seja traduzida tecnicamente em cada etapa do PDP.",
+          "definicao": "Desdobramento sistemético dos requisitos do cliente em características de qualidade do produto, parômetros de processo e especificações de produção. Garante que a voz do cliente seja traduzida tecnicamente em cada etapa do PDP.",
 
           "topicos": [
 
@@ -9226,11 +9226,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "QFD completo para desenvolvimento de eletroport├ítil",
+            "QFD completo para desenvolvimento de eletroportétil",
 
-            "Tradu├º├úo de necessidades de clientes industriais em especifica├º├Áes t├®cnicas",
+            "Tradução de necessidades de clientes industriais em especificações técnicas",
 
-            "Prioriza├º├úo de engenharia baseada em importancia relativa"
+            "Priorização de engenharia baseada em importancia relativa"
 
           ]
 
@@ -9240,7 +9240,7 @@ window.SITE_DATA = {
 
           "titulo": "Metodologia de projeto de produto",
 
-          "definicao": "Abordagem estruturada para conceber, desenvolver e detalhar produtos, abrangendo desde a identifica├º├úo de oportunidades at├® a especifica├º├úo final. Inclui m├®todos de criatividade, sele├º├úo de conceitos, projeto preliminar e detalhado.",
+          "definicao": "Abordagem estruturada para conceber, desenvolver e detalhar produtos, abrangendo desde a identificação de oportunidades até a especificação final. Inclui métodos de criatividade, seleção de conceitos, projeto preliminar e detalhado.",
 
           "topicos": [
 
@@ -9256,11 +9256,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Aplica├º├úo da metodologia de Pahl & Beitz no desenvolvimento de m├íquinas",
+            "Aplicação da metodologia de Pahl & Beitz no desenvolvimento de méquinas",
 
             "Processo de design thinking combinado com engenharia",
 
-            "Gera├º├úo e sele├º├úo de conceitos para novo produto"
+            "Geração e seleção de conceitos para novo produto"
 
           ]
 
@@ -9270,7 +9270,7 @@ window.SITE_DATA = {
 
           "titulo": "Lean Product Development",
 
-          "definicao": "Abordagem que aplica princ├¡pios lean (elimina├º├úo de desperd├¡cios, fluxo cont├¡nuo, valor para o cliente) ao processo de desenvolvimento de produtos. Reduz lead time, retrabalho e retrabalho, aumentando a efici├¬ncia da engenharia.",
+          "definicao": "Abordagem que aplica princípios lean (eliminação de desperdícios, fluxo contínuo, valor para o cliente) ao processo de desenvolvimento de produtos. Reduz lead time, retrabalho e retrabalho, aumentando a eficiência da engenharia.",
 
           "topicos": [
 
@@ -9286,11 +9286,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de A3 para problemas de engenharia",
+            "Implementação de A3 para problemas de engenharia",
 
-            "Sala Obeya para gest├úo visual de projetos complexos",
+            "Sala Obeya para gestão visual de projetos complexos",
 
-            "Redu├º├úo de desperd├¡cios no PDP com mapeamento de fluxo de valor"
+            "Redução de desperdícios no PDP com mapeamento de fluxo de valor"
 
           ]
 
@@ -9298,15 +9298,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de viabilidade t├®cnica",
+          "titulo": "Anélise de viabilidade técnica",
 
-          "definicao": "Estudo preliminar que avalia se um conceito de produto ├® exequ├¡vel do ponto de vista t├®cnico, considerando materiais, processos, tecnologia dispon├¡vel, prazos e or├ºamento. Subsidia a decis├úo de avan├ºar ou n├úo no desenvolvimento.",
+          "definicao": "Estudo preliminar que avalia se um conceito de produto é exequível do ponto de vista técnico, considerando materiais, processos, tecnologia disponível, prazos e orçamento. Subsidia a decisão de avançar ou não no desenvolvimento.",
 
           "topicos": [
 
             "Viabilidade de manufatura",
 
-            "An├ílise de risco t├®cnico",
+            "Anélise de risco técnico",
 
             "Estudo de make-or-buy"
 
@@ -9316,11 +9316,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estudo de viabilidade de nova linha de produtos qu├¡micos",
+            "Estudo de viabilidade de nova linha de produtos químicos",
 
-            "An├ílise de make-or-buy para componentes cr├¡ticos",
+            "Anélise de make-or-buy para componentes críticos",
 
-            "Avalia├º├úo de maturidade tecnol├│gica (TRL) antes do projeto"
+            "Avaliação de maturidade tecnológica (TRL) antes do projeto"
 
           ]
 
@@ -9339,27 +9339,27 @@ window.SITE_DATA = {
 
       "id": "gestao-industrial",
 
-      "nome": "Gest├úo Industrial",
+      "nome": "Gestão Industrial",
 
       "icone": "factory",
 
       "cor": "#dc2626",
 
-      "descricao": "Administra├º├úo industrial, planejamento estrat├®gico e governan├ºa corporativa.",
+      "descricao": "Administração industrial, planejamento estratégico e governança corporativa.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Administra├º├úo industrial",
+          "titulo": "Administração industrial",
 
-          "definicao": "Conjunto de pr├íticas de gest├úo aplicadas ao ambiente fabril, envolvendo planejamento, organiza├º├úo, dire├º├úo e controle dos recursos produtivos. Integra ├íreas como produ├º├úo, manuten├º├úo, qualidade, suprimentos e finan├ºas para opera├º├úo eficiente da f├íbrica.",
+          "definicao": "Conjunto de préticas de gestão aplicadas ao ambiente fabril, envolvendo planejamento, organização, direção e controle dos recursos produtivos. Integra éreas como produção, manutenção, qualidade, suprimentos e finanças para operação eficiente da fébrica.",
 
           "topicos": [
 
-            "Gest├úo da produ├º├úo",
+            "Gestão da produção",
 
-            "Organiza├º├úo fabril",
+            "Organização fabril",
 
             "Controle de processos"
 
@@ -9369,11 +9369,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reestrutura├º├úo administrativa de unidade industrial",
+            "Reestruturação administrativa de unidade industrial",
 
-            "Implanta├º├úo de sistema de gest├úo integrado ERP",
+            "Implantação de sistema de gestão integrado ERP",
 
-            "Defini├º├úo de organograma e fluxos decis├│rios fabris"
+            "Definição de organograma e fluxos decisórios fabris"
 
           ]
 
@@ -9381,15 +9381,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Planejamento estrat├®gico",
+          "titulo": "Planejamento estratégico",
 
-          "definicao": "Processo sistem├ítico de defini├º├úo da dire├º├úo estrat├®gica da organiza├º├úo industrial, estabelecendo miss├úo, vis├úo, valores, objetivos de longo prazo e planos de a├º├úo. Envolve an├ílise ambiental, formula├º├úo de estrat├®gias e aloca├º├úo de recursos.",
+          "definicao": "Processo sistemético de definição da direção estratégica da organização industrial, estabelecendo missão, visão, valores, objetivos de longo prazo e planos de ação. Envolve anélise ambiental, formulação de estratégias e alocação de recursos.",
 
           "topicos": [
 
-            "Miss├úo e vis├úo",
+            "Missão e visão",
 
-            "An├ílise ambiental",
+            "Anélise ambiental",
 
             "Metas de longo prazo"
 
@@ -9399,11 +9399,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo do planejamento estrat├®gico 5 anos da ind├║stria",
+            "Elaboração do planejamento estratégico 5 anos da indústria",
 
-            "Desdobramento de metas estrat├®gicas em operacionais",
+            "Desdobramento de metas estratégicas em operacionais",
 
-            "Revis├úo anual do plano estrat├®gico com stakeholders"
+            "Revisão anual do plano estratégico com stakeholders"
 
           ]
 
@@ -9411,17 +9411,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Governan├ºa corporativa",
+          "titulo": "Governança corporativa",
 
-          "definicao": "Sistema de princ├¡pios, regras e estruturas que direcionam e controlam a gest├úo da empresa industrial, assegurando transpar├¬ncia, equidade, presta├º├úo de contas e responsabilidade corporativa. Fundamental para empresas de capital aberto e family offices.",
+          "definicao": "Sistema de princípios, regras e estruturas que direcionam e controlam a gestão da empresa industrial, assegurando transparência, equidade, prestação de contas e responsabilidade corporativa. Fundamental para empresas de capital aberto e family offices.",
 
           "topicos": [
 
-            "Conselho de administra├º├úo",
+            "Conselho de administração",
 
-            "Comit├¬s de auditoria",
+            "Comitês de auditoria",
 
-            "C├│digo de conduta"
+            "Código de conduta"
 
           ],
 
@@ -9429,11 +9429,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de conselho consultivo em ind├║stria familiar",
+            "Estruturação de conselho consultivo em indústria familiar",
 
-            "Implementa├º├úo de compliance e c├│digo de ├®tica",
+            "Implementação de compliance e código de ética",
 
-            "Reporte de resultados com transpar├¬ncia a acionistas"
+            "Reporte de resultados com transparência a acionistas"
 
           ]
 
@@ -9443,7 +9443,7 @@ window.SITE_DATA = {
 
           "titulo": "Indicadores industriais (KPI)",
 
-          "definicao": "M├®tricas quantitativas utilizadas para monitorar e avaliar o desempenho de processos industriais em tempo real. Incluem indicadores de produtividade, qualidade, efici├¬ncia, custo, seguran├ºa e entregas, alinhados aos objetivos estrat├®gicos da organiza├º├úo.",
+          "definicao": "Métricas quantitativas utilizadas para monitorar e avaliar o desempenho de processos industriais em tempo real. Incluem indicadores de produtividade, qualidade, eficiência, custo, segurança e entregas, alinhados aos objetivos estratégicos da organização.",
 
           "topicos": [
 
@@ -9455,15 +9455,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "OEE = Disponibilidade ├ù Performance ├ù Qualidade",
+          "formula": "OEE = Disponibilidade ú Performance ú Qualidade",
 
           "aplicacoes": [
 
-            "Painel de indicadores OEE em tempo real no ch├úo de f├íbrica",
+            "Painel de indicadores OEE em tempo real no chão de fébrica",
 
             "Metas trimestrais de KPI por centro de trabalho",
 
-            "Desdobramento de indicadores estrat├®gicos (BSC) em KPIs operacionais"
+            "Desdobramento de indicadores estratégicos (BSC) em KPIs operacionais"
 
           ]
 
@@ -9473,13 +9473,13 @@ window.SITE_DATA = {
 
           "titulo": "Compliance industrial",
 
-          "definicao": "Conjunto de pol├¡ticas, procedimentos e controles para garantir que a opera├º├úo industrial esteja em conformidade com leis, regulamenta├º├Áes, normas t├®cnicas e padr├Áes ├®ticos. Abrange seguran├ºa do trabalho, meio ambiente, tribut├írio e anticorrup├º├úo.",
+          "definicao": "Conjunto de políticas, procedimentos e controles para garantir que a operação industrial esteja em conformidade com leis, regulamentações, normas técnicas e padrões éticos. Abrange segurança do trabalho, meio ambiente, tributério e anticorrupção.",
 
           "topicos": [
 
             "LGPD industrial",
 
-            "Conformidade regulat├│ria",
+            "Conformidade regulatória",
 
             "Programa de integridade"
 
@@ -9489,11 +9489,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implanta├º├úo de programa de compliance industrial",
+            "Implantação de programa de compliance industrial",
 
-            "Auditoria de conformidade regulat├│ria (ANVISA, INMETRO)",
+            "Auditoria de conformidade regulatória (ANVISA, INMETRO)",
 
-            "Treinamento de colaboradores em c├│digo de conduta"
+            "Treinamento de colaboradores em código de conduta"
 
           ]
 
@@ -9501,17 +9501,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo por resultados",
+          "titulo": "Gestão por resultados",
 
-          "definicao": "Modelo de gest├úo focado no alcance de metas e resultados mensur├íveis, com avalia├º├úo peri├│dica de desempenho. Utiliza indicadores, contratos de gest├úo e sistemas de incentivo para alinhar esfor├ºos da organiza├º├úo aos objetivos estrat├®gicos.",
+          "definicao": "Modelo de gestão focado no alcance de metas e resultados mensuréveis, com avaliação periódica de desempenho. Utiliza indicadores, contratos de gestão e sistemas de incentivo para alinhar esforços da organização aos objetivos estratégicos.",
 
           "topicos": [
 
             "Metas SMART",
 
-            "Contrato de gest├úo",
+            "Contrato de gestão",
 
-            "Remunera├º├úo vari├ível"
+            "Remuneração variével"
 
           ],
 
@@ -9519,11 +9519,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa de b├┤nus atrelado a metas de produ├º├úo e qualidade",
+            "Programa de bônus atrelado a metas de produção e qualidade",
 
-            "Contratos de gest├úo com gerentes de planta",
+            "Contratos de gestão com gerentes de planta",
 
-            "Reuni├Áes mensais de an├ílise cr├¡tica de resultados"
+            "Reuniões mensais de anélise crítica de resultados"
 
           ]
 
@@ -9533,7 +9533,7 @@ window.SITE_DATA = {
 
           "titulo": "BSC ÔÇö Balanced Scorecard",
 
-          "definicao": "Metodologia de gest├úo estrat├®gica que traduz a vis├úo e estrat├®gia da empresa em objetivos e indicadores em quatro perspectivas: financeira, clientes, processos internos e aprendizado/crescimento. Permite o alinhamento estrat├®gico em todos os n├¡veis.",
+          "definicao": "Metodologia de gestão estratégica que traduz a visão e estratégia da empresa em objetivos e indicadores em quatro perspectivas: financeira, clientes, processos internos e aprendizado/crescimento. Permite o alinhamento estratégico em todos os níveis.",
 
           "topicos": [
 
@@ -9541,7 +9541,7 @@ window.SITE_DATA = {
 
             "Perspectiva de processos",
 
-            "Mapa estrat├®gico"
+            "Mapa estratégico"
 
           ],
 
@@ -9549,11 +9549,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Constru├º├úo do BSC para unidade industrial",
+            "Construção do BSC para unidade industrial",
 
             "Cascateamento de metas do BSC para indicadores setoriais",
 
-            "Revis├úo trimestral do mapa estrat├®gico com diretoria"
+            "Revisão trimestral do mapa estratégico com diretoria"
 
           ]
 
@@ -9561,17 +9561,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise SWOT/FOFA",
+          "titulo": "Anélise SWOT/FOFA",
 
-          "definicao": "Ferramenta de diagn├│stico estrat├®gico que avalia For├ºas, Fraquezas, Oportunidades e Amea├ºas (FOFA) do ambiente interno e externo da organiza├º├úo. Subsidia a formula├º├úo de estrat├®gias ao cruzar potenciais internos com condi├º├Áes de mercado.",
+          "definicao": "Ferramenta de diagnóstico estratégico que avalia Forças, Fraquezas, Oportunidades e Ameaças (FOFA) do ambiente interno e externo da organização. Subsidia a formulação de estratégias ao cruzar potenciais internos com condições de mercado.",
 
           "topicos": [
 
-            "An├ílise interna",
+            "Anélise interna",
 
-            "An├ílise externa",
+            "Anélise externa",
 
-            "Estrat├®gias S/O, W/O, S/T, W/T"
+            "Estratégias S/O, W/O, S/T, W/T"
 
           ],
 
@@ -9579,11 +9579,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "SWOT anual para revis├úo de estrat├®gia industrial",
+            "SWOT anual para revisão de estratégia industrial",
 
-            "An├ílise competitiva de lan├ºamento de nova planta",
+            "Anélise competitiva de lançamento de nova planta",
 
-            "Diagn├│stico situacional em projetos de consultoria"
+            "Diagnóstico situacional em projetos de consultoria"
 
           ]
 
@@ -9591,17 +9591,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Plano de neg├│cios (Business Plan)",
+          "titulo": "Plano de negócios (Business Plan)",
 
-          "definicao": "Documento estruturado que descreve o modelo de neg├│cio, mercado, opera├º├Áes, proje├º├Áes financeiras e estrat├®gia de uma empresa ou projeto industrial. Utilizado para capta├º├úo de recursos, aprova├º├úo de investimentos e direcionamento estrat├®gico.",
+          "definicao": "Documento estruturado que descreve o modelo de negócio, mercado, operações, projeções financeiras e estratégia de uma empresa ou projeto industrial. Utilizado para captação de recursos, aprovação de investimentos e direcionamento estratégico.",
 
           "topicos": [
 
-            "Sum├írio executivo",
+            "Sumério executivo",
 
-            "Proje├º├Áes financeiras",
+            "Projeções financeiras",
 
-            "An├ílise de viabilidade"
+            "Anélise de viabilidade"
 
           ],
 
@@ -9609,11 +9609,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Business plan para nova f├íbrica ou linha de produ├º├úo",
+            "Business plan para nova fébrica ou linha de produção",
 
-            "Capta├º├úo de investimento para startup industrial",
+            "Captação de investimento para startup industrial",
 
-            "Plano de neg├│cios para expans├úo internacional"
+            "Plano de negócios para expansão internacional"
 
           ]
 
@@ -9623,15 +9623,15 @@ window.SITE_DATA = {
 
           "titulo": "Matriz BCG",
 
-          "definicao": "Ferramenta de an├ílise de portf├│lio que classifica produtos em quatro quadrantes ÔÇö Estrela, Vaca Leiteira, Interroga├º├úo e Abacaxi ÔÇö com base na participa├º├úo de mercado e taxa de crescimento. Auxilia decis├Áes de investimento, desinvestimento e prioriza├º├úo.",
+          "definicao": "Ferramenta de anélise de portfólio que classifica produtos em quatro quadrantes ÔÇö Estrela, Vaca Leiteira, Interrogação e Abacaxi ÔÇö com base na participação de mercado e taxa de crescimento. Auxilia decisões de investimento, desinvestimento e priorização.",
 
           "topicos": [
 
             "Ciclo de vida do produto",
 
-            "Participa├º├úo relativa de mercado",
+            "Participação relativa de mercado",
 
-            "Decis├Áes de portf├│lio"
+            "Decisões de portfólio"
 
           ],
 
@@ -9639,11 +9639,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de portf├│lio de produtos industriais",
+            "Anélise de portfólio de produtos industriais",
 
-            "Decis├úo de descontinuar linhas de baixo desempenho",
+            "Decisão de descontinuar linhas de baixo desempenho",
 
-            "Aloca├º├úo de investimentos entre categorias de produto"
+            "Alocação de investimentos entre categorias de produto"
 
           ]
 
@@ -9651,9 +9651,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de Porter (5 for├ºas)",
+          "titulo": "Anélise de Porter (5 forças)",
 
-          "definicao": "Modelo de an├ílise setorial desenvolvido por Michael Porter que avalia cinco for├ºas competitivas: rivalidade entre concorrentes, amea├ºa de novos entrantes, poder de barganha de fornecedores e clientes, e amea├ºa de substitutos. Define a atratividade e lucratividade potencial de um setor.",
+          "definicao": "Modelo de anélise setorial desenvolvido por Michael Porter que avalia cinco forças competitivas: rivalidade entre concorrentes, ameaça de novos entrantes, poder de barganha de fornecedores e clientes, e ameaça de substitutos. Define a atratividade e lucratividade potencial de um setor.",
 
           "topicos": [
 
@@ -9669,11 +9669,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise setorial para entrada em novo mercado industrial",
+            "Anélise setorial para entrada em novo mercado industrial",
 
-            "Posicionamento competitivo de unidade de neg├│cios",
+            "Posicionamento competitivo de unidade de negócios",
 
-            "Estrat├®gia de diferencia├º├úo em setor commoditizado"
+            "Estratégia de diferenciação em setor commoditizado"
 
           ]
 
@@ -9681,17 +9681,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo da rotina",
+          "titulo": "Gestão da rotina",
 
-          "definicao": "Pr├ítica de gerenciamento das atividades operacionais do dia a dia fabril com foco em padroniza├º├úo, disciplina e melhoria cont├¡nua. Utiliza ferramentas como 5S, reuni├Áes r├ípidas (daily huddle) e indicadores visuais para manter a estabilidade dos processos.",
+          "definicao": "Prética de gerenciamento das atividades operacionais do dia a dia fabril com foco em padronização, disciplina e melhoria contínua. Utiliza ferramentas como 5S, reuniões répidas (daily huddle) e indicadores visuais para manter a estabilidade dos processos.",
 
           "topicos": [
 
             "5S",
 
-            "Gest├úo ├á vista",
+            "Gestão á vista",
 
-            "Reuni├úo di├íria de produ├º├úo"
+            "Reunião diéria de produção"
 
           ],
 
@@ -9699,11 +9699,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implanta├º├úo do 5S em c├®lulas de produ├º├úo",
+            "Implantação do 5S em células de produção",
 
-            "Quadros de gest├úo ├á vista com indicadores di├írios",
+            "Quadros de gestão á vista com indicadores diérios",
 
-            "Ritual de reuni├úo matinal de produ├º├úo (daily huddle)"
+            "Ritual de reunião matinal de produção (daily huddle)"
 
           ]
 
@@ -9711,9 +9711,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Diretrizes estrat├®gicas (Hoshin)",
+          "titulo": "Diretrizes estratégicas (Hoshin)",
 
-          "definicao": "M├®todo japon├¬s de desdobramento de diretrizes estrat├®gicas (Hoshin Kanri) que alinha os objetivos estrat├®gicos da alta dire├º├úo com os planos de a├º├úo operacionais. Utiliza a matriz X e ciclo PDCA para garantir execu├º├úo e revis├úo cont├¡nua.",
+          "definicao": "Método japonês de desdobramento de diretrizes estratégicas (Hoshin Kanri) que alinha os objetivos estratégicos da alta direção com os planos de ação operacionais. Utiliza a matriz X e ciclo PDCA para garantir execução e revisão contínua.",
 
           "topicos": [
 
@@ -9731,9 +9731,9 @@ window.SITE_DATA = {
 
             "Desdobramento de diretrizes anuais (policy deployment)",
 
-            "Matriz X para alinhamento estrat├®gico-t├ítico-operacional",
+            "Matriz X para alinhamento estratégico-tético-operacional",
 
-            "Catchball process entre n├¡veis hier├írquicos"
+            "Catchball process entre níveis hierérquicos"
 
           ]
 
@@ -9741,9 +9741,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Or├ºamento estrat├®gico",
+          "titulo": "Orçamento estratégico",
 
-          "definicao": "Processo de planejamento financeiro de m├®dio e longo prazo que aloca recursos financeiros conforme as prioridades estrat├®gicas da organiza├º├úo industrial. Integra receitas, custos, investimentos e fluxo de caixa projetado ao plano estrat├®gico.",
+          "definicao": "Processo de planejamento financeiro de médio e longo prazo que aloca recursos financeiros conforme as prioridades estratégicas da organização industrial. Integra receitas, custos, investimentos e fluxo de caixa projetado ao plano estratégico.",
 
           "topicos": [
 
@@ -9751,7 +9751,7 @@ window.SITE_DATA = {
 
             "CAPEX e OPEX",
 
-            "Proje├º├úo de resultados"
+            "Projeção de resultados"
 
           ],
 
@@ -9759,11 +9759,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo do or├ºamento anual da planta industrial",
+            "Elaboração do orçamento anual da planta industrial",
 
-            "Avalia├º├úo de investimentos (VPL, TIR, Payback)",
+            "Avaliação de investimentos (VPL, TIR, Payback)",
 
-            "Acompanhamento mensal do realizado vs. or├ºado"
+            "Acompanhamento mensal do realizado vs. orçado"
 
           ]
 
@@ -9771,9 +9771,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Reestrutura├º├úo industrial",
+          "titulo": "Reestruturação industrial",
 
-          "definicao": "Processo de transforma├º├úo organizacional e operacional de uma unidade industrial para recuperar competitividade, reduzir custos ou adequar-se a novo posicionamento estrat├®gico. Pode envolver redesenho de processos, layoff, fus├úo ou venda de ativos.",
+          "definicao": "Processo de transformação organizacional e operacional de uma unidade industrial para recuperar competitividade, reduzir custos ou adequar-se a novo posicionamento estratégico. Pode envolver redesenho de processos, layoff, fusão ou venda de ativos.",
 
           "topicos": [
 
@@ -9791,9 +9791,9 @@ window.SITE_DATA = {
 
             "Turnaround de planta industrial com resultados negativos",
 
-            "Consolida├º├úo de m├║ltiplas plantas em centros de excel├¬ncia",
+            "Consolidação de múltiplas plantas em centros de excelência",
 
-            "Reestrutura├º├úo de processos p├│s-fus├úo"
+            "Reestruturação de processos pós-fusão"
 
           ]
 
@@ -9801,9 +9801,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Fus├Áes e aquisi├º├Áes na ind├║stria",
+          "titulo": "Fusões e aquisições na indústria",
 
-          "definicao": "Opera├º├Áes societ├írias de consolida├º├úo empresarial envolvendo compra, venda ou uni├úo de empresas industriais. Inclui due diligence, valuation, integra├º├úo p├│s-fus├úo (PMI) e gest├úo da mudan├ºa cultural entre organiza├º├Áes.",
+          "definicao": "Operações societérias de consolidação empresarial envolvendo compra, venda ou união de empresas industriais. Inclui due diligence, valuation, integração pós-fusão (PMI) e gestão da mudança cultural entre organizações.",
 
           "topicos": [
 
@@ -9819,11 +9819,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Due diligence t├®cnica e financeira em aquisi├º├úo industrial",
+            "Due diligence técnica e financeira em aquisição industrial",
 
-            "Integra├º├úo de sistemas e cultura p├│s-M&A",
+            "Integração de sistemas e cultura pós-M&A",
 
-            "Sinergias operacionais em fus├úo de empresas do mesmo setor"
+            "Sinergias operacionais em fusão de empresas do mesmo setor"
 
           ]
 
@@ -9831,17 +9831,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de cen├írios industriais",
+          "titulo": "Anélise de cenérios industriais",
 
-          "definicao": "T├®cnica prospectiva que constr├│i e analisa m├║ltiplos futuros poss├¡veis para o ambiente industrial, considerando vari├íveis econ├┤micas, tecnol├│gicas, pol├¡ticas e sociais. Apoia a tomada de decis├úo estrat├®gica em contextos de alta incerteza.",
+          "definicao": "Técnica prospectiva que constrói e analisa múltiplos futuros possíveis para o ambiente industrial, considerando variéveis econômicas, tecnológicas, políticas e sociais. Apoia a tomada de decisão estratégica em contextos de alta incerteza.",
 
           "topicos": [
 
-            "Prospec├º├úo estrat├®gica",
+            "Prospecção estratégica",
 
-            "Simula├º├úo de cen├írios",
+            "Simulação de cenérios",
 
-            "Planejamento por cen├írios"
+            "Planejamento por cenérios"
 
           ],
 
@@ -9849,11 +9849,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Constru├º├úo de cen├írios macroecon├┤micos para planejamento quinquenal",
+            "Construção de cenérios macroeconômicos para planejamento quinquenal",
 
-            "An├ílise de sensibilidade em projetos de expans├úo",
+            "Anélise de sensibilidade em projetos de expansão",
 
-            "Estrat├®gias de mitiga├º├úo para cen├írios adversos"
+            "Estratégias de mitigação para cenérios adversos"
 
           ]
 
@@ -9861,9 +9861,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de riscos corporativos",
+          "titulo": "Gestão de riscos corporativos",
 
-          "definicao": "Processo estruturado de identifica├º├úo, avalia├º├úo, tratamento e monitoramento de riscos que podem impactar o alcance dos objetivos organizacionais. Segue frameworks como COSO ERM e ISO 31000 para integrar riscos estrat├®gicos, operacionais e financeiros.",
+          "definicao": "Processo estruturado de identificação, avaliação, tratamento e monitoramento de riscos que podem impactar o alcance dos objetivos organizacionais. Segue frameworks como COSO ERM e ISO 31000 para integrar riscos estratégicos, operacionais e financeiros.",
 
           "topicos": [
 
@@ -9875,15 +9875,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "N├¡vel de risco = Probabilidade ├ù Impacto",
+          "formula": "Nível de risco = Probabilidade ú Impacto",
 
           "aplicacoes": [
 
             "Mapeamento de riscos operacionais em planta industrial",
 
-            "Plano de continuidade de neg├│cios (BCP) para f├íbrica",
+            "Plano de continuidade de negócios (BCP) para fébrica",
 
-            "Comit├¬ de riscos corporativos trimestral"
+            "Comitê de riscos corporativos trimestral"
 
           ]
 
@@ -9893,15 +9893,15 @@ window.SITE_DATA = {
 
           "titulo": "Relacionamento com investidores",
 
-          "definicao": "Fun├º├úo estrat├®gica de comunica├º├úo entre a empresa industrial e seus acionistas, investidores e analistas de mercado. Inclui divulga├º├úo de resultados, roadshows, assembleias e relat├│rios anuais conforme exig├¬ncias da CVM e boas pr├íticas de mercado.",
+          "definicao": "Função estratégica de comunicação entre a empresa industrial e seus acionistas, investidores e analistas de mercado. Inclui divulgação de resultados, roadshows, assembleias e relatórios anuais conforme exigências da CVM e boas préticas de mercado.",
 
           "topicos": [
 
-            "RI ÔÇö Rela├º├Áes com Investidores",
+            "RI ÔÇö Relações com Investidores",
 
             "Release de resultados",
 
-            "Apresenta├º├Áes para analistas"
+            "Apresentações para analistas"
 
           ],
 
@@ -9909,11 +9909,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prepara├º├úo do relat├│rio anual e agenda de RI",
+            "Preparação do relatório anual e agenda de RI",
 
             "Roadshow com investidores institucionais",
 
-            "Teleconfer├¬ncia de resultados trimestrais"
+            "Teleconferência de resultados trimestrais"
 
           ]
 
@@ -9921,17 +9921,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Avalia├º├úo de empresas",
+          "titulo": "Avaliação de empresas",
 
-          "definicao": "Conjunto de metodologias para estimar o valor econ├┤mico de uma empresa industrial, incluindo fluxo de caixa descontado (DCF), m├║ltiplos de mercado e valor patrimonial. Essencial para processos de M&A, abertura de capital e planejamento sucess├│rio.",
+          "definicao": "Conjunto de metodologias para estimar o valor econômico de uma empresa industrial, incluindo fluxo de caixa descontado (DCF), múltiplos de mercado e valor patrimonial. Essencial para processos de M&A, abertura de capital e planejamento sucessório.",
 
           "topicos": [
 
             "DCF ÔÇö Fluxo de Caixa Descontado",
 
-            "M├║ltiplos (EV/EBITDA, P/L)",
+            "Múltiplos (EV/EBITDA, P/L)",
 
-            "Laudo de avalia├º├úo"
+            "Laudo de avaliação"
 
           ],
 
@@ -9941,9 +9941,9 @@ window.SITE_DATA = {
 
             "Valuation de empresa industrial para venda",
 
-            "Avalia├º├úo para planejamento sucess├│rio familiar",
+            "Avaliação para planejamento sucessório familiar",
 
-            "Laudo de avalia├º├úo para transa├º├Áes societ├írias"
+            "Laudo de avaliação para transações societérias"
 
           ]
 
@@ -9962,13 +9962,13 @@ window.SITE_DATA = {
 
       "id": "eng-metodos",
 
-      "nome": "Engenharia de M├®todos",
+      "nome": "Engenharia de Métodos",
 
       "icone": "stopwatch",
 
       "cor": "#9333ea",
 
-      "descricao": "Estudos de tempos, movimentos e padroniza├º├úo operacional.",
+      "descricao": "Estudos de tempos, movimentos e padronização operacional.",
 
       "subtopicos": [
 
@@ -9976,27 +9976,27 @@ window.SITE_DATA = {
 
           "titulo": "Estudo de tempos e movimentos",
 
-          "definicao": "T├®cnica cl├íssica da engenharia industrial que analisa detalhadamente as opera├º├Áes de trabalho, dividindo-as em movimentos elementares, medindo seus tempos e identificando oportunidades de simplifica├º├úo e padroniza├º├úo. Originada dos trabalhos de Taylor e Gilbreth.",
+          "definicao": "Técnica cléssica da engenharia industrial que analisa detalhadamente as operações de trabalho, dividindo-as em movimentos elementares, medindo seus tempos e identificando oportunidades de simplificação e padronização. Originada dos trabalhos de Taylor e Gilbreth.",
 
           "topicos": [
 
-            "An├ílise de movimentos",
+            "Anélise de movimentos",
 
-            "Simplifica├º├úo do trabalho",
+            "Simplificação do trabalho",
 
-            "Princ├¡pios de economia de movimentos"
+            "Princípios de economia de movimentos"
 
           ],
 
-          "formula": "Tempo padr├úo = Tempo normal ├ù (1 + Toler├óncias)",
+          "formula": "Tempo padrão = Tempo normal ú (1 + Tolerôncias)",
 
           "aplicacoes": [
 
             "Estudo de tempos em linha de montagem",
 
-            "An├ílise de movimentos em posto de trabalho repetitivo",
+            "Anélise de movimentos em posto de trabalho repetitivo",
 
-            "Redu├º├úo de cycle time em opera├º├Áes manuais"
+            "Redução de cycle time em operações manuais"
 
           ]
 
@@ -10004,29 +10004,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Cronoan├ílise",
+          "titulo": "Cronoanélise",
 
-          "definicao": "T├®cnica de medi├º├úo do tempo de trabalho por meio de cronometragem direta das opera├º├Áes, com avalia├º├úo do ritmo do operador (velocidade). Os tempos cronometrados s├úo ajustados por fatores de ritmo e toler├óncias para obter o tempo padr├úo.",
+          "definicao": "Técnica de medição do tempo de trabalho por meio de cronometragem direta das operações, com avaliação do ritmo do operador (velocidade). Os tempos cronometrados são ajustados por fatores de ritmo e tolerôncias para obter o tempo padrão.",
 
           "topicos": [
 
             "Cronometragem",
 
-            "Avalia├º├úo de ritmo",
+            "Avaliação de ritmo",
 
-            "Toler├óncias"
+            "Tolerôncias"
 
           ],
 
-          "formula": "Tempo normal = Tempo cronometrado ├ù Fator de ritmo",
+          "formula": "Tempo normal = Tempo cronometrado ú Fator de ritmo",
 
           "aplicacoes": [
 
-            "Defini├º├úo de tempo padr├úo para novas opera├º├Áes",
+            "Definição de tempo padrão para novas operações",
 
-            "Cronoan├ílise para c├ílculo de capacidade produtiva",
+            "Cronoanélise para célculo de capacidade produtiva",
 
-            "Tempo padr├úo para remunera├º├úo por produ├º├úo"
+            "Tempo padrão para remuneração por produção"
 
           ]
 
@@ -10034,29 +10034,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Tempo normal e tempo padr├úo",
+          "titulo": "Tempo normal e tempo padrão",
 
-          "definicao": "Tempo normal ├® o tempo necess├írio para executar uma tarefa sob condi├º├Áes normais, sem toler├óncias, considerando o ritmo do operador. Tempo padr├úo ├® o tempo normal acrescido de toler├óncias (fadiga, necessidades pessoais, esperas) e serve de base para planejamento e remunera├º├úo.",
+          "definicao": "Tempo normal é o tempo necessério para executar uma tarefa sob condições normais, sem tolerôncias, considerando o ritmo do operador. Tempo padrão é o tempo normal acrescido de tolerôncias (fadiga, necessidades pessoais, esperas) e serve de base para planejamento e remuneração.",
 
           "topicos": [
 
             "Fator de ritmo",
 
-            "Toler├óncias fixas e vari├íveis",
+            "Tolerôncias fixas e variéveis",
 
-            "Tempo padr├úo como refer├¬ncia"
+            "Tempo padrão como referência"
 
           ],
 
-          "formula": "Tempo padr├úo = Tempo normal ├ù (1 + Toler├óncias)",
+          "formula": "Tempo padrão = Tempo normal ú (1 + Tolerôncias)",
 
           "aplicacoes": [
 
-            "Base para planejamento e controle da produ├º├úo (PCP)",
+            "Base para planejamento e controle da produção (PCP)",
 
-            "C├ílculo de custo de m├úo de obra direta",
+            "Célculo de custo de mão de obra direta",
 
-            "Sistema de remunera├º├úo por produ├º├úo (pr├¬mio)"
+            "Sistema de remuneração por produção (prêmio)"
 
           ]
 
@@ -10066,25 +10066,25 @@ window.SITE_DATA = {
 
           "titulo": "Cronometragem",
 
-          "definicao": "Processo sistem├ítico de medi├º├úo do tempo de execu├º├úo de opera├º├Áes produtivas utilizando cron├┤metro, dividindo a tarefa em elementos e registrando m├║ltiplas amostras para garantir representatividade estat├¡stica.",
+          "definicao": "Processo sistemético de medição do tempo de execução de operações produtivas utilizando cronômetro, dividindo a tarefa em elementos e registrando múltiplas amostras para garantir representatividade estatística.",
 
           "topicos": [
 
             "Amostragem de tempos",
 
-            "Divis├úo em elementos",
+            "Divisão em elementos",
 
-            "N├║mero de ciclos"
+            "Número de ciclos"
 
           ],
 
-          "formula": "N┬║ de ciclos = (z ├ù s / e ├ù x╠ä)┬▓",
+          "formula": "N┬║ de ciclos = (z ú s / e ú x╠ä)┬▓",
 
           "aplicacoes": [
 
-            "Levantamento de tempos para novo produto em produ├º├úo",
+            "Levantamento de tempos para novo produto em produção",
 
-            "Valida├º├úo de tempo padr├úo em opera├º├Áes existentes",
+            "Validação de tempo padrão em operações existentes",
 
             "Estudo de tempos para balanceamento de linha"
 
@@ -10096,11 +10096,11 @@ window.SITE_DATA = {
 
           "titulo": "Layout industrial",
 
-          "definicao": "Projeto do arranjo f├¡sico de m├íquinas, equipamentos e postos de trabalho dentro da f├íbrica para otimizar o fluxo de materiais, pessoas e informa├º├Áes. Tipos principais: layout por produto, por processo, celular e posicional.",
+          "definicao": "Projeto do arranjo físico de méquinas, equipamentos e postos de trabalho dentro da fébrica para otimizar o fluxo de materiais, pessoas e informações. Tipos principais: layout por produto, por processo, celular e posicional.",
 
           "topicos": [
 
-            "Arranjo f├¡sico",
+            "Arranjo físico",
 
             "Fluxo de materiais",
 
@@ -10114,9 +10114,9 @@ window.SITE_DATA = {
 
             "Redesenho de layout para reduzir deslocamentos em 30%",
 
-            "Convers├úo de layout funcional para celular",
+            "Conversão de layout funcional para celular",
 
-            "Projeto de nova linha de produ├º├úo com fluxo cont├¡nuo"
+            "Projeto de nova linha de produção com fluxo contínuo"
 
           ]
 
@@ -10126,7 +10126,7 @@ window.SITE_DATA = {
 
           "titulo": "Balanceamento de linhas",
 
-          "definicao": "T├®cnica de distribui├º├úo equilibrada das tarefas entre postos de trabalho em uma linha de produ├º├úo para minimizar o tempo ocioso e maximizar a efici├¬ncia. Busca igualar os tempos de ciclo de cada esta├º├úo ao takt time.",
+          "definicao": "Técnica de distribuição equilibrada das tarefas entre postos de trabalho em uma linha de produção para minimizar o tempo ocioso e maximizar a eficiência. Busca igualar os tempos de ciclo de cada estação ao takt time.",
 
           "topicos": [
 
@@ -10134,17 +10134,17 @@ window.SITE_DATA = {
 
             "Tempo de ciclo",
 
-            "Efici├¬ncia da linha"
+            "Eficiência da linha"
 
           ],
 
-          "formula": "Takt time = Tempo dispon├¡vel / Demanda do cliente\nEfici├¬ncia = ╬ú(Tempos de tarefa) / (N┬║ de postos ├ù Tempo de ciclo)",
+          "formula": "Takt time = Tempo disponível / Demanda do cliente\nEficiência = ╬ú(Tempos de tarefa) / (N┬║ de postos ú Tempo de ciclo)",
 
           "aplicacoes": [
 
             "Balanceamento de linha de montagem automotiva",
 
-            "Re-balanceamento ap├│s mudan├ºa de mix de produ├º├úo",
+            "Re-balanceamento após mudança de mix de produção",
 
             "Yamazumi chart para balanceamento visual"
 
@@ -10156,7 +10156,7 @@ window.SITE_DATA = {
 
           "titulo": "Capacidade produtiva",
 
-          "definicao": "Volume m├íximo de produ├º├úo que uma unidade fabril pode realizar em condi├º├Áes normais de opera├º├úo, considerando recursos dispon├¡veis, turnos e n├¡vel de efici├¬ncia. Pode ser expressa em unidades, horas ou toneladas por per├¡odo.",
+          "definicao": "Volume méximo de produção que uma unidade fabril pode realizar em condições normais de operação, considerando recursos disponíveis, turnos e nível de eficiência. Pode ser expressa em unidades, horas ou toneladas por período.",
 
           "topicos": [
 
@@ -10168,13 +10168,13 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Capacidade dispon├¡vel = (Horas totais ├ù Efici├¬ncia ├ù Utiliza├º├úo)",
+          "formula": "Capacidade disponível = (Horas totais ú Eficiência ú Utilização)",
 
           "aplicacoes": [
 
             "Dimensionamento de capacidade para nova linha",
 
-            "An├ílise de gargalos e expans├Áes",
+            "Anélise de gargalos e expansões",
 
             "Plano de capacidade para atender crescimento de demanda"
 
@@ -10184,17 +10184,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gargalos de produ├º├úo",
+          "titulo": "Gargalos de produção",
 
-          "definicao": "Recurso ou etapa do processo produtivo cuja capacidade ├® inferior ├á demanda, limitando o fluxo total de produ├º├úo. Identificar e gerenciar gargalos ├® essencial para aumentar a produtividade sem grandes investimentos.",
+          "definicao": "Recurso ou etapa do processo produtivo cuja capacidade é inferior á demanda, limitando o fluxo total de produção. Identificar e gerenciar gargalos é essencial para aumentar a produtividade sem grandes investimentos.",
 
           "topicos": [
 
-            "Identifica├º├úo de gargalos",
+            "Identificação de gargalos",
 
-            "TOC ÔÇö Teoria das Restri├º├Áes",
+            "TOC ÔÇö Teoria das Restrições",
 
-            "Eleva├º├úo da restri├º├úo"
+            "Elevação da restrição"
 
           ],
 
@@ -10204,9 +10204,9 @@ window.SITE_DATA = {
 
             "Mapeamento de gargalos em manufatura de alto volume",
 
-            "Plano de eleva├º├úo de gargalo com horas extras e setups",
+            "Plano de elevação de gargalo com horas extras e setups",
 
-            "An├ílise de restri├º├Áes em processo qu├¡mico cont├¡nuo"
+            "Anélise de restrições em processo químico contínuo"
 
           ]
 
@@ -10214,29 +10214,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Teoria das Restri├º├Áes (TOC)",
+          "titulo": "Teoria das Restrições (TOC)",
 
-          "definicao": "Filosofia de gest├úo desenvolvida por Eliyahu Goldratt baseada no princ├¡pio de que todo sistema tem pelo menos uma restri├º├úo que limita seu desempenho. O processo de melhoria cont├¡nua segue cinco passos: identificar, explorar, subordinar, elevar e repetir.",
+          "definicao": "Filosofia de gestão desenvolvida por Eliyahu Goldratt baseada no princípio de que todo sistema tem pelo menos uma restrição que limita seu desempenho. O processo de melhoria contínua segue cinco passos: identificar, explorar, subordinar, elevar e repetir.",
 
           "topicos": [
 
             "Processo de 5 passos",
 
-            "Tambor-Pulm├úo-Corda (Drum-Buffer-Rope)",
+            "Tambor-Pulmão-Corda (Drum-Buffer-Rope)",
 
-            "M├®trica de throughput"
+            "Métrica de throughput"
 
           ],
 
-          "formula": "Ganho l├¡quido = Throughput - Despesas operacionais",
+          "formula": "Ganho líquido = Throughput - Despesas operacionais",
 
           "aplicacoes": [
 
-            "Gest├úo de produ├º├úo com Tambor-Pulm├úo-Corda",
+            "Gestão de produção com Tambor-Pulmão-Corda",
 
-            "Projeto de melhoria em f├íbrica com m├║ltiplos gargalos",
+            "Projeto de melhoria em fébrica com múltiplos gargalos",
 
-            "TOC aplicada a gest├úo de projetos (Critical Chain)"
+            "TOC aplicada a gestão de projetos (Critical Chain)"
 
           ]
 
@@ -10246,19 +10246,19 @@ window.SITE_DATA = {
 
           "titulo": "Produtividade industrial",
 
-          "definicao": "Medida da efici├¬ncia com que os recursos produtivos (m├úo de obra, materiais, m├íquinas) s├úo convertidos em produtos acabados. A produtividade ├® calculada pela rela├º├úo entre outputs (produ├º├úo) e inputs (recursos consumidos).",
+          "definicao": "Medida da eficiência com que os recursos produtivos (mão de obra, materiais, méquinas) são convertidos em produtos acabados. A produtividade é calculada pela relação entre outputs (produção) e inputs (recursos consumidos).",
 
           "topicos": [
 
-            "Produtividade da m├úo de obra",
+            "Produtividade da mão de obra",
 
             "Produtividade total dos fatores",
 
-            "├ìndices de produtividade"
+            "ìndices de produtividade"
 
           ],
 
-          "formula": "Produtividade = Output / Input\n(Ex: pe├ºas / homem-hora)",
+          "formula": "Produtividade = Output / Input\n(Ex: peças / homem-hora)",
 
           "aplicacoes": [
 
@@ -10266,7 +10266,7 @@ window.SITE_DATA = {
 
             "Programa de aumento de produtividade com lean manufacturing",
 
-            "Compara├º├úo de produtividade entre plantas"
+            "Comparação de produtividade entre plantas"
 
           ]
 
@@ -10274,15 +10274,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gr├ífico de homem-m├íquina",
+          "titulo": "Gréfico de homem-méquina",
 
-          "definicao": "Ferramenta de an├ílise que registra simultaneamente as atividades de um operador e de uma ou mais m├íquinas ao longo do tempo. Permite identificar per├¡odos ociosos do operador ou da m├íquina e otimizar o atendimento homem-m├íquina.",
+          "definicao": "Ferramenta de anélise que registra simultaneamente as atividades de um operador e de uma ou mais méquinas ao longo do tempo. Permite identificar períodos ociosos do operador ou da méquina e otimizar o atendimento homem-méquina.",
 
           "topicos": [
 
-            "Ciclo homem-m├íquina",
+            "Ciclo homem-méquina",
 
-            "Atividades simult├óneas",
+            "Atividades simultôneas",
 
             "Ociosidade do operador"
 
@@ -10292,11 +10292,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Otimiza├º├úo da rela├º├úo homem-m├íquina em c├®lulas de usinagem",
+            "Otimização da relação homem-méquina em células de usinagem",
 
             "Estudo de viabilidade de operador polivalente",
 
-            "An├ílise de m├║ltiplas m├íquinas por operador"
+            "Anélise de múltiplas méquinas por operador"
 
           ]
 
@@ -10306,7 +10306,7 @@ window.SITE_DATA = {
 
           "titulo": "Diagrama de fluxo de processo",
 
-          "definicao": "Representa├º├úo gr├ífica das etapas de um processo produtivo utilizando s├¡mbolos padronizados (opera├º├úo, transporte, inspe├º├úo, espera e armazenagem). Permite visualizar o fluxo completo e identificar desperd├¡cios e oportunidades de melhoria.",
+          "definicao": "Representação gréfica das etapas de um processo produtivo utilizando símbolos padronizados (operação, transporte, inspeção, espera e armazenagem). Permite visualizar o fluxo completo e identificar desperdícios e oportunidades de melhoria.",
 
           "topicos": [
 
@@ -10314,7 +10314,7 @@ window.SITE_DATA = {
 
             "Mapeamento do fluxo",
 
-            "Identifica├º├úo de desperd├¡cios"
+            "Identificação de desperdícios"
 
           ],
 
@@ -10322,11 +10322,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Mapeamento de processo produtivo para padroniza├º├úo",
+            "Mapeamento de processo produtivo para padronização",
 
-            "An├ílise de fluxo para redu├º├úo de transportes",
+            "Anélise de fluxo para redução de transportes",
 
-            "Documenta├º├úo de procedimentos operacionais"
+            "Documentação de procedimentos operacionais"
 
           ]
 
@@ -10336,13 +10336,13 @@ window.SITE_DATA = {
 
           "titulo": "Diagrama de espaguete",
 
-          "definicao": "Ferramenta visual que tra├ºa o caminho percorrido por materiais, pessoas ou informa├º├Áes dentro do layout fabril. O tra├ºado resultante, semelhante a um prato de espaguete, revela deslocamentos excessivos e oportunidades de otimiza├º├úo do layout.",
+          "definicao": "Ferramenta visual que traça o caminho percorrido por materiais, pessoas ou informações dentro do layout fabril. O traçado resultante, semelhante a um prato de espaguete, revela deslocamentos excessivos e oportunidades de otimização do layout.",
 
           "topicos": [
 
-            "An├ílise de fluxo",
+            "Anélise de fluxo",
 
-            "Dist├óncia percorrida",
+            "Distôncia percorrida",
 
             "Layout otimizado"
 
@@ -10354,7 +10354,7 @@ window.SITE_DATA = {
 
             "Mapeamento de deslocamentos em almoxarifado",
 
-            "Redu├º├úo de transporte entre opera├º├Áes em 50%",
+            "Redução de transporte entre operações em 50%",
 
             "Redesenho de layout baseado em diagrama de espaguete"
 
@@ -10364,9 +10364,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gr├ífico de atividades simult├óneas",
+          "titulo": "Gréfico de atividades simultôneas",
 
-          "definicao": "Ferramenta que registra as atividades de m├║ltiplos operadores ou operador e m├íquina no mesmo eixo temporal, permitindo identificar depend├¬ncias e balancear a carga de trabalho entre membros de uma equipe ou c├®lula.",
+          "definicao": "Ferramenta que registra as atividades de múltiplos operadores ou operador e méquina no mesmo eixo temporal, permitindo identificar dependências e balancear a carga de trabalho entre membros de uma equipe ou célula.",
 
           "topicos": [
 
@@ -10382,11 +10382,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de equipe de montagem para balanceamento",
+            "Anélise de equipe de montagem para balanceamento",
 
-            "Redistribui├º├úo de tarefas entre operadores",
+            "Redistribuição de tarefas entre operadores",
 
-            "Otimiza├º├úo de opera├º├úo em c├®lula de manufatura"
+            "Otimização de operação em célula de manufatura"
 
           ]
 
@@ -10394,29 +10394,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Sistema de toler├óncias",
+          "titulo": "Sistema de tolerôncias",
 
-          "definicao": "Conjunto de percentuais de tempo adicionados ao tempo normal para compensar fadiga, necessidades pessoais, esperas e condi├º├Áes ambientais. As toler├óncias podem ser fixas (constantes) ou vari├íveis (dependentes das condi├º├Áes de trabalho).",
+          "definicao": "Conjunto de percentuais de tempo adicionados ao tempo normal para compensar fadiga, necessidades pessoais, esperas e condições ambientais. As tolerôncias podem ser fixas (constantes) ou variéveis (dependentes das condições de trabalho).",
 
           "topicos": [
 
-            "Toler├óncias fixas",
+            "Tolerôncias fixas",
 
-            "Toler├óncias vari├íveis",
+            "Tolerôncias variéveis",
 
             "Suplementos de descanso"
 
           ],
 
-          "formula": "FTD = (Trabalho energ├®tico + Postura + Movimentos + ...)",
+          "formula": "FTD = (Trabalho energético + Postura + Movimentos + ...)",
 
           "aplicacoes": [
 
-            "Defini├º├úo de toler├óncias para opera├º├Áes pesadas na siderurgia",
+            "Definição de tolerôncias para operações pesadas na siderurgia",
 
-            "Tabela de toler├óncias por tipo de opera├º├úo",
+            "Tabela de tolerôncias por tipo de operação",
 
-            "C├ílculo de tempo padr├úo com allowances realistas"
+            "Célculo de tempo padrão com allowances realistas"
 
           ]
 
@@ -10424,9 +10424,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Tempos sint├®ticos (MTM, MOST)",
+          "titulo": "Tempos sintéticos (MTM, MOST)",
 
-          "definicao": "Sistemas de tempos pr├®-determinados (Predetermined Motion Time Systems) que atribuem valores de tempo a movimentos humanos b├ísicos (alcan├ºar, pegar, posicionar) sem necessidade de cronometragem. MTM e MOST s├úo os sistemas mais difundidos na ind├║stria.",
+          "definicao": "Sistemas de tempos pré-determinados (Predetermined Motion Time Systems) que atribuem valores de tempo a movimentos humanos bésicos (alcançar, pegar, posicionar) sem necessidade de cronometragem. MTM e MOST são os sistemas mais difundidos na indústria.",
 
           "topicos": [
 
@@ -10434,7 +10434,7 @@ window.SITE_DATA = {
 
             "MOST ÔÇö Maynard Operation Sequence Technique",
 
-            "Tempos sint├®ticos para estimativa r├ípida"
+            "Tempos sintéticos para estimativa répida"
 
           ],
 
@@ -10442,11 +10442,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estimativa de tempos para novos produtos sem prot├│tipo f├¡sico",
+            "Estimativa de tempos para novos produtos sem protótipo físico",
 
-            "Padroniza├º├úo de tempos em opera├º├Áes de montagem",
+            "Padronização de tempos em operações de montagem",
 
-            "Estudo de m├®todos com MTM para redu├º├úo de movimentos"
+            "Estudo de métodos com MTM para redução de movimentos"
 
           ]
 
@@ -10456,27 +10456,27 @@ window.SITE_DATA = {
 
           "titulo": "Amostragem do trabalho",
 
-          "definicao": "T├®cnica estat├¡stica de medi├º├úo indireta do trabalho baseada em observa├º├Áes instant├óneas aleat├│rias ao longo da jornada. Permite estimar a propor├º├úo de tempo gasto em cada atividade sem necessidade de cronometragem cont├¡nua.",
+          "definicao": "Técnica estatística de medição indireta do trabalho baseada em observações instantôneas aleatórias ao longo da jornada. Permite estimar a proporção de tempo gasto em cada atividade sem necessidade de cronometragem contínua.",
 
           "topicos": [
 
-            "Observa├º├Áes instant├óneas",
+            "Observações instantôneas",
 
-            "Intervalo de confian├ºa",
+            "Intervalo de confiança",
 
-            "Estimativa de utiliza├º├úo"
+            "Estimativa de utilização"
 
           ],
 
-          "formula": "n = z┬▓ ├ù p ├ù (1-p) / e┬▓",
+          "formula": "n = z┬▓ ú p ú (1-p) / e┬▓",
 
           "aplicacoes": [
 
-            "Levantamento de utiliza├º├úo de m├íquinas na f├íbrica",
+            "Levantamento de utilização de méquinas na fébrica",
 
-            "An├ílise de atividades improdutivas em equipes administrativas",
+            "Anélise de atividades improdutivas em equipes administrativas",
 
-            "Estudo de tempos em opera├º├Áes de manuten├º├úo"
+            "Estudo de tempos em operações de manutenção"
 
           ]
 
@@ -10486,15 +10486,15 @@ window.SITE_DATA = {
 
           "titulo": "Yamazumi",
 
-          "definicao": "Ferramenta visual japonesa (literalmente 'empilhamento') que representa graficamente a carga de trabalho de cada posto em uma linha de produ├º├úo. Cada tarefa ├® empilhada como uma barra colorida, permitindo identificar desbalanceamento entre postos.",
+          "definicao": "Ferramenta visual japonesa (literalmente 'empilhamento') que representa graficamente a carga de trabalho de cada posto em uma linha de produção. Cada tarefa é empilhada como uma barra colorida, permitindo identificar desbalanceamento entre postos.",
 
           "topicos": [
 
-            "Gr├ífico de empilhamento",
+            "Gréfico de empilhamento",
 
             "Balanceamento visual",
 
-            "Redistribui├º├úo de carga"
+            "Redistribuição de carga"
 
           ],
 
@@ -10502,11 +10502,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Yamazumi chart para balanceamento de linha de produ├º├úo",
+            "Yamazumi chart para balanceamento de linha de produção",
 
-            "Padroniza├º├úo de trabalho visualizada em cada posto",
+            "Padronização de trabalho visualizada em cada posto",
 
-            "Redu├º├úo de gargalos com redistribui├º├úo de elementos de trabalho"
+            "Redução de gargalos com redistribuição de elementos de trabalho"
 
           ]
 
@@ -10516,15 +10516,15 @@ window.SITE_DATA = {
 
           "titulo": "Layout por produto",
 
-          "definicao": "Arranjo f├¡sico onde m├íquinas e equipamentos s├úo dispostos sequencialmente conforme a rota de fabrica├º├úo de um produto espec├¡fico. Adequado para produ├º├úo em massa de alto volume e baixa variedade, pois minimiza transporte e estoques intermedi├írios.",
+          "definicao": "Arranjo físico onde méquinas e equipamentos são dispostos sequencialmente conforme a rota de fabricação de um produto específico. Adequado para produção em massa de alto volume e baixa variedade, pois minimiza transporte e estoques intermediérios.",
 
           "topicos": [
 
-            "Linha de produ├º├úo",
+            "Linha de produção",
 
-            "Fluxo cont├¡nuo",
+            "Fluxo contínuo",
 
-            "Produ├º├úo em massa"
+            "Produção em massa"
 
           ],
 
@@ -10532,11 +10532,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Linha de montagem de ve├¡culos",
+            "Linha de montagem de veículos",
 
             "Linha de envase de bebidas",
 
-            "Produ├º├úo cont├¡nua de eletrodom├®sticos"
+            "Produção contínua de eletrodomésticos"
 
           ]
 
@@ -10546,15 +10546,15 @@ window.SITE_DATA = {
 
           "titulo": "Layout celular",
 
-          "definicao": "Arranjo f├¡sico que agrupa m├íquinas e operadores dedicados a fam├¡lias de produtos com processos similares, formando c├®lulas de manufatura. Combina flexibilidade do layout por processo com efici├¬ncia do layout por produto, reduzindo lead times e WIP.",
+          "definicao": "Arranjo físico que agrupa méquinas e operadores dedicados a famílias de produtos com processos similares, formando células de manufatura. Combina flexibilidade do layout por processo com eficiência do layout por produto, reduzindo lead times e WIP.",
 
           "topicos": [
 
             "Tecnologia de grupo",
 
-            "C├®lula de manufatura",
+            "Célula de manufatura",
 
-            "Fam├¡lias de produtos"
+            "Famílias de produtos"
 
           ],
 
@@ -10562,11 +10562,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de c├®lulas de usinagem para fam├¡lias de pe├ºas",
+            "Implementação de células de usinagem para famílias de peças",
 
-            "C├®lula de montagem em U com operador multitarefa",
+            "Célula de montagem em U com operador multitarefa",
 
-            "Convers├úo de layout funcional para celular"
+            "Conversão de layout funcional para celular"
 
           ]
 
@@ -10574,9 +10574,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de valor agregado",
+          "titulo": "Anélise de valor agregado",
 
-          "definicao": "T├®cnica que classifica cada atividade do processo produtivo como agregadora de valor (AV), necess├íria mas n├úo agregadora (NNA) ou puro desperd├¡cio. Permite focar esfor├ºos de melhoria na elimina├º├úo de desperd├¡cios e na simplifica├º├úo de atividades.",
+          "definicao": "Técnica que classifica cada atividade do processo produtivo como agregadora de valor (AV), necesséria mas não agregadora (NNA) ou puro desperdício. Permite focar esforços de melhoria na eliminação de desperdícios e na simplificação de atividades.",
 
           "topicos": [
 
@@ -10584,7 +10584,7 @@ window.SITE_DATA = {
 
             "Mapeamento de fluxo de valor (VSM)",
 
-            "Desperd├¡cios lean"
+            "Desperdícios lean"
 
           ],
 
@@ -10592,11 +10592,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "VSM de processo produtivo com classifica├º├úo AV",
+            "VSM de processo produtivo com classificação AV",
 
             "Projeto de melhoria para reduzir NAV em 50%",
 
-            "An├ílise de valor agregado em processo administrativo"
+            "Anélise de valor agregado em processo administrativo"
 
           ]
 
@@ -10606,7 +10606,7 @@ window.SITE_DATA = {
 
           "titulo": "Tempo de atravessamento",
 
-          "definicao": "Lead time total desde a entrada da mat├®ria-prima at├® a libera├º├úo do produto acabado, incluindo processamento, espera, movimenta├º├úo e inspe├º├úo. A redu├º├úo do tempo de atravessamento ├® objetivo central da manufatura enxuta.",
+          "definicao": "Lead time total desde a entrada da matéria-prima até a liberação do produto acabado, incluindo processamento, espera, movimentação e inspeção. A redução do tempo de atravessamento é objetivo central da manufatura enxuta.",
 
           "topicos": [
 
@@ -10614,19 +10614,19 @@ window.SITE_DATA = {
 
             "Tempo de processo vs. tempo total",
 
-            "Redu├º├úo de atravessamento"
+            "Redução de atravessamento"
 
           ],
 
-          "formula": "Tempo de atravessamento = ╬ú(Tempo de processamento + Esperas + Transportes + Inspe├º├Áes)",
+          "formula": "Tempo de atravessamento = ╬ú(Tempo de processamento + Esperas + Transportes + Inspeções)",
 
           "aplicacoes": [
 
-            "Redu├º├úo de lead time de 15 para 5 dias em linha de produ├º├úo",
+            "Redução de lead time de 15 para 5 dias em linha de produção",
 
-            "An├ílise de atravessamento para identifica├º├úo de desperd├¡cios",
+            "Anélise de atravessamento para identificação de desperdícios",
 
-            "Impacto da redu├º├úo de lote no tempo de atravessamento"
+            "Impacto da redução de lote no tempo de atravessamento"
 
           ]
 
@@ -10645,29 +10645,29 @@ window.SITE_DATA = {
 
       "id": "simulacao",
 
-      "nome": "Simula├º├úo e Modelagem",
+      "nome": "Simulação e Modelagem",
 
       "icone": "monitor",
 
       "cor": "#2563eb",
 
-      "descricao": "Simula├º├úo computacional de processos e sistemas produtivos.",
+      "descricao": "Simulação computacional de processos e sistemas produtivos.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Simula├º├úo de processos",
+          "titulo": "Simulação de processos",
 
-          "definicao": "T├®cnica de representa├º├úo computacional de processos produtivos para analisar seu comportamento sob diferentes condi├º├Áes operacionais. Permite testar cen├írios, identificar gargalos, avaliar alternativas de layout e otimizar recursos sem interromper a opera├º├úo real.",
+          "definicao": "Técnica de representação computacional de processos produtivos para analisar seu comportamento sob diferentes condições operacionais. Permite testar cenérios, identificar gargalos, avaliar alternativas de layout e otimizar recursos sem interromper a operação real.",
 
           "topicos": [
 
             "Modelagem de sistemas",
 
-            "Experimenta├º├úo computacional",
+            "Experimentação computacional",
 
-            "An├ílise de cen├írios"
+            "Anélise de cenérios"
 
           ],
 
@@ -10675,11 +10675,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de nova linha de produ├º├úo para validar capacidade",
+            "Simulação de nova linha de produção para validar capacidade",
 
-            "Teste de diferentes pol├¡ticas de manuten├º├úo em ambiente virtual",
+            "Teste de diferentes políticas de manutenção em ambiente virtual",
 
-            "An├ílise de impacto de varia├º├úo de demanda no sistema produtivo"
+            "Anélise de impacto de variação de demanda no sistema produtivo"
 
           ]
 
@@ -10689,7 +10689,7 @@ window.SITE_DATA = {
 
           "titulo": "Eventos discretos",
 
-          "definicao": "Paradigma de simula├º├úo onde o sistema muda de estado apenas em momentos discretos no tempo, correspondentes ├á ocorr├¬ncia de eventos (chegada de pedido, in├¡cio de opera├º├úo, falha de m├íquina). ├ë o m├®todo mais utilizado para simular sistemas de manufatura e log├¡stica.",
+          "definicao": "Paradigma de simulação onde o sistema muda de estado apenas em momentos discretos no tempo, correspondentes á ocorrência de eventos (chegada de pedido, início de operação, falha de méquina). ë o método mais utilizado para simular sistemas de manufatura e logística.",
 
           "topicos": [
 
@@ -10697,7 +10697,7 @@ window.SITE_DATA = {
 
             "Eventos e estados",
 
-            "Rel├│gio da simula├º├úo"
+            "Relógio da simulação"
 
           ],
 
@@ -10705,11 +10705,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo discreta de linha de montagem com falhas aleat├│rias",
+            "Simulação discreta de linha de montagem com falhas aleatórias",
 
-            "Modelagem de centro de distribui├º├úo com m├║ltiplos recursos",
+            "Modelagem de centro de distribuição com múltiplos recursos",
 
-            "An├ílise de filas em sistema de atendimento"
+            "Anélise de filas em sistema de atendimento"
 
           ]
 
@@ -10717,15 +10717,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Simula├º├úo computacional",
+          "titulo": "Simulação computacional",
 
-          "definicao": "Uso de software especializado para criar modelos digitais de sistemas reais e realizar experimentos controlados. Permite avaliar desempenho, testar hip├│teses e otimizar decis├Áes em ambiente livre de riscos e com custos reduzidos.",
+          "definicao": "Uso de software especializado para criar modelos digitais de sistemas reais e realizar experimentos controlados. Permite avaliar desempenho, testar hipóteses e otimizar decisões em ambiente livre de riscos e com custos reduzidos.",
 
           "topicos": [
 
             "Modelos digitais",
 
-            "Experimenta├º├úo in silico",
+            "Experimentação in silico",
 
             "Ferramentas computacionais"
 
@@ -10735,11 +10735,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de throughput de f├íbrica antes de investimento em equipamentos",
+            "Simulação de throughput de fébrica antes de investimento em equipamentos",
 
-            "Valida├º├úo de l├│gica operacional de sistema de manuseio de materiais",
+            "Validação de lógica operacional de sistema de manuseio de materiais",
 
-            "Redu├º├úo de riscos em projetos de expans├úo fabril"
+            "Redução de riscos em projetos de expansão fabril"
 
           ]
 
@@ -10749,15 +10749,15 @@ window.SITE_DATA = {
 
           "titulo": "Arena Simulation",
 
-          "definicao": "Software l├¡der de simula├º├úo de eventos discretos desenvolvido pela Rockwell Automation, amplamente utilizado na ind├║stria e academia. Interface gr├ífica com blocos de modelagem permite construir modelos de processos complexos de forma intuitiva.",
+          "definicao": "Software líder de simulação de eventos discretos desenvolvido pela Rockwell Automation, amplamente utilizado na indústria e academia. Interface gréfica com blocos de modelagem permite construir modelos de processos complexos de forma intuitiva.",
 
           "topicos": [
 
             "Modelagem com blocos Arena",
 
-            "Anima├º├úo 3D",
+            "Animação 3D",
 
-            "An├ílise de resultados"
+            "Anélise de resultados"
 
           ],
 
@@ -10765,11 +10765,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de sistema produtivo com Arena para otimiza├º├úo de layout",
+            "Simulação de sistema produtivo com Arena para otimização de layout",
 
-            "Modelagem de processo log├¡stico com m├║ltiplos cen├írios",
+            "Modelagem de processo logístico com múltiplos cenérios",
 
-            "An├ílise de gargalos em planta fabril usando Process Analyzer"
+            "Anélise de gargalos em planta fabril usando Process Analyzer"
 
           ]
 
@@ -10779,15 +10779,15 @@ window.SITE_DATA = {
 
           "titulo": "FlexSim",
 
-          "definicao": "Software de simula├º├úo 3D de eventos discretos focado em manufatura, log├¡stica e supply chain. Diferencia-se pela modelagem tridimensional em tempo real, permitindo visualiza├º├úo intuitiva de fluxos e intera├º├Áes entre recursos.",
+          "definicao": "Software de simulação 3D de eventos discretos focado em manufatura, logística e supply chain. Diferencia-se pela modelagem tridimensional em tempo real, permitindo visualização intuitiva de fluxos e interações entre recursos.",
 
           "topicos": [
 
             "Modelagem 3D",
 
-            "Simula├º├úo de manufatura",
+            "Simulação de manufatura",
 
-            "An├ílise de throughput"
+            "Anélise de throughput"
 
           ],
 
@@ -10795,9 +10795,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo 3D de centro de distribui├º├úo automatizado",
+            "Simulação 3D de centro de distribuição automatizado",
 
-            "Otimiza├º├úo de fluxo de materiais em f├íbrica de bens de consumo",
+            "Otimização de fluxo de materiais em fébrica de bens de consumo",
 
             "Modelagem de sistema de transportadores e AGVs"
 
@@ -10809,15 +10809,15 @@ window.SITE_DATA = {
 
           "titulo": "AnyLogic",
 
-          "definicao": "Plataforma de simula├º├úo multim├®todo que suporta modelagem por eventos discretos, din├ómica de sistemas e agentes (agent-based) em um ├║nico ambiente. Utilizada para problemas complexos que exigem diferentes abordagens de modelagem.",
+          "definicao": "Plataforma de simulação multimétodo que suporta modelagem por eventos discretos, dinômica de sistemas e agentes (agent-based) em um único ambiente. Utilizada para problemas complexos que exigem diferentes abordagens de modelagem.",
 
           "topicos": [
 
-            "Multim├®todo",
+            "Multimétodo",
 
             "Modelagem baseada em agentes",
 
-            "Din├ómica de sistemas"
+            "Dinômica de sistemas"
 
           ],
 
@@ -10825,11 +10825,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de cadeia de suprimentos com AnyLogic",
+            "Simulação de cadeia de suprimentos com AnyLogic",
 
-            "Modelagem de fluxo de pedestres em esta├º├Áes",
+            "Modelagem de fluxo de pedestres em estações",
 
-            "Simula├º├úo de ado├º├úo de novos produtos no mercado"
+            "Simulação de adoção de novos produtos no mercado"
 
           ]
 
@@ -10839,15 +10839,15 @@ window.SITE_DATA = {
 
           "titulo": "Modelagem de sistemas",
 
-          "definicao": "Processo de constru├º├úo de representa├º├Áes abstratas de sistemas reais para fins de an├ílise, previs├úo e otimiza├º├úo. Envolve defini├º├úo de limites, vari├íveis, rela├º├Áes causais, par├ómetros e regras de comportamento do sistema modelado.",
+          "definicao": "Processo de construção de representações abstratas de sistemas reais para fins de anélise, previsão e otimização. Envolve definição de limites, variéveis, relações causais, parômetros e regras de comportamento do sistema modelado.",
 
           "topicos": [
 
-            "Abstra├º├úo e simplifica├º├úo",
+            "Abstração e simplificação",
 
-            "Valida├º├úo conceitual",
+            "Validação conceitual",
 
-            "Par├ómetros e vari├íveis de decis├úo"
+            "Parômetros e variéveis de decisão"
 
           ],
 
@@ -10855,11 +10855,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Modelagem conceitual de sistema produtivo para Simula├º├úo",
+            "Modelagem conceitual de sistema produtivo para Simulação",
 
-            "Constru├º├úo de modelo de din├ómica de sistemas para supply chain",
+            "Construção de modelo de dinômica de sistemas para supply chain",
 
-            "Modelagem de filas em sistema de servi├ºos"
+            "Modelagem de filas em sistema de serviços"
 
           ]
 
@@ -10867,17 +10867,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Otimiza├º├úo via simula├º├úo",
+          "titulo": "Otimização via simulação",
 
-          "definicao": "Abordagem que combina simula├º├úo com algoritmos de otimiza├º├úo para encontrar a melhor configura├º├úo de par├ómetros de um sistema complexo. A simula├º├úo avalia o desempenho de cada configura├º├úo candidata, guiando a busca pela solu├º├úo ├│tima.",
+          "definicao": "Abordagem que combina simulação com algoritmos de otimização para encontrar a melhor configuração de parômetros de um sistema complexo. A simulação avalia o desempenho de cada configuração candidata, guiando a busca pela solução ótima.",
 
           "topicos": [
 
-            "Algoritmos gen├®ticos",
+            "Algoritmos genéticos",
 
             "Simulated annealing",
 
-            "Otimiza├º├úo heur├¡stica"
+            "Otimização heurística"
 
           ],
 
@@ -10885,11 +10885,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Otimiza├º├úo de n├║mero de operadores em linha de produ├º├úo via simula├º├úo",
+            "Otimização de número de operadores em linha de produção via simulação",
 
-            "Minimiza├º├úo de custo log├¡stico com otimiza├º├úo-simula├º├úo",
+            "Minimização de custo logístico com otimização-simulação",
 
-            "Dimensionamento ├│timo de frota com algoritmo gen├®tico + simula├º├úo"
+            "Dimensionamento ótimo de frota com algoritmo genético + simulação"
 
           ]
 
@@ -10897,17 +10897,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de cen├írios",
+          "titulo": "Anélise de cenérios",
 
-          "definicao": "T├®cnica de avalia├º├úo do comportamento do sistema sob diferentes conjuntos de condi├º├Áes pr├®-definidas (cen├írios). Permite comparar alternativas operacionais, testar robustez de decis├Áes e preparar a organiza├º├úo para diferentes futuros poss├¡veis.",
+          "definicao": "Técnica de avaliação do comportamento do sistema sob diferentes conjuntos de condições pré-definidas (cenérios). Permite comparar alternativas operacionais, testar robustez de decisões e preparar a organização para diferentes futuros possíveis.",
 
           "topicos": [
 
-            "Cen├írios operacionais",
+            "Cenérios operacionais",
 
-            "An├ílise comparativa",
+            "Anélise comparativa",
 
-            "├ürvore de decis├úo"
+            "ürvore de decisão"
 
           ],
 
@@ -10915,11 +10915,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Compara├º├úo de 5 cen├írios de layout fabril com simula├º├úo",
+            "Comparação de 5 cenérios de layout fabril com simulação",
 
-            "An├ílise de cen├írios de demanda vs. capacidade produtiva",
+            "Anélise de cenérios de demanda vs. capacidade produtiva",
 
-            "Teste de pol├¡ticas de estoque em diferentes cen├írios de lead time"
+            "Teste de políticas de estoque em diferentes cenérios de lead time"
 
           ]
 
@@ -10927,17 +10927,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Simula├º├úo Monte Carlo",
+          "titulo": "Simulação Monte Carlo",
 
-          "definicao": "M├®todo estat├¡stico que utiliza amostragem aleat├│ria repetida para estimar resultados de sistemas com incerteza. Amplamente usado para an├ílise de risco financeiro, previs├úo de prazos, estimativas de custo e dimensionamento de capacidade.",
+          "definicao": "Método estatístico que utiliza amostragem aleatória repetida para estimar resultados de sistemas com incerteza. Amplamente usado para anélise de risco financeiro, previsão de prazos, estimativas de custo e dimensionamento de capacidade.",
 
           "topicos": [
 
-            "Amostragem aleat├│ria",
+            "Amostragem aleatória",
 
-            "Distribui├º├Áes de probabilidade",
+            "Distribuições de probabilidade",
 
-            "An├ílise de risco"
+            "Anélise de risco"
 
           ],
 
@@ -10945,11 +10945,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de VPL de projeto com incerteza em receitas e custos",
+            "Simulação de VPL de projeto com incerteza em receitas e custos",
 
             "Estimativa de prazo de projeto com PERT + Monte Carlo",
 
-            "An├ílise de risco em investimento industrial"
+            "Anélise de risco em investimento industrial"
 
           ]
 
@@ -10957,17 +10957,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Valida├º├úo de modelos",
+          "titulo": "Validação de modelos",
 
-          "definicao": "Processo de verificar se o modelo computacional representa adequadamente o sistema real para os prop├│sitos do estudo. Inclui valida├º├úo conceitual (especialistas) e operacional (compara├º├úo de outputs simulados vs. dados reais).",
+          "definicao": "Processo de verificar se o modelo computacional representa adequadamente o sistema real para os propósitos do estudo. Inclui validação conceitual (especialistas) e operacional (comparação de outputs simulados vs. dados reais).",
 
           "topicos": [
 
-            "Valida├º├úo conceitual",
+            "Validação conceitual",
 
-            "Valida├º├úo operacional",
+            "Validação operacional",
 
-            "An├ílise de sensibilidade"
+            "Anélise de sensibilidade"
 
           ],
 
@@ -10975,9 +10975,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Compara├º├úo de dados simulados vs. hist├│ricos de produ├º├úo",
+            "Comparação de dados simulados vs. históricos de produção",
 
-            "Valida├º├úo de modelo com especialistas de ch├úo de f├íbrica",
+            "Validação de modelo com especialistas de chão de fébrica",
 
             "Teste de sensibilidade para confirmar comportamento esperado"
 
@@ -10987,17 +10987,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "An├ílise de sensibilidade",
+          "titulo": "Anélise de sensibilidade",
 
-          "definicao": "T├®cnica que avalia como a varia├º├úo dos par├ómetros de entrada do modelo afeta os resultados simulados. Identifica quais vari├íveis t├¬m maior impacto no desempenho do sistema, direcionando esfor├ºos de coleta de dados e melhoria.",
+          "definicao": "Técnica que avalia como a variação dos parômetros de entrada do modelo afeta os resultados simulados. Identifica quais variéveis têm maior impacto no desempenho do sistema, direcionando esforços de coleta de dados e melhoria.",
 
           "topicos": [
 
-            "Par├ómetros cr├¡ticos",
+            "Parômetros críticos",
 
-            "Gr├ífico de tornado",
+            "Gréfico de tornado",
 
-            "Impacto nas sa├¡das"
+            "Impacto nas saídas"
 
           ],
 
@@ -11005,11 +11005,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Identifica├º├úo de vari├íveis cr├¡ticas em modelo de produ├º├úo",
+            "Identificação de variéveis críticas em modelo de produção",
 
-            "An├ílise de sensibilidade de par├ómetros de manuten├º├úo no OEE",
+            "Anélise de sensibilidade de parômetros de manutenção no OEE",
 
-            "Prioriza├º├úo de fatores de melhoria baseada em impacto simulado"
+            "Priorização de fatores de melhoria baseada em impacto simulado"
 
           ]
 
@@ -11017,17 +11017,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Simula├º├úo de manufatura",
+          "titulo": "Simulação de manufatura",
 
-          "definicao": "Aplica├º├úo espec├¡fica de simula├º├úo computacional a sistemas de manufatura para analisar throughput, utiliza├º├úo de recursos, lead times, forma├º├úo de filas e gargalos. Essencial para projeto e melhoria de sistemas produtivos complexos.",
+          "definicao": "Aplicação específica de simulação computacional a sistemas de manufatura para analisar throughput, utilização de recursos, lead times, formação de filas e gargalos. Essencial para projeto e melhoria de sistemas produtivos complexos.",
 
           "topicos": [
 
             "Manufatura discreta",
 
-            "Manufatura cont├¡nua",
+            "Manufatura contínua",
 
-            "Sistemas flex├¡veis de manufatura"
+            "Sistemas flexíveis de manufatura"
 
           ],
 
@@ -11035,11 +11035,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de sistema de manufatura flex├¡vel (FMS)",
+            "Simulação de sistema de manufatura flexível (FMS)",
 
-            "An├ílise de capacidade de planta antes de novos contratos",
+            "Anélise de capacidade de planta antes de novos contratos",
 
-            "Estudo de pol├¡ticas de programa├º├úo da produ├º├úo (scheduling)"
+            "Estudo de políticas de programação da produção (scheduling)"
 
           ]
 
@@ -11047,17 +11047,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Simula├º├úo log├¡stica",
+          "titulo": "Simulação logística",
 
-          "definicao": "Aplica├º├úo de simula├º├úo a sistemas log├¡sticos e de supply chain para otimizar transportes, armazenagem, distribui├º├úo e gest├úo de estoques. Permite avaliar pol├¡ticas de reposi├º├úo, roteiriza├º├úo e dimensionamento de frota.",
+          "definicao": "Aplicação de simulação a sistemas logísticos e de supply chain para otimizar transportes, armazenagem, distribuição e gestão de estoques. Permite avaliar políticas de reposição, roteirização e dimensionamento de frota.",
 
           "topicos": [
 
             "Cadeia de suprimentos",
 
-            "Centro de distribui├º├úo",
+            "Centro de distribuição",
 
-            "Roteiriza├º├úo"
+            "Roteirização"
 
           ],
 
@@ -11065,11 +11065,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de opera├º├úo de centro de distribui├º├úo (CD)",
+            "Simulação de operação de centro de distribuição (CD)",
 
-            "Modelagem de cadeia log├¡stica multicamadas",
+            "Modelagem de cadeia logística multicamadas",
 
-            "Dimensionamento de frota com simula├º├úo de rotas"
+            "Dimensionamento de frota com simulação de rotas"
 
           ]
 
@@ -11077,13 +11077,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Simula├º├úo de servi├ºos",
+          "titulo": "Simulação de serviços",
 
-          "definicao": "Aplica├º├úo de t├®cnicas de simula├º├úo a sistemas de servi├ºos como hospitais, bancos, restaurantes, call centers e aeroportos. Diferencia-se da simula├º├úo de manufatura pela predomin├óncia do fator humano e variabilidade dos processos.",
+          "definicao": "Aplicação de técnicas de simulação a sistemas de serviços como hospitais, bancos, restaurantes, call centers e aeroportos. Diferencia-se da simulação de manufatura pela predominôncia do fator humano e variabilidade dos processos.",
 
           "topicos": [
 
-            "Hospitais e sa├║de",
+            "Hospitais e saúde",
 
             "Atendimento ao cliente",
 
@@ -11095,11 +11095,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de fluxo de pacientes em pronto-socorro",
+            "Simulação de fluxo de pacientes em pronto-socorro",
 
-            "Dimensionamento de equipe de call center com simula├º├úo",
+            "Dimensionamento de equipe de call center com simulação",
 
-            "Otimiza├º├úo de atendimento em ag├¬ncia banc├íria"
+            "Otimização de atendimento em agência bancéria"
 
           ]
 
@@ -11107,17 +11107,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "G├¬meo digital vs. simula├º├úo",
+          "titulo": "Gêmeo digital vs. simulação",
 
-          "definicao": "G├¬meo digital ├® uma r├®plica virtual de um sistema real conectada em tempo real a sensores e dados operacionais, evoluindo com o sistema f├¡sico. Difere da simula├º├úo tradicional, que ├® pontual e offline, por sua natureza cont├¡nua e bidirecional.",
+          "definicao": "Gêmeo digital é uma réplica virtual de um sistema real conectada em tempo real a sensores e dados operacionais, evoluindo com o sistema físico. Difere da simulação tradicional, que é pontual e offline, por sua natureza contínua e bidirecional.",
 
           "topicos": [
 
-            "R├®plica digital",
+            "Réplica digital",
 
             "Tempo real e IoT",
 
-            "Manuten├º├úo preditiva"
+            "Manutenção preditiva"
 
           ],
 
@@ -11125,11 +11125,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "G├¬meo digital de linha de produ├º├úo para monitoramento em tempo real",
+            "Gêmeo digital de linha de produção para monitoramento em tempo real",
 
-            "Integra├º├úo de simula├º├úo com sistemas MES e SCADA",
+            "Integração de simulação com sistemas MES e SCADA",
 
-            "Compara├º├úo entre abordagens para tomada de decis├úo"
+            "Comparação entre abordagens para tomada de decisão"
 
           ]
 
@@ -11139,15 +11139,15 @@ window.SITE_DATA = {
 
           "titulo": "Tecnologia Plant Simulation",
 
-          "definicao": "Software da Siemens (antigo Tecnomatix Plant Simulation) para simula├º├úo, visualiza├º├úo e otimiza├º├úo de sistemas produtivos e log├¡sticos. Permite modelar, analisar e otimizar fluxos de materiais e opera├º├Áes em ambiente virtual 3D.",
+          "definicao": "Software da Siemens (antigo Tecnomatix Plant Simulation) para simulação, visualização e otimização de sistemas produtivos e logísticos. Permite modelar, analisar e otimizar fluxos de materiais e operações em ambiente virtual 3D.",
 
           "topicos": [
 
             "Siemens Tecnomatix",
 
-            "Otimiza├º├úo de fluxo",
+            "Otimização de fluxo",
 
-            "G├¬meo digital de f├íbrica"
+            "Gêmeo digital de fébrica"
 
           ],
 
@@ -11155,11 +11155,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de f├íbrica completa com Plant Simulation",
+            "Simulação de fébrica completa com Plant Simulation",
 
-            "Otimiza├º├úo de layout e fluxo de materiais em planta automotiva",
+            "Otimização de layout e fluxo de materiais em planta automotiva",
 
-            "An├ílise de cen├írios de produ├º├úo integrada com ERP"
+            "Anélise de cenérios de produção integrada com ERP"
 
           ]
 
@@ -11169,15 +11169,15 @@ window.SITE_DATA = {
 
           "titulo": "Simul8",
 
-          "definicao": "Software de simula├º├úo de eventos discretos com interface visual intuitiva, focado em aplica├º├Áes de manufatura, servi├ºos e sa├║de. Destaca-se pela facilidade de uso e r├ípida prototipagem de modelos.",
+          "definicao": "Software de simulação de eventos discretos com interface visual intuitiva, focado em aplicações de manufatura, serviços e saúde. Destaca-se pela facilidade de uso e répida prototipagem de modelos.",
 
           "topicos": [
 
             "Interface visual",
 
-            "Simula├º├úo de filas",
+            "Simulação de filas",
 
-            "Aplica├º├Áes em sa├║de"
+            "Aplicações em saúde"
 
           ],
 
@@ -11185,11 +11185,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo r├ípida de processo produtivo para suporte ├á decis├úo",
+            "Simulação répida de processo produtivo para suporte á decisão",
 
-            "Modelagem de fluxo de pacientes em unidade de sa├║de",
+            "Modelagem de fluxo de pacientes em unidade de saúde",
 
-            "An├ílise de capacidade em opera├º├Áes de servi├ºos"
+            "Anélise de capacidade em operações de serviços"
 
           ]
 
@@ -11208,13 +11208,13 @@ window.SITE_DATA = {
 
       "id": "inovacao",
 
-      "nome": "Gest├úo da Inova├º├úo",
+      "nome": "Gestão da Inovação",
 
       "icone": "lightbulb",
 
       "cor": "#ca8a04",
 
-      "descricao": "P&D, open innovation, design thinking e cultura de inova├º├úo industrial.",
+      "descricao": "P&D, open innovation, design thinking e cultura de inovação industrial.",
 
       "subtopicos": [
 
@@ -11222,11 +11222,11 @@ window.SITE_DATA = {
 
           "titulo": "P&D ÔÇö Pesquisa e Desenvolvimento",
 
-          "definicao": "Conjunto de atividades sistem├íticas e criativas para aumentar o conhecimento dispon├¡vel e gerar novas aplica├º├Áes tecnol├│gicas. Divide-se em pesquisa b├ísica, pesquisa aplicada e desenvolvimento experimental, sendo motor da inova├º├úo tecnol├│gica industrial.",
+          "definicao": "Conjunto de atividades sisteméticas e criativas para aumentar o conhecimento disponível e gerar novas aplicações tecnológicas. Divide-se em pesquisa bésica, pesquisa aplicada e desenvolvimento experimental, sendo motor da inovação tecnológica industrial.",
 
           "topicos": [
 
-            "Pesquisa b├ísica",
+            "Pesquisa bésica",
 
             "Pesquisa aplicada",
 
@@ -11238,11 +11238,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Laborat├│rio de P&D para novos materiais",
+            "Laboratório de P&D para novos materiais",
 
             "Projetos de pesquisa em parceria universidade-empresa",
 
-            "Gest├úo de portf├│lio de P&D com crit├®rios de prioriza├º├úo"
+            "Gestão de portfólio de P&D com critérios de priorização"
 
           ]
 
@@ -11250,17 +11250,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo da inova├º├úo",
+          "titulo": "Gestão da inovação",
 
-          "definicao": "Processo estruturado de planejar, organizar, dirigir e controlar as iniciativas de inova├º├úo dentro da organiza├º├úo, desde a gera├º├úo de ideias at├® a implementa├º├úo e difus├úo. Envolve gest├úo de portf├│lio, m├®tricas de inova├º├úo e alinhamento estrat├®gico.",
+          "definicao": "Processo estruturado de planejar, organizar, dirigir e controlar as iniciativas de inovação dentro da organização, desde a geração de ideias até a implementação e difusão. Envolve gestão de portfólio, métricas de inovação e alinhamento estratégico.",
 
           "topicos": [
 
-            "Processo de inova├º├úo",
+            "Processo de inovação",
 
-            "Portf├│lio de inova├º├úo",
+            "Portfólio de inovação",
 
-            "M├®tricas de inova├º├úo"
+            "Métricas de inovação"
 
           ],
 
@@ -11268,11 +11268,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estrutura├º├úo de departamento de gest├úo da inova├º├úo",
+            "Estruturação de departamento de gestão da inovação",
 
-            "Implanta├º├úo de sistema de gest├úo de ideias (sugest├Áes)",
+            "Implantação de sistema de gestão de ideias (sugestões)",
 
-            "Relat├│rio de inova├º├úo com indicadores de resultado"
+            "Relatório de inovação com indicadores de resultado"
 
           ]
 
@@ -11282,15 +11282,15 @@ window.SITE_DATA = {
 
           "titulo": "Design Thinking",
 
-          "definicao": "Abordagem centrada no ser humano para resolu├º├úo de problemas complexos utilizando a mentalidade do designer. Segue etapas de empatia, defini├º├úo, idea├º├úo, prototipa├º├úo e teste, combinando pensamento divergente e convergente.",
+          "definicao": "Abordagem centrada no ser humano para resolução de problemas complexos utilizando a mentalidade do designer. Segue etapas de empatia, definição, ideação, prototipação e teste, combinando pensamento divergente e convergente.",
 
           "topicos": [
 
-            "Empatia e pesquisa com usu├írios",
+            "Empatia e pesquisa com usuérios",
 
-            "Idea├º├úo",
+            "Ideação",
 
-            "Prototipa├º├úo r├ípida"
+            "Prototipação répida"
 
           ],
 
@@ -11298,11 +11298,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Workshop de design thinking para inova├º├úo em produto",
+            "Workshop de design thinking para inovação em produto",
 
-            "Cocria├º├úo com clientes para novo servi├ºo industrial",
+            "Cocriação com clientes para novo serviço industrial",
 
-            "Resolu├º├úo de problemas complexos com metodologia double diamond"
+            "Resolução de problemas complexos com metodologia double diamond"
 
           ]
 
@@ -11312,15 +11312,15 @@ window.SITE_DATA = {
 
           "titulo": "Open Innovation",
 
-          "definicao": "Paradigma de inova├º├úo que defende o uso de fluxos de conhecimento internos e externos para acelerar a inova├º├úo interna e expandir mercados. Combina tecnologias internas com parcerias externas, startups, universidades e laborat├│rios de pesquisa.",
+          "definicao": "Paradigma de inovação que defende o uso de fluxos de conhecimento internos e externos para acelerar a inovação interna e expandir mercados. Combina tecnologias internas com parcerias externas, startups, universidades e laboratórios de pesquisa.",
 
           "topicos": [
 
-            "Inova├º├úo aberta inbound e outbound",
+            "Inovação aberta inbound e outbound",
 
             "Corporate venture",
 
-            "Plataformas de inova├º├úo"
+            "Plataformas de inovação"
 
           ],
 
@@ -11328,11 +11328,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa de aproxima├º├úo com startups (corporate venture)",
+            "Programa de aproximação com startups (corporate venture)",
 
             "Licenciamento de tecnologia desenvolvida internamente",
 
-            "Desafios de inova├º├úo abertos ao ecossistema"
+            "Desafios de inovação abertos ao ecossistema"
 
           ]
 
@@ -11340,17 +11340,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Transforma├º├úo organizacional",
+          "titulo": "Transformação organizacional",
 
-          "definicao": "Processo profundo de mudan├ºa na estrutura, cultura, processos e modelo de neg├│cio da organiza├º├úo para responder a disrup├º├Áes tecnol├│gicas, de mercado ou regulat├│rias. Requer lideran├ºa, comunica├º├úo e gest├úo da mudan├ºa estruturada.",
+          "definicao": "Processo profundo de mudança na estrutura, cultura, processos e modelo de negócio da organização para responder a disrupções tecnológicas, de mercado ou regulatórias. Requer liderança, comunicação e gestão da mudança estruturada.",
 
           "topicos": [
 
-            "Gest├úo da mudan├ºa",
+            "Gestão da mudança",
 
-            "Transforma├º├úo digital",
+            "Transformação digital",
 
-            "Reestrutura├º├úo cultural"
+            "Reestruturação cultural"
 
           ],
 
@@ -11358,11 +11358,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Transforma├º├úo digital de ind├║stria tradicional para Ind├║stria 4.0",
+            "Transformação digital de indústria tradicional para Indústria 4.0",
 
-            "Programa de transforma├º├úo cultural lean",
+            "Programa de transformação cultural lean",
 
-            "Reestrutura├º├úo organizacional para agilidade e inova├º├úo"
+            "Reestruturação organizacional para agilidade e inovação"
 
           ]
 
@@ -11372,11 +11372,11 @@ window.SITE_DATA = {
 
           "titulo": "Propriedade intelectual e patentes",
 
-          "definicao": "Conjunto de direitos legais que protegem cria├º├Áes intelectuais, incluindo patentes de inven├º├úo, modelos de utilidade, desenhos industriais e marcas. As patentes conferem exclusividade tempor├íria (20 anos no Brasil) e s├úo indicadores-chave de inova├º├úo tecnol├│gica.",
+          "definicao": "Conjunto de direitos legais que protegem criações intelectuais, incluindo patentes de invenção, modelos de utilidade, desenhos industriais e marcas. As patentes conferem exclusividade temporéria (20 anos no Brasil) e são indicadores-chave de inovação tecnológica.",
 
           "topicos": [
 
-            "Patentes de inven├º├úo",
+            "Patentes de invenção",
 
             "Marcas e desenhos industriais",
 
@@ -11388,11 +11388,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Dep├│sito de patente de nova tecnologia de processo",
+            "Depósito de patente de nova tecnologia de processo",
 
-            "Mapeamento de patentes para intelig├¬ncia competitiva",
+            "Mapeamento de patentes para inteligência competitiva",
 
-            "Estrat├®gia de portf├│lio de PI para startup industrial"
+            "Estratégia de portfólio de PI para startup industrial"
 
           ]
 
@@ -11400,17 +11400,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Inova├º├úo incremental vs. radical",
+          "titulo": "Inovação incremental vs. radical",
 
-          "definicao": "Inova├º├úo incremental consiste em melhorias cont├¡nuas em produtos, processos ou servi├ºos existentes (ex.: nova vers├úo de software). Inova├º├úo radical introduz algo completamente novo, rompendo com paradigmas estabelecidos e criando novos mercados (ex.: impress├úo 3D).",
+          "definicao": "Inovação incremental consiste em melhorias contínuas em produtos, processos ou serviços existentes (ex.: nova versão de software). Inovação radical introduz algo completamente novo, rompendo com paradigmas estabelecidos e criando novos mercados (ex.: impressão 3D).",
 
           "topicos": [
 
-            "Inova├º├úo sustentadora",
+            "Inovação sustentadora",
 
-            "Inova├º├úo disruptiva",
+            "Inovação disruptiva",
 
-            "Curva S tecnol├│gica"
+            "Curva S tecnológica"
 
           ],
 
@@ -11418,11 +11418,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa de melhorias incrementais cont├¡nuas (kaizen)",
+            "Programa de melhorias incrementais contínuas (kaizen)",
 
-            "Projeto de inova├º├úo radical com laborat├│rio dedicado",
+            "Projeto de inovação radical com laboratório dedicado",
 
-            "Equil├¡brio de portf├│lio entre incremental e radical (ambidestria)"
+            "Equilíbrio de portfólio entre incremental e radical (ambidestria)"
 
           ]
 
@@ -11430,17 +11430,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "H├®lice Tr├¡plice",
+          "titulo": "Hélice Tríplice",
 
-          "definicao": "Modelo de inova├º├úo que prop├Áe a intera├º├úo sin├®rgica entre universidade, empresa e governo para fomentar o desenvolvimento econ├┤mico e social baseado em conhecimento. Cada h├®lice assume pap├®is que se sobrep├Áem e complementam na gera├º├úo de inova├º├úo.",
+          "definicao": "Modelo de inovação que propõe a interação sinérgica entre universidade, empresa e governo para fomentar o desenvolvimento econômico e social baseado em conhecimento. Cada hélice assume papéis que se sobrepõem e complementam na geração de inovação.",
 
           "topicos": [
 
             "Universidade-empresa",
 
-            "Governo e pol├¡ticas p├║blicas",
+            "Governo e políticas públicas",
 
-            "Parques tecnol├│gicos"
+            "Parques tecnológicos"
 
           ],
 
@@ -11448,11 +11448,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projeto cooperativo universidade-ind├║stria para P&D",
+            "Projeto cooperativo universidade-indústria para P&D",
 
-            "Estrutura├º├úo de parque tecnol├│gico com governan├ºa tr├¡plice",
+            "Estruturação de parque tecnológico com governança tríplice",
 
-            "Programa de incentivos fiscais (Lei do Bem) para inova├º├úo"
+            "Programa de incentivos fiscais (Lei do Bem) para inovação"
 
           ]
 
@@ -11460,13 +11460,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Inova├º├úo disruptiva",
+          "titulo": "Inovação disruptiva",
 
-          "definicao": "Conceito de Clayton Christensen que descreve inova├º├Áes que inicialmente atendem mercados nicho ou desprezados por incumbentes, mas que gradualmente deslocam concorrentes estabelecidos ao melhorar desempenho e acessibilidade.",
+          "definicao": "Conceito de Clayton Christensen que descreve inovações que inicialmente atendem mercados nicho ou desprezados por incumbentes, mas que gradualmente deslocam concorrentes estabelecidos ao melhorar desempenho e acessibilidade.",
 
           "topicos": [
 
-            "Disrup├º├úo de mercado",
+            "Disrupção de mercado",
 
             "Baixo custo inicial",
 
@@ -11478,11 +11478,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de amea├ºa disruptiva em setor industrial consolidado",
+            "Anélise de ameaça disruptiva em setor industrial consolidado",
 
-            "Estrat├®gia de inova├º├úo disruptiva para novo entrante",
+            "Estratégia de inovação disruptiva para novo entrante",
 
-            "Antecipa├º├úo de disrup├º├úo tecnol├│gica em planejamento estrat├®gico"
+            "Antecipação de disrupção tecnológica em planejamento estratégico"
 
           ]
 
@@ -11490,9 +11490,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ecossistemas de inova├º├úo",
+          "titulo": "Ecossistemas de inovação",
 
-          "definicao": "Redes de organiza├º├Áes interconectadas ÔÇö startups, universidades, centros de pesquisa, investidores, governo e grandes empresas ÔÇö que coevoluem e geram inova├º├úo coletivamente. A for├ºa do ecossistema est├í na diversidade e nas conex├Áes entre seus agentes.",
+          "definicao": "Redes de organizações interconectadas ÔÇö startups, universidades, centros de pesquisa, investidores, governo e grandes empresas ÔÇö que coevoluem e geram inovação coletivamente. A força do ecossistema esté na diversidade e nas conexões entre seus agentes.",
 
           "topicos": [
 
@@ -11500,7 +11500,7 @@ window.SITE_DATA = {
 
             "Aceleradoras e incubadoras",
 
-            "Redes de inova├º├úo"
+            "Redes de inovação"
 
           ],
 
@@ -11508,11 +11508,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Mapeamento de ecossistema de inova├º├úo regional",
+            "Mapeamento de ecossistema de inovação regional",
 
-            "Programa de acelera├º├úo corporativa para startups industriais",
+            "Programa de aceleração corporativa para startups industriais",
 
-            "Conex├úo com hubs de inova├º├úo (Cubo, InovaUTC)"
+            "Conexão com hubs de inovação (Cubo, InovaUTC)"
 
           ]
 
@@ -11522,7 +11522,7 @@ window.SITE_DATA = {
 
           "titulo": "Corporate Venture",
 
-          "definicao": "Pr├ítica de grandes corpora├º├Áes investirem em startups externas por meio de fundos de venture capital (CVC) ou parcerias estrat├®gicas. Permite acesso a tecnologias emergentes, novos modelos de neg├│cio e talentos inovadores sem desenvolvimento interno.",
+          "definicao": "Prética de grandes corporações investirem em startups externas por meio de fundos de venture capital (CVC) ou parcerias estratégicas. Permite acesso a tecnologias emergentes, novos modelos de negócio e talentos inovadores sem desenvolvimento interno.",
 
           "topicos": [
 
@@ -11538,9 +11538,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Cria├º├úo de fundo CVC para investimento em deep techs",
+            "Criação de fundo CVC para investimento em deep techs",
 
-            "Programa de venture client para testar solu├º├Áes de startups",
+            "Programa de venture client para testar soluções de startups",
 
             "Spin-off de tecnologia interna em nova empresa"
 
@@ -11552,7 +11552,7 @@ window.SITE_DATA = {
 
           "titulo": "Intraempreendedorismo",
 
-          "definicao": "Pr├ítica de estimular colaboradores a agir como empreendedores dentro da organiza├º├úo, desenvolvendo novos produtos, servi├ºos ou processos. Empresas com cultura intraempreendedora ret├¬m talentos e geram inova├º├úo org├ónica cont├¡nua.",
+          "definicao": "Prética de estimular colaboradores a agir como empreendedores dentro da organização, desenvolvendo novos produtos, serviços ou processos. Empresas com cultura intraempreendedora retêm talentos e geram inovação orgônica contínua.",
 
           "topicos": [
 
@@ -11560,7 +11560,7 @@ window.SITE_DATA = {
 
             "Programa de intraempreendedorismo",
 
-            "Inova├º├úo interna"
+            "Inovação interna"
 
           ],
 
@@ -11570,7 +11570,7 @@ window.SITE_DATA = {
 
             "Programa de intraempreendedorismo com pitch para diretoria",
 
-            "Hackathons internos para solu├º├úo de desafios de produ├º├úo",
+            "Hackathons internos para solução de desafios de produção",
 
             "Sistema de incentivo para colaboradores inovadores"
 
@@ -11582,7 +11582,7 @@ window.SITE_DATA = {
 
           "titulo": "Lean Startup",
 
-          "definicao": "Metodologia de desenvolvimento de novos produtos e neg├│cios baseada no ciclo construir-medir-aprender, MVP e pivotagem. Reduz riscos e desperd├¡cios ao testar hip├│teses de neg├│cio com clientes reais antes de investir em escala.",
+          "definicao": "Metodologia de desenvolvimento de novos produtos e negócios baseada no ciclo construir-medir-aprender, MVP e pivotagem. Reduz riscos e desperdícios ao testar hipóteses de negócio com clientes reais antes de investir em escala.",
 
           "topicos": [
 
@@ -11600,9 +11600,9 @@ window.SITE_DATA = {
 
             "Desenvolvimento de novo produto com lean startup",
 
-            "Valida├º├úo de modelo de neg├│cio com MVP em 3 meses",
+            "Validação de modelo de negócio com MVP em 3 meses",
 
-            "Testes A/B para valida├º├úo de funcionalidades"
+            "Testes A/B para validação de funcionalidades"
 
           ]
 
@@ -11612,15 +11612,15 @@ window.SITE_DATA = {
 
           "titulo": "MVP ÔÇö Minimum Viable Product",
 
-          "definicao": "Vers├úo simplificada de um novo produto que cont├®m apenas funcionalidades essenciais para ser lan├ºada e testada com clientes reais. O feedback do MVP orienta decis├Áes de pivotar, perseverar ou escalar, minimizando investimento inicial.",
+          "definicao": "Versão simplificada de um novo produto que contém apenas funcionalidades essenciais para ser lançada e testada com clientes reais. O feedback do MVP orienta decisões de pivotar, perseverar ou escalar, minimizando investimento inicial.",
 
           "topicos": [
 
-            "Produto m├¡nimo vi├ível",
+            "Produto mínimo viével",
 
             "Teste com clientes",
 
-            "Valida├º├úo de hip├│teses"
+            "Validação de hipóteses"
 
           ],
 
@@ -11628,11 +11628,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "MVP de plataforma digital para testar aceita├º├úo de mercado",
+            "MVP de plataforma digital para testar aceitação de mercado",
 
-            "Prot├│tipo funcional de equipamento para valida├º├úo t├®cnica",
+            "Protótipo funcional de equipamento para validação técnica",
 
-            "Campanha de pr├®-venda para validar demanda antes de produzir"
+            "Campanha de pré-venda para validar demanda antes de produzir"
 
           ]
 
@@ -11640,15 +11640,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Inova├º├úo aberta",
+          "titulo": "Inovação aberta",
 
-          "definicao": "Modelo complementar ao open innovation que enfatiza a colabora├º├úo com agentes externos (startups, fornecedores, clientes, universidades) para co-criar solu├º├Áes inovadoras. Utiliza plataformas de idea├º├úo, desafios abertos e hackathons como mecanismos.",
+          "definicao": "Modelo complementar ao open innovation que enfatiza a colaboração com agentes externos (startups, fornecedores, clientes, universidades) para co-criar soluções inovadoras. Utiliza plataformas de ideação, desafios abertos e hackathons como mecanismos.",
 
           "topicos": [
 
-            "Plataformas de idea├º├úo aberta",
+            "Plataformas de ideação aberta",
 
-            "Desafios de inova├º├úo",
+            "Desafios de inovação",
 
             "Crowdsourcing"
 
@@ -11658,9 +11658,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desafio aberto de inova├º├úo para fornecedores",
+            "Desafio aberto de inovação para fornecedores",
 
-            "Plataforma de idea├º├úo colaborativa com comunidade externa",
+            "Plataforma de ideação colaborativa com comunidade externa",
 
             "Parcerias de codesenvolvimento com startups"
 
@@ -11672,15 +11672,15 @@ window.SITE_DATA = {
 
           "titulo": "Crowdsourcing",
 
-          "definicao": "Pr├ítica de externalizar tarefas ou problemas para uma multid├úo (crowd) de contribuidores externos, geralmente por meio de plataformas digitais. Utilizado para gera├º├úo de ideias, resolu├º├úo de problemas t├®cnicos e desenvolvimento de solu├º├Áes inovadoras.",
+          "definicao": "Prética de externalizar tarefas ou problemas para uma multidão (crowd) de contribuidores externos, geralmente por meio de plataformas digitais. Utilizado para geração de ideias, resolução de problemas técnicos e desenvolvimento de soluções inovadoras.",
 
           "topicos": [
 
-            "Multid├úo de solucionadores",
+            "Multidão de solucionadores",
 
             "Plataformas de crowdsourcing",
 
-            "Concursos de inova├º├úo"
+            "Concursos de inovação"
 
           ],
 
@@ -11688,11 +11688,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desafio global de engenharia com premia├º├úo",
+            "Desafio global de engenharia com premiação",
 
             "Coleta de ideias de clientes para melhoria de produto",
 
-            "Plataforma InnoCentive para problemas t├®cnicos complexos"
+            "Plataforma InnoCentive para problemas técnicos complexos"
 
           ]
 
@@ -11700,13 +11700,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Inova├º├úo frugal",
+          "titulo": "Inovação frugal",
 
-          "definicao": "Abordagem de inova├º├úo que busca criar solu├º├Áes de alto valor com recursos limitados, simplificando produtos e processos para atender mercados de baixa renda ou contextos de restri├º├úo. Tamb├®m conhecida como 'doing more with less' (fazer mais com menos).",
+          "definicao": "Abordagem de inovação que busca criar soluções de alto valor com recursos limitados, simplificando produtos e processos para atender mercados de baixa renda ou contextos de restrição. Também conhecida como 'doing more with less' (fazer mais com menos).",
 
           "topicos": [
 
-            "Inova├º├úo reversa",
+            "Inovação reversa",
 
             "Produtos de baixo custo",
 
@@ -11718,9 +11718,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desenvolvimento de equipamentos m├®dicos de baixo custo",
+            "Desenvolvimento de equipamentos médicos de baixo custo",
 
-            "Produtos adaptados para base da pir├ómide",
+            "Produtos adaptados para base da pirômide",
 
             "Reengenharia frugal de produto para mercados emergentes"
 
@@ -11730,29 +11730,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "M├®trica de inova├º├úo (ROI┬▓)",
+          "titulo": "Métrica de inovação (ROI┬▓)",
 
-          "definicao": "Indicador que mede o retorno sobre o investimento em inova├º├úo (ROI┬▓ = Return on Innovation Investment). Considera n├úo apenas o retorno financeiro dos projetos de inova├º├úo, mas tamb├®m os benef├¡cios intang├¡veis como aprendizado e posicionamento estrat├®gico.",
+          "definicao": "Indicador que mede o retorno sobre o investimento em inovação (ROI┬▓ = Return on Innovation Investment). Considera não apenas o retorno financeiro dos projetos de inovação, mas também os benefícios intangíveis como aprendizado e posicionamento estratégico.",
 
           "topicos": [
 
             "Indicadores de P&D",
 
-            "ROI de inova├º├úo",
+            "ROI de inovação",
 
-            "Balanced scorecard de inova├º├úo"
+            "Balanced scorecard de inovação"
 
           ],
 
-          "formula": "ROI┬▓ = (Receita de inova├º├úo - Investimento em inova├º├úo) / Investimento em inova├º├úo",
+          "formula": "ROI┬▓ = (Receita de inovação - Investimento em inovação) / Investimento em inovação",
 
           "aplicacoes": [
 
-            "Relat├│rio anual de ROI de inova├º├úo",
+            "Relatório anual de ROI de inovação",
 
-            "Avalia├º├úo de portf├│lio de projetos de P&D",
+            "Avaliação de portfólio de projetos de P&D",
 
-            "Dashboard de m├®tricas de inova├º├úo para board"
+            "Dashboard de métricas de inovação para board"
 
           ]
 
@@ -11762,7 +11762,7 @@ window.SITE_DATA = {
 
           "titulo": "Technology Readiness Level (TRL)",
 
-          "definicao": "Escala de 1 a 9 desenvolvida pela NASA para medir a maturidade de uma tecnologia, desde a pesquisa b├ísica (TRL 1) at├® a opera├º├úo comprovada em ambiente real (TRL 9). Amplamente adotada por ag├¬ncias de fomento e programas de P&D industrial.",
+          "definicao": "Escala de 1 a 9 desenvolvida pela NASA para medir a maturidade de uma tecnologia, desde a pesquisa bésica (TRL 1) até a operação comprovada em ambiente real (TRL 9). Amplamente adotada por agências de fomento e programas de P&D industrial.",
 
           "topicos": [
 
@@ -11770,7 +11770,7 @@ window.SITE_DATA = {
 
             "TRL 4-6: Desenvolvimento",
 
-            "TRL 7-9: Implanta├º├úo"
+            "TRL 7-9: Implantação"
 
           ],
 
@@ -11778,11 +11778,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Classifica├º├úo TRL de tecnologia em processo de P&D",
+            "Classificação TRL de tecnologia em processo de P&D",
 
-            "Gate de aprova├º├úo baseado em TRL para avan├ºo de projeto",
+            "Gate de aprovação baseado em TRL para avanço de projeto",
 
-            "Crit├®rio TRL para sele├º├úo de projetos de inova├º├úo"
+            "Critério TRL para seleção de projetos de inovação"
 
           ]
 
@@ -11790,17 +11790,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Vig├¡lia tecnol├│gica (Technology Watch)",
+          "titulo": "Vigília tecnológica (Technology Watch)",
 
-          "definicao": "Processo sistem├ítico de monitoramento e an├ílise de tend├¬ncias tecnol├│gicas, patentes, publica├º├Áes cient├¡ficas e movimentos de concorrentes para antecipar mudan├ºas e identificar oportunidades de inova├º├úo. Integra a intelig├¬ncia competitiva da organiza├º├úo.",
+          "definicao": "Processo sistemético de monitoramento e anélise de tendências tecnológicas, patentes, publicações científicas e movimentos de concorrentes para antecipar mudanças e identificar oportunidades de inovação. Integra a inteligência competitiva da organização.",
 
           "topicos": [
 
-            "Intelig├¬ncia competitiva",
+            "Inteligência competitiva",
 
             "Monitoramento de patentes",
 
-            "Roadmapping tecnol├│gico"
+            "Roadmapping tecnológico"
 
           ],
 
@@ -11808,11 +11808,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Boletim trimestral de vigil├óncia tecnol├│gica",
+            "Boletim trimestral de vigilôncia tecnológica",
 
-            "Mapeamento de patentes para identifica├º├úo de white spaces",
+            "Mapeamento de patentes para identificação de white spaces",
 
-            "Constru├º├úo de technology roadmap para planejamento de P&D"
+            "Construção de technology roadmap para planejamento de P&D"
 
           ]
 
@@ -11838,7 +11838,7 @@ window.SITE_DATA = {
 
       "cor": "#0891b2",
 
-      "descricao": "M├®tricas de desempenho, produtividade e efici├¬ncia industrial.",
+      "descricao": "Métricas de desempenho, produtividade e eficiência industrial.",
 
       "subtopicos": [
 
@@ -11846,7 +11846,7 @@ window.SITE_DATA = {
 
           "titulo": "OEE ÔÇö Overall Equipment Effectiveness",
 
-          "definicao": "Indicador criado por Seiichi Nakajima no contexto do TPM para medir a efici├¬ncia global de equipamentos industriais. Composto por tr├¬s fatores ÔÇö disponibilidade, performance e qualidade ÔÇö que juntos revelam o percentual do tempo planejado que efetivamente gerou produtos conformes.",
+          "definicao": "Indicador criado por Seiichi Nakajima no contexto do TPM para medir a eficiência global de equipamentos industriais. Composto por três fatores ÔÇö disponibilidade, performance e qualidade ÔÇö que juntos revelam o percentual do tempo planejado que efetivamente gerou produtos conformes.",
 
           "topicos": [
 
@@ -11860,13 +11860,13 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "OEE = Disponibilidade ├ù Performance ├ù Qualidade",
+          "formula": "OEE = Disponibilidade ú Performance ú Qualidade",
 
           "aplicacoes": [
 
-            "Monitoramento de m├íquinas em plantas fabris",
+            "Monitoramento de méquinas em plantas fabris",
 
-            "Identifica├º├úo de gargalos produtivos",
+            "Identificação de gargalos produtivos",
 
             "Benchmarking de classe mundial (85%)"
 
@@ -11878,7 +11878,7 @@ window.SITE_DATA = {
 
           "titulo": "Lead Time",
 
-          "definicao": "Tempo total decorrido desde o recebimento do pedido at├® a entrega final do produto ao cliente. Engloba processamento, espera, transporte e inspe├º├úo, sendo um dos principais indicadores de efici├¬ncia log├¡stica e produtiva.",
+          "definicao": "Tempo total decorrido desde o recebimento do pedido até a entrega final do produto ao cliente. Engloba processamento, espera, transporte e inspeção, sendo um dos principais indicadores de eficiência logística e produtiva.",
 
           "topicos": [
 
@@ -11886,7 +11886,7 @@ window.SITE_DATA = {
 
             "Ciclo produtivo",
 
-            "Log├¡stica"
+            "Logística"
 
           ],
 
@@ -11894,11 +11894,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de prazos em manufatura",
+            "Gestão de prazos em manufatura",
 
-            "Avalia├º├úo de desempenho log├¡stico",
+            "Avaliação de desempenho logístico",
 
-            "Melhoria cont├¡nua em fluxos de valor"
+            "Melhoria contínua em fluxos de valor"
 
           ]
 
@@ -11908,7 +11908,7 @@ window.SITE_DATA = {
 
           "titulo": "Throughput",
 
-          "definicao": "Taxa na qual o sistema produtivo gera produtos acabados em um intervalo de tempo. Reflete a capacidade real de produ├º├úo e ├® usado para dimensionar recursos e identificar restri├º├Áes do sistema.",
+          "definicao": "Taxa na qual o sistema produtivo gera produtos acabados em um intervalo de tempo. Reflete a capacidade real de produção e é usado para dimensionar recursos e identificar restrições do sistema.",
 
           "topicos": [
 
@@ -11920,15 +11920,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Throughput = Unidades produzidas / Per├¡odo de tempo",
+          "formula": "Throughput = Unidades produzidas / Período de tempo",
 
           "aplicacoes": [
 
-            "Dimensionamento de linhas de produ├º├úo",
+            "Dimensionamento de linhas de produção",
 
             "Planejamento de capacidade",
 
-            "An├ílise de restri├º├Áes (TOC)"
+            "Anélise de restrições (TOC)"
 
           ]
 
@@ -11936,29 +11936,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Efici├¬ncia global da planta",
+          "titulo": "Eficiência global da planta",
 
-          "definicao": "M├®trica agregada que avalia o rendimento integrado de todos os setores de uma planta industrial, combinando utiliza├º├úo de recursos, produtividade e qualidade. Difere do OEE por considerar a planta como um todo, n├úo equipamentos isolados.",
+          "definicao": "Métrica agregada que avalia o rendimento integrado de todos os setores de uma planta industrial, combinando utilização de recursos, produtividade e qualidade. Difere do OEE por considerar a planta como um todo, não equipamentos isolados.",
 
           "topicos": [
 
             "Produtividade total",
 
-            "Utiliza├º├úo de recursos",
+            "Utilização de recursos",
 
             "Rendimento global"
 
           ],
 
-          "formula": "Efici├¬ncia Global = (Produ├º├úo real / Capacidade nominal) ├ù 100",
+          "formula": "Eficiência Global = (Produção real / Capacidade nominal) ú 100",
 
           "aplicacoes": [
 
-            "Avalia├º├úo de performance corporativa",
+            "Avaliação de performance corporativa",
 
-            "Compara├º├úo entre unidades fabris",
+            "Comparação entre unidades fabris",
 
-            "Meta estrat├®gica de produ├º├úo"
+            "Meta estratégica de produção"
 
           ]
 
@@ -11966,15 +11966,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produtividade da m├úo de obra",
+          "titulo": "Produtividade da mão de obra",
 
-          "definicao": "Rela├º├úo entre a quantidade produzida e o total de horas trabalhadas ou n├║mero de colaboradores alocados. Indica a efici├¬ncia do fator trabalho no processo produtivo.",
+          "definicao": "Relação entre a quantidade produzida e o total de horas trabalhadas ou número de colaboradores alocados. Indica a eficiência do fator trabalho no processo produtivo.",
 
           "topicos": [
 
             "Horas-homem",
 
-            "Efici├¬ncia laboral",
+            "Eficiência laboral",
 
             "Rendimento operacional"
 
@@ -11984,7 +11984,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├ílculo de custo unit├írio de m├úo de obra",
+            "Célculo de custo unitério de mão de obra",
 
             "Benchmarking entre turnos",
 
@@ -11998,25 +11998,25 @@ window.SITE_DATA = {
 
           "titulo": "Refugo e retrabalho",
 
-          "definicao": "Indicadores de qualidade que medem, respectivamente, a propor├º├úo de pe├ºas descartadas por n├úo conformidade e a propor├º├úo de pe├ºas que necessitam de corre├º├úo. Impactam diretamente o custo operacional e a efici├¬ncia global.",
+          "definicao": "Indicadores de qualidade que medem, respectivamente, a proporção de peças descartadas por não conformidade e a proporção de peças que necessitam de correção. Impactam diretamente o custo operacional e a eficiência global.",
 
           "topicos": [
 
             "Custo da qualidade",
 
-            "N├úo conformidade",
+            "Não conformidade",
 
             "Sucata"
 
           ],
 
-          "formula": "Taxa de Refugo = (Pe├ºas refugadas / Total produzido) ├ù 100",
+          "formula": "Taxa de Refugo = (Peças refugadas / Total produzido) ú 100",
 
           "aplicacoes": [
 
-            "Controle estat├¡stico da qualidade",
+            "Controle estatístico da qualidade",
 
-            "Redu├º├úo de desperd├¡cios",
+            "Redução de desperdícios",
 
             "Programas Six Sigma"
 
@@ -12028,11 +12028,11 @@ window.SITE_DATA = {
 
           "titulo": "OTIF ÔÇö On Time In Full",
 
-          "definicao": "Indicador log├¡stico que mede o percentual de pedidos entregues no prazo acordado e com a quantidade completa solicitada. Considerado uma m├®trica cr├¡tica de desempenho da cadeia de suprimentos.",
+          "definicao": "Indicador logístico que mede o percentual de pedidos entregues no prazo acordado e com a quantidade completa solicitada. Considerado uma métrica crítica de desempenho da cadeia de suprimentos.",
 
           "topicos": [
 
-            "N├¡vel de servi├ºo",
+            "Nível de serviço",
 
             "Entregas no prazo",
 
@@ -12040,15 +12040,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "OTIF = (Pedidos entregues no prazo e completos / Total de pedidos) ├ù 100",
+          "formula": "OTIF = (Pedidos entregues no prazo e completos / Total de pedidos) ú 100",
 
           "aplicacoes": [
 
-            "Avalia├º├úo de fornecedores",
+            "Avaliação de fornecedores",
 
-            "Gest├úo de transporte e distribui├º├úo",
+            "Gestão de transporte e distribuição",
 
-            "Acordo de n├¡vel de servi├ºo (SLA)"
+            "Acordo de nível de serviço (SLA)"
 
           ]
 
@@ -12058,11 +12058,11 @@ window.SITE_DATA = {
 
           "titulo": "Fill Rate",
 
-          "definicao": "Percentual da demanda do cliente que ├® atendida imediatamente com estoque dispon├¡vel sem necessidade de backorder. Reflete a efic├ícia da gest├úo de estoques e da reposi├º├úo.",
+          "definicao": "Percentual da demanda do cliente que é atendida imediatamente com estoque disponível sem necessidade de backorder. Reflete a eficécia da gestão de estoques e da reposição.",
 
           "topicos": [
 
-            "N├¡vel de atendimento",
+            "Nível de atendimento",
 
             "Disponibilidade de estoque",
 
@@ -12070,15 +12070,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Fill Rate = (Unidades atendidas / Unidades demandadas) ├ù 100",
+          "formula": "Fill Rate = (Unidades atendidas / Unidades demandadas) ú 100",
 
           "aplicacoes": [
 
-            "Gest├úo de centros de distribui├º├úo",
+            "Gestão de centros de distribuição",
 
-            "Pol├¡tica de estoque de seguran├ºa",
+            "Política de estoque de segurança",
 
-            "Planejamento de vendas e opera├º├Áes"
+            "Planejamento de vendas e operações"
 
           ]
 
@@ -12088,13 +12088,13 @@ window.SITE_DATA = {
 
           "titulo": "Takt Rate",
 
-          "definicao": "Ritmo de produ├º├úo necess├írio para atender ├á demanda do cliente no tempo dispon├¡vel. Sincroniza o fluxo produtivo com o consumo, sendo um conceito central do Sistema Toyota de Produ├º├úo.",
+          "definicao": "Ritmo de produção necessério para atender á demanda do cliente no tempo disponível. Sincroniza o fluxo produtivo com o consumo, sendo um conceito central do Sistema Toyota de Produção.",
 
           "topicos": [
 
             "Takt Time",
 
-            "Ritmo de produ├º├úo",
+            "Ritmo de produção",
 
             "Demanda",
 
@@ -12102,7 +12102,7 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Takt Rate = Tempo dispon├¡vel / Demanda do per├¡odo",
+          "formula": "Takt Rate = Tempo disponível / Demanda do período",
 
           "aplicacoes": [
 
@@ -12110,7 +12110,7 @@ window.SITE_DATA = {
 
             "Dimensionamento de equipes",
 
-            "Produ├º├úo puxada (pull system)"
+            "Produção puxada (pull system)"
 
           ]
 
@@ -12120,27 +12120,27 @@ window.SITE_DATA = {
 
           "titulo": "DPO ÔÇö Days Payable Outstanding",
 
-          "definicao": "Indicador financeiro que mede o prazo m├®dio em dias que a empresa leva para pagar seus fornecedores. ├ë um componente do ciclo financeiro e impacta diretamente o capital de giro.",
+          "definicao": "Indicador financeiro que mede o prazo médio em dias que a empresa leva para pagar seus fornecedores. ë um componente do ciclo financeiro e impacta diretamente o capital de giro.",
 
           "topicos": [
 
             "Ciclo financeiro",
 
-            "Prazo m├®dio de pagamento",
+            "Prazo médio de pagamento",
 
             "Capital de giro"
 
           ],
 
-          "formula": "DPO = (Fornecedores m├®dios / Custo das vendas) ├ù Dias do per├¡odo",
+          "formula": "DPO = (Fornecedores médios / Custo das vendas) ú Dias do período",
 
           "aplicacoes": [
 
-            "Gest├úo de fluxo de caixa",
+            "Gestão de fluxo de caixa",
 
-            "Negocia├º├úo com fornecedores",
+            "Negociação com fornecedores",
 
-            "An├ílise de liquidez"
+            "Anélise de liquidez"
 
           ]
 
@@ -12150,7 +12150,7 @@ window.SITE_DATA = {
 
           "titulo": "Rendimento operacional (Yield)",
 
-          "definicao": "Propor├º├úo de produtos ou servi├ºos que atendem aos crit├®rios de qualidade na primeira passagem, sem necessidade de retrabalho ou reparo. ├ë uma m├®trica-chave da qualidade industrial.",
+          "definicao": "Proporção de produtos ou serviços que atendem aos critérios de qualidade na primeira passagem, sem necessidade de retrabalho ou reparo. ë uma métrica-chave da qualidade industrial.",
 
           "topicos": [
 
@@ -12162,13 +12162,13 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Yield = (Unidades conformes na 1┬¬ passagem / Total processado) ├ù 100",
+          "formula": "Yield = (Unidades conformes na 1┬¬ passagem / Total processado) ú 100",
 
           "aplicacoes": [
 
-            "Controle de qualidade estat├¡stico",
+            "Controle de qualidade estatístico",
 
-            "C├ílculo de capacidade efetiva",
+            "Célculo de capacidade efetiva",
 
             "Melhoria de processos produtivos"
 
@@ -12180,27 +12180,27 @@ window.SITE_DATA = {
 
           "titulo": "Custo por unidade produzida",
 
-          "definicao": "Valor total dos insumos (mat├®ria-prima, m├úo de obra direta, energia e custos indiretos) dividido pela quantidade de unidades fabricadas. Permite avaliar a competitividade e a margem de contribui├º├úo.",
+          "definicao": "Valor total dos insumos (matéria-prima, mão de obra direta, energia e custos indiretos) dividido pela quantidade de unidades fabricadas. Permite avaliar a competitividade e a margem de contribuição.",
 
           "topicos": [
 
             "Custeio industrial",
 
-            "Custo vari├ível",
+            "Custo variével",
 
-            "Margem de contribui├º├úo"
+            "Margem de contribuição"
 
           ],
 
-          "formula": "Custo unit├írio = Custo total de produ├º├úo / Quantidade produzida",
+          "formula": "Custo unitério = Custo total de produção / Quantidade produzida",
 
           "aplicacoes": [
 
-            "Forma├º├úo de pre├ºo de venda",
+            "Formação de preço de venda",
 
-            "An├ílise de rentabilidade por produto",
+            "Anélise de rentabilidade por produto",
 
-            "Decis├Áes de make or buy"
+            "Decisões de make or buy"
 
           ]
 
@@ -12210,11 +12210,11 @@ window.SITE_DATA = {
 
           "titulo": "Horas trabalhadas sem acidente",
 
-          "definicao": "Indicador de seguran├ºa do trabalho que contabiliza o total de horas expostas a risco sem ocorr├¬ncia de acidentes com ou sem afastamento. Reflete a efic├ícia do sistema de gest├úo de SST.",
+          "definicao": "Indicador de segurança do trabalho que contabiliza o total de horas expostas a risco sem ocorrência de acidentes com ou sem afastamento. Reflete a eficécia do sistema de gestão de SST.",
 
           "topicos": [
 
-            "Seguran├ºa do trabalho",
+            "Segurança do trabalho",
 
             "SST",
 
@@ -12228,11 +12228,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programas de seguran├ºa comportamental",
+            "Programas de segurança comportamental",
 
             "Auditorias de SST",
 
-            "Certifica├º├Áes OHSAS/ISO 45001"
+            "Certificações OHSAS/ISO 45001"
 
           ]
 
@@ -12240,13 +12240,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Consumo energ├®tico por unidade",
+          "titulo": "Consumo energético por unidade",
 
-          "definicao": "Rela├º├úo entre a energia el├®trica (ou t├®rmica) consumida no processo produtivo e a quantidade de unidades produzidas. Indicador cr├¡tico para efici├¬ncia energ├®tica e sustentabilidade industrial.",
+          "definicao": "Relação entre a energia elétrica (ou térmica) consumida no processo produtivo e a quantidade de unidades produzidas. Indicador crítico para eficiência energética e sustentabilidade industrial.",
 
           "topicos": [
 
-            "Efici├¬ncia energ├®tica",
+            "Eficiência energética",
 
             "Sustentabilidade",
 
@@ -12254,15 +12254,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Consumo espec├¡fico = kWh consumidos / Unidades produzidas",
+          "formula": "Consumo específico = kWh consumidos / Unidades produzidas",
 
           "aplicacoes": [
 
-            "Programas de efici├¬ncia energ├®tica",
+            "Programas de eficiência energética",
 
-            "Certifica├º├úo ISO 50001",
+            "Certificação ISO 50001",
 
-            "Redu├º├úo de custos fixos industriais"
+            "Redução de custos fixos industriais"
 
           ]
 
@@ -12270,9 +12270,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Indicador de manuten├º├úo (MMF)",
+          "titulo": "Indicador de manutenção (MMF)",
 
-          "definicao": "Conjunto de m├®tricas de gest├úo da manuten├º├úo, incluindo MTBF (tempo m├®dio entre falhas) e MTTR (tempo m├®dio de reparo). Apoiam o planejamento de manuten├º├úo preventiva e preditiva.",
+          "definicao": "Conjunto de métricas de gestão da manutenção, incluindo MTBF (tempo médio entre falhas) e MTTR (tempo médio de reparo). Apoiam o planejamento de manutenção preventiva e preditiva.",
 
           "topicos": [
 
@@ -12280,21 +12280,21 @@ window.SITE_DATA = {
 
             "MTTR",
 
-            "Manuten├º├úo preventiva",
+            "Manutenção preventiva",
 
             "Confiabilidade"
 
           ],
 
-          "formula": "MTBF = Tempo total de opera├º├úo / N├║mero de falhas",
+          "formula": "MTBF = Tempo total de operação / Número de falhas",
 
           "aplicacoes": [
 
-            "Plano de manuten├º├úo preventiva",
+            "Plano de manutenção preventiva",
 
-            "C├ílculo de disponibilidade de equipamentos",
+            "Célculo de disponibilidade de equipamentos",
 
-            "Gest├úo de ativos industriais"
+            "Gestão de ativos industriais"
 
           ]
 
@@ -12304,27 +12304,27 @@ window.SITE_DATA = {
 
           "titulo": "Overall Labor Effectiveness (OLE)",
 
-          "definicao": "Vers├úo do OEE aplicada ├á m├úo de obra direta. Mede a efic├ícia da for├ºa de trabalho combinando disponibilidade, desempenho e qualidade do trabalho humano.",
+          "definicao": "Versão do OEE aplicada á mão de obra direta. Mede a eficécia da força de trabalho combinando disponibilidade, desempenho e qualidade do trabalho humano.",
 
           "topicos": [
 
             "Produtividade laboral",
 
-            "Efici├¬ncia humana",
+            "Eficiência humana",
 
             "Trabalho padronizado"
 
           ],
 
-          "formula": "OLE = Disponibilidade ├ù Desempenho ├ù Qualidade (m├úo de obra)",
+          "formula": "OLE = Disponibilidade ú Desempenho ú Qualidade (mão de obra)",
 
           "aplicacoes": [
 
-            "Avalia├º├úo de linhas manuais",
+            "Avaliação de linhas manuais",
 
             "Dimensionamento de equipes",
 
-            "Melhoria de m├®todos de trabalho"
+            "Melhoria de métodos de trabalho"
 
           ]
 
@@ -12334,27 +12334,27 @@ window.SITE_DATA = {
 
           "titulo": "Indicador de entregas no prazo",
 
-          "definicao": "Percentual de pedidos ou itens entregues aos clientes dentro do prazo prometido. ├ë um reflexo direto da confiabilidade do sistema produtivo e log├¡stico.",
+          "definicao": "Percentual de pedidos ou itens entregues aos clientes dentro do prazo prometido. ë um reflexo direto da confiabilidade do sistema produtivo e logístico.",
 
           "topicos": [
 
             "On Time Delivery",
 
-            "N├¡vel de servi├ºo",
+            "Nível de serviço",
 
             "Pontualidade"
 
           ],
 
-          "formula": "Entregas no prazo = (Pedidos entregues na data / Total de pedidos) ├ù 100",
+          "formula": "Entregas no prazo = (Pedidos entregues na data / Total de pedidos) ú 100",
 
           "aplicacoes": [
 
             "Acompanhamento de SLA",
 
-            "Avalia├º├úo de desempenho log├¡stico",
+            "Avaliação de desempenho logístico",
 
-            "Indicador estrat├®gico de opera├º├Áes"
+            "Indicador estratégico de operações"
 
           ]
 
@@ -12364,7 +12364,7 @@ window.SITE_DATA = {
 
           "titulo": "Performance/Qualidade/Disponibilidade",
 
-          "definicao": "Os tr├¬s pilares do OEE que decomp├Áem as perdas produtivas: disponibilidade (paradas), performance (velocidade reduzida) e qualidade (defeitos). A an├ílise individual de cada pilar permite direcionar a├º├Áes corretivas espec├¡ficas.",
+          "definicao": "Os três pilares do OEE que decompõem as perdas produtivas: disponibilidade (paradas), performance (velocidade reduzida) e qualidade (defeitos). A anélise individual de cada pilar permite direcionar ações corretivas específicas.",
 
           "topicos": [
 
@@ -12376,15 +12376,15 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "Disponibilidade = (Tempo operacional / Tempo planejado) ├ù 100",
+          "formula": "Disponibilidade = (Tempo operacional / Tempo planejado) ú 100",
 
           "aplicacoes": [
 
-            "Diagn├│stico de perdas na produ├º├úo",
+            "Diagnóstico de perdas na produção",
 
-            "Melhoria cont├¡nua direcionada",
+            "Melhoria contínua direcionada",
 
-            "Metas setoriais de f├íbrica"
+            "Metas setoriais de fébrica"
 
           ]
 
@@ -12394,7 +12394,7 @@ window.SITE_DATA = {
 
           "titulo": "Indicador de qualidade (FTT)",
 
-          "definicao": "First Time Through (FTT) mede a porcentagem de produtos que passam por todo o processo produtivo sem qualquer defeito ou retrabalho na primeira tentativa. ├ë um indicador mais rigoroso que o yield simples.",
+          "definicao": "First Time Through (FTT) mede a porcentagem de produtos que passam por todo o processo produtivo sem qualquer defeito ou retrabalho na primeira tentativa. ë um indicador mais rigoroso que o yield simples.",
 
           "topicos": [
 
@@ -12406,7 +12406,7 @@ window.SITE_DATA = {
 
           ],
 
-          "formula": "FTT = (Total sem defeitos na 1┬¬ vez / Total processado) ├ù 100",
+          "formula": "FTT = (Total sem defeitos na 1┬¬ vez / Total processado) ú 100",
 
           "aplicacoes": [
 
@@ -12414,7 +12414,7 @@ window.SITE_DATA = {
 
             "Programas de qualidade Six Sigma",
 
-            "Redu├º├úo de retrabalho"
+            "Redução de retrabalho"
 
           ]
 
@@ -12424,15 +12424,15 @@ window.SITE_DATA = {
 
           "titulo": "Ciclo PDCA para indicadores",
 
-          "definicao": "Metodologia de gest├úo da melhoria cont├¡nua aplicada aos indicadores de desempenho. O ciclo Planejar-Executar-Checar-Agir permite definir metas, coletar dados, analisar resultados e implementar a├º├Áes corretivas de forma estruturada.",
+          "definicao": "Metodologia de gestão da melhoria contínua aplicada aos indicadores de desempenho. O ciclo Planejar-Executar-Checar-Agir permite definir metas, coletar dados, analisar resultados e implementar ações corretivas de forma estruturada.",
 
           "topicos": [
 
-            "Melhoria cont├¡nua",
+            "Melhoria contínua",
 
             "Kaizen",
 
-            "Gest├úo ├á vista"
+            "Gestão á vista"
 
           ],
 
@@ -12440,11 +12440,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Revis├úo peri├│dica de KPIs",
+            "Revisão periódica de KPIs",
 
-            "Programas de melhoria cont├¡nua",
+            "Programas de melhoria contínua",
 
-            "Rotinas de gest├úo da produ├º├úo"
+            "Rotinas de gestão da produção"
 
           ]
 
@@ -12463,29 +12463,29 @@ window.SITE_DATA = {
 
       "id": "legislacao",
 
-      "nome": "Legisla├º├úo e Normas",
+      "nome": "Legislação e Normas",
 
       "icone": "book-open",
 
       "cor": "#64748b",
 
-      "descricao": "Normas t├®cnicas, regulamenta├º├Áes e compliance industrial.",
+      "descricao": "Normas técnicas, regulamentações e compliance industrial.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Normas t├®cnicas ABNT",
+          "titulo": "Normas técnicas ABNT",
 
-          "definicao": "Conjunto de regras e especifica├º├Áes t├®cnicas estabelecidas pela Associa├º├úo Brasileira de Normas T├®cnicas para padronizar produtos, processos e servi├ºos no Brasil. As normas ABNT s├úo volunt├írias, mas frequentemente referenciadas por regulamenta├º├Áes oficiais.",
+          "definicao": "Conjunto de regras e especificações técnicas estabelecidas pela Associação Brasileira de Normas Técnicas para padronizar produtos, processos e serviços no Brasil. As normas ABNT são voluntérias, mas frequentemente referenciadas por regulamentações oficiais.",
 
           "topicos": [
 
             "NBR",
 
-            "Normaliza├º├úo",
+            "Normalização",
 
-            "Padroniza├º├úo"
+            "Padronização"
 
           ],
 
@@ -12493,11 +12493,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de projetos t├®cnicos",
+            "Elaboração de projetos técnicos",
 
             "Controle de qualidade industrial",
 
-            "Certifica├º├úo de produtos e sistemas"
+            "Certificação de produtos e sistemas"
 
           ]
 
@@ -12505,13 +12505,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Regulamenta├º├Áes industriais",
+          "titulo": "Regulamentações industriais",
 
-          "definicao": "Conjunto de atos normativos (decretos, portarias, resolu├º├Áes) emitidos por ├│rg├úos governamentais que estabelecem exig├¬ncias obrigat├│rias para a opera├º├úo industrial. Incluem requisitos de seguran├ºa, ambientais, sanit├írios e fiscais.",
+          "definicao": "Conjunto de atos normativos (decretos, portarias, resoluções) emitidos por órgãos governamentais que estabelecem exigências obrigatórias para a operação industrial. Incluem requisitos de segurança, ambientais, sanitérios e fiscais.",
 
           "topicos": [
 
-            "├ôrg├úos reguladores",
+            "ôrgãos reguladores",
 
             "Conformidade legal",
 
@@ -12523,11 +12523,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Licenciamento ambiental de f├íbricas",
+            "Licenciamento ambiental de fébricas",
 
-            "Alvar├í de funcionamento",
+            "Alvaré de funcionamento",
 
-            "Adequa├º├úo a requisitos setoriais"
+            "Adequação a requisitos setoriais"
 
           ]
 
@@ -12535,17 +12535,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Legisla├º├úo ambiental",
+          "titulo": "Legislação ambiental",
 
-          "definicao": "Conjunto de leis, decretos e resolu├º├Áes que regulam a intera├º├úo da atividade industrial com o meio ambiente, abrangendo licenciamento, emiss├Áes, res├¡duos s├│lidos, recursos h├¡dricos e responsabilidade ambiental.",
+          "definicao": "Conjunto de leis, decretos e resoluções que regulam a interação da atividade industrial com o meio ambiente, abrangendo licenciamento, emissões, resíduos sólidos, recursos hídricos e responsabilidade ambiental.",
 
           "topicos": [
 
             "Licenciamento ambiental",
 
-            "Res├¡duos",
+            "Resíduos",
 
-            "Pol├¡tica Nacional do Meio Ambiente"
+            "Política Nacional do Meio Ambiente"
 
           ],
 
@@ -12555,7 +12555,7 @@ window.SITE_DATA = {
 
             "Licenciamento ambiental de empreendimentos",
 
-            "Gest├úo de res├¡duos industriais",
+            "Gestão de resíduos industriais",
 
             "Programas de compliance ambiental"
 
@@ -12565,9 +12565,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Legisla├º├úo trabalhista",
+          "titulo": "Legislação trabalhista",
 
-          "definicao": "Corpo legal que regula as rela├º├Áes entre empregadores e empregados, incluindo a Consolida├º├úo das Leis do Trabalho (CLT), jornada de trabalho, remunera├º├úo, f├®rias, seguran├ºa e medicina do trabalho.",
+          "definicao": "Corpo legal que regula as relações entre empregadores e empregados, incluindo a Consolidação das Leis do Trabalho (CLT), jornada de trabalho, remuneração, férias, segurança e medicina do trabalho.",
 
           "topicos": [
 
@@ -12585,11 +12585,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de folha de pagamento",
+            "Elaboração de folha de pagamento",
 
-            "Gest├úo de jornada e ponto eletr├┤nico",
+            "Gestão de jornada e ponto eletrônico",
 
-            "Defesa em reclama├º├Áes trabalhistas"
+            "Defesa em reclamações trabalhistas"
 
           ]
 
@@ -12597,13 +12597,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Compliance regulat├│rio",
+          "titulo": "Compliance regulatório",
 
-          "definicao": "Conjunto de pr├íticas e controles adotados para garantir que a organiza├º├úo cumpra todas as leis, normas e regulamentos aplic├íveis ao seu setor. Envolve mapeamento de riscos legais, pol├¡ticas internas e programas de integridade.",
+          "definicao": "Conjunto de préticas e controles adotados para garantir que a organização cumpra todas as leis, normas e regulamentos aplicéveis ao seu setor. Envolve mapeamento de riscos legais, políticas internas e programas de integridade.",
 
           "topicos": [
 
-            "Governan├ºa",
+            "Governança",
 
             "LGPD",
 
@@ -12615,7 +12615,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de programa de compliance",
+            "Implementação de programa de compliance",
 
             "Auditoria de conformidade legal",
 
@@ -12627,17 +12627,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Auditorias regulat├│rias",
+          "titulo": "Auditorias regulatórias",
 
-          "definicao": "Processo sistem├ítico e documentado de verifica├º├úo da conformidade de processos, produtos e sistemas com requisitos legais e normativos. Podem ser internas (1┬¬ parte), de fornecedores (2┬¬ parte) ou de certifica├º├úo (3┬¬ parte).",
+          "definicao": "Processo sistemético e documentado de verificação da conformidade de processos, produtos e sistemas com requisitos legais e normativos. Podem ser internas (1┬¬ parte), de fornecedores (2┬¬ parte) ou de certificação (3┬¬ parte).",
 
           "topicos": [
 
             "Auditoria interna",
 
-            "Auditoria de certifica├º├úo",
+            "Auditoria de certificação",
 
-            "N├úo conformidade"
+            "Não conformidade"
 
           ],
 
@@ -12645,11 +12645,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo ISO 9001",
+            "Certificação ISO 9001",
 
             "Auditoria fiscal e trabalhista",
 
-            "Manuten├º├úo de selos de conformidade"
+            "Manutenção de selos de conformidade"
 
           ]
 
@@ -12659,7 +12659,7 @@ window.SITE_DATA = {
 
           "titulo": "NRs ÔÇö Normas Regulamentadoras",
 
-          "definicao": "Disposi├º├Áes complementares ├á CLT expedidas pelo Minist├®rio do Trabalho e Emprego que estabelecem obriga├º├Áes de empregadores e trabalhadores para garantir condi├º├Áes seguras e saud├íveis no ambiente laboral. Atualmente existem 37 NRs em vigor.",
+          "definicao": "Disposições complementares á CLT expedidas pelo Ministério do Trabalho e Emprego que estabelecem obrigações de empregadores e trabalhadores para garantir condições seguras e saudéveis no ambiente laboral. Atualmente existem 37 NRs em vigor.",
 
           "topicos": [
 
@@ -12669,7 +12669,7 @@ window.SITE_DATA = {
 
             "SST",
 
-            "Inspe├º├úo do trabalho"
+            "Inspeção do trabalho"
 
           ],
 
@@ -12677,9 +12677,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Elabora├º├úo de PCMSO e PPRA/PGR",
+            "Elaboração de PCMSO e PPRA/PGR",
 
-            "Prote├º├úo de m├íquinas (NR-12)",
+            "Proteção de méquinas (NR-12)",
 
             "Trabalho em altura (NR-35)"
 
@@ -12691,13 +12691,13 @@ window.SITE_DATA = {
 
           "titulo": "INMETRO",
 
-          "definicao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia, autarquia federal respons├ível pela metrologia legal, certifica├º├úo compuls├│ria e volunt├íria, acredita├º├úo de laborat├│rios e fiscaliza├º├úo de produtos regulamentados.",
+          "definicao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia, autarquia federal responsével pela metrologia legal, certificação compulsória e voluntéria, acreditação de laboratórios e fiscalização de produtos regulamentados.",
 
           "topicos": [
 
             "Metrologia",
 
-            "Certifica├º├úo compuls├│ria",
+            "Certificação compulsória",
 
             "Produtos regulamentados"
 
@@ -12707,11 +12707,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo de produtos el├®tricos e eletr├┤nicos",
+            "Certificação de produtos elétricos e eletrônicos",
 
-            "Verifica├º├úo de instrumentos de medi├º├úo",
+            "Verificação de instrumentos de medição",
 
-            "Fiscaliza├º├úo de conformidade"
+            "Fiscalização de conformidade"
 
           ]
 
@@ -12719,9 +12719,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "ISO e certifica├º├Áes",
+          "titulo": "ISO e certificações",
 
-          "definicao": "Conjunto de normas internacionais emitidas pela International Organization for Standardization (ISO) que estabelecem requisitos para sistemas de gest├úo da qualidade (ISO 9001), ambiental (ISO 14001), seguran├ºa (ISO 45001) e outras.",
+          "definicao": "Conjunto de normas internacionais emitidas pela International Organization for Standardization (ISO) que estabelecem requisitos para sistemas de gestão da qualidade (ISO 9001), ambiental (ISO 14001), segurança (ISO 45001) e outras.",
 
           "topicos": [
 
@@ -12731,7 +12731,7 @@ window.SITE_DATA = {
 
             "ISO 45001",
 
-            "Sistema de gest├úo"
+            "Sistema de gestão"
 
           ],
 
@@ -12739,9 +12739,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de SGQ",
+            "Implementação de SGQ",
 
-            "Certifica├º├úo de sistemas de gest├úo",
+            "Certificação de sistemas de gestão",
 
             "Requisitos de cliente e mercado"
 
@@ -12753,7 +12753,7 @@ window.SITE_DATA = {
 
           "titulo": "IATF 16949",
 
-          "definicao": "Norma t├®cnica internacional de sistema de gest├úo da qualidade especificamente desenvolvida para a ind├║stria automotiva. Substitui a ISO/TS 16949 e integra os requisitos da ISO 9001 com requisitos espec├¡ficos do setor automotivo.",
+          "definicao": "Norma técnica internacional de sistema de gestão da qualidade especificamente desenvolvida para a indústria automotiva. Substitui a ISO/TS 16949 e integra os requisitos da ISO 9001 com requisitos específicos do setor automotivo.",
 
           "topicos": [
 
@@ -12771,7 +12771,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Homologa├º├úo de fornecedores automotivos",
+            "Homologação de fornecedores automotivos",
 
             "Controle de qualidade na cadeia OEM",
 
@@ -12785,13 +12785,13 @@ window.SITE_DATA = {
 
           "titulo": "ANVISA (BPF)",
 
-          "definicao": "Ag├¬ncia Nacional de Vigil├óncia Sanit├íria que regula e fiscaliza produtos e servi├ºos que impactam a sa├║de p├║blica. As Boas Pr├íticas de Fabrica├º├úo (BPF) s├úo requisitos obrigat├│rios para ind├║strias de alimentos, medicamentos, cosm├®ticos e dispositivos m├®dicos.",
+          "definicao": "Agência Nacional de Vigilôncia Sanitéria que regula e fiscaliza produtos e serviços que impactam a saúde pública. As Boas Préticas de Fabricação (BPF) são requisitos obrigatórios para indústrias de alimentos, medicamentos, cosméticos e dispositivos médicos.",
 
           "topicos": [
 
-            "Vigil├óncia sanit├íria",
+            "Vigilôncia sanitéria",
 
-            "Boas Pr├íticas de Fabrica├º├úo",
+            "Boas Préticas de Fabricação",
 
             "Registro de produtos"
 
@@ -12803,9 +12803,9 @@ window.SITE_DATA = {
 
             "Registro de medicamentos e alimentos",
 
-            "Inspe├º├úo sanit├íria em f├íbricas",
+            "Inspeção sanitéria em fébricas",
 
-            "Controle de qualidade farmac├¬utico"
+            "Controle de qualidade farmacêutico"
 
           ]
 
@@ -12813,13 +12813,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Legisla├º├úo de importa├º├úo/exporta├º├úo",
+          "titulo": "Legislação de importação/exportação",
 
-          "definicao": "Conjunto de normas aduaneiras, tribut├írias e administrativas que regulam o com├®rcio exterior brasileiro, incluindo classifica├º├úo fiscal (NCM), licenciamento de importa├º├úo, drawback, regimes aduaneiros especiais e acordos internacionais.",
+          "definicao": "Conjunto de normas aduaneiras, tributérias e administrativas que regulam o comércio exterior brasileiro, incluindo classificação fiscal (NCM), licenciamento de importação, drawback, regimes aduaneiros especiais e acordos internacionais.",
 
           "topicos": [
 
-            "Com├®rcio exterior",
+            "Comércio exterior",
 
             "Aduana",
 
@@ -12833,11 +12833,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Classifica├º├úo fiscal de mercadorias",
+            "Classificação fiscal de mercadorias",
 
-            "Licenciamento de importa├º├úo",
+            "Licenciamento de importação",
 
-            "Opera├º├Áes de drawback"
+            "Operações de drawback"
 
           ]
 
@@ -12845,15 +12845,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "C├│digo de Defesa do Consumidor",
+          "titulo": "Código de Defesa do Consumidor",
 
-          "definicao": "Lei n┬║ 8.078/1990 que estabelece normas de prote├º├úo e defesa do consumidor, regulando rela├º├Áes de consumo, responsabilidade por v├¡cios e defeitos, pr├íticas abusivas, publicidade e garantias. Impacta diretamente a qualidade e a seguran├ºa dos produtos industriais.",
+          "definicao": "Lei n┬║ 8.078/1990 que estabelece normas de proteção e defesa do consumidor, regulando relações de consumo, responsabilidade por vícios e defeitos, préticas abusivas, publicidade e garantias. Impacta diretamente a qualidade e a segurança dos produtos industriais.",
 
           "topicos": [
 
             "CDC",
 
-            "Rela├º├úo de consumo",
+            "Relação de consumo",
 
             "Responsabilidade civil",
 
@@ -12865,11 +12865,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Pol├¡tica de garantia de produtos",
+            "Política de garantia de produtos",
 
-            "Atendimento a reclama├º├Áes de clientes",
+            "Atendimento a reclamações de clientes",
 
-            "Responsabilidade por defeitos de fabrica├º├úo"
+            "Responsabilidade por defeitos de fabricação"
 
           ]
 
@@ -12877,9 +12877,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "LGPD na ind├║stria",
+          "titulo": "LGPD na indústria",
 
-          "definicao": "Lei Geral de Prote├º├úo de Dados (Lei n┬║ 13.709/2018) que regula o tratamento de dados pessoais por organiza├º├Áes p├║blicas e privadas. Na ind├║stria, impacta o RH, dados de clientes, fornecedores e sistemas de monitoramento de colaboradores.",
+          "definicao": "Lei Geral de Proteção de Dados (Lei n┬║ 13.709/2018) que regula o tratamento de dados pessoais por organizações públicas e privadas. Na indústria, impacta o RH, dados de clientes, fornecedores e sistemas de monitoramento de colaboradores.",
 
           "topicos": [
 
@@ -12901,7 +12901,7 @@ window.SITE_DATA = {
 
             "Controle de acesso a sistemas industriais",
 
-            "Pol├¡tica de privacidade para clientes e fornecedores"
+            "Política de privacidade para clientes e fornecedores"
 
           ]
 
@@ -12909,15 +12909,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Conven├º├Áes coletivas",
+          "titulo": "Convenções coletivas",
 
-          "definicao": "Acordos normativos firmados entre sindicatos de trabalhadores e empregadores que estabelecem condi├º├Áes de trabalho, remunera├º├úo, jornada, benef├¡cios e direitos espec├¡ficos para uma categoria profissional em determinada base territorial.",
+          "definicao": "Acordos normativos firmados entre sindicatos de trabalhadores e empregadores que estabelecem condições de trabalho, remuneração, jornada, benefícios e direitos específicos para uma categoria profissional em determinada base territorial.",
 
           "topicos": [
 
             "Acordo coletivo",
 
-            "Diss├¡dio",
+            "Dissídio",
 
             "Sindicato",
 
@@ -12929,11 +12929,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "C├ílculo de sal├írios e benef├¡cios",
+            "Célculo de salérios e benefícios",
 
             "Escala de trabalho e horas extras",
 
-            "Participa├º├úo nos lucros (PLR)"
+            "Participação nos lucros (PLR)"
 
           ]
 
@@ -12943,11 +12943,11 @@ window.SITE_DATA = {
 
           "titulo": "Acordo sindical",
 
-          "definicao": "Instrumento de negocia├º├úo coletiva entre empresa e sindicato representativo dos trabalhadores que estabelece condi├º├Áes espec├¡ficas de trabalho aplic├íveis ├áquela empresa. Tem for├ºa de lei no ├ómbito das rela├º├Áes laborais pactuadas.",
+          "definicao": "Instrumento de negociação coletiva entre empresa e sindicato representativo dos trabalhadores que estabelece condições específicas de trabalho aplicéveis áquela empresa. Tem força de lei no ômbito das relações laborais pactuadas.",
 
           "topicos": [
 
-            "Negocia├º├úo coletiva",
+            "Negociação coletiva",
 
             "Acordo coletivo de trabalho",
 
@@ -12959,11 +12959,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Implementa├º├úo de banco de horas",
+            "Implementação de banco de horas",
 
             "Jornada diferenciada de trabalho",
 
-            "Programas de participa├º├úo nos resultados"
+            "Programas de participação nos resultados"
 
           ]
 
@@ -12973,7 +12973,7 @@ window.SITE_DATA = {
 
           "titulo": "Normas regulamentadoras rurais (NRs)",
 
-          "definicao": "Conjunto de Normas Regulamentadoras espec├¡ficas para o trabalho no campo, incluindo NR-31 (agricultura, pecu├íria e silvicultura), que estabelece requisitos de seguran├ºa e sa├║de para trabalhadores rurais.",
+          "definicao": "Conjunto de Normas Regulamentadoras específicas para o trabalho no campo, incluindo NR-31 (agricultura, pecuéria e silvicultura), que estabelece requisitos de segurança e saúde para trabalhadores rurais.",
 
           "topicos": [
 
@@ -12981,7 +12981,7 @@ window.SITE_DATA = {
 
             "Trabalho rural",
 
-            "Seguran├ºa no campo"
+            "Segurança no campo"
 
           ],
 
@@ -12989,11 +12989,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Seguran├ºa na opera├º├úo de m├íquinas agr├¡colas",
+            "Segurança na operação de méquinas agrícolas",
 
-            "Uso de agrot├│xicos",
+            "Uso de agrotóxicos",
 
-            "Alojamentos e instala├º├Áes rurais"
+            "Alojamentos e instalações rurais"
 
           ]
 
@@ -13001,9 +13001,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Regulamento t├®cnico de produto",
+          "titulo": "Regulamento técnico de produto",
 
-          "definicao": "Documento de car├íter obrigat├│rio emitido por ├│rg├úo regulamentador que estabelece caracter├¡sticas t├®cnicas, requisitos de seguran├ºa, desempenho, rotulagem e procedimentos de avalia├º├úo da conformidade para produtos espec├¡ficos.",
+          "definicao": "Documento de caréter obrigatório emitido por órgão regulamentador que estabelece características técnicas, requisitos de segurança, desempenho, rotulagem e procedimentos de avaliação da conformidade para produtos específicos.",
 
           "topicos": [
 
@@ -13013,7 +13013,7 @@ window.SITE_DATA = {
 
             "ANVISA",
 
-            "Especifica├º├úo t├®cnica"
+            "Especificação técnica"
 
           ],
 
@@ -13021,9 +13021,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Aprova├º├úo de produtos regulamentados",
+            "Aprovação de produtos regulamentados",
 
-            "Rotulagem e instru├º├Áes de uso",
+            "Rotulagem e instruções de uso",
 
             "Ensaios de conformidade"
 
@@ -13033,9 +13033,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Certifica├º├úo compuls├│ria",
+          "titulo": "Certificação compulsória",
 
-          "definicao": "Processo obrigat├│rio de avalia├º├úo da conformidade de produtos que apresentam riscos ├á seguran├ºa, sa├║de ou meio ambiente, exigido por regulamenta├º├úo federal e executado por organismos acreditados pelo INMETRO.",
+          "definicao": "Processo obrigatório de avaliação da conformidade de produtos que apresentam riscos á segurança, saúde ou meio ambiente, exigido por regulamentação federal e executado por organismos acreditados pelo INMETRO.",
 
           "topicos": [
 
@@ -13051,11 +13051,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Certifica├º├úo de brinquedos e materiais el├®tricos",
+            "Certificação de brinquedos e materiais elétricos",
 
-            "Equipamentos de prote├º├úo individual (EPIs)",
+            "Equipamentos de proteção individual (EPIs)",
 
-            "Componentes automotivos de seguran├ºa"
+            "Componentes automotivos de segurança"
 
           ]
 
@@ -13065,17 +13065,17 @@ window.SITE_DATA = {
 
           "titulo": "Selo de conformidade",
 
-          "definicao": "Marca de certifica├º├úo aposta em produtos, processos ou servi├ºos que atestam sua conformidade com normas t├®cnicas ou regulamentos espec├¡ficos. Pode ser compuls├│rio (INMETRO) ou volunt├írio (selos setoriais).",
+          "definicao": "Marca de certificação aposta em produtos, processos ou serviços que atestam sua conformidade com normas técnicas ou regulamentos específicos. Pode ser compulsório (INMETRO) ou voluntério (selos setoriais).",
 
           "topicos": [
 
-            "Marca├º├úo",
+            "Marcação",
 
             "Conformidade",
 
             "ABNT",
 
-            "Certifica├º├úo"
+            "Certificação"
 
           ],
 
@@ -13083,11 +13083,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Identifica├º├úo de produtos certificados",
+            "Identificação de produtos certificados",
 
-            "Diferencia├º├úo competitiva no mercado",
+            "Diferenciação competitiva no mercado",
 
-            "Atendimento a requisitos de licita├º├úo"
+            "Atendimento a requisitos de licitação"
 
           ]
 
@@ -13106,21 +13106,21 @@ window.SITE_DATA = {
 
       "id": "fundamentos",
 
-      "nome": "Fundamentos da Engenharia de Produ├º├úo",
+      "nome": "Fundamentos da Engenharia de Produção",
 
       "icone": "book",
 
       "cor": "#1e293b",
 
-      "descricao": "Hist├│ria, evolu├º├úo e conceitos fundamentais da engenharia de produ├º├úo.",
+      "descricao": "História, evolução e conceitos fundamentais da engenharia de produção.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Evolu├º├úo hist├│rica da produ├º├úo",
+          "titulo": "Evolução histórica da produção",
 
-          "definicao": "Trajet├│ria de transforma├º├úo dos sistemas produtivos desde o artesanato at├® a manufatura enxuta e a Ind├║stria 4.0. Cada fase hist├│rica introduziu novas formas de organiza├º├úo do trabalho, tecnologias e paradigmas de gest├úo.",
+          "definicao": "Trajetória de transformação dos sistemas produtivos desde o artesanato até a manufatura enxuta e a Indústria 4.0. Cada fase histórica introduziu novas formas de organização do trabalho, tecnologias e paradigmas de gestão.",
 
           "topicos": [
 
@@ -13128,9 +13128,9 @@ window.SITE_DATA = {
 
             "Manufatura",
 
-            "Industrializa├º├úo",
+            "Industrialização",
 
-            "Ind├║stria 4.0"
+            "Indústria 4.0"
 
           ],
 
@@ -13138,11 +13138,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise comparativa de sistemas produtivos",
+            "Anélise comparativa de sistemas produtivos",
 
-            "Compreens├úo das revolu├º├Áes industriais",
+            "Compreensão das revoluções industriais",
 
-            "Planejamento estrat├®gico de transforma├º├úo digital"
+            "Planejamento estratégico de transformação digital"
 
           ]
 
@@ -13150,19 +13150,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Revolu├º├úo Industrial",
+          "titulo": "Revolução Industrial",
 
-          "definicao": "Per├¡odo hist├│rico iniciado na Inglaterra no s├®culo XVIII que marcou a transi├º├úo da produ├º├úo artesanal para a produ├º├úo mecanizada com o uso de m├íquinas a vapor, ferro e carv├úo. Dividida em tr├¬s fases, cada uma com inova├º├Áes tecnol├│gicas e organizacionais profundas.",
+          "definicao": "Período histórico iniciado na Inglaterra no século XVIII que marcou a transição da produção artesanal para a produção mecanizada com o uso de méquinas a vapor, ferro e carvão. Dividida em três fases, cada uma com inovações tecnológicas e organizacionais profundas.",
 
           "topicos": [
 
-            "1┬¬ Revolu├º├úo Industrial",
+            "1┬¬ Revolução Industrial",
 
-            "2┬¬ Revolu├º├úo Industrial",
+            "2┬¬ Revolução Industrial",
 
-            "3┬¬ Revolu├º├úo Industrial",
+            "3┬¬ Revolução Industrial",
 
-            "Ind├║stria 4.0"
+            "Indústria 4.0"
 
           ],
 
@@ -13170,11 +13170,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Contextualiza├º├úo hist├│rica da produ├º├úo",
+            "Contextualização histórica da produção",
 
-            "Entendimento da evolu├º├úo tecnol├│gica",
+            "Entendimento da evolução tecnológica",
 
-            "Referencial para inova├º├úo industrial"
+            "Referencial para inovação industrial"
 
           ]
 
@@ -13182,9 +13182,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Taylorismo (Administra├º├úo Cient├¡fica)",
+          "titulo": "Taylorismo (Administração Científica)",
 
-          "definicao": "Sistema de gest├úo da produ├º├úo desenvolvido por Frederick W. Taylor no final do s├®culo XIX, baseado na racionaliza├º├úo do trabalho, divis├úo entre planejamento e execu├º├úo, estudo de tempos e movimentos e incentivos salariais por produtividade.",
+          "definicao": "Sistema de gestão da produção desenvolvido por Frederick W. Taylor no final do século XIX, baseado na racionalização do trabalho, divisão entre planejamento e execução, estudo de tempos e movimentos e incentivos salariais por produtividade.",
 
           "topicos": [
 
@@ -13192,7 +13192,7 @@ window.SITE_DATA = {
 
             "Estudo de tempos e movimentos",
 
-            "Racionaliza├º├úo do trabalho"
+            "Racionalização do trabalho"
 
           ],
 
@@ -13202,9 +13202,9 @@ window.SITE_DATA = {
 
             "Desenho de cargos e tarefas",
 
-            "Padroniza├º├úo de m├®todos de trabalho",
+            "Padronização de métodos de trabalho",
 
-            "Sistemas de remunera├º├úo por desempenho"
+            "Sistemas de remuneração por desempenho"
 
           ]
 
@@ -13214,7 +13214,7 @@ window.SITE_DATA = {
 
           "titulo": "Fordismo",
 
-          "definicao": "Modelo de produ├º├úo em massa criado por Henry Ford que combinou a linha de montagem cont├¡nua com a padroniza├º├úo completa do produto (Ford Modelo T) e altos sal├írios para os oper├írios. Caracterizou a produ├º├úo industrial do s├®culo XX.",
+          "definicao": "Modelo de produção em massa criado por Henry Ford que combinou a linha de montagem contínua com a padronização completa do produto (Ford Modelo T) e altos salérios para os operérios. Caracterizou a produção industrial do século XX.",
 
           "topicos": [
 
@@ -13222,7 +13222,7 @@ window.SITE_DATA = {
 
             "Linha de montagem",
 
-            "Produ├º├úo em massa",
+            "Produção em massa",
 
             "Ford Modelo T"
 
@@ -13232,9 +13232,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Produ├º├úo em larga escala de autom├│veis",
+            "Produção em larga escala de automóveis",
 
-            "Eletrodom├®sticos e bens de consumo",
+            "Eletrodomésticos e bens de consumo",
 
             "Montagem de produtos complexos"
 
@@ -13244,9 +13244,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Sistema Toyota de Produ├º├úo (STP)",
+          "titulo": "Sistema Toyota de Produção (STP)",
 
-          "definicao": "Sistema de manufatura enxuta desenvolvido pela Toyota no Jap├úo p├│s-guerra, baseado nos pilares do Just-in-Time (JIT) e Jidoka, com o objetivo de eliminar desperd├¡cios e produzir apenas o necess├írio, no momento necess├írio, com a qualidade necess├íria.",
+          "definicao": "Sistema de manufatura enxuta desenvolvido pela Toyota no Japão pós-guerra, baseado nos pilares do Just-in-Time (JIT) e Jidoka, com o objetivo de eliminar desperdícios e produzir apenas o necessério, no momento necessério, com a qualidade necesséria.",
 
           "topicos": [
 
@@ -13266,9 +13266,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de estoques e lead times",
+            "Redução de estoques e lead times",
 
-            "Melhoria cont├¡nua em processos",
+            "Melhoria contínua em processos",
 
             "Manufatura enxuta em diversos setores"
 
@@ -13280,15 +13280,15 @@ window.SITE_DATA = {
 
           "titulo": "Tipos de sistemas produtivos",
 
-          "definicao": "Classifica├º├úo dos sistemas de produ├º├úo de acordo com o fluxo do produto e o volume de produ├º├úo. A escolha do tipo adequado impacta o layout, a gest├úo de estoques, o planejamento e o controle da produ├º├úo.",
+          "definicao": "Classificação dos sistemas de produção de acordo com o fluxo do produto e o volume de produção. A escolha do tipo adequado impacta o layout, a gestão de estoques, o planejamento e o controle da produção.",
 
           "topicos": [
 
-            "Sistemas de produ├º├úo",
+            "Sistemas de produção",
 
             "Fluxo produtivo",
 
-            "Classifica├º├úo"
+            "Classificação"
 
           ],
 
@@ -13298,7 +13298,7 @@ window.SITE_DATA = {
 
             "Projeto de sistemas de manufatura",
 
-            "Estrat├®gia de produ├º├úo",
+            "Estratégia de produção",
 
             "Planejamento de capacidade"
 
@@ -13308,15 +13308,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produ├º├úo cont├¡nua",
+          "titulo": "Produção contínua",
 
-          "definicao": "Sistema produtivo caracterizado pelo fluxo ininterrupto de materiais ao longo do processo, t├¡pico de ind├║strias de processo qu├¡mico, petroqu├¡mico, sider├║rgico e de papel e celulose. Opera 24 horas com alta intensidade de capital.",
+          "definicao": "Sistema produtivo caracterizado pelo fluxo ininterrupto de materiais ao longo do processo, típico de indústrias de processo químico, petroquímico, siderúrgico e de papel e celulose. Opera 24 horas com alta intensidade de capital.",
 
           "topicos": [
 
-            "Processo cont├¡nuo",
+            "Processo contínuo",
 
-            "Ind├║stria de processo",
+            "Indústria de processo",
 
             "Fluxo ininterrupto"
 
@@ -13326,9 +13326,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Refinarias de petr├│leo",
+            "Refinarias de petróleo",
 
-            "Plantas qu├¡micas",
+            "Plantas químicas",
 
             "Siderurgia integrada"
 
@@ -13338,9 +13338,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produ├º├úo em massa",
+          "titulo": "Produção em massa",
 
-          "definicao": "Sistema de alto volume e baixa variedade que utiliza linhas de montagem e pe├ºas padronizadas para produzir grandes quantidades de produtos id├¬nticos a baixo custo unit├írio. Foi o paradigma dominante da ind├║stria do s├®culo XX.",
+          "definicao": "Sistema de alto volume e baixa variedade que utiliza linhas de montagem e peças padronizadas para produzir grandes quantidades de produtos idênticos a baixo custo unitério. Foi o paradigma dominante da indústria do século XX.",
 
           "topicos": [
 
@@ -13348,7 +13348,7 @@ window.SITE_DATA = {
 
             "Alto volume",
 
-            "Padroniza├º├úo",
+            "Padronização",
 
             "Fordismo"
 
@@ -13358,11 +13358,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Montagem de ve├¡culos",
+            "Montagem de veículos",
 
-            "Eletr├┤nicos de consumo",
+            "Eletrônicos de consumo",
 
-            "Eletrodom├®sticos"
+            "Eletrodomésticos"
 
           ]
 
@@ -13370,17 +13370,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produ├º├úo por projeto",
+          "titulo": "Produção por projeto",
 
-          "definicao": "Sistema produtivo orientado ├á fabrica├º├úo de um produto ├║nico e customizado, com in├¡cio e fim definidos, equipe dedicada e or├ºamento espec├¡fico. Cada projeto ├® tratado como um empreendimento singular, t├¡pico de constru├º├úo naval, aeron├íutica e grandes obras.",
+          "definicao": "Sistema produtivo orientado á fabricação de um produto único e customizado, com início e fim definidos, equipe dedicada e orçamento específico. Cada projeto é tratado como um empreendimento singular, típico de construção naval, aeronéutica e grandes obras.",
 
           "topicos": [
 
-            "Gest├úo de projetos",
+            "Gestão de projetos",
 
-            "Produto ├║nico",
+            "Produto único",
 
-            "Customiza├º├úo",
+            "Customização",
 
             "PMBOK"
 
@@ -13390,7 +13390,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Constru├º├úo de navios e plataformas",
+            "Construção de navios e plataformas",
 
             "Grandes empreendimentos de infraestrutura",
 
@@ -13402,31 +13402,31 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Produ├º├úo em lotes",
+          "titulo": "Produção em lotes",
 
-          "definicao": "Sistema produtivo intermedi├írio entre a produ├º├úo cont├¡nua e a sob encomenda, no qual diferentes produtos s├úo fabricados em quantidades definidas (lotes) com setup entre as trocas. Comum em ind├║strias de m├®dio volume e m├®dia variedade.",
+          "definicao": "Sistema produtivo intermediério entre a produção contínua e a sob encomenda, no qual diferentes produtos são fabricados em quantidades definidas (lotes) com setup entre as trocas. Comum em indústrias de médio volume e média variedade.",
 
           "topicos": [
 
-            "Lote econ├┤mico",
+            "Lote econômico",
 
             "Setup",
 
-            "M├®dio volume",
+            "Médio volume",
 
-            "Variedade m├®dia"
+            "Variedade média"
 
           ],
 
-          "formula": "Lote Econ├┤mico = ÔêÜ(2 ├ù Demanda ├ù Custo de setup / Custo de armazenagem)",
+          "formula": "Lote Econômico = ÔêÜ(2 ú Demanda ú Custo de setup / Custo de armazenagem)",
 
           "aplicacoes": [
 
-            "Ind├║stria de alimentos e bebidas",
+            "Indústria de alimentos e bebidas",
 
-            "Fabrica├º├úo de m├│veis",
+            "Fabricação de móveis",
 
-            "Confec├º├úo t├¬xtil"
+            "Confecção têxtil"
 
           ]
 
@@ -13434,9 +13434,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Customiza├º├úo em massa",
+          "titulo": "Customização em massa",
 
-          "definicao": "Estrat├®gia produtiva que combina a efici├¬ncia da produ├º├úo em massa com a flexibilidade para atender necessidades individuais dos clientes. Utiliza plataformas modulares, posterga├º├úo (postponement) e configura├º├úo sob pedido.",
+          "definicao": "Estratégia produtiva que combina a eficiência da produção em massa com a flexibilidade para atender necessidades individuais dos clientes. Utiliza plataformas modulares, postergação (postponement) e configuração sob pedido.",
 
           "topicos": [
 
@@ -13454,9 +13454,9 @@ window.SITE_DATA = {
 
             "Montagem de computadores sob pedido (Dell)",
 
-            "Ve├¡culos com opcionais configur├íveis",
+            "Veículos com opcionais configuréveis",
 
-            "M├│veis planejados modulares"
+            "Móveis planejados modulares"
 
           ]
 
@@ -13464,9 +13464,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Arranjo f├¡sico (Layout Industrial)",
+          "titulo": "Arranjo físico (Layout Industrial)",
 
-          "definicao": "Disposi├º├úo espacial dos recursos produtivos (m├íquinas, equipamentos, esta├º├Áes de trabalho, estoques) dentro da planta fabril. O layout adequado minimiza movimenta├º├Áes, reduz lead times e melhora o fluxo de materiais e pessoas.",
+          "definicao": "Disposição espacial dos recursos produtivos (méquinas, equipamentos, estações de trabalho, estoques) dentro da planta fabril. O layout adequado minimiza movimentações, reduz lead times e melhora o fluxo de materiais e pessoas.",
 
           "topicos": [
 
@@ -13474,7 +13474,7 @@ window.SITE_DATA = {
 
             "Fluxo de materiais",
 
-            "Movimenta├º├úo interna",
+            "Movimentação interna",
 
             "Planejamento fabril"
 
@@ -13484,11 +13484,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projeto de novas f├íbricas",
+            "Projeto de novas fébricas",
 
             "Rearranjo de linhas existentes",
 
-            "Redu├º├úo de movimenta├º├úo e transporte"
+            "Redução de movimentação e transporte"
 
           ]
 
@@ -13498,13 +13498,13 @@ window.SITE_DATA = {
 
           "titulo": "Layout por produto",
 
-          "definicao": "Arranjo f├¡sico no qual m├íquinas e esta├º├Áes de trabalho s├úo dispostas sequencialmente conforme a rota de fabrica├º├úo de um produto espec├¡fico. Adequado para produ├º├úo em massa e fluxo cont├¡nuo com alto volume e baixa variedade.",
+          "definicao": "Arranjo físico no qual méquinas e estações de trabalho são dispostas sequencialmente conforme a rota de fabricação de um produto específico. Adequado para produção em massa e fluxo contínuo com alto volume e baixa variedade.",
 
           "topicos": [
 
             "Linha de montagem",
 
-            "Fluxo cont├¡nuo",
+            "Fluxo contínuo",
 
             "Alto volume"
 
@@ -13518,7 +13518,7 @@ window.SITE_DATA = {
 
             "Envasamento de bebidas",
 
-            "Processos qu├¡micos cont├¡nuos"
+            "Processos químicos contínuos"
 
           ]
 
@@ -13528,7 +13528,7 @@ window.SITE_DATA = {
 
           "titulo": "Layout por processo",
 
-          "definicao": "Arranjo f├¡sico no qual m├íquinas e equipamentos similares s├úo agrupados em centros de trabalho funcionais (tornos, fresas, solda, pintura). Adequado para produ├º├úo em lotes com m├®dia variedade e volume moderado.",
+          "definicao": "Arranjo físico no qual méquinas e equipamentos similares são agrupados em centros de trabalho funcionais (tornos, fresas, solda, pintura). Adequado para produção em lotes com média variedade e volume moderado.",
 
           "topicos": [
 
@@ -13546,9 +13546,9 @@ window.SITE_DATA = {
 
             "Usinagem geral",
 
-            "Oficinas mec├ónicas",
+            "Oficinas mecônicas",
 
-            "Ind├║stria de bens de capital"
+            "Indústria de bens de capital"
 
           ]
 
@@ -13558,11 +13558,11 @@ window.SITE_DATA = {
 
           "titulo": "Layout celular",
 
-          "definicao": "Arranjo f├¡sico que organiza m├íquinas e operadores em c├®lulas de manufatura dedicadas a fam├¡lias de pe├ºas com roteiros similares (Tecnologia de Grupo). Combina a flexibilidade do layout por processo com a efici├¬ncia do layout por produto.",
+          "definicao": "Arranjo físico que organiza méquinas e operadores em células de manufatura dedicadas a famílias de peças com roteiros similares (Tecnologia de Grupo). Combina a flexibilidade do layout por processo com a eficiência do layout por produto.",
 
           "topicos": [
 
-            "C├®lula de manufatura",
+            "Célula de manufatura",
 
             "Tecnologia de Grupo",
 
@@ -13576,9 +13576,9 @@ window.SITE_DATA = {
 
             "Manufatura de componentes automotivos",
 
-            "Ind├║stria metalmec├ónica",
+            "Indústria metalmecônica",
 
-            "Produ├º├úo de pe├ºas para aeronaves"
+            "Produção de peças para aeronaves"
 
           ]
 
@@ -13588,7 +13588,7 @@ window.SITE_DATA = {
 
           "titulo": "Layout posicional fixo",
 
-          "definicao": "Arranjo f├¡sico no qual o produto permanece em uma posi├º├úo fixa e os recursos produtivos (materiais, ferramentas, equipes) se deslocam at├® ele. Utilizado para produtos muito grandes, pesados ou complexos que n├úo podem ser movimentados.",
+          "definicao": "Arranjo físico no qual o produto permanece em uma posição fixa e os recursos produtivos (materiais, ferramentas, equipes) se deslocam até ele. Utilizado para produtos muito grandes, pesados ou complexos que não podem ser movimentados.",
 
           "topicos": [
 
@@ -13596,7 +13596,7 @@ window.SITE_DATA = {
 
             "Grandes estruturas",
 
-            "Constru├º├úo pesada"
+            "Construção pesada"
 
           ],
 
@@ -13604,7 +13604,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Constru├º├úo naval",
+            "Construção naval",
 
             "Montagem de aeronaves",
 
@@ -13616,17 +13616,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Layout h├¡brido",
+          "titulo": "Layout híbrido",
 
-          "definicao": "Combina├º├úo de dois ou mais tipos de arranjo f├¡sico (produto, processo, celular, posicional fixo) em uma mesma planta industrial para atender diferentes etapas do processo ou diferentes fam├¡lias de produtos com caracter├¡sticas distintas.",
+          "definicao": "Combinação de dois ou mais tipos de arranjo físico (produto, processo, celular, posicional fixo) em uma mesma planta industrial para atender diferentes etapas do processo ou diferentes famílias de produtos com características distintas.",
 
           "topicos": [
 
             "Layout combinado",
 
-            "Planta flex├¡vel",
+            "Planta flexível",
 
-            "Mix de produ├º├úo"
+            "Mix de produção"
 
           ],
 
@@ -13634,11 +13634,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "F├íbricas com setores de fabrica├º├úo e montagem",
+            "Fébricas com setores de fabricação e montagem",
 
             "Plantas multiproduto",
 
-            "Ind├║stria com etapas produtivas heterog├¬neas"
+            "Indústria com etapas produtivas heterogêneas"
 
           ]
 
@@ -13648,7 +13648,7 @@ window.SITE_DATA = {
 
           "titulo": "Linha de montagem",
 
-          "definicao": "Sistema de produ├º├úo no qual o produto em fabrica├º├úo se desloca ao longo de uma sequ├¬ncia de esta├º├Áes de trabalho, cada uma realizando uma opera├º├úo espec├¡fica at├® a conclus├úo final. Pode ser manual, automatizada ou semiautomatizada.",
+          "definicao": "Sistema de produção no qual o produto em fabricação se desloca ao longo de uma sequência de estações de trabalho, cada uma realizando uma operação específica até a conclusão final. Pode ser manual, automatizada ou semiautomatizada.",
 
           "topicos": [
 
@@ -13656,17 +13656,17 @@ window.SITE_DATA = {
 
             "Takt time",
 
-            "Esta├º├úo de trabalho"
+            "Estação de trabalho"
 
           ],
 
-          "formula": "N├║mero m├¡nimo de esta├º├Áes = ╬ú Tempos das tarefas / Takt time",
+          "formula": "Número mínimo de estações = ╬ú Tempos das tarefas / Takt time",
 
           "aplicacoes": [
 
-            "Montagem de ve├¡culos e motores",
+            "Montagem de veículos e motores",
 
-            "Montagem de eletr├┤nicos",
+            "Montagem de eletrônicos",
 
             "Linhas de embalagem de alimentos"
 
@@ -13676,9 +13676,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "C├®lula de manufatura",
+          "titulo": "Célula de manufatura",
 
-          "definicao": "Agrupamento dedicado de m├íquinas e operadores dispostos em U, L ou linha reta para processar uma fam├¡lia de pe├ºas com roteiros semelhantes. Reduz movimenta├º├úo, WIP e lead time, sendo um elemento central da manufatura enxuta.",
+          "definicao": "Agrupamento dedicado de méquinas e operadores dispostos em U, L ou linha reta para processar uma família de peças com roteiros semelhantes. Reduz movimentação, WIP e lead time, sendo um elemento central da manufatura enxuta.",
 
           "topicos": [
 
@@ -13694,11 +13694,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Usinagem de fam├¡lias de componentes",
+            "Usinagem de famílias de componentes",
 
             "Montagem de subconjuntos",
 
-            "Manufatura de precis├úo"
+            "Manufatura de precisão"
 
           ]
 
@@ -13706,9 +13706,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Lean Startup na produ├º├úo",
+          "titulo": "Lean Startup na produção",
 
-          "definicao": "Adapta├º├úo dos princ├¡pios do Lean Manufacturing (MVP, piv├┤, aprendizado validado, ciclo construir-medir-aprender) para o desenvolvimento de novos produtos e modelos de neg├│cio em ambientes de alta incerteza. Aplica o pensamento enxuto ├á inova├º├úo.",
+          "definicao": "Adaptação dos princípios do Lean Manufacturing (MVP, pivô, aprendizado validado, ciclo construir-medir-aprender) para o desenvolvimento de novos produtos e modelos de negócio em ambientes de alta incerteza. Aplica o pensamento enxuto á inovação.",
 
           "topicos": [
 
@@ -13718,7 +13718,7 @@ window.SITE_DATA = {
 
             "Startup enxuta",
 
-            "Inova├º├úo"
+            "Inovação"
 
           ],
 
@@ -13726,11 +13726,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Desenvolvimento ├ígil de novos produtos",
+            "Desenvolvimento égil de novos produtos",
 
-            "Valida├º├úo de mercado antes da produ├º├úo em escala",
+            "Validação de mercado antes da produção em escala",
 
-            "Redu├º├úo de desperd├¡cios em P&D"
+            "Redução de desperdícios em P&D"
 
           ]
 
@@ -13750,21 +13750,21 @@ window.SITE_DATA = {
 
       "id": "metalurgica",
 
-      "nome": "Ind├║stria Metal├║rgica",
+      "nome": "Indústria Metalúrgica",
 
       "icone": "hammer",
 
       "cor": "#78716c",
 
-      "descricao": "Processos metal├║rgicos, siderurgia, fundi├º├úo e tratamentos t├®rmicos.",
+      "descricao": "Processos metalúrgicos, siderurgia, fundição e tratamentos térmicos.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Metalurgia f├¡sica",
+          "titulo": "Metalurgia física",
 
-          "definicao": "Ramo da metalurgia que estuda a estrutura cristalina dos metais, defeitos cristalinos, mecanismos de deforma├º├úo, difus├úo, transforma├º├Áes de fase e a rela├º├úo entre microestrutura e propriedades mec├ónicas. Fundamenta todos os processos de transforma├º├úo e tratamento t├®rmico.",
+          "definicao": "Ramo da metalurgia que estuda a estrutura cristalina dos metais, defeitos cristalinos, mecanismos de deformação, difusão, transformações de fase e a relação entre microestrutura e propriedades mecônicas. Fundamenta todos os processos de transformação e tratamento térmico.",
 
           "topicos": [
 
@@ -13772,7 +13772,7 @@ window.SITE_DATA = {
 
             "Defeitos",
 
-            "Difus├úo",
+            "Difusão",
 
             "Microestrutura"
 
@@ -13784,9 +13784,9 @@ window.SITE_DATA = {
 
             "Desenvolvimento de novas ligas",
 
-            "Controle de qualidade metal├║rgico",
+            "Controle de qualidade metalúrgico",
 
-            "Sele├º├úo de materiais para engenharia"
+            "Seleção de materiais para engenharia"
 
           ]
 
@@ -13796,7 +13796,7 @@ window.SITE_DATA = {
 
           "titulo": "Diagrama Ferro-Carbono",
 
-          "definicao": "Diagrama de equil├¡brio de fases do sistema ferro-carbono que relaciona temperatura e composi├º├úo, mostrando as fases est├íveis (ferrita, austenita, cementita) e as transforma├º├Áes eut├®tica e eutet├│ide. ├ë a base para tratamentos t├®rmicos de a├ºos e ferros fundidos.",
+          "definicao": "Diagrama de equilíbrio de fases do sistema ferro-carbono que relaciona temperatura e composição, mostrando as fases estéveis (ferrita, austenita, cementita) e as transformações eutética e eutetóide. ë a base para tratamentos térmicos de aços e ferros fundidos.",
 
           "topicos": [
 
@@ -13808,19 +13808,19 @@ window.SITE_DATA = {
 
             "Perlita",
 
-            "Ponto eutet├│ide 727┬░C"
+            "Ponto eutetóide 727┬░C"
 
           ],
 
-          "formula": "A├ºos: teor de C < 2,11% | Ferros fundidos: 2,11% < C < 6,67%",
+          "formula": "Aços: teor de C < 2,11% | Ferros fundidos: 2,11% < C < 6,67%",
 
           "aplicacoes": [
 
-            "Classifica├º├úo de a├ºos e ferros fundidos",
+            "Classificação de aços e ferros fundidos",
 
-            "Defini├º├úo de temperaturas de tratamento t├®rmico",
+            "Definição de temperaturas de tratamento térmico",
 
-            "Previs├úo de microestruturas e propriedades"
+            "Previsão de microestruturas e propriedades"
 
           ]
 
@@ -13828,9 +13828,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Classifica├º├úo dos a├ºos",
+          "titulo": "Classificação dos aços",
 
-          "definicao": "Sistema de categoriza├º├úo dos a├ºos conforme sua composi├º├úo qu├¡mica, aplica├º├úo e propriedades mec├ónicas. Inclui a├ºos-carbono (baixo, m├®dio, alto teor), a├ºos-liga (baixa, m├®dia, alta liga), a├ºos ferramenta, a├ºos inoxid├íveis e a├ºos especiais.",
+          "definicao": "Sistema de categorização dos aços conforme sua composição química, aplicação e propriedades mecônicas. Inclui aços-carbono (baixo, médio, alto teor), aços-liga (baixa, média, alta liga), aços ferramenta, aços inoxidéveis e aços especiais.",
 
           "topicos": [
 
@@ -13838,11 +13838,11 @@ window.SITE_DATA = {
 
             "ABNT",
 
-            "A├ºos-carbono",
+            "Aços-carbono",
 
-            "A├ºos-liga",
+            "Aços-liga",
 
-            "A├ºos inoxid├íveis"
+            "Aços inoxidéveis"
 
           ],
 
@@ -13850,11 +13850,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Especifica├º├úo de materiais em projetos",
+            "Especificação de materiais em projetos",
 
-            "Sele├º├úo de a├ºos para componentes mec├ónicos",
+            "Seleção de aços para componentes mecônicos",
 
-            "Compras t├®cnicas e recebimento de materiais"
+            "Compras técnicas e recebimento de materiais"
 
           ]
 
@@ -13864,7 +13864,7 @@ window.SITE_DATA = {
 
           "titulo": "Ferros fundidos",
 
-          "definicao": "Ligas ferro-carbono com teor de carbono entre 2,11% e 6,67%, caracterizadas pela solidifica├º├úo com rea├º├úo eut├®tica. Classificam-se em cinzento, nodular, branco, male├ível e ADI, cada um com microestrutura e propriedades distintas.",
+          "definicao": "Ligas ferro-carbono com teor de carbono entre 2,11% e 6,67%, caracterizadas pela solidificação com reação eutética. Classificam-se em cinzento, nodular, branco, maleével e ADI, cada um com microestrutura e propriedades distintas.",
 
           "topicos": [
 
@@ -13884,9 +13884,9 @@ window.SITE_DATA = {
 
             "Blocos de motor automotivo",
 
-            "Tubula├º├Áes e conex├Áes",
+            "Tubulações e conexões",
 
-            "Componentes de m├íquinas e matrizes"
+            "Componentes de méquinas e matrizes"
 
           ]
 
@@ -13894,17 +13894,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Conforma├º├úo mec├ónica",
+          "titulo": "Conformação mecônica",
 
-          "definicao": "Conjunto de processos de fabrica├º├úo que alteram a forma do metal por deforma├º├úo pl├ística, sem remo├º├úo de material. Inclui lamina├º├úo, forjamento, extrus├úo, trefila├º├úo e estampagem. Modifica a microestrutura e pode melhorar propriedades mec├ónicas.",
+          "definicao": "Conjunto de processos de fabricação que alteram a forma do metal por deformação pléstica, sem remoção de material. Inclui laminação, forjamento, extrusão, trefilação e estampagem. Modifica a microestrutura e pode melhorar propriedades mecônicas.",
 
           "topicos": [
 
-            "Deforma├º├úo pl├ística",
+            "Deformação pléstica",
 
             "Encruamento",
 
-            "Recristaliza├º├úo"
+            "Recristalização"
 
           ],
 
@@ -13912,11 +13912,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Produ├º├úo de chapas e perfis laminados",
+            "Produção de chapas e perfis laminados",
 
             "Forjamento de componentes estruturais",
 
-            "Fabrica├º├úo de arames e tubos"
+            "Fabricação de arames e tubos"
 
           ]
 
@@ -13926,7 +13926,7 @@ window.SITE_DATA = {
 
           "titulo": "Usinagem",
 
-          "definicao": "Processo de fabrica├º├úo por remo├º├úo de material (cavaco) utilizando ferramentas de corte para obter pe├ºas com geometria, dimens├Áes e acabamento especificados. Inclui torneamento, fresamento, fura├º├úo, retifica├º├úo e eletroeros├úo.",
+          "definicao": "Processo de fabricação por remoção de material (cavaco) utilizando ferramentas de corte para obter peças com geometria, dimensões e acabamento especificados. Inclui torneamento, fresamento, furação, retificação e eletroerosão.",
 
           "topicos": [
 
@@ -13934,23 +13934,23 @@ window.SITE_DATA = {
 
             "Fresamento",
 
-            "Fura├º├úo",
+            "Furação",
 
-            "Retifica├º├úo",
+            "Retificação",
 
             "Cavaco"
 
           ],
 
-          "formula": "Velocidade de corte Vc = ¤Ç ├ù D ├ù n / 1000 (m/min)",
+          "formula": "Velocidade de corte Vc = ¤Ç ú D ú n / 1000 (m/min)",
 
           "aplicacoes": [
 
-            "Fabrica├º├úo de moldes e matrizes",
+            "Fabricação de moldes e matrizes",
 
             "Usinagem de componentes automotivos",
 
-            "Pe├ºas de precis├úo para aeron├íutica"
+            "Peças de precisão para aeronéutica"
 
           ]
 
@@ -13960,13 +13960,13 @@ window.SITE_DATA = {
 
           "titulo": "Soldagem e metalurgia da soldagem",
 
-          "definicao": "Processo de uni├úo de materiais por fus├úo ou press├úo, com ou sem adi├º├úo de metal de solda. A metalurgia da soldagem estuda as transforma├º├Áes microestruturais na zona fundida e na zona termicamente afetada (ZTA).",
+          "definicao": "Processo de união de materiais por fusão ou pressão, com ou sem adição de metal de solda. A metalurgia da soldagem estuda as transformações microestruturais na zona fundida e na zona termicamente afetada (ZTA).",
 
           "topicos": [
 
             "ZTA",
 
-            "Arco el├®trico",
+            "Arco elétrico",
 
             "MIG/MAG",
 
@@ -13980,11 +13980,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Fabrica├º├úo de estruturas met├ílicas",
+            "Fabricação de estruturas metélicas",
 
-            "Caldeiraria e vasos de press├úo",
+            "Caldeiraria e vasos de pressão",
 
-            "Reparo e recupera├º├úo de componentes"
+            "Reparo e recuperação de componentes"
 
           ]
 
@@ -13992,13 +13992,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Qualifica├º├úo de soldadores",
+          "titulo": "Qualificação de soldadores",
 
-          "definicao": "Processo de certifica├º├úo de profissionais de soldagem conforme normas t├®cnicas (como ASME IX, AWS D1.1, NR-13), envolvendo testes pr├íticos e te├│ricos que comprovam a habilidade do soldador em executir juntas soldadas com qualidade e seguran├ºa.",
+          "definicao": "Processo de certificação de profissionais de soldagem conforme normas técnicas (como ASME IX, AWS D1.1, NR-13), envolvendo testes préticos e teóricos que comprovam a habilidade do soldador em executir juntas soldadas com qualidade e segurança.",
 
           "topicos": [
 
-            "Certifica├º├úo",
+            "Certificação",
 
             "NR-13",
 
@@ -14006,7 +14006,7 @@ window.SITE_DATA = {
 
             "AWS",
 
-            "Ensaio de qualifica├º├úo"
+            "Ensaio de qualificação"
 
           ],
 
@@ -14014,11 +14014,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Ind├║stria de petr├│leo e g├ís",
+            "Indústria de petróleo e gés",
 
-            "Constru├º├úo naval",
+            "Construção naval",
 
-            "Caldeiraria pesada e vasos de press├úo"
+            "Caldeiraria pesada e vasos de pressão"
 
           ]
 
@@ -14026,19 +14026,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Metalurgia do p├│",
+          "titulo": "Metalurgia do pó",
 
-          "definicao": "Processo de fabrica├º├úo de componentes met├ílicos a partir de p├│s met├ílicos prensados e sinterizados. Permite obter pe├ºas com geometrias complexas, porosidade controlada e propriedades customizadas sem usinagem posterior.",
+          "definicao": "Processo de fabricação de componentes metélicos a partir de pós metélicos prensados e sinterizados. Permite obter peças com geometrias complexas, porosidade controlada e propriedades customizadas sem usinagem posterior.",
 
           "topicos": [
 
-            "Sinteriza├º├úo",
+            "Sinterização",
 
             "Prensagem",
 
-            "P├│ met├ílico",
+            "Pó metélico",
 
-            "Metalurgia do p├│"
+            "Metalurgia do pó"
 
           ],
 
@@ -14048,9 +14048,9 @@ window.SITE_DATA = {
 
             "Engrenagens e componentes automotivos",
 
-            "Filtros met├ílicos porosos",
+            "Filtros metélicos porosos",
 
-            "Ferramentas de metal duro (carbeto de tungst├¬nio)"
+            "Ferramentas de metal duro (carbeto de tungstênio)"
 
           ]
 
@@ -14058,19 +14058,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Corros├úo e prote├º├úo anticorrosiva",
+          "titulo": "Corrosão e proteção anticorrosiva",
 
-          "definicao": "Estudo dos mecanismos de deteriora├º├úo dos metais por a├º├úo qu├¡mica ou eletroqu├¡mica do meio ambiente. A prote├º├úo anticorrosiva inclui revestimentos, inibidores, prote├º├úo cat├│dica e sele├º├úo adequada de materiais.",
+          "definicao": "Estudo dos mecanismos de deterioração dos metais por ação química ou eletroquímica do meio ambiente. A proteção anticorrosiva inclui revestimentos, inibidores, proteção catódica e seleção adequada de materiais.",
 
           "topicos": [
 
-            "Corros├úo eletroqu├¡mica",
+            "Corrosão eletroquímica",
 
-            "Oxida├º├úo",
+            "Oxidação",
 
             "Pintura industrial",
 
-            "Galvaniza├º├úo"
+            "Galvanização"
 
           ],
 
@@ -14078,11 +14078,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Prote├º├úo de dutos e tubula├º├Áes",
+            "Proteção de dutos e tubulações",
 
             "Revestimentos anticorrosivos em estruturas",
 
-            "Sele├º├úo de materiais para ambientes agressivos"
+            "Seleção de materiais para ambientes agressivos"
 
           ]
 
@@ -14090,13 +14090,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ensaios mec├ónicos",
+          "titulo": "Ensaios mecônicos",
 
-          "definicao": "Conjunto de testes padronizados para determinar propriedades mec├ónicas dos materiais, como resist├¬ncia, dureza, tenacidade, ductilidade e resist├¬ncia ├á fadiga. Incluem ensaio de tra├º├úo, compress├úo, flex├úo, impacto e fadiga.",
+          "definicao": "Conjunto de testes padronizados para determinar propriedades mecônicas dos materiais, como resistência, dureza, tenacidade, ductilidade e resistência á fadiga. Incluem ensaio de tração, compressão, flexão, impacto e fadiga.",
 
           "topicos": [
 
-            "Tra├º├úo",
+            "Tração",
 
             "Dureza",
 
@@ -14104,17 +14104,17 @@ window.SITE_DATA = {
 
             "Fadiga",
 
-            "Flu├¬ncia"
+            "Fluência"
 
           ],
 
-          "formula": "¤â = F/A (Tens├úo de tra├º├úo)",
+          "formula": "¤â = F/A (Tensão de tração)",
 
           "aplicacoes": [
 
             "Controle de qualidade de materiais",
 
-            "Homologa├º├úo de fornecedores",
+            "Homologação de fornecedores",
 
             "Desenvolvimento de novos materiais"
 
@@ -14124,9 +14124,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ensaios n├úo destrutivos (END)",
+          "titulo": "Ensaios não destrutivos (END)",
 
-          "definicao": "T├®cnicas de inspe├º├úo que avaliam a integridade de materiais e componentes sem causar danos. Incluem ultrassom, radiografia, l├¡quidos penetrantes, part├¡culas magn├®ticas, correntes parasitas e inspe├º├úo visual.",
+          "definicao": "Técnicas de inspeção que avaliam a integridade de materiais e componentes sem causar danos. Incluem ultrassom, radiografia, líquidos penetrantes, partículas magnéticas, correntes parasitas e inspeção visual.",
 
           "topicos": [
 
@@ -14134,9 +14134,9 @@ window.SITE_DATA = {
 
             "Radiografia industrial",
 
-            "L├¡quidos penetrantes",
+            "Líquidos penetrantes",
 
-            "Part├¡culas magn├®ticas"
+            "Partículas magnéticas"
 
           ],
 
@@ -14144,11 +14144,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Inspe├º├úo de soldas",
+            "Inspeção de soldas",
 
-            "Controle de qualidade de tubula├º├Áes e vasos",
+            "Controle de qualidade de tubulações e vasos",
 
-            "Manuten├º├úo preditiva de equipamentos"
+            "Manutenção preditiva de equipamentos"
 
           ]
 
@@ -14158,17 +14158,17 @@ window.SITE_DATA = {
 
           "titulo": "Metalografia",
 
-          "definicao": "T├®cnica de an├ílise microestrutural de metais e ligas por meio de microscopia ├│ptica ou eletr├┤nica. Envolve prepara├º├úo metalogr├ífica (corte, embutimento, lixamento, polimento e ataque qu├¡mico) para revelar a microestrutura do material.",
+          "definicao": "Técnica de anélise microestrutural de metais e ligas por meio de microscopia óptica ou eletrônica. Envolve preparação metalogréfica (corte, embutimento, lixamento, polimento e ataque químico) para revelar a microestrutura do material.",
 
           "topicos": [
 
             "Microscopia",
 
-            "Ataque qu├¡mico",
+            "Ataque químico",
 
             "Microestrutura",
 
-            "An├ílise de falhas"
+            "Anélise de falhas"
 
           ],
 
@@ -14176,11 +14176,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Verifica├º├úo de tratamentos t├®rmicos",
+            "Verificação de tratamentos térmicos",
 
-            "An├ílise de falhas de componentes",
+            "Anélise de falhas de componentes",
 
-            "Controle de qualidade de mat├®rias-primas"
+            "Controle de qualidade de matérias-primas"
 
           ]
 
@@ -14190,7 +14190,7 @@ window.SITE_DATA = {
 
           "titulo": "Siderurgia",
 
-          "definicao": "Ramo da metalurgia dedicado ├á produ├º├úo de ferro-gusa e a├ºo a partir do min├®rio de ferro. Engloba as etapas de beneficiamento do min├®rio, redu├º├úo em alto-forno, refino em aciaria (conversor LD, forno el├®trico) e lingotamento cont├¡nuo.",
+          "definicao": "Ramo da metalurgia dedicado á produção de ferro-gusa e aço a partir do minério de ferro. Engloba as etapas de beneficiamento do minério, redução em alto-forno, refino em aciaria (conversor LD, forno elétrico) e lingotamento contínuo.",
 
           "topicos": [
 
@@ -14198,11 +14198,11 @@ window.SITE_DATA = {
 
             "Aciaria",
 
-            "Lingotamento cont├¡nuo",
+            "Lingotamento contínuo",
 
             "Gusa",
 
-            "Lamina├º├úo"
+            "Laminação"
 
           ],
 
@@ -14210,11 +14210,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Produ├º├úo de a├ºos planos e longos",
+            "Produção de aços planos e longos",
 
-            "Fabrica├º├úo de tarugos, blocos e placas",
+            "Fabricação de tarugos, blocos e placas",
 
-            "Ind├║stria automotiva, constru├º├úo civil e naval"
+            "Indústria automotiva, construção civil e naval"
 
           ]
 
@@ -14222,19 +14222,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Ligas n├úo ferrosas",
+          "titulo": "Ligas não ferrosas",
 
-          "definicao": "Ligas met├ílicas cujo elemento base n├úo ├® o ferro. As principais fam├¡lias incluem ligas de alum├¡nio, cobre, tit├ónio, n├¡quel, magn├®sio e zinco. S├úo selecionadas por propriedades espec├¡ficas como baixa densidade, resist├¬ncia ├á corros├úo ou condutividade.",
+          "definicao": "Ligas metélicas cujo elemento base não é o ferro. As principais famílias incluem ligas de alumínio, cobre, titônio, níquel, magnésio e zinco. São selecionadas por propriedades específicas como baixa densidade, resistência á corrosão ou condutividade.",
 
           "topicos": [
 
-            "Alum├¡nio",
+            "Alumínio",
 
             "Cobre",
 
-            "Tit├ónio",
+            "Titônio",
 
-            "N├¡quel",
+            "Níquel",
 
             "Superligas"
 
@@ -14244,11 +14244,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Estruturas aeron├íuticas (Al e Ti)",
+            "Estruturas aeronéuticas (Al e Ti)",
 
-            "Cabos el├®tricos e tubula├º├Áes (Cu)",
+            "Cabos elétricos e tubulações (Cu)",
 
-            "Turbinas a g├ís e motores (ligas de Ni)"
+            "Turbinas a gés e motores (ligas de Ni)"
 
           ]
 
@@ -14256,9 +14256,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Vasos de press├úo e caldeiras",
+          "titulo": "Vasos de pressão e caldeiras",
 
-          "definicao": "Equipamentos projetados para conter fluidos a press├Áes internas superiores ├á atmosf├®rica. S├úo regulamentados pela NR-13 e fabricados conforme c├│digos como ASME VIII, com requisitos rigorosos de projeto, materiais, soldagem e inspe├º├úo.",
+          "definicao": "Equipamentos projetados para conter fluidos a pressões internas superiores á atmosférica. São regulamentados pela NR-13 e fabricados conforme códigos como ASME VIII, com requisitos rigorosos de projeto, materiais, soldagem e inspeção.",
 
           "topicos": [
 
@@ -14268,19 +14268,19 @@ window.SITE_DATA = {
 
             "Caldeiraria",
 
-            "Inspe├º├úo de vasos"
+            "Inspeção de vasos"
 
           ],
 
-          "formula": "Espessura da parede: t = P ├ù R / (S ├ù E - 0,6 ├ù P)",
+          "formula": "Espessura da parede: t = P ú R / (S ú E - 0,6 ú P)",
 
           "aplicacoes": [
 
-            "Ind├║stria qu├¡mica e petroqu├¡mica",
+            "Indústria química e petroquímica",
 
-            "Gera├º├úo de vapor e energia",
+            "Geração de vapor e energia",
 
-            "Refino de petr├│leo"
+            "Refino de petróleo"
 
           ]
 
@@ -14288,9 +14288,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Fundi├º├úo e processos de fundi├º├úo",
+          "titulo": "Fundição e processos de fundição",
 
-          "definicao": "Processo de fabrica├º├úo no qual metal l├¡quido ├® vazado em um molde com a cavidade da geometria desejada e solidifica. As principais t├®cnicas incluem fundi├º├úo em areia, em cera perdida, sob press├úo (die casting) e em casca (shell molding).",
+          "definicao": "Processo de fabricação no qual metal líquido é vazado em um molde com a cavidade da geometria desejada e solidifica. As principais técnicas incluem fundição em areia, em cera perdida, sob pressão (die casting) e em casca (shell molding).",
 
           "topicos": [
 
@@ -14298,7 +14298,7 @@ window.SITE_DATA = {
 
             "Vazamento",
 
-            "Solidifica├º├úo",
+            "Solidificação",
 
             "Macharia"
 
@@ -14308,11 +14308,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Blocos de motores e cabe├ºotes",
+            "Blocos de motores e cabeçotes",
 
-            "Componentes de m├íquinas",
+            "Componentes de méquinas",
 
-            "Pe├ºas art├¡sticas e ornamentais"
+            "Peças artísticas e ornamentais"
 
           ]
 
@@ -14322,7 +14322,7 @@ window.SITE_DATA = {
 
           "titulo": "Moldagem e machos",
 
-          "definicao": "Processo de confec├º├úo de moldes (cavidade onde o metal l├¡quido ├® vazado) e machos (n├║cleos que formam cavidades internas na pe├ºa fundida). A moldagem pode ser manual, mecanizada ou automatizada, em areia verde, areia qu├¡mica ou casca.",
+          "definicao": "Processo de confecção de moldes (cavidade onde o metal líquido é vazado) e machos (núcleos que formam cavidades internas na peça fundida). A moldagem pode ser manual, mecanizada ou automatizada, em areia verde, areia química ou casca.",
 
           "topicos": [
 
@@ -14330,7 +14330,7 @@ window.SITE_DATA = {
 
             "Macharia",
 
-            "Areia de fundi├º├úo",
+            "Areia de fundição",
 
             "Modelo"
 
@@ -14340,11 +14340,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Fundi├º├úo de ferro e a├ºo",
+            "Fundição de ferro e aço",
 
-            "Produ├º├úo de pe├ºas com geometrias complexas",
+            "Produção de peças com geometrias complexas",
 
-            "Fundi├º├úo de grande e m├®dio porte"
+            "Fundição de grande e médio porte"
 
           ]
 
@@ -14354,7 +14354,7 @@ window.SITE_DATA = {
 
           "titulo": "Ferro fundido cinzento e nodular",
 
-          "definicao": "Ferro fundido cinzento: possui grafita em lamelas, conferindo boa usinabilidade, amortecimento vibrat├│rio e baixo custo. Ferro fundido nodular: grafita em n├│dulos esferoidais, resultando em maior resist├¬ncia, ductilidade e tenacidade que o cinzento.",
+          "definicao": "Ferro fundido cinzento: possui grafita em lamelas, conferindo boa usinabilidade, amortecimento vibratório e baixo custo. Ferro fundido nodular: grafita em nódulos esferoidais, resultando em maior resistência, ductilidade e tenacidade que o cinzento.",
 
           "topicos": [
 
@@ -14364,7 +14364,7 @@ window.SITE_DATA = {
 
             "Usinabilidade",
 
-            "Resist├¬ncia mec├ónica"
+            "Resistência mecônica"
 
           ],
 
@@ -14376,7 +14376,7 @@ window.SITE_DATA = {
 
             "Virabrequins, engrenagens (nodular)",
 
-            "Tubos e conex├Áes (nodular)"
+            "Tubos e conexões (nodular)"
 
           ]
 
@@ -14384,19 +14384,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Noduliza├º├úo e inocula├º├úo",
+          "titulo": "Nodulização e inoculação",
 
-          "definicao": "Tratamentos no metal l├¡quido anteriores ao vazamento na fabrica├º├úo de ferros fundidos. A noduliza├º├úo adiciona magn├®sio ou c├®rio para formar grafita esferoidal, enquanto a inocula├º├úo adiciona sil├¡cio para controlar a nuclea├º├úo e o tamanho da grafita.",
+          "definicao": "Tratamentos no metal líquido anteriores ao vazamento na fabricação de ferros fundidos. A nodulização adiciona magnésio ou cério para formar grafita esferoidal, enquanto a inoculação adiciona silício para controlar a nucleação e o tamanho da grafita.",
 
           "topicos": [
 
-            "Magn├®sio",
+            "Magnésio",
 
-            "Ferro-sil├¡cio",
+            "Ferro-silício",
 
             "Grafita esferoidal",
 
-            "Nuclea├º├úo"
+            "Nucleação"
 
           ],
 
@@ -14404,9 +14404,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Produ├º├úo de ferro nodular de alta resist├¬ncia",
+            "Produção de ferro nodular de alta resistência",
 
-            "Controle microestrutural em fundi├º├úo",
+            "Controle microestrutural em fundição",
 
             "Componentes automotivos fundidos"
 
@@ -14418,15 +14418,15 @@ window.SITE_DATA = {
 
           "titulo": "ADI ÔÇö Austempered Ductile Iron",
 
-          "definicao": "Ferro fundido nodular submetido a tratamento t├®rmico de aust├¬mpera (austenitiza├º├úo + resfriamento r├ípido + isot├®rmico em banho de sal ou ├│leo a ~300-400┬░C). Resulta em microestrutura de ausferrita, combinando alta resist├¬ncia, tenacidade e resist├¬ncia ao desgaste.",
+          "definicao": "Ferro fundido nodular submetido a tratamento térmico de austêmpera (austenitização + resfriamento répido + isotérmico em banho de sal ou óleo a ~300-400┬░C). Resulta em microestrutura de ausferrita, combinando alta resistência, tenacidade e resistência ao desgaste.",
 
           "topicos": [
 
-            "Aust├¬mpera",
+            "Austêmpera",
 
             "Ausferrita",
 
-            "Alta resist├¬ncia",
+            "Alta resistência",
 
             "Ferro nodular"
 
@@ -14438,9 +14438,9 @@ window.SITE_DATA = {
 
             "Engrenagens de alta performance",
 
-            "Componentes de suspens├úo automotiva",
+            "Componentes de suspensão automotiva",
 
-            "Pe├ºas de desgaste na minera├º├úo"
+            "Peças de desgaste na mineração"
 
           ]
 
@@ -14448,17 +14448,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Tratamentos t├®rmicos",
+          "titulo": "Tratamentos térmicos",
 
-          "definicao": "Processos controlados de aquecimento e resfriamento de metais no estado s├│lido para modificar suas propriedades mec├ónicas, f├¡sicas ou qu├¡micas. Incluem recozimento, normaliza├º├úo, t├¬mpera, revenimento, aust├¬mpera e mart├¬mpera.",
+          "definicao": "Processos controlados de aquecimento e resfriamento de metais no estado sólido para modificar suas propriedades mecônicas, físicas ou químicas. Incluem recozimento, normalização, têmpera, revenimento, austêmpera e martêmpera.",
 
           "topicos": [
 
-            "T├¬mpera",
+            "Têmpera",
 
             "Recozimento",
 
-            "Normaliza├º├úo",
+            "Normalização",
 
             "Revenimento"
 
@@ -14470,7 +14470,7 @@ window.SITE_DATA = {
 
             "Aumento de dureza de ferramentas",
 
-            "Al├¡vio de tens├Áes em soldas",
+            "Alívio de tensões em soldas",
 
             "Melhoria de usinabilidade"
 
@@ -14482,7 +14482,7 @@ window.SITE_DATA = {
 
           "titulo": "Diagramas TTT e CCT",
 
-          "definicao": "Diagramas Tempo-Temperatura-Transforma├º├úo (TTT ÔÇö resfriamento isot├®rmico) e Resfriamento Cont├¡nuo (CCT) que mostram as curvas de transforma├º├úo da austenita em perlita, bainita e martensita em fun├º├úo da taxa de resfriamento. Essenciais para projetar tratamentos t├®rmicos.",
+          "definicao": "Diagramas Tempo-Temperatura-Transformação (TTT ÔÇö resfriamento isotérmico) e Resfriamento Contínuo (CCT) que mostram as curvas de transformação da austenita em perlita, bainita e martensita em função da taxa de resfriamento. Essenciais para projetar tratamentos térmicos.",
 
           "topicos": [
 
@@ -14492,7 +14492,7 @@ window.SITE_DATA = {
 
             "Martensita",
 
-            "Resfriamento cont├¡nuo"
+            "Resfriamento contínuo"
 
           ],
 
@@ -14500,9 +14500,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projeto de t├¬mpera e revenimento",
+            "Projeto de têmpera e revenimento",
 
-            "Sele├º├úo de meios de resfriamento",
+            "Seleção de meios de resfriamento",
 
             "Controle de microestrutura final"
 
@@ -14512,15 +14512,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Recozimento, normaliza├º├úo, t├¬mpera",
+          "titulo": "Recozimento, normalização, têmpera",
 
-          "definicao": "Recozimento: aquecimento seguido de resfriamento lento para al├¡vio de tens├Áes e redu├º├úo de dureza. Normaliza├º├úo: resfriamento ao ar para refinar gr├úo e homogeneizar estrutura. T├¬mpera: resfriamento brusco para formar martensita e maximizar dureza.",
+          "definicao": "Recozimento: aquecimento seguido de resfriamento lento para alívio de tensões e redução de dureza. Normalização: resfriamento ao ar para refinar grão e homogeneizar estrutura. Têmpera: resfriamento brusco para formar martensita e maximizar dureza.",
 
           "topicos": [
 
-            "Al├¡vio de tens├Áes",
+            "Alívio de tensões",
 
-            "Refino de gr├úo",
+            "Refino de grão",
 
             "Martensita",
 
@@ -14532,11 +14532,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Recozimento de a├ºos laminados",
+            "Recozimento de aços laminados",
 
-            "Normaliza├º├úo de pe├ºas fundidas",
+            "Normalização de peças fundidas",
 
-            "T├¬mpera de ferramentas e matrizes"
+            "Têmpera de ferramentas e matrizes"
 
           ]
 
@@ -14544,9 +14544,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Revenimento e aust├¬mpera",
+          "titulo": "Revenimento e austêmpera",
 
-          "definicao": "Revenimento: reaquecimento da martensita a temperaturas abaixo de A1 para reduzir fragilidade e ajustar dureza/resist├¬ncia. Aust├¬mpera: tratamento isot├®rmico para formar bainita, aplicado em a├ºos e ferros nodulares (ADI).",
+          "definicao": "Revenimento: reaquecimento da martensita a temperaturas abaixo de A1 para reduzir fragilidade e ajustar dureza/resistência. Austêmpera: tratamento isotérmico para formar bainita, aplicado em aços e ferros nodulares (ADI).",
 
           "topicos": [
 
@@ -14564,11 +14564,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Revenimento de a├ºos temperados",
+            "Revenimento de aços temperados",
 
-            "Produ├º├úo de ADI",
+            "Produção de ADI",
 
-            "Pe├ºas que exigem tenacidade e resist├¬ncia ao desgaste"
+            "Peças que exigem tenacidade e resistência ao desgaste"
 
           ]
 
@@ -14576,19 +14576,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Cementa├º├úo e nitreta├º├úo",
+          "titulo": "Cementação e nitretação",
 
-          "definicao": "Tratamentos termoqu├¡micos que enriquecem a superf├¡cie do a├ºo com carbono (cementa├º├úo) ou nitrog├¬nio (nitreta├º├úo) para formar uma camada superficial dura e resistente ao desgaste, mantendo um n├║cleo tenaz. A cementa├º├úo ├® seguida de t├¬mpera; a nitreta├º├úo n├úo requer t├¬mpera.",
+          "definicao": "Tratamentos termoquímicos que enriquecem a superfície do aço com carbono (cementação) ou nitrogênio (nitretação) para formar uma camada superficial dura e resistente ao desgaste, mantendo um núcleo tenaz. A cementação é seguida de têmpera; a nitretação não requer têmpera.",
 
           "topicos": [
 
-            "Cementa├º├úo",
+            "Cementação",
 
-            "Nitreta├º├úo",
+            "Nitretação",
 
             "Camada superficial",
 
-            "T├¬mpera superficial"
+            "Têmpera superficial"
 
           ],
 
@@ -14610,7 +14610,7 @@ window.SITE_DATA = {
 
           "titulo": "Ensaio Jominy (templabilidade)",
 
-          "definicao": "Ensaio padronizado que mede a temperabilidade de um a├ºo ÔÇö sua capacidade de endurecer em profundidade. Uma amostra padronizada ├® austenitizada e resfriada por jato d'├ígua em uma extremidade; a dureza ├® medida ao longo do comprimento para gerar a curva Jominy.",
+          "definicao": "Ensaio padronizado que mede a temperabilidade de um aço ÔÇö sua capacidade de endurecer em profundidade. Uma amostra padronizada é austenitizada e resfriada por jato d'égua em uma extremidade; a dureza é medida ao longo do comprimento para gerar a curva Jominy.",
 
           "topicos": [
 
@@ -14626,11 +14626,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Sele├º├úo de a├ºos para tratamento t├®rmico",
+            "Seleção de aços para tratamento térmico",
 
-            "Previs├úo de dureza em se├º├Áes espessas",
+            "Previsão de dureza em seções espessas",
 
-            "Controle de qualidade de a├ºos-liga"
+            "Controle de qualidade de aços-liga"
 
           ]
 
@@ -14638,19 +14638,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Tens├Áes residuais",
+          "titulo": "Tensões residuais",
 
-          "definicao": "Tens├Áes que permanecem no material ap├│s a remo├º├úo das cargas externas, decorrentes de tratamentos t├®rmicos, conforma├º├úo mec├ónica, soldagem ou usinagem. Podem ser ben├®ficas (compress├úo superficial) ou prejudiciais (trincas e distor├º├Áes).",
+          "definicao": "Tensões que permanecem no material após a remoção das cargas externas, decorrentes de tratamentos térmicos, conformação mecônica, soldagem ou usinagem. Podem ser benéficas (compressão superficial) ou prejudiciais (trincas e distorções).",
 
           "topicos": [
 
-            "Tens├úo de compress├úo",
+            "Tensão de compressão",
 
-            "Tens├úo de tra├º├úo",
+            "Tensão de tração",
 
-            "Al├¡vio de tens├Áes",
+            "Alívio de tensões",
 
-            "Distor├º├úo"
+            "Distorção"
 
           ],
 
@@ -14658,11 +14658,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Controle de distor├º├úo ap├│s t├¬mpera",
+            "Controle de distorção após têmpera",
 
-            "An├ílise de falhas por fadiga",
+            "Anélise de falhas por fadiga",
 
-            "Shot peening para introduzir compress├úo superficial"
+            "Shot peening para introduzir compressão superficial"
 
           ]
 
@@ -14672,7 +14672,7 @@ window.SITE_DATA = {
 
           "titulo": "Ensaios de dureza",
 
-          "definicao": "M├®todos padronizados para medir a resist├¬ncia do material ├á deforma├º├úo pl├ística superficial. Principais escalas: Brinell (esfera de a├ºo), Rockwell (penetrador c├┤nico ou esf├®rico) e Vickers (pir├ómide de diamante), cada uma adequada a diferentes faixas e materiais.",
+          "definicao": "Métodos padronizados para medir a resistência do material á deformação pléstica superficial. Principais escalas: Brinell (esfera de aço), Rockwell (penetrador cônico ou esférico) e Vickers (pirômide de diamante), cada uma adequada a diferentes faixas e materiais.",
 
           "topicos": [
 
@@ -14688,11 +14688,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Controle de qualidade de tratamentos t├®rmicos",
+            "Controle de qualidade de tratamentos térmicos",
 
-            "Classifica├º├úo de materiais",
+            "Classificação de materiais",
 
-            "Ensaios r├ípidos de resist├¬ncia mec├ónica"
+            "Ensaios répidos de resistência mecônica"
 
           ]
 
@@ -14702,7 +14702,7 @@ window.SITE_DATA = {
 
           "titulo": "Forjamento e estampagem",
 
-          "definicao": "Forjamento: conforma├º├úo por martelamento ou prensagem do metal aquecido para obter a forma desejada com gr├úo orientado. Estampagem: conforma├º├úo de chapas met├ílicas por prensagem em matrizes, incluindo corte, dobra, embutimento e repuxo.",
+          "definicao": "Forjamento: conformação por martelamento ou prensagem do metal aquecido para obter a forma desejada com grão orientado. Estampagem: conformação de chapas metélicas por prensagem em matrizes, incluindo corte, dobra, embutimento e repuxo.",
 
           "topicos": [
 
@@ -14732,29 +14732,29 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Extrus├úo e trefila├º├úo",
+          "titulo": "Extrusão e trefilação",
 
-          "definicao": "Extrus├úo: processo de conforma├º├úo no qual o metal ├® for├ºado atrav├®s de uma matriz com a se├º├úo transversal desejada, produzindo perfis e barras. Trefila├º├úo: redu├º├úo de se├º├úo por tra├º├úo atrav├®s de fieiras, usada para produzir arames, fios e tubos de precis├úo.",
+          "definicao": "Extrusão: processo de conformação no qual o metal é forçado através de uma matriz com a seção transversal desejada, produzindo perfis e barras. Trefilação: redução de seção por tração através de fieiras, usada para produzir arames, fios e tubos de precisão.",
 
           "topicos": [
 
-            "Extrus├úo direta",
+            "Extrusão direta",
 
-            "Extrus├úo indireta",
+            "Extrusão indireta",
 
             "Fieira",
 
-            "Redu├º├úo de se├º├úo"
+            "Redução de seção"
 
           ],
 
-          "formula": "Redu├º├úo % = (A0 - Af) / A0 ├ù 100",
+          "formula": "Redução % = (A0 - Af) / A0 ú 100",
 
           "aplicacoes": [
 
-            "Perfis de alum├¡nio para constru├º├úo",
+            "Perfis de alumínio para construção",
 
-            "Arames de a├ºo para cabos e molas",
+            "Arames de aço para cabos e molas",
 
             "Tubos sem costura"
 
@@ -14764,15 +14764,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Lamina├º├úo",
+          "titulo": "Laminação",
 
-          "definicao": "Processo de conforma├º├úo no qual o metal passa entre cilindros rotativos para reduzir a espessura ou alterar a se├º├úo transversal. Pode ser a quente (chapas grossas, perfis estruturais) ou a frio (chapas finas, folhas met├ílicas com acabamento superficial).",
+          "definicao": "Processo de conformação no qual o metal passa entre cilindros rotativos para reduzir a espessura ou alterar a seção transversal. Pode ser a quente (chapas grossas, perfis estruturais) ou a frio (chapas finas, folhas metélicas com acabamento superficial).",
 
           "topicos": [
 
-            "Lamina├º├úo a quente",
+            "Laminação a quente",
 
-            "Lamina├º├úo a frio",
+            "Laminação a frio",
 
             "Cilindro laminador",
 
@@ -14784,9 +14784,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Produ├º├úo de chapas grossas (naval, constru├º├úo)",
+            "Produção de chapas grossas (naval, construção)",
 
-            "Bobinas de a├ºo para ind├║stria automotiva",
+            "Bobinas de aço para indústria automotiva",
 
             "Vigas, trilhos e perfis estruturais"
 
@@ -14796,19 +14796,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Trefila├º├úo de arames",
+          "titulo": "Trefilação de arames",
 
-          "definicao": "Processo espec├¡fico de trefila├º├úo para redu├º├úo do di├ómetro de arames met├ílicos por passagem sucessiva atrav├®s de fieiras de carbeto de tungst├¬nio ou diamante. Produz arames com alta precis├úo dimensional e propriedades mec├ónicas controladas.",
+          "definicao": "Processo específico de trefilação para redução do diômetro de arames metélicos por passagem sucessiva através de fieiras de carbeto de tungstênio ou diamante. Produz arames com alta precisão dimensional e propriedades mecônicas controladas.",
 
           "topicos": [
 
-            "Fieira de trefila├º├úo",
+            "Fieira de trefilação",
 
-            "Arame de a├ºo",
+            "Arame de aço",
 
             "Encruamento",
 
-            "Lubrifica├º├úo"
+            "Lubrificação"
 
           ],
 
@@ -14816,7 +14816,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Cabos de a├ºo para eleva├º├úo",
+            "Cabos de aço para elevação",
 
             "Molas helicoidais e molas planas",
 
@@ -14830,7 +14830,7 @@ window.SITE_DATA = {
 
           "titulo": "Metalurgia extrativa",
 
-          "definicao": "Ramo da metalurgia que estuda e desenvolve processos para extrair metais de seus min├®rios, incluindo etapas de cominui├º├úo, concentra├º├úo, fundi├º├úo, refino e hidrometalurgia. Visa obter metais com pureza comercial a partir de recursos minerais.",
+          "definicao": "Ramo da metalurgia que estuda e desenvolve processos para extrair metais de seus minérios, incluindo etapas de cominuição, concentração, fundição, refino e hidrometalurgia. Visa obter metais com pureza comercial a partir de recursos minerais.",
 
           "topicos": [
 
@@ -14840,7 +14840,7 @@ window.SITE_DATA = {
 
             "Eletrometalurgia",
 
-            "Beneficiamento de min├®rios"
+            "Beneficiamento de minérios"
 
           ],
 
@@ -14848,11 +14848,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Extra├º├úo de ferro, cobre, alum├¡nio do min├®rio",
+            "Extração de ferro, cobre, alumínio do minério",
 
             "Refino de metais preciosos",
 
-            "Reciclagem e refino de sucata met├ílica"
+            "Reciclagem e refino de sucata metélica"
 
           ]
 
@@ -14871,31 +14871,31 @@ window.SITE_DATA = {
 
       "id": "soft-skills",
 
-      "nome": "Compet├¬ncias Comportamentais",
+      "nome": "Competências Comportamentais",
 
       "icone": "heart-handshake",
 
       "cor": "#db2777",
 
-      "descricao": "Habilidades interpessoais para lideran├ºa e gest├úo industrial.",
+      "descricao": "Habilidades interpessoais para liderança e gestão industrial.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Lideran├ºa transformacional",
+          "titulo": "Liderança transformacional",
 
-          "definicao": "Estilo de lideran├ºa que inspira e motiva os liderados a superar interesses individuais em prol de objetivos coletivos, estimulando a inova├º├úo e a mudan├ºa organizacional por meio de vis├úo compartilhada, est├¡mulo intelectual e considera├º├úo individualizada.",
+          "definicao": "Estilo de liderança que inspira e motiva os liderados a superar interesses individuais em prol de objetivos coletivos, estimulando a inovação e a mudança organizacional por meio de visão compartilhada, estímulo intelectual e consideração individualizada.",
 
           "topicos": [
 
-            "Inspira├º├úo",
+            "Inspiração",
 
-            "Vis├úo estrat├®gica",
+            "Visão estratégica",
 
-            "Motiva├º├úo",
+            "Motivação",
 
-            "Mudan├ºa organizacional"
+            "Mudança organizacional"
 
           ],
 
@@ -14903,11 +14903,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de equipes industriais",
+            "Gestão de equipes industriais",
 
-            "Implementa├º├úo de programas de melhoria cont├¡nua",
+            "Implementação de programas de melhoria contínua",
 
-            "Transforma├º├úo cultural lean"
+            "Transformação cultural lean"
 
           ]
 
@@ -14915,15 +14915,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Comunica├º├úo eficaz",
+          "titulo": "Comunicação eficaz",
 
-          "definicao": "Capacidade de transmitir informa├º├Áes, ideias e instru├º├Áes de forma clara, objetiva e assertiva, adaptando-se ao p├║blico e ao contexto. No ambiente industrial, ├® essencial para alinhamento de equipes, lideran├ºa e preven├º├úo de falhas operacionais.",
+          "definicao": "Capacidade de transmitir informações, ideias e instruções de forma clara, objetiva e assertiva, adaptando-se ao público e ao contexto. No ambiente industrial, é essencial para alinhamento de equipes, liderança e prevenção de falhas operacionais.",
 
           "topicos": [
 
-            "Comunica├º├úo verbal",
+            "Comunicação verbal",
 
-            "Comunica├º├úo escrita",
+            "Comunicação escrita",
 
             "Feedback",
 
@@ -14935,11 +14935,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Reuni├Áes de kick-off e daily huddle",
+            "Reuniões de kick-off e daily huddle",
 
-            "Instru├º├Áes de trabalho (IT) claras",
+            "Instruções de trabalho (IT) claras",
 
-            "Comunica├º├úo de indicadores e resultados"
+            "Comunicação de indicadores e resultados"
 
           ]
 
@@ -14947,15 +14947,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Negocia├º├úo empresarial",
+          "titulo": "Negociação empresarial",
 
-          "definicao": "Processo de di├ílogo entre partes com interesses convergentes e divergentes para alcan├ºar um acordo mutuamente ben├®fico. Engloba t├®cnicas de persuas├úo, concess├Áes estrat├®gicas, constru├º├úo de rapport e gest├úo de impasses.",
+          "definicao": "Processo de diélogo entre partes com interesses convergentes e divergentes para alcançar um acordo mutuamente benéfico. Engloba técnicas de persuasão, concessões estratégicas, construção de rapport e gestão de impasses.",
 
           "topicos": [
 
-            "Persuas├úo",
+            "Persuasão",
 
-            "Concess├úo",
+            "Concessão",
 
             "Acordo ganha-ganha",
 
@@ -14967,11 +14967,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Negocia├º├úo com fornecedores e clientes",
+            "Negociação com fornecedores e clientes",
 
-            "Acordos sindicais e conven├º├Áes coletivas",
+            "Acordos sindicais e convenções coletivas",
 
-            "Contratos de presta├º├úo de servi├ºos"
+            "Contratos de prestação de serviços"
 
           ]
 
@@ -14979,13 +14979,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo do tempo",
+          "titulo": "Gestão do tempo",
 
-          "definicao": "Habilidade de planejar e organizar o uso do tempo de forma produtiva, priorizando tarefas conforme urg├¬ncia e import├óncia (Matriz de Eisenhower), evitando procrastina├º├úo e otimizando a aloca├º├úo de esfor├ºo em atividades de alto impacto.",
+          "definicao": "Habilidade de planejar e organizar o uso do tempo de forma produtiva, priorizando tarefas conforme urgência e importôncia (Matriz de Eisenhower), evitando procrastinação e otimizando a alocação de esforço em atividades de alto impacto.",
 
           "topicos": [
 
-            "Prioriza├º├úo",
+            "Priorização",
 
             "Matriz de Eisenhower",
 
@@ -14999,9 +14999,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de m├║ltiplos projetos simult├óneos",
+            "Gestão de múltiplos projetos simultôneos",
 
-            "Rotina de gest├úo industrial",
+            "Rotina de gestão industrial",
 
             "Cumprimento de prazos de entrega"
 
@@ -15011,19 +15011,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Pensamento anal├¡tico",
+          "titulo": "Pensamento analítico",
 
-          "definicao": "Capacidade de decompor problemas complexos em partes menores, identificar padr├Áes, rela├º├Áes de causa e efeito e tomar decis├Áes baseadas em dados e evid├¬ncias. Fundamental para a resolu├º├úo estruturada de problemas na engenharia.",
+          "definicao": "Capacidade de decompor problemas complexos em partes menores, identificar padrões, relações de causa e efeito e tomar decisões baseadas em dados e evidências. Fundamental para a resolução estruturada de problemas na engenharia.",
 
           "topicos": [
 
-            "Racioc├¡nio l├│gico",
+            "Raciocínio lógico",
 
-            "An├ílise de dados",
+            "Anélise de dados",
 
-            "Solu├º├úo de problemas",
+            "Solução de problemas",
 
-            "Pensamento cr├¡tico"
+            "Pensamento crítico"
 
           ],
 
@@ -15031,11 +15031,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de causa raiz (RCA)",
+            "Anélise de causa raiz (RCA)",
 
-            "Diagn├│stico de falhas de produ├º├úo",
+            "Diagnóstico de falhas de produção",
 
-            "Otimiza├º├úo de processos"
+            "Otimização de processos"
 
           ]
 
@@ -15043,9 +15043,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Resolu├º├úo de problemas complexos",
+          "titulo": "Resolução de problemas complexos",
 
-          "definicao": "Compet├¬ncia para lidar com problemas mal estruturados e multifatoriais, caracter├¡sticos do ambiente industrial, por meio de metodologias estruturadas como PDCA, DMAIC, A3 e an├ílise de causa raiz, combinando an├ílise t├®cnica e pensamento cr├¡tico.",
+          "definicao": "Competência para lidar com problemas mal estruturados e multifatoriais, característicos do ambiente industrial, por meio de metodologias estruturadas como PDCA, DMAIC, A3 e anélise de causa raiz, combinando anélise técnica e pensamento crítico.",
 
           "topicos": [
 
@@ -15063,7 +15063,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Redu├º├úo de refugo em linhas de produ├º├úo",
+            "Redução de refugo em linhas de produção",
 
             "Melhoria de indicadores de qualidade",
 
@@ -15075,15 +15075,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Tomada de decis├úo sob incerteza",
+          "titulo": "Tomada de decisão sob incerteza",
 
-          "definicao": "Capacidade de decidir com informa├º├Áes incompletas ou amb├¡guas, avaliando riscos, probabilidades e cen├írios alternativos. Utiliza ferramentas como ├írvores de decis├úo, an├ílise de sensibilidade e simula├º├úo de Monte Carlo.",
+          "definicao": "Capacidade de decidir com informações incompletas ou ambíguas, avaliando riscos, probabilidades e cenérios alternativos. Utiliza ferramentas como érvores de decisão, anélise de sensibilidade e simulação de Monte Carlo.",
 
           "topicos": [
 
             "Risco",
 
-            "An├ílise de cen├írios",
+            "Anélise de cenérios",
 
             "Probabilidade",
 
@@ -15095,11 +15095,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Decis├Áes de investimento em capacidade",
+            "Decisões de investimento em capacidade",
 
-            "Lan├ºamento de novos produtos",
+            "Lançamento de novos produtos",
 
-            "Gest├úo de supply chain em cen├írios vol├íteis"
+            "Gestão de supply chain em cenérios voléteis"
 
           ]
 
@@ -15107,9 +15107,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Intelig├¬ncia emocional",
+          "titulo": "Inteligência emocional",
 
-          "definicao": "Capacidade de reconhecer, compreender e gerenciar as pr├│prias emo├º├Áes e as dos outros, composta por autoconhecimento, autocontrole, empatia, habilidades sociais e motiva├º├úo. Essencial para lideran├ºa, trabalho em equipe e gest├úo de conflitos.",
+          "definicao": "Capacidade de reconhecer, compreender e gerenciar as próprias emoções e as dos outros, composta por autoconhecimento, autocontrole, empatia, habilidades sociais e motivação. Essencial para liderança, trabalho em equipe e gestão de conflitos.",
 
           "topicos": [
 
@@ -15127,11 +15127,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de conflitos em equipe",
+            "Gestão de conflitos em equipe",
 
-            "Lideran├ºa de turnos e equipes operacionais",
+            "Liderança de turnos e equipes operacionais",
 
-            "Ambientes de alta press├úo na produ├º├úo"
+            "Ambientes de alta pressão na produção"
 
           ]
 
@@ -15141,11 +15141,11 @@ window.SITE_DATA = {
 
           "titulo": "Trabalho em equipe multidisciplinar",
 
-          "definicao": "Habilidade de colaborar eficazmente com profissionais de diferentes ├íreas e forma├º├Áes (engenharia, qualidade, manuten├º├úo, RH, TI) em prol de objetivos comuns. Requer comunica├º├úo clara, respeito ├á diversidade t├®cnica e coopera├º├úo.",
+          "definicao": "Habilidade de colaborar eficazmente com profissionais de diferentes éreas e formações (engenharia, qualidade, manutenção, RH, TI) em prol de objetivos comuns. Requer comunicação clara, respeito á diversidade técnica e cooperação.",
 
           "topicos": [
 
-            "Colabora├º├úo",
+            "Colaboração",
 
             "Diversidade",
 
@@ -15159,9 +15159,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Projetos de melhoria cont├¡nua integrados",
+            "Projetos de melhoria contínua integrados",
 
-            "Comit├¬s de seguran├ºa e qualidade",
+            "Comitês de segurança e qualidade",
 
             "Desenvolvimento de novos produtos"
 
@@ -15171,19 +15171,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Vis├úo estrat├®gica",
+          "titulo": "Visão estratégica",
 
-          "definicao": "Capacidade de enxergar o neg├│cio em sua totalidade, compreendendo cen├írios de longo prazo, tend├¬ncias de mercado, movimentos da concorr├¬ncia e impactos das decis├Áes t├®cnicas na estrat├®gia corporativa. Permite alinhar opera├º├Áes aos objetivos organizacionais.",
+          "definicao": "Capacidade de enxergar o negócio em sua totalidade, compreendendo cenérios de longo prazo, tendências de mercado, movimentos da concorrência e impactos das decisões técnicas na estratégia corporativa. Permite alinhar operações aos objetivos organizacionais.",
 
           "topicos": [
 
-            "Planejamento estrat├®gico",
+            "Planejamento estratégico",
 
-            "Vis├úo sist├¬mica",
+            "Visão sistêmica",
 
             "Longo prazo",
 
-            "Neg├│cio"
+            "Negócio"
 
           ],
 
@@ -15191,11 +15191,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Planejamento mestre da produ├º├úo",
+            "Planejamento mestre da produção",
 
-            "Estrat├®gia de capacidade fabril",
+            "Estratégia de capacidade fabril",
 
-            "Decis├Áes de make or buy"
+            "Decisões de make or buy"
 
           ]
 
@@ -15203,19 +15203,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Adaptabilidade e resili├¬ncia",
+          "titulo": "Adaptabilidade e resiliência",
 
-          "definicao": "Capacidade de se ajustar rapidamente a mudan├ºas, imprevistos e adversidades sem perder a efic├ícia profissional. Na ind├║stria, manifesta-se na flexibilidade para alterar prioridades, aprender novas tecnologias e manter a performance sob press├úo.",
+          "definicao": "Capacidade de se ajustar rapidamente a mudanças, imprevistos e adversidades sem perder a eficécia profissional. Na indústria, manifesta-se na flexibilidade para alterar prioridades, aprender novas tecnologias e manter a performance sob pressão.",
 
           "topicos": [
 
             "Flexibilidade",
 
-            "Mudan├ºa",
+            "Mudança",
 
-            "Press├úo",
+            "Pressão",
 
-            "Aprendizado cont├¡nuo"
+            "Aprendizado contínuo"
 
           ],
 
@@ -15223,11 +15223,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Absor├º├úo de varia├º├Áes de demanda",
+            "Absorção de variações de demanda",
 
-            "Implata├º├úo de novas tecnologias",
+            "Implatação de novas tecnologias",
 
-            "Gest├úo de crises operacionais"
+            "Gestão de crises operacionais"
 
           ]
 
@@ -15235,13 +15235,13 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Gest├úo de conflitos",
+          "titulo": "Gestão de conflitos",
 
-          "definicao": "Habilidade de identificar, mediar e resolver diverg├¬ncias interpessoais ou interdepartamentais de forma construtiva. Utiliza t├®cnicas de escuta ativa, negocia├º├úo, comunica├º├úo n├úo violenta e busca de solu├º├Áes que preservem o relacionamento.",
+          "definicao": "Habilidade de identificar, mediar e resolver divergências interpessoais ou interdepartamentais de forma construtiva. Utiliza técnicas de escuta ativa, negociação, comunicação não violenta e busca de soluções que preservem o relacionamento.",
 
           "topicos": [
 
-            "Media├º├úo",
+            "Mediação",
 
             "Escuta ativa",
 
@@ -15255,11 +15255,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Conflitos entre turnos de produ├º├úo",
+            "Conflitos entre turnos de produção",
 
-            "Diverg├¬ncias entre qualidade e produ├º├úo",
+            "Divergências entre qualidade e produção",
 
-            "Rela├º├Áes com sindicatos e representantes de trabalhadores"
+            "Relações com sindicatos e representantes de trabalhadores"
 
           ]
 
@@ -15269,17 +15269,17 @@ window.SITE_DATA = {
 
           "titulo": "Empatia corporativa",
 
-          "definicao": "Capacidade de se colocar no lugar do outro no ambiente profissional, compreendendo suas necessidades, motiva├º├Áes e limita├º├Áes. Essa compet├¬ncia fortalece o clima organizacional, a coopera├º├úo interdepartamental e a reten├º├úo de talentos.",
+          "definicao": "Capacidade de se colocar no lugar do outro no ambiente profissional, compreendendo suas necessidades, motivações e limitações. Essa competência fortalece o clima organizacional, a cooperação interdepartamental e a retenção de talentos.",
 
           "topicos": [
 
             "Escuta ativa",
 
-            "Compreens├úo",
+            "Compreensão",
 
             "Clima organizacional",
 
-            "Rela├º├Áes interpessoais"
+            "Relações interpessoais"
 
           ],
 
@@ -15287,11 +15287,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Lideran├ºa humanizada na produ├º├úo",
+            "Liderança humanizada na produção",
 
             "Atendimento ao cliente interno e externo",
 
-            "Reten├º├úo de operadores e t├®cnicos"
+            "Retenção de operadores e técnicos"
 
           ]
 
@@ -15299,19 +15299,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Orat├│ria e apresenta├º├úo",
+          "titulo": "Oratória e apresentação",
 
-          "definicao": "Habilidade de falar em p├║blico de forma clara, persuasiva e envolvente, utilizando recursos como storytelling, linguagem corporal, slides e exemplos pr├íticos. Fundamental para apresentar resultados, propor projetos e liderar reuni├Áes.",
+          "definicao": "Habilidade de falar em público de forma clara, persuasiva e envolvente, utilizando recursos como storytelling, linguagem corporal, slides e exemplos préticos. Fundamental para apresentar resultados, propor projetos e liderar reuniões.",
 
           "topicos": [
 
-            "Falar em p├║blico",
+            "Falar em público",
 
             "Storytelling",
 
-            "Apresenta├º├úo de resultados",
+            "Apresentação de resultados",
 
-            "Orat├│ria"
+            "Oratória"
 
           ],
 
@@ -15319,9 +15319,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Apresenta├º├úo de KPIs ├á diretoria",
+            "Apresentação de KPIs á diretoria",
 
-            "Treinamentos e capacita├º├úo de equipes",
+            "Treinamentos e capacitação de equipes",
 
             "Pitches de projetos de melhoria"
 
@@ -15333,15 +15333,15 @@ window.SITE_DATA = {
 
           "titulo": "Feedback construtivo",
 
-          "definicao": "T├®cnica de comunica├º├úo que oferece retorno sobre o desempenho de forma objetiva, espec├¡fica e focada em comportamentos observ├íveis, visando ao desenvolvimento profissional. Deve equilibrar reconhecimento e pontos de melhoria.",
+          "definicao": "Técnica de comunicação que oferece retorno sobre o desempenho de forma objetiva, específica e focada em comportamentos observéveis, visando ao desenvolvimento profissional. Deve equilibrar reconhecimento e pontos de melhoria.",
 
           "topicos": [
 
             "Feedback",
 
-            "Avalia├º├úo de desempenho",
+            "Avaliação de desempenho",
 
-            "Comunica├º├úo n├úo violenta",
+            "Comunicação não violenta",
 
             "Desenvolvimento"
 
@@ -15351,11 +15351,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Avalia├º├Áes de desempenho peri├│dicas",
+            "Avaliações de desempenho periódicas",
 
-            "Gest├úo de operadores e l├¡deres de turno",
+            "Gestão de operadores e líderes de turno",
 
-            "Programas de est├ígio e trainee"
+            "Programas de estégio e trainee"
 
           ]
 
@@ -15365,7 +15365,7 @@ window.SITE_DATA = {
 
           "titulo": "Mentoring e coaching",
 
-          "definicao": "Mentoring: rela├º├úo de desenvolvimento profissional na qual um profissional experiente orienta um mais jovem, compartilhando conhecimento e experi├¬ncia. Coaching: processo estruturado de desenvolvimento de compet├¬ncias por meio de perguntas, metas e planos de a├º├úo.",
+          "definicao": "Mentoring: relação de desenvolvimento profissional na qual um profissional experiente orienta um mais jovem, compartilhando conhecimento e experiência. Coaching: processo estruturado de desenvolvimento de competências por meio de perguntas, metas e planos de ação.",
 
           "topicos": [
 
@@ -15385,9 +15385,9 @@ window.SITE_DATA = {
 
             "Programas de onboarding de engenheiros",
 
-            "Desenvolvimento de l├¡deres operacionais",
+            "Desenvolvimento de líderes operacionais",
 
-            "Sucess├úo em cargos de gest├úo industrial"
+            "Sucessão em cargos de gestão industrial"
 
           ]
 
@@ -15395,17 +15395,17 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Lideran├ºa situacional",
+          "titulo": "Liderança situacional",
 
-          "definicao": "Modelo de lideran├ºa desenvolvido por Hersey e Blanchard segundo o qual o l├¡der deve adaptar seu estilo (determinar, persuadir, compartilhar, delegar) conforme o n├¡vel de maturidade e compet├¬ncia dos liderados em cada tarefa ou situa├º├úo.",
+          "definicao": "Modelo de liderança desenvolvido por Hersey e Blanchard segundo o qual o líder deve adaptar seu estilo (determinar, persuadir, compartilhar, delegar) conforme o nível de maturidade e competência dos liderados em cada tarefa ou situação.",
 
           "topicos": [
 
-            "Estilos de lideran├ºa",
+            "Estilos de liderança",
 
             "Maturidade da equipe",
 
-            "Delega├º├úo",
+            "Delegação",
 
             "Flexibilidade gerencial"
 
@@ -15415,11 +15415,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de equipes heterog├¬neas",
+            "Gestão de equipes heterogêneas",
 
-            "Dire├º├úo de operadores novatos vs. experientes",
+            "Direção de operadores novatos vs. experientes",
 
-            "Lideran├ºa em projetos de melhoria"
+            "Liderança em projetos de melhoria"
 
           ]
 
@@ -15427,19 +15427,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Comunica├º├úo n├úo violenta (CNV)",
+          "titulo": "Comunicação não violenta (CNV)",
 
-          "definicao": "M├®todo de comunica├º├úo desenvolvido por Marshall Rosenberg baseado em observa├º├úo, sentimento, necessidade e pedido. Visa estabelecer conex├úo e coopera├º├úo, reduzindo conflitos e mal-entendidos no ambiente profissional.",
+          "definicao": "Método de comunicação desenvolvido por Marshall Rosenberg baseado em observação, sentimento, necessidade e pedido. Visa estabelecer conexão e cooperação, reduzindo conflitos e mal-entendidos no ambiente profissional.",
 
           "topicos": [
 
             "CNV",
 
-            "Escuta emp├ítica",
+            "Escuta empética",
 
-            "Resolu├º├úo pac├¡fica",
+            "Resolução pacífica",
 
-            "Di├ílogo"
+            "Diélogo"
 
           ],
 
@@ -15447,9 +15447,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Media├º├úo de conflitos interpessoais",
+            "Mediação de conflitos interpessoais",
 
-            "Reuni├Áes de equipe construtivas",
+            "Reuniões de equipe construtivas",
 
             "Relacionamento com fornecedores e clientes"
 
@@ -15459,9 +15459,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Storytelling para gest├úo",
+          "titulo": "Storytelling para gestão",
 
-          "definicao": "T├®cnica de comunica├º├úo que utiliza narrativas estruturadas para transmitir mensagens, engajar audi├¬ncias e inspirar a├º├úo. Na gest├úo industrial, ├® usada para comunicar vis├úo, compartilhar li├º├Áes aprendidas e motivar equipes.",
+          "definicao": "Técnica de comunicação que utiliza narrativas estruturadas para transmitir mensagens, engajar audiências e inspirar ação. Na gestão industrial, é usada para comunicar visão, compartilhar lições aprendidas e motivar equipes.",
 
           "topicos": [
 
@@ -15469,7 +15469,7 @@ window.SITE_DATA = {
 
             "Engajamento",
 
-            "Comunica├º├úo persuasiva",
+            "Comunicação persuasiva",
 
             "Cultura organizacional"
 
@@ -15479,9 +15479,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Comunica├º├úo de resultados e metas",
+            "Comunicação de resultados e metas",
 
-            "Treinamentos de seguran├ºa",
+            "Treinamentos de segurança",
 
             "Compartilhamento de casos de sucesso"
 
@@ -15491,19 +15491,19 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Criatividade e inova├º├úo",
+          "titulo": "Criatividade e inovação",
 
-          "definicao": "Capacidade de gerar ideias originais e solu├º├Áes n├úo convencionais para desafios produtivos e organizacionais. No engenheiro de produ├º├úo, manifesta-se na proposi├º├úo de novos m├®todos, arranjos, produtos ou tecnologias que geram valor competitivo.",
+          "definicao": "Capacidade de gerar ideias originais e soluções não convencionais para desafios produtivos e organizacionais. No engenheiro de produção, manifesta-se na proposição de novos métodos, arranjos, produtos ou tecnologias que geram valor competitivo.",
 
           "topicos": [
 
             "Pensamento divergente",
 
-            "Inova├º├úo incremental",
+            "Inovação incremental",
 
             "Design thinking",
 
-            "Idea├º├úo"
+            "Ideação"
 
           ],
 
@@ -15513,9 +15513,9 @@ window.SITE_DATA = {
 
             "Desenvolvimento de novos processos produtivos",
 
-            "Melhoria cont├¡nua (Kaizen criativo)",
+            "Melhoria contínua (Kaizen criativo)",
 
-            "Projetos de inova├º├úo em produtos e servi├ºos"
+            "Projetos de inovação em produtos e serviços"
 
           ]
 
@@ -15534,25 +15534,25 @@ window.SITE_DATA = {
 
       "id": "tecnicas",
 
-      "nome": "Compet├¬ncias T├®cnicas",
+      "nome": "Competências Técnicas",
 
       "icone": "brain",
 
       "cor": "#4f46e5",
 
-      "descricao": "Habilidades t├®cnicas essenciais para o engenheiro de produ├º├úo moderno.",
+      "descricao": "Habilidades técnicas essenciais para o engenheiro de produção moderno.",
 
       "subtopicos": [
 
         {
 
-          "titulo": "Excel avan├ºado e VBA",
+          "titulo": "Excel avançado e VBA",
 
-          "definicao": "Dom├¡nio de funcionalidades avan├ºadas do Microsoft Excel incluindo tabelas din├ómicas, Power Query, fun├º├Áes matriciais, an├ílise de dados, gr├íficos din├ómicos e automa├º├úo com VBA (Macros). ├ë a ferramenta mais universal de an├ílise e modelagem no ambiente industrial.",
+          "definicao": "Domínio de funcionalidades avançadas do Microsoft Excel incluindo tabelas dinômicas, Power Query, funções matriciais, anélise de dados, gréficos dinômicos e automação com VBA (Macros). ë a ferramenta mais universal de anélise e modelagem no ambiente industrial.",
 
           "topicos": [
 
-            "Tabela din├ómica",
+            "Tabela dinômica",
 
             "Power Query",
 
@@ -15560,7 +15560,7 @@ window.SITE_DATA = {
 
             "Dashboard",
 
-            "Fun├º├Áes matriciais"
+            "Funções matriciais"
 
           ],
 
@@ -15568,11 +15568,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Controle de indicadores de produ├º├úo",
+            "Controle de indicadores de produção",
 
-            "Relat├│rios gerenciais",
+            "Relatórios gerenciais",
 
-            "Automa├º├úo de rotinas de PCP"
+            "Automação de rotinas de PCP"
 
           ]
 
@@ -15580,7 +15580,7 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "SQL para an├ílise de dados",
+          "titulo": "SQL para anélise de dados",
 
           "definicao": "Linguagem de consulta a bancos de dados relacionais usada para extrair, filtrar, agregar e manipular grandes volumes de dados industriais armazenados em ERPs, MES e sistemas de qualidade. Habilidade essencial para engenharia orientada a dados.",
 
@@ -15602,11 +15602,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Extra├º├úo de dados de ERPs",
+            "Extração de dados de ERPs",
 
-            "An├ílise de hist├│ricos de qualidade",
+            "Anélise de históricos de qualidade",
 
-            "Relat├│rios de performance de produ├º├úo"
+            "Relatórios de performance de produção"
 
           ]
 
@@ -15616,7 +15616,7 @@ window.SITE_DATA = {
 
           "titulo": "Python industrial",
 
-          "definicao": "Uso da linguagem Python para automa├º├úo de processos, an├ílise estat├¡stica, visualiza├º├úo de dados, machine learning e integra├º├úo de sistemas no ambiente industrial. Bibliotecas como Pandas, NumPy, Matplotlib e scikit-learn s├úo amplamente utilizadas.",
+          "definicao": "Uso da linguagem Python para automação de processos, anélise estatística, visualização de dados, machine learning e integração de sistemas no ambiente industrial. Bibliotecas como Pandas, NumPy, Matplotlib e scikit-learn são amplamente utilizadas.",
 
           "topicos": [
 
@@ -15626,7 +15626,7 @@ window.SITE_DATA = {
 
             "Matplotlib",
 
-            "Automa├º├úo",
+            "Automação",
 
             "Machine Learning"
 
@@ -15636,11 +15636,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise de dados de sensores IoT",
+            "Anélise de dados de sensores IoT",
 
-            "Previs├úo de demanda e manuten├º├úo preditiva",
+            "Previsão de demanda e manutenção preditiva",
 
-            "Automa├º├úo de relat├│rios de indicadores"
+            "Automação de relatórios de indicadores"
 
           ]
 
@@ -15648,9 +15648,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Power BI avan├ºado",
+          "titulo": "Power BI avançado",
 
-          "definicao": "Ferramenta de Business Intelligence da Microsoft para cria├º├úo de dashboards interativos e relat├│rios anal├¡ticos. O n├¡vel avan├ºado inclui modelagem dimensional, linguagem DAX, Power Query, RLS e integra├º├úo com fontes de dados industriais.",
+          "definicao": "Ferramenta de Business Intelligence da Microsoft para criação de dashboards interativos e relatórios analíticos. O nível avançado inclui modelagem dimensional, linguagem DAX, Power Query, RLS e integração com fontes de dados industriais.",
 
           "topicos": [
 
@@ -15672,9 +15672,9 @@ window.SITE_DATA = {
 
             "Painel de OEE e indicadores em tempo real",
 
-            "An├ílise de desempenho de fornecedores",
+            "Anélise de desempenho de fornecedores",
 
-            "Monitoramento de metas de produ├º├úo"
+            "Monitoramento de metas de produção"
 
           ]
 
@@ -15682,15 +15682,15 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "SAP m├│dulo PP e MM",
+          "titulo": "SAP módulo PP e MM",
 
-          "definicao": "M├│dulos do ERP SAP para Planejamento da Produ├º├úo (PP) e Gest├úo de Materiais (MM). O PP gerencia ordens de produ├º├úo, MRP, roteiros e capacidade; o MM controla compras, estoques, movimenta├º├Áes e avalia├º├úo de materiais.",
+          "definicao": "Módulos do ERP SAP para Planejamento da Produção (PP) e Gestão de Materiais (MM). O PP gerencia ordens de produção, MRP, roteiros e capacidade; o MM controla compras, estoques, movimentações e avaliação de materiais.",
 
           "topicos": [
 
             "MRP",
 
-            "Ordem de produ├º├úo",
+            "Ordem de produção",
 
             "Roteiro",
 
@@ -15706,9 +15706,9 @@ window.SITE_DATA = {
 
             "Planejamento de necessidades de materiais",
 
-            "Controle de ordens de produ├º├úo",
+            "Controle de ordens de produção",
 
-            "Gest├úo de compras e suprimentos"
+            "Gestão de compras e suprimentos"
 
           ]
 
@@ -15718,7 +15718,7 @@ window.SITE_DATA = {
 
           "titulo": "Oracle Industrial (EBS, JDE)",
 
-          "definicao": "Su├¡tes de ERP da Oracle para gest├úo industrial. Oracle E-Business Suite (EBS) e JD Edwards (JDE) cobrem manufatura, supply chain, finan├ºas e projetos, com m├│dulos para PCP, qualidade, manuten├º├úo e custos.",
+          "definicao": "Suítes de ERP da Oracle para gestão industrial. Oracle E-Business Suite (EBS) e JD Edwards (JDE) cobrem manufatura, supply chain, finanças e projetos, com módulos para PCP, qualidade, manutenção e custos.",
 
           "topicos": [
 
@@ -15738,9 +15738,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo integrada da manufatura",
+            "Gestão integrada da manufatura",
 
-            "Planejamento e controle da produ├º├úo",
+            "Planejamento e controle da produção",
 
             "Rastreabilidade e qualidade"
 
@@ -15752,11 +15752,11 @@ window.SITE_DATA = {
 
           "titulo": "MES ÔÇö Manufacturing Execution Systems",
 
-          "definicao": "Sistemas de execu├º├úo da manufatura que monitoram e controlam a produ├º├úo em tempo real no ch├úo de f├íbrica, conectando o planejamento (ERP) ao processo produtivo. Gerenciam ordens, apontamento, rastreabilidade, OEE e qualidade.",
+          "definicao": "Sistemas de execução da manufatura que monitoram e controlam a produção em tempo real no chão de fébrica, conectando o planejamento (ERP) ao processo produtivo. Gerenciam ordens, apontamento, rastreabilidade, OEE e qualidade.",
 
           "topicos": [
 
-            "Ch├úo de f├íbrica",
+            "Chão de fébrica",
 
             "Tempo real",
 
@@ -15770,11 +15770,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Apontamento eletr├┤nico de produ├º├úo",
+            "Apontamento eletrônico de produção",
 
             "Rastreabilidade de lotes",
 
-            "C├ílculo autom├ítico de OEE"
+            "Célculo automético de OEE"
 
           ]
 
@@ -15784,19 +15784,19 @@ window.SITE_DATA = {
 
           "titulo": "WMS ÔÇö Warehouse Management Systems",
 
-          "definicao": "Sistemas de gest├úo de armaz├®ns que controlam recebimento, estocagem, movimenta├º├úo, separa├º├úo (picking) e expedi├º├úo de materiais. Integrados ao ERP, otimizam endere├ºamento, invent├írio e utiliza├º├úo do espa├ºo de armazenagem.",
+          "definicao": "Sistemas de gestão de armazéns que controlam recebimento, estocagem, movimentação, separação (picking) e expedição de materiais. Integrados ao ERP, otimizam endereçamento, inventério e utilização do espaço de armazenagem.",
 
           "topicos": [
 
-            "Armaz├®m",
+            "Armazém",
 
             "Picking",
 
-            "Endere├ºamento",
+            "Endereçamento",
 
-            "Invent├írio",
+            "Inventério",
 
-            "Expedi├º├úo"
+            "Expedição"
 
           ],
 
@@ -15804,11 +15804,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de centros de distribui├º├úo",
+            "Gestão de centros de distribuição",
 
-            "Otimiza├º├úo de rotas de separa├º├úo",
+            "Otimização de rotas de separação",
 
-            "Controle de invent├írio c├¡clico"
+            "Controle de inventério cíclico"
 
           ]
 
@@ -15818,17 +15818,17 @@ window.SITE_DATA = {
 
           "titulo": "TMS ÔÇö Transport Management Systems",
 
-          "definicao": "Sistemas de gest├úo de transporte que planejam, executam e monitoram opera├º├Áes log├¡sticas de fretes, roteiriza├º├úo, rastreamento de cargas, gest├úo de fretes e auditoria de freteiras. Integrados ao ERP e WMS para visibilidade log├¡stica.",
+          "definicao": "Sistemas de gestão de transporte que planejam, executam e monitoram operações logísticas de fretes, roteirização, rastreamento de cargas, gestão de fretes e auditoria de freteiras. Integrados ao ERP e WMS para visibilidade logística.",
 
           "topicos": [
 
-            "Roteiriza├º├úo",
+            "Roteirização",
 
             "Frete",
 
             "Rastreamento",
 
-            "Gest├úo de transportadoras"
+            "Gestão de transportadoras"
 
           ],
 
@@ -15850,17 +15850,17 @@ window.SITE_DATA = {
 
           "titulo": "AutoCAD 2D e 3D",
 
-          "definicao": "Software CAD (Computer-Aided Design) da Autodesk para desenho t├®cnico 2D e modelagem 3D de pe├ºas, equipamentos e layouts industriais. Largamente utilizado na engenharia para projeto de produtos, arranjos f├¡sicos e documenta├º├úo t├®cnica.",
+          "definicao": "Software CAD (Computer-Aided Design) da Autodesk para desenho técnico 2D e modelagem 3D de peças, equipamentos e layouts industriais. Largamente utilizado na engenharia para projeto de produtos, arranjos físicos e documentação técnica.",
 
           "topicos": [
 
-            "Desenho t├®cnico",
+            "Desenho técnico",
 
             "Layout",
 
             "CAD",
 
-            "Projeto mec├ónico"
+            "Projeto mecônico"
 
           ],
 
@@ -15872,7 +15872,7 @@ window.SITE_DATA = {
 
             "Desenho de componentes e conjuntos",
 
-            "Documenta├º├úo t├®cnica e engenharia"
+            "Documentação técnica e engenharia"
 
           ]
 
@@ -15882,7 +15882,7 @@ window.SITE_DATA = {
 
           "titulo": "SolidWorks 3D",
 
-          "definicao": "Software CAD 3D param├®trico para projeto mec├ónico, modelagem s├│lida, montagens e gera├º├úo de desenhos t├®cnicos. Inclui ferramentas de simula├º├úo, an├ílise de interfer├¬ncia, renderiza├º├úo e integra├º├úo com manufatura (CAM).",
+          "definicao": "Software CAD 3D paramétrico para projeto mecônico, modelagem sólida, montagens e geração de desenhos técnicos. Inclui ferramentas de simulação, anélise de interferência, renderização e integração com manufatura (CAM).",
 
           "topicos": [
 
@@ -15890,9 +15890,9 @@ window.SITE_DATA = {
 
             "Montagem",
 
-            "Desenho t├®cnico",
+            "Desenho técnico",
 
-            "Simula├º├úo"
+            "Simulação"
 
           ],
 
@@ -15904,7 +15904,7 @@ window.SITE_DATA = {
 
             "Desenvolvimento de produtos",
 
-            "Prototipagem virtual e simula├º├úo"
+            "Prototipagem virtual e simulação"
 
           ]
 
@@ -15912,9 +15912,9 @@ window.SITE_DATA = {
 
         {
 
-          "titulo": "Minitab para estat├¡stica",
+          "titulo": "Minitab para estatística",
 
-          "definicao": "Software estat├¡stico amplamente utilizado em projetos Six Sigma e controle de qualidade para an├ílise de dados, testes de hip├│teses, DOE (projeto de experimentos), CEP (controle estat├¡stico de processo), an├ílise de capacidade e regress├úo.",
+          "definicao": "Software estatístico amplamente utilizado em projetos Six Sigma e controle de qualidade para anélise de dados, testes de hipóteses, DOE (projeto de experimentos), CEP (controle estatístico de processo), anélise de capacidade e regressão.",
 
           "topicos": [
 
@@ -15924,7 +15924,7 @@ window.SITE_DATA = {
 
             "CEP",
 
-            "Teste de hip├│teses",
+            "Teste de hipóteses",
 
             "Capabilidade"
 
@@ -15936,9 +15936,9 @@ window.SITE_DATA = {
 
             "Projetos DMAIC",
 
-            "An├ílise de capabilidade de processos",
+            "Anélise de capabilidade de processos",
 
-            "Otimiza├º├úo de par├ómetros de produ├º├úo"
+            "Otimização de parômetros de produção"
 
           ]
 
@@ -15948,11 +15948,11 @@ window.SITE_DATA = {
 
           "titulo": "Arena Simulation",
 
-          "definicao": "Software de simula├º├úo de processos industriais e log├¡sticos desenvolvido pela Rockwell Automation. Permite modelar sistemas produtivos complexos, realizar an├ílises de capacidade, gargalos, cen├írios alternativos e otimiza├º├úo de recursos.",
+          "definicao": "Software de simulação de processos industriais e logísticos desenvolvido pela Rockwell Automation. Permite modelar sistemas produtivos complexos, realizar anélises de capacidade, gargalos, cenérios alternativos e otimização de recursos.",
 
           "topicos": [
 
-            "Simula├º├úo",
+            "Simulação",
 
             "Modelagem",
 
@@ -15960,7 +15960,7 @@ window.SITE_DATA = {
 
             "Capacidade",
 
-            "Otimiza├º├úo"
+            "Otimização"
 
           ],
 
@@ -15968,9 +15968,9 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de linhas de produ├º├úo",
+            "Simulação de linhas de produção",
 
-            "An├ílise de gargalos e capacidade",
+            "Anélise de gargalos e capacidade",
 
             "Projeto de novos sistemas produtivos"
 
@@ -15982,7 +15982,7 @@ window.SITE_DATA = {
 
           "titulo": "ERP industrial (Totvs, SAP, Oracle)",
 
-          "definicao": "Sistemas integrados de gest├úo empresarial adaptados ├á ind├║stria que cobrem desde o planejamento at├® a distribui├º├úo. No Brasil, os principais s├úo Totvs Protheus (market share nacional), SAP (global), Oracle e Sankhya.",
+          "definicao": "Sistemas integrados de gestão empresarial adaptados á indústria que cobrem desde o planejamento até a distribuição. No Brasil, os principais são Totvs Protheus (market share nacional), SAP (global), Oracle e Sankhya.",
 
           "topicos": [
 
@@ -15994,7 +15994,7 @@ window.SITE_DATA = {
 
             "MRP II",
 
-            "Gest├úo industrial"
+            "Gestão industrial"
 
           ],
 
@@ -16002,11 +16002,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Gest├úo de ordens de produ├º├úo e MRP",
+            "Gestão de ordens de produção e MRP",
 
             "Controle de custos industriais",
 
-            "Integra├º├úo financeira, fiscal e log├¡stica"
+            "Integração financeira, fiscal e logística"
 
           ]
 
@@ -16016,7 +16016,7 @@ window.SITE_DATA = {
 
           "titulo": "Linguagem R",
 
-          "definicao": "Linguagem de programa├º├úo e ambiente computacional voltado ├á an├ílise estat├¡stica, minera├º├úo de dados e visualiza├º├úo gr├ífica. Ampla utiliza├º├úo em projetos de data science, controle estat├¡stico da qualidade e modelagem preditiva industrial.",
+          "definicao": "Linguagem de programação e ambiente computacional voltado á anélise estatística, mineração de dados e visualização gréfica. Ampla utilização em projetos de data science, controle estatístico da qualidade e modelagem preditiva industrial.",
 
           "topicos": [
 
@@ -16026,7 +16026,7 @@ window.SITE_DATA = {
 
             "ggplot2",
 
-            "Estat├¡stica",
+            "Estatística",
 
             "Data Science"
 
@@ -16036,11 +16036,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise estat├¡stica de processos",
+            "Anélise estatística de processos",
 
-            "Modelagem de s├®ries temporais de produ├º├úo",
+            "Modelagem de séries temporais de produção",
 
-            "Dashboards estat├¡sticos"
+            "Dashboards estatísticos"
 
           ]
 
@@ -16050,11 +16050,11 @@ window.SITE_DATA = {
 
           "titulo": "Tableau",
 
-          "definicao": "Plataforma de visualiza├º├úo de dados e Business Intelligence que permite criar dashboards interativos e an├ílises visuais a partir de m├║ltiplas fontes de dados. Conhecido por sua facilidade de uso e capacidade de lidar com grandes volumes.",
+          "definicao": "Plataforma de visualização de dados e Business Intelligence que permite criar dashboards interativos e anélises visuais a partir de múltiplas fontes de dados. Conhecido por sua facilidade de uso e capacidade de lidar com grandes volumes.",
 
           "topicos": [
 
-            "Visualiza├º├úo de dados",
+            "Visualização de dados",
 
             "Dashboard",
 
@@ -16068,7 +16068,7 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise visual de indicadores de produ├º├úo",
+            "Anélise visual de indicadores de produção",
 
             "Monitoramento de supply chain",
 
@@ -16082,7 +16082,7 @@ window.SITE_DATA = {
 
           "titulo": "QlikView e Qlik Sense",
 
-          "definicao": "Plataformas de Business Intelligence da Qlik que utilizam modelo associativo em mem├│ria para an├ílise de dados. QlikView ├® focado em dashboards guiados; Qlik Sense oferece autosservi├ºo com visualiza├º├Áes interativas e intelig├¬ncia artificial.",
+          "definicao": "Plataformas de Business Intelligence da Qlik que utilizam modelo associativo em memória para anélise de dados. QlikView é focado em dashboards guiados; Qlik Sense oferece autosserviço com visualizações interativas e inteligência artificial.",
 
           "topicos": [
 
@@ -16100,11 +16100,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "An├ílise associativa de dados de produ├º├úo",
+            "Anélise associativa de dados de produção",
 
-            "Relat├│rios de qualidade com m├║ltiplas dimens├Áes",
+            "Relatórios de qualidade com múltiplas dimensões",
 
-            "Descoberta de padr├Áes em dados industriais"
+            "Descoberta de padrões em dados industriais"
 
           ]
 
@@ -16114,13 +16114,13 @@ window.SITE_DATA = {
 
           "titulo": "Matlab/Octave",
 
-          "definicao": "Ambientes de computa├º├úo num├®rica para an├ílise matem├ítica, simula├º├úo, otimiza├º├úo e processamento de sinais. Matlab (MathWorks) ├® a ferramenta padr├úo na academia e ind├║stria; Octave ├® sua alternativa livre e de c├│digo aberto.",
+          "definicao": "Ambientes de computação numérica para anélise matemética, simulação, otimização e processamento de sinais. Matlab (MathWorks) é a ferramenta padrão na academia e indústria; Octave é sua alternativa livre e de código aberto.",
 
           "topicos": [
 
-            "Simula├º├úo num├®rica",
+            "Simulação numérica",
 
-            "Otimiza├º├úo",
+            "Otimização",
 
             "Controle",
 
@@ -16132,11 +16132,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Modelagem matem├ítica de processos",
+            "Modelagem matemética de processos",
 
-            "Otimiza├º├úo de sistemas produtivos",
+            "Otimização de sistemas produtivos",
 
-            "Controle de qualidade estat├¡stico avan├ºado"
+            "Controle de qualidade estatístico avançado"
 
           ]
 
@@ -16146,17 +16146,17 @@ window.SITE_DATA = {
 
           "titulo": "Scilab",
 
-          "definicao": "Software de c├│digo aberto para computa├º├úo num├®rica, similar ao Matlab, desenvolvido pelo INRIA. Oferece ferramentas para ├ílgebra linear, otimiza├º├úo, simula├º├úo de sistemas din├ómicos, processamento de sinais e gr├íficos cient├¡ficos.",
+          "definicao": "Software de código aberto para computação numérica, similar ao Matlab, desenvolvido pelo INRIA. Oferece ferramentas para élgebra linear, otimização, simulação de sistemas dinômicos, processamento de sinais e gréficos científicos.",
 
           "topicos": [
 
-            "Computa├º├úo num├®rica",
+            "Computação numérica",
 
-            "C├│digo aberto",
+            "Código aberto",
 
-            "Simula├º├úo",
+            "Simulação",
 
-            "Matem├ítica aplicada"
+            "Matemética aplicada"
 
           ],
 
@@ -16164,11 +16164,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Simula├º├úo de sistemas de controle",
+            "Simulação de sistemas de controle",
 
-            "An├ílise num├®rica na engenharia",
+            "Anélise numérica na engenharia",
 
-            "Ambiente acad├¬mico de baixo custo"
+            "Ambiente acadêmico de baixo custo"
 
           ]
 
@@ -16178,7 +16178,7 @@ window.SITE_DATA = {
 
           "titulo": "Ferramentas CAD/CAM (Fusion 360, Inventor)",
 
-          "definicao": "Softwares integrados de projeto (CAD) e manufatura (CAM) que permitem projetar pe├ºas 3D e gerar automaticamente programas de usinagem para m├íquinas CNC. Fusion 360 (Autodesk) ├® baseado em nuvem; Inventor ├® focado em projeto mec├ónico profissional.",
+          "definicao": "Softwares integrados de projeto (CAD) e manufatura (CAM) que permitem projetar peças 3D e gerar automaticamente programas de usinagem para méquinas CNC. Fusion 360 (Autodesk) é baseado em nuvem; Inventor é focado em projeto mecônico profissional.",
 
           "topicos": [
 
@@ -16188,7 +16188,7 @@ window.SITE_DATA = {
 
             "Usinagem",
 
-            "Fabrica├º├úo digital"
+            "Fabricação digital"
 
           ],
 
@@ -16196,11 +16196,11 @@ window.SITE_DATA = {
 
           "aplicacoes": [
 
-            "Programa├º├úo CNC automatizada",
+            "Programação CNC automatizada",
 
-            "Projeto e fabrica├º├úo de moldes e matrizes",
+            "Projeto e fabricação de moldes e matrizes",
 
-            "Prototipagem r├ípida e manufatura aditiva"
+            "Prototipagem répida e manufatura aditiva"
 
           ]
 
@@ -16222,7 +16222,7 @@ window.SITE_DATA = {
 
     {
 
-      "nome": "Conjunto Mec├ónico ÔÇö Prensa Manual",
+      "nome": "Conjunto Mecônico ÔÇö Prensa Manual",
 
       "tipo": "SolidWorks",
 
@@ -16230,7 +16230,7 @@ window.SITE_DATA = {
 
       "tamanho": "4.2 MB",
 
-      "descricao": "Projeto completo de prensa manual para oficina mec├ónica. Inclui molde, base, guias e sistema de alavanca."
+      "descricao": "Projeto completo de prensa manual para oficina mecônica. Inclui molde, base, guias e sistema de alavanca."
 
     },
 
@@ -16244,13 +16244,13 @@ window.SITE_DATA = {
 
       "tamanho": "2.8 MB",
 
-      "descricao": "Conjunto de redutor com engrenagens helicoidais, carca├ºa bipartida e eixos. Desenho t├®cnico completo com cotas."
+      "descricao": "Conjunto de redutor com engrenagens helicoidais, carcaça bipartida e eixos. Desenho técnico completo com cotas."
 
     },
 
     {
 
-      "nome": "Suporte para M├íquina CNC",
+      "nome": "Suporte para Méquina CNC",
 
       "tipo": "NanoCAD",
 
@@ -16258,13 +16258,13 @@ window.SITE_DATA = {
 
       "tamanho": "1.5 MB",
 
-      "descricao": "Base estrutural para fresadora CNC de pequeno porte. Inclui detalhamento de solda e fura├º├úo."
+      "descricao": "Base estrutural para fresadora CNC de pequeno porte. Inclui detalhamento de solda e furação."
 
     },
 
     {
 
-      "nome": "Cilindro Pneum├ítico ISO 6432",
+      "nome": "Cilindro Pneumético ISO 6432",
 
       "tipo": "SolidWorks",
 
@@ -16272,7 +16272,7 @@ window.SITE_DATA = {
 
       "tamanho": "3.1 MB",
 
-      "descricao": "Modelo param├®trico de cilindro pneum├ítico conforme norma ISO 6432. ├èmoblo, camisa, tampas e veda├º├úo."
+      "descricao": "Modelo paramétrico de cilindro pneumético conforme norma ISO 6432. èmoblo, camisa, tampas e vedação."
 
     },
 
@@ -16300,13 +16300,13 @@ window.SITE_DATA = {
 
       "tamanho": "1.2 MB",
 
-      "descricao": "Morsa funcional para bancada de usinagem. Inclui castelo, parafuso, base e garras em a├ºo."
+      "descricao": "Morsa funcional para bancada de usinagem. Inclui castelo, parafuso, base e garras em aço."
 
     },
 
     {
 
-      "nome": "Torre de Ilumina├º├úo Industrial",
+      "nome": "Torre de Iluminação Industrial",
 
       "tipo": "SolidWorks",
 
@@ -16314,7 +16314,7 @@ window.SITE_DATA = {
 
       "tamanho": "6.3 MB",
 
-      "descricao": "Torre met├ílica treli├ºada para ilumina├º├úo de p├ítio industrial com 12 m de altura. Memorial de c├ílculo incluso."
+      "descricao": "Torre metélica treliçada para iluminação de pétio industrial com 12 m de altura. Memorial de célculo incluso."
 
     },
 
@@ -16328,7 +16328,7 @@ window.SITE_DATA = {
 
       "tamanho": "3.9 MB",
 
-      "descricao": "Caldeira flamotubular vertical para gera├º├úo de vapor. Inclui tubos, fornalha, espelho e isolamento t├®rmico."
+      "descricao": "Caldeira flamotubular vertical para geração de vapor. Inclui tubos, fornalha, espelho e isolamento térmico."
 
     },
 
@@ -16348,7 +16348,7 @@ window.SITE_DATA = {
 
     {
 
-      "nome": "Bra├ºo Rob├│tico 6 Eixos",
+      "nome": "Braço Robótico 6 Eixos",
 
       "tipo": "AutoCAD",
 
@@ -16356,7 +16356,7 @@ window.SITE_DATA = {
 
       "tamanho": "4.5 MB",
 
-      "descricao": "Modelo conceitual de bra├ºo rob├│tico articulado com 6 graus de liberdade para c├®lula de manufatura."
+      "descricao": "Modelo conceitual de braço robótico articulado com 6 graus de liberdade para célula de manufatura."
 
     }
 
@@ -16366,7 +16366,7 @@ window.SITE_DATA = {
 
     {
 
-      "nome": "Gest├úo da Qualidade Total",
+      "nome": "Gestão da Qualidade Total",
 
       "plataforma": "SENAI",
 
@@ -16376,7 +16376,7 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Fundamentos do TQM, ferramentas da qualidade, ISO 9001 e melhoria cont├¡nua."
+      "descricao": "Fundamentos do TQM, ferramentas da qualidade, ISO 9001 e melhoria contínua."
 
     },
 
@@ -16384,7 +16384,7 @@ window.SITE_DATA = {
 
       "nome": "Lean Manufacturing",
 
-      "plataforma": "Funda├º├úo Bradesco",
+      "plataforma": "Fundação Bradesco",
 
       "url": "https://www.ev.org.br/cursos",
 
@@ -16392,13 +16392,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Conceitos de produ├º├úo enxuta, ferramentas Lean, Kaizen e elimina├º├úo de desperd├¡cios."
+      "descricao": "Conceitos de produção enxuta, ferramentas Lean, Kaizen e eliminação de desperdícios."
 
     },
 
     {
 
-      "nome": "Log├¡stica Empresarial",
+      "nome": "Logística Empresarial",
 
       "plataforma": "SEBRAE",
 
@@ -16408,13 +16408,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Gest├úo log├¡stica, modais, armazenagem, distribui├º├úo e indicadores log├¡sticos."
+      "descricao": "Gestão logística, modais, armazenagem, distribuição e indicadores logísticos."
 
     },
 
     {
 
-      "nome": "Introdu├º├úo ao Supply Chain Management",
+      "nome": "Introdução ao Supply Chain Management",
 
       "plataforma": "Coursera ÔÇö Rutgers",
 
@@ -16424,15 +16424,15 @@ window.SITE_DATA = {
 
       "tipo": "Curso (Auditoria)",
 
-      "descricao": "Cadeia de suprimentos integrada, gest├úo de fornecedores, compras e S&OP."
+      "descricao": "Cadeia de suprimentos integrada, gestão de fornecedores, compras e S&OP."
 
     },
 
     {
 
-      "nome": "Excel Aplicado ├á Engenharia",
+      "nome": "Excel Aplicado á Engenharia",
 
-      "plataforma": "Funda├º├úo Bradesco",
+      "plataforma": "Fundação Bradesco",
 
       "url": "https://www.ev.org.br/cursos",
 
@@ -16440,13 +16440,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Excel intermedi├írio e avan├ºado para an├ílise de dados, tabelas din├ómicas e dashboards."
+      "descricao": "Excel intermediério e avançado para anélise de dados, tabelas dinômicas e dashboards."
 
     },
 
     {
 
-      "nome": "Python para An├ílise de Dados (IBM)",
+      "nome": "Python para Anélise de Dados (IBM)",
 
       "plataforma": "Coursera (IBM)",
 
@@ -16456,13 +16456,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso (Auditoria)",
 
-      "descricao": "Python com pandas, NumPy e visualiza├º├úo de dados para an├ílise industrial."
+      "descricao": "Python com pandas, NumPy e visualização de dados para anélise industrial."
 
     },
 
     {
 
-      "nome": "Gest├úo de Projetos (PMBOK)",
+      "nome": "Gestão de Projetos (PMBOK)",
 
       "plataforma": "SEBRAE",
 
@@ -16478,7 +16478,7 @@ window.SITE_DATA = {
 
     {
 
-      "nome": "Seguran├ºa do Trabalho (NRs)",
+      "nome": "Segurança do Trabalho (NRs)",
 
       "plataforma": "SENAI",
 
@@ -16488,7 +16488,7 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Normas Regulamentadoras, EPI/EPC, CIPA, mapa de riscos e preven├º├úo de acidentes."
+      "descricao": "Normas Regulamentadoras, EPI/EPC, CIPA, mapa de riscos e prevenção de acidentes."
 
     },
 
@@ -16504,7 +16504,7 @@ window.SITE_DATA = {
 
       "tipo": "Trilha",
 
-      "descricao": "Dashboards, DAX, modelagem de dados e visualiza├º├úo para KPIs industriais."
+      "descricao": "Dashboards, DAX, modelagem de dados e visualização para KPIs industriais."
 
     },
 
@@ -16512,7 +16512,7 @@ window.SITE_DATA = {
 
       "nome": "Six Sigma ÔÇö White Belt",
 
-      "plataforma": "Funda├º├úo Bradesco",
+      "plataforma": "Fundação Bradesco",
 
       "url": "https://www.ev.org.br/cursos",
 
@@ -16520,13 +16520,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Introdu├º├úo ao Seis Sigma, DMAIC, estat├¡stica b├ísica e redu├º├úo de varia├º├úo."
+      "descricao": "Introdução ao Seis Sigma, DMAIC, estatística bésica e redução de variação."
 
     },
 
     {
 
-      "nome": "Ind├║stria 4.0 (SENAI)",
+      "nome": "Indústria 4.0 (SENAI)",
 
       "plataforma": "SENAI",
 
@@ -16536,13 +16536,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "IoT industrial, g├¬meo digital, manufatura aditiva, IA e sistemas ciberf├¡sicos."
+      "descricao": "IoT industrial, gêmeo digital, manufatura aditiva, IA e sistemas ciberfísicos."
 
     },
 
     {
 
-      "nome": "AutoCAD B├ísico (SENAI)",
+      "nome": "AutoCAD Bésico (SENAI)",
 
       "plataforma": "SENAI",
 
@@ -16552,13 +16552,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Desenho t├®cnico auxiliado por computador, cotagem, layers e plotagem."
+      "descricao": "Desenho técnico auxiliado por computador, cotagem, layers e plotagem."
 
     },
 
     {
 
-      "nome": "Fundamentos da Gest├úo Log├¡stica (FM2S)",
+      "nome": "Fundamentos da Gestão Logística (FM2S)",
 
       "plataforma": "FM2S",
 
@@ -16568,13 +16568,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Princ├¡pios da gest├úo log├¡stica, estoques, transporte e indicadores."
+      "descricao": "Princípios da gestão logística, estoques, transporte e indicadores."
 
     },
 
     {
 
-      "nome": "Programa├º├úo Linear (Udemy)",
+      "nome": "Programação Linear (Udemy)",
 
       "plataforma": "Udemy",
 
@@ -16584,13 +16584,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Gratuito",
 
-      "descricao": "Introdu├º├úo ├á programa├º├úo linear, m├®todo simplex e otimiza├º├úo de recursos."
+      "descricao": "Introdução á programação linear, método simplex e otimização de recursos."
 
     },
 
     {
 
-      "nome": "SQL B├ísico (Kaggle)",
+      "nome": "SQL Bésico (Kaggle)",
 
       "plataforma": "Kaggle",
 
@@ -16600,13 +16600,13 @@ window.SITE_DATA = {
 
       "tipo": "Curso Interativo",
 
-      "descricao": "Consultas SQL para an├ílise de dados estruturados com bancos relacionais."
+      "descricao": "Consultas SQL para anélise de dados estruturados com bancos relacionais."
 
     },
 
     {
 
-      "nome": "PCP (Planejamento e Controle da Produ├º├úo)",
+      "nome": "PCP (Planejamento e Controle da Produção)",
 
       "plataforma": "Nomus",
 
@@ -16616,7 +16616,7 @@ window.SITE_DATA = {
 
       "tipo": "E-book",
 
-      "descricao": "Guia completo sobre PCP, MRP, sequenciamento e programa├º├úo da produ├º├úo."
+      "descricao": "Guia completo sobre PCP, MRP, sequenciamento e programação da produção."
 
     },
 
@@ -16638,9 +16638,9 @@ window.SITE_DATA = {
 
     {
 
-      "nome": "Gest├úo Ambiental ISO 14001",
+      "nome": "Gestão Ambiental ISO 14001",
 
-      "plataforma": "Funda├º├úo Bradesco",
+      "plataforma": "Fundação Bradesco",
 
       "url": "https://www.ev.org.br/cursos",
 
@@ -16648,7 +16648,7 @@ window.SITE_DATA = {
 
       "tipo": "Curso Livre",
 
-      "descricao": "Sistema de gest├úo ambiental, requisitos da ISO 14001 e auditoria ambiental."
+      "descricao": "Sistema de gestão ambiental, requisitos da ISO 14001 e auditoria ambiental."
 
     }
 
@@ -16660,9 +16660,9 @@ window.SITE_DATA = {
 
       "id": "fmea",
 
-      "nome": "Planilha FMEA (An├ílise de Modos de Falha)",
+      "nome": "Planilha FMEA (Anélise de Modos de Falha)",
 
-      "descricao": "Formul├írio completo de FMEA de processo com campos para fun├º├úo, modo de falha, causa, efeito, NRP e a├º├Áes recomendadas."
+      "descricao": "Formulério completo de FMEA de processo com campos para função, modo de falha, causa, efeito, NRP e ações recomendadas."
 
     },
 
@@ -16672,7 +16672,7 @@ window.SITE_DATA = {
 
       "nome": "PPAP ÔÇö Production Part Approval Process",
 
-      "descricao": "Checklist completo de PPAP n├¡vel 3 conforme AIAG, com 18 itens de submiss├úo."
+      "descricao": "Checklist completo de PPAP nível 3 conforme AIAG, com 18 itens de submissão."
 
     },
 
@@ -16680,9 +16680,9 @@ window.SITE_DATA = {
 
       "id": "8d",
 
-      "nome": "Relat├│rio 8D (Oito Disciplinas)",
+      "nome": "Relatório 8D (Oito Disciplinas)",
 
-      "descricao": "Template de relat├│rio 8D para an├ílise de n├úo conformidades com campos de D1 a D8."
+      "descricao": "Template de relatório 8D para anélise de não conformidades com campos de D1 a D8."
 
     },
 
@@ -16702,7 +16702,7 @@ window.SITE_DATA = {
 
       "nome": "Checklist 5S",
 
-      "descricao": "Checklist de auditoria 5S com crit├®rios para cada S e pontua├º├úo de 0 a 5."
+      "descricao": "Checklist de auditoria 5S com critérios para cada S e pontuação de 0 a 5."
 
     },
 
@@ -16712,7 +16712,7 @@ window.SITE_DATA = {
 
       "nome": "Value Stream Mapping (VSM)",
 
-      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para m├®tricas."
+      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para métricas."
 
     },
 
@@ -16722,7 +16722,7 @@ window.SITE_DATA = {
 
       "nome": "Diagrama de Ishikawa (Espinha de Peixe)",
 
-      "descricao": "Template edit├ível do diagrama causa-efeito com os 6Ms: M├®todo, M├úo de Obra, M├íquina, Material, Medida, Meio Ambiente."
+      "descricao": "Template editével do diagrama causa-efeito com os 6Ms: Método, Mão de Obra, Méquina, Material, Medida, Meio Ambiente."
 
     },
 
@@ -16732,7 +16732,7 @@ window.SITE_DATA = {
 
       "nome": "Planilha de Poka-Yoke",
 
-      "descricao": "Registro de dispositivos ├á prova de erro com campos para tipo, local e efic├ícia."
+      "descricao": "Registro de dispositivos á prova de erro com campos para tipo, local e eficécia."
 
     },
 
@@ -16740,9 +16740,9 @@ window.SITE_DATA = {
 
       "id": "5w2h",
 
-      "nome": "Plano de A├º├úo 5W2H",
+      "nome": "Plano de Ação 5W2H",
 
-      "descricao": "Template de plano de a├º├úo What, Why, Where, When, Who, How, How Much."
+      "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much."
 
     },
 
@@ -16762,7 +16762,7 @@ window.SITE_DATA = {
 
       "nome": "Registro de Treinamento",
 
-      "descricao": "Planilha de controle de treinamentos com carga hor├íria, instrutor e avalia├º├úo."
+      "descricao": "Planilha de controle de treinamentos com carga horéria, instrutor e avaliação."
 
     },
 
@@ -16780,9 +16780,9 @@ window.SITE_DATA = {
 
       "id": "analise-capacidade",
 
-      "nome": "An├ílise de Capacidade Produtiva",
+      "nome": "Anélise de Capacidade Produtiva",
 
-      "descricao": "Formul├írio para c├ílculo de capacidade instalada, dispon├¡vel e efetiva com indicadores de ociosidade."
+      "descricao": "Formulério para célculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade."
 
     },
 
@@ -16792,7 +16792,7 @@ window.SITE_DATA = {
 
       "nome": "Planilha de Sequenciamento de Ordens",
 
-      "descricao": "Template para sequenciamento de produ├º├úo com regras EDD, SPT, FCFS e CR."
+      "descricao": "Template para sequenciamento de produção com regras EDD, SPT, FCFS e CR."
 
     },
 
@@ -16812,7 +16812,7 @@ window.SITE_DATA = {
 
       "nome": "Matriz de Riscos (Probabilidade x Impacto)",
 
-      "descricao": "Template de matriz de riscos com classifica├º├úo P x I e planos de a├º├úo de resposta."
+      "descricao": "Template de matriz de riscos com classificação P x I e planos de ação de resposta."
 
     }
 
