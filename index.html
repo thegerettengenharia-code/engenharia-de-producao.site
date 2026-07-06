@@ -10,8 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
@@ -25,16 +24,16 @@
       <a href="index.html" class="nav-logo" aria-label="EngPro — Engenharia de Produção">
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-          <text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text>
+          <text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text>
         </svg>
         <span>Eng<span class="accent">Pro</span></span>
       </a>
       <div class="nav-links" id="navLinks" role="menubar">
-        <a href="topicos.html" class="nav-link" role="menuitem">Tópicos</a>
-        <a href="modelos-cad.html" class="nav-link" role="menuitem">Modelos CAD</a>
-        <a href="cursos.html" class="nav-link" role="menuitem">Cursos</a>
-        <a href="biblioteca.html" class="nav-link" role="menuitem">Biblioteca</a>
-        <a href="sobre.html" class="nav-link" role="menuitem">Sobre</a>
+        <a href="topicos.html" class="nav-link" data-section="topicos" role="menuitem">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link" data-section="modelos-cad" role="menuitem">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" data-section="cursos" role="menuitem">Cursos</a>
+        <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Biblioteca</a>
+        <a href="sobre.html" class="nav-link" data-section="sobre" role="menuitem">Sobre</a>
       </div>
       <div class="nav-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false" title="Alternar tema claro/escuro">
@@ -94,13 +93,13 @@
             <div class="stat"><div class="stat-num">8</div><div class="stat-label">Modelos CAD</div></div>
           </div>
           <div class="hero-cta" data-reveal>
-            <a href="topicos.html" class="btn btn-primary btn-lg">
+            <a href="topicos.html" class="btn btn-primary btn-lg" data-href="topicos.html">
               <span>Explorar Tópicos</span>
               <span class="btn-icon" aria-hidden="true">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </a>
-            <a href="modelos-cad.html" class="btn btn-ghost btn-lg">
+            <a href="modelos-cad.html" class="btn btn-ghost btn-lg" data-href="modelos-cad.html">
               <span>Ver Modelos CAD</span>
             </a>
           </div>
@@ -203,7 +202,7 @@
       </div>
       <div class="resource-grid" id="cadGrid" style="padding:0 0 40px"></div>
       <div class="about-cta" data-reveal>
-        <a href="modelos-cad.html" class="btn btn-primary btn-lg">
+        <a href="modelos-cad.html" class="btn btn-primary btn-lg" data-href="modelos-cad.html">
           <span>Ver Todos os Modelos</span>
           <span class="btn-icon" aria-hidden="true">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -221,7 +220,7 @@
       </div>
       <div class="course-grid" id="courseGrid" style="padding:0 0 40px"></div>
       <div class="about-cta" data-reveal>
-        <a href="cursos.html" class="btn btn-primary btn-lg">
+        <a href="cursos.html" class="btn btn-primary btn-lg" data-href="cursos.html">
           <span>Ver Todos os Cursos</span>
           <span class="btn-icon" aria-hidden="true">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -277,7 +276,7 @@
         <a href="index.html" class="footer-logo" aria-label="EngPro — Voltar ao topo">
           <svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
             <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-            <text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text>
+            <text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text>
           </svg>
           <span>Eng<span class="accent">Pro</span></span>
         </a>
@@ -298,7 +297,7 @@
           <ul>
             <li><a href="modelos-cad.html">Modelos CAD</a></li>
             <li><a href="cursos.html">Cursos Grátis</a></li>
-            <li><a href="biblioteca.html">Formulários .doc</a></li>
+            <li><a href="biblioteca.html">Formulários .html</a></li>
             <li><a href="topicos.html">Conteúdo Técnico</a></li>
           </ul>
         </div>
@@ -317,8 +316,8 @@
       <p class="copyright">&copy; 2025 EngPro. Portal técnico de Engenharia de Produção.</p>
       <div class="footer-links">
         <a href="sobre.html" class="footer-link">Sobre</a>
-        <a href="#" class="footer-link">Privacidade</a>
-        <a href="#" class="footer-link">Termos</a>
+        <span class="footer-link">Privacidade</span>
+        <span class="footer-link">Termos</span>
       </div>
     </div>
   </footer>

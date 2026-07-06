@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   /* --- Core Palette --- */
   --brand-h: 210;
   --brand-s: 80%;
@@ -19,7 +19,7 @@
   --grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
 
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-display: 'Clash Display', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Inter Tight', 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
   --radius-sm: 8px;
@@ -524,6 +524,29 @@ ul{list-style:none}
   overflow-x:auto;white-space:pre-wrap;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+/* References Section */
+.detail-references{
+  padding:24px 0;margin-top:24px;
+  border-top:2px solid var(--border);
+}
+.detail-references-title{
+  font-size:0.75rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--brand);margin-bottom:12px;
+}
+.detail-references-list{list-style:none;padding:0}
+.detail-references-list li{
+  font-size:0.82rem;color:var(--text-secondary);
+  padding:6px 0;line-height:1.5;
+  border-bottom:1px solid var(--border);
+}
+.detail-references-list li:last-child{border-bottom:none}
+.ref-tipo{
+  display:inline-block;padding:2px 8px;border-radius:4px;
+  font-size:0.7rem;font-weight:600;text-transform:uppercase;
+  background:var(--brand-light);color:var(--brand);
+  margin-right:8px;letter-spacing:0.04em;
+}
 
 /* About */
 .about{

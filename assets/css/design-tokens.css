@@ -64,7 +64,7 @@
   --color-black: #000000;
 
   /* Typography Primitives */
-  --font-display: 'Clash Display', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Inter Tight', 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 

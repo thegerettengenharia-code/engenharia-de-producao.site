@@ -1,0 +1,15 @@
+# OS
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Project
+node_modules/
+*.log
+enriched_categories.json

@@ -1,4 +1,4 @@
-(function(){
+﻿﻿(function(){
   'use strict';
 
   const S = window.SITE_DATA;
@@ -245,7 +245,14 @@
             </div>` : ''}
           </div>
         `;
-      }).join('');
+      }).join('') + (cat.referencias && cat.referencias.length ? `
+        <div class="detail-references">
+          <h5 class="detail-references-title">Referências Acadêmicas</h5>
+          <ul class="detail-references-list">
+            ${cat.referencias.map(r => `<li><span class="ref-tipo">${r.tipo}</span> ${r.ref}</li>`).join('')}
+          </ul>
+        </div>
+      ` : '');
     }
     detail.hidden = false;
     requestAnimationFrame(() => detail.classList.add('open'));
@@ -435,6 +442,6 @@
   }
 
   console.log(`%c EngPro v2.0 `, `background:#2563eb;color:#fff;font-size:14px;padding:8px 16px;border-radius:4px;font-weight:bold;`);
-  console.log(`📦 ${S.categorias?.length || 0} categorias carregadas`);
-  console.log(`📚 ${S.categorias?.reduce((a,c) => a + (c.subtopicos?.length || 0), 0) || 0} tópicos técnicos`);
+  console.log(`?? ${S.categorias?.length || 0} categorias carregadas`);
+  console.log(`?? ${S.categorias?.reduce((a,c) => a + (c.subtopicos?.length || 0), 0) || 0} tópicos técnicos`);
 })();

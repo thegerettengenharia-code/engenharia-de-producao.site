@@ -1,20 +1,20 @@
-﻿<!DOCTYPE html>
+﻿?<!DOCTYPE html>
 <html lang="pt-BR" data-theme="auto">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca TÃ©cnica â€” EngPro</title>
-  <meta name="description" content="Biblioteca de formulÃ¡rios tÃ©cnicos e diagramas para Engenharia de ProduÃ§Ã£o. Downloads em .doc para impressÃ£o e ediÃ§Ã£o.">
+  <title>Biblioteca Técnica — EngPro</title>
+  <meta name="description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .html para impressão e edição.">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
 <body>
   <div class="noise-overlay" aria-hidden="true"></div>
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
-      <div class="nav-links"><a href="topicos.html" class="nav-link">TÃ³picos</a><a href="modelos-cad.html" class="nav-link">Modelos CAD</a><a href="cursos.html" class="nav-link">Cursos</a><a href="biblioteca.html" class="nav-link active">Biblioteca</a><a href="sobre.html" class="nav-link">Sobre</a></div>
+      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
+      <div class="nav-links"><a href="topicos.html" class="nav-link" data-section="topicos">Tópicos</a><a href="modelos-cad.html" class="nav-link" data-section="modelos-cad">Modelos CAD</a><a href="cursos.html" class="nav-link" data-section="cursos">Cursos</a><a href="biblioteca.html" class="nav-link active" data-section="biblioteca">Biblioteca</a><a href="sobre.html" class="nav-link" data-section="sobre">Sobre</a></div>
       <div class="nav-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
         <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
@@ -24,7 +24,7 @@
 
   <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
     <div class="mobile-nav-inner"><nav class="mobile-nav-links">
-      <a href="topicos.html" class="mobile-nav-link">TÃ³picos</a>
+      <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
       <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
       <a href="cursos.html" class="mobile-nav-link">Cursos</a>
       <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
@@ -35,8 +35,8 @@
   <main>
     <div class="page-header">
       <span class="eyebrow">Recursos para Download</span>
-      <h1>Biblioteca TÃ©cnica<br><span class="accent">FormulÃ¡rios e Diagramas</span></h1>
-      <p>FormulÃ¡rios tÃ©cnicos, checklists e diagramas utilizados no ambiente organizacional industrial. DisponÃ­veis para download no formato .doc.</p>
+      <h1>Biblioteca Técnica<br><span class="accent">Formulários e Diagramas</span></h1>
+      <p>Formulários técnicos, checklists e diagramas utilizados no ambiente organizacional industrial. Disponíveis para download no formato .html.</p>
     </div>
 
     <div class="form-grid" id="formGrid"></div>
@@ -44,8 +44,8 @@
 
   <footer class="footer">
     <div class="footer-inner">
-      <div class="footer-brand"><a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Clash Display,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a><p class="footer-tagline">Portal tÃ©cnico de Engenharia de ProduÃ§Ã£o.</p></div>
-      <nav class="footer-nav" aria-label="RodapÃ©"><div class="footer-nav-group"><h4>NavegaÃ§Ã£o</h4><ul><li><a href="topicos.html">TÃ³picos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos</a></li></ul></div></nav>
+      <div class="footer-brand"><a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a><p class="footer-tagline">Portal técnico de Engenharia de Produção.</p></div>
+      <nav class="footer-nav" aria-label="Rodapé"><div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos</a></li></ul></div></nav>
     </div>
     <div class="footer-bottom"><p>&copy; 2025 EngPro</p><div class="footer-links"><a href="sobre.html">Sobre</a></div></div>
   </footer>
@@ -65,12 +65,12 @@
         <p>${f.descricao}</p>
         <a href="#" class="form-download" data-form="${f.id}">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download .doc
+          Download .html
         </a>
       </article>
     `).join('');
 
-    // Generate .doc files on click
+    // Generate .html files on click
     grid.addEventListener('click', function(e) {
       const btn = e.target.closest('.form-download');
       if (!btn) return;
@@ -79,82 +79,90 @@
       const form = window.SITE_DATA.formularios.find(f => f.id === formId);
       if (!form) return;
 
-      const content = `
-FORMULÃRIO TÃ‰CNICO - ${form.nome}
-================================================================================
-Fonte: EngPro - Portal de Engenharia de ProduÃ§Ã£o
-LicenÃ§a: Livre para uso educacional e profissional
-================================================================================
+      const today = new Date().toLocaleDateString('pt-BR');
+      const htmlContent = `<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${form.nome} — EngPro</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; color: #1a1a2e; background: #f8f9fc; line-height: 1.6; }
+    .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+    .header { text-align: center; padding: 48px 24px 32px; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: #fff; border-radius: 12px 12px 0 0; }
+    .header h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 8px; }
+    .header p { font-size: 0.95rem; opacity: 0.85; }
+    .header .date { margin-top: 8px; font-size: 0.85rem; opacity: 0.7; }
+    .content { background: #fff; padding: 40px 32px; border-radius: 0 0 12px 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    h2 { font-size: 1.2rem; font-weight: 700; color: #1e3a5f; margin-top: 32px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #e8edf4; }
+    h2:first-child { margin-top: 0; }
+    .field { margin-bottom: 16px; }
+    .field-label { display: block; font-weight: 600; font-size: 0.85rem; color: #4b5563; margin-bottom: 4px; }
+    .field-line { display: block; border-bottom: 1px solid #d1d5db; padding: 8px 4px; min-height: 32px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 12px 0; }
+    th { background: #1e3a5f; color: #fff; padding: 10px 8px; text-align: left; font-weight: 600; }
+    td { border: 1px solid #d1d5db; padding: 8px; }
+    tr:nth-child(even) td { background: #f9fafb; }
+    .notes-area { min-height: 80px; border: 1px dashed #d1d5db; padding: 12px; border-radius: 6px; background: #f9fafb; margin-top: 4px; }
+    .footer-note { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; font-size: 0.82rem; color: #9ca3af; }
+    .print-tip { background: #f0f4ff; border: 1px solid #bfd4f8; border-radius: 8px; padding: 16px 20px; margin-bottom: 32px; font-size: 0.88rem; color: #1e40af; }
+    @media print { body { background: #fff; } .header { background: #1e3a5f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; } th { background: #1e3a5f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .print-tip { display: none; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>${form.nome}</h1>
+      <p>${form.descricao}</p>
+      <div class="date">Emissão: ${today}</div>
+    </div>
+    <div class="content">
+      <div class="print-tip">
+        Para salvar este formulário, use <strong>Arquivo &gt; Imprimir</strong> (Ctrl+P) e selecione <strong>"Salvar como PDF"</strong> ou imprima diretamente.
+      </div>
+      <h2>1. Identificação</h2>
+      <div class="field"><span class="field-label">Empresa</span><span class="field-line"></span></div>
+      <div class="field"><span class="field-label">Setor / Área</span><span class="field-line"></span></div>
+      <div style="display:flex;gap:4%;flex-wrap:wrap">
+        <div class="field" style="flex:1;min-width:160px"><span class="field-label">Data</span><span class="field-line"></span></div>
+        <div class="field" style="flex:2;min-width:200px"><span class="field-label">Responsável</span><span class="field-line"></span></div>
+      </div>
+      <div class="field"><span class="field-label">Cargo / Função</span><span class="field-line"></span></div>
+      <h2>2. Objetivo da Avaliação</h2>
+      <div class="notes-area"></div>
+      <h2>3. Critérios Avaliados</h2>
+      <table>
+        <thead><tr><th style="width:50px">Item</th><th>Descrição</th><th style="width:130px">Status</th><th style="width:160px">Observações</th></tr></thead>
+        <tbody>${[1,2,3,4,5,6,7,8,9,10].map(i => `<tr><td>${i}</td><td></td><td></td><td></td></tr>`).join('')}</tbody>
+      </table>
+      <h2>4. Análise e Ações Recomendadas</h2>
+      <div class="notes-area"></div>
+      <h2>5. Cronograma de Ação</h2>
+      <table>
+        <thead><tr><th>Ação</th><th>Responsável</th><th>Prazo</th><th>Status</th></tr></thead>
+        <tbody>${[1,2,3].map(() => `<tr><td></td><td></td><td></td><td></td></tr>`).join('')}</tbody>
+      </table>
+      <h2>6. Aprovações</h2>
+      <div style="display:flex;gap:4%;flex-wrap:wrap">
+        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Elaborado por</span><span class="field-line"></span></div>
+        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Data</span><span class="field-line"></span></div>
+      </div>
+      <div style="display:flex;gap:4%;flex-wrap:wrap">
+        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Aprovado por</span><span class="field-line"></span></div>
+        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Data</span><span class="field-line"></span></div>
+      </div>
+      <div class="footer-note">Documento gerado pelo <strong>EngPro</strong> — Portal de Engenharia de Produção &bull; ${today}</div>
+    </div>
+  </div>
+</body>
+</html>`;
 
-Dados do FormulÃ¡rio:
-- Nome: ${form.nome}
-- DescriÃ§Ã£o: ${form.descricao}
-- ID de ReferÃªncia: ${form.id}
-- Data de EmissÃ£o: ${new Date().toLocaleDateString('pt-BR')}
-
-================================================================================
-INSTRUÃ‡Ã•ES DE USO
-Este formulÃ¡rio Ã© um template para aplicaÃ§Ã£o no ambiente organizacional industrial.
-Preencha todos os campos conforme a realidade do processo avaliado.
-================================================================================
-
-1. IDENTIFICAÃ‡ÃƒO
-   Empresa: ____________________________________________________
-   Setor/Ãrea: _________________________________________________
-   Data: ____/____/________
-   ResponsÃ¡vel pelo Preenchimento: ______________________________
-   Cargo/FunÃ§Ã£o: _______________________________________________
-
-2. OBJETIVO DA AVALIAÃ‡ÃƒO
-   ______________________________________________________________________________
-   ______________________________________________________________________________
-   ______________________________________________________________________________
-
-3. CRITÃ‰RIOS AVALIADOS
-   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-   â”‚ Item | DescriÃ§Ã£o                     | Status (OK/OK+Obs/NOK) | ObservaÃ§Ãµes â”‚
-   â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-   â”‚  1   |                               |                      |              â”‚
-   â”‚  2   |                               |                      |              â”‚
-   â”‚  3   |                               |                      |              â”‚
-   â”‚  4   |                               |                      |              â”‚
-   â”‚  5   |                               |                      |              â”‚
-   â”‚  6   |                               |                      |              â”‚
-   â”‚  7   |                               |                      |              â”‚
-   â”‚  8   |                               |                      |              â”‚
-   â”‚  9   |                               |                      |              â”‚
-   â”‚ 10   |                               |                      |              â”‚
-   â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-
-4. ANÃLISE E AÃ‡Ã•ES RECOMENDADAS
-   ______________________________________________________________________________
-   ______________________________________________________________________________
-   ______________________________________________________________________________
-
-5. CRONOGRAMA DE AÃ‡ÃƒO
-   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-   â”‚ AÃ§Ã£o      | ResponsÃ¡vel   | Prazo        | Status          â”‚
-   â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-   â”‚           |               |              |                 â”‚
-   â”‚           |               |              |                 â”‚
-   â”‚           |               |              |                 â”‚
-   â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-
-6. APROVAÃ‡Ã•ES
-   Elaborado por: ___________________________ Data: ____/____/________
-   Aprovado por:  ___________________________ Data: ____/____/________
-
-================================================================================
-Documento gerado pelo EngPro - Portal de Engenharia de ProduÃ§Ã£o
-www.engpro.tech
-================================================================================
-`.trim();
-
-      const blob = new Blob([content], { type: 'application/msword' });
+      const blob = new Blob([htmlContent], { type: 'text/html' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `${form.id}-${form.nome.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}.doc`;
+      a.download = `${form.id}-${form.nome.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}.html`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
