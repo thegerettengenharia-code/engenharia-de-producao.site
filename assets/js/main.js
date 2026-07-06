@@ -102,7 +102,10 @@
     const filtered = filter
       ? cats.filter(c =>
           c.nome.toLowerCase().includes(filter.toLowerCase()) ||
-          c.subtopicos?.some(s => s.toLowerCase().includes(filter.toLowerCase()))
+          c.subtopicos?.some(s => {
+            const texto = typeof s === 'string' ? s : (s.titulo || '');
+            return texto.toLowerCase().includes(filter.toLowerCase());
+          })
         )
       : cats;
 
@@ -202,17 +205,47 @@
     if (detailTitle) detailTitle.textContent = cat.nome;
     if (detailDesc) detailDesc.textContent = cat.descricao || '';
     if (detailContent) {
-      detailContent.innerHTML = (cat.subtopicos || []).map(s => `
-        <div class="detail-item">
-          <div class="detail-item-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      detailContent.innerHTML = (cat.subtopicos || []).map((s, i) => {
+        const titulo = typeof s === 'string' ? s : (s.titulo || '');
+        const definicao = typeof s === 'object' ? (s.definicao || '') : '';
+        const topicosLista = typeof s === 'object' ? (s.topicos || []) : [];
+        const formula = typeof s === 'object' ? (s.formula || '') : '';
+        const aplicacoes = typeof s === 'object' ? (s.aplicacoes || []) : '';
+        const temDetalhes = definicao || topicosLista.length || formula || aplicacoes;
+        return `
+          <div class="detail-item${temDetalhes ? '' : ''}" data-index="${i}">
+            <button class="detail-item-header" onclick="toggleDetail(this)" aria-expanded="false">
+              <div class="detail-item-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h4>${titulo}</h4>
+              ${temDetalhes ? '<svg class="detail-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>' : ''}
+            </button>
+            ${temDetalhes ? `
+            <div class="detail-item-body">
+              ${definicao ? `<p class="detail-definicao">${definicao}</p>` : ''}
+              ${topicosLista.length ? `
+                <div class="detail-section">
+                  <h5>Tópicos Relacionados</h5>
+                  <ul>${topicosLista.map(t => `<li>${t}</li>`).join('')}</ul>
+                </div>
+              ` : ''}
+              ${formula ? `
+                <div class="detail-section">
+                  <h5>Fórmula / Expressão</h5>
+                  <code class="detail-formula">${formula}</code>
+                </div>
+              ` : ''}
+              ${aplicacoes.length ? `
+                <div class="detail-section">
+                  <h5>Aplicações Práticas</h5>
+                  <ul>${aplicacoes.map(a => `<li>${a}</li>`).join('')}</ul>
+                </div>
+              ` : ''}
+            </div>` : ''}
           </div>
-          <div>
-            <h4>${s}</h4>
-            <p>Conceito fundamental em ${cat.nome}. Aplicação direta no ambiente organizacional industrial para melhoria de processos, redução de custos e aumento da produtividade.</p>
-          </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
     detail.hidden = false;
     requestAnimationFrame(() => detail.classList.add('open'));
@@ -228,6 +261,15 @@
   detailBackdrop?.addEventListener('click', closeDetail);
   detailClose?.addEventListener('click', closeDetail);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+
+  /* --- Accordion: toggle topic detail --- */
+  window.toggleDetail = function(btn) {
+    const item = btn.closest('.detail-item');
+    if (!item) return;
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    item.classList.toggle('expanded', !expanded);
+  };
 
   /* --- Buttons --- */
   document.querySelectorAll('[data-href]').forEach(btn => {
