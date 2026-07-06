@@ -189,6 +189,16 @@ ul{list-style:none}
     radial-gradient(ellipse 60% 50% at 80% 60%, hsl(var(--brand-h),30%,4%) 0%, transparent 50%),
     var(--bg);
 }
+.hero-bg-image{
+  position:absolute;inset:0;z-index:0;
+  background-image:url('../img/hero-bg.jpg');
+  background-size:cover;background-position:center;
+  transform:scale(1);
+}
+.hero-bg-overlay{
+  position:absolute;inset:0;z-index:0;
+  background:linear-gradient(135deg, hsla(var(--brand-h),40%,5%,0.7) 0%, hsla(var(--brand-h),30%,10%,0.4) 100%);
+}
 .hero-grid-pattern{
   position:absolute;inset:0;
   background-image:linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
@@ -890,3 +900,77 @@ ul{list-style:none}
   .hero-cta{flex-direction:column}
   .btn{width:100%;justify-content:center}
 }
+
+/* ─── Particle Canvas ─── */
+.particle-canvas{
+  position:absolute;inset:0;z-index:1;
+  pointer-events:none;
+  opacity:0.6;
+}
+
+/* ─── Industrial Grid Background (for sections) ─── */
+.industrial-bg{
+  position:relative;
+  overflow:hidden;
+}
+.industrial-bg::before{
+  content:'';position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size:60px 60px;
+  pointer-events:none;
+}
+
+/* ─── Glassmorphism Sections ─── */
+.section-glass{
+  background:var(--bg-card);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border:1px solid var(--border);
+  border-radius:var(--radius-xl);
+  margin:0 24px;
+  padding:80px 32px;
+  transition:background .4s, border-color .4s;
+}
+@media(max-width:768px){
+  .section-glass{margin:0 12px;padding:40px 20px;border-radius:var(--radius-lg)}
+}
+
+/* ─── Premium Shimmer Effect for Buttons ─── */
+.btn::after{
+  content:'';position:absolute;top:0;left:-100%;
+  width:100%;height:100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  transition:left .6s var(--ease-out-expo);
+}
+.btn:hover::after{left:100%}
+
+/* ─── GSAP Performance: GPU-accelerated by default ─── */
+[data-reveal],[data-parallax],.cursor-dot,.cursor-ring,.visual-card,.topic-card,.course-card,.resource-card,.form-card{
+  will-change:transform,opacity;
+}
+
+/* ─── Engineering Corner Badge ─── */
+.corner-badge{
+  position:absolute;top:-1px;right:-1px;
+  width:60px;height:60px;overflow:hidden;
+  border-top-right-radius:var(--radius-lg);
+  pointer-events:none;
+}
+.corner-badge::before{
+  content:'ENG';position:absolute;top:8px;right:-20px;
+  font-family:var(--font-mono);
+  font-size:0.55rem;font-weight:700;
+  letter-spacing:0.12em;color:var(--brand);
+  transform:rotate(45deg);
+  text-shadow:0 0 8px hsla(var(--brand-h),60%,50%,0.3);
+}
+
+/* ─── Dark Mode Refinements ─── */
+[data-theme="dark"] .particle-canvas{opacity:0.4}
+[data-theme="dark"] .section-glass{background:rgba(28,25,23,0.6);border-color:rgba(255,255,255,0.06)}
+[data-theme="dark"] .hero-grid-pattern{background-image:linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);}
+
+/* ─── Loading Screen Link ─── */
+@import url('loading.css');
