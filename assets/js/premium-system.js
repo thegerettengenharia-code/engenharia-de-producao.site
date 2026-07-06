@@ -92,6 +92,8 @@
      2. PREMIUM LOADING — mechanical assembly + laser scan
      ======================================================================== */
   function initPremiumLoading() {
+    // Skip if premium-coin.js already created its loading screen
+    if (document.getElementById('coinLoadingScreen')) return;
     const old = document.getElementById('loadingScreen');
     if (old) old.remove();
 
