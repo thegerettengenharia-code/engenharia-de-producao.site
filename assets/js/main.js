@@ -1,4 +1,4 @@
-﻿﻿(function(){
+﻿(function(){
   'use strict';
 
   const S = window.SITE_DATA;
