@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://engpro.tech/sitemap.xml
+Sitemap: https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml
