@@ -68,21 +68,19 @@
     const eyebrow = hero.querySelector('.hero-eyebrow');
     const title = hero.querySelector('.hero-title');
     const subtitle = hero.querySelector('.hero-subtitle');
-    const mission = hero.querySelector('.hero-purpose .mission');
     const purpose = hero.querySelector('.hero-purpose');
     const stats = hero.querySelector('.hero-stats');
     const cta = hero.querySelector('.hero-cta');
 
-    if (eyebrow) tl.from(eyebrow, { y: 40, opacity: 0 }, 0.2);
-    if (title) tl.from(title, { y: 50, opacity: 0 }, 0.3);
-    if (subtitle) tl.from(subtitle, { y: 30, opacity: 0 }, 0.45);
-    if (mission) tl.from(mission, { y: 20, opacity: 0 }, 0.55);
-    if (purpose) tl.from(purpose, { y: 20, opacity: 0 }, 0.6);
+    if (eyebrow) tl.from(eyebrow, { y: 40, opacity: 0 }, 0.15);
+    if (title) tl.from(title, { y: 50, opacity: 0 }, 0.25);
+    if (subtitle) tl.from(subtitle, { y: 30, opacity: 0 }, 0.4);
+    if (purpose) tl.from(purpose, { y: 20, opacity: 0, duration: 0.9 }, 0.5);
     if (stats) {
       const items = stats.querySelectorAll('.stat');
-      tl.from(items, { y: 30, opacity: 0, stagger: 0.1 }, 0.5);
+      tl.from(items, { y: 30, opacity: 0, stagger: 0.08 }, 0.5);
     }
-    if (cta) tl.from(cta, { y: 20, opacity: 0 }, 0.65);
+    if (cta) tl.from(cta, { y: 20, opacity: 0 }, 0.6);
   }
 
   /* ─── Scroll-Triggered Reveals ─── */
