@@ -2,39 +2,62 @@
   'use strict';
 
   const S = window.SITE_DATA;
-  if (!S) return console.warn('SITE_DATA not loaded');
 
-  /* --- Theme --- */
+  /* ─── Theme ─── */
   const themeToggle = document.getElementById('themeToggle');
+  const mobileThemeToggle = document.getElementById('mobileThemeToggle');
+  const mbnTheme = document.getElementById('mbnTheme');
   const html = document.documentElement;
   const stored = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const theme = stored || (prefersDark ? 'dark' : 'light');
   html.setAttribute('data-theme', theme);
-  themeToggle?.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
-  themeToggle?.addEventListener('click', () => {
-    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+
+  function applyTheme(next) {
     html.setAttribute('data-theme', next);
     localStorage.setItem('theme', next);
-    themeToggle.setAttribute('aria-pressed', next === 'dark' ? 'true' : 'false');
-  });
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', next === 'dark' ? '#0B0E11' : '#F8F9FA');
+    const sunIcon = next === 'dark' ? 'none' : 'block';
+    const moonIcon = next === 'dark' ? 'block' : 'none';
+    document.querySelectorAll('.icon-sun').forEach(el => el.style.display = sunIcon);
+    document.querySelectorAll('.icon-moon').forEach(el => el.style.display = moonIcon);
+    updateMbnThemeIcon(next);
+  }
 
-  /* --- Progress Bar --- */
+  function updateMbnThemeIcon(t) {
+    if (!mbnTheme) return;
+    if (t === 'dark') {
+      mbnTheme.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span>Tema</span>';
+    } else {
+      mbnTheme.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><span>Tema</span>';
+    }
+  }
+
+  themeToggle?.addEventListener('click', () => {
+    applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+  mobileThemeToggle?.addEventListener('click', () => {
+    applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+  mbnTheme?.addEventListener('click', () => {
+    applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+  applyTheme(theme);
+
+  /* ─── Progress Bar ─── */
   const progressBar = document.getElementById('progressBar');
   window.addEventListener('scroll', () => {
-    const scroll = window.scrollY;
-    const height = document.documentElement.scrollHeight - window.innerHeight;
-    const pct = Math.min(scroll / height * 100, 100);
-    if (progressBar) progressBar.style.width = pct + '%';
+    const h = document.documentElement.scrollHeight - window.innerHeight;
+    if (progressBar && h > 0) progressBar.style.width = Math.min(window.scrollY / h * 100, 100) + '%';
   }, { passive: true });
 
-  /* --- Navbar scroll effect --- */
+  /* ─── Navbar scroll ─── */
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
     navbar?.classList.toggle('scrolled', window.scrollY > 60);
   }, { passive: true });
 
-  /* --- Mobile Nav --- */
+  /* ─── Mobile Nav ─── */
   const navToggle = document.getElementById('navToggle');
   const mobileOverlay = document.getElementById('mobileNavOverlay');
   navToggle?.addEventListener('click', () => {
@@ -42,26 +65,42 @@
     navToggle.setAttribute('aria-expanded', String(!open));
     mobileOverlay?.classList.toggle('open', !open);
     mobileOverlay?.removeAttribute('hidden');
+    document.body.style.overflow = open ? '' : 'hidden';
   });
   mobileOverlay?.addEventListener('click', (e) => {
-    if (e.target === mobileOverlay) {
+    if (e.target === mobileOverlay || e.target.closest('[data-close-nav]')) {
       navToggle?.setAttribute('aria-expanded', 'false');
       mobileOverlay.classList.remove('open');
+      document.body.style.overflow = '';
     }
   });
+  document.querySelectorAll('[data-close-nav]').forEach(el => {
+    el.addEventListener('click', () => {
+      navToggle?.setAttribute('aria-expanded', 'false');
+      mobileOverlay?.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
 
-  /* --- Scroll Reveal --- */
+  /* ─── MBN Search → scroll to search section ─── */
+  const mbnSearch = document.getElementById('mbnSearch');
+  mbnSearch?.addEventListener('click', () => {
+    const section = document.getElementById('topicos');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => {
+      const input = document.getElementById('searchInput');
+      if (input) input.focus();
+    }, 600);
+  });
+
+  /* ─── Scroll Reveal ─── */
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('revealed');
-        revealObs.unobserve(e.target);
-      }
+      if (e.isIntersecting) { e.target.classList.add('revealed'); revealObs.unobserve(e.target); }
     });
   }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('[data-reveal]').forEach(el => revealObs.observe(el));
 
-  /* --- Scroll Reveal Items (staggered) --- */
   const revealItemObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
@@ -76,29 +115,51 @@
     revealItemObs.observe(el);
   });
 
-  /* --- Nav Link Active --- */
+  /* ─── Nav Link Active ─── */
   const navLinks = document.querySelectorAll('.nav-link');
   const sections = document.querySelectorAll('section[id]');
   window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(s => {
-      const top = s.offsetTop - 150;
-      if (window.scrollY >= top) current = s.id;
+      if (window.scrollY >= s.offsetTop - 150) current = s.id;
     });
-    navLinks.forEach(l => {
-      l.classList.toggle('active', l.dataset.section === current);
-    });
+    navLinks.forEach(l => l.classList.toggle('active', l.dataset.section === current));
   }, { passive: true });
 
-  /* --- Topics Grid Rendering --- */
+  /* ─── Index Grid ─── */
+  const indexGrid = document.getElementById('indexGrid');
+  if (indexGrid && S && S.categorias) {
+    indexGrid.innerHTML = S.categorias.map((c, i) => `
+      <div class="index-item" role="listitem" tabindex="0" data-category="${c.id}" aria-label="${c.nome}">
+        <div class="index-item-num">${String(i + 1).padStart(2, '0')}</div>
+        <div class="index-item-text">
+          <div class="index-item-name">${c.nome}</div>
+          <div class="index-item-meta">${c.subtopicos?.length || 0} topicos</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="flex-shrink:0;color:var(--text-tertiary)"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+    `).join('');
+    indexGrid.querySelectorAll('.index-item').forEach(item => {
+      const handler = () => {
+        openDetail(item.dataset.category);
+        const panel = document.getElementById('topicDetail');
+        if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+      item.addEventListener('click', handler);
+      item.addEventListener('keydown', e => { if (e.key === 'Enter') handler(); });
+    });
+  }
+
+  /* ─── Topics Grid ─── */
   const grid = document.getElementById('topicsGrid');
   const searchInput = document.getElementById('searchInput');
   const searchHint = document.getElementById('searchHint');
   const searchEmpty = document.getElementById('searchEmpty');
+  const searchSuggestions = document.getElementById('searchSuggestions');
 
-  function renderTopics(filter = '') {
+  function renderTopics(filter) {
     if (!grid) return;
-    const cats = S.categorias || [];
+    const cats = (S && S.categorias) || [];
     const filtered = filter
       ? cats.filter(c =>
           c.nome.toLowerCase().includes(filter.toLowerCase()) ||
@@ -108,25 +169,16 @@
           })
         )
       : cats;
-
-    if (filtered.length === 0) {
-      grid.innerHTML = '';
-      if (searchEmpty) searchEmpty.hidden = false;
-      return;
-    }
+    if (filtered.length === 0) { grid.innerHTML = ''; if (searchEmpty) searchEmpty.hidden = false; return; }
     if (searchEmpty) searchEmpty.hidden = true;
-
     grid.innerHTML = filtered.map(c => `
       <article class="topic-card" style="--card-accent:${c.cor};--card-accent-light:${c.cor}22" data-category="${c.id}" tabindex="0" role="button" aria-label="${c.nome}">
-        <div class="topic-card-icon">
-          ${getIcon(c.icone)}
-        </div>
+        <div class="topic-card-icon">${getIcon(c.icone)}</div>
         <h3>${c.nome}</h3>
         <p>${c.descricao || ''}</p>
-        <span class="topic-count">${c.subtopicos?.length || 0} tópicos</span>
+        <span class="topic-count">${c.subtopicos?.length || 0} topicos</span>
       </article>
     `).join('');
-
     grid.querySelectorAll('.topic-card').forEach(card => {
       card.addEventListener('click', () => openDetail(card.dataset.category));
       card.addEventListener('keydown', e => { if (e.key === 'Enter') openDetail(card.dataset.category); });
@@ -164,6 +216,8 @@
       'book': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M20 3H6.5A2.5 2.5 0 0 0 4 5.5v13"/><path d="M20 3v17H6.5A2.5 2.5 0 0 1 4 17.5V5.5"/></svg>',
       'hammer': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 12l-8.5 8.5a2.12 2.12 0 0 1-3-3L12 9"/><path d="M17.64 15l1.36-1.36a2.12 2.12 0 0 0 0-3L16 8"/><path d="M20 3l-3 3"/></svg>',
       'heart-handshake': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>',
+      'shield': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+      'rotate-ccw': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>',
       'brain': '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.08 2.5 2.5 0 0 1 1.3-4.44 2.5 2.5 0 0 1 4.46-2.34Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.08 2.5 2.5 0 0 0-1.3-4.44 2.5 2.5 0 0 0-4.46-2.34Z"/></svg>'
     };
     return icons[name] || '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/></svg>';
@@ -171,35 +225,89 @@
 
   renderTopics();
 
-  /* --- Search --- */
+  /* ─── Search ─── */
+  let highlightedIndex = -1;
+
   searchInput?.addEventListener('input', () => {
     const q = searchInput.value.trim();
     renderTopics(q);
     if (searchClear) searchClear.hidden = !q;
+    highlightedIndex = -1;
+    if (q.length >= 2) {
+      const suggestions = getSuggestions(q, 8);
+      if (suggestions.length > 0 && searchSuggestions) {
+        searchSuggestions.innerHTML = suggestions.map((s, i) => `
+          <div class="suggestion-item" data-idx="${i}" data-category="${s.categoryId}">
+            <div class="suggestion-item-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            </div>
+            <div class="suggestion-item-text">
+              <div class="suggestion-item-title">${highlightMatch(s.title, q)}</div>
+              <div class="suggestion-item-parent">${s.parent}</div>
+            </div>
+          </div>
+        `).join('');
+        searchSuggestions.classList.add('open');
+        searchSuggestions.querySelectorAll('.suggestion-item').forEach(item => {
+          item.addEventListener('click', () => {
+            openDetail(item.dataset.category);
+            searchSuggestions.classList.remove('open');
+          });
+        });
+      } else if (searchSuggestions) { searchSuggestions.classList.remove('open'); }
+    } else if (searchSuggestions) { searchSuggestions.classList.remove('open'); }
     if (searchHint) {
       const count = grid?.querySelectorAll('.topic-card').length || 0;
       searchHint.textContent = q ? `${count} resultado${count !== 1 ? 's' : ''} para "${q}"` : '';
     }
   });
+
+  searchInput?.addEventListener('keydown', (e) => {
+    const items = searchSuggestions?.querySelectorAll('.suggestion-item');
+    if (!items || !items.length) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); highlightedIndex = Math.min(highlightedIndex + 1, items.length - 1); items.forEach((el, i) => el.classList.toggle('highlighted', i === highlightedIndex)); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); highlightedIndex = Math.max(highlightedIndex - 1, 0); items.forEach((el, i) => el.classList.toggle('highlighted', i === highlightedIndex)); }
+    else if (e.key === 'Enter' && highlightedIndex >= 0) { e.preventDefault(); openDetail(items[highlightedIndex].dataset.category); searchSuggestions?.classList.remove('open'); }
+    else if (e.key === 'Escape') { searchSuggestions?.classList.remove('open'); }
+  });
+
   const searchClear = document.getElementById('searchClear');
   searchClear?.addEventListener('click', () => {
     if (searchInput) { searchInput.value = ''; searchInput.focus(); }
-    searchClear.hidden = true;
-    renderTopics();
+    searchClear.hidden = true; renderTopics();
     if (searchHint) searchHint.textContent = '';
+    if (searchSuggestions) searchSuggestions.classList.remove('open');
   });
 
-  /* --- Topic Detail Panel --- */
+  function getSuggestions(query, maxResults) {
+    const results = []; const q = query.toLowerCase();
+    (S && S.categorias || []).forEach(cat => {
+      if (cat.nome.toLowerCase().includes(q)) results.push({ title: cat.nome, parent: 'Area', categoryId: cat.id });
+      (cat.subtopicos || []).forEach((sub, i) => {
+        const titulo = typeof sub === 'string' ? sub : (sub.titulo || '');
+        if (titulo.toLowerCase().includes(q)) results.push({ title: titulo, parent: cat.nome, categoryId: cat.id });
+      });
+    });
+    return results.slice(0, maxResults);
+  }
+
+  function highlightMatch(text, query) {
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<strong class="search-highlight">$1</strong>');
+  }
+
+  /* ─── Topic Detail Panel ─── */
   const detail = document.getElementById('topicDetail');
   const detailBackdrop = document.getElementById('topicDetailBackdrop');
   const detailClose = document.getElementById('detailClose');
+  const detailBack = document.getElementById('detailBack');
   const detailTag = document.getElementById('detailTag');
   const detailTitle = document.getElementById('detailTitle');
   const detailDesc = document.getElementById('detailDesc');
   const detailContent = document.getElementById('detailContent');
 
   function openDetail(id) {
-    const cat = S.categorias?.find(c => c.id === id);
+    const cat = (S && S.categorias || []).find(c => c.id === id);
     if (!cat || !detail) return;
     if (detailTag) detailTag.textContent = cat.nome;
     if (detailTitle) detailTitle.textContent = cat.nome;
@@ -213,7 +321,7 @@
         const aplicacoes = typeof s === 'object' ? (s.aplicacoes || []) : '';
         const temDetalhes = definicao || topicosLista.length || formula || aplicacoes;
         return `
-          <div class="detail-item${temDetalhes ? '' : ''}" data-index="${i}">
+          <div class="detail-item" data-index="${i}">
             <button class="detail-item-header" onclick="toggleDetail(this)" aria-expanded="false">
               <div class="detail-item-icon">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
@@ -221,38 +329,20 @@
               <h4>${titulo}</h4>
               ${temDetalhes ? '<svg class="detail-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>' : ''}
             </button>
-            ${temDetalhes ? `
-            <div class="detail-item-body">
+            ${temDetalhes ? `<div class="detail-item-body">
               ${definicao ? `<p class="detail-definicao">${definicao}</p>` : ''}
-              ${topicosLista.length ? `
-                <div class="detail-section">
-                  <h5>Tópicos Relacionados</h5>
-                  <ul>${topicosLista.map(t => `<li>${t}</li>`).join('')}</ul>
-                </div>
-              ` : ''}
-              ${formula ? `
-                <div class="detail-section">
-                  <h5>Fórmula / Expressão</h5>
-                  <code class="detail-formula">${formula}</code>
-                </div>
-              ` : ''}
-              ${aplicacoes.length ? `
-                <div class="detail-section">
-                  <h5>Aplicações Práticas</h5>
-                  <ul>${aplicacoes.map(a => `<li>${a}</li>`).join('')}</ul>
-                </div>
-              ` : ''}
+              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul>${topicosLista.map(t => `<li>${t}</li>`).join('')}</ul></div>` : ''}
+              ${formula ? `<div class="detail-section"><h5>Formula / Expressao</h5><code class="detail-formula">${formula}</code></div>` : ''}
+              ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicacoes Praticas</h5><ul>${aplicacoes.map(a => `<li>${a}</li>`).join('')}</ul></div>` : ''}
             </div>` : ''}
-          </div>
-        `;
+          </div>`;
       }).join('') + (cat.referencias && cat.referencias.length ? `
         <div class="detail-references">
-          <h5 class="detail-references-title">Referências Acadêmicas</h5>
+          <h5 class="detail-references-title">Referencias Academicas</h5>
           <ul class="detail-references-list">
             ${cat.referencias.map(r => `<li><span class="ref-tipo">${r.tipo}</span> ${r.ref}</li>`).join('')}
           </ul>
-        </div>
-      ` : '');
+        </div>` : '');
     }
     detail.hidden = false;
     requestAnimationFrame(() => detail.classList.add('open'));
@@ -267,9 +357,9 @@
 
   detailBackdrop?.addEventListener('click', closeDetail);
   detailClose?.addEventListener('click', closeDetail);
+  detailBack?.addEventListener('click', closeDetail);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
-  /* --- Accordion: toggle topic detail --- */
   window.toggleDetail = function(btn) {
     const item = btn.closest('.detail-item');
     if (!item) return;
@@ -278,161 +368,23 @@
     item.classList.toggle('expanded', !expanded);
   };
 
-  /* --- Buttons --- */
-  document.querySelectorAll('[data-href]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const href = btn.dataset.href;
-      if (href.startsWith('#')) {
-        const el = document.querySelector(href);
-        el?.scrollIntoView({ behavior: 'smooth' });
-      } else {
-        window.location.href = href;
-      }
-    });
-  });
-
-  /* --- Scroll To Top --- */
+  /* ─── Scroll To Top ─── */
   const scrollTop = document.getElementById('scrollTop');
   window.addEventListener('scroll', () => {
     scrollTop?.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
-  scrollTop?.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  scrollTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-  /* --- 3D Animation (Three.js) --- */
-  function initThree() {
-    if (typeof THREE === 'undefined') return;
-    const canvas = document.getElementById('three-canvas');
-    if (!canvas) return;
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-
-    const geometry = new THREE.IcosahedronGeometry(2.5, 2);
-    const material = new THREE.MeshPhysicalMaterial({
-      color: 0x2563eb,
-      metalness: 0.3,
-      roughness: 0.2,
-      wireframe: true,
-      transparent: true,
-      opacity: 0.25,
-      emissive: 0x2563eb,
-      emissiveIntensity: 0.05,
-    });
-    const mesh = new THREE.Mesh(geometry, material);
-    scene.add(mesh);
-
-    const particlesGeo = new THREE.BufferGeometry();
-    const particlesCount = 400;
-    const posArray = new Float32Array(particlesCount * 3);
-    for (let i = 0; i < particlesCount * 3; i++) {
-      posArray[i] = (Math.random() - 0.5) * 30;
-    }
-    particlesGeo.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-    const particlesMat = new THREE.PointsMaterial({
-      size: 0.05,
-      color: 0x2563eb,
-      transparent: true,
-      opacity: 0.4,
-    });
-    const particlesMesh = new THREE.Points(particlesGeo, particlesMat);
-    scene.add(particlesMesh);
-
-    camera.position.z = 6;
-
-    let mouseX = 0, mouseY = 0;
-    document.addEventListener('mousemove', (e) => {
-      mouseX = (e.clientX / window.innerWidth) * 2 - 1;
-      mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
-    });
-
-    function animate() {
-      requestAnimationFrame(animate);
-      mesh.rotation.x += 0.002;
-      mesh.rotation.y += 0.004;
-      mesh.position.x += (mouseX * 0.5 - mesh.position.x) * 0.02;
-      mesh.position.y += (mouseY * 0.5 - mesh.position.y) * 0.02;
-      particlesMesh.rotation.y += 0.0003;
-      particlesMesh.rotation.x += 0.0001;
-      renderer.render(scene, camera);
-    }
-    animate();
-
-    window.addEventListener('resize', () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    });
-  }
-
-  if (document.querySelector('#three-canvas')) {
-    const script = document.createElement('script');
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
-    script.onload = initThree;
-    document.head.appendChild(script);
-  }
-
-  /* --- Stat Counters --- */
-  document.querySelectorAll('[data-count]').forEach(el => {
-    const target = parseInt(el.dataset.count);
-    const obs = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
-      obs.unobserve(el);
-      const dur = 2000;
-      const start = performance.now();
-      function update(now) {
-        const progress = Math.min((now - start) / dur, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        el.textContent = Math.floor(eased * target);
-        if (progress < 1) requestAnimationFrame(update);
-      }
-      requestAnimationFrame(update);
-    }, { threshold: 0.5 });
-    obs.observe(el);
-  });
-
-  /* --- CTA buttons on topic cards --- */
-  document.addEventListener('click', function(e) {
-    const card = e.target.closest('.topic-card');
-    if (card) {
-      const id = card.dataset.category;
-      if (id) openDetail(id);
-    }
-  });
-
-  /* --- Homepage: CAD Models Grid --- */
-  const cadGrid = document.getElementById('cadGrid');
-  if (cadGrid && S.modelosCAD) {
-    cadGrid.innerHTML = S.modelosCAD.slice(0, 4).map(m => `
-      <article class="resource-card">
-        <span class="resource-type ${m.tipo.toLowerCase()}">${m.tipo}</span>
-        <h3>${m.nome}</h3>
-        <p>${m.descricao}</p>
-        <div class="resource-meta">
-          <span>${m.arquivo}</span>
-          <span>${m.tamanho}</span>
-        </div>
-      </article>
-    `).join('');
-  }
-
-  /* --- Homepage: Courses Grid --- */
+  /* ─── Homepage: Courses Grid ─── */
   const courseGrid = document.getElementById('courseGrid');
-  if (courseGrid && S.cursosGratuitos) {
-    const platformClass = { 'SENAI':'senai','Fundação Bradesco':'bradesco','SEBRAE':'sebrae','Coursera':'coursera','Microsoft Learn':'microsoft' };
+  if (courseGrid && S && S.cursosGratuitos) {
+    const pc = { 'SENAI':'senai','Fundação Bradesco':'bradesco','SEBRAE':'sebrae','Coursera':'coursera','Microsoft Learn':'microsoft' };
     courseGrid.innerHTML = S.cursosGratuitos.slice(0, 6).map(c => `
       <article class="course-card">
-        <span class="course-platform ${platformClass[c.plataforma] || ''}">${c.plataforma}</span>
+        <span class="course-platform ${pc[c.plataforma] || ''}">${c.plataforma}</span>
         <h3>${c.nome}</h3>
         <p>${c.descricao}</p>
-        <div class="course-meta">
-          <span>${c.carga}</span>
-          <span>${c.tipo}</span>
-        </div>
+        <div class="course-meta"><span>${c.carga}</span><span>${c.tipo}</span></div>
         <a href="${c.url}" target="_blank" rel="noopener" class="course-link">
           Acessar Curso
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg>
@@ -441,7 +393,5 @@
     `).join('');
   }
 
-  console.log(`%c EngPro v2.0 `, `background:#2563eb;color:#fff;font-size:14px;padding:8px 16px;border-radius:4px;font-weight:bold;`);
-  console.log(`?? ${S.categorias?.length || 0} categorias carregadas`);
-  console.log(`?? ${S.categorias?.reduce((a,c) => a + (c.subtopicos?.length || 0), 0) || 0} tópicos técnicos`);
+  console.log('%c Gerett v4.0 ', 'background:linear-gradient(135deg,#0055FF,#00E5FF);color:#fff;font-size:14px;padding:8px 16px;border-radius:6px;font-weight:bold;');
 })();

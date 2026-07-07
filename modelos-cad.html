@@ -1,126 +1,148 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR" data-theme="auto">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelos CAD Grátis — EngPro</title>
-  <meta name="description" content="Modelos CAD gratuitos para download em AutoCAD, SolidWorks e NanoCAD. Projetos mecânicos, conjuntos e estruturas industriais.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="EngPro">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Modelos CAD Grátis — EngPro | Engenharia de Produção">
-  <meta property="og:description" content="Modelos CAD gratuitos para download em AutoCAD, SolidWorks e NanoCAD. Projetos mecânicos, conjuntos e estruturas industriais.">
-  <meta property="og:url" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/modelos-cad.html">
-  <meta property="og:image" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/assets/images/og-image.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Modelos CAD Grátis — EngPro | Engenharia de Produção">
-  <meta name="twitter:description" content="Modelos CAD gratuitos para download em AutoCAD, SolidWorks e NanoCAD. Projetos mecânicos, conjuntos e estruturas industriais.">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/premium-system.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Modelos CAD gratuitos para download: AutoCAD, SolidWorks e NanoCAD. Projetos mecânicos, conjuntos e estruturas industriais.">
+  <meta property="og:title" content="Modelos CAD — Gerett">
+  <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
+  <title>Modelos CAD — Gerett</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="canonical" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/modelos-cad.html">
-  <link rel="sitemap" type="application/xml" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml">
 </head>
 <body data-page="modelos-cad">
-  <div class="loading-screen" id="loadingScreen" role="status" aria-label="Carregando">
-    <div class="loading-blueprint" aria-hidden="true"></div>
-    <div class="loading-glow" aria-hidden="true"></div>
-    <div class="loading-content">
-      <div class="loading-logo" aria-hidden="true">
-        <div class="loading-logo-ring"></div>
-        <div class="loading-logo-ring"></div>
-        <span class="loading-logo-text">EP</span>
-      </div>
-      <div class="loading-bar-track" aria-hidden="true">
-        <div class="loading-bar-fill"></div>
-      </div>
-      <div class="loading-progress-pct">0%</div>
-      <div class="loading-status">Inicializando sistemas</div>
-    </div>
-  </div>
+
   <div class="noise-overlay" aria-hidden="true"></div>
-  <nav class="navbar" id="navbar">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
-      <div class="nav-links"><a href="topicos.html" class="nav-link" data-section="topicos">Tópicos</a><a href="modelos-cad.html" class="nav-link active" data-section="modelos-cad">Modelos CAD</a><a href="cursos.html" class="nav-link" data-section="cursos">Cursos</a><a href="biblioteca.html" class="nav-link" data-section="biblioteca">Biblioteca</a><a href="sobre.html" class="nav-link" data-section="sobre">Sobre</a></div>
+      <a href="index.html" class="nav-logo" aria-label="Gerett">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="19" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+        <span>Gerett</span>
+      </a>
+      <div class="nav-links" id="navLinks" role="menubar">
+        <a href="index.html" class="nav-link" role="menuitem">Home</a>
+        <a href="topicos.html" class="nav-link" role="menuitem">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link active" role="menuitem">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" role="menuitem">Cursos</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem">Biblioteca</a>
+        <a href="sobre.html" class="nav-link" role="menuitem">Sobre</a>
+      </div>
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
-        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
       </div>
     </div>
   </nav>
 
   <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
-    <div class="mobile-nav-inner"><nav class="mobile-nav-links">
-      <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
-      <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
-      <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-      <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
-      <a href="sobre.html" class="mobile-nav-link">Sobre</a>
-    </nav></div>
+    <div class="mobile-nav-inner">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+        <a href="modelos-cad.html" class="mobile-nav-link active">Modelos CAD</a>
+        <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+        <a href="sobre.html" class="mobile-nav-link">Sobre</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <span>Alternar tema</span>
+        </button>
+      </div>
+    </div>
   </div>
 
+  <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação mobile">
+    <a href="index.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg><span>Home</span></a>
+    <a href="topicos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Tópicos</span></a>
+    <button class="mbn-item mbn-search" aria-label="Buscar"><div class="mbn-search-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><span>Buscar</span></button>
+    <a href="cursos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Cursos</span></a>
+    <button class="mbn-item mbn-theme" id="mbnTheme" aria-label="Alternar tema"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><span>Tema</span></button>
+  </nav>
+
   <main>
-    <div class="page-header">
-      <span class="eyebrow">Downloads Técnicos</span>
-      <h1>Modelos CAD <span class="accent">Grátis</span></h1>
-      <p>Projetos desenvolvidos em AutoCAD, SolidWorks e NanoCAD para download e edição. Conjuntos mecânicos reais aplicados na indústria.</p>
-    </div>
+    <section class="page-header">
+      <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar ao início
+      </a>
+      <span class="eyebrow">Desenhos Técnicos</span>
+      <h1>Modelos <span class="accent">CAD</span></h1>
+      <p>Arquivos de desenho técnico gratuitos para AutoCAD, SolidWorks e NanoCAD. Projetos mecânicos, conjuntos montados e estruturas industriais.</p>
+    </section>
 
-    <div class="section-nav" id="cadFilters">
-      <button class="section-nav-btn active" data-filter="all">Todos</button>
-      <button class="section-nav-btn" data-filter="SolidWorks">SolidWorks</button>
-      <button class="section-nav-btn" data-filter="AutoCAD">AutoCAD</button>
-      <button class="section-nav-btn" data-filter="NanoCAD">NanoCAD</button>
-    </div>
-
-    <div class="resource-grid" id="cadGrid"></div>
+    <section class="section">
+      <div class="section-nav" id="cadFilters">
+        <button class="section-nav-btn active" data-filter="all">Todos</button>
+        <button class="section-nav-btn" data-filter="SolidWorks">SolidWorks</button>
+        <button class="section-nav-btn" data-filter="AutoCAD">AutoCAD</button>
+        <button class="section-nav-btn" data-filter="NanoCAD">NanoCAD</button>
+      </div>
+      <div class="course-grid" id="cadGrid"></div>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
-        <p class="footer-tagline">Portal técnico de Engenharia de Produção.</p>
+        <a href="index.html" class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="18" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+          <span>Gerett</span>
+        </a>
+        <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
       </div>
-      <nav class="footer-nav" aria-label="Rodapé"><div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div><div class="footer-nav-group"><h4>Downloads</h4><ul><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="biblioteca.html">Formulários</a></li></ul></div></nav>
+      <nav class="footer-nav">
+        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Recursos</h4><ul><li><a href="modelos-cad.html">Downloads CAD</a></li><li><a href="cursos.html">Cursos Grátis</a></li><li><a href="biblioteca.html">Formulários</a></li><li><a href="topicos.html">Conteúdo Técnico</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Áreas</h4><ul><li><a href="topicos.html">PCP</a></li><li><a href="topicos.html">Qualidade</a></li><li><a href="topicos.html">Lean Manufacturing</a></li><li><a href="topicos.html">Supply Chain</a></li></ul></div>
+      </nav>
     </div>
-    <div class="footer-bottom"><p>&copy; 2025 EngPro</p><div class="footer-links"><a href="sobre.html">Sobre</a></div></div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <div class="footer-links"><a href="sobre.html" class="footer-link">Sobre</a><span class="footer-link">Privacidade</span><span class="footer-link">Termos</span></div>
+    </div>
   </footer>
 
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="assets/data/conteudo.js"></script>
+  <script src="assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="assets/js/animations.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="assets/js/premium-system.js"></script>
-  <script src="assets/js/theme-animations.js"></script>
-  <script src="assets/data/conteudo.js"></script>
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  (function(){
+    const S = window.SITE_DATA;
+    if (!S) return;
     const grid = document.getElementById('cadGrid');
     const filters = document.querySelectorAll('#cadFilters .section-nav-btn');
-    if (!grid || !window.SITE_DATA) return;
-
-    function render(filter = 'all') {
-      const items = filter === 'all' 
-        ? window.SITE_DATA.modelosCAD 
-        : window.SITE_DATA.modelosCAD.filter(m => m.tipo === filter);
+    function render(filter) {
+      if (!grid) return;
+      const items = filter === 'all' ? S.modelosCAD : S.modelosCAD.filter(m => m.tipo === filter);
       grid.innerHTML = items.map(m => `
-        <article class="resource-card">
-          <span class="resource-type ${m.tipo.toLowerCase()}">${m.tipo}</span>
+        <article class="course-card">
+          <span class="course-platform">${m.tipo}</span>
           <h3>${m.nome}</h3>
-          <p>${m.descricao}</p>
-          <div class="resource-meta">
-            <span>${m.arquivo}</span>
-            <span>${m.tamanho}</span>
-          </div>
+          <p>${m.descricao || 'Modelo técnico para download'}</p>
+          <a href="${m.url}" target="_blank" rel="noopener" class="course-link">Acessar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg></a>
         </article>
       `).join('');
     }
-    render();
-
+    render('all');
     filters.forEach(btn => {
       btn.addEventListener('click', () => {
         filters.forEach(b => b.classList.remove('active'));
@@ -128,29 +150,8 @@
         render(btn.dataset.filter);
       });
     });
-
-    // Theme + Nav
-    const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
-    document.getElementById('themeToggle')?.addEventListener('click', () => {
-      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    });
-    document.getElementById('navToggle')?.addEventListener('click', () => {
-      const o = document.getElementById('mobileNavOverlay');
-      const exp = document.getElementById('navToggle').getAttribute('aria-expanded') === 'true';
-      document.getElementById('navToggle').setAttribute('aria-expanded', String(!exp));
-      o?.classList.toggle('open',!exp); o?.removeAttribute('hidden');
-    });
-    document.getElementById('mobileNavOverlay')?.addEventListener('click', e => {
-      if (e.target === document.getElementById('mobileNavOverlay')) {
-        document.getElementById('navToggle')?.setAttribute('aria-expanded','false');
-        document.getElementById('mobileNavOverlay')?.classList.remove('open');
-      }
-    });
-  });
+  })();
   </script>
+  <script src="assets/js/animations.js"></script>
 </body>
 </html>

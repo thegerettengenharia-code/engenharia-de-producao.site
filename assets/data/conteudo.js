@@ -16214,7 +16214,452 @@ window.SITE_DATA = {
       {"tipo": "Livro", "ref": "Severino, A. J. Metodologia do Trabalho Científico. 23. ed. São Paulo: Cortez, 2007."},
       {"tipo": "Livro", "ref": "Gil, A. C. Como Elaborar Projetos de Pesquisa. 4. ed. São Paulo: Atlas, 2002."},
       {"tipo": "Livro", "ref": "Miguel, P. A. C. (Org.). Metodologia de Pesquisa em Engenharia de Produção. 2. ed. Rio de Janeiro: Elsevier, 2011."}
-    ]}
+    ]},
+
+    {
+
+      "id": "gestao-custos",
+
+      "nome": "Gestão de Custos",
+
+      "icone": "coins",
+
+      "cor": "#059669",
+
+      "descricao": "Custeio, orçamento, controladoria financeira e análise de investimentos industriais.",
+
+      "subtopicos": [
+
+        {
+
+          "titulo": "Custeio por absorção",
+
+          "definicao": "Método de apuração de custos que distribui todos os custos de produção (fixos e variáveis) para os produtos, utilizando rateios baseados em volume de produção, horas-máquina ou outros direcionadores. Forma a base para precificação e demonstrações contábeis.",
+
+          "topicos": ["Custo unitário", "Rateio de OH", "Custo padrão", "Desvios de custo"],
+
+          "formula": "Custo Total = CMV + CIF + CVa + Despesas",
+
+          "aplicacoes": ["Apuração de custo de produtos industriais", "Precificação de vendas", "Demonstração de resultados"]
+
+        },
+
+        {
+
+          "titulo": "Custeio variável (direct costing)",
+
+          "definicao": "Método que considera apenas custos variáveis como custos do produto, tratando os custos fixos como despesas do período. Permite análise de margem de contribuição e ponto de equilíbrio para decisões de curto prazo.",
+
+          "topicos": ["Margem de contribuição", "Ponto de equilíbrio", "Custo variável unitário", "Decisão make or buy"],
+
+          "formula": "PE = CF / (PV - CVu)",
+
+          "aplicacoes": ["Análise de rentabilidade por produto", "Decisão de mix de produção", "Avaliação de pedidos especiais"]
+
+        },
+
+        {
+
+          "titulo": "Custeio ABC (Activity-Based Costing)",
+
+          "definicao": "Sistema que aloca custos indiretos com base em atividades e seus respectivos direcionadores de custos, oferecendo maior precisão que o rateio tradicional. Identifica quais atividades consomem recursos e aloca proporcionalmente aos produtos.",
+
+          "topicos": ["Atividades", "Direcionadores de custos", "Hierarquia de atividades", "Custo-alvo"],
+
+          "formula": "Custo do Produto = Σ (Taxa × Volume do Direcionador)",
+
+          "aplicacoes": ["Alocação precisa de overhead em indústria", "Análise de lucratividade por produto", "Redução de custos por atividade"]
+
+        },
+
+        {
+
+          "titulo": "Orçamento empresarial",
+
+          "definicao": "Instrumento de planejamento financeiro que traduz as metas operacionais em termos monetários para um período futuro. Consolida os orçamentos de vendas, produção, compras, investimentos e financeiro em um plano único de execução.",
+
+          "topicos": ["Orçamento de vendas", "Orçamento de produção", "Fluxo de caixa", "Flexível vs fixo"],
+
+          "formula": "",
+
+          "aplicacoes": ["Planejamento financeiro anual", "Controle de despesas por departamento", "Acompanhamento de desvios orçamentários"]
+
+        },
+
+        {
+
+          "titulo": "Análise de investimentos",
+
+          "definicao": "Conjunto de métodos para avaliar a viabilidade econômico-financeira de projetos de investimento, considerando o valor do dinheiro no tempo, risco e retorno esperado. Decisões como VPL, TIR e Payback são aplicadas para selecionar projetos.",
+
+          "topicos": ["VPL", "TIR", "Payback simples e descontado", "Custo de capital"],
+
+          "formula": "VPL = Σ (FCt / (1+i)^t) − I₀",
+
+          "aplicacoes": ["Aprovação de projetos de automação", "Aquisição de equipamentos", "Expansão de capacidade fabril"]
+
+        },
+
+        {
+
+          "titulo": "Custo da qualidade",
+
+          "definicao": "Metodologia que quantifica os custos associados a prevenção, avaliação e falhas internas e externas da qualidade. Permite demonstrar o impacto financeiro da qualidade e direcionar investimentos para prevenção visando redução do custo total.",
+
+          "topicos": ["Custo de prevenção", "Custo de avaliação", "Custo de falha interna", "Custo de falha externa"],
+
+          "formula": "CQ = CP + CA + CFI + CFE",
+
+          "aplicacoes": ["Análise de economicidade da qualidade", "Justificativa de investimentos em prevenção", "Relatórios para alta administração"]
+
+        }
+
+      ],
+
+      "referencias": [
+        {"tipo": "Livro", "ref": "Horngren, C. T.; Datar, S. M.; Rajan, M. V. Custeio Gerencial. 16. ed. Porto Alegre: AMGH, 2017."},
+        {"tipo": "Livro", "ref": "Martins, E. Contabilidade de Custos. 11. ed. São Paulo: Atlas, 2017."},
+        {"tipo": "Livro", "ref": "Kaplan, R. S.; Cooper, R. Custo e Efeito. São Paulo: Atlas, 2000."}
+      ]},
+
+    {
+
+      "id": "eng-seguranca",
+
+      "nome": "Engenharia de Segurança",
+
+      "icone": "shield",
+
+      "cor": "#dc2626",
+
+      "descricao": "Prevenção de acidentes, NRs, gestão de riscos ocupacionais e projetos de segurança.",
+
+      "subtopicos": [
+
+        {
+
+          "titulo": "Normas Regulamentadoras (NRs)",
+
+          "definicao": "Conjunto de normas técnicas editadas pelo Ministério do Trabalho que estabelecem obrigatoriedade de medidas de segurança, saúde e higiene do trabalho em diversos setores e atividades. São de cumprimento obrigatório por todas as organizações.",
+
+          "topicos": ["NR-12 Máquinas", "NR-10 Eletricidade", "NR-35 Trabalho em altura", "NR-6 EPIs"],
+
+          "formula": "",
+
+          "aplicacoes": ["Conformidade legal de instalações industriais", "Programas de proteção contra quedas", "Gestão de EPIs em fábricas"]
+
+        },
+
+        {
+
+          "titulo": "Análise de riscos ocupacionais",
+
+          "definicao": "Processo sistemático de identificação, avaliação e controle de perigos e riscos no ambiente de trabalho. Utiliza métodos como ARAM, Análise de Falha e Matriz de Probabilidade x Gravidade para priorizar ações preventivas.",
+
+          "topicos": ["ARAM", "Perigo vs risco", "Matriz P x G", "Controles de engenharia"],
+
+          "formula": "Risco = Probabilidade × Gravidade",
+
+          "aplicacoes": ["Diagnóstico de segurança em plantas fabris", "Avaliação de riscos de novos processos", "Plano de ação para redução de acidentes"]
+
+        },
+
+        {
+
+          "titulo": "Ergonomia e segurança",
+
+          "definicao": "Disciplina que integra os princípios de ergonomia com a segurança do trabalho para projetar postos de trabalho seguros e confortáveis. Busca reduzir LER/DORT e acidentes por meio do adequado dimensionamento humano do trabalho.",
+
+          "topicos": ["Posto de trabalho", "LER/DORT", "Carga física", "Iluminação e ruído"],
+
+          "formula": "",
+
+          "aplicacoes": ["Projeto ergonômico de linhas de montagem", "Prevenção de LER em processos repetitivos", "Adequação de estações de trabalho"]
+
+        },
+
+        {
+
+          "titulo": "Investigação de acidentes",
+
+          "definicao": "Metodologia para identificar causas raiz de acidentes e incidentes de trabalho, aplicando técnicas como Árvore de Causas, 5 Porquês e Análise de Causa Raiz. Visa implementar ações corretivas e preventivas para evitar recorrência.",
+
+          "topicos": ["Árvore de causas", "5 Porquês", "Causa raiz", "Plano de ação"],
+
+          "formula": "",
+
+          "aplicacoes": ["Investigação de acidentes com lesão", "Análise de quase-acidentes", "Relatórios de investigação para o MTE"]
+
+        },
+
+        {
+
+          "titulo": "Brigada de emergência",
+
+          "definicao": "Equipe treinada para atuar em situações de emergência como incêndio, vazamentos, desabamentos e acidentes com produtos perigosos. Os brigadistas são selecionados, treinados e equipados conforme as normas de segurança.",
+
+          "topicos": ["Evacuação", "Combate a incêndio", "Primeiros socorros", "Simulados"],
+
+          "formula": "",
+
+          "aplicacoes": ["Atuação em emergências industriais", "Evacuação de fábricas", "Primeiros socorros em acidentes"]
+
+        }
+
+      ],
+
+      "referencias": [
+        {"tipo": "Norma", "ref": "BRASIL. Ministério do Trabalho. NR-1 — Disposições Gerais. Portaria MTP nº 6.730/2021."},
+        {"tipo": "Livro", "ref": "Guedes, H. M. Segurança do Trabalho: Análise de Acidentes. 3. ed. São Paulo: Senac, 2012."},
+        {"tipo": "Livro", "ref": "Heineck, L. F. M. et al. Ergonomia. 2. ed. Rio de Janeiro: LTC, 2015."}
+      ]},
+
+    {
+
+      "id": "eng-reversa",
+
+      "nome": "Engenharia Reversa",
+
+      "icone": "rotate-ccw",
+
+      "cor": "#7c3aed",
+
+      "descricao": "Processo de desmontagem e análise de produtos existentes para reprodução, melhoria ou documentação.",
+
+      "subtopicos": [
+
+        {
+
+          "titulo": "Conceitos fundamentais",
+
+          "definicao": "Processo de análise de um produto/manufaturado para identificar seu design, funcionalidade e componentes, visando reproduzi-lo, melhorá-lo ou criar documentação técnica inexistente. Aplicável em manutenção, reprodução de peças obsoletas e benchmarking.",
+
+          "topicos": ["Desmontagem", "Medição dimensional", "Análise de material", "Documentação técnica"],
+
+          "formula": "",
+
+          "aplicacoes": ["Reprodução de peças obsoletas", "Benchmarking de concorrentes", "Criação de manuais técnicos"]
+
+        },
+
+        {
+
+          "titulo": "Digitalização 3D (scan)",
+
+          "definicao": "Tecnologia de captura tridimensional de geometria de objetos reais utilizando scanners laser, estruturados ou fotogrametria. Gera nuvens de pontos e malhas 3D que servem como base para modelagem CAD inversa.",
+
+          "topicos": ["Scanner laser", "Fotogrametria", "Nuvem de pontos", "Malha triangular"],
+
+          "formula": "",
+
+          "aplicacoes": ["Digitalização de peças para CAD", "Controle dimensional não-contact", "Preservação digital de peças históricas"]
+
+        },
+
+        {
+
+          "titulo": "Modelagem CAD inversa",
+
+          "definicao": "Processo de reconstrução de modelos paramétricos CAD a partir de dados de digitalização 3D. Converte a geometria capturada em sólidos paramétricos editáveis que podem ser fabricados ou modificados.",
+
+          "topicos": ["Reconstrução de superfícies", "Parametrização", "Modelo sólido", "Importação IGES/STEP"],
+
+          "formula": "",
+
+          "aplicacoes": ["Criação de modelos CAD a partir de protótipos", "Modificação de peças existantes", "Fabricação aditiva reversa"]
+
+        },
+
+        {
+
+          "titulo": "Análise de materiais",
+
+          "definicao": "Conjunto de técnicas para identificar a composição química, microestrutura e propriedades mecânicas de um material em um produto existente. Essencial para selecionar materiais equivalentes na reprodução.",
+
+          "topicos": ["Espectroscopia", "Metalografia", "Ensaio de dureza", "Análise termogravimétrica"],
+
+          "formula": "",
+
+          "aplicacoes": ["Seleção de material equivalente", "Análise de falhas por material", "Certificação de material em peças"]
+
+        }
+
+      ],
+
+      "referencias": [
+        {"tipo": "Livro", "ref": "Raja, V.; Fernandes, K. J. Reverse Engineering: An Industrial Perspective. London: Springer, 2008."},
+        {"tipo": "Livro", "ref": "Várady, T.; Martin, R. R.; Cox, J. Reverse engineering of geometric models. Computer-Aided Design, v.29, n.4, p.255-268, 1997."}
+      ]},
+
+    {
+
+      "id": "qualidade-vida",
+
+      "nome": "Qualidade de Vida no Trabalho",
+
+      "icone": "heart-handshake",
+
+      "cor": "#e11d48",
+
+      "descricao": "QVT: clima organizacional, saúde mental, engajamento e políticas de bem-estar.",
+
+      "subtopicos": [
+
+        {
+
+          "titulo": "Conceitos de QVT",
+
+          "definicao": "Conjunto de iniciativas organizacionais voltadas para promover o bem-estar físico, mental e social dos colaboradores no ambiente de trabalho. Busca equilibrar produtividade com qualidade de vida, reduzindo absenteísmo e aumentando engajamento.",
+
+          "topicos": ["Clima organizacional", "Satisfação no trabalho", "Equilíbrio vida-trabalho", "Políticas de bem-estar"],
+
+          "formula": "",
+
+          "aplicacoes": ["Programas de qualidade de vida em fábricas", "Pesquisas de clima organizacional", "Políticas de home office e flexibilidade"]
+
+        },
+
+        {
+
+          "titulo": "Saúde mental organizacional",
+
+          "definicao": "Gestão dos fatores psicossociais que afetam a saúde mental dos trabalhadores, incluindo estresse, burnout, assédio e sobrecarga de trabalho. Envolve prevenção, detecção precoce e encaminhamento profissional.",
+
+          "topicos": ["Burnout", "Estresse ocupacional", "Assédio moral", "Programas de apoio (EAP)"],
+
+          "formula": "",
+
+          "aplicacoes": ["Implementação de EAP em indústrias", "Redução de estresse em turnos", "Prevenção de burnout em lideranças"]
+
+        },
+
+        {
+
+          "titulo": "Engajamento e motivação",
+
+          "definicao": "Estudo e aplicação de fatores que motivam e engajam colaboradores: reconhecimento, autonomia, desenvolvimento profissional e propósito. Teóricos como Herzberg, Maslow e Pink orientam as práticas de gestão de pessoas.",
+
+          "topicos": ["Herzberg (higiene-motivação)", "Maslow", "Autonomia e propósito", "Reconhecimento"],
+
+          "formula": "",
+
+          "aplicacoes": ["Programas de reconhecimento em chão de fábrica", "Plano de carreira para operadores", "Pesquisas de engajamento"]
+
+        },
+
+        {
+
+          "titulo": "Diversidade e inclusão",
+
+          "definicao": "Políticas e práticas que promovem a valorização de todas as formas de diversidade no ambiente de trabalho (gênero, raça, idade, deficiência). Ambientes inclusivos são mais criativos, inovadores e sustentáveis.",
+
+          "topicos": ["Inclusão de gênero", "Acessibilidade", "Trabalho intergeracional", "Cotas e políticas afirmativas"],
+
+          "formula": "",
+
+          "aplicacoes": ["Programas de diversidade em indústrias", "Adequação de postos para PcD", "Combate a assédio e discriminação"]
+
+        }
+
+      ],
+
+      "referencias": [
+        {"tipo": "Livro", "ref": "Westerlund, H. Qualidade de Vida no Trabalho. Porto Alegre: Bookman, 2012."},
+        {"tipo": "Livro", "ref": "Herzberg, F. One More Time: How Do You Motivate Employees? Harvard Business Review, 1968."},
+        {"tipo": "Livro", "ref": "Iris, G. M. Qualidade de Vida no Trabalho (QVT). São Paulo: LTr, 2014."}
+      ]},
+
+    {
+
+      "id": "gestao-ambiental",
+
+      "nome": "Gestão Ambiental Industrial",
+
+      "icone": "leaf",
+
+      "cor": "#16a34a",
+
+      "descricao": "Licenciamento, efluentes, resíduos sólidos, pegada de carbono e economia circular.",
+
+      "subtopicos": [
+
+        {
+
+          "titulo": "Licenciamento ambiental",
+
+          "definicao": "Procedimento administrativo pelo qual o órgão ambiental competente autoriza a instalação, ampliação ou funcionamento de atividades que possam causar impacto ambiental. Envolve EIA/RIMA, relatórios de impacto e monitoramento.",
+
+          "topicos": ["EIA/RIMA", "Licença prévia", "Licença de instalação", "Licença de operação"],
+
+          "formula": "",
+
+          "aplicacoes": ["Obtenção de licença para nova fábrica", "Renovação de licença de operação", "Adequação a novas exigências ambientais"]
+
+        },
+
+        {
+
+          "titulo": "Gestão de efluentes",
+
+          "definicao": "Tratamento e descarte adequado de efluentes líquidos industriais (águas residuárias) antes do lançamento no meio ambiente. Envolve separação, tratamento primário, secundário e terciário conforme padrões de qualidade.",
+
+          "topicos": ["DQO", "DBO", "Tratamento biológico", "Efluentes perigosos"],
+
+          "formula": "DQO₅ = Oxigênio necessário para oxidação química",
+
+          "aplicacoes": ["Projeto de estação de tratamento de efluentes", "Monitoramento de descarte industrial", "Conformidade com padrões de lançamento"]
+
+        },
+
+        {
+
+          "titulo": "Gestão de resíduos sólidos",
+
+          "definicao": "Gerenciamento completo dos resíduos sólidos gerados nas atividades industriais, seguindo a Política Nacional de Resíduos Sólidos (Lei 12.305/2010). Inclui coleta, segregação, transporte, tratamento e destinação final.",
+
+          "topicos": ["Logística reversa", "Destinação final", "Aterro industrial", "Reciclagem"],
+
+          "formula": "",
+
+          "aplicacoes": ["Implantação de logística reversa", "Gerenciamento de resíduos perigosos", "Relatórios de destinação final"]
+
+        },
+
+        {
+
+          "titulo": "Pegada de carbono e descarbonização",
+
+          "definicao": "Medição da quantidade total de gases de efeito estufa (GEE) emitida diretamente ou indiretamente por uma organização. A descarbonização envolve estratégias para reduzir essas emissões rumo à neutralidade de carbono.",
+
+          "topicos": ["Inventário de GEE", "Escopo 1, 2 e 3", "Créditos de carbono", "ISO 14064"],
+
+          "formula": "Pegada = Σ (Atividade × Fator de emissão)",
+
+          "aplicacoes": ["Inventário de emissões de gases", "Metas de redução de carbono", "Certificação de neutralidade de carbono"]
+
+        },
+
+        {
+
+          "titulo": "Economia circular",
+
+          "definicao": "Modelo econômico que elimina o conceito de desperdício, mantendo produtos, componentes e materiais em uso pelo maior tempo possível. Diferente do modelo linear (extrair-produzir-descartar), busca fechar ciclos de material e energia.",
+
+          "topicos": ["Design para desmontagem", "Recondicionamento", "Upcycling", "Simbiose industrial"],
+
+          "formula": "",
+
+          "aplicacoes": ["Redesign de produtos para reciclagem", "Programas de recondicionamento", "Cooperativas industriais de resíduos"]
+
+        }
+
+      ],
+
+      "referencias": [
+        {"tipo": "Norma", "ref": "ABNT. NBR ISO 14001:2015 — Sistemas de Gestão Ambiental."},
+        {"tipo": "Livro", "ref": "Emílson, C. D. Gestão Ambiental Empresarial. 2. ed. Rio de Janeiro: LTC, 2016."},
+        {"tipo": "Livro", "ref": "Kirchherr, J. et al. Barriers to the Circular Economy: Evidence from the EU. Resources, Conservation and Recycling, v.122, p.48-58, 2017."}
+      ]}
 
   ],
 

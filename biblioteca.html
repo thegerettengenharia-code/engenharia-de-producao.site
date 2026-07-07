@@ -1,231 +1,163 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR" data-theme="auto">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca Técnica — EngPro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .html para impressão e edição.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="EngPro">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Biblioteca Técnica — EngPro | Engenharia de Produção">
-  <meta property="og:description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .html para impressão e edição.">
-  <meta property="og:url" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/biblioteca.html">
-  <meta property="og:image" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/assets/images/og-image.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Biblioteca Técnica — EngPro | Engenharia de Produção">
-  <meta name="twitter:description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .html para impressão e edição.">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/premium-system.css">
+  <meta property="og:title" content="Biblioteca — Gerett">
+  <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
+  <title>Biblioteca — Gerett</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="canonical" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/biblioteca.html">
-  <link rel="sitemap" type="application/xml" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml">
 </head>
 <body data-page="biblioteca">
-  <div class="loading-screen" id="loadingScreen" role="status" aria-label="Carregando">
-    <div class="loading-blueprint" aria-hidden="true"></div>
-    <div class="loading-glow" aria-hidden="true"></div>
-    <div class="loading-content">
-      <div class="loading-logo" aria-hidden="true">
-        <div class="loading-logo-ring"></div>
-        <div class="loading-logo-ring"></div>
-        <span class="loading-logo-text">EP</span>
-      </div>
-      <div class="loading-bar-track" aria-hidden="true">
-        <div class="loading-bar-fill"></div>
-      </div>
-      <div class="loading-progress-pct">0%</div>
-      <div class="loading-status">Inicializando sistemas</div>
-    </div>
-  </div>
+
   <div class="noise-overlay" aria-hidden="true"></div>
-  <nav class="navbar" id="navbar">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
-      <div class="nav-links"><a href="topicos.html" class="nav-link" data-section="topicos">Tópicos</a><a href="modelos-cad.html" class="nav-link" data-section="modelos-cad">Modelos CAD</a><a href="cursos.html" class="nav-link" data-section="cursos">Cursos</a><a href="biblioteca.html" class="nav-link active" data-section="biblioteca">Biblioteca</a><a href="sobre.html" class="nav-link" data-section="sobre">Sobre</a></div>
+      <a href="index.html" class="nav-logo" aria-label="Gerett">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="19" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+        <span>Gerett</span>
+      </a>
+      <div class="nav-links" id="navLinks" role="menubar">
+        <a href="index.html" class="nav-link" role="menuitem">Home</a>
+        <a href="topicos.html" class="nav-link" role="menuitem">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link" role="menuitem">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" role="menuitem">Cursos</a>
+        <a href="biblioteca.html" class="nav-link active" role="menuitem">Biblioteca</a>
+        <a href="sobre.html" class="nav-link" role="menuitem">Sobre</a>
+      </div>
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
-        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
       </div>
     </div>
   </nav>
 
   <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
-    <div class="mobile-nav-inner"><nav class="mobile-nav-links">
-      <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
-      <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
-      <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-      <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
-      <a href="sobre.html" class="mobile-nav-link">Sobre</a>
-    </nav></div>
+    <div class="mobile-nav-inner">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+        <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
+        <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+        <a href="biblioteca.html" class="mobile-nav-link active">Biblioteca</a>
+        <a href="sobre.html" class="mobile-nav-link">Sobre</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <span>Alternar tema</span>
+        </button>
+      </div>
+    </div>
   </div>
+
+  <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação mobile">
+    <a href="index.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg><span>Home</span></a>
+    <a href="topicos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Tópicos</span></a>
+    <button class="mbn-item mbn-search" aria-label="Buscar"><div class="mbn-search-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><span>Buscar</span></button>
+    <a href="cursos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Cursos</span></a>
+    <button class="mbn-item mbn-theme" id="mbnTheme" aria-label="Alternar tema"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><span>Tema</span></button>
+  </nav>
 
   <main>
-    <div class="page-header">
-      <span class="eyebrow">Recursos para Download</span>
-      <h1>Biblioteca Técnica<br><span class="accent">Formulários e Diagramas</span></h1>
-      <p>Formulários técnicos, checklists e diagramas utilizados no ambiente organizacional industrial. Disponíveis para download no formato .html.</p>
-    </div>
+    <section class="page-header">
+      <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar ao início
+      </a>
+      <span class="eyebrow">Formulários Técnicos</span>
+      <h1>Biblioteca de <span class="accent">Formulários</span></h1>
+      <p>Formulários técnicos prontos para download. Gere um .html formatado, pronto para impressão ou conversão em PDF.</p>
+    </section>
 
-    <div class="form-grid" id="formGrid"></div>
+    <section class="section">
+      <div class="form-grid" id="formGrid"></div>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="footer-inner">
-      <div class="footer-brand"><a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a><p class="footer-tagline">Portal técnico de Engenharia de Produção.</p></div>
-      <nav class="footer-nav" aria-label="Rodapé"><div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos</a></li></ul></div></nav>
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="18" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+          <span>Gerett</span>
+        </a>
+        <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Recursos</h4><ul><li><a href="modelos-cad.html">Downloads CAD</a></li><li><a href="cursos.html">Cursos Grátis</a></li><li><a href="biblioteca.html">Formulários</a></li><li><a href="topicos.html">Conteúdo Técnico</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Áreas</h4><ul><li><a href="topicos.html">PCP</a></li><li><a href="topicos.html">Qualidade</a></li><li><a href="topicos.html">Lean Manufacturing</a></li><li><a href="topicos.html">Supply Chain</a></li></ul></div>
+      </nav>
     </div>
-    <div class="footer-bottom"><p>&copy; 2025 EngPro</p><div class="footer-links"><a href="sobre.html">Sobre</a></div></div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <div class="footer-links"><a href="sobre.html" class="footer-link">Sobre</a><span class="footer-link">Privacidade</span><span class="footer-link">Termos</span></div>
+    </div>
   </footer>
 
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="assets/data/conteudo.js"></script>
+  <script src="assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="assets/js/animations.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="assets/js/premium-system.js"></script>
-  <script src="assets/js/theme-animations.js"></script>
-  <script src="assets/data/conteudo.js"></script>
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  (function(){
+    const S = window.SITE_DATA;
+    if (!S) return;
     const grid = document.getElementById('formGrid');
-    if (!grid || !window.SITE_DATA) return;
-
-    grid.innerHTML = window.SITE_DATA.formularios.map(f => `
-      <article class="form-card">
+    if (!grid) return;
+    grid.innerHTML = (S.formularios || []).map(f => `
+      <div class="form-card">
         <div class="form-card-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         </div>
-        <h3>${f.nome}</h3>
-        <p>${f.descricao}</p>
-        <a href="#" class="form-download" data-form="${f.id}">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download .html
-        </a>
-      </article>
+        <div class="form-card-info">
+          <h3>${f.nome}</h3>
+          <p>${f.descricao || 'Formulário técnico para download'}</p>
+        </div>
+        <button class="form-download" onclick="downloadForm('${f.id}')">Baixar</button>
+      </div>
     `).join('');
 
-    // Generate .html files on click
-    grid.addEventListener('click', function(e) {
-      const btn = e.target.closest('.form-download');
-      if (!btn) return;
-      e.preventDefault();
-      const formId = btn.dataset.form;
-      const form = window.SITE_DATA.formularios.find(f => f.id === formId);
-      if (!form) return;
-
-      const today = new Date().toLocaleDateString('pt-BR');
-      const htmlContent = `<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${form.nome} — EngPro</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; color: #1a1a2e; background: #f8f9fc; line-height: 1.6; }
-    .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
-    .header { text-align: center; padding: 48px 24px 32px; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: #fff; border-radius: 12px 12px 0 0; }
-    .header h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 8px; }
-    .header p { font-size: 0.95rem; opacity: 0.85; }
-    .header .date { margin-top: 8px; font-size: 0.85rem; opacity: 0.7; }
-    .content { background: #fff; padding: 40px 32px; border-radius: 0 0 12px 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-    h2 { font-size: 1.2rem; font-weight: 700; color: #1e3a5f; margin-top: 32px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #e8edf4; }
-    h2:first-child { margin-top: 0; }
-    .field { margin-bottom: 16px; }
-    .field-label { display: block; font-weight: 600; font-size: 0.85rem; color: #4b5563; margin-bottom: 4px; }
-    .field-line { display: block; border-bottom: 1px solid #d1d5db; padding: 8px 4px; min-height: 32px; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 12px 0; }
-    th { background: #1e3a5f; color: #fff; padding: 10px 8px; text-align: left; font-weight: 600; }
-    td { border: 1px solid #d1d5db; padding: 8px; }
-    tr:nth-child(even) td { background: #f9fafb; }
-    .notes-area { min-height: 80px; border: 1px dashed #d1d5db; padding: 12px; border-radius: 6px; background: #f9fafb; margin-top: 4px; }
-    .footer-note { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; font-size: 0.82rem; color: #9ca3af; }
-    .print-tip { background: #f0f4ff; border: 1px solid #bfd4f8; border-radius: 8px; padding: 16px 20px; margin-bottom: 32px; font-size: 0.88rem; color: #1e40af; }
-    @media print { body { background: #fff; } .header { background: #1e3a5f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; } th { background: #1e3a5f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .print-tip { display: none; } }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>${form.nome}</h1>
-      <p>${form.descricao}</p>
-      <div class="date">Emissão: ${today}</div>
-    </div>
-    <div class="content">
-      <div class="print-tip">
-        Para salvar este formulário, use <strong>Arquivo &gt; Imprimir</strong> (Ctrl+P) e selecione <strong>"Salvar como PDF"</strong> ou imprima diretamente.
-      </div>
-      <h2>1. Identificação</h2>
-      <div class="field"><span class="field-label">Empresa</span><span class="field-line"></span></div>
-      <div class="field"><span class="field-label">Setor / Área</span><span class="field-line"></span></div>
-      <div style="display:flex;gap:4%;flex-wrap:wrap">
-        <div class="field" style="flex:1;min-width:160px"><span class="field-label">Data</span><span class="field-line"></span></div>
-        <div class="field" style="flex:2;min-width:200px"><span class="field-label">Responsável</span><span class="field-line"></span></div>
-      </div>
-      <div class="field"><span class="field-label">Cargo / Função</span><span class="field-line"></span></div>
-      <h2>2. Objetivo da Avaliação</h2>
-      <div class="notes-area"></div>
-      <h2>3. Critérios Avaliados</h2>
-      <table>
-        <thead><tr><th style="width:50px">Item</th><th>Descrição</th><th style="width:130px">Status</th><th style="width:160px">Observações</th></tr></thead>
-        <tbody>${[1,2,3,4,5,6,7,8,9,10].map(i => `<tr><td>${i}</td><td></td><td></td><td></td></tr>`).join('')}</tbody>
-      </table>
-      <h2>4. Análise e Ações Recomendadas</h2>
-      <div class="notes-area"></div>
-      <h2>5. Cronograma de Ação</h2>
-      <table>
-        <thead><tr><th>Ação</th><th>Responsável</th><th>Prazo</th><th>Status</th></tr></thead>
-        <tbody>${[1,2,3].map(() => `<tr><td></td><td></td><td></td><td></td></tr>`).join('')}</tbody>
-      </table>
-      <h2>6. Aprovações</h2>
-      <div style="display:flex;gap:4%;flex-wrap:wrap">
-        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Elaborado por</span><span class="field-line"></span></div>
-        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Data</span><span class="field-line"></span></div>
-      </div>
-      <div style="display:flex;gap:4%;flex-wrap:wrap">
-        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Aprovado por</span><span class="field-line"></span></div>
-        <div class="field" style="flex:1;min-width:200px"><span class="field-label">Data</span><span class="field-line"></span></div>
-      </div>
-      <div class="footer-note">Documento gerado pelo <strong>EngPro</strong> — Portal de Engenharia de Produção &bull; ${today}</div>
-    </div>
-  </div>
-</body>
-</html>`;
-
-      const blob = new Blob([htmlContent], { type: 'text/html' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `${form.id}-${form.nome.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}.html`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-    });
-
-    const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
-    document.getElementById('themeToggle')?.addEventListener('click', () => {
-      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    });
-    document.getElementById('navToggle')?.addEventListener('click', () => {
-      const o = document.getElementById('mobileNavOverlay');
-      const exp = document.getElementById('navToggle').getAttribute('aria-expanded') === 'true';
-      document.getElementById('navToggle').setAttribute('aria-expanded', String(!exp));
-      o?.classList.toggle('open',!exp); o?.removeAttribute('hidden');
-    });
-    document.getElementById('mobileNavOverlay')?.addEventListener('click', e => {
-      if (e.target === document.getElementById('mobileNavOverlay')) {
-        document.getElementById('navToggle')?.setAttribute('aria-expanded','false');
-        document.getElementById('mobileNavOverlay')?.classList.remove('open');
+    window.downloadForm = function(id) {
+      const f = S.formularios.find(x => x.id === id);
+      if (!f) return;
+      let html = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>' + f.nome + '</title><style>body{font-family:Arial,sans-serif;max-width:800px;margin:40px auto;padding:20px;color:#222}h1{font-size:1.3rem;border-bottom:2px solid #0055FF;padding-bottom:8px}table{width:100%;border-collapse:collapse;margin:16px 0}td,th{border:1px solid #ccc;padding:8px;text-align:left}th{background:#f0f4f8;font-size:.85rem}@media print{body{margin:0}}</style></head><body>';
+      html += '<h1>' + f.nome + '</h1>';
+      if (f.campos) {
+        html += '<table><tr><th>Campo</th><th>Tipo</th><th>Descrição</th></tr>';
+        f.campos.forEach(c => { html += '<tr><td>' + c.nome + '</td><td>' + (c.tipo || 'Texto') + '</td><td>' + (c.descricao || '') + '</td></tr>'; });
+        html += '</table>';
       }
-    });
-  });
+      html += '<p style="margin-top:24px;font-size:.8rem;color:#888">Gerado por Gerett — Biblioteca Organizacional</p>';
+      html += '</body></html>';
+      const blob = new Blob([html], { type: 'text/html' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = f.nome.replace(/[^a-zA-Z0-9]/g, '_') + '.html';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    };
+  })();
   </script>
+  <script src="assets/js/animations.js"></script>
 </body>
 </html>
