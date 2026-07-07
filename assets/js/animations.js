@@ -36,7 +36,10 @@
         clearInterval(interval);
         setTimeout(() => {
           screen.classList.add('hidden');
-          setTimeout(() => screen.remove(), 1000);
+          setTimeout(() => {
+            screen.remove();
+            if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
+          }, 1000);
           document.dispatchEvent(new CustomEvent('loading:complete'));
         }, 400);
       }
@@ -112,24 +115,11 @@
     if (mission) tl.from(mission, { y: 20, opacity: 0 }, 0.55);
     if (purpose) tl.from(purpose, { y: 20, opacity: 0 }, 0.6);
     if (stats) {
-      const items = stats.querySelectorAll('.stat-item');
+      const items = stats.querySelectorAll('.stat');
       tl.from(items, { y: 30, opacity: 0, stagger: 0.1 }, 0.5);
     }
     if (cta) tl.from(cta, { y: 20, opacity: 0 }, 0.65);
     if (spline) tl.from(spline, { scale: 0.95, opacity: 0, duration: 1.4 }, 0.3);
-
-    /* Stats counter */
-    hero.querySelectorAll('.stat-num').forEach(s => {
-      const txt = s.textContent.replace(/[^0-9]/g, '');
-      const target = parseInt(txt);
-      if (target) {
-        gsap.from(s, {
-          textContent: 0, duration: 2, ease: 'power4.out',
-          snap: { textContent: 1 },
-          scrollTrigger: { trigger: s, start: 'top 85%' }
-        });
-      }
-    });
   }
 
   /* ─── Scroll-Triggered Reveals ─── */
@@ -229,26 +219,6 @@
     });
   }
 
-  /* ─── Progress Bar ─── */
-  function initProgressBar() {
-    const bar = document.getElementById('progressBar');
-    if (!bar) return;
-    ScrollTrigger.create({
-      trigger: document.body, start: 'top top', end: 'bottom bottom',
-      onUpdate: self => { bar.style.width = (self.progress * 100) + '%'; }
-    });
-  }
-
-  /* ─── Navbar Scroll ─── */
-  function initNavbar() {
-    const navbar = document.getElementById('navbar');
-    if (!navbar) return;
-    ScrollTrigger.create({
-      trigger: document.body, start: 'top -60px',
-      onUpdate: self => { navbar.classList.toggle('scrolled', self.progress > 0); }
-    });
-  }
-
   /* ─── Footer Hover ─── */
   function initFooterFX() {
     gsap.utils.toArray('.footer-nav-group a, .footer-link').forEach(link => {
@@ -314,13 +284,12 @@
       initCounters();
       initMagneticButtons();
       initCardTilt();
-      initProgressBar();
-      initNavbar();
       initFooterFX();
       initSmoothScroll();
       initPageHeaders();
       initCardReveals();
       initSplineReveal();
+      setTimeout(() => ScrollTrigger.refresh(), 500);
       document.dispatchEvent(new CustomEvent('animations:ready'));
     }, 100);
   }
