@@ -12,41 +12,6 @@
 
   const deviceFactor = isMobile ? 0.5 : 1;
 
-  /* ─── Loading Screen ─── */
-  function initLoading() {
-    const screen = document.getElementById('loadingScreen');
-    if (!screen) return;
-    const fill = screen.querySelector('.loading-bar-fill');
-    const pct = screen.querySelector('.loading-progress-pct');
-    const status = screen.querySelector('.loading-status');
-    const messages = [
-      'Inicializando sistemas', 'Carregando módulos',
-      'Calibrando sensores', 'Sincronizando dados',
-      'Preparando interface', 'Sistema pronto'
-    ];
-    let progress = 0;
-    const interval = setInterval(() => {
-      progress += Math.random() * 18 + 5;
-      if (progress > 100) progress = 100;
-      if (fill) fill.style.width = progress + '%';
-      if (pct) pct.textContent = Math.round(progress) + '%';
-      const msgIdx = Math.min(Math.floor(progress / (100 / messages.length)), messages.length - 1);
-      if (status) status.textContent = messages[msgIdx];
-      if (progress >= 100) {
-        clearInterval(interval);
-        setTimeout(() => {
-          screen.classList.add('hidden');
-          setTimeout(() => {
-            screen.remove();
-            if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
-          }, 600);
-          document.dispatchEvent(new CustomEvent('loading:complete'));
-        }, 200);
-      }
-    }, 120);
-    setTimeout(() => { if (progress < 100) progress = 100; }, 3000);
-  }
-
   /* ─── Magnetic Cursor ─── */
   let cursorCleanup = null;
   function initCursor() {
@@ -263,19 +228,8 @@
     });
   }
 
-  /* ─── Spline Load Reveal ─── */
-  function initSplineReveal() {
-    const viewer = document.querySelector('spline-viewer');
-    if (!viewer) return;
-    viewer.addEventListener('load', () => {
-      gsap.to(viewer, { opacity: 1, scale: 1, duration: 1, ease: 'power4.out' });
-    });
-  }
-
   /* ─── Init ─── */
   function init() {
-    initLoading();
-
     setTimeout(() => {
       initCursor();
       initHero();
@@ -288,9 +242,10 @@
       initSmoothScroll();
       initPageHeaders();
       initCardReveals();
-      initSplineReveal();
-      setTimeout(() => ScrollTrigger.refresh(), 500);
-      document.dispatchEvent(new CustomEvent('animations:ready'));
+      setTimeout(() => {
+        ScrollTrigger.refresh();
+        document.dispatchEvent(new CustomEvent('animations:ready'));
+      }, 500);
     }, 100);
   }
 
