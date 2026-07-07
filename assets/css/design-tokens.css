@@ -42,7 +42,6 @@
   --grid-line: rgba(11, 14, 17, 0.04);
   --hero-glow-1: hsla(220, 90%, 55%, 0.10);
   --hero-glow-2: hsla(220, 60%, 40%, 0.06);
-  --spline-tint: rgba(0, 128, 255, 0.05);
 
   /* === TYPOGRAPHY === */
   --font-display: 'Inter Tight', 'Plus Jakarta Sans', system-ui, sans-serif;
@@ -88,7 +87,6 @@
   --grid-line: rgba(255, 255, 255, 0.04);
   --hero-glow-1: hsla(220, 90%, 55%, 0.14);
   --hero-glow-2: hsla(220, 70%, 45%, 0.08);
-  --spline-tint: rgba(0, 229, 255, 0.06);
 }
 
 /* === REDUCED MOTION === */
