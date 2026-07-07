@@ -997,5 +997,3 @@ html.has-cursor * { cursor: none !important; }
 @media (max-width: 768px) {
   .section-glass { margin: 0 12px; padding: 40px 20px; border-radius: var(--radius-lg); }
 }
-
-@import url('loading.css');
