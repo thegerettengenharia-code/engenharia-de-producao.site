@@ -72,7 +72,6 @@
     const purpose = hero.querySelector('.hero-purpose');
     const stats = hero.querySelector('.hero-stats');
     const cta = hero.querySelector('.hero-cta');
-    const spline = hero.querySelector('.spline-wrap');
 
     if (eyebrow) tl.from(eyebrow, { y: 40, opacity: 0 }, 0.2);
     if (title) tl.from(title, { y: 50, opacity: 0 }, 0.3);
@@ -84,7 +83,6 @@
       tl.from(items, { y: 30, opacity: 0, stagger: 0.1 }, 0.5);
     }
     if (cta) tl.from(cta, { y: 20, opacity: 0 }, 0.65);
-    if (spline) tl.from(spline, { scale: 0.95, opacity: 0, duration: 1.4 }, 0.3);
   }
 
   /* ─── Scroll-Triggered Reveals ─── */
