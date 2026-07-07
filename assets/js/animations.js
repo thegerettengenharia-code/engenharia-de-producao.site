@@ -26,7 +26,7 @@
     ];
     let progress = 0;
     const interval = setInterval(() => {
-      progress += Math.random() * 12 + 3;
+      progress += Math.random() * 18 + 5;
       if (progress > 100) progress = 100;
       if (fill) fill.style.width = progress + '%';
       if (pct) pct.textContent = Math.round(progress) + '%';
@@ -39,12 +39,12 @@
           setTimeout(() => {
             screen.remove();
             if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
-          }, 1000);
+          }, 600);
           document.dispatchEvent(new CustomEvent('loading:complete'));
-        }, 400);
+        }, 200);
       }
-    }, 180);
-    setTimeout(() => { if (progress < 100) progress = 100; }, 5000);
+    }, 120);
+    setTimeout(() => { if (progress < 100) progress = 100; }, 3000);
   }
 
   /* ─── Magnetic Cursor ─── */
