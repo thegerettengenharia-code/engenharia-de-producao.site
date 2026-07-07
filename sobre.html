@@ -1,172 +1,164 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR" data-theme="auto">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre — EngPro</title>
-  <meta name="description" content="Sobre o EngPro — Portal de Engenharia de Produção. Missão, metodologia e equipe.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="EngPro">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Sobre — EngPro | Portal de Engenharia de Produção">
-  <meta property="og:description" content="Sobre o EngPro — Portal de Engenharia de Produção. Missão, metodologia e equipe.">
-  <meta property="og:url" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sobre.html">
-  <meta property="og:image" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/assets/images/og-image.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sobre — EngPro | Portal de Engenharia de Produção">
-  <meta name="twitter:description" content="Sobre o EngPro — Portal de Engenharia de Produção. Missão, metodologia e equipe.">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/premium-system.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Sobre o Gerett — Biblioteca Organizacional de Engenharia de Produção. Missão, metodologia e tecnologia.">
+  <meta property="og:title" content="Sobre — Gerett">
+  <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
+  <title>Sobre — Gerett</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="canonical" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sobre.html">
-  <link rel="sitemap" type="application/xml" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml">
 </head>
 <body data-page="sobre">
-  <div class="loading-screen" id="loadingScreen" role="status" aria-label="Carregando">
-    <div class="loading-blueprint" aria-hidden="true"></div>
-    <div class="loading-glow" aria-hidden="true"></div>
-    <div class="loading-content">
-      <div class="loading-logo" aria-hidden="true">
-        <div class="loading-logo-ring"></div>
-        <div class="loading-logo-ring"></div>
-        <span class="loading-logo-text">EP</span>
-      </div>
-      <div class="loading-bar-track" aria-hidden="true">
-        <div class="loading-bar-fill"></div>
-      </div>
-      <div class="loading-progress-pct">0%</div>
-      <div class="loading-status">Inicializando sistemas</div>
-    </div>
-  </div>
+
   <div class="noise-overlay" aria-hidden="true"></div>
-  <nav class="navbar" id="navbar">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a>
-      <div class="nav-links"><a href="topicos.html" class="nav-link" data-section="topicos">Tópicos</a><a href="modelos-cad.html" class="nav-link" data-section="modelos-cad">Modelos CAD</a><a href="cursos.html" class="nav-link" data-section="cursos">Cursos</a><a href="biblioteca.html" class="nav-link" data-section="biblioteca">Biblioteca</a><a href="sobre.html" class="nav-link active" data-section="sobre">Sobre</a></div>
+      <a href="index.html" class="nav-logo" aria-label="Gerett">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="19" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+        <span>Gerett</span>
+      </a>
+      <div class="nav-links" id="navLinks" role="menubar">
+        <a href="index.html" class="nav-link" role="menuitem">Home</a>
+        <a href="topicos.html" class="nav-link" role="menuitem">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link" role="menuitem">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" role="menuitem">Cursos</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem">Biblioteca</a>
+        <a href="sobre.html" class="nav-link active" role="menuitem">Sobre</a>
+      </div>
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
-        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
       </div>
     </div>
   </nav>
 
   <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
-    <div class="mobile-nav-inner"><nav class="mobile-nav-links">
-      <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
-      <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
-      <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-      <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
-      <a href="sobre.html" class="mobile-nav-link">Sobre</a>
-    </nav></div>
+    <div class="mobile-nav-inner">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+        <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
+        <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+        <a href="sobre.html" class="mobile-nav-link active">Sobre</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <span>Alternar tema</span>
+        </button>
+      </div>
+    </div>
   </div>
 
+  <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação mobile">
+    <a href="index.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg><span>Home</span></a>
+    <a href="topicos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Tópicos</span></a>
+    <button class="mbn-item mbn-search" aria-label="Buscar"><div class="mbn-search-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><span>Buscar</span></button>
+    <a href="cursos.html" class="mbn-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Cursos</span></a>
+    <button class="mbn-item mbn-theme" id="mbnTheme" aria-label="Alternar tema"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><span>Tema</span></button>
+  </nav>
+
   <main>
-    <div class="page-header">
+    <section class="page-header">
+      <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar ao início
+      </a>
       <span class="eyebrow">Sobre o Projeto</span>
-      <h1>Eng<span class="accent">Pro</span></h1>
-      <p>Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.</p>
-    </div>
+      <h1>Biblioteca de <span class="accent">Referência</span></h1>
+      <p>Conheça a missão, a metodologia e a tecnologia por trás do Gerett — Biblioteca Organizacional de Engenharia de Produção.</p>
+    </section>
 
-    <section style="max-width:800px;margin:0 auto;padding:60px 24px">
-      <article style="margin-bottom:48px">
-        <h2 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;margin-bottom:16px">Missão</h2>
-        <p style="color:var(--text-secondary);line-height:1.8">Democratizar o acesso ao conhecimento técnico de Engenharia de Produção em português, oferecendo conteúdo organizado, profundo e referenciado para estudantes, profissionais e gestores industriais.</p>
-      </article>
+    <section class="section about">
+      <div class="about-bg" aria-hidden="true"></div>
+      <div class="section-header">
+        <h2 class="section-title">Nossa <span class="accent">Missão</span></h2>
+        <p class="section-subtitle">Democratizar o acesso ao conhecimento técnico de Engenharia de Produção em português, oferecendo conteúdo organizado, profundo e referenciado.</p>
+      </div>
+      <div class="about-grid">
+        <article class="about-card">
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+            <h3>Rigor Técnico</h3>
+            <p>Todo conteúdo é referenciado em fontes oficiais: ABNT, ISO, NRs, livros-texto universitários e normas técnicas da indústria brasileira.</p>
+          </div></div>
+        </article>
+        <article class="about-card">
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+            <h3>Atualização Contínua</h3>
+            <p>Conteúdo revisado periodicamente com novas normas, tecnologias e cases práticos do mercado industrial brasileiro.</p>
+          </div></div>
+        </article>
+        <article class="about-card">
+          <div class="card-outer"><div class="card-inner">
+            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Comunidade</h3>
+            <p>Engenheiros, gestores e estudantes colaboram com conteúdo. Contribuições são bem-vindas via GitHub.</p>
+          </div></div>
+        </article>
+      </div>
 
-      <article style="margin-bottom:48px">
-        <h2 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;margin-bottom:16px">O Que Oferecemos</h2>
-        <ul style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">30+</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Áreas técnicas completas com centenas de tópicos</span>
-          </li>
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">500+</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Sub-tópicos detalhados com exemplos práticos</span>
-          </li>
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">8</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Modelos CAD gratuitos para download</span>
-          </li>
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">12</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Cursos gratuitos de plataformas reconhecidas</span>
-          </li>
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">12</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Formulários técnicos .doc para download</span>
-          </li>
-          <li style="display:flex;gap:10px;align-items:flex-start;padding:16px;border-radius:var(--radius-md);background:var(--bg-card);border:1px solid var(--border)">
-            <span style="color:var(--brand);font-weight:700;font-size:1.2rem">Grátis</span>
-            <span style="font-size:0.88rem;color:var(--text-secondary)">Conteúdo 100% gratuito e aberto</span>
-          </li>
-        </ul>
-      </article>
-
-      <article style="margin-bottom:48px">
-        <h2 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;margin-bottom:16px">Modelo de Conteúdo</h2>
-        <p style="color:var(--text-secondary);line-height:1.8">Cada tópico do EngPro segue um padrão de qualidade: definição clara, contextualização histórica/normativa, aplicação prática com exemplos, dados quantitativos quando aplicável e referências bibliográficas. Todo o conteúdo é revisado periodicamente.</p>
-      </article>
-
-      <article style="margin-bottom:48px">
-        <h2 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;margin-bottom:16px">Tecnologia</h2>
-        <p style="color:var(--text-secondary);line-height:1.8">O site foi construído com HTML5, CSS3 (Tailwind utility classes), JavaScript vanilla, Three.js para animações 3D e GSAP para animações scroll. O deploy é automatizado via GitHub Pages com workflow de CI/CD.</p>
-      </article>
-
-      <article>
-        <h2 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;margin-bottom:16px">Contribua</h2>
-        <p style="color:var(--text-secondary);line-height:1.8">O EngPro é um projeto aberto. Você pode contribuir com novos tópicos, correções, modelos CAD, cursos ou formulários. Acesse nosso repositório no GitHub e abra uma issue ou pull request.</p>
-        <div style="margin-top:24px">
-          <a href="https://github.com/thegerettengenharia-code/engenharia-de-producao.site" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex">
-            <span>GitHub do Projeto</span>
-            <span class="btn-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg>
-            </span>
-          </a>
+      <div style="max-width:800px;margin:64px auto 0;text-align:center" data-reveal>
+        <h2 class="section-title" style="font-size:1.6rem">O que ofertamos</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:32px;text-align:left">
+          <div class="form-card"><div class="form-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div class="form-card-info"><h3>30 Áreas Técnicas</h3><p>Conteúdo organizado por especialidade</p></div></div>
+          <div class="form-card"><div class="form-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><div class="form-card-info"><h3>500+ Tópicos</h3><p>Definições, fórmulas e aplicações</p></div></div>
+          <div class="form-card"><div class="form-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="form-card-info"><h3>Formulários</h3><p>Downloads prontos para impressão</p></div></div>
+          <div class="form-card"><div class="form-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="form-card-info"><h3>Referências</h3><p>ABNT, ISO, NRs e literatura acadêmica</p></div></div>
         </div>
-      </article>
+      </div>
+
+      <div style="max-width:800px;margin:64px auto 0;text-align:center" data-reveal>
+        <h2 class="section-title" style="font-size:1.6rem">Tecnologia</h2>
+        <p class="section-subtitle" style="margin-top:16px">O site utiliza animações 3D com Spline, framework GSAP para scroll animations, design system com tokens CSS, e layout responsivo otimizado para todos os dispositivos. Tema claro e escuro com persistência em localStorage.</p>
+      </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="footer-inner">
-      <div class="footer-brand"><a href="index.html" class="footer-logo"><svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/><text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text></svg><span>Eng<span class="accent">Pro</span></span></a><p class="footer-tagline">Portal técnico de Engenharia de Produção.</p></div>
-      <nav class="footer-nav" aria-label="Rodapé"><div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div></nav>
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="18" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+          <span>Gerett</span>
+        </a>
+        <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Recursos</h4><ul><li><a href="modelos-cad.html">Downloads CAD</a></li><li><a href="cursos.html">Cursos Grátis</a></li><li><a href="biblioteca.html">Formulários</a></li><li><a href="topicos.html">Conteúdo Técnico</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Áreas</h4><ul><li><a href="topicos.html">PCP</a></li><li><a href="topicos.html">Qualidade</a></li><li><a href="topicos.html">Lean Manufacturing</a></li><li><a href="topicos.html">Supply Chain</a></li></ul></div>
+      </nav>
     </div>
-    <div class="footer-bottom"><p>&copy; 2025 EngPro</p><div class="footer-links"><a href="sobre.html">Sobre</a></div></div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <div class="footer-links"><a href="sobre.html" class="footer-link">Sobre</a><span class="footer-link">Privacidade</span><span class="footer-link">Termos</span></div>
+    </div>
   </footer>
 
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="assets/js/animations.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="assets/js/premium-system.js"></script>
-  <script src="assets/js/theme-animations.js"></script>
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
-    document.getElementById('themeToggle')?.addEventListener('click', () => {
-      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    });
-    document.getElementById('navToggle')?.addEventListener('click', () => {
-      const o = document.getElementById('mobileNavOverlay');
-      const exp = document.getElementById('navToggle').getAttribute('aria-expanded') === 'true';
-      document.getElementById('navToggle').setAttribute('aria-expanded', String(!exp));
-      o?.classList.toggle('open',!exp); o?.removeAttribute('hidden');
-    });
-    document.getElementById('mobileNavOverlay')?.addEventListener('click', e => {
-      if (e.target === document.getElementById('mobileNavOverlay')) {
-        document.getElementById('navToggle')?.setAttribute('aria-expanded','false');
-        document.getElementById('mobileNavOverlay')?.classList.remove('open');
-      }
-    });
-  });
-  </script>
 </body>
 </html>

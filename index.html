@@ -2,39 +2,35 @@
 <html lang="pt-BR" data-theme="auto">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="EngPro — Portal completo de Engenharia de Produção. 30+ áreas, 500+ tópicos, modelos CAD, cursos gratuitos, formulários técnicos e muito mais.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Gerett — Biblioteca Organizacional de referência em Engenharia de Produção. Conteúdo técnico rigoroso, organizado e gratuito.">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="EngPro">
+  <meta property="og:site_name" content="Gerett">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="EngPro — Engenharia de Produção">
-  <meta property="og:description" content="Portal completo de Engenharia de Produção: 30+ áreas, 500+ tópicos, modelos CAD, cursos gratuitos e formulários técnicos.">
+  <meta property="og:title" content="Gerett — Biblioteca Organizacional">
+  <meta property="og:description" content="Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.">
   <meta property="og:url" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/">
   <meta property="og:image" content="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/assets/images/og-image.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="EngPro — Engenharia de Produção">
-  <meta name="twitter:description" content="Portal completo de Engenharia de Produção: 30+ áreas, 500+ tópicos, modelos CAD, cursos gratuitos e formulários técnicos.">
-  <meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0C0A09" media="(prefers-color-scheme: dark)">
-  <title>EngPro — Engenharia de Produção</title>
+  <meta name="twitter:title" content="Gerett — Biblioteca Organizacional">
+  <meta name="twitter:description" content="Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.">
+  <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
+  <title>Gerett — Biblioteca Organizacional</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/premium-system.css">
-  <link rel="stylesheet" href="assets/css/premium-coin.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="canonical" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/">
-  <link rel="sitemap" type="application/xml" href="https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml">
-  <link rel="prefetch" href="assets/js/premium-coin.js">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "EngPro — Engenharia de Produção",
+    "name": "Gerett — Biblioteca Organizacional",
     "url": "https://thegerettengenharia-code.github.io/engenharia-de-producao.site/",
-    "description": "Portal completo de Engenharia de Produção com 30+ áreas, 500+ tópicos, modelos CAD, cursos gratuitos e formulários técnicos.",
+    "description": "Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso.",
     "inLanguage": "pt-BR",
     "potentialAction": {
       "@type": "SearchAction",
@@ -45,32 +41,56 @@
   </script>
 </head>
 <body data-page="index">
+
+  <!-- LOADING SCREEN -->
+  <div class="loading-screen" id="loadingScreen" role="status" aria-label="Carregando">
+    <div class="loading-blueprint" aria-hidden="true"></div>
+    <div class="loading-glow" aria-hidden="true"></div>
+    <div class="loading-content">
+      <div class="loading-logo" aria-hidden="true">
+        <div class="loading-logo-ring"></div>
+        <div class="loading-logo-ring"></div>
+        <span class="loading-logo-text">G</span>
+      </div>
+      <div class="loading-bar-track" aria-hidden="true">
+        <div class="loading-bar-fill"></div>
+      </div>
+      <div class="loading-progress-pct">0%</div>
+      <div class="loading-status">Inicializando sistemas</div>
+    </div>
+  </div>
+
   <div class="noise-overlay" aria-hidden="true"></div>
   <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
 
-  <!-- Navbar -->
+  <!-- NAVBAR — Desktop -->
   <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo" aria-label="EngPro — Engenharia de Produção">
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
-          <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-          <text x="18" y="24" font-size="20" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text>
+      <!-- Logo (esquerda) -->
+      <a href="index.html" class="nav-logo" aria-label="Gerett — Biblioteca Organizacional">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/>
+          <text x="18" y="25" font-size="19" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text>
         </svg>
-        <span>Eng<span class="accent">Pro</span></span>
+        <span>Gerett</span>
       </a>
+
+      <!-- Links desktop (centro) -->
       <div class="nav-links" id="navLinks" role="menubar">
+        <a href="#indice" class="nav-link" data-section="indice" role="menuitem">Índice</a>
         <a href="topicos.html" class="nav-link" data-section="topicos" role="menuitem">Tópicos</a>
-        <a href="modelos-cad.html" class="nav-link" data-section="modelos-cad" role="menuitem">Modelos CAD</a>
         <a href="cursos.html" class="nav-link" data-section="cursos" role="menuitem">Cursos</a>
         <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Biblioteca</a>
         <a href="sobre.html" class="nav-link" data-section="sobre" role="menuitem">Sobre</a>
       </div>
+
+      <!-- Acoes (direita) -->
       <div class="nav-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false" title="Alternar tema claro/escuro">
-          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
           <span class="hamburger-line" aria-hidden="true"></span>
           <span class="hamburger-line" aria-hidden="true"></span>
           <span class="hamburger-line" aria-hidden="true"></span>
@@ -79,143 +99,179 @@
     </div>
   </nav>
 
-  <!-- Mobile Nav -->
+  <!-- MOBILE NAV OVERLAY -->
   <div class="mobile-nav-overlay" id="mobileNavOverlay" role="dialog" aria-modal="true" aria-label="Menu de navegação" hidden>
     <div class="mobile-nav-inner">
-      <nav class="mobile-nav-links" role="navigation" aria-label="Menu principal mobile">
+      <nav class="mobile-nav-links" role="navigation">
+        <a href="#indice" class="mobile-nav-link" data-close-nav>Índice</a>
         <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
         <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
-      <div class="mobile-nav-footer" style="margin-top:40px;text-align:center">
-        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema" style="color:rgba(255,255,255,0.7);display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;border:1px solid rgba(255,255,255,0.1)">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <div class="mobile-nav-footer">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
           <span>Alternar tema</span>
         </button>
       </div>
     </div>
   </div>
 
+  <!-- MOBILE BOTTOM NAV BAR -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" role="navigation" aria-label="Navegacao mobile">
+    <a href="index.html" class="mbn-item active" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="topicos.html" class="mbn-item" aria-label="Topicos">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Tópicos</span>
+    </a>
+    <button class="mbn-item mbn-search" id="mbnSearch" aria-label="Buscar">
+      <div class="mbn-search-ring">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      </div>
+      <span>Buscar</span>
+    </button>
+    <a href="cursos.html" class="mbn-item" aria-label="Cursos">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>Cursos</span>
+    </a>
+    <button class="mbn-item mbn-theme" id="mbnTheme" aria-label="Alternar tema">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <span>Tema</span>
+    </button>
+  </nav>
+
   <main id="main">
+
     <!-- HERO -->
     <section id="inicio" class="hero" aria-labelledby="hero-title">
-      <canvas id="three-canvas" aria-hidden="true"></canvas>
-      <div class="hero-bg-image" aria-hidden="true"></div>
       <div class="hero-bg" aria-hidden="true">
         <div class="hero-grid-pattern"></div>
       </div>
-      <div class="hero-bg-overlay" aria-hidden="true"></div>
+
       <div class="hero-content">
-        <div class="hero-left">
-          <span class="eyebrow" data-reveal>Portal Técnico Completo</span>
-          <h1 id="hero-title" class="hero-title" data-reveal>
-            Engenharia de<br><span class="accent">Produção</span>
-          </h1>
-          <p class="hero-subtitle" data-reveal>
-            Mais de 500 tópicos técnicos organizados em 30 áreas essenciais. Modelos CAD, 
-            cursos gratuitos, biblioteca de formulários e conteúdo profundo para sua formação 
-            e atuação profissional.
-          </p>
-          <div class="hero-stats" data-reveal>
-            <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Áreas Técnicas</div></div>
-            <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Tópicos Detalhados</div></div>
-            <div class="stat"><div class="stat-num">12</div><div class="stat-label">Cursos Gratuitos</div></div>
-            <div class="stat"><div class="stat-num">8</div><div class="stat-label">Modelos CAD</div></div>
-          </div>
-          <div class="hero-cta" data-reveal>
-            <a href="topicos.html" class="btn btn-primary btn-lg" data-href="topicos.html">
-              <span>Explorar Tópicos</span>
-              <span class="btn-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </span>
-            </a>
-            <a href="modelos-cad.html" class="btn btn-ghost btn-lg" data-href="modelos-cad.html">
-              <span>Ver Modelos CAD</span>
-            </a>
+        <!-- Spline 3D -->
+        <div class="spline-wrap" data-reveal>
+          <div class="spline-frame" id="splineFrame">
+            <div class="spline-load" id="splineLoad">
+              <div class="spline-load-ring"></div>
+              <span>Carregando modelo 3D...</span>
+            </div>
+            <spline-viewer
+              url="https://prod.spline.design/fb5c9572-898e-4c53-a7ea-fab22311ea46/scene.splinecode"
+              loading-anim-type="spinner-big-dark"
+              events-target="global"
+              style="width:100%;height:100%;display:block;"
+            ></spline-viewer>
           </div>
         </div>
-        <div class="hero-right" data-reveal>
-          <div class="hero-visual">
-            <div class="visual-card visual-card-1" data-parallax="0.15">
-              <div class="visual-card-inner">
-                <span class="visual-tag">Indústria 4.0</span>
-                <h3>Transformação Digital</h3>
-                <p>IoT, IA, Gêmeo Digital e Manufatura Aditiva aplicados à produção industrial.</p>
-                <div class="visual-metric">
-                  <span class="metric-value">R$ 382 bi</span>
-                  <span class="metric-label">Economia Digital Industrial (2024)</span>
-                </div>
-              </div>
+
+        <!-- Texto hero -->
+        <div class="hero-left" data-reveal>
+          <span class="hero-eyebrow" data-reveal>Portal Técnico de Referência</span>
+          <h1 id="hero-title" class="hero-title" data-reveal>
+            <span class="accent">Gerett</span><br>Biblioteca Organizacional
+          </h1>
+          <p class="hero-subtitle" data-reveal>
+            Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.
+          </p>
+
+          <div class="hero-purpose" data-reveal>
+            <h3>Missão</h3>
+            <p>Democratizar o acesso ao conhecimento técnico de Engenharia de Produção em português, oferecendo conteúdo organizado, profundo e referenciado para estudantes, profissionais e gestores industriais.</p>
+            <p class="mission">Conteúdo técnico rigoroso — revisado por engenheiros de produção, baseado em normas ABNT, ISO, livros-texto universitários e práticas da indústria brasileira.</p>
+          </div>
+
+          <div class="hero-stats" data-reveal>
+            <div class="stat">
+              <div class="stat-num" data-count="30">30+</div>
+              <div class="stat-label">Areas Tecnicas</div>
             </div>
-            <div class="visual-card visual-card-2" data-parallax="0.25">
-              <div class="visual-card-inner">
-                <span class="visual-tag">Qualidade</span>
-                <h3>Gestão da Qualidade</h3>
-                <p>ISO 9001, Seis Sigma, FMEA, CEP e todas as ferramentas da qualidade.</p>
-                <div class="visual-metric">
-                  <span class="metric-value">15+</span>
-                  <span class="metric-label">Ferramentas da Qualidade</span>
-                </div>
-              </div>
+            <div class="stat">
+              <div class="stat-num" data-count="500">500+</div>
+              <div class="stat-label">Topicos Detalhados</div>
             </div>
-            <div class="visual-card visual-card-3" data-parallax="0.1">
-              <div class="visual-card-inner">
-                <span class="visual-tag">Lean</span>
-                <h3>Lean Manufacturing</h3>
-                <p>Produção enxuta, Kanban, SMED, TPM, VSM e eliminação de desperdícios.</p>
-                <div class="visual-metric">
-                  <span class="metric-value">8</span>
-                  <span class="metric-label">Tipos de Desperdício (Muda)</span>
-                </div>
-              </div>
+            <div class="stat">
+              <div class="stat-num" data-count="200">200+</div>
+              <div class="stat-label">Ferramentas</div>
             </div>
+          </div>
+
+          <div class="hero-cta" data-reveal>
+            <a href="#indice" class="btn btn-primary btn-lg">
+              <span>Explorar Índice</span>
+              <span class="btn-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg>
+              </span>
+            </a>
+            <a href="cursos.html" class="btn btn-ghost btn-lg">
+              <span>Cursos Gratuitos</span>
+            </a>
           </div>
         </div>
       </div>
+
       <div class="hero-scroll-indicator" aria-hidden="true">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
         <span>Explorar</span>
       </div>
     </section>
 
-    <!-- CATEGORIAS -->
+    <!-- INDICE -->
+    <section id="indice" class="section" aria-labelledby="indice-title">
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Índice Geral</span>
+        <h2 id="indice-title" class="section-title">Todas as Áreas<br>da Biblioteca</h2>
+        <p class="section-subtitle">Navegue por 30 áreas técnicas com centenas de tópicos detalhados, ferramentas, teorias e referências para a indústria brasileira.</p>
+      </div>
+      <div class="index-nav" data-reveal>
+        <div class="index-nav-grid" id="indexGrid" role="list" aria-label="Indice das areas"></div>
+      </div>
+    </section>
+
+    <!-- PESQUISA -->
     <section id="topicos" class="section topics" aria-labelledby="topics-title">
       <div class="section-header" data-reveal>
-        <span class="eyebrow">Áreas do Conhecimento</span>
-        <h2 id="topics-title" class="section-title">Todas as Áreas da<br>Engenharia de Produção</h2>
-        <p class="section-subtitle">Navegue por 30 áreas técnicas com centenas de tópicos detalhados, exemplos práticos e referências atualizadas para a indústria brasileira.</p>
+        <span class="eyebrow">Busca Técnica</span>
+        <h2 id="topics-title" class="section-title">Pesquisar Tópicos</h2>
+        <p class="section-subtitle">Encontre qualquer tema, ferramenta ou conceito relacionado à Engenharia de Produção e Administração.</p>
       </div>
-
       <div class="search-wrapper" data-reveal>
         <div class="search-box">
           <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-          <input type="search" id="searchInput" class="search-input" placeholder="Buscar área ou tópico..." aria-label="Buscar na engenharia de produção" autocomplete="off">
+          <input type="search" id="searchInput" class="search-input" placeholder="Buscar área, tópico ou ferramenta..." aria-label="Buscar na biblioteca" autocomplete="off">
           <button class="search-clear" id="searchClear" aria-label="Limpar busca" hidden>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
         </div>
+        <div class="search-suggestions" id="searchSuggestions"></div>
         <div class="search-hint" id="searchHint" aria-live="polite"></div>
       </div>
-
-      <div class="topics-grid" id="topicsGrid" role="list" aria-label="Áreas da engenharia de produção"></div>
+      <div class="topics-grid" id="topicsGrid" role="list" aria-label="Areas da engenharia de producao"></div>
       <div class="search-empty" id="searchEmpty" hidden>
         <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
         <h3>Nenhum resultado encontrado</h3>
-        <p>Tente termos como <strong>"Lean"</strong>, <strong>"Qualidade"</strong>, <strong>"Logística"</strong> ou <strong>"Produção"</strong>.</p>
+        <p>Tente termos como <strong>"Lean"</strong>, <strong>"Qualidade"</strong>, <strong>"Logística"</strong>, <strong>"MRP"</strong> ou <strong>"Seis Sigma"</strong>.</p>
       </div>
     </section>
 
-    <!-- TOPIC DETAIL -->
+    <!-- TOPIC DETAIL PANEL -->
     <section id="topicDetail" class="topic-detail" hidden aria-labelledby="detailTitle" role="region">
       <div class="topic-detail-backdrop" id="topicDetailBackdrop" aria-hidden="true"></div>
       <div class="topic-detail-panel">
         <header class="topic-detail-header">
+          <button class="topic-detail-back" id="detailBack" aria-label="Voltar para a lista">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            <span>Voltar</span>
+          </button>
           <div class="topic-detail-meta">
-            <span class="detail-tag" id="detailTag">Área</span>
+            <span class="detail-tag" id="detailTag">Area</span>
             <button class="detail-close" id="detailClose" aria-label="Fechar detalhes">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             </button>
           </div>
           <h2 id="detailTitle" class="detail-title"></h2>
@@ -225,38 +281,79 @@
       </div>
     </section>
 
-    <!-- MODELOS CAD DESTAQUE -->
-    <section class="section" style="background:var(--bg-alt)" aria-labelledby="cad-title">
-      <div class="section-header" data-reveal>
-        <span class="eyebrow">Modelos para Download</span>
-        <h2 id="cad-title" class="section-title">Modelos CAD <span class="accent">Grátis</span></h2>
-        <p class="section-subtitle">Projetos reais em AutoCAD, SolidWorks e NanoCAD para download. Conjuntos mecânicos, estruturas, dispositivos e mais.</p>
-      </div>
-      <div class="resource-grid" id="cadGrid" style="padding:0 0 40px"></div>
-      <div class="about-cta" data-reveal>
-        <a href="modelos-cad.html" class="btn btn-primary btn-lg" data-href="modelos-cad.html">
-          <span>Ver Todos os Modelos</span>
-          <span class="btn-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </a>
-      </div>
-    </section>
-
-    <!-- CURSOS DESTAQUE -->
+    <!-- CURSOS GRATUITOS -->
     <section class="section" aria-labelledby="cursos-title">
       <div class="section-header" data-reveal>
         <span class="eyebrow">Capacitação Gratuita</span>
         <h2 id="cursos-title" class="section-title">Cursos <span class="accent">Gratuitos</span></h2>
         <p class="section-subtitle">Cursos livres e trilhas de aprendizagem gratuitas em plataformas como SENAI, Fundação Bradesco, SEBRAE, Coursera e Microsoft Learn.</p>
       </div>
-      <div class="course-grid" id="courseGrid" style="padding:0 0 40px"></div>
+      <div class="course-grid" id="courseGrid"></div>
       <div class="about-cta" data-reveal>
-        <a href="cursos.html" class="btn btn-primary btn-lg" data-href="cursos.html">
+        <a href="cursos.html" class="btn btn-primary btn-lg">
           <span>Ver Todos os Cursos</span>
           <span class="btn-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- PORTAIS DE NOTICIAS -->
+    <section id="noticias" class="section" style="background:var(--bg-alt)" aria-labelledby="noticias-title">
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Notícias do Setor</span>
+        <h2 id="noticias-title" class="section-title">Portais de <span class="accent">Notícias</span></h2>
+        <p class="section-subtitle">Acesse os principais portais de notícias do Brasil relacionados à engenharia, indústria e economia.</p>
+      </div>
+      <div class="topics-grid" id="noticiasGrid" role="list" aria-label="Portais de noticias">
+        <a href="https://valor.globo.com/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#008000;--card-accent-light:#00800022">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+          </div>
+          <h3>Valor Econômico</h3>
+          <p>Principais notícias de economia, mercado financeiro, indústria e política econômica do Brasil.</p>
+          <span class="topic-count">valor.globo.com</span>
+        </a>
+        <a href="https://www.industria.com.br/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#0055FF;--card-accent-light:#0055FF22">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20V4l8 4v-2l8 4v4"/><rect x="2" y="16" width="20" height="4" rx="1"/></svg>
+          </div>
+          <h3>Indústria Brasil (FIESP)</h3>
+          <p>Notícias da Federação das Indústrias do Estado de São Paulo. Indústria 4.0, tecnologia e manufatura.</p>
+          <span class="topic-count">industria.com.br</span>
+        </a>
+        <a href="https://exame.com/industria/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#B87333;--card-accent-light:#B8733322">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h3>Exame — Indústria</h3>
+          <p>Análises de mercado, inovação tecnológica, gestão industrial e transformação digital na indústria.</p>
+          <span class="topic-count">exame.com</span>
+        </a>
+        <a href="https://www.canalindustrial.com.br/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#2e7d32;--card-accent-light:#2e7d3222">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Canal Industrial</h3>
+          <p>Referência em notícias da indústria brasileira. Produção, logística, manutenção e engenharia.</p>
+          <span class="topic-count">canalindustrial.com.br</span>
+        </a>
+        <a href="https://www.conjur.com.br/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#1565c0;--card-accent-light:#1565c022">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>ConJur</h3>
+          <p>Notícias jurídicas do Brasil. Legislação trabalhista, direito ambiental e regulação industrial.</p>
+          <span class="topic-count">conjur.com.br</span>
+        </a>
+        <a href="https://www.gazetadopovo.com.br/" target="_blank" rel="noopener" class="topic-card" role="listitem" data-reveal-item tabindex="0">
+          <div class="topic-card-icon" style="--card-accent:#c62828;--card-accent-light:#c6282822">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/></svg>
+          </div>
+          <h3>Gazeta do Povo</h3>
+          <p>Cobertura econômica, política industrial, commodities e panorama da economia brasileira.</p>
+          <span class="topic-count">gazetadopovo.com.br</span>
         </a>
       </div>
     </section>
@@ -266,23 +363,23 @@
       <div class="about-bg" aria-hidden="true"></div>
       <div class="section-header" data-reveal>
         <span class="eyebrow">Sobre o Projeto</span>
-        <h2 id="about-title" class="section-title">Portal de Referência em<br>Engenharia de Produção</h2>
+        <h2 id="about-title" class="section-title">Biblioteca de Referência<br>em Engenharia de Produção</h2>
         <p class="section-subtitle">Conteúdo técnico rigoroso, organizado e gratuito para estudantes, engenheiros e gestores industriais.</p>
       </div>
       <div class="about-grid" data-reveal>
         <article class="about-card" data-reveal-item>
           <div class="card-outer"><div class="card-inner">
             <div class="card-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
             <h3>Rigor Técnico</h3>
-            <p>Todo conteúdo é referenciado em fontes oficiais: ABNT, ISO, NRs, IBGE, CNI. Nada é inventado.</p>
+            <p>Todo conteúdo é referenciado em fontes oficiais: ABNT, ISO, NRs, livros-texto universitários e normas técnicas.</p>
           </div></div>
         </article>
         <article class="about-card" data-reveal-item>
           <div class="card-outer"><div class="card-inner">
             <div class="card-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
             </div>
             <h3>Atualização Contínua</h3>
             <p>Conteúdo revisado periodicamente com novas normas, tecnologias e cases do mercado industrial brasileiro.</p>
@@ -291,7 +388,7 @@
         <article class="about-card" data-reveal-item>
           <div class="card-outer"><div class="card-inner">
             <div class="card-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <h3>Comunidade</h3>
             <p>Engenheiros, gestores e estudantes colaboram com conteúdo. Contribuições via GitHub.</p>
@@ -299,20 +396,21 @@
         </article>
       </div>
     </section>
+
   </main>
 
   <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="index.html" class="footer-logo" aria-label="EngPro — Voltar ao topo">
-          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
-            <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2" fill="none"/>
-            <text x="18" y="24" font-size="18" font-weight="900" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">EP</text>
+        <a href="index.html" class="footer-logo" aria-label="Gerett — Voltar ao topo">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/>
+            <text x="18" y="25" font-size="18" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text>
           </svg>
-          <span>Eng<span class="accent">Pro</span></span>
+          <span>Gerett</span>
         </a>
-        <p class="footer-tagline">Portal técnico de Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
+        <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
       </div>
       <nav class="footer-nav" aria-label="Navegação do rodapé">
         <div class="footer-nav-group">
@@ -327,14 +425,14 @@
         <div class="footer-nav-group">
           <h4>Recursos</h4>
           <ul>
-            <li><a href="modelos-cad.html">Modelos CAD</a></li>
+            <li><a href="modelos-cad.html">Downloads CAD</a></li>
             <li><a href="cursos.html">Cursos Grátis</a></li>
-            <li><a href="biblioteca.html">Formulários .html</a></li>
+            <li><a href="biblioteca.html">Formulários</a></li>
             <li><a href="topicos.html">Conteúdo Técnico</a></li>
           </ul>
         </div>
         <div class="footer-nav-group">
-          <h4>Engenharia</h4>
+          <h4>Áreas</h4>
           <ul>
             <li><a href="topicos.html">PCP</a></li>
             <li><a href="topicos.html">Qualidade</a></li>
@@ -345,9 +443,11 @@
       </nav>
     </div>
     <div class="footer-bottom">
-      <p class="copyright">&copy; 2025 EngPro. Portal técnico de Engenharia de Produção.</p>
+      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
       <div class="footer-links">
         <a href="sobre.html" class="footer-link">Sobre</a>
+        <span class="footer-link">Privacidade</span>
+        <span class="footer-link">Termos</span>
         <span class="footer-link">Privacidade</span>
         <span class="footer-link">Termos</span>
       </div>
@@ -355,18 +455,36 @@
   </footer>
 
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
 
+  <!-- Scripts -->
   <script src="assets/data/conteudo.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+  <script>
+  (function(){
+    var frame = document.getElementById('splineFrame');
+    var load = document.getElementById('splineLoad');
+    if (!frame || !load) return;
+    var viewer = frame.querySelector('spline-viewer');
+    if (viewer) {
+      viewer.addEventListener('load', function(){
+        load.style.opacity = '0';
+        load.style.pointerEvents = 'none';
+        setTimeout(function(){ load.remove(); }, 600);
+      }, { once: true });
+    }
+    setTimeout(function(){
+      if (load && load.parentNode) {
+        load.style.opacity = '0';
+        load.style.pointerEvents = 'none';
+      }
+    }, 8000);
+  })();
+  </script>
   <script src="assets/js/animations.js"></script>
-  <script src="assets/js/premium-coin.js"></script>
-  <script src="assets/js/premium-system.js"></script>
-  <script src="assets/js/theme-animations.js"></script>
 </body>
 </html>
