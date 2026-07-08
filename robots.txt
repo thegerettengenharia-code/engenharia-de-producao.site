@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://thegerettengenharia-code.github.io/engenharia-de-producao.site/sitemap.xml
+Sitemap: https://thegerett.com.br/sitemap.xml
