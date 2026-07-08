@@ -154,7 +154,7 @@
     },
     {
       "nome": "ìndice de balanceamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìndice de balanceamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ìndice de balanceamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -181,19 +181,19 @@
           "topicos": [
     {
       "nome": "Regras de prioridade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Regras de prioridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Regras de prioridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "EDD",
-      "descricao": "Conceito aplicado na área de engenharia de produção. EDD compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. EDD compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SPT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SPT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SPT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Johnson para 2 máquinas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Johnson para 2 máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Johnson para 2 máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -220,19 +220,19 @@
           "topicos": [
     {
       "nome": "CRP  –  Capacity Requirements Planning",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CRP  –  Capacity Requirements Planning compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CRP  –  Capacity Requirements Planning compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade disponível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade disponível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade disponível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade necessária",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade necessária compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade necessária compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nivelamento de recursos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento de recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento de recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -259,19 +259,19 @@
           "topicos": [
     {
       "nome": "Médias móveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Médias móveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Médias móveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Suavização exponencial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Suavização exponencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Suavização exponencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sazonalidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sazonalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sazonalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Erro de previsão (MAD, MAPE)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Erro de previsão (MAD, MAPE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Erro de previsão (MAD, MAPE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -298,15 +298,15 @@
           "topicos": [
     {
       "nome": "Estratégia de perseguição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia de perseguição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia de perseguição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estratégia nivelada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia nivelada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia nivelada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estratégia mista",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia mista compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia mista compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programação linear",
@@ -337,19 +337,19 @@
           "topicos": [
     {
       "nome": "MPS  –  Master Production Schedule",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MPS  –  Master Production Schedule compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MPS  –  Master Production Schedule compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Disponível para promessa (ATP)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponível para promessa (ATP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Disponível para promessa (ATP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Horizonte de planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Horizonte de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Horizonte de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Explosão de materiais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Explosão de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Explosão de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -376,19 +376,19 @@
           "topicos": [
     {
       "nome": "Explosão da BOM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Explosão da BOM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Explosão da BOM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Necessidade líquida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Necessidade líquida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Necessidade líquida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time offset",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time offset compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time offset compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planejamento de necessidades",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento de necessidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento de necessidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -415,19 +415,19 @@
           "topicos": [
     {
       "nome": "Manufacturing Resource Planning",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufacturing Resource Planning compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufacturing Resource Planning compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fechamento do ciclo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fechamento do ciclo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fechamento do ciclo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração financeira",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração financeira compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração financeira compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -454,19 +454,19 @@
           "topicos": [
     {
       "nome": "Módulos integrados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Módulos integrados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Módulos integrados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SAP / Oracle / Totvs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SAP / Oracle / Totvs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SAP / Oracle / Totvs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Implementação e parametrização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Implementação e parametrização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Implementação e parametrização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com WMS e TMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com WMS e TMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com WMS e TMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -493,19 +493,19 @@
           "topicos": [
     {
       "nome": "Algoritmos genéticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Algoritmos genéticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Algoritmos genéticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização restritiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização restritiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização restritiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programação finita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programação finita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programação finita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -560,7 +560,7 @@
     },
     {
       "nome": "Atributos vs variáveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atributos vs variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atributos vs variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planos de amostragem",
@@ -595,19 +595,19 @@
           "topicos": [
     {
       "nome": "Sistema da qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistema da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistema da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Procedimentos documentados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Procedimentos documentados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Procedimentos documentados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acreditação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acreditação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acreditação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -634,15 +634,15 @@
           "topicos": [
     {
       "nome": "Inspeção na linha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção na linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção na linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle dimensional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ensaios destrutivos e não destrutivos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaios destrutivos e não destrutivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaios destrutivos e não destrutivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Carta de controle",
@@ -673,19 +673,19 @@
           "topicos": [
     {
       "nome": "Auditoria interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria de certificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Non-conformity report",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Non-conformity report compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Non-conformity report compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -712,15 +712,15 @@
           "topicos": [
     {
       "nome": "Contexto da organização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Contexto da organização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Contexto da organização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Liderança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de desempenho",
@@ -751,19 +751,19 @@
           "topicos": [
     {
       "nome": "Aspectos ambientais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aspectos ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aspectos ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Requisitos legais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Requisitos legais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Requisitos legais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Emergências ambientais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Emergências ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Emergências ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de desempenho ambiental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -790,19 +790,19 @@
           "topicos": [
     {
       "nome": "Identificação de perigos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de perigos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de perigos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de riscos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controles operacionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controles operacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controles operacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Investigação de incidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Investigação de incidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Investigação de incidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -829,19 +829,19 @@
           "topicos": [
     {
       "nome": "Gréficos X̄-R",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos X̄-R compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos X̄-R compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gréficos X̄-S",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos X̄-S compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos X̄-S compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gréficos p, np, c, u",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos p, np, c, u compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gréficos p, np, c, u compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade Cp e Cpk",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade Cp e Cpk compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade Cp e Cpk compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -872,15 +872,15 @@
     },
     {
       "nome": "DMADV",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DMADV compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DMADV compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Papéis Belts",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Papéis Belts compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Papéis Belts compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DPMO e nível sigma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DPMO e nível sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DPMO e nível sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -907,19 +907,19 @@
           "topicos": [
     {
       "nome": "DMAIC + Lean",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DMAIC + Lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DMAIC + Lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "VSM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. VSM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. VSM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redução de desperdícios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo puxado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo puxado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo puxado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -946,19 +946,19 @@
           "topicos": [
     {
       "nome": "Ciclo de Deming",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de Deming compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de Deming compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padronização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ação corretiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ação corretiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ação corretiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Melhoria contínua",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -985,19 +985,19 @@
           "topicos": [
     {
       "nome": "Identificação do problema",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação do problema compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação do problema compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de causas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de causas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de causas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de ação (5W2H)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação (5W2H) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação (5W2H) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Verificação dos resultados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação dos resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação dos resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1024,19 +1024,19 @@
           "topicos": [
     {
       "nome": "RPN  –  Risk Priority Number",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RPN  –  Risk Priority Number compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RPN  –  Risk Priority Number compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modo de falha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modo de falha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modo de falha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Efeito e causa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Efeito e causa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Efeito e causa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de ação preventiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação preventiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação preventiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1063,19 +1063,19 @@
           "topicos": [
     {
       "nome": "Fase de planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fase de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fase de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Design do produto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design do produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Design do produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Design do processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design do processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Design do processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1102,19 +1102,19 @@
           "topicos": [
     {
       "nome": "Níveis de submissão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis de submissão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis de submissão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PSW",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PSW compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PSW compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Amostras iniciais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Amostras iniciais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Amostras iniciais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade de processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1141,19 +1141,19 @@
           "topicos": [
     {
       "nome": "R&R (Gage R&R)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. R&R (Gage R&R) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. R&R (Gage R&R) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Repetitividade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Repetitividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Repetitividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reprodutibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reprodutibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reprodutibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estudo de viés",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de viés compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de viés compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1180,19 +1180,19 @@
           "topicos": [
     {
       "nome": "Variação comum vs especial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variação comum vs especial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variação comum vs especial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Limites de controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Subgrupos racionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Subgrupos racionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Subgrupos racionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capabilidade Cp/Cpk",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capabilidade Cp/Cpk compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capabilidade Cp/Cpk compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1219,11 +1219,11 @@
           "topicos": [
     {
       "nome": "Evento Kaizen",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Evento Kaizen compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Evento Kaizen compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gemba Kaizen",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gemba Kaizen compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gemba Kaizen compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo contínuo",
@@ -1231,7 +1231,7 @@
     },
     {
       "nome": "Melhoria incremental vs disruptiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria incremental vs disruptiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria incremental vs disruptiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1258,19 +1258,19 @@
           "topicos": [
     {
       "nome": "Senso de utilização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de utilização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de utilização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Senso de ordenação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de ordenação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de ordenação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Senso de limpeza",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de limpeza compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Senso de limpeza compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria 5S",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria 5S compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria 5S compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1297,19 +1297,19 @@
           "topicos": [
     {
       "nome": "Dispositivos de detecção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dispositivos de detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dispositivos de detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Prevenção vs detecção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prevenção vs detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prevenção vs detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de parada automática",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de parada automática compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de parada automática compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controles físicos e sensores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controles físicos e sensores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controles físicos e sensores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1336,23 +1336,23 @@
           "topicos": [
     {
       "nome": "Define  –  Project Charter",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Define  –  Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Define  –  Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Measure  –  Baseline",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Measure  –  Baseline compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Measure  –  Baseline compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Analyze  –  Causa raiz",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Analyze  –  Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Analyze  –  Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Improve  –  Soluções",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Improve  –  Soluções compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Improve  –  Soluções compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Control  –  Plano de controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Control  –  Plano de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Control  –  Plano de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1379,19 +1379,19 @@
           "topicos": [
     {
       "nome": "Benchmarking competitivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking competitivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking competitivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Benchmarking funcional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de comparação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de comparação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de comparação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de lacunas (gap analysis)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de lacunas (gap analysis) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de lacunas (gap analysis) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1447,15 +1447,15 @@
     },
     {
       "nome": "Valor sob perspectiva do cliente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Valor sob perspectiva do cliente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Valor sob perspectiva do cliente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo puxado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo puxado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo puxado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Melhoria contínua",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1482,35 +1482,35 @@
           "topicos": [
     {
       "nome": "Superprodução",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Superprodução compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Superprodução compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Espera",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Espera compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Espera compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Transporte",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Transporte compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Transporte compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Superprocessamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Superprocessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Superprocessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque excessivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque excessivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque excessivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Movimentação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Defeitos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Talento subutilizado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Talento subutilizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Talento subutilizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1576,19 +1576,19 @@
           "topicos": [
     {
       "nome": "Kanban de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kanban de movimentação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cartão kanban",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cartão kanban compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cartão kanban compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Loop kanban",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Loop kanban compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Loop kanban compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1615,19 +1615,19 @@
           "topicos": [
     {
       "nome": "Sequenciamento nivelado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sequenciamento nivelado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sequenciamento nivelado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Caixa Heijunka",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Caixa Heijunka compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Caixa Heijunka compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produção em pequenos lotes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em pequenos lotes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em pequenos lotes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pico de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pico de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pico de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1654,7 +1654,7 @@
           "topicos": [
     {
       "nome": "Parada automática",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parada automática compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parada automática compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Andon",
@@ -1666,7 +1666,7 @@
     },
     {
       "nome": "Separação homem-máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Separação homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Separação homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1693,19 +1693,19 @@
           "topicos": [
     {
       "nome": "Painel visual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Painel visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Painel visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sinalização de problemas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sinalização de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sinalização de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Parada de linha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parada de linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parada de linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Resposta répida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resposta répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resposta répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1732,19 +1732,19 @@
           "topicos": [
     {
       "nome": "Ritmo da demanda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ritmo da demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ritmo da demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo disponível vs necessário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo disponível vs necessário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo disponível vs necessário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sincronização produção-venda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sincronização produção-venda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sincronização produção-venda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanceamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1771,15 +1771,15 @@
           "topicos": [
     {
       "nome": "Tempo de operação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de operação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de operação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo de máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo de setup",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de setup compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de setup compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time",
@@ -1810,19 +1810,19 @@
           "topicos": [
     {
       "nome": "Células em U",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Células em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Células em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "One-piece flow",
-      "descricao": "Conceito aplicado na área de engenharia de produção. One-piece flow compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. One-piece flow compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redução de WIP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de WIP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de WIP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Layout enxuto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout enxuto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout enxuto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1849,19 +1849,19 @@
           "topicos": [
     {
       "nome": "Estado atual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estado atual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estado atual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estado futuro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estado futuro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estado futuro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ìcones VSM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìcones VSM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ìcones VSM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kaizen bursts",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kaizen bursts compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kaizen bursts compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1888,19 +1888,19 @@
           "topicos": [
     {
       "nome": "Folha de operação padrão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Folha de operação padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Folha de operação padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo padrão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sequência padronizada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sequência padronizada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sequência padronizada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque padrão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1927,19 +1927,19 @@
           "topicos": [
     {
       "nome": "Setup interno e externo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Setup interno e externo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Setup interno e externo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Operações paralelas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Operações paralelas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Operações paralelas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padronização de ferramentas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização de ferramentas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização de ferramentas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cunhas e dispositivos de fixação répida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cunhas e dispositivos de fixação répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cunhas e dispositivos de fixação répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -1966,11 +1966,11 @@
           "topicos": [
     {
       "nome": "Manutenção autônoma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção autônoma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção autônoma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manutenção planejada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção planejada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção planejada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "OEE",
@@ -1978,7 +1978,7 @@
     },
     {
       "nome": "6 grandes perdas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 6 grandes perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 6 grandes perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2005,19 +2005,19 @@
           "topicos": [
     {
       "nome": "Painéis de indicadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Painéis de indicadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Painéis de indicadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Shadow boards",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Shadow boards compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Shadow boards compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sinalização de chão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sinalização de chão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sinalização de chão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Quadros de gestão á vista",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Quadros de gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Quadros de gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2044,19 +2044,19 @@
           "topicos": [
     {
       "nome": "Variação de demanda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variação de demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variação de demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sobrecarga de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sobrecarga de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sobrecarga de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nivelamento (Heijunka)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento (Heijunka) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento (Heijunka) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade vs carga",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade vs carga compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade vs carga compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2083,19 +2083,19 @@
           "topicos": [
     {
       "nome": "Observação no chão de fábrica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Observação no chão de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Observação no chão de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Liderança lean",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Conversa com operadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conversa com operadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conversa com operadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Identificação de desperdícios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2122,19 +2122,19 @@
           "topicos": [
     {
       "nome": "Matriz X",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz X compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz X compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desdobramento de metas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento de metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento de metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Catchball",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Catchball compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Catchball compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Revisão periódica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Revisão periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Revisão periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2161,19 +2161,19 @@
           "topicos": [
     {
       "nome": "A3 de proposta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de proposta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de proposta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "A3 de solução de problemas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de solução de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de solução de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "A3 de status",
-      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de status compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de status compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PDCA no A3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PDCA no A3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PDCA no A3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2200,19 +2200,19 @@
           "topicos": [
     {
       "nome": "Célula em U",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Célula em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Célula em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Multifuncionalidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Multifuncionalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Multifuncionalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Automação de ciclo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Automação de ciclo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Automação de ciclo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Separação homem-máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Separação homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Separação homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2243,15 +2243,15 @@
     },
     {
       "nome": "Ponto de reposição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ponto de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ponto de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kanban de abastecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de abastecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban de abastecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão visual de estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão visual de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão visual de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2303,19 +2303,19 @@
           "topicos": [
     {
       "nome": "Modal rodoviério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modal rodoviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modal rodoviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modal ferroviério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modal ferroviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modal ferroviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modal aquaviério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modal aquaviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modal aquaviério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Multimodalidade e intermodalidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Multimodalidade e intermodalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Multimodalidade e intermodalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2342,19 +2342,19 @@
           "topicos": [
     {
       "nome": "Canais de distribuição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de distribuição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de distribuição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Centros de distribuição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de distribuição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de distribuição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Entregas last mile",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entregas last mile compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entregas last mile compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nível de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2381,19 +2381,19 @@
           "topicos": [
     {
       "nome": "Layout de armazém",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout de armazém compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout de armazém compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Endereçamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Equipamentos de movimentação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Equipamentos de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Equipamentos de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão por zonas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão por zonas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão por zonas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2420,19 +2420,19 @@
           "topicos": [
     {
       "nome": "Cross docking pré-distribuído",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cross docking pré-distribuído compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cross docking pré-distribuído compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cross docking consolidado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cross docking consolidado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cross docking consolidado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Flow-through",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Flow-through compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Flow-through compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time reduzido",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time reduzido compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time reduzido compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2459,19 +2459,19 @@
           "topicos": [
     {
       "nome": "Roteiro de coleta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roteiro de coleta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roteiro de coleta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Janela de tempo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Janela de tempo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Janela de tempo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consolidação de cargas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de cargas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de cargas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Abastecimento JIT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Abastecimento JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Abastecimento JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2498,7 +2498,7 @@
           "topicos": [
     {
       "nome": "Rastreamento veicular",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreamento veicular compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreamento veicular compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manutenção preventiva",
@@ -2506,11 +2506,11 @@
     },
     {
       "nome": "Custo por km rodado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo por km rodado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo por km rodado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Renovação de frota",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Renovação de frota compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Renovação de frota compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2537,19 +2537,19 @@
           "topicos": [
     {
       "nome": "Frete peso vs frete valor",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Frete peso vs frete valor compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Frete peso vs frete valor compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pedégio e taxa de risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pedégio e taxa de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pedégio e taxa de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tabela ANTT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tabela ANTT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tabela ANTT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Negociação de fretes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação de fretes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação de fretes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2576,19 +2576,19 @@
           "topicos": [
     {
       "nome": "Integração supply chain",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração supply chain compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração supply chain compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo de informações",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de informações compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de informações compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Colaboração entre elos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Colaboração entre elos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Colaboração entre elos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores logísticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores logísticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores logísticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2615,19 +2615,19 @@
           "topicos": [
     {
       "nome": "Pós-consumo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pós-consumo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pós-consumo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pós-venda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pós-venda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pós-venda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Centros de triagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de triagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de triagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Política Nacional de Resíduos Sólidos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Política Nacional de Resíduos Sólidos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Política Nacional de Resíduos Sólidos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2654,19 +2654,19 @@
           "topicos": [
     {
       "nome": "Desembaraço aduaneiro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desembaraço aduaneiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desembaraço aduaneiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Documentação internacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação internacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação internacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Regimes aduaneiros especiais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Regimes aduaneiros especiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Regimes aduaneiros especiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Drawback",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Drawback compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Drawback compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2693,19 +2693,19 @@
           "topicos": [
     {
       "nome": "EXW  –  Ex Works",
-      "descricao": "Conceito aplicado na área de engenharia de produção. EXW  –  Ex Works compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. EXW  –  Ex Works compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "FOB  –  Free on Board",
-      "descricao": "Conceito aplicado na área de engenharia de produção. FOB  –  Free on Board compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. FOB  –  Free on Board compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CIF  –  Cost Insurance and Freight",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CIF  –  Cost Insurance and Freight compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CIF  –  Cost Insurance and Freight compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DDP  –  Delivered Duty Paid",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DDP  –  Delivered Duty Paid compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DDP  –  Delivered Duty Paid compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2732,19 +2732,19 @@
           "topicos": [
     {
       "nome": "Endereçamento dinômico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento dinômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento dinômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Picking por onda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por onda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por onda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração ERP-WMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração ERP-WMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração ERP-WMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "RFID e código de barras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RFID e código de barras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RFID e código de barras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2771,19 +2771,19 @@
           "topicos": [
     {
       "nome": "Roteirização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consolidação de cargas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de cargas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de cargas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de fretes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de fretes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de fretes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Monitoramento de entregas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento de entregas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento de entregas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2810,19 +2810,19 @@
           "topicos": [
     {
       "nome": "VRP cléssico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. VRP cléssico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. VRP cléssico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Janelas de tempo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Janelas de tempo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Janelas de tempo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Restrições de capacidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Restrições de capacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Restrições de capacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização por algoritmos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização por algoritmos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização por algoritmos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2849,19 +2849,19 @@
           "topicos": [
     {
       "nome": "3PL  –  Third Party Logistics",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 3PL  –  Third Party Logistics compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 3PL  –  Third Party Logistics compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "4PL  –  Fourth Party Logistics",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 4PL  –  Fourth Party Logistics compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 4PL  –  Fourth Party Logistics compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Contratos de prestação de serviços",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Contratos de prestação de serviços compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Contratos de prestação de serviços compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores SLA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores SLA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores SLA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2888,19 +2888,19 @@
           "topicos": [
     {
       "nome": "Silos e tanques",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Silos e tanques compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Silos e tanques compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pétios de armazenagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pétios de armazenagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pétios de armazenagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle de temperatura e umidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle de temperatura e umidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle de temperatura e umidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Equipamentos de movimentação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Equipamentos de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Equipamentos de movimentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2927,19 +2927,19 @@
           "topicos": [
     {
       "nome": "Picking por zona",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por zona compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por zona compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Picking por onda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por onda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por onda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Picking por voz",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por voz compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Picking por voz compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Embalagem e consolidação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Embalagem e consolidação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Embalagem e consolidação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -2966,19 +2966,19 @@
           "topicos": [
     {
       "nome": "Recebimento e conferência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recebimento e conferência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recebimento e conferência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estocagem e endereçamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estocagem e endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estocagem e endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inventério rotativo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério rotativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério rotativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Expedição e cross-docking",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Expedição e cross-docking compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Expedição e cross-docking compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3005,19 +3005,19 @@
           "topicos": [
     {
       "nome": "CD dedicado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CD dedicado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CD dedicado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CD compartilhado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CD compartilhado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CD compartilhado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CD regional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CD regional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CD regional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Automação de CD",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Automação de CD compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Automação de CD compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3069,19 +3069,19 @@
           "topicos": [
     {
       "nome": "Integração vertical",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração vertical compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração vertical compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração horizontal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração horizontal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração horizontal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Parcerias estratégicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parcerias estratégicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parcerias estratégicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Governança da cadeia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Governança da cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Governança da cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3108,19 +3108,19 @@
           "topicos": [
     {
       "nome": "Ciclo de compras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de compras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de compras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Negociação estratégica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de contratos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de contratos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de contratos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compras sustentéveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compras sustentéveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compras sustentéveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3151,11 +3151,11 @@
     },
     {
       "nome": "Bill of Materials (BOM)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bill of Materials (BOM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bill of Materials (BOM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time de reposição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque de segurança",
@@ -3186,7 +3186,7 @@
           "topicos": [
     {
       "nome": "Segmentação de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segmentação de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Segmentação de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de desempenho",
@@ -3194,7 +3194,7 @@
     },
     {
       "nome": "Desenvolvimento de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de riscos",
@@ -3225,19 +3225,19 @@
           "topicos": [
     {
       "nome": "Auditoria de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Qualificação técnica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Qualificação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Qualificação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificações exigidas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificações exigidas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificações exigidas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cadastro de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cadastro de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cadastro de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3264,19 +3264,19 @@
           "topicos": [
     {
       "nome": "Cléusulas contratuais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cléusulas contratuais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cléusulas contratuais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SLA  –  Service Level Agreement",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SLA  –  Service Level Agreement compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SLA  –  Service Level Agreement compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reajustes e revisões",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reajustes e revisões compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reajustes e revisões compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de aditivos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de aditivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de aditivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3307,15 +3307,15 @@
     },
     {
       "nome": "Plano de suprimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de suprimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de suprimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reunião executiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reunião executiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reunião executiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de acurécia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de acurécia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de acurécia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3342,19 +3342,19 @@
           "topicos": [
     {
       "nome": "Planejamento tético integrado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento tético integrado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento tético integrado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização multiobjetivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização multiobjetivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização multiobjetivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trade-off custo × serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trade-off custo × serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trade-off custo × serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3420,19 +3420,19 @@
           "topicos": [
     {
       "nome": "Catélogo eletrônico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Catélogo eletrônico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Catélogo eletrônico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Leilão reverso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Leilão reverso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Leilão reverso compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cotação online",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cotação online compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cotação online compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com ERP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com ERP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com ERP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3459,19 +3459,19 @@
           "topicos": [
     {
       "nome": "RFQ  –  Solicitação de cotação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RFQ  –  Solicitação de cotação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RFQ  –  Solicitação de cotação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "RFP  –  Solicitação de proposta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RFP  –  Solicitação de proposta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RFP  –  Solicitação de proposta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "RFI  –  Solicitação de informação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RFI  –  Solicitação de informação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RFI  –  Solicitação de informação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de avaliação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3498,19 +3498,19 @@
           "topicos": [
     {
       "nome": "Scorecard de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Scorecard de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Scorecard de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "KPIs logísticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs logísticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs logísticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanced Scorecard",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanced Scorecard compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanced Scorecard compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reuniões de revisão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reuniões de revisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reuniões de revisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3537,19 +3537,19 @@
           "topicos": [
     {
       "nome": "Anélise de gastos (spend analysis)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de gastos (spend analysis) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de gastos (spend analysis) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estratégia por categoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia por categoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia por categoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consolidação de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consolidação de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de categoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de categoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de categoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3576,19 +3576,19 @@
           "topicos": [
     {
       "nome": "Mapeamento de riscos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planos de contingência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planos de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planos de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dual sourcing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dual sourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dual sourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Resiliência da cadeia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resiliência da cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resiliência da cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3615,19 +3615,19 @@
           "topicos": [
     {
       "nome": "Processos SCOR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processos SCOR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processos SCOR compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Métricas de nível 1",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Métricas de nível 1 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Métricas de nível 1 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Best practices",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Best practices compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Best practices compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Benchmarking de cadeia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking de cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Benchmarking de cadeia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3678,11 +3678,11 @@
           "topicos": [
     {
       "nome": "Consumo médio diário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time de reposição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ponto de pedido",
@@ -3690,7 +3690,7 @@
     },
     {
       "nome": "Risco de ruptura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Risco de ruptura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Risco de ruptura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3717,19 +3717,19 @@
           "topicos": [
     {
       "nome": "Capacidade de armazenagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade de armazenagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade de armazenagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capital de giro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lote econômico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lote econômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lote econômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Obsolescência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Obsolescência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Obsolescência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3756,19 +3756,19 @@
           "topicos": [
     {
       "nome": "Nível de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desvio padrão da demanda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desvio padrão da demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desvio padrão da demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time variável",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fator de segurança Z",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fator de segurança Z compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fator de segurança Z compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3795,19 +3795,19 @@
           "topicos": [
     {
       "nome": "Rotatividade do estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rotatividade do estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rotatividade do estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo das vendas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo das vendas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo das vendas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque médio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque médio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque médio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dias de cobertura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dias de cobertura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dias de cobertura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3834,19 +3834,19 @@
           "topicos": [
     {
       "nome": "Classificação A (80% valor)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação A (80% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação A (80% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classificação B (15% valor)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação B (15% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação B (15% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classificação C (5% valor)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação C (5% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação C (5% valor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Frequência de ressuprimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Frequência de ressuprimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Frequência de ressuprimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3873,19 +3873,19 @@
           "topicos": [
     {
       "nome": "Contagem cíclica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Contagem cíclica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Contagem cíclica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acurécia de estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acurécia de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acurécia de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classificação ABC para inventério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação ABC para inventério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação ABC para inventério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ajustes e divergências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ajustes e divergências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ajustes e divergências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3912,19 +3912,19 @@
           "topicos": [
     {
       "nome": "PEPS (Português)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PEPS (Português) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PEPS (Português) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle por lote",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle por lote compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle por lote compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validade e shelf life",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validade e shelf life compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validade e shelf life compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3951,19 +3951,19 @@
           "topicos": [
     {
       "nome": "UEPS (Português)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. UEPS (Português) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. UEPS (Português) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Efeitos fiscais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Efeitos fiscais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Efeitos fiscais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inflação e custo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inflação e custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inflação e custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Não permitido no Brasil",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Não permitido no Brasil compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Não permitido no Brasil compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -3990,19 +3990,19 @@
           "topicos": [
     {
       "nome": "Controle por data de validade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle por data de validade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle por data de validade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Shelf life",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Shelf life compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Shelf life compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreabilidade por lote",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade por lote compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade por lote compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redução de perdas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4029,19 +4029,19 @@
           "topicos": [
     {
       "nome": "Custo de pedir",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de pedir compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de pedir compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de manter",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de manter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de manter compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Demanda anual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda anual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda anual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo de Wilson",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de Wilson compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de Wilson compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4068,19 +4068,19 @@
           "topicos": [
     {
       "nome": "Parômetros de reposição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros de reposição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trigger de pedido",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trigger de pedido compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trigger de pedido compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Min-Max",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Min-Max compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Min-Max compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4111,7 +4111,7 @@
     },
     {
       "nome": "Consumo médio diário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque de segurança",
@@ -4119,7 +4119,7 @@
     },
     {
       "nome": "Trigger de compra",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trigger de compra compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trigger de compra compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4146,19 +4146,19 @@
           "topicos": [
     {
       "nome": "Dias de estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dias de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dias de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consumo médio diário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consumo médio diário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nível de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capital de giro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4185,19 +4185,19 @@
           "topicos": [
     {
       "nome": "Fill rate",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fill rate compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fill rate compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "OTIF (On Time In Full)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. OTIF (On Time In Full) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. OTIF (On Time In Full) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ciclo do pedido",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo do pedido compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo do pedido compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo da falta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo da falta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo da falta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4224,19 +4224,19 @@
           "topicos": [
     {
       "nome": "Estoque em processo (WIP)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque em processo (WIP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque em processo (WIP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desacoplamento de processos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desacoplamento de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desacoplamento de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo contínuo vs pulmão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo contínuo vs pulmão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo contínuo vs pulmão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gargalos produtivos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos produtivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos produtivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4263,19 +4263,19 @@
           "topicos": [
     {
       "nome": "Sazonalidade de demanda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sazonalidade de demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sazonalidade de demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nivelamento da produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento da produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nivelamento da produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de armazenagem sazonal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de armazenagem sazonal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de armazenagem sazonal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Previsão de demanda sazonal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de demanda sazonal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de demanda sazonal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4302,19 +4302,19 @@
           "topicos": [
     {
       "nome": "Proteção cambial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Proteção cambial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Proteção cambial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aumento de preço previsto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aumento de preço previsto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aumento de preço previsto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Escassez de matéria-prima",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escassez de matéria-prima compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escassez de matéria-prima compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Risco de desabastecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Risco de desabastecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Risco de desabastecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4341,19 +4341,19 @@
           "topicos": [
     {
       "nome": "Obsolescência tecnológica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Obsolescência tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Obsolescência tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validade vencida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validade vencida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validade vencida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Provisão contébil",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Provisão contébil compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Provisão contébil compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Descarte sustentével",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Descarte sustentével compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Descarte sustentével compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4380,19 +4380,19 @@
           "topicos": [
     {
       "nome": "Custo de oportunidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de oportunidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de oportunidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de espaço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de espaço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de espaço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Seguro, perdas e obsolescência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Seguro, perdas e obsolescência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Seguro, perdas e obsolescência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo total de estocagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo total de estocagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo total de estocagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4419,19 +4419,19 @@
           "topicos": [
     {
       "nome": "Classe X  –  previsível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classe X  –  previsível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classe X  –  previsível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classe Y  –  variação moderada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classe Y  –  variação moderada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classe Y  –  variação moderada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classe Z  –  imprevisível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classe Z  –  imprevisível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classe Z  –  imprevisível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz ABC/XYZ",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz ABC/XYZ compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz ABC/XYZ compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4541,23 +4541,23 @@
           "topicos": [
     {
       "nome": "Arquitetura de CLPs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura de CLPs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura de CLPs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Linguagens de programação (Ladder, FBD, SFC, ST, IL)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linguagens de programação (Ladder, FBD, SFC, ST, IL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linguagens de programação (Ladder, FBD, SFC, ST, IL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ciclo de scan",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de scan compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de scan compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Módulos de E/S digitais e analógicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Módulos de E/S digitais e analógicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Módulos de E/S digitais e analógicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "IEC 61131-3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. IEC 61131-3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. IEC 61131-3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4586,23 +4586,23 @@
           "topicos": [
     {
       "nome": "Arquitetura SCADA (monoposto, cliente-servidor, distribuída)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura SCADA (monoposto, cliente-servidor, distribuída) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura SCADA (monoposto, cliente-servidor, distribuída) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "RTU  –  Remote Terminal Unit",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RTU  –  Remote Terminal Unit compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RTU  –  Remote Terminal Unit compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "IHM  –  Interface Homem-Máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. IHM  –  Interface Homem-Máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. IHM  –  Interface Homem-Máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Protocolos OPC-UA, MQTT, Modbus",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Protocolos OPC-UA, MQTT, Modbus compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Protocolos OPC-UA, MQTT, Modbus compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Histórico e banco de dados de processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Histórico e banco de dados de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Histórico e banco de dados de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4631,23 +4631,23 @@
           "topicos": [
     {
       "nome": "Sensores de temperatura (termopar, RTD, termistor)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de temperatura (termopar, RTD, termistor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de temperatura (termopar, RTD, termistor) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sensores de pressão e vazão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de pressão e vazão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de pressão e vazão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sensores indutivos, capacitivos e ópticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores indutivos, capacitivos e ópticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores indutivos, capacitivos e ópticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Encoders e resolvers",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Encoders e resolvers compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Encoders e resolvers compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Transmissores 4-20 mA e protocolo HART",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Transmissores 4-20 mA e protocolo HART compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Transmissores 4-20 mA e protocolo HART compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4676,23 +4676,23 @@
           "topicos": [
     {
       "nome": "Motores de indução trifésicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Motores de indução trifésicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Motores de indução trifésicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Servomotores e motores de passo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Servomotores e motores de passo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Servomotores e motores de passo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cilindros pneuméticos e hidréulicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindros pneuméticos e hidréulicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindros pneuméticos e hidréulicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Vélvulas de controle (globo, borboleta, esfera)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Vélvulas de controle (globo, borboleta, esfera) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Vélvulas de controle (globo, borboleta, esfera) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inversores de frequência e soft-starters",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inversores de frequência e soft-starters compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inversores de frequência e soft-starters compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4721,23 +4721,23 @@
           "topicos": [
     {
       "nome": "Classificação de robôs por geometria e aplicação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação de robôs por geometria e aplicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação de robôs por geometria e aplicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controladores e linguagens de programação robótica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controladores e linguagens de programação robótica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controladores e linguagens de programação robótica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Efetuadores finais (grippers, ferramentas)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Efetuadores finais (grippers, ferramentas) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Efetuadores finais (grippers, ferramentas) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sensores de força e visão para robôs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de força e visão para robôs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sensores de força e visão para robôs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Segurança em células robotizadas (ISO 10218, ISO/TS 15066)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança em células robotizadas (ISO 10218, ISO/TS 15066) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança em células robotizadas (ISO 10218, ISO/TS 15066) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4766,23 +4766,23 @@
           "topicos": [
     {
       "nome": "Arquitetura IIoT (edge, fog, cloud)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura IIoT (edge, fog, cloud) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura IIoT (edge, fog, cloud) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Protocolos MQTT, OPC-UA, AMQP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Protocolos MQTT, OPC-UA, AMQP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Protocolos MQTT, OPC-UA, AMQP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gateways industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gateways industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gateways industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Digital twin alimentado por IIoT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Digital twin alimentado por IIoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Digital twin alimentado por IIoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cibersegurança em IIoT (IEC 62443)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cibersegurança em IIoT (IEC 62443) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cibersegurança em IIoT (IEC 62443) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4811,23 +4811,23 @@
           "topicos": [
     {
       "nome": "Pilares da Indústria 4.0 (BCG)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pilares da Indústria 4.0 (BCG) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pilares da Indústria 4.0 (BCG) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas ciberfísicos (CPS)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas ciberfísicos (CPS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas ciberfísicos (CPS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração horizontal e vertical",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração horizontal e vertical compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração horizontal e vertical compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura égil e mass customization",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura égil e mass customization compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura égil e mass customization compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Arquitetura RAMI 4.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura RAMI 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura RAMI 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4856,23 +4856,23 @@
           "topicos": [
     {
       "nome": "Microcontroladores (ARM, AVR, PIC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Microcontroladores (ARM, AVR, PIC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Microcontroladores (ARM, AVR, PIC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas operacionais de tempo real (RTOS)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas operacionais de tempo real (RTOS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas operacionais de tempo real (RTOS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Firmware e bootloaders",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Firmware e bootloaders compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Firmware e bootloaders compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Interfaces de comunicação (SPI, I2C, CAN, UART)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Interfaces de comunicação (SPI, I2C, CAN, UART) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Interfaces de comunicação (SPI, I2C, CAN, UART) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeto de hardware embarcado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto de hardware embarcado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto de hardware embarcado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4901,23 +4901,23 @@
           "topicos": [
     {
       "nome": "Cômeras industriais (érea scan, line scan)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cômeras industriais (érea scan, line scan) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cômeras industriais (érea scan, line scan) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Processamento de imagens (OpenCV, HALCON)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento de imagens (OpenCV, HALCON) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento de imagens (OpenCV, HALCON) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Deep learning para detecção de defeitos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Deep learning para detecção de defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Deep learning para detecção de defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de iluminação e óptica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de iluminação e óptica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de iluminação e óptica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com CLPs e robôs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com CLPs e robôs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com CLPs e robôs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4946,23 +4946,23 @@
           "topicos": [
     {
       "nome": "Fieldbus: Profibus, DeviceNet, Foundation Fieldbus",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fieldbus: Profibus, DeviceNet, Foundation Fieldbus compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fieldbus: Profibus, DeviceNet, Foundation Fieldbus compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ethernet industrial: EtherNet/IP, PROFINET, EtherCAT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ethernet industrial: EtherNet/IP, PROFINET, EtherCAT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ethernet industrial: EtherNet/IP, PROFINET, EtherCAT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redes de sensores sem fio (WirelessHART)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redes de sensores sem fio (WirelessHART) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redes de sensores sem fio (WirelessHART) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Comutação e roteamento industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comutação e roteamento industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comutação e roteamento industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Segurança em redes industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança em redes industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança em redes industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -4991,23 +4991,23 @@
           "topicos": [
     {
       "nome": "Painéis IHM touch screen",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Painéis IHM touch screen compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Painéis IHM touch screen compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Software supervisório com IHM integrada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Software supervisório com IHM integrada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Software supervisório com IHM integrada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desenvolvimento de telas (tags, animações, receitas)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de telas (tags, animações, receitas) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de telas (tags, animações, receitas) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Alarmes e eventos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alarmes e eventos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alarmes e eventos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usabilidade e design centrado no operador",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade e design centrado no operador compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade e design centrado no operador compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5036,23 +5036,23 @@
           "topicos": [
     {
       "nome": "Ações P, PI, PID e suas características",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ações P, PI, PID e suas características compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ações P, PI, PID e suas características compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sintonia de controladores (Ziegler-Nichols, IMC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sintonia de controladores (Ziegler-Nichols, IMC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sintonia de controladores (Ziegler-Nichols, IMC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle cascata, feedforward e ratio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle cascata, feedforward e ratio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle cascata, feedforward e ratio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PID digital e discretização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PID digital e discretização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PID digital e discretização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Satuação e anti-windup",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Satuação e anti-windup compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Satuação e anti-windup compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5081,23 +5081,23 @@
           "topicos": [
     {
       "nome": "Configuração de tags e drivers de comunicação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Configuração de tags e drivers de comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Configuração de tags e drivers de comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Telas de supervisão e navegação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Telas de supervisão e navegação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Telas de supervisão e navegação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relatórios e históricos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relatórios e históricos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relatórios e históricos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com MES e ERP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com MES e ERP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com MES e ERP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redundôncia e alta disponibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redundôncia e alta disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redundôncia e alta disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5126,23 +5126,23 @@
           "topicos": [
     {
       "nome": "Partida direta, estrela-triôngulo e suave",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Partida direta, estrela-triôngulo e suave compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Partida direta, estrela-triôngulo e suave compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inversores de frequência (VFD)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inversores de frequência (VFD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inversores de frequência (VFD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Servoacionamentos com malha fechada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Servoacionamentos com malha fechada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Servoacionamentos com malha fechada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dimensionamento de cabos e proteções",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento de cabos e proteções compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento de cabos e proteções compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eficiência energética e normas IE3/IE4",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência energética e normas IE3/IE4 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência energética e normas IE3/IE4 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5171,23 +5171,23 @@
           "topicos": [
     {
       "nome": "Cilindros de simples e dupla ação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindros de simples e dupla ação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindros de simples e dupla ação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Vélvulas direcionais, reguladoras e proporcionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Vélvulas direcionais, reguladoras e proporcionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Vélvulas direcionais, reguladoras e proporcionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Unidades de preparação de ar (FRL)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Unidades de preparação de ar (FRL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Unidades de preparação de ar (FRL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Bombas hidréulicas e atuadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bombas hidréulicas e atuadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bombas hidréulicas e atuadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Normas ISO 4414 e ISO 4413",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Normas ISO 4414 e ISO 4413 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Normas ISO 4414 e ISO 4413 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5216,23 +5216,23 @@
           "topicos": [
     {
       "nome": "Norma ISO/TS 15066 para robôs colaborativos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Norma ISO/TS 15066 para robôs colaborativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Norma ISO/TS 15066 para robôs colaborativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modos de operação colaborativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modos de operação colaborativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modos de operação colaborativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sensoriamento de torque e força",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sensoriamento de torque e força compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sensoriamento de torque e força compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aplicações pick-and-place e inspeção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações pick-and-place e inspeção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações pick-and-place e inspeção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Comparação com robôs industriais tradicionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comparação com robôs industriais tradicionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comparação com robôs industriais tradicionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5261,23 +5261,23 @@
           "topicos": [
     {
       "nome": "Layout de células flexíveis (U-shape, linear)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout de células flexíveis (U-shape, linear) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout de células flexíveis (U-shape, linear) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de paletes e magazines",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de paletes e magazines compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de paletes e magazines compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle centralizado e scheduling",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle centralizado e scheduling compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle centralizado e scheduling compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mudança répida de ferramentas (SMED)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança répida de ferramentas (SMED) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança répida de ferramentas (SMED) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores OEE e flexibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores OEE e flexibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores OEE e flexibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5306,23 +5306,23 @@
           "topicos": [
     {
       "nome": "Tags passivas, ativas e semi-passivas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tags passivas, ativas e semi-passivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tags passivas, ativas e semi-passivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Frequências LF, HF, UHF e micro-ondas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Frequências LF, HF, UHF e micro-ondas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Frequências LF, HF, UHF e micro-ondas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Leitores fixos e móveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Leitores fixos e móveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Leitores fixos e móveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padrões ISO 18000 e EPC Gen2",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões ISO 18000 e EPC Gen2 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões ISO 18000 e EPC Gen2 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração com MES e WMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com MES e WMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com MES e WMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5351,23 +5351,23 @@
           "topicos": [
     {
       "nome": "Arquitetura cliente-servidor OPC-UA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura cliente-servidor OPC-UA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura cliente-servidor OPC-UA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo de informação e namespace",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de informação e namespace compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de informação e namespace compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "MQTT brokers e tópicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MQTT brokers e tópicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MQTT brokers e tópicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Qualidade de serviço (QoS) em MQTT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade de serviço (QoS) em MQTT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade de serviço (QoS) em MQTT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Segurança e certificados OPC-UA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança e certificados OPC-UA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança e certificados OPC-UA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -5411,860 +5411,274 @@
       "subtopicos": [
 
         {
+          "titulo": "Indústria 4.0",
 
-          "titulo": "Digitalização industrial",
-
-          "definicao": "Processo de conversão de processos, documentos e operações analógicas para formatos digitais, habilitando automação, rastreabilidade e análise de dados. Vai além da simples digitalização de papéis, envolvendo a integração de sistemas e a conectividade de ativos.",
+          "definicao": "Visão geral das quatro revoluções industriais e as tecnologias fundamentais que caracterizam a Indústria 4.0, incluindo IIoT, manufatura aditiva, big data e inteligência artificial aplicada à produção.",
 
           "topicos": [
-    {
-      "nome": "Estratégia de transformação digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégia de transformação digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Digital twin e digital thread",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Digital twin e digital thread compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Eliminação de dados em papel",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eliminação de dados em papel compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração OT/IT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração OT/IT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Indicadores de maturidade digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de maturidade digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Primeira Revolução Industrial",
 
-          "aplicacoes": [
+              "descricao": "Marcada pela mecanização da produção, com a introdução de máquinas movidas a vapor e hidráulica, substituindo o trabalho manual e artesanal por processos fabris emergentes."
+            },
 
-            "Digitalização de ordens de serviço e checklists",
+            {
+              "nome": "Segunda Revolução Industrial",
 
-            "Captura automática de dados de produção",
+              "descricao": "Caracterizada pela eletrificação das fábricas, produção em massa e divisão do trabalho, consolidando a linha de montagem e os princípios da administração científica."
+            },
 
-            "Documentação técnica 100% digital",
+            {
+              "nome": "Terceira Revolução Industrial",
 
-            "Assinatura eletrônica em processos industriais"
+              "descricao": "Impulsionada pela eletrônica, computação e automação, introduzindo controladores lógicos programáveis (CLPs) e robôs industriais nos processos produtivos."
+            },
 
+            {
+              "nome": "Indústria 4.0",
+
+              "descricao": "Conceito que integra tecnologias digitais, Internet das Coisas (IoT), inteligência artificial e sistemas cyber-físicos para criar fábricas inteligentes e altamente conectadas."
+            },
+
+            {
+              "nome": "IoT Industrial (IIoT)",
+
+              "descricao": "Rede de sensores, máquinas e dispositivos conectados que coletam e trocam dados em tempo real, permitindo monitoramento remoto, manutenção preditiva e otimização contínua."
+            },
+
+            {
+              "nome": "Manufatura Aditiva",
+
+              "descricao": "Processo de fabricação por adição de camadas, como a impressão 3D, que possibilita a produção de peças complexas com menor desperdício de material e alta personalização."
+            },
+
+            {
+              "nome": "Big Data e Analytics",
+
+              "descricao": "Coleta, processamento e análise de grandes volumes de dados gerados na indústria para extrair insights, identificar padrões e apoiar a tomada de decisão baseada em evidências."
+            },
+
+            {
+              "nome": "Inteligência Artificial na Indústria",
+
+              "descricao": "Aplicação de algoritmos de machine learning e redes neurais para otimizar processos, prever falhas, inspecionar qualidade e automatizar decisões complexas no chão de fábrica."
+            },
+
+            {
+              "nome": "Integração Horizontal e Vertical",
+
+              "descricao": "Integração digital ao longo de toda a cadeia de valor (fornecedores, produção, clientes) e entre todos os níveis hierárquicos da empresa, do chão de fábrica ao ERP."
+            }
           ]
-
         },
 
         {
+          "titulo": "Tecnologias habilitadoras",
 
-          "titulo": "Inteligência Artificial na indústria",
-
-          "definicao": "Ramo da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana: aprendizado, raciocínio, percepção e tomada de decisão. Na indústria, é aplicada em controle de qualidade preditivo, otimização de processos e manutenção inteligente.",
+          "definicao": "Conjunto de tecnologias digitais que viabilizam a transformação digital na indústria, como IA, IoT, cloud computing, cibersegurança e manufatura aditiva.",
 
           "topicos": [
-    {
-      "nome": "Machine Learning (supervisionado, não supervisionado, reforço)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Machine Learning (supervisionado, não supervisionado, reforço) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Deep Learning para visão computacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Deep Learning para visão computacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "IA generativa para projeto e documentação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. IA generativa para projeto e documentação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Sistemas especialistas e controle fuzzy",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas especialistas e controle fuzzy compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "MLOps industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MLOps industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "IA e Machine Learning",
 
-          "aplicacoes": [
+              "descricao": "Tecnologias que permitem que sistemas aprendam e evoluam com base em dados, aplicadas na indústria para prever falhas, otimizar parâmetros de produção e automatizar decisões."
+            },
 
-            "Detecção de defeitos em tempo real com visão IA",
+            {
+              "nome": "Big Data e Analytics",
 
-            "Previsão de demanda e planejamento de produção",
+              "descricao": "Conjunto de ferramentas e técnicas para capturar, armazenar e analisar grandes volumes de dados industriais, gerando relatórios inteligentes e dashboards para apoio à gestão."
+            },
 
-            "Otimização de parâmetros de processo",
+            {
+              "nome": "Internet das Coisas (IoT)",
 
-            "Chatbots para assistência técnica"
+              "descricao": "Infraestrutura de dispositivos conectados que coletam e transmitem dados continuamente, viabilizando o monitoramento em tempo real e a automação de processos produtivos."
+            },
 
+            {
+              "nome": "Cloud Computing",
+
+              "descricao": "Modelo de computação que oferece recursos sob demanda via internet, possibilitando armazenamento escalável, processamento distribuído e acesso remoto a dados e aplicações industriais."
+            },
+
+            {
+              "nome": "Cibersegurança",
+
+              "descricao": "Práticas e tecnologias voltadas à proteção de sistemas industriais, redes e dados contra ataques cibernéticos, garantindo a integridade, confidencialidade e disponibilidade dos ativos digitais."
+            },
+
+            {
+              "nome": "Manufatura Aditiva",
+
+              "descricao": "Tecnologia de fabricação por deposição de camadas que permite criar protótipos, ferramentas e peças finais com geometrias complexas, reduzindo prazos e custos de produção."
+            }
           ]
-
         },
 
         {
+          "titulo": "Sistemas cyber-físicos (CPS)",
 
-          "titulo": "Big Data e Analytics",
-
-          "definicao": "Conjunto de técnicas e tecnologias para capturar, armazenar, processar e analisar grandes volumes de dados estruturados e não estruturados gerados por sistemas industriais. Permite extrair correlações, padrões e insights que orientam decisões estratégicas e operacionais.",
+          "definicao": "Integração entre sistemas computacionais e processos físicos, abrangendo arquitetura CPS, sensores inteligentes, gêmeo digital e sistemas embarcados para controle em tempo real.",
 
           "topicos": [
-    {
-      "nome": "Arquitetura data lake e data warehouse",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura data lake e data warehouse compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Processamento batch e streaming",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento batch e streaming compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ferramentas (Hadoop, Spark, Kafka)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas (Hadoop, Spark, Kafka) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise descritiva, diagnóstica, preditiva e prescritiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise descritiva, diagnóstica, preditiva e prescritiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Visualização de dados com dashboards",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Visualização de dados com dashboards compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Arquitetura de CPS",
 
-          "aplicacoes": [
+              "descricao": "Estrutura que integra componentes físicos (máquinas, sensores) e computacionais (software, redes) em um sistema coeso, onde o mundo digital controla e monitora processos físicos em tempo real."
+            },
 
-            "Anélise de causa raiz de falhas recorrentes",
+            {
+              "nome": "Sensores e Atuadores Inteligentes",
 
-            "Otimização de mix de produção por margem",
+              "descricao": "Dispositivos com capacidade de processamento e comunicação embarcada que coletam dados do ambiente físico e executam ações de controle de forma autônoma ou remota."
+            },
 
-            "Segmentação de clientes e personalização",
+            {
+              "nome": "Integração com IoT",
 
-            "Monitoramento de KPI em tempo real"
+              "descricao": "Conexão entre sistemas cyber-físicos e a Internet das Coisas, ampliando a capacidade de monitoramento, coleta de dados e acionamento remoto em ecossistemas industriais distribuídos."
+            },
 
+            {
+              "nome": "Gêmeo Digital (Digital Twin)",
+
+              "descricao": "Réplica virtual de um sistema físico que simula seu comportamento em tempo real, permitindo análise preditiva, testes de cenários e otimização contínua sem riscos ao processo real."
+            },
+
+            {
+              "nome": "Sistemas Embarcados",
+
+              "descricao": "Sistemas computacionais dedicados a funções específicas dentro de máquinas e equipamentos industriais, operando com restrições de tempo real e recursos limitados."
+            },
+
+            {
+              "nome": "Malha Fechada de Controle",
+
+              "descricao": "Mecanismo de controle onde sensores monitoram continuamente a saída de um processo e ajustam as entradas automaticamente para manter as variáveis dentro de parâmetros desejados."
+            }
           ]
-
         },
 
         {
-
-          "titulo": "Computação em nuvem",
-
-          "definicao": "Modelo de computação que permite acesso on-demand a recursos computacionais compartilhados (servidores, armazenamento, bancos de dados, redes, software) pela internet. Na indústria, viabiliza IIoT, análise avançada e sistemas de gestão escaléveis com redução de custos de infraestrutura.",
-
-          "topicos": [
-    {
-      "nome": "IaaS, PaaS, SaaS  –  modelos de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. IaaS, PaaS, SaaS  –  modelos de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Nuvem pública, privada e híbrida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nuvem pública, privada e híbrida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Cloud industrial (AWS Industry, Azure for Industry)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cloud industrial (AWS Industry, Azure for Industry) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Edge computing vs. Cloud computing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Edge computing vs. Cloud computing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Segurança e conformidade (LGPD) em nuvem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança e conformidade (LGPD) em nuvem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Plataformas de IIoT em nuvem (AWS IoT, Azure IoT)",
-
-            "Sistemas ERP e MES em SaaS",
-
-            "Armazenamento e análise de dados históricos",
-
-            "Machine Learning como serviço (MLaaS)"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Gêmeo Digital (Digital Twin)",
-
-          "definicao": "Réplica virtual de um sistema, produto ou processo que reflete seu estado em tempo real por meio de dados de sensores e simulações. Permite prever comportamentos, testar cenérios e otimizar operações sem intervir no sistema físico.",
-
-          "topicos": [
-    {
-      "nome": "Gêmeo digital de produto, processo e sistema",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gêmeo digital de produto, processo e sistema compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Modelagem 3D e simulação multi-física",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem 3D e simulação multi-física compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Sincronização em tempo real com dados IIoT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sincronização em tempo real com dados IIoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Gêmeo digital de fábrica (Digital Factory)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gêmeo digital de fábrica (Digital Factory) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ferramentas (Unity, Siemens Tecnomatix, Ansys Twin Builder)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas (Unity, Siemens Tecnomatix, Ansys Twin Builder) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Simulação de fluxo produtivo antes da implementação",
-
-            "Monitoramento e predição de desgaste de máquinas",
-
-            "Otimização de eficiência energética",
-
-            "Comissionamento virtual de linhas de produção"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "IoT e IIoT",
-
-          "definicao": "Rede de objetos físicos conectados á internet que coletam e trocam dados. A IoT industrial (IIoT) estende esse conceito ao ambiente fabril, conectando sensores, máquinas e sistemas para monitoramento, automação e otimização baseada em dados.",
-
-          "topicos": [
-    {
-      "nome": "Arquitetura IoT: dispositivos, gateway, nuvem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura IoT: dispositivos, gateway, nuvem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Protocolos (MQTT, CoAP, HTTP/2, LwM2M)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Protocolos (MQTT, CoAP, HTTP/2, LwM2M) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Plataformas IoT (ThingsBoard, AWS IoT, Azure IoT)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas IoT (ThingsBoard, AWS IoT, Azure IoT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de borda (edge analytics)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de borda (edge analytics) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Segurança em dispositivos IoT (TLS, PKI)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança em dispositivos IoT (TLS, PKI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Cidades inteligentes e utilidades",
-
-            "Agricultura de precisão",
-
-            "Monitoramento de frota e logística",
-
-            "Medição inteligente de energia"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Indústria 5.0",
-
-          "definicao": "Evolução da Indústria 4.0 que coloca o ser humano no centro da produção, integrando tecnologias digitais com sustentabilidade, resiliência e bem-estar social. Valoriza a cooperação homem-máquina (cobots), personalização em massa e produção regenerativa.",
-
-          "topicos": [
-    {
-      "nome": "Human-centricity (produção centrada no humano)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Human-centricity (produção centrada no humano) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Resiliência de cadeias de suprimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resiliência de cadeias de suprimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Sustentabilidade e produção regenerativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sustentabilidade e produção regenerativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Tecnologias habilitadoras 5.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologias habilitadoras 5.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Diferenças entre Indústria 4.0 e 5.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diferenças entre Indústria 4.0 e 5.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Linhas de produção com robôs colaborativos",
-
-            "Fébricas regenerativas com energia limpa",
-
-            "Produção customizada com participação do cliente",
-
-            "Modelos de negócio baseados em servitização"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Blockchain na indústria",
-
-          "definicao": "Tecnologia de registro distribuído que garante imutabilidade, rastreabilidade e transparência em transações e dados compartilhados entre múltiplos participantes. Na cadeia de suprimentos, assegura a origem e o histórico de produtos e materiais.",
-
-          "topicos": [
-    {
-      "nome": "Estrutura de blocos, hash e consenso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura de blocos, hash e consenso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Blockchain pública vs. privada vs. consórcio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Blockchain pública vs. privada vs. consórcio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Smart contracts para automação de acordos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Smart contracts para automação de acordos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Rastreabilidade na cadeia de suprimentos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade na cadeia de suprimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Plataformas (Hyperledger, Ethereum, Corda)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas (Hyperledger, Ethereum, Corda) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Rastreabilidade de alimentos da fazenda á mesa",
-
-            "Certificação de origem de materiais",
-
-            "Contratos inteligentes para pagamentos automáticos",
-
-            "Proteção de propriedade intelectual industrial"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Realidade Aumentada (AR)",
-
-          "definicao": "Tecnologia que sobrepõe elementos digitais (imagens, textos, animações) ao ambiente real em tempo real, visualizada por óculos inteligentes, tablets ou smartphones. Na indústria, é usada para treinamento, assistência remota e instruções de montagem sobrepostas.",
-
-          "topicos": [
-    {
-      "nome": "Marcadores e tracking visual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Marcadores e tracking visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "ôculos AR (Microsoft HoloLens, Magic Leap)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ôculos AR (Microsoft HoloLens, Magic Leap) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Desenvolvimento com Unity e AR Foundation",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento com Unity e AR Foundation compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "AR para manutenção assistida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. AR para manutenção assistida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração com sistemas PLM e CMMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com sistemas PLM e CMMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Instruções de montagem projetadas sobre o produto",
-
-            "Manutenção remota com especialista via AR",
-
-            "Inspeção visual com sobreposição de dados",
-
-            "Treinamento de operadores em ambiente seguro"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Realidade Virtual (VR)",
-
-          "definicao": "Ambiente digital imersivo gerado por computador, no qual o usuério interage por meio de óculos VR e controladores. Na engenharia, é usada para simulação de projetos, validação de layout fabril e treinamento em situações de risco sem exposição real.",
-
-          "topicos": [
-    {
-      "nome": "ôculos VR (Meta Quest, HTC Vive, Pico)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ôculos VR (Meta Quest, HTC Vive, Pico) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Desenvolvimento em Unity 3D e Unreal Engine",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento em Unity 3D e Unreal Engine compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Simulação de processos e ergonomia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de processos e ergonomia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Treinamento de segurança em VR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento de segurança em VR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Revisão de projeto colaborativa em VR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Revisão de projeto colaborativa em VR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Simulação de layout de fábrica antes da construção",
-
-            "Treinamento de operação de máquinas complexas",
-
-            "Ergonomia virtual para projeto de postos",
-
-            "Revisão de protótipos 3D em escala real"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Manufatura aditiva (3D Printing)",
-
-          "definicao": "Processo de fabricação por adição sucessiva de camadas de material (pléstico, metal, cerômica) a partir de um modelo digital 3D. Permite geometrias complexas, redução de peso, customização em massa e prototipagem répida, com impacto direto na cadeia de suprimentos.",
-
-          "topicos": [
-    {
-      "nome": "FDM, SLA, SLS, DMLS, EBM  –  tecnologias",
-      "descricao": "Conceito aplicado na área de engenharia de produção. FDM, SLA, SLS, DMLS, EBM  –  tecnologias compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Materiais para impressão 3D industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Materiais para impressão 3D industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Design for Additive Manufacturing (DfAM)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design for Additive Manufacturing (DfAM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Pós-processamento e acabamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pós-processamento e acabamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Normas ASTM F42 e ISO 52900",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Normas ASTM F42 e ISO 52900 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Prototipagem répida de componentes",
-
-            "Produção de peças de reposição sob demanda",
-
-            "Implantes médicos personalizados",
-
-            "Ferramentas e dispositivos de produção leves"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Cibersegurança industrial",
-
-          "definicao": "Préticas, tecnologias e processos para proteger sistemas de controle industrial (ICS), redes, dispositivos e dados contra ataques cibernéticos. Difere da segurança de TI por exigir disponibilidade contínua, baixa latência e proteção de sistemas legados.",
-
-          "topicos": [
-    {
-      "nome": "IEC 62443  –  normas para segurança ICS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. IEC 62443  –  normas para segurança ICS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Segmentação de redes OT e IT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segmentação de redes OT e IT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Firewalls industriais e DMZ",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Firewalls industriais e DMZ compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Detecção de intrusão em redes industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Detecção de intrusão em redes industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Gestão de vulnerabilidades e patch management",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de vulnerabilidades e patch management compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Proteção de subestações de energia contra ataques",
-
-            "Segurança de redes SCADA",
-
-            "Proteção de dados de propriedade intelectual industrial",
-
-            "Conformidade com regulamentações de segurança digital"
-
-          ]
-
-        },
-
-        {
-
           "titulo": "Edge Computing",
 
-          "definicao": "Modelo computacional que processa dados próximo á fonte geradora (na borda da rede), reduzindo latência e tréfego para a nuvem. Crítico para aplicações industriais que exigem resposta em tempo real, como controle de máquinas e análise preditiva local.",
+          "definicao": "Modelo computacional descentralizado que processa dados próximos à fonte geradora, incluindo arquitetura edge, gateways industriais, fog computing e processamento em tempo real.",
 
           "topicos": [
-    {
-      "nome": "Arquitetura edge: dispositivos, gateways, micro-data centers",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura edge: dispositivos, gateways, micro-data centers compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Edge vs. Fog vs. Cloud",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Edge vs. Fog vs. Cloud compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Processamento de streaming em tempo real",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento de streaming em tempo real compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Orquestração de containers no edge (K3s, Docker)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Orquestração de containers no edge (K3s, Docker) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Plataformas edge industriais (Siemens Industrial Edge, AWS Outposts)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas edge industriais (Siemens Industrial Edge, AWS Outposts) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Arquitetura Edge",
 
-          "aplicacoes": [
+              "descricao": "Modelo computacional descentralizado onde o processamento de dados ocorre próximo à fonte geradora (sensores, máquinas), reduzindo latência e dependência de conexão com a nuvem."
+            },
 
-            "Anélise de vibração em tempo real na máquina",
+            {
+              "nome": "Edge vs Cloud",
 
-            "Controle de qualidade com inferência de IA local",
+              "descricao": "Comparação entre processamento local na borda da rede (Edge) e processamento centralizado em data centers remotos (Cloud), destacando trade-offs entre latência, capacidade e custo."
+            },
 
-            "Redução de tréfego de dados para a nuvem",
+            {
+              "nome": "Processamento em Tempo Real",
 
-            "Operação offline com sincronização posterior"
+              "descricao": "Capacidade de processar dados e gerar respostas em intervalos de milissegundos, essencial para aplicações industriais críticas como controle de qualidade, segurança e automação."
+            },
 
+            {
+              "nome": "Gateway de Dados Industriais",
+
+              "descricao": "Dispositivo que atua como ponte entre equipamentos industriais (sensores, CLPs) e sistemas de TI, realizando conversão de protocolos, filtragem e transmissão de dados."
+            },
+
+            {
+              "nome": "Fog Computing",
+
+              "descricao": "Camada intermediária entre Edge e Cloud que agrega e processa dados de múltiplos dispositivos edge, oferecendo maior capacidade analítica e decisória próxima ao chão de fábrica."
+            }
           ]
-
         },
 
         {
+          "titulo": "Digitalização de processos",
 
-          "titulo": "5G industrial",
-
-          "definicao": "Quinta geração de redes móveis que oferece alta largura de banda, baixíssima latência (1-10 ms) e suporte a massiva conexão de dispositivos. Na indústria, viabiliza controle remoto de máquinas, robótica colaborativa sem fio e fábricas totalmente móveis.",
+          "definicao": "Transformação de processos analógicos em digitais, envolvendo mapeamento, automação, RPA, workflows digitais e integração de sistemas.",
 
           "topicos": [
-    {
-      "nome": "Redes 5G privativas (NPN)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redes 5G privativas (NPN) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Network slicing para aplicações industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Network slicing para aplicações industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "URLLC, eMBB, mMTC  –  categorias de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. URLLC, eMBB, mMTC  –  categorias de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração 5G com TSN (Time-Sensitive Networking)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração 5G com TSN (Time-Sensitive Networking) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Casos de uso 5G em manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Casos de uso 5G em manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Mapeamento de Processos",
 
-          "aplicacoes": [
+              "descricao": "Técnica de representação visual das etapas, fluxos e interações de um processo produtivo ou administrativo, servindo como base para identificação de gargalos e oportunidades de melhoria."
+            },
 
-            "Controle remoto de guindastes e AGVs",
+            {
+              "nome": "Automação de Processos",
 
-            "Realidade aumentada com streaming de vídeo 4K",
+              "descricao": "Uso de tecnologia para executar tarefas repetitivas e padronizadas sem intervenção humana, aumentando a eficiência, reduzindo erros e liberando talentos para atividades de maior valor."
+            },
 
-            "Comunicação machine-to-machine ultraconfiével",
+            {
+              "nome": "RPA (Robotic Process Automation)",
 
-            "Monitoramento por vídeo de alta resolução"
+              "descricao": "Tecnologia que utiliza robôs de software para automatizar tarefas manuais e repetitivas em sistemas digitais, como inserção de dados, conciliação e geração de relatórios."
+            },
 
+            {
+              "nome": "Workflow Digital",
+
+              "descricao": "Sequência automatizada de tarefas, aprovações e notificações em ambiente digital, garantindo rastreabilidade, padronização e eficiência na execução de processos organizacionais."
+            },
+
+            {
+              "nome": "Integração de Sistemas",
+
+              "descricao": "Conectividade entre diferentes plataformas e aplicações (ERP, MES, CRM) para permitir fluxo contínuo de informações, eliminando silos de dados e viabilizando a gestão integrada."
+            }
           ]
-
         },
 
         {
+          "titulo": "Smart Manufacturing",
 
-          "titulo": "IA Generativa na manufatura",
-
-          "definicao": "Ramo da inteligência artificial focado na geração de conteúdo novo (texto, imagens, código, modelos 3D) a partir de modelos treinados como GPT, DALL-E e Stable Diffusion. Na manufatura, acelera projeto de produto, documentação técnica e programação de máquinas.",
-
-          "topicos": [
-    {
-      "nome": "LLMs aplicados á engenharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. LLMs aplicados á engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Geração de código G-code e PLC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Geração de código G-code e PLC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Design generativo para manufatura aditiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design generativo para manufatura aditiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Documentação técnica automática",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação técnica automática compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Assistentes virtuais para chão de fábrica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Assistentes virtuais para chão de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Geração automática de relatórios de qualidade",
-
-            "Projeto generativo de peças otimizadas",
-
-            "Assistente virtual para troubleshooting",
-
-            "Tradução e padronização de documentação técnica"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Sistemas ciberfísicos (CPS)",
-
-          "definicao": "Integração de componentes computacionais (software, redes) com processos físicos (sensores, atuadores, máquinas), onde o sistema digital monitora e controla o processo físico em malha fechada. Base da Indústria 4.0, seguindo a arquitetura 5C (conexão, conversão, cyber, cognição, configuração).",
+          "definicao": "Conceito de fábrica inteligente e conectada, com manufatura orientada a dados, cobots, controle de qualidade inteligente e planejamento digital da produção.",
 
           "topicos": [
-    {
-      "nome": "Arquitetura 5C dos CPS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arquitetura 5C dos CPS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Comunicação máquina a máquina (M2M)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação máquina a máquina (M2M) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Modelagem e simulação de CPS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem e simulação de CPS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "CPS aplicados a manufatura e energia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CPS aplicados a manufatura e energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Desafios de segurança e interoperabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desafios de segurança e interoperabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Fábrica Inteligente",
 
-          "aplicacoes": [
+              "descricao": "Conceito de unidade fabril totalmente conectada e automatizada, onde máquinas, sistemas e pessoas interagem em tempo real para produzir com máxima eficiência, flexibilidade e qualidade."
+            },
 
-            "Controle autônomo de tréfego urbano",
+            {
+              "nome": "Manufatura Orientada a Dados",
 
-            "Redes elétricas inteligentes (Smart Grid)",
+              "descricao": "Abordagem de produção onde decisões operacionais e estratégicas são baseadas na análise de dados coletados ao longo de todo o ciclo produtivo, utilizando técnicas de analytics e machine learning."
+            },
 
-            "Manufatura autônoma com auto-configuração",
+            {
+              "nome": "Robôs Colaborativos (Cobots)",
 
-            "Veículos autônomos e sistemas de transporte"
+              "descricao": "Robôs projetados para trabalhar em conjunto com seres humanos em segurança, combinando a precisão e resistência da máquina com a flexibilidade e julgamento do trabalhador."
+            },
 
+            {
+              "nome": "Controle de Qualidade Inteligente",
+
+              "descricao": "Sistema automatizado de inspeção que utiliza visão computacional, sensores e IA para detectar defeitos em tempo real, garantindo padrões de qualidade com maior precisão e velocidade."
+            },
+
+            {
+              "nome": "Planejamento e Controle da Produção Digital",
+
+              "descricao": "Uso de sistemas integrados (MES, APS, ERP) para planejar, programar e monitorar a produção em tempo real, otimizando recursos, reduzindo lead times e aumentando a produtividade."
+            }
           ]
-
-        },
-
-        {
-
-          "titulo": "Digital Thread",
-
-          "definicao": "Fluxo contínuo de dados integrados ao longo de todo o ciclo de vida do produto, desde o projeto conceitual até o descarte. Conecta PLM, ERP, MES, manufatura e serviço de campo, garantindo rastreabilidade e consistência da informação.",
-
-          "topicos": [
-    {
-      "nome": "Conexão entre PLM, ERP, MES e SCADA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conexão entre PLM, ERP, MES e SCADA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Rastreabilidade de versões e mudanças de engenharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade de versões e mudanças de engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Digital thread vs. Digital twin",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Digital thread vs. Digital twin compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Padrões (STEP AP242, QIF, MTConnect)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões (STEP AP242, QIF, MTConnect) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Implementação em arquiteturas de TI industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Implementação em arquiteturas de TI industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Rastreabilidade completa de lotes e matérias-primas",
-
-            "Gestão de mudanças de engenharia em cascata",
-
-            "Histórico de manutenção vinculado ao serial number",
-
-            "Conformidade regulatória (FDA, INMETRO)"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Fébrica autônoma",
-
-          "definicao": "Conceito de manufatura onde a produção opera com mínima intervenção humana, utilizando decisões baseadas em IA, robôs autônomos, sistemas de auto-otimização e logística intra-fábrica sem operador. Representa o estágio mais avançado de maturidade da Indústria 4.0.",
-
-          "topicos": [
-    {
-      "nome": "Níveis de autonomia na manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis de autonomia na manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Sistemas de scheduling autônomo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de scheduling autônomo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Logística com AGVs e drones",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Logística com AGVs e drones compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Auto-otimização de parâmetros de processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auto-otimização de parâmetros de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Manutenção autônoma com IA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção autônoma com IA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Linhas de montagem sem operadores (lights-out)",
-
-            "Armazéns totalmente automatizados",
-
-            "Centros de usinagem não tripulados",
-
-            "Fébricas de semicondutores com automação total"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Gêmeo digital de processo",
-
-          "definicao": "Réplica virtual de um processo produtivo específico (não do produto), usada para simular, monitorar e otimizar o comportamento dinômico da produção. Permite testar variações de parâmetros, identificar gargalos e prever o impacto de mudanças sem interromper a operação real.",
-
-          "topicos": [
-    {
-      "nome": "Modelagem de processos contínuos e discretos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem de processos contínuos e discretos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Simulação de eventos discretos (DES)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de eventos discretos (DES) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Calibração com dados históricos e em tempo real",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Calibração com dados históricos e em tempo real compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Otimização de setpoints com gêmeo digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização de setpoints com gêmeo digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ferramentas (AnyLogic, Simulink, Aspen Plus)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas (AnyLogic, Simulink, Aspen Plus) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Otimização de consumo energético de um forno",
-
-            "Simulação de cenérios de produção futuros",
-
-            "Detecção de desvios de processo em tempo real",
-
-            "Treinamento de operadores em ambiente virtual de processo"
-
-          ]
-
         }
-
       ]
 
     ,
@@ -6290,905 +5704,274 @@
       "subtopicos": [
 
         {
+          "titulo": "Tipos de manutenção",
 
-          "titulo": "Manutenção preventiva",
-
-          "definicao": "Estratégia de manutenção baseada em intervenções programadas por tempo de operação, calendério ou ciclos de uso. Tem como objetivo reduzir a probabilidade de falha e manter o equipamento em condições seguras e eficientes de operação.",
+          "definicao": "Classificação das estratégias de manutenção industrial, incluindo manutenção corretiva, preventiva, preditiva, detectiva, TPM, MCC e engenharia de manutenção.",
 
           "topicos": [
-    {
-      "nome": "Planos de manutenção preventiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planos de manutenção preventiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Periodicidade baseada em tempo e uso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Periodicidade baseada em tempo e uso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ordens de serviço programadas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ordens de serviço programadas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Checklists e procedimentos de inspeção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Checklists e procedimentos de inspeção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Indicadores de cumprimento do plano",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de cumprimento do plano compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Manutenção Corretiva",
 
-          "aplicacoes": [
+              "descricao": "Realizada após a ocorrência de falha, tem como objetivo restaurar a função do equipamento. Pode ser planejada ou emergencial, sendo esta última de maior custo e impacto produtivo."
+            },
 
-            "Lubrificação e troca de óleo programada",
+            {
+              "nome": "Manutenção Preventiva",
 
-            "Substituição de correias e filtros por calendério",
+              "descricao": "Executada em intervalos predeterminados com base no tempo ou uso, visa reduzir a probabilidade de falhas e manter o equipamento em condições operacionais adequadas."
+            },
 
-            "Inspeção periódica de sistemas elétricos",
+            {
+              "nome": "Manutenção Preditiva",
 
-            "Calibração de sensores e instrumentos"
+              "descricao": "Baseada no monitoramento contínuo das condições do equipamento por meio de técnicas como análise de vibração, termografia e ultrassom, permitindo intervenção no momento ótimo."
+            },
 
+            {
+              "nome": "Manutenção Detectiva",
+
+              "descricao": "Focada na identificação de falhas ocultas ou não aparentes em sistemas de proteção e segurança, executada por meio de testes e simulações programadas."
+            },
+
+            {
+              "nome": "Manutenção Centrada em Confiabilidade (MCC)",
+
+              "descricao": "Metodologia estruturada que determina as tarefas de manutenção mais adequadas para cada ativo com base em sua função, falhas potenciais e consequências operacionais."
+            },
+
+            {
+              "nome": "Manutenção Produtiva Total (TPM)",
+
+              "descricao": "Abordagem integrada que envolve todos os colaboradores na busca pela eficiência máxima dos equipamentos, combinando manutenção autônoma, preventiva e melhoria contínua."
+            },
+
+            {
+              "nome": "Manutenção Baseada em Condição (CBM)",
+
+              "descricao": "Estratégia que recomenda ações de manutenção com base nas condições reais do equipamento medidas por sensores e inspeções, maximizando a vida útil e reduzindo custos."
+            },
+
+            {
+              "nome": "Engenharia de Manutenção",
+
+              "descricao": "Disciplina que aplica princípios de engenharia para melhorar a confiabilidade, disponibilidade e mantenabilidade dos ativos, incluindo análise de falhas e redesenho de equipamentos."
+            }
           ]
-
         },
 
         {
+          "titulo": "Indicadores de manutenção",
 
-          "titulo": "Manutenção corretiva",
-
-          "definicao": "Intervenção realizada após a ocorrência de falha, com o objetivo de restaurar o equipamento ás condições normais de operação. Pode ser classificada como emergencial (falha crítica) ou programada (falha não crítica com reparo agendado).",
+          "definicao": "Principais métricas para avaliação do desempenho da manutenção, como MTBF, MTTR, disponibilidade, OEE e indicadores financeiros e de backlog.",
 
           "topicos": [
-    {
-      "nome": "Manutenção corretiva emergencial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção corretiva emergencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Manutenção corretiva programada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção corretiva programada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de criticidade para priorização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de criticidade para priorização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Gestão de ordens de serviço corretivas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de ordens de serviço corretivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Registro de falhas e horas de reparo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Registro de falhas e horas de reparo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "MTBF (Mean Time Between Failures)",
 
-          "aplicacoes": [
+              "descricao": "Indicador que mede o tempo médio entre falhas de um equipamento, refletindo sua confiabilidade. Quanto maior o MTBF, mais confiável é o ativo."
+            },
 
-            "Substituição de motor queimado",
+            {
+              "nome": "MTTR (Mean Time To Repair)",
 
-            "Reparo emergencial de vazamento em tubulação",
+              "descricao": "Indicador que mede o tempo médio necessário para reparar um equipamento após uma falha, refletindo a eficiência da equipe de manutenção e a mantenabilidade do ativo."
+            },
 
-            "Troca de placa eletrônica defeituosa",
+            {
+              "nome": "Disponibilidade",
 
-            "Recuperação de máquina após parada súbita"
+              "descricao": "Percentual de tempo em que um equipamento está disponível para operação, calculado a partir da relação entre MTBF e MTTR. Indicador-chave de desempenho da manutenção."
+            },
 
+            {
+              "nome": "OEE (Overall Equipment Effectiveness)",
+
+              "descricao": "Métrica que avalia a eficiência global de um equipamento considerando disponibilidade, desempenho e qualidade. É o principal indicador da manufatura enxuta."
+            },
+
+            {
+              "nome": "Custo de Manutenção por Faturamento",
+
+              "descricao": "Indicador financeiro que relaciona os gastos com manutenção ao faturamento da empresa, permitindo avaliar a competitividade e o equilíbrio dos investimentos em manutenção."
+            },
+
+            {
+              "nome": "Backlog de Manutenção",
+
+              "descricao": "Volume de ordens de serviço pendentes em relação à capacidade da equipe. Indica a carga de trabalho futura e ajuda no planejamento de recursos e priorização de atividades."
+            }
           ]
-
         },
 
         {
+          "titulo": "Confiabilidade",
 
-          "titulo": "Manutenção preditiva",
-
-          "definicao": "Estratégia baseada no monitoramento contínuo ou periódico de parâmetros de condição (vibração, temperatura, óleo, ultrassom) para prever falhas antes que ocorram. Permite intervir no momento ótimo, maximizando a vida útil do componente.",
+          "definicao": "Fundamentos da engenharia de confiabilidade, incluindo curva da banheira, distribuições de falha, FMEA, RCA e análise de sistemas em série e paralelo.",
 
           "topicos": [
-    {
-      "nome": "Anélise de vibração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de vibração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Termografia infravermelha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Termografia infravermelha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de óleo lubrificante",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de óleo lubrificante compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ultrassom industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ultrassom industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Monitoramento on-line com sensores IoT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento on-line com sensores IoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Conceitos de Confiabilidade",
 
-          "aplicacoes": [
+              "descricao": "Probabilidade de um item desempenhar sua função requerida por um intervalo de tempo sob condições definidas. Base da engenharia de confiabilidade e da gestão de ativos."
+            },
 
-            "Detecção precoce de falha em rolamentos",
+            {
+              "nome": "Curva da Banheira",
 
-            "Monitoramento de desgaste em engrenagens",
+              "descricao": "Modelo gráfico que descreve a taxa de falhas de um equipamento ao longo do tempo, dividido em três fases: mortalidade infantil, vida útil e desgaste."
+            },
 
-            "Identificação de pontos quentes em painéis elétricos",
+            {
+              "nome": "Distribuições de Falha (Weibull, Normal, Exponencial)",
 
-            "Anélise de contaminação em óleo hidréulico"
+              "descricao": "Modelos estatísticos utilizados para descrever o comportamento de falhas de equipamentos, sendo a distribuição de Weibull a mais flexível e amplamente aplicada na engenharia de confiabilidade."
+            },
 
+            {
+              "nome": "Sistemas em Série, Paralelo e Misto",
+
+              "descricao": "Configurações de arranjo de ativos em sistemas produtivos: em série (redundância mínima), em paralelo (redundância máxima) e misto, cada uma com impacto diferente na confiabilidade global."
+            },
+
+            {
+              "nome": "FMEA (Failure Mode and Effects Analysis)",
+
+              "descricao": "Ferramenta sistemática para identificar modos de falha potenciais, suas causas e efeitos, permitindo priorizar riscos e definir ações preventivas para aumentar a confiabilidade."
+            },
+
+            {
+              "nome": "RCA (Root Cause Analysis)",
+
+              "descricao": "Metodologia de investigação estruturada para identificar as causas raízes de falhas e não conformidades, evitando recorrências por meio de ações corretivas efetivas."
+            }
           ]
-
         },
 
         {
+          "titulo": "Gestão de ativos",
 
-          "titulo": "Manutenção detectiva",
-
-          "definicao": "Estratégia de busca ativa por falhas ocultas (não evidentes em operação normal), por meio de testes e inspeções periódicas. Comum em sistemas de proteção, segurança e emergência, onde a falha só se revela no momento da demanda.",
+          "definicao": "Gerenciamento do ciclo de vida dos ativos físicos conforme ISO 55001, abrangendo custeio LCC, cadastro, auditoria e indicadores de desempenho.",
 
           "topicos": [
-    {
-      "nome": "Testes de sistemas de segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Testes de sistemas de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Inspeção de dispositivos de proteção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção de dispositivos de proteção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Vélvulas de segurança e alívio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Vélvulas de segurança e alívio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Sistemas de alarme e detecção de incêndio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de alarme e detecção de incêndio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Periodicidade de teste baseada em risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Periodicidade de teste baseada em risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Ciclo de Vida do Ativo",
 
-          "aplicacoes": [
+              "descricao": "Abordagem que considera todas as fases da vida de um ativo, desde a concepção, aquisição e instalação até a operação, manutenção e descarte, visando maximizar o retorno do investimento."
+            },
 
-            "Teste funcional de SPDA e aterramento",
+            {
+              "nome": "Norma ISO 55001",
 
-            "Verificação de sensores de gés",
+              "descricao": "Norma internacional que especifica requisitos para um sistema de gestão de ativos, estabelecendo diretrizes para política, estratégia, planejamento e melhoria contínua na gestão de ativos."
+            },
 
-            "Teste de alarmes de painéis de controle",
+            {
+              "nome": "Custeio do Ciclo de Vida (LCC)",
 
-            "Inspeção de relés de proteção elétrica"
+              "descricao": "Método de análise econômica que considera todos os custos associados a um ativo ao longo de sua vida útil, incluindo aquisição, operação, manutenção e disposição final."
+            },
 
+            {
+              "nome": "Cadastro e Codificação de Ativos",
+
+              "descricao": "Processo de identificação e registro sistemático de todos os ativos físicos da organização, com codificação padronizada que permite rastreabilidade, controle e gestão eficiente."
+            },
+
+            {
+              "nome": "Auditoria de Ativos",
+
+              "descricao": "Avaliação sistemática e independente do estado físico e da gestão dos ativos, verificando conformidade com normas, políticas e requisitos de desempenho e segurança."
+            },
+
+            {
+              "nome": "Indicadores de Gestão de Ativos",
+
+              "descricao": "Conjunto de métricas que avaliam o desempenho da gestão de ativos, incluindo disponibilidade, utilização, custos, conformidade e risco, alinhados aos objetivos estratégicos da organização."
+            }
           ]
-
         },
 
         {
-
-          "titulo": "TPM  –  Manutenção Produtiva Total",
-
-          "definicao": "Metodologia de gestão originada no Japão (JIPM) que busca zero falhas, zero defeitos e zero acidentes através do envolvimento de todos os colaboradores. Estruturada em 8 pilares, integra manutenção autônoma, planejada e melhoria focada.",
-
-          "topicos": [
-    {
-      "nome": "8 pilares do TPM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 8 pilares do TPM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Manutenção autônoma (MA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manutenção autônoma (MA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Melhoria específica (kaizen)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria específica (kaizen) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Educação e treinamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Educação e treinamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "OEE  –  Overall Equipment Effectiveness",
-      "descricao": "Conceito aplicado na área de engenharia de produção. OEE  –  Overall Equipment Effectiveness compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "OEE = Disponibilidade × Performance × Qualidade",
-
-          "aplicacoes": [
-
-            "Programas TPM em montadoras automotivas",
-
-            "Redução de quebras em linhas de envase",
-
-            "Aumento de OEE em células de usinagem",
-
-            "Cultura de manutenção autônoma na produção"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "PCM  –  Planejamento e Controle da Manutenção",
-
-          "definicao": "Função gerencial responsével por planejar, programar, controlar e analisar as atividades de manutenção. Envolve a gestão de ordens de serviço, histórico de equipamentos, planejamento de recursos e indicadores de desempenho da manutenção.",
-
-          "topicos": [
-    {
-      "nome": "Estrutura de um PCM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura de um PCM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ordem de serviço (OS)  –  criação e fluxo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ordem de serviço (OS)  –  criação e fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Planejamento de recursos: mão de obra, peças, ferramentas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento de recursos: mão de obra, peças, ferramentas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Programação semanal e diária",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programação semanal e diária compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "KPIs de manutenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs de manutenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Implantação de rotinas de planejamento em indústrias",
-
-            "Controle de backlog de manutenção",
-
-            "Gestão de estoque de sobressalentes críticos",
-
-            "Anélise de custos de manutenção por equipamento"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Confiabilidade (RAMS)",
-
-          "definicao": "Disciplina da engenharia que estuda a capacidade de um sistema desempenhar sua função requerida sob condições específicas por um período determinado. RAMS integra confiabilidade (Reliability), disponibilidade (Availability), mantenabilidade (Maintainability) e segurança (Safety).",
-
-          "topicos": [
-    {
-      "nome": "Confiabilidade (Reliability)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Confiabilidade (Reliability) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Disponibilidade (Availability)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade (Availability) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Mantenabilidade (Maintainability)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mantenabilidade (Maintainability) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Segurança (Safety)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança (Safety) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Engenharia de confiabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Engenharia de confiabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "R(t) = e^(-λt)",
-
-          "aplicacoes": [
-
-            "Garantia de confiabilidade em sistemas aeroespaciais",
-
-            "Projeto de sistemas com redundôncia",
-
-            "Anélise RAM de plantas petroquímicas",
-
-            "Metas contratuais de disponibilidade de ativos"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Disponibilidade de equipamentos",
-
-          "definicao": "Percentual de tempo em que um equipamento está apto a operar, considerando o tempo total e as paradas por manutenção. ë um dos principais indicadores de desempenho da gestão de ativos.",
-
-          "topicos": [
-    {
-      "nome": "Disponibilidade intrínseca",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade intrínseca compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Disponibilidade operacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade operacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Disponibilidade global",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade global compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Cálculo de disponibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo de disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Fatores que afetam a disponibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fatores que afetam a disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "D = MTBF / (MTBF + MTTR)",
-
-          "aplicacoes": [
-
-            "Metas de disponibilidade em contratos de manutenção",
-
-            "Comparação de desempenho entre linhas de produção",
-
-            "Anélise de gargalos por indisponibilidade",
-
-            "Dimensionamento de capacidade produtiva"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "MTBF  –  Mean Time Between Failures",
-
-          "definicao": "Métrica de confiabilidade que representa o tempo médio entre falhas consecutivas de um equipamento reparével. Quanto maior o MTBF, mais confiével é o ativo.",
-
-          "topicos": [
-    {
-      "nome": "Cálculo do MTBF",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo do MTBF compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "MTBF vs. MTTF (para itens não reparéveis)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MTBF vs. MTTF (para itens não reparéveis) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Coleta e validação de dados de falha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Coleta e validação de dados de falha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "MTBF como entrada para dimensionamento de estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MTBF como entrada para dimensionamento de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Melhorias de MTBF por engenharia de confiabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhorias de MTBF por engenharia de confiabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "MTBF = Tempo Total de Operação / Número de Falhas",
-
-          "aplicacoes": [
-
-            "Benchmarking de confiabilidade entre equipamentos similares",
-
-            "Planejamento de manutenção preventiva",
-
-            "Garantia de contratos de desempenho",
-
-            "Projeto de sistemas com requisitos de confiabilidade"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "MTTR  –  Mean Time To Repair",
-
-          "definicao": "Métrica de mantenabilidade que mede o tempo médio necessário para reparar um equipamento após a ocorrência de uma falha. Inclui diagnóstico, desmontagem, reparo, montagem e teste.",
-
-          "topicos": [
-    {
-      "nome": "Componentes do MTTR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Componentes do MTTR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Estratégias para redução do MTTR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégias para redução do MTTR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "MTTR no cálculo de disponibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MTTR no cálculo de disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de modos de falha que impactam reparo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de modos de falha que impactam reparo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Treinamento e documentação para redução de MTTR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento e documentação para redução de MTTR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "MTTR = Tempo Total de Reparo / Número de Falhas",
-
-          "aplicacoes": [
-
-            "Redução de tempo de reparo em linhas críticas",
-
-            "Projeto para mantenabilidade (Design for Maintenance)",
-
-            "Avaliação de desempenho da equipe de manutenção",
-
-            "Dimensionamento de equipes de plantão"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Anélise de falhas (RCA)",
-
-          "definicao": "Metodologia estruturada para identificar as causas raiz de falhas em equipamentos ou processos, utilizando ferramentas como diagrama de Ishikawa, 5 Porquês e érvore lógica de falhas. Permite implementar ações corretivas efetivas e evitar recorrência.",
-
-          "topicos": [
-    {
-      "nome": "Método dos 5 Porquês",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Método dos 5 Porquês compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Diagrama de Ishikawa (causa e efeito)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diagrama de Ishikawa (causa e efeito) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "ürvore de falhas (FTA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ürvore de falhas (FTA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de modo e efeito de falha (FMEA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de modo e efeito de falha (FMEA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Plano de ação e validação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação e validação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Investigação de falhas recorrentes em máquinas",
-
-            "Anélise de acidentes industriais",
-
-            "Melhoria contínua baseada em dados de campo",
-
-            "Redução de custos com retrabalho de manutenção"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Manutenção centrada em confiabilidade (MCC/RCM)",
-
-          "definicao": "Metodologia sistemática para determinar as estratégias de manutenção mais adequadas para cada ativo, com base em suas funções, falhas funcionais e consequências. Utiliza diagrama de decisão para selecionar tarefas preventivas, preditivas ou corretivas aplicéveis e efetivas.",
-
-          "topicos": [
-    {
-      "nome": "Diagrama de decisão RCM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diagrama de decisão RCM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de modos de falha e efeitos (FMEA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de modos de falha e efeitos (FMEA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Seleção de tarefas de manutenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Seleção de tarefas de manutenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "RCM vs. RCM2 vs. RCM3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RCM vs. RCM2 vs. RCM3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Implementação RCM com softwares especializados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Implementação RCM com softwares especializados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Definição de planos de manutenção para ativos críticos",
-
-            "Otimização de custos de manutenção em refinarias",
-
-            "Revisão de planos preventivos existentes",
-
-            "Manutenção de sistemas aeronéuticos"
-
-          ]
-
-        },
-
-        {
-
           "titulo": "Manutenção autônoma",
 
-          "definicao": "Pilar do TPM onde os operadores de produção realizam atividades básicas de manutenção, como limpeza, lubrificação, inspeção e pequenos ajustes. Desenvolve o senso de propriedade do equipamento e libera a equipe técnica para manutenções mais complexas.",
+          "definicao": "Pilar do TPM que capacita operadores a realizar manutenções básicas, com etapas de implantação, padrões de inspeção e indicadores específicos.",
 
           "topicos": [
-    {
-      "nome": "Etapas de implementação da manutenção autônoma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Etapas de implementação da manutenção autônoma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Padrões de limpeza e inspeção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões de limpeza e inspeção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Treinamento de operadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento de operadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Indicadores de manutenção autônoma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de manutenção autônoma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração com manutenção planejada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com manutenção planejada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "",
+            {
+              "nome": "Conceitos de Manutenção Autônoma",
 
-          "aplicacoes": [
+              "descricao": "Pilar do TPM que transfere responsabilidades básicas de manutenção para os operadores das máquinas, como limpeza, lubrificação e inspeção, promovendo o senso de propriedade do equipamento."
+            },
 
-            "Rotinas diárias de limpeza e lubrificação",
+            {
+              "nome": "Etapas de Implantação",
 
-            "Inspeção sensorial (visão, audição, tato) por operadores",
+              "descricao": "Processo estruturado em 7 etapas que vai da limpeza inicial e inspeção até a padronização e gestão autônoma completa, capacitando gradualmente os operadores para cuidar de seus equipamentos."
+            },
 
-            "Identificação e correção de anomalias menores",
+            {
+              "nome": "Padrões de Limpeza e Inspeção",
 
-            "Padronização de postos de trabalho (5S + MA)"
+              "descricao": "Procedimentos documentados que definem frequência, método e critérios para limpeza, lubrificação e inspeção de equipamentos realizados pelos operadores no dia a dia."
+            },
 
+            {
+              "nome": "Treinamento e Capacitação de Operadores",
+
+              "descricao": "Programa de desenvolvimento contínuo que habilita operadores a identificar anomalias, realizar manutenções básicas e contribuir ativamente com melhorias nos equipamentos e processos."
+            },
+
+            {
+              "nome": "Indicadores da Manutenção Autônoma",
+
+              "descricao": "Métricas que acompanham a evolução da manutenção autônoma, como número de anomalias detectadas, cumprimento de padrões, redução de falhas e melhoria dos indicadores de equipamento."
+            }
           ]
-
         },
 
         {
+          "titulo": "Manutenção planejada",
 
-          "titulo": "Engenharia de confiabilidade",
-
-          "definicao": "Disciplina que aplica princípios estatísticos e de engenharia para garantir que um sistema ou equipamento opere sem falhas por um período determinado. Utiliza ferramentas como distribuição de Weibull, testes de vida acelerada e análise de dados de campo.",
-
-          "topicos": [
-    {
-      "nome": "Distribuição de Weibull e análise de falhas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Distribuição de Weibull e análise de falhas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Curva da banheira (infantil, aleatória, desgaste)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Curva da banheira (infantil, aleatória, desgaste) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Testes de confiabilidade (ALT, HALT)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Testes de confiabilidade (ALT, HALT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Confiabilidade de sistemas: série, paralelo e k-out-of-n",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Confiabilidade de sistemas: série, paralelo e k-out-of-n compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Predição de confiabilidade e FMECA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Predição de confiabilidade e FMECA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "Rs = R1 × R2 × R3 (sistemas em série)",
-
-          "aplicacoes": [
-
-            "Previsão de vida útil de componentes críticos",
-
-            "Projeto de sistemas com requisitos de confiabilidade",
-
-            "Anélise de garantia e campo",
-
-            "Suporte á decisão entre manutenção preventiva e corretiva"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "FMEA de equipamento",
-
-          "definicao": "Ferramenta de análise de riscos que identifica modos de falha potenciais de um equipamento, suas causas, efeitos e prioriza ações preventivas pelo Número de Prioridade de Risco (NPR). ë uma etapa essencial do RCM.",
+          "definicao": "Processo estruturado de planejamento e programação da manutenção, incluindo ordens de serviço, planos de manutenção e gestão de materiais e suprimentos.",
 
           "topicos": [
-    {
-      "nome": "Modo de falha, causa e efeito",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modo de falha, causa e efeito compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "ìndices de severidade, ocorrência e detecção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìndices de severidade, ocorrência e detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "NPR (Número de Prioridade de Risco)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NPR (Número de Prioridade de Risco) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Ações preventivas e validação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ações preventivas e validação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "FMEA de processo vs. FMEA de equipamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. FMEA de processo vs. FMEA de equipamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
 
-          "formula": "NPR = S × O × D",
+            {
+              "nome": "Planejamento de Manutenção",
 
-          "aplicacoes": [
+              "descricao": "Processo de definição do escopo, recursos, métodos e prazos para execução das atividades de manutenção, garantindo que toda intervenção seja realizada de forma organizada e eficiente."
+            },
 
-            "Anélise de riscos em equipamentos de produção",
+            {
+              "nome": "Programação de Manutenção",
 
-            "Priorização de planos de manutenção",
+              "descricao": "Etapa que define a sequência e o momento exato das atividades de manutenção, considerando disponibilidade de recursos, janelas de parada e prioridades operacionais."
+            },
 
-            "Suporte ao RCM e á engenharia de confiabilidade",
+            {
+              "nome": "Ordem de Serviço (OS)",
 
-            "Gestão de mudanças (MOC) de equipamentos"
+              "descricao": "Documento que formaliza e autoriza a execução de uma atividade de manutenção, contendo escopo, recursos, procedimentos, prazo e campo para registro do histórico e resultados."
+            },
 
+            {
+              "nome": "Plano de Manutenção",
+
+              "descricao": "Documento mestre que consolida todas as atividades de manutenção preventiva, preditiva e detectiva de um ativo ou sistema, com frequências, procedimentos e responsáveis definidos."
+            },
+
+            {
+              "nome": "Materiais, Ferramentas e Suprimentos",
+
+              "descricao": "Gestão dos recursos materiais necessários à manutenção, incluindo estoque de peças de reposição, ferramentas especiais e insumos, garantindo disponibilidade sem excessos."
+            }
           ]
-
-        },
-
-        {
-
-          "titulo": "Anélise de óleo e vibração",
-
-          "definicao": "Técnicas preditivas complementares que monitoram a condição de máquinas rotativas. A análise de óleo identifica contaminação, desgaste e degradação do lubrificante. A análise de vibração detecta desbalanceamento, desalinhamento e falhas de rolamentos.",
-
-          "topicos": [
-    {
-      "nome": "Espectroscopia e ferramentas de análise de óleo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Espectroscopia e ferramentas de análise de óleo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de tendências de vibração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de tendências de vibração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Espectro FFT e envelope",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Espectro FFT e envelope compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Normas ISO 10816 (vibração) e ISO 4406 (óleo)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Normas ISO 10816 (vibração) e ISO 4406 (óleo) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração com CMMS e sistemas de monitoramento on-line",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração com CMMS e sistemas de monitoramento on-line compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Monitoramento de caixas de engrenagens",
-
-            "Diagnóstico de bombas centrífugas",
-
-            "Acompanhamento de compressores alternativos",
-
-            "Programa de lubrificação baseada em condição"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Termografia industrial",
-
-          "definicao": "Técnica preditiva que utiliza cômeras infravermelhas para medir a temperatura superficial de equipamentos e componentes elétricos, identificando pontos quentes anormais que indicam falhas incipientes, como mau contato, sobrecarga e desgaste de isolamento.",
-
-          "topicos": [
-    {
-      "nome": "Princípios físicos da termografia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios físicos da termografia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Cômeras térmicas e configurações",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cômeras térmicas e configurações compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Emissividade e correções",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Emissividade e correções compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Padrões e normas (ABNT NBR 16214, ISO 18434)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões e normas (ABNT NBR 16214, ISO 18434) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Categorização de anomalias térmicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Categorização de anomalias térmicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Inspeção de painéis elétricos e subestações",
-
-            "Detecção de falhas em isolamento térmico",
-
-            "Monitoramento de fornos e reatores",
-
-            "Anélise de motores e acoplamentos"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Ultrassom industrial",
-
-          "definicao": "Técnica preditiva que detecta ondas sonoras de alta frequência geradas por atrito, impacto, descargas elétricas e vazamentos. Permite identificar falhas em rolamentos, válvulas, sistemas de vácuo e componentes elétricos em estágio inicial.",
-
-          "topicos": [
-    {
-      "nome": "Física do ultrassom aplicado á manutenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Física do ultrassom aplicado á manutenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Detectores de ultrassom (modo heteródino)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Detectores de ultrassom (modo heteródino) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de rolamentos com ultrassom",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de rolamentos com ultrassom compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Detecção de vazamentos em sistemas pressurizados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Detecção de vazamentos em sistemas pressurizados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Descargas parciais em equipamentos elétricos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Descargas parciais em equipamentos elétricos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Detecção de vazamentos em redes de ar comprimido",
-
-            "Inspeção de rolamentos de motores",
-
-            "Monitoramento de válvulas de controle",
-
-            "Anélise de descargas parciais em cabos e transformadores"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Manutenção baseada em condição (CBM)",
-
-          "definicao": "Estratégia que recomenda ações de manutenção com base na condição real do equipamento, monitorada por técnicas preditivas (vibração, termografia, óleo, ultrassom). Substitui intervenções por tempo fixo por decisões orientadas por dados de condição.",
-
-          "topicos": [
-    {
-      "nome": "Técnicas de monitoramento de condição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Técnicas de monitoramento de condição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Limites de alarme e tendências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de alarme e tendências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Integração CBM com sistemas CMMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração CBM com sistemas CMMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Anélise de custo-benefício do CBM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de custo-benefício do CBM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "CBM para máquinas rotativas e estáticas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CBM para máquinas rotativas e estáticas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Manutenção de turbinas e geradores",
-
-            "Monitoramento contínuo de bombas críticas",
-
-            "Programa CBM em frotas de caminhões",
-
-            "Gestão de ativos de utilidades industriais"
-
-          ]
-
-        },
-
-        {
-
-          "titulo": "Sistema de gestão de manutenção (CMMS/SGM)",
-
-          "definicao": "Software integrado que gerencia todas as atividades de manutenção: ordens de serviço, planejamento, histórico de equipamentos, estoque de peças e indicadores. Automatiza rotinas, melhora a rastreabilidade e suporta a tomada de decisão baseada em dados.",
-
-          "topicos": [
-    {
-      "nome": "Funcionalidades de um CMMS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Funcionalidades de um CMMS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Cadastro de equipamentos e érvore de ativos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cadastro de equipamentos e érvore de ativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Gestão de ordens de serviço (OS)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de ordens de serviço (OS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Controle de estoque de sobressalentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle de estoque de sobressalentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    },
-    {
-      "nome": "Relatórios e KPIs automatizados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relatórios e KPIs automatizados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
-    }
-  ],
-
-          "formula": "",
-
-          "aplicacoes": [
-
-            "Implantação de sistema CMMS em plantas industriais",
-
-            "Gestão de manutenção de frotas",
-
-            "Controle de ordens de serviço em hospitais",
-
-            "Manutenção predial e facilities management"
-
-          ]
-
         }
-
       ]
 
     ,
@@ -7221,23 +6004,23 @@
           "topicos": [
     {
       "nome": "Posturas no trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Posturas no trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Posturas no trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Movimentos repetitivos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentos repetitivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentos repetitivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aplicação de força",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação de força compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação de força compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Antropometria estática e dinâmica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Antropometria estática e dinâmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Antropometria estática e dinâmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Biomecônica ocupacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Biomecônica ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Biomecônica ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7266,23 +6049,23 @@
           "topicos": [
     {
       "nome": "Carga mental e fadiga cognitiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Carga mental e fadiga cognitiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Carga mental e fadiga cognitiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usabilidade de interfaces homem-máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade de interfaces homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade de interfaces homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tomada de decisão sob pressão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tomada de decisão sob pressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tomada de decisão sob pressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de alarme e alerta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de alarme e alerta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de alarme e alerta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fatores humanos em salas de controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fatores humanos em salas de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fatores humanos em salas de controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7311,23 +6094,23 @@
           "topicos": [
     {
       "nome": "Organização do trabalho e turnos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Organização do trabalho e turnos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Organização do trabalho e turnos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trabalho em equipe e comunicação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho em equipe e comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho em equipe e comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão participativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão participativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão participativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Conteúdo e enriquecimento de tarefas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo e enriquecimento de tarefas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo e enriquecimento de tarefas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cultura de segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7356,23 +6139,23 @@
           "topicos": [
     {
       "nome": "Prevenção de acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prevenção de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prevenção de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de riscos (APR)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de riscos (APR) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de riscos (APR) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inspeções de segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeções de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeções de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Treinamentos (NRs, CIPA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamentos (NRs, CIPA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamentos (NRs, CIPA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de segurança (TAE, TTF)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de segurança (TAE, TTF) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de segurança (TAE, TTF) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7401,23 +6184,23 @@
           "topicos": [
     {
       "nome": "Agentes físicos (ruído, calor, radiação, vibração)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes físicos (ruído, calor, radiação, vibração) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes físicos (ruído, calor, radiação, vibração) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Agentes químicos (gases, vapores, poeiras)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes químicos (gases, vapores, poeiras) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes químicos (gases, vapores, poeiras) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Agentes biológicos (fungos, bactérias, vírus)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes biológicos (fungos, bactérias, vírus) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Agentes biológicos (fungos, bactérias, vírus) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Limites de exposição ocupacional (LT, TWA, STEL)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de exposição ocupacional (LT, TWA, STEL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de exposição ocupacional (LT, TWA, STEL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Técnicas de medição e amostragem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Técnicas de medição e amostragem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Técnicas de medição e amostragem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7446,23 +6229,23 @@
           "topicos": [
     {
       "nome": "NR-17  –  Ergonomia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-17  –  Ergonomia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-17  –  Ergonomia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-12  –  Segurança em Máquinas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-12  –  Segurança em Máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-12  –  Segurança em Máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-35  –  Trabalho em Altura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-35  –  Trabalho em Altura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-35  –  Trabalho em Altura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-33  –  Espaço Confinado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-33  –  Espaço Confinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-33  –  Espaço Confinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-06  –  EPI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-06  –  EPI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-06  –  EPI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7491,23 +6274,23 @@
           "topicos": [
     {
       "nome": "Demanda, tarefa e atividade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda, tarefa e atividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda, tarefa e atividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Observação global e sistemática",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Observação global e sistemática compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Observação global e sistemática compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Entrevistas e autoconfrontação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevistas e autoconfrontação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevistas e autoconfrontação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise da atividade real vs. prescrita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise da atividade real vs. prescrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise da atividade real vs. prescrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Recomendações ergonômicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recomendações ergonômicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recomendações ergonômicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7536,23 +6319,23 @@
           "topicos": [
     {
       "nome": "Programa de prevenção de acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de prevenção de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de prevenção de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de quase-acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de quase-acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de quase-acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cultura de segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores proativos e reativos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores proativos e reativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores proativos e reativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Círculos de segurança (kaizen de segurança)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Círculos de segurança (kaizen de segurança) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Círculos de segurança (kaizen de segurança) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7581,23 +6364,23 @@
           "topicos": [
     {
       "nome": "PGR  –  Programa de Gerenciamento de Riscos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PGR  –  Programa de Gerenciamento de Riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PGR  –  Programa de Gerenciamento de Riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inventério de riscos ocupacionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério de riscos ocupacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério de riscos ocupacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de ação do PGR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação do PGR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação do PGR compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PCMSO e exames médicos (admissional, periódico, demissional)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PCMSO e exames médicos (admissional, periódico, demissional) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PCMSO e exames médicos (admissional, periódico, demissional) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ASO  –  Atestado de Saúde Ocupacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ASO  –  Atestado de Saúde Ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ASO  –  Atestado de Saúde Ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7626,23 +6409,23 @@
           "topicos": [
     {
       "nome": "Dimensionamento da CIPA (NR-05)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento da CIPA (NR-05) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento da CIPA (NR-05) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dimensionamento do SESMT (NR-04)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento do SESMT (NR-04) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento do SESMT (NR-04) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atribuições e funcionamento da CIPA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atribuições e funcionamento da CIPA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atribuições e funcionamento da CIPA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Engenheiro de segurança, técnico, médico e enfermeiro do trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Engenheiro de segurança, técnico, médico e enfermeiro do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Engenheiro de segurança, técnico, médico e enfermeiro do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mapeamento de riscos pela CIPA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de riscos pela CIPA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de riscos pela CIPA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7671,23 +6454,23 @@
           "topicos": [
     {
       "nome": "Tipos de EPI (cabeça, olhos, vias aéreas, mãos, pés)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tipos de EPI (cabeça, olhos, vias aéreas, mãos, pés) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tipos de EPI (cabeça, olhos, vias aéreas, mãos, pés) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificação e CA (Certificado de Aprovação)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação e CA (Certificado de Aprovação) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação e CA (Certificado de Aprovação) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Exaustão e ventilação local (EPC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Exaustão e ventilação local (EPC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Exaustão e ventilação local (EPC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Enclausuramento de máquinas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Enclausuramento de máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Enclausuramento de máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Treinamento e guarda de EPI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento e guarda de EPI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento e guarda de EPI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7716,23 +6499,23 @@
           "topicos": [
     {
       "nome": "Procedimento de bloqueio e etiquetagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Procedimento de bloqueio e etiquetagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Procedimento de bloqueio e etiquetagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Identificação de pontos de energia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de pontos de energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de pontos de energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cadeados, hasps e etiquetas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cadeados, hasps e etiquetas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cadeados, hasps e etiquetas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Verificação de zero energia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação de zero energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação de zero energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Treinamento e auditoria LOTO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento e auditoria LOTO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento e auditoria LOTO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7761,23 +6544,23 @@
           "topicos": [
     {
       "nome": "Dimensionamento de bancadas e mesas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento de bancadas e mesas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dimensionamento de bancadas e mesas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ajustabilidade de cadeiras e suportes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ajustabilidade de cadeiras e suportes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ajustabilidade de cadeiras e suportes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Posicionamento de monitores e teclados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Posicionamento de monitores e teclados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Posicionamento de monitores e teclados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Iluminação e ofuscamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Iluminação e ofuscamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Iluminação e ofuscamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de alcance e zonas de conforto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de alcance e zonas de conforto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de alcance e zonas de conforto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7806,23 +6589,23 @@
           "topicos": [
     {
       "nome": "Medidas antropométricas estáticas e dinâmicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Medidas antropométricas estáticas e dinâmicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Medidas antropométricas estáticas e dinâmicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Percentis e população-alvo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Percentis e população-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Percentis e população-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Bases de dados antropométricos brasileiros",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bases de dados antropométricos brasileiros compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bases de dados antropométricos brasileiros compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aplicação: projeto para extremos vs. ajustével",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação: projeto para extremos vs. ajustével compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação: projeto para extremos vs. ajustével compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Diferenças entre gêneros e etnias",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diferenças entre gêneros e etnias compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Diferenças entre gêneros e etnias compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7851,23 +6634,23 @@
           "topicos": [
     {
       "nome": "Cinemética e cinética do movimento humano",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cinemética e cinética do movimento humano compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cinemética e cinética do movimento humano compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelos biomecônicos (2D e 3D)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos biomecônicos (2D e 3D) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos biomecônicos (2D e 3D) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de levantamento de carga (NIOSH)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de levantamento de carga (NIOSH) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de levantamento de carga (NIOSH) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Torque e compressão no disco lombar",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Torque e compressão no disco lombar compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Torque e compressão no disco lombar compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferramentas de análise (3DSSPP, AnyBody)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas de análise (3DSSPP, AnyBody) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas de análise (3DSSPP, AnyBody) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7896,23 +6679,23 @@
           "topicos": [
     {
       "nome": "Erro humano e confiabilidade humana",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Erro humano e confiabilidade humana compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Erro humano e confiabilidade humana compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Carga de trabalho e vigilôncia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Carga de trabalho e vigilôncia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Carga de trabalho e vigilôncia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tomada de decisão em situações de emergência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tomada de decisão em situações de emergência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tomada de decisão em situações de emergência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de alarme e automação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de alarme e automação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de alarme e automação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usabilidade e experiência do usuério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade e experiência do usuério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usabilidade e experiência do usuério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7941,23 +6724,23 @@
           "topicos": [
     {
       "nome": "Etapas da APR: identificação, avaliação, controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Etapas da APR: identificação, avaliação, controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Etapas da APR: identificação, avaliação, controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Hierarquia de controles (eliminação, substituição, engenharia, administrativo, EPI)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hierarquia de controles (eliminação, substituição, engenharia, administrativo, EPI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hierarquia de controles (eliminação, substituição, engenharia, administrativo, EPI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "APR para trabalho em altura, elétrico, espaço confinado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. APR para trabalho em altura, elétrico, espaço confinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. APR para trabalho em altura, elétrico, espaço confinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Permissão de Trabalho (PT)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Permissão de Trabalho (PT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Permissão de Trabalho (PT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise preliminar de riscos (APR) no projeto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise preliminar de riscos (APR) no projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise preliminar de riscos (APR) no projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -7986,23 +6769,23 @@
           "topicos": [
     {
       "nome": "Cores padrão dos riscos (verde, vermelho, marrom, amarelo, azul)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cores padrão dos riscos (verde, vermelho, marrom, amarelo, azul) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cores padrão dos riscos (verde, vermelho, marrom, amarelo, azul) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Levantamento de riscos com os trabalhadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Levantamento de riscos com os trabalhadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Levantamento de riscos com os trabalhadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Representação gréfica do layout",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Representação gréfica do layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Representação gréfica do layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atualização periódica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atualização periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atualização periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Divulgação e treinamento sobre o mapa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Divulgação e treinamento sobre o mapa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Divulgação e treinamento sobre o mapa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8031,23 +6814,23 @@
           "topicos": [
     {
       "nome": "Teoria dos dominós de Heinrich",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Teoria dos dominós de Heinrich compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Teoria dos dominós de Heinrich compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo de Reason (queijo suíço)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de Reason (queijo suíço) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo de Reason (queijo suíço) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Causas imediatas e básicas de acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Causas imediatas e básicas de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Causas imediatas e básicas de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Investigação de acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Investigação de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Investigação de acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de desempenho em segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho em segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho em segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8076,23 +6859,23 @@
           "topicos": [
     {
       "nome": "Processo GRO segundo NR-01",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processo GRO segundo NR-01 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processo GRO segundo NR-01 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inventério de riscos ocupacionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério de riscos ocupacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério de riscos ocupacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de ação do PGR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação do PGR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação do PGR compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Monitoramento e revisão periódica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento e revisão periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento e revisão periódica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração GRO com outros sistemas (SGI)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração GRO com outros sistemas (SGI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração GRO com outros sistemas (SGI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8145,23 +6928,23 @@
           "topicos": [
     {
       "nome": "Pilar Ambiental (E): emissões, resíduos, recursos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Ambiental (E): emissões, resíduos, recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Ambiental (E): emissões, resíduos, recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pilar Social (S): direitos humanos, diversidade, comunidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Social (S): direitos humanos, diversidade, comunidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Social (S): direitos humanos, diversidade, comunidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pilar Governança (G): compliance, transparência, ética",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Governança (G): compliance, transparência, ética compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pilar Governança (G): compliance, transparência, ética compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ESG ratings e agências avaliadoras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ESG ratings e agências avaliadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ESG ratings e agências avaliadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relatórios ESG e frameworks (GRI, SASB, TCFD)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relatórios ESG e frameworks (GRI, SASB, TCFD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relatórios ESG e frameworks (GRI, SASB, TCFD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8190,23 +6973,23 @@
           "topicos": [
     {
       "nome": "Princípios da economia circular (Ellen MacArthur Foundation)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios da economia circular (Ellen MacArthur Foundation) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios da economia circular (Ellen MacArthur Foundation) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "10 R's da circularidade (Recusar, Reduzir, Reusar, Reciclar...)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 10 R's da circularidade (Recusar, Reduzir, Reusar, Reciclar...) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 10 R's da circularidade (Recusar, Reduzir, Reusar, Reciclar...) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ciclos biológicos e técnicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclos biológicos e técnicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclos biológicos e técnicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Design para circularidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design para circularidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Design para circularidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelos de negócio circulares (PaaS, servitização)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos de negócio circulares (PaaS, servitização) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos de negócio circulares (PaaS, servitização) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8235,23 +7018,23 @@
           "topicos": [
     {
       "nome": "Política ambiental e objetivos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Política ambiental e objetivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Política ambiental e objetivos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aspectos e impactos ambientais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aspectos e impactos ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aspectos e impactos ambientais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atendimento a requisitos legais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atendimento a requisitos legais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atendimento a requisitos legais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SGA  –  Sistema de Gestão Ambiental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SGA  –  Sistema de Gestão Ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SGA  –  Sistema de Gestão Ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria ambiental (interna e externa)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria ambiental (interna e externa) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria ambiental (interna e externa) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8280,23 +7063,23 @@
           "topicos": [
     {
       "nome": "Diagnóstico energético e benchmarking",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diagnóstico energético e benchmarking compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Diagnóstico energético e benchmarking compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Motores de alta eficiência (IE3/IE4)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Motores de alta eficiência (IE3/IE4) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Motores de alta eficiência (IE3/IE4) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de iluminação LED com controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de iluminação LED com controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de iluminação LED com controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Recuperação de calor residual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recuperação de calor residual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recuperação de calor residual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cogeração e trigeração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cogeração e trigeração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cogeração e trigeração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8325,23 +7108,23 @@
           "topicos": [
     {
       "nome": "Classificação de resíduos (perigosos e não perigosos  –  NBR 10004)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação de resíduos (perigosos e não perigosos  –  NBR 10004) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação de resíduos (perigosos e não perigosos  –  NBR 10004) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Coleta seletiva e logística reversa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Coleta seletiva e logística reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Coleta seletiva e logística reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tratamento (incineração, compostagem, aterro)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tratamento (incineração, compostagem, aterro) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tratamento (incineração, compostagem, aterro) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "MTR  –  Manifesto de Transporte de Resíduos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MTR  –  Manifesto de Transporte de Resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MTR  –  Manifesto de Transporte de Resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de gestão de resíduos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de gestão de resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de gestão de resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8370,23 +7153,23 @@
           "topicos": [
     {
       "nome": "Escopos 1, 2 e 3 de emissões (GHG Protocol)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escopos 1, 2 e 3 de emissões (GHG Protocol) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escopos 1, 2 e 3 de emissões (GHG Protocol) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cálculo de emissões diretas e indiretas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo de emissões diretas e indiretas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo de emissões diretas e indiretas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fatores de emissão por fonte energética",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fatores de emissão por fonte energética compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fatores de emissão por fonte energética compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compensação via créditos de carbono",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compensação via créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compensação via créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Declaração de pegada de carbono de produto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Declaração de pegada de carbono de produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Declaração de pegada de carbono de produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8415,15 +7198,15 @@
           "topicos": [
     {
       "nome": "Níveis da P+L (fonte, reciclagem interna, externa)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis da P+L (fonte, reciclagem interna, externa) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis da P+L (fonte, reciclagem interna, externa) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ecoeficiência e indicadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ecoeficiência e indicadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ecoeficiência e indicadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Substituição de insumos tóxicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Substituição de insumos tóxicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Substituição de insumos tóxicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização de processos",
@@ -8431,7 +7214,7 @@
     },
     {
       "nome": "Estudos de caso P+L em setores industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estudos de caso P+L em setores industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estudos de caso P+L em setores industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8460,23 +7243,23 @@
           "topicos": [
     {
       "nome": "Estrutura PDCA aplicada ao SGA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura PDCA aplicada ao SGA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura PDCA aplicada ao SGA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Contexto da organização e partes interessadas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Contexto da organização e partes interessadas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Contexto da organização e partes interessadas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Política ambiental e planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Política ambiental e planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Política ambiental e planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de desempenho e auditoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de desempenho e auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de desempenho e auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Melhoria contínua e não conformidades",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua e não conformidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua e não conformidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8505,23 +7288,23 @@
           "topicos": [
     {
       "nome": "Canais de distribuição reversos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de distribuição reversos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de distribuição reversos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acordos setoriais de logística reversa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordos setoriais de logística reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordos setoriais de logística reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Centros de coleta e triagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de coleta e triagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de coleta e triagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxos: embalagens, eletroeletrônicos, pneus, óleo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxos: embalagens, eletroeletrônicos, pneus, óleo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxos: embalagens, eletroeletrônicos, pneus, óleo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de retorno e reciclagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de retorno e reciclagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de retorno e reciclagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8550,23 +7333,23 @@
           "topicos": [
     {
       "nome": "Padrões GRI (Universal, Setoriais, Teméticos)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões GRI (Universal, Setoriais, Teméticos) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padrões GRI (Universal, Setoriais, Teméticos) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Materialidade e engajamento de stakeholders",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Materialidade e engajamento de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Materialidade e engajamento de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores GRI por dimensão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores GRI por dimensão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores GRI por dimensão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Verificação externa e assurance",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação externa e assurance compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Verificação externa e assurance compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relato integrado (IIRC) e sinergia GRI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relato integrado (IIRC) e sinergia GRI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relato integrado (IIRC) e sinergia GRI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8595,23 +7378,23 @@
           "topicos": [
     {
       "nome": "Etapas da ACV: definição de objetivo, ICV, AICV, interpretação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Etapas da ACV: definição de objetivo, ICV, AICV, interpretação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Etapas da ACV: definição de objetivo, ICV, AICV, interpretação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Categorias de impacto (aquecimento global, acidificação, eutrofização)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Categorias de impacto (aquecimento global, acidificação, eutrofização) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Categorias de impacto (aquecimento global, acidificação, eutrofização) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Softwares de ACV (SimaPro, GaBi, OpenLCA)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Softwares de ACV (SimaPro, GaBi, OpenLCA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Softwares de ACV (SimaPro, GaBi, OpenLCA) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Bancos de dados (Ecoinvent, ELCD)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bancos de dados (Ecoinvent, ELCD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bancos de dados (Ecoinvent, ELCD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Declaração Ambiental de Produto (EPD)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Declaração Ambiental de Produto (EPD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Declaração Ambiental de Produto (EPD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8640,23 +7423,23 @@
           "topicos": [
     {
       "nome": "GHG Protocol  –  Escopos 1, 2, 3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. GHG Protocol  –  Escopos 1, 2, 3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. GHG Protocol  –  Escopos 1, 2, 3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metodologia IPCC para cálculo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metodologia IPCC para cálculo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metodologia IPCC para cálculo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Incerteza e garantia de qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Incerteza e garantia de qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Incerteza e garantia de qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relatório de inventério e verificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relatório de inventério e verificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relatório de inventério e verificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metas baseadas na ciência (SBTi)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metas baseadas na ciência (SBTi) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metas baseadas na ciência (SBTi) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8685,23 +7468,23 @@
           "topicos": [
     {
       "nome": "Mercado regulado (Sistema Brasileiro de Comércio de Emissões  –  SBCE)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mercado regulado (Sistema Brasileiro de Comércio de Emissões  –  SBCE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mercado regulado (Sistema Brasileiro de Comércio de Emissões  –  SBCE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mercado voluntério global",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mercado voluntério global compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mercado voluntério global compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metodologias de projetos de crédito",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metodologias de projetos de crédito compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metodologias de projetos de crédito compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Registros (Verra, Gold Standard, MDL)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Registros (Verra, Gold Standard, MDL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Registros (Verra, Gold Standard, MDL) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compra e venda de créditos de carbono",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compra e venda de créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compra e venda de créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8730,23 +7513,23 @@
           "topicos": [
     {
       "nome": "Indicadores de pressão, estado e resposta (PER)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de pressão, estado e resposta (PER) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de pressão, estado e resposta (PER) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores ambientais: emissões, égua, resíduos, energia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores ambientais: emissões, égua, resíduos, energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores ambientais: emissões, égua, resíduos, energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores sociais: segurança, diversidade, treinamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores sociais: segurança, diversidade, treinamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores sociais: segurança, diversidade, treinamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores econômicos: valor distribuído, investimento socioambiental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores econômicos: valor distribuído, investimento socioambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores econômicos: valor distribuído, investimento socioambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Painel de indicadores ESG integrados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Painel de indicadores ESG integrados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Painel de indicadores ESG integrados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8775,23 +7558,23 @@
           "topicos": [
     {
       "nome": "17 ODS e suas metas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 17 ODS e suas metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 17 ODS e suas metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ODS 9  –  Indústria, Inovação e Infraestrutura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 9  –  Indústria, Inovação e Infraestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 9  –  Indústria, Inovação e Infraestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ODS 12  –  Consumo e Produção Responséveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 12  –  Consumo e Produção Responséveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 12  –  Consumo e Produção Responséveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ODS 13  –  Ação Climética",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 13  –  Ação Climética compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 13  –  Ação Climética compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mapeamento de impacto nos ODS e relato",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de impacto nos ODS e relato compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de impacto nos ODS e relato compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8820,23 +7603,23 @@
           "topicos": [
     {
       "nome": "Selos ambientais no Brasil (ABNT, Procel, FSC, Ecolabel)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Selos ambientais no Brasil (ABNT, Procel, FSC, Ecolabel) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Selos ambientais no Brasil (ABNT, Procel, FSC, Ecolabel) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Declarações ambientais de produto (EPD)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Declarações ambientais de produto (EPD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Declarações ambientais de produto (EPD) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Critérios de certificação e verificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de certificação e verificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de certificação e verificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Greenwashing e boas práticas de comunicação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Greenwashing e boas práticas de comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Greenwashing e boas práticas de comunicação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Impacto na decisão de compra B2B e B2C",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto na decisão de compra B2B e B2C compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto na decisão de compra B2B e B2C compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8865,23 +7648,23 @@
           "topicos": [
     {
       "nome": "Critérios ambientais na seleção de fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios ambientais na seleção de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios ambientais na seleção de fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Transporte verde e otimização de rotas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Transporte verde e otimização de rotas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Transporte verde e otimização de rotas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Embalagens retornéveis e recicléveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Embalagens retornéveis e recicléveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Embalagens retornéveis e recicléveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria ambiental em fornecedores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria ambiental em fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria ambiental em fornecedores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de desempenho de cadeia sustentével",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho de cadeia sustentével compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho de cadeia sustentével compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8910,23 +7693,23 @@
           "topicos": [
     {
       "nome": "Créditos LEED por categoria (SS, EA, WE, MR, IEQ)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Créditos LEED por categoria (SS, EA, WE, MR, IEQ) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Créditos LEED por categoria (SS, EA, WE, MR, IEQ) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Processo AQUA: QAE e perfil ambiental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processo AQUA: QAE e perfil ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processo AQUA: QAE e perfil ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eficiência hídrica e energética em edificações",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência hídrica e energética em edificações compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência hídrica e energética em edificações compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Materiais sustentéveis e resíduos na construção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Materiais sustentéveis e resíduos na construção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Materiais sustentéveis e resíduos na construção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo-benefício e payback de certificações",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-benefício e payback de certificações compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-benefício e payback de certificações compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -8955,23 +7738,23 @@
           "topicos": [
     {
       "nome": "Política energética e planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Política energética e planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Política energética e planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Revisão energética e linha de base (EnB)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Revisão energética e linha de base (EnB) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Revisão energética e linha de base (EnB) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de desempenho energético (EnPI)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho energético (EnPI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de desempenho energético (EnPI) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projetos de melhoria e verificação de economia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projetos de melhoria e verificação de economia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projetos de melhoria e verificação de economia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria e certificação ISO 50001",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria e certificação ISO 50001 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria e certificação ISO 50001 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9022,23 +7805,23 @@
           "topicos": [
     {
       "nome": "Estruturação do cronograma: atividades, durações, precedências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estruturação do cronograma: atividades, durações, precedências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estruturação do cronograma: atividades, durações, precedências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Software: MS Project, Primavera, GanttPRO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Software: MS Project, Primavera, GanttPRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Software: MS Project, Primavera, GanttPRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dependências: término-início, início-início",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dependências: término-início, início-início compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dependências: término-início, início-início compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Folga total e livre",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Folga total e livre compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Folga total e livre compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Curva S do cronograma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S do cronograma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S do cronograma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9067,23 +7850,23 @@
           "topicos": [
     {
       "nome": "Níveis da EAP (projeto, fases, pacotes de trabalho)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis da EAP (projeto, fases, pacotes de trabalho) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Níveis da EAP (projeto, fases, pacotes de trabalho) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Regra 100% da EAP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Regra 100% da EAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Regra 100% da EAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Codificação e dicionério da EAP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Codificação e dicionério da EAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Codificação e dicionério da EAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Criação por decomposição ou modelo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Criação por decomposição ou modelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Criação por decomposição ou modelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relação com WBS de custos e responsabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relação com WBS de custos e responsabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relação com WBS de custos e responsabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9112,23 +7895,23 @@
           "topicos": [
     {
       "nome": "Construção da rede de precedências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Construção da rede de precedências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Construção da rede de precedências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cálculo forward e backward",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo forward e backward compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo forward e backward compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Folga total e folga livre",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Folga total e folga livre compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Folga total e folga livre compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Identificação das atividades críticas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação das atividades críticas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação das atividades críticas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compressão e crashing do cronograma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compressão e crashing do cronograma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compressão e crashing do cronograma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9157,23 +7940,23 @@
           "topicos": [
     {
       "nome": "Estimativa de 3 pontos (O, M, P)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativa de 3 pontos (O, M, P) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativa de 3 pontos (O, M, P) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cálculo da duração esperada (TE)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo da duração esperada (TE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cálculo da duração esperada (TE) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Variôncia e desvio padrão do projeto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variôncia e desvio padrão do projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variôncia e desvio padrão do projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Probabilidade de conclusão no prazo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Probabilidade de conclusão no prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Probabilidade de conclusão no prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PERT vs. CPM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PERT vs. CPM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PERT vs. CPM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9202,23 +7985,23 @@
           "topicos": [
     {
       "nome": "Papéis: PO, SM, Time",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Papéis: PO, SM, Time compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Papéis: PO, SM, Time compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eventos: Sprint, Daily, Sprint Review, Retrospective",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos: Sprint, Daily, Sprint Review, Retrospective compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos: Sprint, Daily, Sprint Review, Retrospective compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Artefatos: Product Backlog, Sprint Backlog, Incremento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Artefatos: Product Backlog, Sprint Backlog, Incremento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Artefatos: Product Backlog, Sprint Backlog, Incremento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estimativas égeis (Planning Poker, Story Points)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativas égeis (Planning Poker, Story Points) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativas égeis (Planning Poker, Story Points) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kanban como método complementar",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban como método complementar compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban como método complementar compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9247,23 +8030,23 @@
           "topicos": [
     {
       "nome": "Quadro Kanban (To Do, Doing, Done)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Quadro Kanban (To Do, Doing, Done) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Quadro Kanban (To Do, Doing, Done) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Limites de WIP (Work In Progress)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de WIP (Work In Progress) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Limites de WIP (Work In Progress) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lead time e Cycle time",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time e Cycle time compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lead time e Cycle time compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gerenciamento do fluxo e métricas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gerenciamento do fluxo e métricas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gerenciamento do fluxo e métricas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kanban vs. Scrum: diferenças e combinações",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban vs. Scrum: diferenças e combinações compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban vs. Scrum: diferenças e combinações compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9292,23 +8075,23 @@
           "topicos": [
     {
       "nome": "5 grupos de processos: iniciação, planejamento, execução, controle, encerramento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 5 grupos de processos: iniciação, planejamento, execução, controle, encerramento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 5 grupos de processos: iniciação, planejamento, execução, controle, encerramento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "10 éreas de conhecimento (6┬¬ ed.)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 10 éreas de conhecimento (6┬¬ ed.) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 10 éreas de conhecimento (6┬¬ ed.) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Princípios do PMBOK 7┬¬ ed.",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios do PMBOK 7┬¬ ed. compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios do PMBOK 7┬¬ ed. compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Adaptabilidade e tailoring",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Adaptabilidade e tailoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Adaptabilidade e tailoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificação PMP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação PMP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação PMP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9337,23 +8120,23 @@
           "topicos": [
     {
       "nome": "Identificação de riscos (brainstorming, checklists, SWOT)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de riscos (brainstorming, checklists, SWOT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de riscos (brainstorming, checklists, SWOT) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise qualitativa (probabilidade × impacto)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise qualitativa (probabilidade × impacto) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise qualitativa (probabilidade × impacto) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise quantitativa (simulação de Monte Carlo)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise quantitativa (simulação de Monte Carlo) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise quantitativa (simulação de Monte Carlo) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estratégias de resposta para ameaças e oportunidades",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégias de resposta para ameaças e oportunidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégias de resposta para ameaças e oportunidades compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Registro de riscos e reserva de contingência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Registro de riscos e reserva de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Registro de riscos e reserva de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9382,23 +8165,23 @@
           "topicos": [
     {
       "nome": "Estimativas de custo: anéloga, paramétrica, bottom-up",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativas de custo: anéloga, paramétrica, bottom-up compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativas de custo: anéloga, paramétrica, bottom-up compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Linha de base de custos e reserva de contingência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de base de custos e reserva de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de base de custos e reserva de contingência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acompanhamento orçamentério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acompanhamento orçamentério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acompanhamento orçamentério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Variação de custo (CV = EV - AC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variação de custo (CV = EV - AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variação de custo (CV = EV - AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Previsão de custo final (EAC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de custo final (EAC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de custo final (EAC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9427,23 +8210,23 @@
           "topicos": [
     {
       "nome": "Modelo cascata (waterfall)  –  fases rígidas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo cascata (waterfall)  –  fases rígidas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo cascata (waterfall)  –  fases rígidas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo égil  –  entregas iterativas e incrementais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo égil  –  entregas iterativas e incrementais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo égil  –  entregas iterativas e incrementais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Quando usar cada abordagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Quando usar cada abordagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Quando usar cada abordagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelos híbridos (égil + tradicional)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos híbridos (égil + tradicional) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos híbridos (égil + tradicional) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Critérios de decisão por tipo de projeto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de decisão por tipo de projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de decisão por tipo de projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9472,23 +8255,23 @@
           "topicos": [
     {
       "nome": "MS Project: cronograma, recursos e custos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MS Project: cronograma, recursos e custos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MS Project: cronograma, recursos e custos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Primavera P6: projetos de grande porte e EPC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Primavera P6: projetos de grande porte e EPC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Primavera P6: projetos de grande porte e EPC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Jira: gestão égil de projetos de software",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Jira: gestão égil de projetos de software compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Jira: gestão égil de projetos de software compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trello/Asana: gestão visual simples",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trello/Asana: gestão visual simples compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trello/Asana: gestão visual simples compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração entre ferramentas de planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração entre ferramentas de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração entre ferramentas de planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9517,23 +8300,23 @@
           "topicos": [
     {
       "nome": "Identificação de stakeholders",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz poder × interesse (Salience)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz poder × interesse (Salience) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz poder × interesse (Salience) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de engajamento de stakeholders",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de engajamento de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de engajamento de stakeholders compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Canais de comunicação e frequência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de comunicação e frequência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Canais de comunicação e frequência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de conflitos e resistência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de conflitos e resistência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de conflitos e resistência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9562,23 +8345,23 @@
           "topicos": [
     {
       "nome": "Elementos do Project Charter",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Elementos do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Elementos do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Objetivo, escopo preliminar e entregas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Objetivo, escopo preliminar e entregas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Objetivo, escopo preliminar e entregas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Orçamento e prazos de alto nível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento e prazos de alto nível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento e prazos de alto nível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Riscos iniciais e premissas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Riscos iniciais e premissas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Riscos iniciais e premissas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Autorização e assinatura do patrocinador",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Autorização e assinatura do patrocinador compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Autorização e assinatura do patrocinador compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9607,23 +8390,23 @@
           "topicos": [
     {
       "nome": "Conteúdo típico do Project Charter",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo típico do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo típico do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Caso de negócio e justificativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Caso de negócio e justificativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Caso de negócio e justificativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Designação do gerente de projetos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Designação do gerente de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Designação do gerente de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Marcos principais e cronograma macro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Marcos principais e cronograma macro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Marcos principais e cronograma macro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aprovação e governança inicial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aprovação e governança inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aprovação e governança inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9652,23 +8435,23 @@
           "topicos": [
     {
       "nome": "Construção da curva S (planejado × realizado)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Construção da curva S (planejado × realizado) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Construção da curva S (planejado × realizado) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de desvios (SV, CV)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de desvios (SV, CV) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de desvios (SV, CV) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Previsão de tendências com curva S",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de tendências com curva S compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Previsão de tendências com curva S compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Curva S na gestão de valor agregado (EVM)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S na gestão de valor agregado (EVM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S na gestão de valor agregado (EVM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aplicação em relatórios de status",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação em relatórios de status compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicação em relatórios de status compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9697,23 +8480,23 @@
           "topicos": [
     {
       "nome": "PV, EV, AC  –  definição e obtenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PV, EV, AC  –  definição e obtenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PV, EV, AC  –  definição e obtenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Variações: SV (EV - PV), CV (EV - AC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variações: SV (EV - PV), CV (EV - AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variações: SV (EV - PV), CV (EV - AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ìndices: SPI (EV/PV), CPI (EV/AC)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìndices: SPI (EV/PV), CPI (EV/AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ìndices: SPI (EV/PV), CPI (EV/AC) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Previsões: EAC, ETC, VAC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Previsões: EAC, ETC, VAC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Previsões: EAC, ETC, VAC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "EVM em projetos de engenharia e construção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. EVM em projetos de engenharia e construção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. EVM em projetos de engenharia e construção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9742,23 +8525,23 @@
           "topicos": [
     {
       "nome": "Manifesto ügil e seus 12 princípios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manifesto ügil e seus 12 princípios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manifesto ügil e seus 12 princípios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Scrum: papéis, eventos e artefatos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Scrum: papéis, eventos e artefatos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Scrum: papéis, eventos e artefatos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "XP (Extreme Programming): TDD, pair programming, refactoring",
-      "descricao": "Conceito aplicado na área de engenharia de produção. XP (Extreme Programming): TDD, pair programming, refactoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. XP (Extreme Programming): TDD, pair programming, refactoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kanban: fluxo visual e WIP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban: fluxo visual e WIP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Kanban: fluxo visual e WIP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Escalonamento égil (SAFe, LeSS)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escalonamento égil (SAFe, LeSS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escalonamento égil (SAFe, LeSS) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9787,23 +8570,23 @@
           "topicos": [
     {
       "nome": "7 princípios: justificativa contínua, lições aprendidas, papéis, estágios, tolerância, exceção, tailoring",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 7 princípios: justificativa contínua, lições aprendidas, papéis, estágios, tolerância, exceção, tailoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 7 princípios: justificativa contínua, lições aprendidas, papéis, estágios, tolerância, exceção, tailoring compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "7 processos: starting up, directing, initiating, controlling, managing delivery, managing stage, closing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 7 processos: starting up, directing, initiating, controlling, managing delivery, managing stage, closing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 7 processos: starting up, directing, initiating, controlling, managing delivery, managing stage, closing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "7 temas: business case, organização, qualidade, planos, risco, mudança, progresso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 7 temas: business case, organização, qualidade, planos, risco, mudança, progresso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 7 temas: business case, organização, qualidade, planos, risco, mudança, progresso compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Prince 2 vs. PMBOK",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prince 2 vs. PMBOK compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prince 2 vs. PMBOK compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificação Prince 2 Foundation e Practitioner",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação Prince 2 Foundation e Practitioner compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação Prince 2 Foundation e Practitioner compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9832,23 +8615,23 @@
           "topicos": [
     {
       "nome": "Seleção de projetos: alinhamento estratégico e ROI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Seleção de projetos: alinhamento estratégico e ROI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Seleção de projetos: alinhamento estratégico e ROI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Priorização: scoring, AHP, diagrama de bolhas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Priorização: scoring, AHP, diagrama de bolhas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Priorização: scoring, AHP, diagrama de bolhas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanceamento de riscos e recursos no portfólio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de riscos e recursos no portfólio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de riscos e recursos no portfólio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "KPIs de portfólio (valor, risco, alinhamento)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs de portfólio (valor, risco, alinhamento) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs de portfólio (valor, risco, alinhamento) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Governança de portfólio e comitês",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Governança de portfólio e comitês compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Governança de portfólio e comitês compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9877,23 +8660,23 @@
           "topicos": [
     {
       "nome": "Tipos de PMO: suporte, controle, diretivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tipos de PMO: suporte, controle, diretivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tipos de PMO: suporte, controle, diretivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Funções do PMO: metodologia, capacitação, auditoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Funções do PMO: metodologia, capacitação, auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Funções do PMO: metodologia, capacitação, auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Implantação de PMO: maturidade e roadmap",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Implantação de PMO: maturidade e roadmap compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Implantação de PMO: maturidade e roadmap compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "KPI de performance do PMO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPI de performance do PMO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. KPI de performance do PMO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PMO égil (Agile PMO)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PMO égil (Agile PMO) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PMO égil (Agile PMO) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9949,11 +8732,11 @@
     },
     {
       "nome": "Comunicação não-violenta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação não-violenta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação não-violenta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Liderança lean",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Liderança lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -9980,15 +8763,15 @@
           "topicos": [
     {
       "nome": "Mapeamento de competências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PDI  –  Plano de Desenvolvimento Individual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PDI  –  Plano de Desenvolvimento Individual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PDI  –  Plano de Desenvolvimento Individual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Feedback estruturado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback estruturado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback estruturado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10015,15 +8798,15 @@
           "topicos": [
     {
       "nome": "TNA  –  Treinamento e Necessidades de Aprendizagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TNA  –  Treinamento e Necessidades de Aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TNA  –  Treinamento e Necessidades de Aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "EAD corporativo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. EAD corporativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. EAD corporativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Onboarding técnico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Onboarding técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Onboarding técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10050,15 +8833,15 @@
           "topicos": [
     {
       "nome": "OKRs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. OKRs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. OKRs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "KPIs comportamentais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs comportamentais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs comportamentais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de desempenho vs. potencial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de desempenho vs. potencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de desempenho vs. potencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10085,15 +8868,15 @@
           "topicos": [
     {
       "nome": "Cultura lean",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cultura de segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cultura de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10124,11 +8907,11 @@
     },
     {
       "nome": "Negociação colaborativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação colaborativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação colaborativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de causas de conflito",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de causas de conflito compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de causas de conflito compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10155,15 +8938,15 @@
           "topicos": [
     {
       "nome": "Pesquisa de clima",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa de clima compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa de clima compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "eNPS  –  Employee Net Promoter Score",
-      "descricao": "Conceito aplicado na área de engenharia de produção. eNPS  –  Employee Net Promoter Score compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. eNPS  –  Employee Net Promoter Score compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ìndice de satisfação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìndice de satisfação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ìndice de satisfação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10190,15 +8973,15 @@
           "topicos": [
     {
       "nome": "Comunicação interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Campanhas de engajamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Campanhas de engajamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Campanhas de engajamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eventos corporativos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos corporativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos corporativos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10225,15 +9008,15 @@
           "topicos": [
     {
       "nome": "Integração cultural",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração cultural compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração cultural compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Treinamento inicial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Treinamento inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Buddy program",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Buddy program compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Buddy program compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10260,15 +9043,15 @@
           "topicos": [
     {
       "nome": "Feedback multinível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback multinível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback multinível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Autoavaliação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Autoavaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Autoavaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de desenvolvimento pós-360┬░",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de desenvolvimento pós-360┬░ compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de desenvolvimento pós-360┬░ compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10295,15 +9078,15 @@
           "topicos": [
     {
       "nome": "Mapeamento de competências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trilhas de aprendizagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trilhas de aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trilhas de aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de competências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10330,15 +9113,15 @@
           "topicos": [
     {
       "nome": "Entrevista por competências",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevista por competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevista por competências compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Testes psicológicos e técnicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Testes psicológicos e técnicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Testes psicológicos e técnicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Assessment center",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Assessment center compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Assessment center compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10365,15 +9148,15 @@
           "topicos": [
     {
       "nome": "Anélise e descrição de cargos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise e descrição de cargos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise e descrição de cargos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pesquisa salarial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa salarial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa salarial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Faixas salariais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Faixas salariais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Faixas salariais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10400,15 +9183,15 @@
           "topicos": [
     {
       "nome": "Pesquisa salarial setorial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa salarial setorial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa salarial setorial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de benefícios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de benefícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de benefícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Posicionamento competitivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Posicionamento competitivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Posicionamento competitivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10435,15 +9218,15 @@
           "topicos": [
     {
       "nome": "Carreira em Y",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Carreira em Y compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Carreira em Y compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trilhas de sucessão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trilhas de sucessão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trilhas de sucessão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Critérios de promoção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de promoção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de promoção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10470,15 +9253,15 @@
           "topicos": [
     {
       "nome": "Pesquisa de engajamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa de engajamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa de engajamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programas de reconhecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programas de reconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programas de reconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Entrevista de desligamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevista de desligamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entrevista de desligamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10509,11 +9292,11 @@
     },
     {
       "nome": "Comunicação efetiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação efetiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação efetiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pensamento crítico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento crítico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento crítico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10540,15 +9323,15 @@
           "topicos": [
     {
       "nome": "People analytics",
-      "descricao": "Conceito aplicado na área de engenharia de produção. People analytics compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. People analytics compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboards de RH",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboards de RH compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboards de RH compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelagem preditiva de turnover",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem preditiva de turnover compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem preditiva de turnover compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10575,15 +9358,15 @@
           "topicos": [
     {
       "nome": "eSocial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. eSocial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. eSocial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Encargos trabalhistas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Encargos trabalhistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Encargos trabalhistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acordos sindicais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordos sindicais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordos sindicais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10610,15 +9393,15 @@
           "topicos": [
     {
       "nome": "Negociação coletiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação coletiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação coletiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dissídio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dissídio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dissídio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CIPA e segurança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CIPA e segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CIPA e segurança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10668,15 +9451,15 @@
           "topicos": [
     {
       "nome": "Desenvolvimento integrado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento integrado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento integrado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Equipes multifuncionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Equipes multifuncionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Equipes multifuncionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Concorrência de projetos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Concorrência de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Concorrência de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10703,15 +9486,15 @@
           "topicos": [
     {
       "nome": "Anélise de valor",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de valor compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de valor compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo-alvo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Value engineering workshop",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Value engineering workshop compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Value engineering workshop compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10738,15 +9521,15 @@
           "topicos": [
     {
       "nome": "Redução de componentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de componentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de componentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padronização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Montagem simplificada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Montagem simplificada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Montagem simplificada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10773,15 +9556,15 @@
           "topicos": [
     {
       "nome": "Matriz da qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "VOC  –  Voice of Customer",
-      "descricao": "Conceito aplicado na área de engenharia de produção. VOC  –  Voice of Customer compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. VOC  –  Voice of Customer compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desdobramento da função qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento da função qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento da função qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10808,15 +9591,15 @@
           "topicos": [
     {
       "nome": "Gestão de ciclo de vida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de ciclo de vida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de ciclo de vida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Integração CAD/PLM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Integração CAD/PLM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Integração CAD/PLM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreabilidade de engenharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade de engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade de engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10843,15 +9626,15 @@
           "topicos": [
     {
       "nome": "Impressão 3D",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Impressão 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Impressão 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usinagem répida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usinagem répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usinagem répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mockups funcionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mockups funcionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mockups funcionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10882,11 +9665,11 @@
     },
     {
       "nome": "Simulação estrutural",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação estrutural compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação estrutural compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programação CNC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programação CNC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programação CNC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10913,15 +9696,15 @@
           "topicos": [
     {
       "nome": "Macrofases do PDP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Macrofases do PDP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Macrofases do PDP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gates de aprovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gates de aprovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gates de aprovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Documentação do processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação do processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação do processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10948,15 +9731,15 @@
           "topicos": [
     {
       "nome": "Gates de decisão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gates de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gates de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Critérios de go/no-go",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de go/no-go compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Critérios de go/no-go compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de portfólio de projetos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de portfólio de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de portfólio de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -10983,15 +9766,15 @@
           "topicos": [
     {
       "nome": "Anélise de risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "RPN  –  Risk Priority Number",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RPN  –  Risk Priority Number compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RPN  –  Risk Priority Number compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ações preventivas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ações preventivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ações preventivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11018,15 +9801,15 @@
           "topicos": [
     {
       "nome": "Scanner 3D",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Scanner 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Scanner 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise dimensional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redesenho a partir de amostra",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redesenho a partir de amostra compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redesenho a partir de amostra compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11053,15 +9836,15 @@
           "topicos": [
     {
       "nome": "FDM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. FDM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. FDM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SLA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SLA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SLA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SLM  –  Selective Laser Melting",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SLM  –  Selective Laser Melting compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SLM  –  Selective Laser Melting compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11088,15 +9871,15 @@
           "topicos": [
     {
       "nome": "Elicitação de requisitos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Elicitação de requisitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Elicitação de requisitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de rastreabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Casos de uso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Casos de uso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Casos de uso compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11123,15 +9906,15 @@
           "topicos": [
     {
       "nome": "DfM/DfA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DfM/DfA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DfM/DfA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DfE  –  Design for Environment",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DfE  –  Design for Environment compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DfE  –  Design for Environment compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DfS  –  Design for Serviceability",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DfS  –  Design for Serviceability compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DfS  –  Design for Serviceability compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11158,15 +9941,15 @@
           "topicos": [
     {
       "nome": "Anélise funcional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo por função",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo por função compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo por função compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Alternativas de solução",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alternativas de solução compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alternativas de solução compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11193,15 +9976,15 @@
           "topicos": [
     {
       "nome": "Melhoria incremental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria incremental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria incremental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atualização tecnológica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atualização tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atualização tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Adequação normativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Adequação normativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Adequação normativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11228,15 +10011,15 @@
           "topicos": [
     {
       "nome": "House of Quality",
-      "descricao": "Conceito aplicado na área de engenharia de produção. House of Quality compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. House of Quality compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de relacionamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de relacionamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de relacionamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desdobramento em cascata",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento em cascata compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento em cascata compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11263,15 +10046,15 @@
           "topicos": [
     {
       "nome": "Projeto informacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto informacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto informacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeto conceitual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeto detalhado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto detalhado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto detalhado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11298,15 +10081,15 @@
           "topicos": [
     {
       "nome": "Set-based design",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Set-based design compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Set-based design compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "A3 de projeto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. A3 de projeto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Obeya room",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Obeya room compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Obeya room compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11333,15 +10116,15 @@
           "topicos": [
     {
       "nome": "Viabilidade de manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Viabilidade de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Viabilidade de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de risco técnico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estudo de make-or-buy",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de make-or-buy compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de make-or-buy compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11391,15 +10174,15 @@
           "topicos": [
     {
       "nome": "Gestão da produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão da produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão da produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Organização fabril",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Organização fabril compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Organização fabril compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle de processos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11426,15 +10209,15 @@
           "topicos": [
     {
       "nome": "Missão e visão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Missão e visão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Missão e visão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise ambiental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise ambiental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metas de longo prazo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metas de longo prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metas de longo prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11461,15 +10244,15 @@
           "topicos": [
     {
       "nome": "Conselho de administração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conselho de administração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conselho de administração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Comitês de auditoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comitês de auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comitês de auditoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Código de conduta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Código de conduta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Código de conduta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11496,15 +10279,15 @@
           "topicos": [
     {
       "nome": "OEE  –  Overall Equipment Effectiveness",
-      "descricao": "Conceito aplicado na área de engenharia de produção. OEE  –  Overall Equipment Effectiveness compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. OEE  –  Overall Equipment Effectiveness compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indicadores de produtividade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de produtividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de produtividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboard industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11531,15 +10314,15 @@
           "topicos": [
     {
       "nome": "LGPD industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. LGPD industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. LGPD industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Conformidade regulatória",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade regulatória compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade regulatória compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programa de integridade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de integridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de integridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11566,15 +10349,15 @@
           "topicos": [
     {
       "nome": "Metas SMART",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metas SMART compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metas SMART compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Contrato de gestão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Contrato de gestão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Contrato de gestão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Remuneração variável",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Remuneração variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Remuneração variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11601,15 +10384,15 @@
           "topicos": [
     {
       "nome": "Perspectiva financeira",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perspectiva financeira compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perspectiva financeira compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Perspectiva de processos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perspectiva de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perspectiva de processos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mapa estratégico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapa estratégico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapa estratégico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11636,15 +10419,15 @@
           "topicos": [
     {
       "nome": "Anélise interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise externa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise externa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise externa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estratégias S/O, W/O, S/T, W/T",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégias S/O, W/O, S/T, W/T compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estratégias S/O, W/O, S/T, W/T compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11671,15 +10454,15 @@
           "topicos": [
     {
       "nome": "Sumério executivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sumério executivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sumério executivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeções financeiras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeções financeiras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeções financeiras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de viabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de viabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de viabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11706,15 +10489,15 @@
           "topicos": [
     {
       "nome": "Ciclo de vida do produto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de vida do produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo de vida do produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Participação relativa de mercado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Participação relativa de mercado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Participação relativa de mercado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Decisões de portfólio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Decisões de portfólio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Decisões de portfólio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11741,15 +10524,15 @@
           "topicos": [
     {
       "nome": "Rivalidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rivalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rivalidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Barreiras de entrada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Barreiras de entrada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Barreiras de entrada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Poder de barganha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Poder de barganha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Poder de barganha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11776,15 +10559,15 @@
           "topicos": [
     {
       "nome": "5S",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 5S compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 5S compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão á vista",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reunião diária de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reunião diária de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reunião diária de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11811,15 +10594,15 @@
           "topicos": [
     {
       "nome": "Hoshin Kanri",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hoshin Kanri compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hoshin Kanri compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz X",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz X compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz X compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desdobramento de metas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento de metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desdobramento de metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11846,15 +10629,15 @@
           "topicos": [
     {
       "nome": "Budget industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Budget industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Budget industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CAPEX e OPEX",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CAPEX e OPEX compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CAPEX e OPEX compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeção de resultados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeção de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeção de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11881,15 +10664,15 @@
           "topicos": [
     {
       "nome": "Turnaround",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Turnaround compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Turnaround compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Downsizing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Downsizing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Downsizing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redesenho organizacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redesenho organizacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redesenho organizacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11916,15 +10699,15 @@
           "topicos": [
     {
       "nome": "Due diligence",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Due diligence compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Due diligence compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Valuation industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Valuation industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Valuation industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PMI  –  Post Merger Integration",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PMI  –  Post Merger Integration compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PMI  –  Post Merger Integration compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11951,15 +10734,15 @@
           "topicos": [
     {
       "nome": "Prospecção estratégica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prospecção estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prospecção estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planejamento por cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento por cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento por cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -11986,7 +10769,7 @@
           "topicos": [
     {
       "nome": "COSO ERM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. COSO ERM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. COSO ERM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ISO 31000",
@@ -11994,7 +10777,7 @@
     },
     {
       "nome": "Matriz de riscos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de riscos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12021,15 +10804,15 @@
           "topicos": [
     {
       "nome": "RI  –  Relações com Investidores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RI  –  Relações com Investidores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RI  –  Relações com Investidores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Release de resultados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Release de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Release de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Apresentações para analistas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Apresentações para analistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Apresentações para analistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12056,15 +10839,15 @@
           "topicos": [
     {
       "nome": "DCF  –  Fluxo de Caixa Descontado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DCF  –  Fluxo de Caixa Descontado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DCF  –  Fluxo de Caixa Descontado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Múltiplos (EV/EBITDA, P/L)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Múltiplos (EV/EBITDA, P/L) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Múltiplos (EV/EBITDA, P/L) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Laudo de avaliação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Laudo de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Laudo de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12114,15 +10897,15 @@
           "topicos": [
     {
       "nome": "Anélise de movimentos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simplificação do trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simplificação do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simplificação do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Princípios de economia de movimentos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios de economia de movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Princípios de economia de movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12149,15 +10932,15 @@
           "topicos": [
     {
       "nome": "Cronometragem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cronometragem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cronometragem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de ritmo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de ritmo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Avaliação de ritmo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tolerôncias",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12184,15 +10967,15 @@
           "topicos": [
     {
       "nome": "Fator de ritmo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fator de ritmo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fator de ritmo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tolerôncias fixas e variáveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias fixas e variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias fixas e variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo padrão como referência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo padrão como referência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo padrão como referência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12219,15 +11002,15 @@
           "topicos": [
     {
       "nome": "Amostragem de tempos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Amostragem de tempos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Amostragem de tempos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Divisão em elementos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Divisão em elementos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Divisão em elementos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Número de ciclos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Número de ciclos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Número de ciclos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12254,15 +11037,15 @@
           "topicos": [
     {
       "nome": "Arranjo físico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arranjo físico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arranjo físico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo de materiais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Layout por produto vs. processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout por produto vs. processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout por produto vs. processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12297,7 +11080,7 @@
     },
     {
       "nome": "Eficiência da linha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência da linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência da linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12324,15 +11107,15 @@
           "topicos": [
     {
       "nome": "Capacidade instalada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade instalada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade instalada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade efetiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade efetiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade efetiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ociosidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ociosidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ociosidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12359,15 +11142,15 @@
           "topicos": [
     {
       "nome": "Identificação de gargalos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TOC  –  Teoria das Restrições",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TOC  –  Teoria das Restrições compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TOC  –  Teoria das Restrições compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Elevação da restrição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Elevação da restrição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Elevação da restrição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12394,15 +11177,15 @@
           "topicos": [
     {
       "nome": "Processo de 5 passos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processo de 5 passos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processo de 5 passos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tambor-Pulmão-Corda (Drum-Buffer-Rope)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tambor-Pulmão-Corda (Drum-Buffer-Rope) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tambor-Pulmão-Corda (Drum-Buffer-Rope) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Métrica de throughput",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Métrica de throughput compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Métrica de throughput compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12429,15 +11212,15 @@
           "topicos": [
     {
       "nome": "Produtividade da mão de obra",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade da mão de obra compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade da mão de obra compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produtividade total dos fatores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade total dos fatores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade total dos fatores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ìndices de produtividade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ìndices de produtividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ìndices de produtividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12464,15 +11247,15 @@
           "topicos": [
     {
       "nome": "Ciclo homem-máquina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo homem-máquina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atividades simultôneas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades simultôneas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades simultôneas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ociosidade do operador",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ociosidade do operador compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ociosidade do operador compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12499,15 +11282,15 @@
           "topicos": [
     {
       "nome": "Simbologia ASME",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simbologia ASME compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simbologia ASME compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mapeamento do fluxo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento do fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento do fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Identificação de desperdícios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Identificação de desperdícios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12534,15 +11317,15 @@
           "topicos": [
     {
       "nome": "Anélise de fluxo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Distôncia percorrida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Distôncia percorrida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Distôncia percorrida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Layout otimizado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout otimizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout otimizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12569,15 +11352,15 @@
           "topicos": [
     {
       "nome": "Atividades em paralelo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades em paralelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades em paralelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Carga de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Carga de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Carga de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanceamento de equipe",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de equipe compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de equipe compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12604,15 +11387,15 @@
           "topicos": [
     {
       "nome": "Tolerôncias fixas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias fixas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias fixas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tolerôncias variáveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tolerôncias variáveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Suplementos de descanso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Suplementos de descanso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Suplementos de descanso compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12639,15 +11422,15 @@
           "topicos": [
     {
       "nome": "MTM-1, MTM-2, MTM-UAS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MTM-1, MTM-2, MTM-UAS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MTM-1, MTM-2, MTM-UAS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "MOST  –  Maynard Operation Sequence Technique",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MOST  –  Maynard Operation Sequence Technique compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MOST  –  Maynard Operation Sequence Technique compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempos sintéticos para estimativa répida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempos sintéticos para estimativa répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempos sintéticos para estimativa répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12674,15 +11457,15 @@
           "topicos": [
     {
       "nome": "Observações instantôneas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Observações instantôneas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Observações instantôneas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Intervalo de confiança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Intervalo de confiança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Intervalo de confiança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estimativa de utilização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativa de utilização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estimativa de utilização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12709,15 +11492,15 @@
           "topicos": [
     {
       "nome": "Gréfico de empilhamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gréfico de empilhamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gréfico de empilhamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanceamento visual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redistribuição de carga",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redistribuição de carga compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redistribuição de carga compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12744,7 +11527,7 @@
           "topicos": [
     {
       "nome": "Linha de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo contínuo",
@@ -12752,7 +11535,7 @@
     },
     {
       "nome": "Produção em massa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em massa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em massa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12779,15 +11562,15 @@
           "topicos": [
     {
       "nome": "Tecnologia de grupo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Célula de manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Célula de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Célula de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Famílias de produtos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Famílias de produtos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Famílias de produtos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12814,15 +11597,15 @@
           "topicos": [
     {
       "nome": "Atividades AV e NAV",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades AV e NAV compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades AV e NAV compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mapeamento de fluxo de valor (VSM)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de fluxo de valor (VSM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mapeamento de fluxo de valor (VSM) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desperdícios lean",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desperdícios lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desperdícios lean compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12853,11 +11636,11 @@
     },
     {
       "nome": "Tempo de processo vs. tempo total",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de processo vs. tempo total compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de processo vs. tempo total compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redução de atravessamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de atravessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de atravessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12907,15 +11690,15 @@
           "topicos": [
     {
       "nome": "Modelagem de sistemas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem de sistemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem de sistemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Experimentação computacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Experimentação computacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Experimentação computacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12942,15 +11725,15 @@
           "topicos": [
     {
       "nome": "Entidades, recursos e filas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entidades, recursos e filas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entidades, recursos e filas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eventos e estados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos e estados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eventos e estados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relógio da simulação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relógio da simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relógio da simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -12977,15 +11760,15 @@
           "topicos": [
     {
       "nome": "Modelos digitais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos digitais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelos digitais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Experimentação in silico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Experimentação in silico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Experimentação in silico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferramentas computacionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas computacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferramentas computacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13012,15 +11795,15 @@
           "topicos": [
     {
       "nome": "Modelagem com blocos Arena",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem com blocos Arena compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem com blocos Arena compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Animação 3D",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Animação 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Animação 3D compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de resultados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13051,11 +11834,11 @@
     },
     {
       "nome": "Simulação de manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de throughput",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de throughput compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de throughput compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13082,15 +11865,15 @@
           "topicos": [
     {
       "nome": "Multimétodo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Multimétodo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Multimétodo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelagem baseada em agentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem baseada em agentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem baseada em agentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dinômica de sistemas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dinômica de sistemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dinômica de sistemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13117,15 +11900,15 @@
           "topicos": [
     {
       "nome": "Abstração e simplificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Abstração e simplificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Abstração e simplificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validação conceitual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validação conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validação conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Parômetros e variáveis de decisão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros e variáveis de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros e variáveis de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13152,15 +11935,15 @@
           "topicos": [
     {
       "nome": "Algoritmos genéticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Algoritmos genéticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Algoritmos genéticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulated annealing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulated annealing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulated annealing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização heurística",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização heurística compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização heurística compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13187,15 +11970,15 @@
           "topicos": [
     {
       "nome": "Cenérios operacionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cenérios operacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cenérios operacionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise comparativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise comparativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise comparativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ürvore de decisão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ürvore de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ürvore de decisão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13222,7 +12005,7 @@
           "topicos": [
     {
       "nome": "Amostragem aleatória",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Amostragem aleatória compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Amostragem aleatória compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Distribuições de probabilidade",
@@ -13230,7 +12013,7 @@
     },
     {
       "nome": "Anélise de risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13257,15 +12040,15 @@
           "topicos": [
     {
       "nome": "Validação conceitual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validação conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validação conceitual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validação operacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validação operacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validação operacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de sensibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de sensibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de sensibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13292,15 +12075,15 @@
           "topicos": [
     {
       "nome": "Parômetros críticos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros críticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parômetros críticos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gréfico de tornado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gréfico de tornado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gréfico de tornado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Impacto nas saídas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto nas saídas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto nas saídas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13327,15 +12110,15 @@
           "topicos": [
     {
       "nome": "Manufatura discreta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura discreta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura discreta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura contínua",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas flexíveis de manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas flexíveis de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas flexíveis de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13362,7 +12145,7 @@
           "topicos": [
     {
       "nome": "Cadeia de suprimentos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cadeia de suprimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cadeia de suprimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Centro de distribuição",
@@ -13370,7 +12153,7 @@
     },
     {
       "nome": "Roteirização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13397,15 +12180,15 @@
           "topicos": [
     {
       "nome": "Hospitais e saúde",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hospitais e saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hospitais e saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Atendimento ao cliente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atendimento ao cliente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atendimento ao cliente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sistemas de fila",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de fila compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de fila compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13432,11 +12215,11 @@
           "topicos": [
     {
       "nome": "Réplica digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Réplica digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Réplica digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo real e IoT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo real e IoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo real e IoT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manutenção preditiva",
@@ -13467,15 +12250,15 @@
           "topicos": [
     {
       "nome": "Siemens Tecnomatix",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Siemens Tecnomatix compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Siemens Tecnomatix compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização de fluxo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização de fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização de fluxo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gêmeo digital de fábrica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gêmeo digital de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gêmeo digital de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13502,15 +12285,15 @@
           "topicos": [
     {
       "nome": "Interface visual",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Interface visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Interface visual compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação de filas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de filas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de filas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aplicações em saúde",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações em saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações em saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13560,15 +12343,15 @@
           "topicos": [
     {
       "nome": "Pesquisa básica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa básica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa básica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pesquisa aplicada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa aplicada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pesquisa aplicada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desenvolvimento experimental",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento experimental compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento experimental compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13595,15 +12378,15 @@
           "topicos": [
     {
       "nome": "Processo de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processo de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processo de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Portfólio de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Portfólio de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Portfólio de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Métricas de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Métricas de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Métricas de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13630,15 +12413,15 @@
           "topicos": [
     {
       "nome": "Empatia e pesquisa com usuérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Empatia e pesquisa com usuérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Empatia e pesquisa com usuérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ideação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ideação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ideação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Prototipação répida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prototipação répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prototipação répida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13665,15 +12448,15 @@
           "topicos": [
     {
       "nome": "Inovação aberta inbound e outbound",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação aberta inbound e outbound compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação aberta inbound e outbound compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Corporate venture",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Corporate venture compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Corporate venture compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plataformas de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13700,15 +12483,15 @@
           "topicos": [
     {
       "nome": "Gestão da mudança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão da mudança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão da mudança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Transformação digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Transformação digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Transformação digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reestruturação cultural",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reestruturação cultural compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reestruturação cultural compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13735,15 +12518,15 @@
           "topicos": [
     {
       "nome": "Patentes de invenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Patentes de invenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Patentes de invenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Marcas e desenhos industriais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Marcas e desenhos industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Marcas e desenhos industriais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "INPI e PCT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. INPI e PCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. INPI e PCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13770,7 +12553,7 @@
           "topicos": [
     {
       "nome": "Inovação sustentadora",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação sustentadora compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação sustentadora compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inovação disruptiva",
@@ -13778,7 +12561,7 @@
     },
     {
       "nome": "Curva S tecnológica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Curva S tecnológica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13805,15 +12588,15 @@
           "topicos": [
     {
       "nome": "Universidade-empresa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Universidade-empresa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Universidade-empresa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Governo e políticas públicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Governo e políticas públicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Governo e políticas públicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Parques tecnológicos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parques tecnológicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parques tecnológicos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13840,15 +12623,15 @@
           "topicos": [
     {
       "nome": "Disrupção de mercado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disrupção de mercado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Disrupção de mercado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Baixo custo inicial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Baixo custo inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Baixo custo inicial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Deslocamento de incumbentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Deslocamento de incumbentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Deslocamento de incumbentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13875,15 +12658,15 @@
           "topicos": [
     {
       "nome": "Startups e scale-ups",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Startups e scale-ups compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Startups e scale-ups compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aceleradoras e incubadoras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aceleradoras e incubadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aceleradoras e incubadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redes de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redes de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redes de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13910,15 +12693,15 @@
           "topicos": [
     {
       "nome": "CVC  –  Corporate Venture Capital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CVC  –  Corporate Venture Capital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CVC  –  Corporate Venture Capital compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Venture client",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Venture client compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Venture client compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Spin-off corporativo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Spin-off corporativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Spin-off corporativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13945,15 +12728,15 @@
           "topicos": [
     {
       "nome": "Cultura intraempreendedora",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura intraempreendedora compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cultura intraempreendedora compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Programa de intraempreendedorismo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de intraempreendedorismo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de intraempreendedorismo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inovação interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -13980,15 +12763,15 @@
           "topicos": [
     {
       "nome": "MVP  –  Minimum Viable Product",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MVP  –  Minimum Viable Product compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MVP  –  Minimum Viable Product compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ciclo construir-medir-aprender",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo construir-medir-aprender compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo construir-medir-aprender compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pivotagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pivotagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pivotagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14015,15 +12798,15 @@
           "topicos": [
     {
       "nome": "Produto mínimo viével",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produto mínimo viével compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produto mínimo viével compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Teste com clientes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Teste com clientes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Teste com clientes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Validação de hipóteses",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Validação de hipóteses compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Validação de hipóteses compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14050,15 +12833,15 @@
           "topicos": [
     {
       "nome": "Plataformas de ideação aberta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de ideação aberta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de ideação aberta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desafios de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desafios de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desafios de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Crowdsourcing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Crowdsourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Crowdsourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14085,15 +12868,15 @@
           "topicos": [
     {
       "nome": "Multidão de solucionadores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Multidão de solucionadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Multidão de solucionadores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plataformas de crowdsourcing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de crowdsourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plataformas de crowdsourcing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Concursos de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Concursos de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Concursos de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14120,15 +12903,15 @@
           "topicos": [
     {
       "nome": "Inovação reversa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação reversa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produtos de baixo custo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos de baixo custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos de baixo custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Engenharia frugal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Engenharia frugal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Engenharia frugal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14155,15 +12938,15 @@
           "topicos": [
     {
       "nome": "Indicadores de P&D",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de P&D compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indicadores de P&D compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ROI de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ROI de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ROI de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Balanced scorecard de inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanced scorecard de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanced scorecard de inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14190,15 +12973,15 @@
           "topicos": [
     {
       "nome": "TRL 1-3: Pesquisa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 1-3: Pesquisa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 1-3: Pesquisa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TRL 4-6: Desenvolvimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 4-6: Desenvolvimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 4-6: Desenvolvimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TRL 7-9: Implantação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 7-9: Implantação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TRL 7-9: Implantação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14225,15 +13008,15 @@
           "topicos": [
     {
       "nome": "Inteligência competitiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inteligência competitiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inteligência competitiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Monitoramento de patentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento de patentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Monitoramento de patentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Roadmapping tecnológico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roadmapping tecnológico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roadmapping tecnológico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14284,15 +13067,15 @@
           "topicos": [
     {
       "nome": "Disponibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Performance",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Performance compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Performance compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TPM",
@@ -14323,15 +13106,15 @@
           "topicos": [
     {
       "nome": "Tempo de atravessamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de atravessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo de atravessamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ciclo produtivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo produtivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo produtivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Logística",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Logística compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Logística compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14362,11 +13145,11 @@
     },
     {
       "nome": "Gargalos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TOC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TOC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TOC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14393,15 +13176,15 @@
           "topicos": [
     {
       "nome": "Produtividade total",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade total compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade total compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Utilização de recursos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Utilização de recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Utilização de recursos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rendimento global",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rendimento global compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rendimento global compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14428,15 +13211,15 @@
           "topicos": [
     {
       "nome": "Horas-homem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Horas-homem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Horas-homem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eficiência laboral",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência laboral compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência laboral compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rendimento operacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rendimento operacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rendimento operacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14463,15 +13246,15 @@
           "topicos": [
     {
       "nome": "Custo da qualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo da qualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Não conformidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Não conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Não conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sucata",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sucata compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sucata compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14498,15 +13281,15 @@
           "topicos": [
     {
       "nome": "Nível de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Entregas no prazo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Entregas no prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Entregas no prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Completeza de pedidos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Completeza de pedidos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Completeza de pedidos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14533,15 +13316,15 @@
           "topicos": [
     {
       "nome": "Nível de atendimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de atendimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de atendimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Disponibilidade de estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Disponibilidade de estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Backorder",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Backorder compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Backorder compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14572,15 +13355,15 @@
     },
     {
       "nome": "Ritmo de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ritmo de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ritmo de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Demanda",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Demanda compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "JIT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14607,15 +13390,15 @@
           "topicos": [
     {
       "nome": "Ciclo financeiro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo financeiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ciclo financeiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Prazo médio de pagamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prazo médio de pagamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prazo médio de pagamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capital de giro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capital de giro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14642,15 +13425,15 @@
           "topicos": [
     {
       "nome": "First Pass Yield",
-      "descricao": "Conceito aplicado na área de engenharia de produção. First Pass Yield compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. First Pass Yield compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Qualidade na fonte",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade na fonte compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade na fonte compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Six Sigma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Six Sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Six Sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14681,7 +13464,7 @@
     },
     {
       "nome": "Custo variável",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo variável compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Margem de contribuição",
@@ -14716,15 +13499,15 @@
     },
     {
       "nome": "SST",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SST compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SST compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acidentes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acidentes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NRs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NRs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NRs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14751,15 +13534,15 @@
           "topicos": [
     {
       "nome": "Eficiência energética",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência energética compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência energética compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sustentabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sustentabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sustentabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de energia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de energia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14825,15 +13608,15 @@
           "topicos": [
     {
       "nome": "Produtividade laboral",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade laboral compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade laboral compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eficiência humana",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência humana compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eficiência humana compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trabalho padronizado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho padronizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho padronizado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14860,15 +13643,15 @@
           "topicos": [
     {
       "nome": "On Time Delivery",
-      "descricao": "Conceito aplicado na área de engenharia de produção. On Time Delivery compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. On Time Delivery compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nível de serviço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nível de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pontualidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pontualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pontualidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14895,11 +13678,11 @@
           "topicos": [
     {
       "nome": "Perdas produtivas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perdas produtivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perdas produtivas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "6 Grandes Perdas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 6 Grandes Perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 6 Grandes Perdas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TPM",
@@ -14930,15 +13713,15 @@
           "topicos": [
     {
       "nome": "First Time Through",
-      "descricao": "Conceito aplicado na área de engenharia de produção. First Time Through compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. First Time Through compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Qualidade na fonte",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade na fonte compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Qualidade na fonte compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Zero defeitos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Zero defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Zero defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -14965,7 +13748,7 @@
           "topicos": [
     {
       "nome": "Melhoria contínua",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Melhoria contínua compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Kaizen",
@@ -14973,7 +13756,7 @@
     },
     {
       "nome": "Gestão á vista",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão á vista compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15023,15 +13806,15 @@
           "topicos": [
     {
       "nome": "NBR",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NBR compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NBR compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Normalização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Normalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Normalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padronização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15058,15 +13841,15 @@
           "topicos": [
     {
       "nome": "ôrgãos reguladores",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ôrgãos reguladores compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ôrgãos reguladores compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Conformidade legal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade legal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade legal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Licenciamento industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Licenciamento industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Licenciamento industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15097,11 +13880,11 @@
     },
     {
       "nome": "Resíduos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resíduos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Política Nacional do Meio Ambiente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Política Nacional do Meio Ambiente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Política Nacional do Meio Ambiente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15128,19 +13911,19 @@
           "topicos": [
     {
       "nome": "CLT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CLT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CLT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Direitos trabalhistas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Direitos trabalhistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Direitos trabalhistas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Jornada de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Jornada de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Jornada de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acordo coletivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15167,7 +13950,7 @@
           "topicos": [
     {
       "nome": "Governança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Governança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Governança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "LGPD",
@@ -15175,7 +13958,7 @@
     },
     {
       "nome": "Programa de integridade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de integridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programa de integridade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15202,15 +13985,15 @@
           "topicos": [
     {
       "nome": "Auditoria interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Auditoria de certificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Auditoria de certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Não conformidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Não conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Não conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15245,11 +14028,11 @@
     },
     {
       "nome": "SST",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SST compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SST compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inspeção do trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15276,15 +14059,15 @@
           "topicos": [
     {
       "nome": "Metrologia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metrologia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metrologia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificação compulsória",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compulsória compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compulsória compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produtos regulamentados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos regulamentados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos regulamentados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15323,7 +14106,7 @@
     },
     {
       "nome": "Sistema de gestão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistema de gestão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistema de gestão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15350,7 +14133,7 @@
           "topicos": [
     {
       "nome": "Automotivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Automotivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Automotivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "APQP",
@@ -15358,7 +14141,7 @@
     },
     {
       "nome": "PPAP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PPAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PPAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "FMEA",
@@ -15389,15 +14172,15 @@
           "topicos": [
     {
       "nome": "Vigilôncia sanitéria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Vigilôncia sanitéria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Vigilôncia sanitéria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Boas Préticas de Fabricação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Boas Préticas de Fabricação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Boas Préticas de Fabricação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Registro de produtos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Registro de produtos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Registro de produtos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15424,19 +14207,19 @@
           "topicos": [
     {
       "nome": "Comércio exterior",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comércio exterior compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comércio exterior compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aduana",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aduana compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aduana compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NCM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NCM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NCM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Drawback",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Drawback compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Drawback compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15463,11 +14246,11 @@
           "topicos": [
     {
       "nome": "CDC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CDC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CDC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Relação de consumo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relação de consumo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relação de consumo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Responsabilidade civil",
@@ -15475,7 +14258,7 @@
     },
     {
       "nome": "Garantia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Garantia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Garantia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15502,19 +14285,19 @@
           "topicos": [
     {
       "nome": "Privacidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Privacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Privacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DPO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DPO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DPO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dados pessoais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dados pessoais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dados pessoais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consentimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consentimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consentimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15541,19 +14324,19 @@
           "topicos": [
     {
       "nome": "Acordo coletivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dissídio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dissídio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dissídio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sindicato",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sindicato compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sindicato compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CCT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15580,15 +14363,15 @@
           "topicos": [
     {
       "nome": "Negociação coletiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação coletiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negociação coletiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acordo coletivo de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo coletivo de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CCT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CCT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15615,15 +14398,15 @@
           "topicos": [
     {
       "nome": "NR-31",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-31 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-31 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trabalho rural",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho rural compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho rural compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Segurança no campo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança no campo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Segurança no campo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15650,19 +14433,19 @@
           "topicos": [
     {
       "nome": "RTQ",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RTQ compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RTQ compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "INMETRO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. INMETRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. INMETRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ANVISA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ANVISA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ANVISA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Especificação técnica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Especificação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Especificação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15689,15 +14472,15 @@
           "topicos": [
     {
       "nome": "INMETRO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. INMETRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. INMETRO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produtos certificados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos certificados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtos certificados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Selo de conformidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Selo de conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Selo de conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15724,19 +14507,19 @@
           "topicos": [
     {
       "nome": "Marcação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Marcação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Marcação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Conformidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conformidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ABNT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ABNT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ABNT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Certificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15786,19 +14569,19 @@
           "topicos": [
     {
       "nome": "Artesanato",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Artesanato compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Artesanato compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Industrialização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Industrialização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Industrialização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indústria 4.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15825,19 +14608,19 @@
           "topicos": [
     {
       "nome": "1┬¬ Revolução Industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 1┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 1┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "2┬¬ Revolução Industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 2┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 2┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "3┬¬ Revolução Industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. 3┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. 3┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indústria 4.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15864,15 +14647,15 @@
           "topicos": [
     {
       "nome": "Frederick Taylor",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Frederick Taylor compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Frederick Taylor compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estudo de tempos e movimentos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de tempos e movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estudo de tempos e movimentos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Racionalização do trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Racionalização do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Racionalização do trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15899,19 +14682,19 @@
           "topicos": [
     {
       "nome": "Henry Ford",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Henry Ford compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Henry Ford compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Linha de montagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produção em massa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em massa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produção em massa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ford Modelo T",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ford Modelo T compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ford Modelo T compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15938,11 +14721,11 @@
           "topicos": [
     {
       "nome": "Lean Manufacturing",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lean Manufacturing compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lean Manufacturing compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "JIT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. JIT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Jidoka",
@@ -15954,7 +14737,7 @@
     },
     {
       "nome": "Taiichi Ohno",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Taiichi Ohno compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Taiichi Ohno compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -15981,15 +14764,15 @@
           "topicos": [
     {
       "nome": "Sistemas de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sistemas de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo produtivo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo produtivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo produtivo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Classificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Classificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16016,15 +14799,15 @@
           "topicos": [
     {
       "nome": "Processo contínuo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processo contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processo contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Indústria de processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo ininterrupto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo ininterrupto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo ininterrupto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16051,19 +14834,19 @@
           "topicos": [
     {
       "nome": "Linha de montagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Alto volume",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alto volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alto volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Padronização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Padronização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fordismo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fordismo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fordismo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16090,19 +14873,19 @@
           "topicos": [
     {
       "nome": "Gestão de projetos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produto único",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produto único compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produto único compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Customização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Customização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Customização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "PMBOK",
-      "descricao": "Conceito aplicado na área de engenharia de produção. PMBOK compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. PMBOK compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16129,19 +14912,19 @@
           "topicos": [
     {
       "nome": "Lote econômico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lote econômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lote econômico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Setup",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Setup compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Setup compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Médio volume",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Médio volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Médio volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Variedade média",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Variedade média compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Variedade média compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16168,15 +14951,15 @@
           "topicos": [
     {
       "nome": "Modularidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modularidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modularidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Postponement",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Postponement compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Postponement compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Configurador de produto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Configurador de produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Configurador de produto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16203,19 +14986,19 @@
           "topicos": [
     {
       "nome": "Layout",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo de materiais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de materiais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Movimentação interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Movimentação interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planejamento fabril",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento fabril compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento fabril compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16242,7 +15025,7 @@
           "topicos": [
     {
       "nome": "Linha de montagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Linha de montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo contínuo",
@@ -16250,7 +15033,7 @@
     },
     {
       "nome": "Alto volume",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alto volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alto volume compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16277,15 +15060,15 @@
           "topicos": [
     {
       "nome": "Layout funcional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout funcional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Centros de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Centros de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura por lotes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura por lotes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura por lotes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16312,15 +15095,15 @@
           "topicos": [
     {
       "nome": "Célula de manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Célula de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Célula de manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tecnologia de Grupo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de Grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de Grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura enxuta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16347,15 +15130,15 @@
           "topicos": [
     {
       "nome": "Projeto fixo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto fixo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto fixo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Grandes estruturas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Grandes estruturas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Grandes estruturas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Construção pesada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Construção pesada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Construção pesada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16382,15 +15165,15 @@
           "topicos": [
     {
       "nome": "Layout combinado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout combinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout combinado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planta flexível",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planta flexível compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planta flexível compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mix de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mix de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mix de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16417,7 +15200,7 @@
           "topicos": [
     {
       "nome": "Balanceamento de linha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Balanceamento de linha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Takt time",
@@ -16425,7 +15208,7 @@
     },
     {
       "nome": "Estação de trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estação de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estação de trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16452,15 +15235,15 @@
           "topicos": [
     {
       "nome": "Tecnologia de Grupo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de Grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologia de Grupo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura enxuta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Layout em U",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout em U compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16487,19 +15270,19 @@
           "topicos": [
     {
       "nome": "MVP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MVP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MVP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eric Ries",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eric Ries compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eric Ries compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Startup enxuta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Startup enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Startup enxuta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inovação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inovação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16550,19 +15333,19 @@
           "topicos": [
     {
       "nome": "Estrutura cristalina",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura cristalina compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura cristalina compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Defeitos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Defeitos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Difusão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Difusão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Difusão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Microestrutura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Microestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Microestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16589,23 +15372,23 @@
           "topicos": [
     {
       "nome": "Ferrita α",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferrita α compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferrita α compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Austenita γ",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Austenita γ compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Austenita γ compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cementita FeÔéâC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cementita FeÔéâC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cementita FeÔéâC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Perlita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perlita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perlita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ponto eutetóide 727┬░C",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ponto eutetóide 727┬░C compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ponto eutetóide 727┬░C compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16632,23 +15415,23 @@
           "topicos": [
     {
       "nome": "SAE/AISI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SAE/AISI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SAE/AISI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ABNT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ABNT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ABNT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aços-carbono",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aços-carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aços-carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aços-liga",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aços-liga compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aços-liga compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aços inoxidéveis",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aços inoxidéveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aços inoxidéveis compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16675,19 +15458,19 @@
           "topicos": [
     {
       "nome": "Ferro fundido cinzento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido cinzento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido cinzento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferro fundido nodular",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido nodular compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido nodular compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferro fundido branco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido branco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro fundido branco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ADI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ADI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ADI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16714,15 +15497,15 @@
           "topicos": [
     {
       "nome": "Deformação pléstica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Deformação pléstica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Deformação pléstica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Encruamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Encruamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Encruamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Recristalização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recristalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recristalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16749,23 +15532,23 @@
           "topicos": [
     {
       "nome": "Torneamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Torneamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Torneamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fresamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fresamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fresamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Furação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Furação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Furação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Retificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Retificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Retificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cavaco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cavaco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cavaco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16792,23 +15575,23 @@
           "topicos": [
     {
       "nome": "ZTA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ZTA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ZTA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Arco elétrico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arco elétrico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arco elétrico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "MIG/MAG",
-      "descricao": "Conceito aplicado na área de engenharia de produção. MIG/MAG compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. MIG/MAG compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "TIG",
-      "descricao": "Conceito aplicado na área de engenharia de produção. TIG compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. TIG compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eletrodo revestido",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eletrodo revestido compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eletrodo revestido compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16835,23 +15618,23 @@
           "topicos": [
     {
       "nome": "Certificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Certificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-13",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-13 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-13 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ASME IX",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ASME IX compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ASME IX compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "AWS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. AWS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. AWS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ensaio de qualificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaio de qualificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaio de qualificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16878,19 +15661,19 @@
           "topicos": [
     {
       "nome": "Sinterização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sinterização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sinterização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Prensagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Prensagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Prensagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pó metélico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pó metélico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pó metélico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metalurgia do pó",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metalurgia do pó compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metalurgia do pó compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16917,19 +15700,19 @@
           "topicos": [
     {
       "nome": "Corrosão eletroquímica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Corrosão eletroquímica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Corrosão eletroquímica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Oxidação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Oxidação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Oxidação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pintura industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pintura industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pintura industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Galvanização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Galvanização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Galvanização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16956,23 +15739,23 @@
           "topicos": [
     {
       "nome": "Tração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dureza",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Impacto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Impacto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fadiga",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fadiga compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fadiga compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -16999,19 +15782,19 @@
           "topicos": [
     {
       "nome": "Ultrassom",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ultrassom compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ultrassom compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Radiografia industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Radiografia industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Radiografia industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Líquidos penetrantes",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Líquidos penetrantes compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Líquidos penetrantes compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Partículas magnéticas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Partículas magnéticas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Partículas magnéticas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17038,19 +15821,19 @@
           "topicos": [
     {
       "nome": "Microscopia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Microscopia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Microscopia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ataque químico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ataque químico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ataque químico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Microestrutura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Microestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Microestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de falhas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de falhas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de falhas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17077,23 +15860,23 @@
           "topicos": [
     {
       "nome": "Alto-forno",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alto-forno compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alto-forno compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aciaria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aciaria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aciaria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lingotamento contínuo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lingotamento contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lingotamento contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gusa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gusa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gusa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Laminação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17120,23 +15903,23 @@
           "topicos": [
     {
       "nome": "Alumínio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alumínio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alumínio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cobre",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cobre compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cobre compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Titônio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Titônio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Titônio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Níquel",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Níquel compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Níquel compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Superligas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Superligas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Superligas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17163,19 +15946,19 @@
           "topicos": [
     {
       "nome": "NR-13",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-13 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-13 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ASME VIII",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ASME VIII compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ASME VIII compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Caldeiraria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Caldeiraria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Caldeiraria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inspeção de vasos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção de vasos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inspeção de vasos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17202,19 +15985,19 @@
           "topicos": [
     {
       "nome": "Moldagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Moldagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Moldagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Vazamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Vazamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Vazamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Solidificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Solidificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Solidificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Macharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Macharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Macharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17241,19 +16024,19 @@
           "topicos": [
     {
       "nome": "Molde de areia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Molde de areia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Molde de areia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Macharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Macharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Macharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Areia de fundição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Areia de fundição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Areia de fundição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17280,19 +16063,19 @@
           "topicos": [
     {
       "nome": "Grafita lamelar",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita lamelar compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita lamelar compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Grafita esferoidal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita esferoidal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita esferoidal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usinabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usinabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usinabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Resistência mecônica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resistência mecônica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resistência mecônica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17319,19 +16102,19 @@
           "topicos": [
     {
       "nome": "Magnésio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Magnésio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Magnésio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferro-silício",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro-silício compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro-silício compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Grafita esferoidal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita esferoidal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Grafita esferoidal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nucleação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nucleação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nucleação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17358,19 +16141,19 @@
           "topicos": [
     {
       "nome": "Austêmpera",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Austêmpera compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Austêmpera compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ausferrita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ausferrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ausferrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Alta resistência",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alta resistência compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alta resistência compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ferro nodular",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro nodular compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ferro nodular compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17397,19 +16180,19 @@
           "topicos": [
     {
       "nome": "Têmpera",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Têmpera compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Têmpera compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Recozimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recozimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recozimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Normalização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Normalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Normalização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Revenimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Revenimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Revenimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17436,19 +16219,19 @@
           "topicos": [
     {
       "nome": "Perlita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perlita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perlita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Bainita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bainita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bainita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Martensita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Resfriamento contínuo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resfriamento contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resfriamento contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17475,19 +16258,19 @@
           "topicos": [
     {
       "nome": "Alívio de tensões",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alívio de tensões compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alívio de tensões compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Refino de grão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Refino de grão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Refino de grão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Martensita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Meio de resfriamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Meio de resfriamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Meio de resfriamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17514,19 +16297,19 @@
           "topicos": [
     {
       "nome": "Martensita revenida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita revenida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Martensita revenida compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Bainita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Bainita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Bainita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fragilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fragilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fragilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tenacidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tenacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tenacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17553,19 +16336,19 @@
           "topicos": [
     {
       "nome": "Cementação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cementação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cementação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nitretação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nitretação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nitretação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Camada superficial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Camada superficial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Camada superficial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Têmpera superficial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Têmpera superficial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Têmpera superficial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17592,15 +16375,15 @@
           "topicos": [
     {
       "nome": "Temperabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Temperabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Temperabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Curva Jominy",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Curva Jominy compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Curva Jominy compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Profundidade de endurecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Profundidade de endurecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Profundidade de endurecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17627,19 +16410,19 @@
           "topicos": [
     {
       "nome": "Tensão de compressão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tensão de compressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tensão de compressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tensão de tração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tensão de tração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tensão de tração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Alívio de tensões",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Alívio de tensões compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Alívio de tensões compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Distorção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Distorção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Distorção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17666,15 +16449,15 @@
           "topicos": [
     {
       "nome": "Dureza Brinell HB",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Brinell HB compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Brinell HB compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dureza Rockwell HRC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Rockwell HRC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Rockwell HRC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dureza Vickers HV",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Vickers HV compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dureza Vickers HV compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17701,19 +16484,19 @@
           "topicos": [
     {
       "nome": "Forjamento a quente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Forjamento a quente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Forjamento a quente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Forjamento a frio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Forjamento a frio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Forjamento a frio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de estamparia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de estamparia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de estamparia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Embutimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Embutimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Embutimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17740,19 +16523,19 @@
           "topicos": [
     {
       "nome": "Extrusão direta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Extrusão direta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Extrusão direta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Extrusão indireta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Extrusão indireta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Extrusão indireta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fieira",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fieira compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fieira compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Redução de seção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de seção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Redução de seção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17779,19 +16562,19 @@
           "topicos": [
     {
       "nome": "Laminação a quente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação a quente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação a quente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Laminação a frio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação a frio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Laminação a frio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cilindro laminador",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindro laminador compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cilindro laminador compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Perfil estrutural",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perfil estrutural compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perfil estrutural compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17818,19 +16601,19 @@
           "topicos": [
     {
       "nome": "Fieira de trefilação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fieira de trefilação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fieira de trefilação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Arame de aço",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Arame de aço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Arame de aço compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Encruamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Encruamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Encruamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Lubrificação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Lubrificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Lubrificação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17857,19 +16640,19 @@
           "topicos": [
     {
       "nome": "Pirometalurgia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pirometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pirometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Hidrometalurgia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hidrometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hidrometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Eletrometalurgia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Eletrometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Eletrometalurgia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Beneficiamento de minérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Beneficiamento de minérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Beneficiamento de minérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17919,19 +16702,19 @@
           "topicos": [
     {
       "nome": "Inspiração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inspiração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inspiração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Visão estratégica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Visão estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Visão estratégica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Motivação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Motivação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Motivação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mudança organizacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança organizacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança organizacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17958,19 +16741,19 @@
           "topicos": [
     {
       "nome": "Comunicação verbal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação verbal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação verbal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Comunicação escrita",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação escrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação escrita compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Feedback",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Assertividade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Assertividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Assertividade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -17997,19 +16780,19 @@
           "topicos": [
     {
       "nome": "Persuasão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Persuasão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Persuasão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Concessão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Concessão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Concessão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acordo ganha-ganha",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo ganha-ganha compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acordo ganha-ganha compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Impasses",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Impasses compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Impasses compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18036,19 +16819,19 @@
           "topicos": [
     {
       "nome": "Priorização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Priorização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Priorização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz de Eisenhower",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de Eisenhower compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz de Eisenhower compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Planejamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Produtividade pessoal",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade pessoal compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produtividade pessoal compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18075,19 +16858,19 @@
           "topicos": [
     {
       "nome": "Raciocínio lógico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Raciocínio lógico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Raciocínio lógico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de dados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Solução de problemas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Solução de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Solução de problemas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pensamento crítico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento crítico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento crítico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18122,11 +16905,11 @@
     },
     {
       "nome": "A3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. A3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. A3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Causa raiz",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18153,19 +16936,19 @@
           "topicos": [
     {
       "nome": "Risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Anélise de cenérios",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Anélise de cenérios compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Probabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Probabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Probabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Incerteza",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Incerteza compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Incerteza compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18192,19 +16975,19 @@
           "topicos": [
     {
       "nome": "Autoconhecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Autoconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Autoconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Empatia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Empatia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Empatia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Autocontrole",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Autocontrole compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Autocontrole compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Habilidades sociais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Habilidades sociais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Habilidades sociais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18231,19 +17014,19 @@
           "topicos": [
     {
       "nome": "Colaboração",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Colaboração compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Colaboração compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Diversidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diversidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Diversidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Times multifuncionais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Times multifuncionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Times multifuncionais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Sinergia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Sinergia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Sinergia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18270,19 +17053,19 @@
           "topicos": [
     {
       "nome": "Planejamento estratégico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento estratégico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Planejamento estratégico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Visão sistêmica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Visão sistêmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Visão sistêmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Longo prazo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Longo prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Longo prazo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Negócio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Negócio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Negócio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18309,19 +17092,19 @@
           "topicos": [
     {
       "nome": "Flexibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Flexibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Flexibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Mudança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mudança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Pressão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pressão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aprendizado contínuo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aprendizado contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aprendizado contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18348,15 +17131,15 @@
           "topicos": [
     {
       "nome": "Mediação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mediação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mediação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Escuta ativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta ativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta ativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Consenso",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Consenso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Consenso compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Clima organizacional",
@@ -18387,11 +17170,11 @@
           "topicos": [
     {
       "nome": "Escuta ativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta ativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta ativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compreensão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compreensão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compreensão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Clima organizacional",
@@ -18399,7 +17182,7 @@
     },
     {
       "nome": "Relações interpessoais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Relações interpessoais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Relações interpessoais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18426,15 +17209,15 @@
           "topicos": [
     {
       "nome": "Falar em público",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Falar em público compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Falar em público compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Storytelling",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Storytelling compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Storytelling compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Apresentação de resultados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Apresentação de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Apresentação de resultados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Oratória",
@@ -18465,7 +17248,7 @@
           "topicos": [
     {
       "nome": "Feedback",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Feedback compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Avaliação de desempenho",
@@ -18477,7 +17260,7 @@
     },
     {
       "nome": "Desenvolvimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18504,19 +17287,19 @@
           "topicos": [
     {
       "nome": "Mentoria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Mentoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Mentoria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Coaching",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Coaching compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Coaching compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desenvolvimento de carreira",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de carreira compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenvolvimento de carreira compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aprendizagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aprendizagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18543,19 +17326,19 @@
           "topicos": [
     {
       "nome": "Estilos de liderança",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estilos de liderança compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estilos de liderança compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Maturidade da equipe",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Maturidade da equipe compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Maturidade da equipe compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Delegação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Delegação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Delegação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Flexibilidade gerencial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Flexibilidade gerencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Flexibilidade gerencial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18582,19 +17365,19 @@
           "topicos": [
     {
       "nome": "CNV",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CNV compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CNV compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Escuta empética",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta empética compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escuta empética compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Resolução pacífica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Resolução pacífica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Resolução pacífica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Diélogo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diélogo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Diélogo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18621,7 +17404,7 @@
           "topicos": [
     {
       "nome": "Narrativa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Narrativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Narrativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Engajamento",
@@ -18629,7 +17412,7 @@
     },
     {
       "nome": "Comunicação persuasiva",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação persuasiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Comunicação persuasiva compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cultura organizacional",
@@ -18660,7 +17443,7 @@
           "topicos": [
     {
       "nome": "Pensamento divergente",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento divergente compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pensamento divergente compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inovação incremental",
@@ -18672,7 +17455,7 @@
     },
     {
       "nome": "Ideação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ideação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ideação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18722,23 +17505,23 @@
           "topicos": [
     {
       "nome": "Tabela dinâmica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tabela dinâmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tabela dinâmica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Power Query",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Power Query compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Power Query compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Macros VBA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Macros VBA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Macros VBA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboard",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Funções matriciais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Funções matriciais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Funções matriciais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18765,23 +17548,23 @@
           "topicos": [
     {
       "nome": "SELECT",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SELECT compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SELECT compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "JOIN",
-      "descricao": "Conceito aplicado na área de engenharia de produção. JOIN compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. JOIN compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "GROUP BY",
-      "descricao": "Conceito aplicado na área de engenharia de produção. GROUP BY compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. GROUP BY compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Subconsulta",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Subconsulta compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Subconsulta compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Banco de dados relacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Banco de dados relacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Banco de dados relacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18808,23 +17591,23 @@
           "topicos": [
     {
       "nome": "Pandas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pandas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pandas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NumPy",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NumPy compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NumPy compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matplotlib",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matplotlib compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matplotlib compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Automação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Automação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Automação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Machine Learning",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Machine Learning compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Machine Learning compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18851,23 +17634,23 @@
           "topicos": [
     {
       "nome": "DAX",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DAX compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DAX compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Power Query",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Power Query compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Power Query compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelagem dimensional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboard",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "KPIs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. KPIs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18898,19 +17681,19 @@
     },
     {
       "nome": "Ordem de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ordem de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ordem de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Roteiro",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roteiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roteiro compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estoque",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estoque compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Compras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Compras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Compras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18937,23 +17720,23 @@
           "topicos": [
     {
       "nome": "Oracle EBS",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Oracle EBS compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Oracle EBS compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "JD Edwards",
-      "descricao": "Conceito aplicado na área de engenharia de produção. JD Edwards compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. JD Edwards compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Manufatura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Manufatura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Supply Chain",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Supply Chain compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Supply Chain compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ERP industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ERP industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ERP industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -18980,19 +17763,19 @@
           "topicos": [
     {
       "nome": "Chão de fábrica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Chão de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Chão de fábrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tempo real",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo real compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tempo real compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Apontamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Apontamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Apontamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19019,23 +17802,23 @@
           "topicos": [
     {
       "nome": "Armazém",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Armazém compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Armazém compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Picking",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Picking compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Picking compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Endereçamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Endereçamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Inventério",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inventério compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Expedição",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Expedição compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Expedição compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19062,19 +17845,19 @@
           "topicos": [
     {
       "nome": "Roteirização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Roteirização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Frete",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Frete compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Frete compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rastreamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rastreamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gestão de transportadoras",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de transportadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de transportadoras compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19101,19 +17884,19 @@
           "topicos": [
     {
       "nome": "Desenho técnico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenho técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenho técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Layout",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Layout compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CAD",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CAD compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CAD compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Projeto mecônico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto mecônico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Projeto mecônico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19144,15 +17927,15 @@
     },
     {
       "nome": "Montagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Montagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desenho técnico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desenho técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desenho técnico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19179,15 +17962,15 @@
           "topicos": [
     {
       "nome": "Six Sigma",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Six Sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Six Sigma compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DOE",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DOE compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DOE compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CEP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CEP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CEP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Teste de hipóteses",
@@ -19195,7 +17978,7 @@
     },
     {
       "nome": "Capabilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capabilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19222,23 +18005,23 @@
           "topicos": [
     {
       "nome": "Simulação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Gargalos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gargalos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Capacidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Capacidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19265,15 +18048,15 @@
           "topicos": [
     {
       "nome": "Totvs Protheus",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Totvs Protheus compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Totvs Protheus compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "SAP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. SAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. SAP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Oracle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Oracle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Oracle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "MRP II",
@@ -19281,7 +18064,7 @@
     },
     {
       "nome": "Gestão industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Gestão industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19308,23 +18091,23 @@
           "topicos": [
     {
       "nome": "RStudio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. RStudio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. RStudio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "dplyr",
-      "descricao": "Conceito aplicado na área de engenharia de produção. dplyr compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. dplyr compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ggplot2",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ggplot2 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ggplot2 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estatística",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Estatística compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Estatística compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Data Science",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Data Science compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Data Science compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19351,19 +18134,19 @@
           "topicos": [
     {
       "nome": "Visualização de dados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Visualização de dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Visualização de dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboard",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "BI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. BI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. BI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Storytelling com dados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Storytelling com dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Storytelling com dados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19390,19 +18173,19 @@
           "topicos": [
     {
       "nome": "Modelo associativo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo associativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo associativo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Dashboard",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Dashboard compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Data storytelling",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Data storytelling compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Data storytelling compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "BI",
-      "descricao": "Conceito aplicado na área de engenharia de produção. BI compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. BI compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19429,19 +18212,19 @@
           "topicos": [
     {
       "nome": "Simulação numérica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação numérica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação numérica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Otimização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Otimização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controle",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controle compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Processamento de sinais",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento de sinais compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Processamento de sinais compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19468,19 +18251,19 @@
           "topicos": [
     {
       "nome": "Computação numérica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Computação numérica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Computação numérica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Código aberto",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Código aberto compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Código aberto compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matemética aplicada",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matemética aplicada compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matemética aplicada compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19507,19 +18290,19 @@
           "topicos": [
     {
       "nome": "CAD/CAM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CAD/CAM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CAD/CAM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "CNC",
-      "descricao": "Conceito aplicado na área de engenharia de produção. CNC compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. CNC compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Usinagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Usinagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Usinagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fabricação digital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fabricação digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fabricação digital compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19570,19 +18353,19 @@
           "topicos": [
     {
       "nome": "Custo unitário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo unitário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo unitário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Rateio de OH",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Rateio de OH compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Rateio de OH compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo padrão",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo padrão compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Desvios de custo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desvios de custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desvios de custo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19609,11 +18392,11 @@
     },
     {
       "nome": "Custo variável unitário",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo variável unitário compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo variável unitário compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Decisão make or buy",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Decisão make or buy compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Decisão make or buy compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19632,19 +18415,19 @@
           "topicos": [
     {
       "nome": "Atividades",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Atividades compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Direcionadores de custos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Direcionadores de custos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Direcionadores de custos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Hierarquia de atividades",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hierarquia de atividades compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hierarquia de atividades compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo-alvo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo-alvo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19663,19 +18446,19 @@
           "topicos": [
     {
       "nome": "Orçamento de vendas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento de vendas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento de vendas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Orçamento de produção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Orçamento de produção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fluxo de caixa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de caixa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fluxo de caixa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Flexível vs fixo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Flexível vs fixo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Flexível vs fixo compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19702,11 +18485,11 @@
     },
     {
       "nome": "Payback simples e descontado",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Payback simples e descontado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Payback simples e descontado compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de capital",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de capital compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de capital compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19725,19 +18508,19 @@
           "topicos": [
     {
       "nome": "Custo de prevenção",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de prevenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de prevenção compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de avaliação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de avaliação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de falha interna",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de falha interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de falha interna compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Custo de falha externa",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de falha externa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Custo de falha externa compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19778,19 +18561,19 @@
           "topicos": [
     {
       "nome": "NR-12 Máquinas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-12 Máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-12 Máquinas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-10 Eletricidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-10 Eletricidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-10 Eletricidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-35 Trabalho em altura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-35 Trabalho em altura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-35 Trabalho em altura compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "NR-6 EPIs",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NR-6 EPIs compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. NR-6 EPIs compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19809,19 +18592,19 @@
           "topicos": [
     {
       "nome": "ARAM",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ARAM compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ARAM compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Perigo vs risco",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Perigo vs risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Perigo vs risco compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Matriz P x G",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz P x G compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Matriz P x G compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Controles de engenharia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Controles de engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Controles de engenharia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19848,11 +18631,11 @@
     },
     {
       "nome": "Carga física",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Carga física compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Carga física compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Iluminação e ruído",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Iluminação e ruído compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Iluminação e ruído compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19871,7 +18654,7 @@
           "topicos": [
     {
       "nome": "Árvore de causas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Árvore de causas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Árvore de causas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "5 Porquês",
@@ -19879,11 +18662,11 @@
     },
     {
       "nome": "Causa raiz",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Causa raiz compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Plano de ação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Plano de ação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19902,19 +18685,19 @@
           "topicos": [
     {
       "nome": "Evacuação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Evacuação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Evacuação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Combate a incêndio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Combate a incêndio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Combate a incêndio compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Primeiros socorros",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Primeiros socorros compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Primeiros socorros compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simulados",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simulados compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simulados compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19955,19 +18738,19 @@
           "topicos": [
     {
       "nome": "Desmontagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Desmontagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Desmontagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Medição dimensional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Medição dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Medição dimensional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Análise de material",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Análise de material compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Análise de material compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Documentação técnica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Documentação técnica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -19986,19 +18769,19 @@
           "topicos": [
     {
       "nome": "Scanner laser",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Scanner laser compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Scanner laser compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Fotogrametria",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Fotogrametria compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Fotogrametria compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Nuvem de pontos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nuvem de pontos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nuvem de pontos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Malha triangular",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Malha triangular compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Malha triangular compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20017,19 +18800,19 @@
           "topicos": [
     {
       "nome": "Reconstrução de superfícies",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reconstrução de superfícies compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reconstrução de superfícies compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Parametrização",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Parametrização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Parametrização compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Modelo sólido",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo sólido compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Modelo sólido compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Importação IGES/STEP",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Importação IGES/STEP compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Importação IGES/STEP compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20048,19 +18831,19 @@
           "topicos": [
     {
       "nome": "Espectroscopia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Espectroscopia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Espectroscopia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Metalografia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Metalografia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Metalografia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Ensaio de dureza",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaio de dureza compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Ensaio de dureza compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Análise termogravimétrica",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Análise termogravimétrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Análise termogravimétrica compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20104,15 +18887,15 @@
     },
     {
       "nome": "Satisfação no trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Satisfação no trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Satisfação no trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Equilíbrio vida-trabalho",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Equilíbrio vida-trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Equilíbrio vida-trabalho compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Políticas de bem-estar",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Políticas de bem-estar compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Políticas de bem-estar compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20131,7 +18914,7 @@
           "topicos": [
     {
       "nome": "Burnout",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Burnout compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Burnout compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Estresse ocupacional",
@@ -20143,7 +18926,7 @@
     },
     {
       "nome": "Programas de apoio (EAP)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Programas de apoio (EAP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Programas de apoio (EAP) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20162,19 +18945,19 @@
           "topicos": [
     {
       "nome": "Herzberg (higiene-motivação)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Herzberg (higiene-motivação) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Herzberg (higiene-motivação) compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Maslow",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Maslow compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Maslow compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Autonomia e propósito",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Autonomia e propósito compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Autonomia e propósito compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reconhecimento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reconhecimento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20193,19 +18976,19 @@
           "topicos": [
     {
       "nome": "Inclusão de gênero",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inclusão de gênero compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inclusão de gênero compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Acessibilidade",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Acessibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Acessibilidade compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Trabalho intergeracional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho intergeracional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Trabalho intergeracional compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Cotas e políticas afirmativas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Cotas e políticas afirmativas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Cotas e políticas afirmativas compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20246,19 +19029,19 @@
           "topicos": [
     {
       "nome": "EIA/RIMA",
-      "descricao": "Conceito aplicado na área de engenharia de produção. EIA/RIMA compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. EIA/RIMA compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Licença prévia",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Licença prévia compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Licença prévia compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Licença de instalação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Licença de instalação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Licença de instalação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Licença de operação",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Licença de operação compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Licença de operação compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20277,19 +19060,19 @@
           "topicos": [
     {
       "nome": "DQO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DQO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DQO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "DBO",
-      "descricao": "Conceito aplicado na área de engenharia de produção. DBO compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. DBO compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Tratamento biológico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Tratamento biológico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Tratamento biológico compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Efluentes perigosos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Efluentes perigosos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Efluentes perigosos compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20312,15 +19095,15 @@
     },
     {
       "nome": "Destinação final",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Destinação final compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Destinação final compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Aterro industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aterro industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aterro industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Reciclagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Reciclagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Reciclagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20339,19 +19122,19 @@
           "topicos": [
     {
       "nome": "Inventário de GEE",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Inventário de GEE compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Inventário de GEE compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Escopo 1, 2 e 3",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Escopo 1, 2 e 3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Escopo 1, 2 e 3 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Créditos de carbono",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Créditos de carbono compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "ISO 14064",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ISO 14064 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. ISO 14064 compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
@@ -20370,19 +19153,19 @@
           "topicos": [
     {
       "nome": "Design para desmontagem",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Design para desmontagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Design para desmontagem compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Recondicionamento",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Recondicionamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Recondicionamento compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Upcycling",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Upcycling compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Upcycling compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     },
     {
       "nome": "Simbiose industrial",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Simbiose industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "descricao": "Conceito aplicado na área de engenharia de produção. Simbiose industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na indústria."
     }
   ],
 
