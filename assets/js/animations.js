@@ -217,6 +217,7 @@
   function initCardReveals() {
     const selectors = '.topic-card, .course-card, .resource-card, .form-card, .about-card, .stat-card, .news-card, .visual-card';
     gsap.utils.toArray(selectors).forEach((card, i) => {
+      if (card.hasAttribute('data-reveal-item')) return;
       gsap.from(card, {
         y: 40, opacity: 0, duration: 0.7, ease: 'power4.out',
         scrollTrigger: { trigger: card, start: 'top 88%' }

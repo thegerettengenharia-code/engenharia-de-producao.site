@@ -93,7 +93,7 @@
     }, 600);
   });
   const navLinks = document.querySelectorAll('.nav-link');
-  const sections = document.querySelectorAll('section[id]');
+  const sections = document.querySelectorAll('section[id]:not([hidden])');
   window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(s => {
@@ -132,6 +132,27 @@
   const searchHint = document.getElementById('searchHint');
   const searchEmpty = document.getElementById('searchEmpty');
   const searchSuggestions = document.getElementById('searchSuggestions');
+  const searchClear = document.getElementById('searchClear');
+  const searchBackdrop = document.getElementById('searchBackdrop');
+
+  function closeSuggestions() {
+    searchSuggestions?.classList.remove('open');
+    searchBackdrop?.classList.remove('open');
+  }
+
+  function openSuggestions() {
+    searchSuggestions?.classList.add('open');
+    searchBackdrop?.classList.add('open');
+  }
+
+  searchClear?.addEventListener('click', () => {
+    if (searchInput) { searchInput.value = ''; searchInput.focus(); }
+    searchClear.hidden = true; renderTopics();
+    if (searchHint) searchHint.textContent = '';
+    closeSuggestions();
+  });
+
+  searchBackdrop?.addEventListener('click', closeSuggestions);
 
   function renderTopics(filter) {
     if (!grid) return;
@@ -223,15 +244,15 @@
             </div>
           </div>
         `).join('');
-        searchSuggestions.classList.add('open');
+        openSuggestions();
         searchSuggestions.querySelectorAll('.suggestion-item').forEach(item => {
           item.addEventListener('click', () => {
             openDetail(item.dataset.category);
-            searchSuggestions.classList.remove('open');
+            closeSuggestions();
           });
         });
-      } else if (searchSuggestions) { searchSuggestions.classList.remove('open'); }
-    } else if (searchSuggestions) { searchSuggestions.classList.remove('open'); }
+      } else { closeSuggestions(); }
+    } else { closeSuggestions(); }
     if (searchHint) {
       const count = grid?.querySelectorAll('.topic-card').length || 0;
       searchHint.textContent = q ? `${count} resultado${count !== 1 ? 's' : ''} para "${q}"` : '';
@@ -243,16 +264,8 @@
     if (!items || !items.length) return;
     if (e.key === 'ArrowDown') { e.preventDefault(); highlightedIndex = Math.min(highlightedIndex + 1, items.length - 1); items.forEach((el, i) => el.classList.toggle('highlighted', i === highlightedIndex)); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); highlightedIndex = Math.max(highlightedIndex - 1, 0); items.forEach((el, i) => el.classList.toggle('highlighted', i === highlightedIndex)); }
-    else if (e.key === 'Enter' && highlightedIndex >= 0) { e.preventDefault(); openDetail(items[highlightedIndex].dataset.category); searchSuggestions?.classList.remove('open'); }
-    else if (e.key === 'Escape') { searchSuggestions?.classList.remove('open'); }
-  });
-
-  const searchClear = document.getElementById('searchClear');
-  searchClear?.addEventListener('click', () => {
-    if (searchInput) { searchInput.value = ''; searchInput.focus(); }
-    searchClear.hidden = true; renderTopics();
-    if (searchHint) searchHint.textContent = '';
-    if (searchSuggestions) searchSuggestions.classList.remove('open');
+    else if (e.key === 'Enter' && highlightedIndex >= 0) { e.preventDefault(); openDetail(items[highlightedIndex].dataset.category); closeSuggestions(); }
+    else if (e.key === 'Escape') { closeSuggestions(); }
   });
 
   function getSuggestions(query, maxResults) {
@@ -307,7 +320,11 @@
             </button>
             ${temDetalhes ? `<div class="detail-item-body">
               ${definicao ? `<p class="detail-definicao">${definicao}</p>` : ''}
-              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul>${topicosLista.map(t => `<li>${t}</li>`).join('')}</ul></div>` : ''}
+              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul>${topicosLista.map(t => {
+  const tnome = typeof t === 'string' ? t : (t.nome || '');
+  const tdesc = typeof t === 'object' && t.descricao ? t.descricao : '';
+  return `<li><strong>${tnome}</strong>${tdesc ? `<br><small>${tdesc}</small>` : ''}</li>`;
+}).join('')}</ul></div>` : ''}
               ${formula ? `<div class="detail-section"><h5>Formula / Expressao</h5><code class="detail-formula">${formula}</code></div>` : ''}
               ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicacoes Praticas</h5><ul>${aplicacoes.map(a => `<li>${a}</li>`).join('')}</ul></div>` : ''}
             </div>` : ''}
@@ -367,6 +384,69 @@
         </a>
       </article>
     `).join('');
+  }
+
+  /* ─── Logo Effects: Vibrate + Metallic Particles ─── */
+  const heroLogo = document.getElementById('heroLogoImg');
+  const heroLogoWrapper = document.getElementById('heroLogoWrapper');
+  const navLogo = document.getElementById('navLogoImg');
+
+  function createMetallicParticles(x, y, count) {
+    const colors = [
+      'linear-gradient(135deg, #C0C0C0, #E8E8E8, #A0A0A0)',
+      'linear-gradient(135deg, #B0B0B0, #D0D0D0, #909090)',
+      'linear-gradient(135deg, #D4D4D4, #F0F0F0, #B8B8B8)',
+      'linear-gradient(135deg, #A8A8A8, #C8C8C8, #888888)',
+      'linear-gradient(135deg, #E0E0E0, #FFFFFF, #C0C0C0)',
+    ];
+    for (let i = 0; i < count; i++) {
+      const p = document.createElement('div');
+      p.className = 'metallic-particle';
+      const angle = (Math.PI * 2 * i) / count + (Math.random() * 0.5 - 0.25);
+      const distance = 40 + Math.random() * 80;
+      const tx = Math.cos(angle) * distance;
+      const ty = Math.sin(angle) * distance;
+      p.style.left = x + 'px';
+      p.style.top = y + 'px';
+      p.style.setProperty('--tx', tx + 'px');
+      p.style.setProperty('--ty', ty + 'px');
+      p.style.background = colors[Math.floor(Math.random() * colors.length)];
+      p.style.width = (2 + Math.random() * 4) + 'px';
+      p.style.height = p.style.width;
+      p.style.animation = 'particleFade ' + (0.5 + Math.random() * 0.6) + 's ease-out forwards';
+      document.body.appendChild(p);
+      setTimeout(() => p.remove(), 1200);
+    }
+  }
+
+  if (heroLogo) {
+    heroLogo.addEventListener('mouseenter', () => {
+      heroLogo.classList.add('logo-vibrate');
+    });
+    heroLogo.addEventListener('animationend', () => {
+      heroLogo.classList.remove('logo-vibrate');
+    });
+    heroLogo.addEventListener('click', (e) => {
+      const rect = heroLogo.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      createMetallicParticles(cx, cy, 24);
+    });
+  }
+
+  if (navLogo) {
+    navLogo.addEventListener('mouseenter', () => {
+      navLogo.classList.add('logo-vibrate');
+      setTimeout(() => navLogo.classList.remove('logo-vibrate'), 400);
+    });
+    navLogo.addEventListener('click', (e) => {
+      e.preventDefault();
+      const rect = navLogo.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      createMetallicParticles(cx, cy, 18);
+      setTimeout(() => { window.location.href = 'index.html'; }, 300);
+    });
   }
 
   console.log('%c Gerett v4.0 ', 'background:linear-gradient(135deg,#0055FF,#00E5FF);color:#fff;font-size:14px;padding:8px 16px;border-radius:6px;font-weight:bold;');
