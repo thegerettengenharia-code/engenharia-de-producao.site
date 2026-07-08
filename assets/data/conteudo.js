@@ -449,7 +449,7 @@
 
           "titulo": "ERP  –  Enterprise Resource Planning",
 
-          "definicao": "Sistema integrado de gestão que unifica todos os processos de negócio (produção, finanças, RH, logística, vendas) em uma ×nica base de dados. O MRP é um módulo dentro do ERP que trata especificamente do planejamento de materiais e capacidade.",
+          "definicao": "Sistema integrado de gestão que unifica todos os processos de negócio (produção, finanças, RH, logística, vendas) em uma única base de dados. O MRP é um módulo dentro do ERP que trata especificamente do planejamento de materiais e capacidade.",
 
           "topicos": [
     {
@@ -785,7 +785,7 @@
 
           "titulo": "ISO 45001:2023",
 
-          "definicao": "Norma que define requisitos para Sistemas de Gestão de Sa×de e Segurança Ocupacional, ajudando organizações a prevenir lesões e doenças relacionadas ao trabalho. Integra-se com ISO 9001 e ISO 14001 no modelo de estrutura de alto nível (HLS).",
+          "definicao": "Norma que define requisitos para Sistemas de Gestão de Saúde e Segurança Ocupacional, ajudando organizações a prevenir lesões e doenças relacionadas ao trabalho. Integra-se com ISO 9001 e ISO 14001 no modelo de estrutura de alto nível (HLS).",
 
           "topicos": [
     {
@@ -902,7 +902,7 @@
 
           "titulo": "Lean Six Sigma",
 
-          "definicao": "Integração das filosofias Lean Manufacturing (eliminação de desperdícios) e Seis Sigma (redução de variabilidade) em uma abordagem ×nica de melhoria contínua. Utiliza o DMAIC como estrutura e incorpora ferramentas lean como VSM e 5S.",
+          "definicao": "Integração das filosofias Lean Manufacturing (eliminação de desperdícios) e Seis Sigma (redução de variabilidade) em uma abordagem única de melhoria contínua. Utiliza o DMAIC como estrutura e incorpora ferramentas lean como VSM e 5S.",
 
           "topicos": [
     {
@@ -1754,7 +1754,7 @@
 
             "Dimensionamento de linhas de produção",
 
-            "Definição do n×mero de operadores necessários",
+            "Definição do número de operadores necessários",
 
             "Avaliação se a fábrica atende ao volume demandado"
 
@@ -1988,7 +1988,7 @@
 
             "Programas TPM em indústrias de processo contínuo",
 
-            "Aumento de vida ×til de máquinas ferramenta",
+            "Aumento de vida útil de máquinas ferramenta",
 
             "Redução de paradas não planejadas"
 
@@ -2156,7 +2156,7 @@
 
           "titulo": "Relatório A3",
 
-          "definicao": "Ferramenta padronizada de solução de problemas estruturada em uma ×nica folha A3, contendo: contexto, estado atual, análise de causas, estado futuro, plano de ação e indicadores. Promove pensamento estruturado, concisão e foco no método PDCA.",
+          "definicao": "Ferramenta padronizada de solução de problemas estruturada em uma única folha A3, contendo: contexto, estado atual, análise de causas, estado futuro, plano de ação e indicadores. Promove pensamento estruturado, concisão e foco no método PDCA.",
 
           "topicos": [
     {
@@ -2195,7 +2195,7 @@
 
           "titulo": "Chaku-Chaku",
 
-          "definicao": "Método de operação em que o operador carrega e descarrega peças em m×ltiplas máquinas dispostas em sequência, caminhando de uma á outra. Cada máquina processa automaticamente após o carregamento, permitindo que um operador alimente vérias máquinas simultaneamente.",
+          "definicao": "Método de operação em que o operador carrega e descarrega peças em múltiplas máquinas dispostas em sequência, caminhando de uma á outra. Cada máquina processa automaticamente após o carregamento, permitindo que um operador alimente vérias máquinas simultaneamente.",
 
           "topicos": [
     {
@@ -2220,7 +2220,7 @@
 
           "aplicacoes": [
 
-            "Células de usinagem com m×ltiplos equipamentos",
+            "Células de usinagem com múltiplos equipamentos",
 
             "Linhas de montagem automatizadas com supervisão humana",
 
@@ -2454,7 +2454,7 @@
 
           "titulo": "Milk Run",
 
-          "definicao": "Roteiro de coleta programada em que um veículo passa por m×ltiplos fornecedores em um trajeto definido para consolidar cargas menores em uma ×nica viagem até a fábrica. Reduz custos de frete, frequência de entregas e estoque em trônsito.",
+          "definicao": "Roteiro de coleta programada em que um veículo passa por múltiplos fornecedores em um trajeto definido para consolidar cargas menores em uma única viagem até a fábrica. Reduz custos de frete, frequência de entregas e estoque em trônsito.",
 
           "topicos": [
     {
@@ -2571,7 +2571,7 @@
 
           "titulo": "Cadeia logística integrada",
 
-          "definicao": "Visão sistêmica que coordena e integra todos os fluxos logísticos  –  suprimentos, produção e distribuição  –  como um ×nico sistema. Busca eliminar silos funcionais, compartilhar informações em tempo real e otimizar o desempenho global da cadeia.",
+          "definicao": "Visão sistêmica que coordena e integra todos os fluxos logísticos  –  suprimentos, produção e distribuição  –  como um único sistema. Busca eliminar silos funcionais, compartilhar informações em tempo real e otimizar o desempenho global da cadeia.",
 
           "topicos": [
     {
@@ -3000,7 +3000,7 @@
 
           "titulo": "Centros de distribuição",
 
-          "definicao": "Instalação logística projetada para receber grandes volumes de produtos, armazené-los temporariamente e redistribuí-los em menores quantidades para m×ltiplos destinos. Diferem de armazéns convencionais pelo foco na répida movimentação e rotação de estoques.",
+          "definicao": "Instalação logística projetada para receber grandes volumes de produtos, armazené-los temporariamente e redistribuí-los em menores quantidades para múltiplos destinos. Diferem de armazéns convencionais pelo foco na répida movimentação e rotação de estoques.",
 
           "topicos": [
     {
@@ -3298,7 +3298,7 @@
 
           "titulo": "S&OP  –  Sales and Operations Planning",
 
-          "definicao": "Processo integrado de planejamento tético que alinha as éreas de vendas, marketing, produção, logística e finanças em um ×nico plano consensado para horizontes de 6 a 18 meses. Re×ne previsões de demanda, planos de suprimento e análise de capacidade em reuniões mensais.",
+          "definicao": "Processo integrado de planejamento tético que alinha as éreas de vendas, marketing, produção, logística e finanças em um único plano consensado para horizontes de 6 a 18 meses. Reúne previsões de demanda, planos de suprimento e análise de capacidade em reuniões mensais.",
 
           "topicos": [
     {
@@ -3337,7 +3337,7 @@
 
           "titulo": "Planejamento integrado",
 
-          "definicao": "Abordagem que consolida os planos funcionais (vendas, produção, compras, distribuição) em um ×nico plano mestre, otimizando trade-offs entre custo, nível de serviço e utilização de capacidade. Utiliza modelos mateméticos e simulação para cenérios.",
+          "definicao": "Abordagem que consolida os planos funcionais (vendas, produção, compras, distribuição) em um único plano mestre, otimizando trade-offs entre custo, nível de serviço e utilização de capacidade. Utiliza modelos mateméticos e simulação para cenérios.",
 
           "topicos": [
     {
@@ -3598,7 +3598,7 @@
 
             "Gestão de riscos em cadeias globais de semicondutores",
 
-            "Planos de contingência para fornecedores ×nicos",
+            "Planos de contingência para fornecedores únicos",
 
             "Monitoramento de riscos geopolíticos em tempo real"
 
@@ -3946,7 +3946,7 @@
 
           "titulo": "LIFO  –  Last In First Out",
 
-          "definicao": "Método de avaliação de estoques em que o ×ltimo item recebido é o primeiro a ser vendido ou consumido. Tem efeito fiscal em períodos inflacionérios (reduz lucro tributével), mas não é aceito pelo fisco brasileiro (Receita Federal) para fins de IRPJ e CSLL.",
+          "definicao": "Método de avaliação de estoques em que o último item recebido é o primeiro a ser vendido ou consumido. Tem efeito fiscal em períodos inflacionérios (reduz lucro tributével), mas não é aceito pelo fisco brasileiro (Receita Federal) para fins de IRPJ e CSLL.",
 
           "topicos": [
     {
@@ -4141,7 +4141,7 @@
 
           "titulo": "Cobertura de estoque",
 
-          "definicao": "Indicador que expressa o n×mero de dias que o estoque atual é suficiente para atender à demanda média futura sem novos suprimentos. Quanto maior a cobertura, maior o capital empatado; quanto menor, maior o risco de ruptura.",
+          "definicao": "Indicador que expressa o número de dias que o estoque atual é suficiente para atender à demanda média futura sem novos suprimentos. Quanto maior a cobertura, maior o capital empatado; quanto menor, maior o risco de ruptura.",
 
           "topicos": [
     {
@@ -4528,7 +4528,7 @@
 
       "cor": "#e11d48",
 
-      "descricao": "Sistemas automatizados, CLPs, robótica e Ind×stria 4.0.",
+      "descricao": "Sistemas automatizados, CLPs, robótica e Indústria 4.0.",
 
       "subtopicos": [
 
@@ -4716,7 +4716,7 @@
 
           "titulo": "Robótica industrial",
 
-          "definicao": "Ramo da automação que utiliza manipuladores mecônicos programéveis com m×ltiplos graus de liberdade para executar tarefas repetitivas, precisas ou perigosas. Os robôs industriais são classificados por geometria (articulada, cartesiana, SCARA, paralela) e por capacidade de carga.",
+          "definicao": "Ramo da automação que utiliza manipuladores mecônicos programéveis com múltiplos graus de liberdade para executar tarefas repetitivas, precisas ou perigosas. Os robôs industriais são classificados por geometria (articulada, cartesiana, SCARA, paralela) e por capacidade de carga.",
 
           "topicos": [
     {
@@ -4804,14 +4804,14 @@
 
         {
 
-          "titulo": "Ind×stria 4.0",
+          "titulo": "Indústria 4.0",
 
           "definicao": "Conceito que representa a quarta revolução industrial, caracterizada pela integração de sistemas ciberfísicos (CPS), IoT, inteligência artificial e computação em nuvem nos processos produtivos. Visa fábricas inteligentes com produção flexível, autônoma e orientada a dados.",
 
           "topicos": [
     {
-      "nome": "Pilares da Ind×stria 4.0 (BCG)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Pilares da Ind×stria 4.0 (BCG) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Pilares da Indústria 4.0 (BCG)",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Pilares da Indústria 4.0 (BCG) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Sistemas ciberfísicos (CPS)",
@@ -5377,7 +5377,7 @@
 
             "Integração de chão de fábrica com sistemas cloud",
 
-            "Coleta de dados de m×ltiplos CLPs heterogêneos",
+            "Coleta de dados de múltiplos CLPs heterogêneos",
 
             "Telemetria de ativos remotos",
 
@@ -5406,7 +5406,7 @@
 
       "cor": "#ea580c",
 
-      "descricao": "Digitalização, IA, gêmeo digital e tecnologias habilitadoras da Ind×stria 5.0.",
+      "descricao": "Digitalização, IA, gêmeo digital e tecnologias habilitadoras da Indústria 5.0.",
 
       "subtopicos": [
 
@@ -5557,8 +5557,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. IaaS, PaaS, SaaS  –  modelos de serviço compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Nuvem p×blica, privada e híbrida",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Nuvem p×blica, privada e híbrida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Nuvem pública, privada e híbrida",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Nuvem pública, privada e híbrida compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Cloud industrial (AWS Industry, Azure for Industry)",
@@ -5682,9 +5682,9 @@
 
         {
 
-          "titulo": "Ind×stria 5.0",
+          "titulo": "Indústria 5.0",
 
-          "definicao": "Evolução da Ind×stria 4.0 que coloca o ser humano no centro da produção, integrando tecnologias digitais com sustentabilidade, resiliência e bem-estar social. Valoriza a cooperação homem-máquina (cobots), personalização em massa e produção regenerativa.",
+          "definicao": "Evolução da Indústria 4.0 que coloca o ser humano no centro da produção, integrando tecnologias digitais com sustentabilidade, resiliência e bem-estar social. Valoriza a cooperação homem-máquina (cobots), personalização em massa e produção regenerativa.",
 
           "topicos": [
     {
@@ -5704,8 +5704,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Tecnologias habilitadoras 5.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Diferenças entre Ind×stria 4.0 e 5.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Diferenças entre Ind×stria 4.0 e 5.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Diferenças entre Indústria 4.0 e 5.0",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Diferenças entre Indústria 4.0 e 5.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -5729,7 +5729,7 @@
 
           "titulo": "Blockchain na indústria",
 
-          "definicao": "Tecnologia de registro distribuído que garante imutabilidade, rastreabilidade e transparência em transações e dados compartilhados entre m×ltiplos participantes. Na cadeia de suprimentos, assegura a origem e o histórico de produtos e materiais.",
+          "definicao": "Tecnologia de registro distribuído que garante imutabilidade, rastreabilidade e transparência em transações e dados compartilhados entre múltiplos participantes. Na cadeia de suprimentos, assegura a origem e o histórico de produtos e materiais.",
 
           "topicos": [
     {
@@ -5737,8 +5737,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Estrutura de blocos, hash e consenso compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Blockchain p×blica vs. privada vs. consórcio",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Blockchain p×blica vs. privada vs. consórcio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Blockchain pública vs. privada vs. consórcio",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Blockchain pública vs. privada vs. consórcio compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Smart contracts para automação de acordos",
@@ -6044,7 +6044,7 @@
 
           "titulo": "IA Generativa na manufatura",
 
-          "definicao": "Ramo da inteligência artificial focado na geração de conte×do novo (texto, imagens, código, modelos 3D) a partir de modelos treinados como GPT, DALL-E e Stable Diffusion. Na manufatura, acelera projeto de produto, documentação técnica e programação de máquinas.",
+          "definicao": "Ramo da inteligência artificial focado na geração de conteúdo novo (texto, imagens, código, modelos 3D) a partir de modelos treinados como GPT, DALL-E e Stable Diffusion. Na manufatura, acelera projeto de produto, documentação técnica e programação de máquinas.",
 
           "topicos": [
     {
@@ -6089,7 +6089,7 @@
 
           "titulo": "Sistemas ciberfísicos (CPS)",
 
-          "definicao": "Integração de componentes computacionais (software, redes) com processos físicos (sensores, atuadores, máquinas), onde o sistema digital monitora e controla o processo físico em malha fechada. Base da Ind×stria 4.0, seguindo a arquitetura 5C (conexão, conversão, cyber, cognição, configuração).",
+          "definicao": "Integração de componentes computacionais (software, redes) com processos físicos (sensores, atuadores, máquinas), onde o sistema digital monitora e controla o processo físico em malha fechada. Base da Indústria 4.0, seguindo a arquitetura 5C (conexão, conversão, cyber, cognição, configuração).",
 
           "topicos": [
     {
@@ -6179,7 +6179,7 @@
 
           "titulo": "Fébrica autônoma",
 
-          "definicao": "Conceito de manufatura onde a produção opera com mínima intervenção humana, utilizando decisões baseadas em IA, robôs autônomos, sistemas de auto-otimização e logística intra-fábrica sem operador. Representa o estágio mais avançado de maturidade da Ind×stria 4.0.",
+          "definicao": "Conceito de manufatura onde a produção opera com mínima intervenção humana, utilizando decisões baseadas em IA, robôs autônomos, sistemas de auto-otimização e logística intra-fábrica sem operador. Representa o estágio mais avançado de maturidade da Indústria 4.0.",
 
           "topicos": [
     {
@@ -6271,7 +6271,7 @@
     "referencias": [
       {"tipo": "Livro", "ref": "Schwab, K. A Quarta Revolução Industrial. São Paulo: Edipro, 2016."},
       {"tipo": "Livro", "ref": "Rogers, D. L. Transformação Digital: Repensando seu Negócio para a Era Digital. São Paulo: Autêntica Business, 2019."},
-      {"tipo": "Livro", "ref": "Sacomano, J. B. et al. Ind×stria 4.0: Conceitos e Fundamentos. São Paulo: Blucher, 2018."},
+      {"tipo": "Livro", "ref": "Sacomano, J. B. et al. Indústria 4.0: Conceitos e Fundamentos. São Paulo: Blucher, 2018."},
       {"tipo": "Relatório", "ref": "Rüßmann, M. et al. Industry 4.0: The Future of Productivity and Growth in Manufacturing. Boston: BCG, 2015."}
     ]},
 
@@ -6373,7 +6373,7 @@
 
             "Troca de placa eletrônica defeituosa",
 
-            "Recuperação de máquina após parada s×bita"
+            "Recuperação de máquina após parada súbita"
 
           ]
 
@@ -6383,7 +6383,7 @@
 
           "titulo": "Manutenção preditiva",
 
-          "definicao": "Estratégia baseada no monitoramento contínuo ou periódico de parâmetros de condição (vibração, temperatura, óleo, ultrassom) para prever falhas antes que ocorram. Permite intervir no momento ótimo, maximizando a vida ×til do componente.",
+          "definicao": "Estratégia baseada no monitoramento contínuo ou periódico de parâmetros de condição (vibração, temperatura, óleo, ultrassom) para prever falhas antes que ocorram. Permite intervir no momento ótimo, maximizando a vida útil do componente.",
 
           "topicos": [
     {
@@ -6678,7 +6678,7 @@
     }
   ],
 
-          "formula": "MTBF = Tempo Total de Operação / N×mero de Falhas",
+          "formula": "MTBF = Tempo Total de Operação / Número de Falhas",
 
           "aplicacoes": [
 
@@ -6723,7 +6723,7 @@
     }
   ],
 
-          "formula": "MTTR = Tempo Total de Reparo / N×mero de Falhas",
+          "formula": "MTTR = Tempo Total de Reparo / Número de Falhas",
 
           "aplicacoes": [
 
@@ -6907,7 +6907,7 @@
 
           "aplicacoes": [
 
-            "Previsão de vida ×til de componentes críticos",
+            "Previsão de vida útil de componentes críticos",
 
             "Projeto de sistemas com requisitos de confiabilidade",
 
@@ -6923,7 +6923,7 @@
 
           "titulo": "FMEA de equipamento",
 
-          "definicao": "Ferramenta de análise de riscos que identifica modos de falha potenciais de um equipamento, suas causas, efeitos e prioriza ações preventivas pelo N×mero de Prioridade de Risco (NPR). ë uma etapa essencial do RCM.",
+          "definicao": "Ferramenta de análise de riscos que identifica modos de falha potenciais de um equipamento, suas causas, efeitos e prioriza ações preventivas pelo Número de Prioridade de Risco (NPR). ë uma etapa essencial do RCM.",
 
           "topicos": [
     {
@@ -6935,8 +6935,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. ìndices de severidade, ocorrência e detecção compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "NPR (N×mero de Prioridade de Risco)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. NPR (N×mero de Prioridade de Risco) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "NPR (Número de Prioridade de Risco)",
+      "descricao": "Conceito aplicado na área de engenharia de produção. NPR (Número de Prioridade de Risco) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Ações preventivas e validação",
@@ -7208,7 +7208,7 @@
 
       "cor": "#0284c7",
 
-      "descricao": "Ergonomia, segurança do trabalho e sa×de ocupacional.",
+      "descricao": "Ergonomia, segurança do trabalho e saúde ocupacional.",
 
       "subtopicos": [
 
@@ -7306,7 +7306,7 @@
 
           "titulo": "Ergonomia organizacional",
 
-          "definicao": "Dimensão da ergonomia que trata da estruturação dos sistemas de trabalho, incluindo turnos, ritmo, conte×do das tarefas, comunicação e cultura organizacional. Visa otimizar a eficiência do sistema considerando o bem-estar e a satisfação dos trabalhadores.",
+          "definicao": "Dimensão da ergonomia que trata da estruturação dos sistemas de trabalho, incluindo turnos, ritmo, conteúdo das tarefas, comunicação e cultura organizacional. Visa otimizar a eficiência do sistema considerando o bem-estar e a satisfação dos trabalhadores.",
 
           "topicos": [
     {
@@ -7322,8 +7322,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Gestão participativa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Conte×do e enriquecimento de tarefas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conte×do e enriquecimento de tarefas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Conteúdo e enriquecimento de tarefas",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo e enriquecimento de tarefas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Cultura de segurança",
@@ -7396,7 +7396,7 @@
 
           "titulo": "Higiene ocupacional",
 
-          "definicao": "Ciência que antecipa, reconhece, avalia e controla agentes ambientais (físicos, químicos e biológicos) presentes nos locais de trabalho que podem causar doenças ou desconforto. Fundamental para a preservação da sa×de do trabalhador.",
+          "definicao": "Ciência que antecipa, reconhece, avalia e controla agentes ambientais (físicos, químicos e biológicos) presentes nos locais de trabalho que podem causar doenças ou desconforto. Fundamental para a preservação da saúde do trabalhador.",
 
           "topicos": [
     {
@@ -7441,7 +7441,7 @@
 
           "titulo": "NRs  –  Normas Regulamentadoras",
 
-          "definicao": "Conjunto de disposições legais complementares á Consolidação das Leis do Trabalho (CLT) que estabelecem obrigações e requisitos mínimos para a segurança e sa×de no trabalho no Brasil. São atualizadas pela Secretaria de Inspeção do Trabalho.",
+          "definicao": "Conjunto de disposições legais complementares á Consolidação das Leis do Trabalho (CLT) que estabelecem obrigações e requisitos mínimos para a segurança e saúde no trabalho no Brasil. São atualizadas pela Secretaria de Inspeção do Trabalho.",
 
           "topicos": [
     {
@@ -7521,7 +7521,7 @@
 
             "Melhoria de processos com alto absenteísmo",
 
-            "AET como subsídio para ação civil p×blica"
+            "AET como subsídio para ação civil pública"
 
           ]
 
@@ -7576,7 +7576,7 @@
 
           "titulo": "PPRA e PCMSO",
 
-          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Prevenção de Riscos Ambientais, substituído pelo PGR) e PCMSO (Programa de Controle Médico de Sa×de Ocupacional). O PGR identifica e gerencia riscos ocupacionais; o PCMSO monitora a sa×de dos trabalhadores por exames periódicos.",
+          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Prevenção de Riscos Ambientais, substituído pelo PGR) e PCMSO (Programa de Controle Médico de Saúde Ocupacional). O PGR identifica e gerencia riscos ocupacionais; o PCMSO monitora a saúde dos trabalhadores por exames periódicos.",
 
           "topicos": [
     {
@@ -7596,8 +7596,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. PCMSO e exames médicos (admissional, periódico, demissional) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "ASO  –  Atestado de Sa×de Ocupacional",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ASO  –  Atestado de Sa×de Ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "ASO  –  Atestado de Saúde Ocupacional",
+      "descricao": "Conceito aplicado na área de engenharia de produção. ASO  –  Atestado de Saúde Ocupacional compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -7881,7 +7881,7 @@
 
             "Avaliação ergonômica de ferramentas manuais",
 
-            "Redução de dist×rbios osteomusculares"
+            "Redução de distúrbios osteomusculares"
 
           ]
 
@@ -8300,7 +8300,7 @@
     }
   ],
 
-          "formula": "Eficiência (%) = Energia ×til / Energia total consumida × 100",
+          "formula": "Eficiência (%) = Energia útil / Energia total consumida × 100",
 
           "aplicacoes": [
 
@@ -8666,7 +8666,7 @@
 
             "Inventério corporativo anual de GEE",
 
-            "Registro p×blico no Programa GHG Protocol",
+            "Registro público no Programa GHG Protocol",
 
             "Metas SBTi (Science Based Targets)",
 
@@ -8778,8 +8778,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. 17 ODS e suas metas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "ODS 9  –  Ind×stria, Inovação e Infraestrutura",
-      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 9  –  Ind×stria, Inovação e Infraestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "ODS 9  –  Indústria, Inovação e Infraestrutura",
+      "descricao": "Conceito aplicado na área de engenharia de produção. ODS 9  –  Indústria, Inovação e Infraestrutura compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "ODS 12  –  Consumo e Produção Responséveis",
@@ -8981,7 +8981,7 @@
 
             "Estruturação de SGE em indústrias intensivas em energia",
 
-            "Gestão de energia em sider×rgicas e cimenteiras",
+            "Gestão de energia em siderúrgicas e cimenteiras",
 
             "Redução de consumo em sistemas de utilidades",
 
@@ -9152,7 +9152,7 @@
 
           "titulo": "PERT",
 
-          "definicao": "Técnica de estimativa de duração de atividades baseada em três cenérios: otimista (O), pessimista (P) e mais provével (M). Calcula a duração esperada ponderada e é ×til quando hé incerteza significativa sobre as durações das tarefas.",
+          "definicao": "Técnica de estimativa de duração de atividades baseada em três cenérios: otimista (O), pessimista (P) e mais provével (M). Calcula a duração esperada ponderada e é útil quando hé incerteza significativa sobre as durações das tarefas.",
 
           "topicos": [
     {
@@ -9606,8 +9606,8 @@
 
           "topicos": [
     {
-      "nome": "Conte×do típico do Project Charter",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Conte×do típico do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Conteúdo típico do Project Charter",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Conteúdo típico do Project Charter compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Caso de negócio e justificativa",
@@ -9811,7 +9811,7 @@
 
           "aplicacoes": [
 
-            "Projetos governamentais e p×blicos",
+            "Projetos governamentais e públicos",
 
             "Projetos com forte governança e compliance",
 
@@ -9827,7 +9827,7 @@
 
           "titulo": "Gestão de portfólio de projetos",
 
-          "definicao": "Processo centralizado de gerenciamento de m×ltiplos projetos e programas para maximizar o retorno sobre o investimento e alinhar a carteira de projetos á estratégia organizacional. Inclui seleção, priorização, balanceamento e monitoramento do portfólio.",
+          "definicao": "Processo centralizado de gerenciamento de múltiplos projetos e programas para maximizar o retorno sobre o investimento e alinhar a carteira de projetos á estratégia organizacional. Inclui seleção, priorização, balanceamento e monitoramento do portfólio.",
 
           "topicos": [
     {
@@ -10010,7 +10010,7 @@
 
           "titulo": "Treinamento e capacitação",
 
-          "definicao": "Conjunto de ações educacionais planejadas para suprir lacunas de competência e preparar colaboradores para funções específicas. Inclui levantamento de necessidades, elaboração de conte×do, execução e medição de resultados.",
+          "definicao": "Conjunto de ações educacionais planejadas para suprir lacunas de competência e preparar colaboradores para funções específicas. Inclui levantamento de necessidades, elaboração de conteúdo, execução e medição de resultados.",
 
           "topicos": [
     {
@@ -10255,7 +10255,7 @@
 
           "titulo": "Avaliação 360┬░",
 
-          "definicao": "Método de avaliação de desempenho que coleta feedback de m×ltiplas fontes  –  gestores, pares, subordinados e clientes internos  –  para formar uma visão abrangente das competências do colaborador. Favorece o autoconhecimento e o desenvolvimento direcionado.",
+          "definicao": "Método de avaliação de desempenho que coleta feedback de múltiplas fontes  –  gestores, pares, subordinados e clientes internos  –  para formar uma visão abrangente das competências do colaborador. Favorece o autoconhecimento e o desenvolvimento direcionado.",
 
           "topicos": [
     {
@@ -10500,7 +10500,7 @@
 
           "titulo": "Soft skills na indústria",
 
-          "definicao": "Competências comportamentais como comunicação, trabalho em equipe, resolução de problemas e adaptabilidade, essenciais para o ambiente industrial moderno. Com a Ind×stria 4.0, soft skills tornaram-se tão relevantes quanto habilidades técnicas.",
+          "definicao": "Competências comportamentais como comunicação, trabalho em equipe, resolução de problemas e adaptabilidade, essenciais para o ambiente industrial moderno. Com a Indústria 4.0, soft skills tornaram-se tão relevantes quanto habilidades técnicas.",
 
           "topicos": [
     {
@@ -10733,7 +10733,7 @@
 
           "titulo": "DFMA  –  Design for Manufacturing and Assembly",
 
-          "definicao": "Metodologia de projeto que visa simplificar a manufatura e montagem de produtos desde as fases iniciais de concepção. Reduz n×mero de peças, padroniza componentes e otimiza processos de fabricação e montagem.",
+          "definicao": "Metodologia de projeto que visa simplificar a manufatura e montagem de produtos desde as fases iniciais de concepção. Reduz número de peças, padroniza componentes e otimiza processos de fabricação e montagem.",
 
           "topicos": [
     {
@@ -11899,7 +11899,7 @@
 
             "Turnaround de planta industrial com resultados negativos",
 
-            "Consolidação de m×ltiplas plantas em centros de excelência",
+            "Consolidação de múltiplas plantas em centros de excelência",
 
             "Reestruturação de processos pós-fusão"
 
@@ -11946,7 +11946,7 @@
 
           "titulo": "Anélise de cenérios industriais",
 
-          "definicao": "Técnica prospectiva que constrói e analisa m×ltiplos futuros possíveis para o ambiente industrial, considerando variáveis econômicas, tecnológicas, políticas e sociais. Apoia a tomada de decisão estratégica em contextos de alta incerteza.",
+          "definicao": "Técnica prospectiva que constrói e analisa múltiplos futuros possíveis para o ambiente industrial, considerando variáveis econômicas, tecnológicas, políticas e sociais. Apoia a tomada de decisão estratégica em contextos de alta incerteza.",
 
           "topicos": [
     {
@@ -12051,7 +12051,7 @@
 
           "titulo": "Avaliação de empresas",
 
-          "definicao": "Conjunto de metodologias para estimar o valor econômico de uma empresa industrial, incluindo fluxo de caixa descontado (DCF), m×ltiplos de mercado e valor patrimonial. Essencial para processos de M&A, abertura de capital e planejamento sucessório.",
+          "definicao": "Conjunto de metodologias para estimar o valor econômico de uma empresa industrial, incluindo fluxo de caixa descontado (DCF), múltiplos de mercado e valor patrimonial. Essencial para processos de M&A, abertura de capital e planejamento sucessório.",
 
           "topicos": [
     {
@@ -12059,8 +12059,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. DCF  –  Fluxo de Caixa Descontado compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "M×ltiplos (EV/EBITDA, P/L)",
-      "descricao": "Conceito aplicado na área de engenharia de produção. M×ltiplos (EV/EBITDA, P/L) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Múltiplos (EV/EBITDA, P/L)",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Múltiplos (EV/EBITDA, P/L) compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Laudo de avaliação",
@@ -12214,7 +12214,7 @@
 
           "titulo": "Cronometragem",
 
-          "definicao": "Processo sistemático de medição do tempo de execução de operações produtivas utilizando cronômetro, dividindo a tarefa em elementos e registrando m×ltiplas amostras para garantir representatividade estatística.",
+          "definicao": "Processo sistemático de medição do tempo de execução de operações produtivas utilizando cronômetro, dividindo a tarefa em elementos e registrando múltiplas amostras para garantir representatividade estatística.",
 
           "topicos": [
     {
@@ -12226,8 +12226,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Divisão em elementos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "N×mero de ciclos",
-      "descricao": "Conceito aplicado na área de engenharia de produção. N×mero de ciclos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Número de ciclos",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Número de ciclos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -12412,7 +12412,7 @@
 
             "Gestão de produção com Tambor-Pulmão-Corda",
 
-            "Projeto de melhoria em fábrica com m×ltiplos gargalos",
+            "Projeto de melhoria em fábrica com múltiplos gargalos",
 
             "TOC aplicada a gestão de projetos (Critical Chain)"
 
@@ -12484,7 +12484,7 @@
 
             "Estudo de viabilidade de operador polivalente",
 
-            "Anélise de m×ltiplas máquinas por operador"
+            "Anélise de múltiplas máquinas por operador"
 
           ]
 
@@ -12564,7 +12564,7 @@
 
           "titulo": "Gréfico de atividades simultôneas",
 
-          "definicao": "Ferramenta que registra as atividades de m×ltiplos operadores ou operador e máquina no mesmo eixo temporal, permitindo identificar dependências e balancear a carga de trabalho entre membros de uma equipe ou célula.",
+          "definicao": "Ferramenta que registra as atividades de múltiplos operadores ou operador e máquina no mesmo eixo temporal, permitindo identificar dependências e balancear a carga de trabalho entre membros de uma equipe ou célula.",
 
           "topicos": [
     {
@@ -12960,7 +12960,7 @@
 
             "Simulação discreta de linha de montagem com falhas aleatórias",
 
-            "Modelagem de centro de distribuição com m×ltiplos recursos",
+            "Modelagem de centro de distribuição com múltiplos recursos",
 
             "Anélise de filas em sistema de atendimento"
 
@@ -13030,7 +13030,7 @@
 
             "Simulação de sistema produtivo com Arena para otimização de layout",
 
-            "Modelagem de processo logístico com m×ltiplos cenérios",
+            "Modelagem de processo logístico com múltiplos cenérios",
 
             "Anélise de gargalos em planta fabril usando Process Analyzer"
 
@@ -13077,7 +13077,7 @@
 
           "titulo": "AnyLogic",
 
-          "definicao": "Plataforma de simulação multimétodo que suporta modelagem por eventos discretos, dinâmica de sistemas e agentes (agent-based) em um ×nico ambiente. Utilizada para problemas complexos que exigem diferentes abordagens de modelagem.",
+          "definicao": "Plataforma de simulação multimétodo que suporta modelagem por eventos discretos, dinâmica de sistemas e agentes (agent-based) em um único ambiente. Utilizada para problemas complexos que exigem diferentes abordagens de modelagem.",
 
           "topicos": [
     {
@@ -13168,7 +13168,7 @@
 
           "aplicacoes": [
 
-            "Otimização de n×mero de operadores em linha de produção via simulação",
+            "Otimização de número de operadores em linha de produção via simulação",
 
             "Minimização de custo logístico com otimização-simulação",
 
@@ -13396,8 +13396,8 @@
 
           "topicos": [
     {
-      "nome": "Hospitais e sa×de",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Hospitais e sa×de compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Hospitais e saúde",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Hospitais e saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Atendimento ao cliente",
@@ -13497,7 +13497,7 @@
 
           "titulo": "Simul8",
 
-          "definicao": "Software de simulação de eventos discretos com interface visual intuitiva, focado em aplicações de manufatura, serviços e sa×de. Destaca-se pela facilidade de uso e répida prototipagem de modelos.",
+          "definicao": "Software de simulação de eventos discretos com interface visual intuitiva, focado em aplicações de manufatura, serviços e saúde. Destaca-se pela facilidade de uso e répida prototipagem de modelos.",
 
           "topicos": [
     {
@@ -13509,8 +13509,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Simulação de filas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Aplicações em sa×de",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações em sa×de compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Aplicações em saúde",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Aplicações em saúde compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -13520,7 +13520,7 @@
 
             "Simulação répida de processo produtivo para suporte á decisão",
 
-            "Modelagem de fluxo de pacientes em unidade de sa×de",
+            "Modelagem de fluxo de pacientes em unidade de saúde",
 
             "Anélise de capacidade em operações de serviços"
 
@@ -13716,7 +13716,7 @@
 
           "aplicacoes": [
 
-            "Transformação digital de indústria tradicional para Ind×stria 4.0",
+            "Transformação digital de indústria tradicional para Indústria 4.0",
 
             "Programa de transformação cultural lean",
 
@@ -13808,8 +13808,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Universidade-empresa compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Governo e políticas p×blicas",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Governo e políticas p×blicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Governo e políticas públicas",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Governo e políticas públicas compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Parques tecnológicos",
@@ -14423,7 +14423,7 @@
 
           "titulo": "Produtividade da mão de obra",
 
-          "definicao": "Relação entre a quantidade produzida e o total de horas trabalhadas ou n×mero de colaboradores alocados. Indica a eficiência do fator trabalho no processo produtivo.",
+          "definicao": "Relação entre a quantidade produzida e o total de horas trabalhadas ou número de colaboradores alocados. Indica a eficiência do fator trabalho no processo produtivo.",
 
           "topicos": [
     {
@@ -14802,7 +14802,7 @@
     }
   ],
 
-          "formula": "MTBF = Tempo total de operação / N×mero de falhas",
+          "formula": "MTBF = Tempo total de operação / Número de falhas",
 
           "aplicacoes": [
 
@@ -15384,7 +15384,7 @@
 
           "titulo": "ANVISA (BPF)",
 
-          "definicao": "Agência Nacional de Vigilôncia Sanitéria que regula e fiscaliza produtos e serviços que impactam a sa×de p×blica. As Boas Préticas de Fabricação (BPF) são requisitos obrigatórios para indústrias de alimentos, medicamentos, cosméticos e dispositivos médicos.",
+          "definicao": "Agência Nacional de Vigilôncia Sanitéria que regula e fiscaliza produtos e serviços que impactam a saúde pública. As Boas Préticas de Fabricação (BPF) são requisitos obrigatórios para indústrias de alimentos, medicamentos, cosméticos e dispositivos médicos.",
 
           "topicos": [
     {
@@ -15497,7 +15497,7 @@
 
           "titulo": "LGPD na indústria",
 
-          "definicao": "Lei Geral de Proteção de Dados (Lei n┬║ 13.709/2018) que regula o tratamento de dados pessoais por organizações p×blicas e privadas. Na indústria, impacta o RH, dados de clientes, fornecedores e sistemas de monitoramento de colaboradores.",
+          "definicao": "Lei Geral de Proteção de Dados (Lei n┬║ 13.709/2018) que regula o tratamento de dados pessoais por organizações públicas e privadas. Na indústria, impacta o RH, dados de clientes, fornecedores e sistemas de monitoramento de colaboradores.",
 
           "topicos": [
     {
@@ -15610,7 +15610,7 @@
 
           "titulo": "Normas regulamentadoras rurais (NRs)",
 
-          "definicao": "Conjunto de Normas Regulamentadoras específicas para o trabalho no campo, incluindo NR-31 (agricultura, pecuéria e silvicultura), que estabelece requisitos de segurança e sa×de para trabalhadores rurais.",
+          "definicao": "Conjunto de Normas Regulamentadoras específicas para o trabalho no campo, incluindo NR-31 (agricultura, pecuéria e silvicultura), que estabelece requisitos de segurança e saúde para trabalhadores rurais.",
 
           "topicos": [
     {
@@ -15684,7 +15684,7 @@
 
           "titulo": "Certificação compulsória",
 
-          "definicao": "Processo obrigatório de avaliação da conformidade de produtos que apresentam riscos á segurança, sa×de ou meio ambiente, exigido por regulamentação federal e executado por organismos acreditados pelo INMETRO.",
+          "definicao": "Processo obrigatório de avaliação da conformidade de produtos que apresentam riscos á segurança, saúde ou meio ambiente, exigido por regulamentação federal e executado por organismos acreditados pelo INMETRO.",
 
           "topicos": [
     {
@@ -15758,9 +15758,9 @@
 
     ,
     "referencias": [
-      {"tipo": "Legislação", "ref": "Brasil. Portaria MTb nº 3.214, de 08 de junho de 1978 - Normas Regulamentadoras de Segurança e Sa×de no Trabalho."},
+      {"tipo": "Legislação", "ref": "Brasil. Portaria MTb nº 3.214, de 08 de junho de 1978 - Normas Regulamentadoras de Segurança e Saúde no Trabalho."},
       {"tipo": "Legislação", "ref": "Brasil. Decreto-Lei nº 5.452, de 1º de maio de 1943 - Consolidação das Leis do Trabalho (CLT)."},
-      {"tipo": "Livro", "ref": "Saliba, T. M.; Pagano, S. R. S. Legislação de Segurança, Acidente do Trabalho e Sa×de do Trabalhador. São Paulo: LTR, 2013."}
+      {"tipo": "Livro", "ref": "Saliba, T. M.; Pagano, S. R. S. Legislação de Segurança, Acidente do Trabalho e Saúde do Trabalhador. São Paulo: LTR, 2013."}
     ]},
 
     {
@@ -15781,7 +15781,7 @@
 
           "titulo": "Evolução histórica da produção",
 
-          "definicao": "Trajetória de transformação dos sistemas produtivos desde o artesanato até a manufatura enxuta e a Ind×stria 4.0. Cada fase histórica introduziu novas formas de organização do trabalho, tecnologias e paradigmas de gestão.",
+          "definicao": "Trajetória de transformação dos sistemas produtivos desde o artesanato até a manufatura enxuta e a Indústria 4.0. Cada fase histórica introduziu novas formas de organização do trabalho, tecnologias e paradigmas de gestão.",
 
           "topicos": [
     {
@@ -15797,8 +15797,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Industrialização compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Ind×stria 4.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ind×stria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Indústria 4.0",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -15836,8 +15836,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. 3┬¬ Revolução Industrial compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Ind×stria 4.0",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ind×stria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Indústria 4.0",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria 4.0 compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     }
   ],
 
@@ -16011,7 +16011,7 @@
 
           "titulo": "Produção contínua",
 
-          "definicao": "Sistema produtivo caracterizado pelo fluxo ininterrupto de materiais ao longo do processo, típico de indústrias de processo químico, petroquímico, sider×rgico e de papel e celulose. Opera 24 horas com alta intensidade de capital.",
+          "definicao": "Sistema produtivo caracterizado pelo fluxo ininterrupto de materiais ao longo do processo, típico de indústrias de processo químico, petroquímico, siderúrgico e de papel e celulose. Opera 24 horas com alta intensidade de capital.",
 
           "topicos": [
     {
@@ -16019,8 +16019,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Processo contínuo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Ind×stria de processo",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Ind×stria de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Indústria de processo",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Indústria de processo compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Fluxo ininterrupto",
@@ -16085,7 +16085,7 @@
 
           "titulo": "Produção por projeto",
 
-          "definicao": "Sistema produtivo orientado á fabricação de um produto ×nico e customizado, com início e fim definidos, equipe dedicada e orçamento específico. Cada projeto é tratado como um empreendimento singular, típico de construção naval, aeronéutica e grandes obras.",
+          "definicao": "Sistema produtivo orientado á fabricação de um produto único e customizado, com início e fim definidos, equipe dedicada e orçamento específico. Cada projeto é tratado como um empreendimento singular, típico de construção naval, aeronéutica e grandes obras.",
 
           "topicos": [
     {
@@ -16093,8 +16093,8 @@
       "descricao": "Conceito aplicado na área de engenharia de produção. Gestão de projetos compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
-      "nome": "Produto ×nico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Produto ×nico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Produto único",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Produto único compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Customização",
@@ -16149,7 +16149,7 @@
 
           "aplicacoes": [
 
-            "Ind×stria de alimentos e bebidas",
+            "Indústria de alimentos e bebidas",
 
             "Fabricação de móveis",
 
@@ -16297,7 +16297,7 @@
 
             "Oficinas mecônicas",
 
-            "Ind×stria de bens de capital"
+            "Indústria de bens de capital"
 
           ]
 
@@ -16330,7 +16330,7 @@
 
             "Manufatura de componentes automotivos",
 
-            "Ind×stria metalmecônica",
+            "Indústria metalmecônica",
 
             "Produção de peças para aeronaves"
 
@@ -16402,7 +16402,7 @@
 
             "Plantas multiproduto",
 
-            "Ind×stria com etapas produtivas heterogêneas"
+            "Indústria com etapas produtivas heterogêneas"
 
           ]
 
@@ -16429,7 +16429,7 @@
     }
   ],
 
-          "formula": "N×mero mínimo de estações = Σ× Tempos das tarefas / Takt time",
+          "formula": "Número mínimo de estações = Σ× Tempos das tarefas / Takt time",
 
           "aplicacoes": [
 
@@ -16531,7 +16531,7 @@
 
       "id": "metalurgica",
 
-      "nome": "Ind×stria Metal×rgica",
+      "nome": "Indústria Metalúrgica",
 
       "icone": "hammer",
 
@@ -16859,7 +16859,7 @@
 
           "aplicacoes": [
 
-            "Ind×stria de petróleo e gés",
+            "Indústria de petróleo e gés",
 
             "Construção naval",
 
@@ -17105,7 +17105,7 @@
 
             "Fabricação de tarugos, blocos e placas",
 
-            "Ind×stria automotiva, construção civil e naval"
+            "Indústria automotiva, construção civil e naval"
 
           ]
 
@@ -17183,7 +17183,7 @@
 
           "aplicacoes": [
 
-            "Ind×stria química e petroquímica",
+            "Indústria química e petroquímica",
 
             "Geração de vapor e energia",
 
@@ -17236,7 +17236,7 @@
 
           "titulo": "Moldagem e machos",
 
-          "definicao": "Processo de confecção de moldes (cavidade onde o metal líquido é vazado) e machos (n×cleos que formam cavidades internas na peça fundida). A moldagem pode ser manual, mecanizada ou automatizada, em areia verde, areia química ou casca.",
+          "definicao": "Processo de confecção de moldes (cavidade onde o metal líquido é vazado) e machos (núcleos que formam cavidades internas na peça fundida). A moldagem pode ser manual, mecanizada ou automatizada, em areia verde, areia química ou casca.",
 
           "topicos": [
     {
@@ -17548,7 +17548,7 @@
 
           "titulo": "Cementação e nitretação",
 
-          "definicao": "Tratamentos termoquímicos que enriquecem a superfície do aço com carbono (cementação) ou nitrogênio (nitretação) para formar uma camada superficial dura e resistente ao desgaste, mantendo um n×cleo tenaz. A cementação é seguida de têmpera; a nitretação não requer têmpera.",
+          "definicao": "Tratamentos termoquímicos que enriquecem a superfície do aço com carbono (cementação) ou nitrogênio (nitretação) para formar uma camada superficial dura e resistente ao desgaste, mantendo um núcleo tenaz. A cementação é seguida de têmpera; a nitretação não requer têmpera.",
 
           "topicos": [
     {
@@ -17953,7 +17953,7 @@
 
           "titulo": "Comunicação eficaz",
 
-          "definicao": "Capacidade de transmitir informações, ideias e instruções de forma clara, objetiva e assertiva, adaptando-se ao p×blico e ao contexto. No ambiente industrial, é essencial para alinhamento de equipes, liderança e prevenção de falhas operacionais.",
+          "definicao": "Capacidade de transmitir informações, ideias e instruções de forma clara, objetiva e assertiva, adaptando-se ao público e ao contexto. No ambiente industrial, é essencial para alinhamento de equipes, liderança e prevenção de falhas operacionais.",
 
           "topicos": [
     {
@@ -18056,7 +18056,7 @@
 
           "aplicacoes": [
 
-            "Gestão de m×ltiplos projetos simultôneos",
+            "Gestão de múltiplos projetos simultôneos",
 
             "Rotina de gestão industrial",
 
@@ -18421,12 +18421,12 @@
 
           "titulo": "Oratória e apresentação",
 
-          "definicao": "Habilidade de falar em p×blico de forma clara, persuasiva e envolvente, utilizando recursos como storytelling, linguagem corporal, slides e exemplos práticos. Fundamental para apresentar resultados, propor projetos e liderar reuniões.",
+          "definicao": "Habilidade de falar em público de forma clara, persuasiva e envolvente, utilizando recursos como storytelling, linguagem corporal, slides e exemplos práticos. Fundamental para apresentar resultados, propor projetos e liderar reuniões.",
 
           "topicos": [
     {
-      "nome": "Falar em p×blico",
-      "descricao": "Conceito aplicado na área de engenharia de produção. Falar em p×blico compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
+      "nome": "Falar em público",
+      "descricao": "Conceito aplicado na área de engenharia de produção. Falar em público compreende técnicas e metodologias para otimização de processos e melhoria contínua na industria."
     },
     {
       "nome": "Storytelling",
@@ -19346,7 +19346,7 @@
 
           "titulo": "Tableau",
 
-          "definicao": "Plataforma de visualização de dados e Business Intelligence que permite criar dashboards interativos e análises visuais a partir de m×ltiplas fontes de dados. Conhecido por sua facilidade de uso e capacidade de lidar com grandes volumes.",
+          "definicao": "Plataforma de visualização de dados e Business Intelligence que permite criar dashboards interativos e análises visuais a partir de múltiplas fontes de dados. Conhecido por sua facilidade de uso e capacidade de lidar com grandes volumes.",
 
           "topicos": [
     {
@@ -19412,7 +19412,7 @@
 
             "Anélise associativa de dados de produção",
 
-            "Relatórios de qualidade com m×ltiplas dimensões",
+            "Relatórios de qualidade com múltiplas dimensões",
 
             "Descoberta de padrões em dados industriais"
 
@@ -19658,7 +19658,7 @@
 
           "titulo": "Orçamento empresarial",
 
-          "definicao": "Instrumento de planejamento financeiro que traduz as metas operacionais em termos monetários para um período futuro. Consolida os orçamentos de vendas, produção, compras, investimentos e financeiro em um plano ×nico de execução.",
+          "definicao": "Instrumento de planejamento financeiro que traduz as metas operacionais em termos monetários para um período futuro. Consolida os orçamentos de vendas, produção, compras, investimentos e financeiro em um plano único de execução.",
 
           "topicos": [
     {
@@ -19773,7 +19773,7 @@
 
           "titulo": "Normas Regulamentadoras (NRs)",
 
-          "definicao": "Conjunto de normas técnicas editadas pelo Ministério do Trabalho que estabelecem obrigatoriedade de medidas de segurança, sa×de e higiene do trabalho em diversos setores e atividades. São de cumprimento obrigatório por todas as organizações.",
+          "definicao": "Conjunto de normas técnicas editadas pelo Ministério do Trabalho que estabelecem obrigatoriedade de medidas de segurança, saúde e higiene do trabalho em diversos setores e atividades. São de cumprimento obrigatório por todas as organizações.",
 
           "topicos": [
     {
@@ -20087,7 +20087,7 @@
 
       "cor": "#e11d48",
 
-      "descricao": "QVT: clima organizacional, sa×de mental, engajamento e políticas de bem-estar.",
+      "descricao": "QVT: clima organizacional, saúde mental, engajamento e políticas de bem-estar.",
 
       "subtopicos": [
 
@@ -20124,9 +20124,9 @@
 
         {
 
-          "titulo": "Sa×de mental organizacional",
+          "titulo": "Saúde mental organizacional",
 
-          "definicao": "Gestão dos fatores psicossociais que afetam a sa×de mental dos trabalhadores, incluindo estresse, burnout, assédio e sobrecarga de trabalho. Envolve prevenção, detecção precoce e encaminhamento profissional.",
+          "definicao": "Gestão dos fatores psicossociais que afetam a saúde mental dos trabalhadores, incluindo estresse, burnout, assédio e sobrecarga de trabalho. Envolve prevenção, detecção precoce e encaminhamento profissional.",
 
           "topicos": [
     {
@@ -24903,7 +24903,9 @@
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     }
-  ]"cursosGratuitos": [
+  ],
+
+  "cursosGratuitos": [
 
     {
 
@@ -25067,7 +25069,7 @@
 
     {
 
-      "nome": "Ind×stria 4.0 (SENAI)",
+      "nome": "Indústria 4.0 (SENAI)",
 
       "plataforma": "SENAI",
 
