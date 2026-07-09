@@ -449,5 +449,118 @@
     });
   }
 
+  /* ─── Rede de Contatos (Networking) ─── */
+  var CONTACTS_KEY = 'gerett_contacts';
+
+  function getContacts() {
+    try { return JSON.parse(localStorage.getItem(CONTACTS_KEY)) || []; }
+    catch(e) { return []; }
+  }
+
+  function saveContacts(contacts) {
+    localStorage.setItem(CONTACTS_KEY, JSON.stringify(contacts));
+  }
+
+  function renderContacts(filter) {
+    var grid = document.getElementById('contactsGrid');
+    var countEl = document.getElementById('contactsCount');
+    if (!grid) return;
+    var contacts = getContacts();
+    if (filter) contacts = contacts.filter(function(c) { return c.area === filter; });
+    if (countEl) countEl.textContent = contacts.length + ' contato' + (contacts.length !== 1 ? 's' : '');
+    if (contacts.length === 0) {
+      grid.innerHTML = '<div class="contacts-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><h3>Nenhum contato encontrado</h3><p>' + (filter ? 'Nenhum contato nesta área. Tente outro filtro.' : 'Seja o primeiro a cadastrar-se no diretório de networking profissional.') + '</p></div>';
+      return;
+    }
+    grid.innerHTML = contacts.map(function(c) {
+      var initials = (c.nome || '').split(' ').map(function(w) { return w.charAt(0); }).slice(0, 2).join('').toUpperCase();
+      var avatarColors = ['#0055FF','#00E5FF','#6C5CE7','#E040FB','#FF6D00','#00C853','#2979FF','#D500F9','#FF3D00','#00BFA5'];
+      var avatarColor = avatarColors[c.id ? c.id.split('').reduce(function(a,b){return a+b.charCodeAt(0);},0) % avatarColors.length : 0];
+      return '<div class="contact-card" data-reveal-item>' +
+        '<div class="contact-avatar" style="background:' + avatarColor + '">' + initials + '</div>' +
+        '<div class="contact-info">' +
+          '<h4 class="contact-name">' + escapeHtml(c.nome) + '</h4>' +
+          '<span class="contact-role">' + escapeHtml(c.cargo) + '</span>' +
+          '<span class="contact-area">' + escapeHtml(c.area) + '</span>' +
+        '</div>' +
+        '<div class="contact-links">' +
+          (c.email ? '<a href="mailto:' + encodeURIComponent(c.email) + '" class="contact-link" title="Enviar e-mail" aria-label="Enviar e-mail para ' + escapeHtml(c.nome) + '"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg></a>' : '') +
+          (c.linkedin ? '<a href="' + escapeHtml(c.linkedin) + '" target="_blank" rel="noopener" class="contact-link" title="LinkedIn" aria-label="LinkedIn de ' + escapeHtml(c.nome) + '"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>' : '') +
+          (c.especialidades ? '<span class="contact-badge" title="' + escapeHtml(c.especialidades) + '"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 3.09 4.36-.73.73 4.36L22 12l-1.82 3.09.73 4.36-4.36.73L12 22l-3.09-3.09-4.36.73-.73-4.36L2 12l1.82-3.09-.73-4.36 4.36-.73L12 2z"/></svg></span>' : '') +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
+  // Form submission
+  var contactForm = document.getElementById('contactForm');
+  var feedback = document.getElementById('contactFeedback');
+
+  contactForm?.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var nome = document.getElementById('contactNome').value.trim();
+    var area = document.getElementById('contactArea').value;
+    var cargo = document.getElementById('contactCargo').value.trim();
+    var email = document.getElementById('contactEmail').value.trim();
+    var linkedin = document.getElementById('contactLinkedin').value.trim();
+    var espec = document.getElementById('contactEspec').value.trim();
+    var consent = document.getElementById('contactConsent').checked;
+
+    if (!nome || !area || !cargo || !email || !consent) {
+      if (feedback) { feedback.textContent = 'Preencha todos os campos obrigatórios e aceite os termos.'; feedback.className = 'networking-feedback error'; feedback.hidden = false; }
+      return;
+    }
+
+    var contacts = getContacts();
+    // Check duplicate email
+    if (contacts.some(function(c) { return c.email.toLowerCase() === email.toLowerCase(); })) {
+      if (feedback) { feedback.textContent = 'Este e-mail já está cadastrado na rede.'; feedback.className = 'networking-feedback error'; feedback.hidden = false; }
+      return;
+    }
+
+    var newContact = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      nome: nome,
+      area: area,
+      cargo: cargo,
+      email: email,
+      linkedin: linkedin || '',
+      especialidades: espec || '',
+      createdAt: new Date().toISOString()
+    };
+
+    contacts.push(newContact);
+    saveContacts(contacts);
+    contactForm.reset();
+    if (feedback) { feedback.textContent = 'Contato publicado com sucesso!'; feedback.className = 'networking-feedback success'; feedback.hidden = false; setTimeout(function() { feedback.hidden = true; }, 4000); }
+    renderContacts(document.getElementById('filterArea')?.value || '');
+  });
+
+  // Filter change
+  var filterArea = document.getElementById('filterArea');
+  filterArea?.addEventListener('change', function() {
+    renderContacts(this.value);
+  });
+
+  // Trigger: scroll to section when card is clicked
+  var redeTrigger = document.getElementById('redeCardTrigger');
+  redeTrigger?.addEventListener('click', function() {
+    var section = document.getElementById('rede-contatos');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  redeTrigger?.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); var section = document.getElementById('rede-contatos'); if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+
+  // Initial render
+  renderContacts('');
+
   console.log('%c Gerett v4.0 ', 'background:linear-gradient(135deg,#0055FF,#00E5FF);color:#fff;font-size:14px;padding:8px 16px;border-radius:6px;font-weight:bold;');
 })();

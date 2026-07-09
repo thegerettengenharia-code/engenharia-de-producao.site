@@ -1175,3 +1175,311 @@ html.has-cursor * { cursor: none !important; }
 [data-theme="dark"] .nav-logo-round:hover {
   border-color: var(--c-laser-cyan);
 }
+
+/* ═══ Rede de Contatos ═══ */
+.networking-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .networking-layout { grid-template-columns: 1fr; }
+}
+
+/* Form Card */
+.networking-form-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.networking-form-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: var(--text-primary);
+}
+
+.networking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .form-row { grid-template-columns: 1fr; }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-group label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.required { color: var(--c-eng-blue); }
+
+.form-input {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: border-color .2s var(--ease-fluid), box-shadow .2s var(--ease-fluid);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: var(--c-eng-blue);
+  box-shadow: 0 0 0 3px rgba(0,85,255,0.12);
+}
+
+[data-theme="dark"] .form-input:focus {
+  box-shadow: 0 0 0 3px rgba(0,229,255,0.12);
+}
+
+.form-input::placeholder { color: var(--text-tertiary); }
+select.form-input { cursor: pointer; }
+
+.form-checkbox { margin-top: 4px; }
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 18px; height: 18px;
+  accent-color: var(--c-eng-blue);
+  flex-shrink: 0;
+}
+
+.networking-submit {
+  margin-top: 4px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Feedback */
+.networking-feedback {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.networking-feedback.success {
+  background: rgba(0, 200, 83, 0.1);
+  color: var(--c-eng-blue);
+  border: 1px solid rgba(0, 200, 83, 0.25);
+}
+
+.networking-feedback.error {
+  background: rgba(255, 61, 0, 0.08);
+  color: #e53935;
+  border: 1px solid rgba(255, 61, 0, 0.2);
+}
+
+[data-theme="dark"] .networking-feedback.error {
+  color: #ff6e6e;
+}
+
+/* Contacts Area */
+.networking-contacts-area {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.networking-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.networking-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.filter-select {
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  .filter-select { min-width: 0; flex: 1; }
+  .networking-controls { flex-direction: column; align-items: stretch; }
+  .networking-filter { flex-wrap: wrap; }
+}
+
+.networking-count {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+/* Contacts Grid */
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.contacts-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-tertiary);
+}
+
+.contacts-empty svg { opacity: 0.3; margin-bottom: 12px; }
+.contacts-empty h3 { font-size: 1rem; margin: 0 0 6px; color: var(--text-secondary); }
+.contacts-empty p { font-size: 0.85rem; margin: 0; }
+
+/* Contact Card */
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: all .3s var(--ease-fluid);
+}
+
+.contact-card:hover {
+  border-color: var(--c-eng-blue);
+  box-shadow: 0 4px 20px rgba(0,85,255,0.06);
+  transform: translateY(-1px);
+}
+
+[data-theme="dark"] .contact-card:hover {
+  box-shadow: 0 4px 20px rgba(0,229,255,0.06);
+  border-color: var(--c-laser-cyan);
+}
+
+.contact-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-role {
+  font-size: 0.78rem;
+  color: var(--c-eng-blue);
+  font-weight: 500;
+}
+
+[data-theme="dark"] .contact-role { color: var(--c-laser-cyan); }
+
+.contact-area {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.contact-link {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px;
+  color: var(--text-tertiary);
+  background: var(--bg-alt);
+  transition: all .2s var(--ease-fluid);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background: var(--c-eng-blue);
+  color: #fff;
+}
+
+[data-theme="dark"] .contact-link:hover {
+  background: var(--c-laser-cyan);
+  color: #0B0E11;
+}
+
+.contact-badge {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px;
+  color: var(--text-tertiary);
+  background: transparent;
+  cursor: default;
+  position: relative;
+}
+
+.contact-badge:hover {
+  color: var(--c-eng-blue);
+}
+
+[data-theme="dark"] .contact-badge:hover {
+  color: var(--c-laser-cyan);
+}
