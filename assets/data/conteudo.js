@@ -14140,169 +14140,912 @@
         }
       ]
     },
-    {
-      "id": "eng-seguranca",
-      "nome": "Engenharia de Segurança",
-      "icone": "shield",
-      "cor": "#dc2626",
-      "descricao": "Prevenção de acidentes, NRs, gestão de riscos ocupacionais e projetos de segurança.",
-      "subtopicos": [
-        {
-          "titulo": "Normas Regulamentadoras (NRs)",
-          "definicao": "Conjunto de normas técnicas editadas pelo Ministério do Trabalho que estabelecem obrigatoriedade de medidas de segurança, saúde e higiene do trabalho em diversos setores e atividades. São de cumprimento obrigatório por todas as organizações.",
-          "topicos": [
-            {
-              "nome": "NR-12 Máquinas",
-              "descricao": "Na engenharia de segurança, \"NR-12 Máquinas\" (relacionado a normas regulamentadoras (nrs)) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
+{
+              "id": "seguranca-trabalho",
+              "nome": "Segurança do Trabalho / Segurança Ocupacional",
+              "icone": "shield",
+              "cor": "#dc2626",
+              "descricao": "A Segurança do Trabalho é uma ciência interdisciplinar que estuda e aplica princípios, técnicas e normativas para prevenir acidentes, lesões e doenças ocupacionais, protegendo a integridade física e mental dos trabalhadores. Fundamenta-se na engenharia de segurança, medicina do trabalho, ergonomia, psicologia organizacional e gestão de riscos, sendo regulamentada por normas técnicas e legais como as Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego. A evolução do campo incorpora abordagens sistêmicas contemporâneas como Safety-II, engenharia de resiliência e fatores humanos, transcendendo o modelo reativo tradicional para uma gestão proativa de riscos baseada em evidências científicas e melhoria contínua.",
+              "subtopicos": [
+                {
+                  "id": "fundamentos-seguranca",
+                  "titulo": "Fundamentos da Segurança do Trabalho",
+                  "definicao": "A Segurança do Trabalho constitui-se como um campo do conhecimento técnico-científico que estuda sistematicamente os fenômenos relacionados à ocorrência de acidentes e doenças ocupacionais, desenvolvendo metodologias de prevenção, controle e mitigação de riscos presentes nos ambientes laborais. Sua gênese remonta à Revolução Industrial, quando as condições degradantes de trabalho e a elevada incidência de acidentes impulsionaram movimentos sociais e a criação dos primeiros dispositivos legais de proteção ao trabalhador, como o Factory Act de 1833 na Inglaterra e, posteriormente, a criação da Organização Internacional do Trabalho (OIT) em 1919. No Brasil, o marco legal inaugural foi o Decreto-Lei nº 5.452 de 1943 (CLT), que estabeleceu as primeiras normas de proteção à saúde e integridade do trabalhador, evoluindo com a Lei nº 6.514 de 1977 e a Portaria nº 3.214 de 1978 que instituiu as Normas Regulamentadoras. A disciplina fundamenta-se em pilares teóricos consolidados: a Teoria da Casualidade Múltipla, que rejeita a noção de causa única e estabelece que todo acidente resulta da interação de múltiplos fatores; o Modelo de Domínio proposto por William Haddon Jr., que utiliza dez estratégias epidemiológicas para a prevenção de lesões; e o Princípio da Hierarquia de Controles, consolidado pela ACGIH e pela hierarquia legal brasileira na NR-01, que estabelece a prioridade de eliminação do risco sobre sua minimização ou uso de proteção individual. O arcabouço conceitual contemporâneo incorpora a visão sistêmica proposta por Nancy Leveson (STAMP) e a Abordagem da Engenharia de Resiliência defendida por Erik Hollnagel. A Segurança do Trabalho moderna integra metodologias quantitativas de análise de risco (FTA, FMEA), indicadores de desempenho (Taxa de Frequência, Taxa de Gravidade) e sistemas de gestão baseados em normas internacionais como ISO 45001, que estabelecem requisitos para políticas de segurança, planejamento, implementação, verificação e melhoria contínua.",
+                  "topicos": [
+                    {
+                      "nome": "Conceitos Fundamentais de Perigo e Risco",
+                      "descricao": "DEFINIÇÃO FORMAL: Perigo é definido pela ISO 45001 e NR-01 como uma fonte, situação ou ato com potencial para causar dano humano, lesão, doença, dano à propriedade ou ao meio ambiente. Risco é a combinação da probabilidade de ocorrência de um evento perigoso com a severidade das consequências desse evento (ISO 31000:2018). PILARES TEÓRICOS: A Taxonomia de Perigos de Haddon classifica os perigos em energéticos (mecânica, térmica, elétrica, química, radiação), de transporte e armazenamento, e biológicos. O Modelo de Energia Lesiva de Haddon postula que a lesão resulta da transferência de energia em níveis que excedem o limiar de resistência do tecido humano. AUTOR PRINCIPAL: William Haddon Jr. (1926-1985), médico epidemiologista, primeiro diretor da NHTSA. EXEMPLO PRÁTICO: Considere um serviço de pintura industrial com uso de tinta epóxi contendo xileno. A concentração ambiental medida foi de 150 ppm, enquanto o Limite de Exposição Ocupacional da ACGIH para xileno é 100 ppm (TLV-TWA). O risco é calculado pelo Índice de Exposição (IE): IE = 150/100 = 1,5. Como IE > 1, o risco é inaceitável. Para reduzir a concentração de 150 para 80 ppm, com taxa de geração de xileno de 50 g/h e K=5, calcula-se Q = (50.000 x 5 x 3600)/(80 x 10^6) = 11.250 m3/h. REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "Hierarquia de Controles de Risco",
+                      "descricao": "DEFINIÇÃO FORMAL: A Hierarquia de Controles estabelece ordem de prioridade decrescente: Eliminação, Substituição, Controles de Engenharia, Controles Administrativos e EPI, consagrada na NR-01 Item 1.5.4.1 e ISO 45001 Cláusula 8.1.2. PILARES TEÓRICOS: O Modelo de Energia Lesiva de Haddon (1973) sustenta que controles de engenharia atuam na fonte de energia, enquanto EPIs atuam na interface com o receptor. A Teoria de Controles Múltiplos de Reason (1997) defende camadas sucessivas como fatias de queijo suíço. O princípio ALARP estabelece que o risco deve ser reduzido ao menor nível praticável. AUTOR PRINCIPAL: James Reason (1938-), psicólogo cognitivo britânico, professor emérito da Universidade de Manchester. EXEMPLO PRÁTICO: Em operação de jateamento de areia para limpeza de cascos de navios, o perigo é a sílica cristalina respirável. Nível 1 - Eliminação: substituir abrasivo por granalha de aço (custo adicional R$ 60.000/ano). Nível 2 - Controle de Engenharia: enclausuramento com cabine de jateamento, vazão Q = A x v x 3600 x K = 2 x 1,5 x 3600 x 1,5 = 16.200 m3/h. Investimento: R$ 85.000,00. Nível 3 - EPI: respirador purificador de ar com filtro P3 (eficiência 99,95%). Relação benefício/custo superior a 8:1 no horizonte de 5 anos. REFERÊNCIA ABNT: REASON, J. Managing the Risks of Organizational Accidents. Aldershot: Ashgate, 1997."
+                    },
+                    {
+                      "nome": "Legislação Ocupacional Brasileira",
+                      "descricao": "DEFINIÇÃO FORMAL: A legislação ocupacional brasileira é o conjunto de normas jurídicas que estabelecem direitos, deveres e responsabilidades quanto à segurança no trabalho, estruturada em nível constitucional (Art. 7o CF/88), infraconstitucional (CLT, Lei no 6.514/77) e regulamentar (NR-01 a NR-38). PILARES TEÓRICOS: Fundamenta-se nos princípios da dignidade da pessoa humana, do valor social do trabalho, da prevenção e da precaução. AUTOR PRINCIPAL: Gerson Marques de Araújo. EXEMPLO PRÁTICO: Construtora autuada por ausência de PGR. Multa por infração grave em empresa de médio porte: R$ 24.999,98, dobrada por reincidência: R$ 49.999,96. Embargo das obras: 90 operários parados por 15 dias = R$ 162.000 em mão de obra ociosa. Total do sinistro: R$ 461.999,96. Implementação do PGR custaria R$ 44.000. Relação custo-benefício: 10,5:1. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    }
+                  ],
+                  "formula": "R = P x S | IE = C_medida / C_limite | Q = (G x K x 3600) / (C x 10^6)",
+                  "aplicacoes": [
+                    "Dimensionamento de sistemas de ventilação industrial para controle de exposição a agentes químicos",
+                    "Elaboração de Matriz de Risco para priorização de investimentos em segurança do trabalho",
+                    "Cálculo de multas e sanções administrativas trabalhistas",
+                    "Análise de custo-benefício de programas de prevenção versus custos de acidentes",
+                    "Implementação de SGSSTO baseados na ISO 45001"
+                  ]
+                },
+                {
+                  "id": "teorias-acidentes",
+                  "titulo": "Teorias de Acidentes",
+                  "definicao": "As teorias de acidentes constituem o arcabouço conceitual que busca explicar as causas, mecanismos e fatores contribuintes dos acidentes ocupacionais, evoluindo de modelos lineares para abordagens sistêmicas ao longo do século XX e XXI. Heinrich (1931) inaugurou o campo com a Teoria do Efeito Dominó, propondo que 88% dos acidentes são causados por atos inseguros, 10% por condições inseguras e 2% por causas fortuitas. Bird e Loftus (1974) refinaram o modelo com a proporção 1:10:30:600 (óbitos:lesões graves:lesões leves:incidentes), enfatizando que a gestão da segurança é função gerencial baseada no controle de perdas. James Reason (1997) revolucionou o campo com o Modelo do Queijo Suíço, onde acidentes resultam do alinhamento de falhas latentes e ativas através de múltiplas camadas de defesa. Perrow (1999) argumentou que em sistemas complexos acidentes são normais e inevitáveis. Leveson (2012) propôs o modelo STAMP baseado na Teoria Geral de Sistemas, onde acidentes resultam de controle de segurança inadequado. A evolução demonstra a transição do paradigma Safety-I (reativo) para Safety-II (proativo) proposta por Hollnagel (2014).",
+                  "topicos": [
+                    {
+                      "nome": "Modelo do Queijo Suíço de James Reason",
+                      "descricao": "DEFINIÇÃO FORMAL: O Swiss Cheese Model descreve acidentes como alinhamento de buracos em múltiplas camadas de defesa, onde falhas latentes (condições residentes: má comunicação, treinamento insuficiente, pressão) e falhas ativas (erros na interface humano-sistema) se alinham. PILARES TEÓRICOS: Fundamenta-se na Psicologia Cognitiva (classificação SRK de Rasmussen), Ergonomia de Sistemas e Teoria HRO. Proporção típica 90:10 entre falhas latentes e ativas. AUTOR PRINCIPAL: James Reason, psicólogo cognitivo da Universidade de Manchester. EXEMPLO PRÁTICO: Explosão em refinaria de petróleo - análise das 6 camadas: (1) Projeto: bocal subdimensionado; (2) Manutenção: válvula PSV-3204 sem teste (probabilidade de falha 0,0231); (3) Operação: alarme ignorado por excesso (1.200 alarmes/dia); (4) Procedimento: sem verificação cruzada; (5) Supervisão: pressurização acelerada (violação normalizada); (6) Emergência: supressão desativada sem isolamento. Custo do acidente: R$ 12.500.000 versus R$ 450.000 em ações corretivas. REFERÊNCIA ABNT: REASON, J. Managing the Risks of Organizational Accidents. Aldershot: Ashgate, 1997."
+                    },
+                    {
+                      "nome": "Pirâmide de Bird",
+                      "descricao": "DEFINIÇÃO FORMAL: A Pirâmide de Bird estabelece proporção 1:10:30:600 baseada em 1.753.498 acidentes, demonstrando que prevenção de incidentes menores reduz acidentes catastróficos. PILARES TEÓRICOS: Teoria da Casualidade Múltipla de Bird e Germain (1985). AUTOR PRINCIPAL: Frank E. Bird Jr., engenheiro de segurança americano, fundador do International Loss Control Institute. EXEMPLO PRÁTICO: Empresa química com 2 lesões incapacitantes, 5 leves, 12 danos materiais, 60 quase-acidentes. Fator de subnotificação: 50%. Custo total: R$ 485.000/ano. Programa de reporte voluntário (R$ 26.000/ano). ROI: 5,5:1 em 3 anos. REFERÊNCIA ABNT: BIRD, F. E.; LOFTUS, R. G. Practical Loss Control Leadership. Loganville: DNV, 1996."
+                    },
+                    {
+                      "nome": "Modelo STAMP de Leveson",
+                      "descricao": "DEFINIÇÃO FORMAL: STAMP (Systems-Theoretic Accident Model and Processes) modela acidentes como resultado de controle de segurança inadequado, onde controladores falham em impor restrições de segurança. PILARES TEÓRICOS: Cibernética de Wiener, Teoria Geral de Sistemas, Modelo SRK de Rasmussen. AUTOR PRINCIPAL: Nancy G. Leveson, professora do MIT. EXEMPLO PRÁTICO: Análise STAMP de Bhopal (1984). Nível 1 - Organizacional: redução de pessoal de 12 para 4 engenheiros (economia US$ 1,2M/ano). Nível 2 - Gerencial: alarmes desativados não reportados. Nível 3 - Operacional: operador com modelo mental incorreto. Temperatura subiu de 20°C para 200°C em 3 minutos, liberação de 40 toneladas de MIC, 3.787 óbitos. REFERÊNCIA ABNT: LEVESON, N. Engineering a Safer World. Cambridge: MIT Press, 2012."
+                    }
+                  ],
+                  "formula": "Bird: 1:10:30:600 | P_acidente = P(falha1) x ... x P(falha_n)",
+                  "aplicacoes": [
+                    "Investigação de acidentes com Modelo do Queijo Suíço",
+                    "Programas de reporte de quase-acidentes baseados na Pirâmide de Bird",
+                    "Análise STPA de segurança em sistemas críticos",
+                    "Desenvolvimento de indicadores proativos de segurança",
+                    "Sistemas de gestão com defesa em profundidade"
+                  ]
+                },
+                {
+                  "id": "gestao-riscos",
+                  "titulo": "Gestão de Riscos Ocupacionais (NR-01 GRO)",
+                  "definicao": "A Gestão de Riscos Ocupacionais (GRO) é um processo sistemático instituído pela NR-01 que estabelece requisitos para identificação, avaliação, controle e monitoramento dos riscos ocupacionais. O PGR substitui o antigo PPRA, ampliando seu escopo para riscos de acidentes além dos ambientais. A APR é ferramenta técnica para atividades não rotineiras. A hierarquia de controles estabelece ordem vinculante: eliminação, minimização com proteção coletiva, medidas administrativas e proteção individual. A GRO moderna incorpora riscos psicossociais e a ISO 45001:2018.",
+                  "topicos": [
+                    {
+                      "nome": "Programa de Gerenciamento de Riscos (PGR)",
+                      "descricao": "DEFINIÇÃO FORMAL: O PGR (NR-01 Item 1.5) contém inventário de riscos e plano de ação, articulado com PCMSO (NR-07). PILARES TEÓRICOS: ISO 31000, Abordagem Sistêmica de Reason, Ciclo PDCA. AUTOR PRINCIPAL: Mara Queiroga Camisassa. EXEMPLO PRÁTICO: Indústria metalúrgica, setor de pintura com tolueno (85 ppm, TLV-TWA 50 ppm). Matriz 5x5: Probabilidade 4, Severidade 4, Risco = 16 (crítico). Plano de ação: curto prazo: cabine com exaustão 8.800 m3/h; médio prazo: substituição por tinta base água; longo prazo: automação com robô. Orçamento: R$ 320.000. REFERÊNCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                    },
+                    {
+                      "nome": "Análise Preliminar de Risco (APR)",
+                      "descricao": "DEFINIÇÃO FORMAL: APR identifica perigos antes da execução de atividades, obrigatória pela NR-01 como parte do PGR. PILARES TEÓRICOS: MIL-STD-882E, Técnica de Incidentes Críticos (Flanagan, 1954). AUTOR PRINCIPAL: Salvador L. M. S. G. de Oliveira. EXEMPLO PRÁTICO: APR para substituição de correia transportadora em galeria subterrânea (40 m altura). Perigo crítico: ruptura de cabo de aço. Energia calculada: E = 0,5 x 500 x 20^2 = 100.000 J. Risco = 20 (inaceitável). Medidas: substituição do cabo (R$ 4.500), barreira física (100 kJ), trava secundária, zona de exclusão 15 m. REFERÊNCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
+                    },
+                    {
+                      "nome": "Hierarquia de Controles e Matriz 5x5",
+                      "descricao": "DEFINIÇÃO FORMAL: Matriz 5x5 combina probabilidade (1-raro a 5-quase certo) e severidade (1-insignificante a 5-catastrófico), gerando risco: baixo (1-4), médio (5-9), alto (10-15), crítico (16-25). PILARES TEÓRICOS: Teoria da Decisão sob Risco (Knight, 1921), Princípio ALARP, NBR ISO 31010:2021. AUTOR PRINCIPAL: Edward W. Lawless (1977). EXEMPLO PRÁTICO: Atropelamento por empilhadeira. Risco = 4 x 5 = 20 (crítico). Controles: barreira física (R$ 85.000), sensores (R$ 144.000), treinamento (R$ 8.000), EPIs (R$ 15.000). Risco residual = 2 x 4 = 8 (tolerável). Custo total R$ 312.000 versus custo médio de acidente fatal R$ 1.200.000. REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    }
+                  ],
+                  "formula": "R = P x S (Matriz 5x5) | PGR = Inventário + Plano de Ação",
+                  "aplicacoes": [
+                    "Elaboração e implementação do PGR conforme NR-01",
+                    "Realização de APR para atividades não rotineiras",
+                    "Aplicação da Matriz 5x5 para priorização de investimentos",
+                    "Dimensionamento de barreiras de proteção",
+                    "Programas de gestão de riscos psicossociais"
+                  ]
+                },
+                {
+                  "id": "higiene-ocupacional",
+                  "titulo": "Higiene Ocupacional",
+                  "definicao": "A Higiene Ocupacional é a ciência que se dedica à antecipação, reconhecimento, avaliação e controle dos agentes ambientais presentes nos locais de trabalho que podem causar doenças aos trabalhadores. Organiza-se em quatro etapas: antecipação dos riscos, reconhecimento, avaliação (quantitativa ou qualitativa) e controle. Os agentes físicos incluem ruído, vibrações, calor, radiações; agentes químicos incluem poeiras, fumos, vapores e gases; agentes biológicos incluem microrganismos. A avaliação quantitativa utiliza métodos como dosimetria (ruído), IBUTG (calor) e amostragem química. Os Limites de Exposição Ocupacional (LEOs) são baseados nos TLVs da ACGIH e na NR-15.",
+                  "topicos": [
+                    {
+                      "nome": "Limites de Exposição Ocupacional (LEOs)",
+                      "descricao": "DEFINIÇÃO FORMAL: LEOs são parâmetros que estabelecem concentrações máximas de agentes aos quais trabalhadores podem estar expostos sem efeitos adversos. No Brasil, NR-15 define Limites de Tolerância, adotando TLVs da ACGIH. Conceitos: TLV-TWA (média 8h), TLV-STEL (15 min), TLV-C (valor teto). PILARES TEÓRICOS: Epidemiologia Ocupacional, Toxicologia (NOAEL/LOAEL). AUTOR PRINCIPAL: ACGIH, fundada em 1938. EXEMPLO PRÁTICO: Benzeno em posto de combustível: concentração 1,56 ppm. TLV-TWA ACGIH: 0,5 ppm (excede 3,12x); LT NR-15: 2,5 ppm (defasado). Dose ACGIH: 273%. Exposição combinada com NO2 (2,1 ppm): razão total = 1,56/2,5 + 2,1/5 = 1,044 > 1. REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "Avaliação de Agentes Físicos: Ruído e Calor",
+                      "descricao": "DEFINIÇÃO FORMAL: Ruído ocupacional avaliado por dosímetro com ponderação A (dBA). NR-15 Anexo 1: 85 dBA para 8h, Q=5. Calor avaliado por IBUTG = 0,7xTbn + 0,1xTbs + 0,2xTg. PILARES TEÓRICOS: Fisiologia auditiva (células ciliadas do órgão de Corti), ISO 1999:2013, Termorregulação (equação de Fanger). AUTOR PRINCIPAL: Thomas M. Saliba. EXEMPLO PRÁTICO 1 - Ruído: Dosimetria de prensas: D = t1/T1 + ... + tn/Tn. Para exposição variando de 84 a 92 dBA, dose = 148,9%, Leq = 87,9 dBA. EXEMPLO PRÁTICO 2 - Calor: Forno de fundição, IBUTG = 33,2°C, Ereq = 515 W > Emax = 400 W. Medidas: escudo refletivo (redução 60%), ventilação, colete refrigerante. REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "Amostragem de Agentes Químicos",
+                      "descricao": "DEFINIÇÃO FORMAL: Amostragem pessoal ou ambiental com bombas calibradas, filtros e tubos de adsorção. Análise por GC-FID, HPLC, ICP-MS. Metodologia brasileira pelas NHO da Fundacentro. PILARES TEÓRICOS: Teoria cinética dos gases, química analítica, aerodinâmica de partículas (ISO 7708:1995). AUTOR PRINCIPAL: ACGIH e Fundacentro. EXEMPLO PRÁTICO: Soldagem MIG/MAG. Volume 0,898 m3, concentração 3,72 mg/m3. Cr VI: 0,005 mg/m3 (TLV 0,0002, razão 25x). Mn: 0,15 mg/m3 (TLV 0,02, razão 7,5x). Soma = 32,5. Ações: respirador P2, mesa de solda com exaustão (Q = 1.728 m3/h). REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    }
+                  ],
+                  "formula": "D = S(ti/Ti) | IBUTG = 0,7xTbn + 0,1xTbs + 0,2xTg | C = m/V",
+                  "aplicacoes": [
+                    "Programas de conservação auditiva (PCA)",
+                    "Avaliação de sobrecarga térmica em fundições e siderurgias",
+                    "Programas de proteção respiratória (PPR)",
+                    "Controle de fumos metálicos em soldagem",
+                    "Análise de exposição combinada a múltiplos agentes"
+                  ]
+                },
+                {
+                  "id": "normas-regulamentadoras",
+                  "titulo": "Normas Regulamentadoras (NRs)",
+                  "definicao": "As Normas Regulamentadoras constituem o conjunto de disposições técnicas e legais complementares ao Capítulo V da CLT, instituídas pela Portaria MTb no 3.214/1978. Atualmente existem 38 NRs em vigor (NR-01 a NR-38), organizadas em NRs gerais (NR-01 a NR-09), específicas por setor (NR-10 a NR-38) e transversais. São elaboradas por comissões tripartites paritárias. O descumprimento configura infração administrativa e pode gerar responsabilidade civil e criminal. Multas variam de R$ 682,00 a R$ 136.383,12.",
+                  "topicos": [
+                    {
+                      "nome": "NR-12: Segurança em Máquinas e Equipamentos",
+                      "descricao": "DEFINIÇÃO FORMAL: NR-12 estabelece requisitos para prevenção de acidentes na instalação, operação e manutenção de máquinas, com aproximadamente 200 itens e 15 anexos. PILARES TEÓRICOS: Diretiva Europeia 2006/42/CE, ISO 12100, IEC 61496, ISO 13849. AUTOR PRINCIPAL: CTPP e Fundacentro. EXEMPLO PRÁTICO: Adequação de prensa hidráulica 150 t. Não conformidades: falta enclausuramento, comando bimanual tipo III-A (exigido III-C), ausência cortina de luz tipo 4. Distância de segurança: S = (KxT)+C = (2.000 x 0,38) + 128 = 888 mm. Custo: R$ 68.500. Risco de multa: R$ 24.999,98. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    },
+                    {
+                      "nome": "NR-17: Ergonomia",
+                      "descricao": "DEFINIÇÃO FORMAL: NR-17 estabelece parâmetros para adaptação das condições de trabalho, incluindo AET, fatores psicossociais, levantamento de cargas (Equação NIOSH) e mobiliário. PILARES TEÓRICOS: Ergonomia da Atividade (Wisner), Equação NIOSH: LPR = LC x HM x VM x DM x AM x FM x CM, Método OCRA. AUTOR PRINCIPAL: Alain Wisner (1923-2002). EXEMPLO PRÁTICO: Montagem de componentes eletrônicos com 40 operadoras, 12 casos de LER em 24 meses. OCRA: 60 ações/min (limite 40), força 3,5 N. Check-list OCRA = 32. Ações: rodízio, bancada ergonômica, ferramenta assistida. Payback: 13 meses. REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "NR-33 e NR-35: Espaço Confinado e Trabalho em Altura",
+                      "descricao": "DEFINIÇÃO FORMAL: NR-33 exige identificação, monitoramento e emergência em espaços confinados (classes I, II, III). NR-35 estabelece requisitos para trabalho acima de 2,00 m. Ambas exigem Análise de Risco, Permissão de Trabalho e treinamento (40h NR-33, 16h NR-35). PILARES TEÓRICOS: OSHA 1910.146, ANSI Z359, NBR 16577, NBR 15594. EXEMPLO PRÁTICO NR-33: Limpeza de tanque 50.000 L. LOTO, ventilação 20 renovações/h, monitoramento O2 20,7%, LEL 2%, VOC 3 ppm. EXEMPLO PRÁTICO NR-35: Instalação a 12 m. DQ = 1,2+0,8+1,75+1,0 = 4,75 m. Carga na ancoragem: F = 4,2 kN (limite 6 kN). REFERÊNCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                    }
+                  ],
+                  "formula": "DQ = L + D + A + M | S = (KxT) + C | LPR = LC x HM x VM x DM x AM x FM x CM",
+                  "aplicacoes": [
+                    "Adequação de máquinas à NR-12 com categorias ISO 13849",
+                    "Análise Ergonômica do Trabalho para prevenção de LER/DORT",
+                    "Programa de entrada em espaço confinado conforme NR-33",
+                    "Gestão de trabalho em altura com sistemas de ancoragem certificados",
+                    "Laudo Técnico de Insalubridade e Periculosidade (NR-15/NR-16)"
+                  ]
+                },
+                {
+                  "id": "cultura-seguranca",
+                  "titulo": "Cultura de Segurança e Fatores Humanos",
+                  "definicao": "A Cultura de Segurança representa valores, percepções e comportamentos compartilhados sobre gestão de riscos. O termo foi formalizado após Chernobyl (1986) pelo INSAG. Sidney Dekker em Safety Differently (2014) propõe abandonar a visão do erro humano como causa para compreendê-lo como sintoma de condições sistêmicas, defendendo a Just Culture. Hollnagel (2014) propõe Safety-I (ausência de acidentes) versus Safety-II (capacidade de sucesso sob condições variáveis), com o princípio ETTO. A Engenharia de Resiliência estuda como sistemas antecipam, monitoram, respondem e aprendem.",
+                  "topicos": [
+                    {
+                      "nome": "Cultura Justa (Just Culture)",
+                      "descricao": "DEFINIÇÃO FORMAL: Just Culture estabelece ambiente de confiança onde erros são reportados sem medo de punição, mantendo responsabilidade por negligência. Reason (1997) e Dekker (2007) distinguem: erro inadvertido (treinamento), violação por risco (orientação), negligência (disciplina), dolo (rescisão). PILARES TEÓRICOS: Psicologia Organizacional (Schein), Ergonomia Cognitiva (Reason/Rasmussen). AUTOR PRINCIPAL: Sidney Dekker, professor Griffith University. EXEMPLO PRÁTICO: Erro de medicação em hospital - heparina 10x a dose pediátrica. Causas: frascos lado a lado com embalagens similares, prescrição sem volume, sobrecarga (10 pacientes/turno). Classificação: erro inadvertido. Resposta: sem punição; ações sistêmicas. Taxa de eventos adversos reduziu 50%; reportes aumentaram 487%. REFERÊNCIA ABNT: DEKKER, S. Just Culture. 2. ed. Boca Raton: CRC Press, 2012."
+                    },
+                    {
+                      "nome": "Safety-I e Safety-II de Hollnagel",
+                      "descricao": "DEFINIÇÃO FORMAL: Safety-I foca em o que deu errado; Safety-II foca em o que dá certo, reconhecendo que a variabilidade de desempenho é inevitável. Princípio ETTO: equilíbrio entre eficiência e minúcia. PILARES TEÓRICOS: Teoria dos Sistemas Sociotécnicos, Engenharia de Resiliência (Woods). Quatro pilares: antecipar, monitorar, responder, aprender. AUTOR PRINCIPAL: Erik Hollnagel (1946-), University of Southern Denmark. EXEMPLO PRÁTICO: Controle de tráfego aéreo no Natal. Safety-I: quase-colisão por fadiga. Safety-II: FRAM identificou funções de smoothing dos veteranos. Resultados: separação média aumentou de 6,2 para 7,8 NM; estresse reduziu 30%. REFERÊNCIA ABNT: HOLLNAGEL, E. Safety-I and Safety-II. Farnham: Ashgate, 2014."
+                    },
+                    {
+                      "nome": "Fatores Humanos e Erro Humano",
+                      "descricao": "DEFINIÇÃO FORMAL: Fatores Humanos estuda a interação entre humanos e sistemas (IEA, 2000). Taxonomia SRK de Rasmussen: skill-based (slips/lapses), rule-based (mistakes de regras), knowledge-based (mistakes de conhecimento). PILARES TEÓRICOS: Modelo SHEL (Edwards, 1972), Consciência Situacional (Endsley, 1995), HEART/THERP. AUTOR PRINCIPAL: Jens Rasmussen (1926-2018). EXEMPLO PRÁTICO: Abertura de válvula PSV sem LOTO em plataforma. SRK: rule-based mistake. HEP nominal = 0,01; fatores: fadiga (x3), falta experiência (x5), procedimento pobre (x2). HEP efetivo = 0,60. Ações: pair verification, etiqueta refletiva, e-LOTO RFID. REFERÊNCIA ABNT: DEKKER, S. The Field Guide to Understanding Human Error. 2. ed. Boca Raton: CRC Press, 2006."
+                    }
+                  ],
+                  "formula": "HEP_efetivo = HEP_nominal x F1 x F2 x ... x Fn | ETTO = Eficiencia/Minucia",
+                  "aplicacoes": [
+                    "Implementação de Cultura Justa em organizações de alta confiabilidade",
+                    "Avaliação com questionário NOSACQ-50",
+                    "Análise de erro humano com HEART, THERP e CREAM",
+                    "Programas de CRM e TeamSTEPPS",
+                    "Análise FRAM de resiliência organizacional"
+                  ]
+                },
+                {
+                  "id": "investigacao-acidentes",
+                  "titulo": "Investigação e Análise de Acidentes",
+                  "definicao": "A investigação de acidentes é um processo sistemático que visa identificar causas imediatas, contribuintes e raízes para prevenir recorrência. Compreende quatro fases: coleta de dados (preservação do local, entrevistas, documentos), análise (aplicação de metodologias causais), elaboração de recomendações e acompanhamento. As principais metodologias incluem Árvore de Causas (método francês do INRS), 5 Porquês (Toyota Production System), Análise de Árvore de Falhas (FTA), Diagrama de Ishikawa e RCA. O princípio fundamental é que todo acidente revela falhas no sistema de gestão e constitui oportunidade de aprendizado.",
+                  "topicos": [
+                    {
+                      "nome": "Método da Árvore de Causas",
+                      "descricao": "DEFINIÇÃO FORMAL: A Árvore de Causas é um método francês (INRS) baseado na teoria da causalidade múltipla, que constrói retroativamente do evento final para identificar fatos encadeados com relações de conjunção, disjunção e independência. PILARES TEÓRICOS: Teoria Sistêmica de Bertalanffy, Modelo de Montmollin. AUTOR PRINCIPAL: INRS (França), adaptado pela Fundacentro. EXEMPLO PRÁTICO: Acidente - trabalhador com fratura exposta ao ser atingido por peça de 12 kg. Árvore: T = F1 ^ F2 (peça caiu e trabalhador estava na área). F1 = F3 ^ F4 (posição instável e cabo rompido). F2 = F5 ^ (F6 v F7) (passou por baixo da carga e sinalização desgastada ou procedimento incompleto). Ações: novo procedimento de amarração (minimo 3 pontos), substituição preventiva de cabos, barreira física. REFERÊNCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
+                    },
+                    {
+                      "nome": "Método dos 5 Porquês",
+                      "descricao": "DEFINIÇÃO FORMAL: Técnica de análise de causa raiz desenvolvida por Sakichi Toyoda no Sistema Toyota de Produção, perguntando sucessivamente por que até identificar a causa fundamental. PILARES TEÓRICOS: Pensamento Lean (Ohno, 1988), Ciclo PDCA, Kaizen. AUTOR PRINCIPAL: Sakichi Toyoda (1867-1930), fundador da Toyota Industries. EXEMPLO PRÁTICO: Vazamento de HCl em indústria química. 1o: junta rompida. 2o: degradação acelerada. 3o: concentração elevada de 15% para 25% sem avaliação. 4o: sem procedimento MOC. 5o: sistema de gestão não exigia revisão para alterações de processo. Causa raiz: ausência de MOC. Ações: implementação de MOC integrado ao PGR, checklist de variáveis críticas. REFERÊNCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                    },
+                    {
+                      "nome": "RCA e Diagrama de Ishikawa",
+                      "descricao": "DEFINIÇÃO FORMAL: RCA é um conjunto de métodos para identificar causas fundamentais de eventos adversos. Diagrama de Ishikawa organiza causas em 6 categorias (6M): Método, Máquina, Material, Mão de Obra, Medida, Meio Ambiente. PILARES TEÓRICOS: Controle Estatístico da Qualidade (Shewhart, Deming), Gestão da Qualidade Total. AUTOR PRINCIPAL: Kaoru Ishikawa (1915-1989). EXEMPLO PRÁTICO: Acidente fatal em elevador de obra - queda de 18 m. Ishikawa: Método (acesso pelo poço, sem plataforma), Máquina (sensor desativado), Material (guarda-corpo ausente), Mão de obra (treinamento vencido), Medida (sem inspeção diária), Meio ambiente (iluminação 80 lux). Causas raízes: ausência de plataforma de embarque, manutenção preventiva incompleta, treinamento periódico não implementado. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    }
+                  ],
+                  "formula": "Arvore: T = F1 ^ F2 | 5W: Causa_i+1 = f(Porque_i) | Ishikawa: 6M",
+                  "aplicacoes": [
+                    "Investigação de acidentes fatais em indústrias e construção civil",
+                    "Implementação de sistema de gestão de incidentes baseado em RCA",
+                    "Programas de melhoria contínua com método dos 5 Porquês",
+                    "Análise de falhas com Diagrama de Ishikawa",
+                    "Comissões internas de investigação de acidentes (CIA)"
+                  ]
+                },
+                {
+                  "id": "sesmt-cipa",
+                  "titulo": "SESMT e CIPA",
+                  "definicao": "O SESMT (NR-04) é o serviço organizacional composto por profissionais de segurança e medicina do trabalho, dimensionado conforme grau de risco (GR 1 a 4) e número de empregados. A CIPA (NR-05) é comissão paritária com mandato de um ano, dedicada à prevenção de acidentes, realizando Mapa de Riscos, inspeções e SIPAT. A estabilidade do cipeiro é garantida desde o registro de candidatura até 1 ano após o mandato.",
+                  "topicos": [
+                    {
+                      "nome": "Dimensionamento do SESMT (NR-04)",
+                      "descricao": "DEFINIÇÃO FORMAL: Dimensionamento definido pela NR-04 Quadro II, cruzando Grau de Risco (CNAE) com número de empregados. PILARES TEÓRICOS: Engenharia de Segurança Sistêmica, Medicina do Trabalho baseada em evidências. AUTOR PRINCIPAL: MTE (CTPP). EXEMPLO PRÁTICO: Metalúrgica GR-3 com 850 empregados: 3 Técnicos, 1 Engenheiro (6h/dia), 1 Médico (6h/dia), 1 Enfermeiro (6h/dia), 1 Auxiliar. Custo mensal: R$ 55.000. Multa por não constituição: R$ 24.999,98 mais interdição. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    },
+                    {
+                      "nome": "CIPA e Mapa de Riscos (NR-05)",
+                      "descricao": "DEFINIÇÃO FORMAL: CIPA composta por representantes titulares e suplentes, mandato 1 ano com estabilidade. Mapa de Riscos é representação gráfica com círculos coloridos: verde (físico), vermelho (químico), marrom (biológico), amarelo (ergonômico), azul (acidente). PILARES TEÓRICOS: Teoria da Participação, Ergonomia Participativa (Wilson, 1995). AUTOR PRINCIPAL: NR-05 (CTPP). EXEMPLO PRÁTICO: Mapa de Riscos de pintura industrial: (1) Cabine: vermelho grande (tolueno, xileno), verde médio (ruído 87 dBA); (2) Preparação de tintas: amarelo médio (postura inadequada); (3) Estoque: vermelho grande (inflamáveis), azul médio (empilhadeira). Círculo médio = grau médio, grande = grau alto. Afixado na entrada do setor. REFERÊNCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                    },
+                    {
+                      "nome": "SIPAT e Programa de Prevenção",
+                      "descricao": "DEFINIÇÃO FORMAL: SIPAT é evento anual obrigatório promovido pela CIPA (NR-05 Item 5.15), com palestras, treinamentos e campanhas sobre segurança e saúde. PILARES TEÓRICOS: Andragogia (Knowles), Comunicação em Saúde (Rosenstock), Aprendizagem Social (Bandura). AUTOR PRINCIPAL: CIPA (NR-05). EXEMPLO PRÁTICO: SIPAT em indústria de bebidas, 500 funcionários, 5 dias: Dia 1 - Palestra magna; Dia 2 - Estações práticas de EPIs e combate a incêndio; Dia 3 - Saúde mental e ginástica laboral; Dia 4 - Ergonomia; Dia 5 - Gincana de segurança. Custo: R$ 45.000. Meta: 95% participação. Redução esperada de 15% nos incidentes no trimestre seguinte. REFERÊNCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
+                    }
+                  ],
+                  "formula": "Dimensionamento SESMT: f(GR, N_empregados) | CIPA: Rep_empregados = N/(N+1)xTotal",
+                  "aplicacoes": [
+                    "Estruturação e dimensionamento do SESMT conforme NR-04 Quadro II",
+                    "Processo eleitoral da CIPA e treinamento de cipeiros",
+                    "Elaboração do Mapa de Riscos com participação dos trabalhadores",
+                    "Organização da SIPAT com programação educativa e preventiva",
+                    "Auditoria de conformidade legal de SESMT e CIPA"
+                  ]
+                },
+                {
+                  "id": "epi-epc",
+                  "titulo": "EPI e EPC",
+                  "definicao": "EPI (NR-06) é todo dispositivo de uso individual para proteção contra riscos. EPC são dispositivos que protegem simultaneamente todos os trabalhadores. A NR-06 regula o fornecimento obrigatório de EPI pelo empregador, a certificação (CA emitido pelo MTE), o treinamento e a substituição. EPIs classificam-se por tipo de proteção: cabeça (capacete), olhos/face (óculos, viseira), auditiva (protetor auricular), respiratória (PFF1, PFF2, PFF3), mãos (luvas), pés (calçados), queda (cinto paraquedista). EPCs incluem enclausuramento, ventilação, barreiras acústicas, guarda-corpos e sinalização.",
+                  "topicos": [
+                    {
+                      "nome": "NR-06 e Certificado de Aprovação (CA)",
+                      "descricao": "DEFINIÇÃO FORMAL: NR-06 estabelece que empregador deve fornecer EPI adequado com CA válido, treinar e fiscalizar o uso. CA emitido pelo MTE mediante ensaios INMETRO, validade 5 anos (nacionais) ou 2 anos (importados). PILARES TEÓRICOS: Hierarquia de Controles (EPI como última barreira), NBR 11832 (capacete), NBR 13697 (protetor auditivo). AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Respirador PFF2 para cementação. FPD = 10. Concentração 8 mg/m3 (limite 5 mg/m3), razao 1,6x, FPD 10 adequado. Fit test com sacarina, substituição semanal. Sem CA: multa e responsabilidade civil. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    },
+                    {
+                      "nome": "Proteção Coletiva: Enclausuramento e Ventilação",
+                      "descricao": "DEFINIÇÃO FORMAL: Enclausuramento isola fontes de perigo com barreiras físicas. Ventilação local exaustora capta contaminantes na fonte. PILARES TEÓRICOS: Mecânica dos Fluidos (Bernoulli), ACGIH Industrial Ventilation Manual. AUTOR PRINCIPAL: ACGIH Committee on Industrial Ventilation. EXEMPLO PRÁTICO: Lixadeira 98 dBA. Cabine com paredes sanduíche (aco + la mineral 50 mm). TL = 14,4 log(Mxf) - 23. Para M=10 kg/m2, f=2000 Hz, TL = 34 dB. Ruido externo = 64 dBA. Custo: R$ 28.000. VLE para fumos de soldagem: Q = 3.600 x 0,5 x 0,5 = 900 m3/h, DP = 250 Pa, P = 90 W (motor 0,5 CV). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "Tipos de EPI e Seleção Adequada",
+                      "descricao": "DEFINIÇÃO FORMAL: EPIs classificam-se por parte protegida: cabeça (capacete classe A/B), olhos (óculos, viseira), auditiva (plug, concha NRR 15-33 dB), respiratória (PFF1 80%, PFF2 94%, PFF3 99,95%), mãos (química: PVC, nitrílica, neoprene), pés (biqueira aco/composite), queda (cinto paraquedista, talabarte, trava-quedas). PILARES TEÓRICOS: FPA - Fator de Proteção Atribuído, FPR - Fator de Proteção Requerido. Criterio: FPA >= FPR. AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Operador de motosserra (105 dBA). Protetor NRR 28: atenuacao real = (28-7)/2 = 10,5 dB, nivel efetivo = 94,5 dBA (insuficiente). Dupla proteção (plug + concha): 5 + 10,5 + 13 = 28,5 dB, nivel = 76,5 dBA (aceitável). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                    }
+                  ],
+                  "formula": "Atenuacao real = (NRR-7)/2 | FPA >= FPR | Q = 3.600 x v x A | P = Q x DP / (3.600 x n)",
+                  "aplicacoes": [
+                    "Programa de Proteção Respiratória (PPR) com PFF2/PFF3",
+                    "Seleção de protetores auriculares com cálculo de atenuacao (NRR)",
+                    "Dimensionamento de cabines acústicas para controle de ruído",
+                    "Sistemas de ventilação local exaustora para agentes químicos",
+                    "Programa de inspeção e substituição de EPIs com CA válido"
+                  ]
+                },
+                {
+                  "id": "loto",
+                  "titulo": "LOTO - Lockout Tagout",
+                  "definicao": "LOTO e o procedimento padronizado de bloqueio e etiquetagem de fontes de energia perigosa durante manutencao, conforme NR-12 (Itens 12.127 a 12.133) e OSHA 29 CFR 1910.147. Segue seis etapas: (1) Preparacao; (2) Notificacao; (3) Desligamento; (4) Isolamento com cadeado e etiqueta; (5) Verificacao de energia residual; (6) Verificacao de zero energia. O cadeado e individual (cada trabalhador coloca seu cadeado pessoal), o hasp permite multiplos cadeados em um ponto, e a etiqueta contem nome, data e contato.",
+                  "topicos": [
+                    {
+                      "nome": "Procedimento de Bloqueio e Etiquetagem",
+                      "descricao": "DEFINICAO FORMAL: LOTO e sistema padronizado de isolamento energetico com cadeados individuais (one lock, one key), hasps para bloqueio de equipe, e etiquetas de identificacao. PILARES TEORICOS: Principio de Zero Energy State, Hierarquia de Controles. OSHA 1910.147. AUTOR PRINCIPAL: OSHA. EXEMPLO PRATICO: Manutencao de esteira transportadora em mineracao (750 kW). 4 fontes: disjuntor 13,8 kV, motor 480 V, acumulador hidraulico 200 bar, carga gravitacional 50 t. Aplicacao de hasp com 6 cadeados. Verificacao: multimetro fase-fase e fase-terra, alivio de pressao hidraulica, calco mecanico. Tentativa de partida (nao deve funcionar). Custo kit LOTO: R$ 2.800/kit x 6 = R$ 16.800. Acidente evitado: R$ 2.500.000. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                    },
+                    {
+                      "nome": "Gestao de Energias Perigosas",
+                      "descricao": "DEFINICAO FORMAL: NR-12 (12.127-12.133) lista energias: eletrica, mecanica, hidraulica, pneumatica, termica, quimica, gravitacional, armazenada. Energia residual permanece apos isolamento da fonte. PILARES TEORICOS: Conservacao de Energia, E = mgh, E = 1/2mv2, E = 1/2CV2, NFPA 70E. AUTOR PRINCIPAL: OSHA e NFPA. EXEMPLO PRATICO: Manutencao de prensa hidraulica 500 t. Energias: (1) Eletrica: motor 200 CV, 480 V; (2) Hidraulica: acumulador 300 bar, 50 L; (3) Gravitacional: cilindro 3.000 kg a 2,5 m; (4) Mola: k = 500 kN/m, compressao 0,15 m, E = 5.625 J. Procedimento: descarga do acumulador (3 min), calco mecanico (resistencia 37.500 kg), descarga de capacitores (< 50 V), resfriamento (< 50 graus C). REFERENCIA ABNT: ARAUJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                    }
+                  ],
+                  "formula": "E_grav = mgh | E_cin = 1/2mv2 | E_acum = 1/2CV2 | Energia residual = f(tipo, volume, pressao)",
+                  "aplicacoes": [
+                    "Procedimento padronizado de LOTO para manutencao industrial",
+                    "Programa de bloqueio de energias em maquinas NR-12",
+                    "Treinamento de equipes de manutencao em locking/tagging",
+                    "Auditoria de conformidade LOTO com checklist OSHA 1910.147",
+                    "Gestao de chaves e cadeados LOTO (sistema de chave unica)"
+                  ]
+                },
+                {
+                  "id": "seguranca-processos",
+                  "titulo": "Seguranca de Processos",
+                  "definicao": "A Seguranca de Processos e a disciplina da engenharia focada na prevencao de liberacoes acidentais de materiais perigosos, diferenciando-se da seguranca ocupacional por seu foco em eventos catastroficos de grande escala. Grandes acidentes: Flixborough (1974, 28 mortes), Seveso (1976), Bhopal (1984, 3.787 mortes), Piper Alpha (1988, 167 mortes), Texas City (2005, 15 mortes) e Deepwater Horizon (2010, 11 mortes). O CCPS/AIChE estabeleceu 20 elementos essenciais de gestao de seguranca de processos (RBPS). A analise de riscos inclui HAZOP, LOPA, QRA e analise de consequencias.",
+                  "topicos": [
+                    {
+                      "nome": "HAZOP e Analise de Perigos",
+                      "descricao": "DEFINICAO FORMAL: HAZOP (Hazard and Operability Study) e tecnica estruturada que utiliza palavras-guia (Nenhum, Mais, Menos, Parte de, Alem de, Inverso, Diferente) combinadas com parametros (Pressao, Temperatura, Vazao, Nivel) para identificar desvios. PILARES TEORICOS: Teoria de Sistemas, Engenharia de Confiabilidade. AUTOR PRINCIPAL: Trevor Kletz (1922-2013), engenheiro quimico da ICI, pai da seguranca de processos. EXEMPLO PRATICO: HAZOP de reator de polimerizacao. No de alimentacao de etileno. Palavra-guia: Mais + Vazao. Causas: falha controlador FCV-101. Consequencias: reacao exotermica descontrolada, pressao > 13 bar, abertura PSV. Salvaguardas: alarme FAL-101, intertravamento PALL-201 (12 bar), PSV-201 (11 bar). Recomendacoes: sensor 2oo2, valvula fail-close, procedimento de partida com verificacao. REFERENCIA ABNT: KLETZ, T. What Went Wrong? 5. ed. Oxford: Butterworth-Heinemann, 2009."
+                    },
+                    {
+                      "nome": "Crowl e Louvar: Metodos de Analise Quantitativa",
+                      "descricao": "DEFINICAO FORMAL: Crowl e Louvar sistematizam metodos quantitativos: calculo de consequencias de explosoes (TNT, TNO), dispersao de nuvens (gaussiano, dense gas), BLEVE, UVCE, dimensionamento de alivio de pressao, taxas de liberacao. PILARES TEORICOS: Termodinamica, Mecanica dos Fluidos, Transferencia de Calor e Massa. AUTOR PRINCIPAL: Daniel A. Crowl (Michigan Tech) e Joseph F. Louvar (Wayne State). EXEMPLO PRATICO: Vazamento de amonia anidra por tubulacao DN 50. Q = A x Cd x sqrt(2 x rho x (P - Patm)) = 0,00196 x 0,61 x 5.222 = 6,25 kg/s. Massa liberada em 30 min: 11.250 kg. Dispersao (SLAB): distancia ate 300 ppm (IDLH) = 1.800 m. Populacao afetada: 500 pessoas. Evacuacao: 30.000 pessoas. REFERENCIA ABNT: CROWL, D. A.; LOUVAR, J. F. Chemical Process Safety. 3. ed. Upper Saddle River: Prentice Hall, 2011."
+                    },
+                    {
+                      "nome": "LOPA e Camadas de Protecao",
+                      "descricao": "DEFINICAO FORMAL: LOPA (Layer of Protection Analysis) avalia eficacia de camadas de protecao independentes (IPLs) para reduzir frequencia de evento indesejado. Requisitos IPL: especifica, independente, confiavel (PFD quantificado), auditavel. Camadas tipicas: projeto inerentemente seguro, BPCS, alarmes, SIS, PSV, dique, barreira, plano de emergencia. PILARES TEORICOS: IEC 61508/61511 (SIL 1-4, PFD 10^-1 a 10^-5). AUTOR PRINCIPAL: CCPS e IEC 61511. EXEMPLO PRATICO: LOPA para ruptura de reator. F_iniciadora = 0,1/ano. IPL1: BPCS PFD=0,1. IPL2: SIS SIL2 PFD=0,01. IPL3: PSV PFD=0,01. IPL4: Dique PFD=0,01. Freq_mitigada = 0,1 x 0,1 x 0,01 x 0,01 x 0,01 = 10^-8/ano (aceitavel < 10^-6). Custo IPLs: R$ 485.000. Custo acidente: R$ 50.000.000+. REFERENCIA ABNT: MANNAN, S. Lees Loss Prevention in the Process Industries. 4. ed. Oxford: Butterworth-Heinemann, 2012."
+                    }
+                  ],
+                  "formula": "Q = A x Cd x sqrt(2 x rho x DP) | Freq_mitigada = F_iniciadora x Pi(PFD_i) | SIL PFD: 10^-1 a 10^-5",
+                  "aplicacoes": [
+                    "Conducao de estudos HAZOP em refinarias e petroquimicas",
+                    "Modelagem de dispersao de nuvens toxicas para planos de emergencia",
+                    "Projeto de sistemas instrumentados de seguranca (SIS) com SIL 1-4",
+                    "Analise LOPA para definicao de camadas de protecao independentes",
+                    "Dimensionamento de sistemas de alivio de pressao (PSV, disco de ruptura)"
+                  ]
+                },
+                {
+                  "id": "pcms-saude",
+                  "titulo": "PCMSO e Saude Ocupacional",
+                  "definicao": "O PCMSO (NR-07) e o programa de gestao de saude ocupacional que estabelece requisitos para exames medicos obrigatorios, monitoramento biologico e promocao da saude. Os exames sao: admissional, periodico, retorno ao trabalho (> 30 dias), mudanca de funcao e demissional. O ASO certifica a aptidao do trabalhador. O programa inclui ainda imunizacoes e vigilancia de doencas ocupacionais.",
+                  "topicos": [
+                    {
+                      "nome": "NR-07 e Exames Ocupacionais",
+                      "descricao": "DEFINICAO FORMAL: NR-07 estabelece PCMSO com exames: admissional, periodico (conforme idade e risco), retorno ao trabalho, mudanca de funcao e demissional. ASO deve conter: identificacao, riscos ocupacionais, exames, conclusao (apto/restricao/inapto). PILARES TEORICOS: Medicina do Trabalho baseada em evidencias, BEI. AUTOR PRINCIPAL: Rene Mendes, autor de Patologia do Trabalho (2013). EXEMPLO PRATICO: Exposicao a chumbo em fundicao. Pb-S = 52 ug/dL (limite 40 ug/dL). Afastamento imediato por 30 dias, investigacao de fontes (amostragem: 0,15 mg/m3, TLV 0,05). Melhoria: respirador semipresurizado P3, VLE. Apos 30 dias: Pb-S = 38 ug/dL. Retorno com restricoes. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                    },
+                    {
+                      "nome": "Doencas Ocupacionais e Vigilancia",
+                      "descricao": "DEFINICAO FORMAL: Doencas ocupacionais classificam-se em profissional (inerente a atividade) e do trabalho (desencadeada por condicoes). Lista do MS (Portaria 1.339/1999) com 165 doencas. Mais prevalentes no Brasil: LER/DORT (28% dos afastamentos), PAIR (15%), dermatoses (10%). PILARES TEORICOS: Epidemiologia, Fisiopatologia, NTEP (Lei 11.430/2006). AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Vigilancia de silicose em serraria de granito. Exposicao: 0,12 mg/m3 (TLV 0,025). 180 trabalhadores, 8 casos em 3 anos (4,4%), 3 estagio 1, 3 estagio 2, 2 estagio 3. Custo previdenciario: R$ 8.640.000. Prevencao: corte umido (reducao 90%), VLE, PFF3. Investimento: R$ 1.200.000. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                    },
+                    {
+                      "nome": "ASO e Gestao de Saude Ocupacional",
+                      "descricao": "DEFINICAO FORMAL: ASO emitido pelo medico coordenador do PCMSO em 2 vias, arquivado por 20 anos. Gestao integrada com e-Social (eventos S-2210, S-2220, S-2230) e indicadores de saude. PILARES TEORICOS: Medicina do Trabalho, Bioetica (beneficencia, nao maleficencia, autonomia), LGPD. AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Industria quimica com 1.200 empregados. Sistema integrado: agendamento automatico conforme riscos, ASO com QR code, envio ao e-Social, dashboard de indicadores. 350 ASO em 30 dias, 18 pendencias (5,1%). Convocacao por WhatsApp, resolvido em 48h. Custo sistema: R$ 60.000/ano. Reducao de autuacoes e passivo trabalhista. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                    }
+                  ],
+                  "formula": "NTEP: Nexo = f(Doenca_CID, Atividade_CNAE) | ASO: Apto <=> Exames OK | Periodicidade: f(Idade, Risco)",
+                  "aplicacoes": [
+                    "Programa de exames medicos ocupacionais conforme NR-07",
+                    "Emissao e gestao de ASO com integracao e-Social",
+                    "Vigilancia epidemiologica de doencas ocupacionais (PAIR, LER, silicose)",
+                    "Programa de promocao da saude (tabagismo, estresse, sedentarismo)",
+                    "Analise de nexo causal com NTEP e FAP"
+                  ]
+                },
+                {
+                  "id": "emergencia-incendio",
+                  "titulo": "Emergencia e Combate a Incendio",
+                  "definicao": "A gestao de emergencias e combate a incendio e o conjunto de medidas preventivas, preparatorias e de resposta para proteger vidas e patrimonio. Classes de incendio: A (solidos), B (liquidos inflamaveis), C (equipamentos eletricos), D (metais combustiveis), K (oleos de cozinha). A Brigada de Incendio (NBR 14276) e a equipe treinada. O PAE estabelece procedimentos de resposta. Metodos de extincao: remocao, resfriamento, abafamento, quebra da reacao em cadeia.",
+                  "topicos": [
+                    {
+                      "nome": "Classes de Incendio e Metodos de Extincao",
+                      "descricao": "DEFINICAO FORMAL: Classes baseadas no material combustivel. Classe A: solidos, extintos por resfriamento (agua). Classe B: liquidos inflamaveis, extintos por abafamento (CO2, PQS). Classe C: equipamentos eletricos, extintos com CO2 ou PQS. Classe D: metais, com po quimico especial. Classe K: oleos vegetais, com espuma saponificante. PILARES TEORICOS: Tetraedro do Fogo: combustivel, comburente, calor, reacao em cadeia. AUTOR PRINCIPAL: NFPA (fundada 1896). EXEMPLO PRATICO: Dimensionamento de extintores para galao 960 m2, risco B medio. Capacidade extintora: 2 extintores PQS 12 kg (30B cada). Posicionamento a cada 20 m. Manutencao: teste hidrostatico 5/20 anos. Sprinklers: area 100 m2, 8 cabecas, 80 L/min cada, reserva 38.400 L. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                    },
+                    {
+                      "nome": "Brigada de Incendio e PAE",
+                      "descricao": "DEFINICAO FORMAL: Brigada de Incendio (NBR 14276) e grupo treinado para prevencao e combate. PAE contem: identificacao de riscos, recursos, procedimentos (abandono, combate, resgate), organograma. PILARES TEORICOS: Gerenciamento de Crises (Mitroff, 1994), NFPA 1600. AUTOR PRINCIPAL: NFPA e ABNT. EXEMPLO PRATICO: Shopping center 45.000 m2, 1.200 funcionarios, 15.000 pessoas/dia. Risco alto: 1 brigadista/20 funcionarios = 60 brigadistas. Treinamento 20h (teoria 8h + pratica 12h). Simulacoes: bloquinho mensal, integrada semestral. PAE: alarme, 4 pontos de encontro, rotas de fuga (largura 1,2 m). Custo: R$ 105.000. Custo de fatalidade: R$ 3.000.000+. REFERENCIA ABNT: VENDRAME, A. C. Seguranca do Trabalho. Sao Paulo: LTr, 2019."
+                    }
+                  ],
+                  "formula": "Cap_extintora = S(CB x Area) | Dimensao Brigada = Populacao_Fixa / Fator_Risco | Q_sprinkler = n x 80 L/min",
+                  "aplicacoes": [
+                    "Dimensionamento de sistema de protecao contra incendio (extintores, hidrantes, sprinklers)",
+                    "Implantacao de Brigada de Incendio conforme NBR 14276",
+                    "Elaboracao de PAE para industrias, shoppings, hospitais e edificios",
+                    "Projeto de rotas de fuga e saidas de emergencia (NBR 9077)",
+                    "Programa de simulacoes e treinamentos de combate a incendio"
+                  ]
+                },
+                {
+                  "id": "indicadores-seguranca",
+                  "titulo": "Indicadores de Seguranca",
+                  "definicao": "Indicadores de seguranca sao metricas para medir, monitorar e avaliar o desempenho da gestao de SST. Classificam-se em reativos (lagging: acidentes, lesoes, dias perdidos) e proativos (leading: treinamentos, inspecoes, auditorias, quase-acidentes). Principais no Brasil: TFA (Taxa de Frequencia de Acidentes), TG (Taxa de Gravidade), TAE (Taxa de Acidentes com Empregados) e FAP (Fator Acidentario de Prevencao). A ISO 45001 (Clausula 9.1) exige monitoramento e avaliacao do desempenho.",
+                  "topicos": [
+                    {
+                      "nome": "Taxa de Frequencia e Taxa de Gravidade",
+                      "descricao": "DEFINICAO FORMAL: TFA = (N x 1.000.000) / H (acidentes por milhao de horas-homem). TG = (D x 1.000.000) / H (dias perdidos por milhao de horas-homem). Dias debitados conforme NBR 14280 (OIT: obito = 6.000 dias). PILARES TEORICOS: Estatistica descritiva, Epidemiologia Ocupacional, Ciencia Atuarial. AUTOR PRINCIPAL: OIT. EXEMPLO PRATICO: Construcao, 1.200 empregados, H = 2.112.000 Hh. 12 acidentes com afastamento (180 dias), 3 sem afastamento. TFA com afastamento = (12 x 10^6)/2.112.000 = 5,68. TFA total = 7,10. TG = 85,2. FAP: se abaixo da media do CNAE, FAP=0,5 (economia de R$ 720.000/ano). REFERENCIA ABNT: SALIBA, T. M. Curso Basico de Seguranca e Higiene Ocupacional. 10. ed. Sao Paulo: LTr, 2021."
+                    },
+                    {
+                      "nome": "Indicadores Proativos e Balanced Scorecard",
+                      "descricao": "DEFINICAO FORMAL: Leading indicators medem atividades preventivas: treinamentos, inspecoes, auditorias, quase-acidentes reportados, observacoes BBS, acoes corretivas fechadas. BSC de seguranca: (1) Financeira; (2) Clientes; (3) Processos internos; (4) Aprendizado e crescimento. PILARES TEORICOS: Teoria da Medicao de Desempenho (Neely, 2002), Gestao Estrategica (Kaplan, Norton). AUTOR PRINCIPAL: H. James Harrington (1929-). EXEMPLO PRATICO: BSC de seguranca em industria quimica. ICS = media ponderada: lideranca 75%, treinamento 81%, riscos 91%, cultura 91%, quase-acidentes 60% = 80%. Meta: 85%. Apos 6 meses: ICS = 87%. TFA reduziu de 2,5 para 1,8 (28%). REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                    },
+                    {
+                      "nome": "FAP e Taxa de Acidentes com Empregados (TAE)",
+                      "descricao": "DEFINICAO FORMAL: FAP (Lei 11.430/2006) varia de 0,5 a 2,0 e ajusta alíquota SAT/RAT. Calculado com base em frequencia (TAE), gravidade e custo dos acidentes. TAE = (N_acidentes x 1.000) / n_empregados. PILARES TEORICOS: Teoria Atuarial, Economia do Trabalho, Politica Publica (poluidor-pagador). AUTOR PRINCIPAL: INSS e Ministerio da Previdencia. EXEMPLO PRATICO: Empresa alimenticia, 500 empregados, 15 CATs, 120 dias perdidos, custo R$ 85.000. FAP = 0,5x1,20 + 0,3x1,36 + 0,2x1,42 = 1,292. Aliquota efetiva = 2,0% x 1,292 = 2,584%. Custo adicional: R$ 42.048/ano. Com programa de prevencao: FAP projetado 0,85, economia de R$ 21.600/ano. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                    }
+                  ],
+                  "formula": "TFA = (N x 10^6) / H | TG = (D x 10^6) / H | FAP = 0,5xFreq + 0,3xGrav + 0,2xCusto",
+                  "aplicacoes": [
+                    "Calculo e monitoramento de TFA/TG para reporte gerencial e legal",
+                    "Implantacao de indicadores proativos (leading indicators) de seguranca",
+                    "Gestao do FAP para reducao da aliquota SAT/RAT",
+                    "Benchmarking de desempenho de SST entre setores e empresas",
+                    "Auditoria de sistemas de gestao ISO 45001 (monitoramento clausula 9.1)"
+                  ]
+                }
+              ]
             },
-            {
-              "nome": "NR-10 Eletricidade",
-              "descricao": "Na engenharia de segurança, \"NR-10 Eletricidade\" (relacionado a normas regulamentadoras (nrs)) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
+{
+              "id": "normas-regulamentadoras-nrs",
+              "nome": "Normas Regulamentadoras (NRs)",
+              "icone": "file-text",
+              "cor": "#991b1b",
+              "descricao": "Conjunto completo das 38 Normas Regulamentadoras do Ministério do Trabalho e Emprego (MTE), incluindo NR-2 e NR-27 revogadas. As NRs constituem o principal instrumento legal de regulamentação das condições de segurança, saúde e higiene do trabalho no Brasil, instituídas pela Portaria MTb nº 3.214/1978 e atualizadas periodicamente por comissões tripartites.",
+              "subtopicos": [
+                {
+                  "id": "nr-01",
+                  "titulo": "NR-01: Disposições Gerais e Gerenciamento de Riscos Ocupacionais",
+                  "definicao": "A NR-01 estabelece as disposições gerais que norteiam todas as demais Normas Regulamentadoras, definindo campos de aplicação, competências e responsabilidades. Em 2021, a NR-01 foi substancialmente reformulada pela Portaria MTP nº 6.730/2021, instituindo o Gerenciamento de Riscos Ocupacionais (GRO) como novo paradigma de prevenção, em substituição ao antigo PPRA. O GRO é um processo contínuo e sistemático que compreende: (a) identificação de perigos; (b) avaliação de riscos ocupacionais; (c) classificação para priorização; (d) implementação de medidas de prevenção; e (e) revisão periódica. O Programa de Gerenciamento de Riscos (PGR) substitui o antigo PPRA, devendo conter inventário de riscos e plano de ação. A NR-01 estabelece ainda a hierarquia de controles como ordem vinculante: eliminação, minimização com proteção coletiva, medidas administrativas e proteção individual. PILARES TEÓRICOS: gestão de riscos baseada em evidências, hierarquia de controles, melhoria contínua. APLICAÇÃO PRÁTICA: Fabril metalúrgica com 1.200 funcionários implementa GRO: identifica 237 perigos, classifica 34 como críticos, elabora PGR com inventário e plano de ação, investe R$ 1.340.000,00. Resultado: taxa de acidentes cai de 18,5 para 4,2 por milhão de horas-homem em 18 meses. REFERÊNCIA: BRASIL. NR-01: Disposições Gerais e Gerenciamento de Riscos Ocupacionais. Portaria MTP nº 6.730/2021. CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-01",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-02",
+                  "titulo": "NR-02: Inspeção Prévia (REVOGADA) (REVOGADA)",
+                  "definicao": "A NR-02 estabelecia a obrigatoriedade de inspeção prévia nos estabelecimentos novos, antes do início de suas atividades, bem como nos estabelecimentos que passassem por modificações substanciais nas instalações, equipamentos ou processos de trabalho. A inspeção era realizada pelo Ministério do Trabalho e Emprego (MTE) para verificar as condições de segurança e saúde no trabalho. Foi revogada pela Portaria MTP nº 673, de 25 de março de 2021, em virtude da desburocratização e da ineficiácia prática do modelo de inspeção prévia, que gerava filas de espera e atrasos na liberação de atividades econômicas. As obrigações de segurança passaram a ser exigidas por meio de declaração do empregador e fiscalização posterior, mantendo-se a responsabilidade objetiva do empregador pela segurança das instalações. REFERÊNCIA: BRASIL. NR-02: Inspeção Prévia. Revogada pela Portaria MTP nº 673/2021. CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Consulta histórica e acadêmica sobre norma revogada",
+                    "Estudo de evolução regulatória brasileira"
+                  ]
+                },
+                {
+                  "id": "nr-03",
+                  "titulo": "NR-03: Embargo e Interdição",
+                  "definicao": "A NR-03 estabelece as situações e procedimentos para embargo (paralisação de obra) e interdição (paralisação de máquina, equipamento ou setor) quando constatado risco grave e iminente ao trabalhador. O Auditor-Fiscal do Trabalho pode determinar a paralisação imediata, total ou parcial, lavrando auto de infração. O descumprimento do embargo ou interdição configura crime de desobediência e pode gerar responsabilidade criminal do empregador. Os prazos máximos de interdição são de 90 dias, prorrogáveis por igual período. A liberação ocorre após comprovação da eliminação do risco grave e iminente. PILARES TEÓRICOS: direito administrativo sancionador, princípio da prevenção, dignidade da pessoa humana. APLICAÇÃO PRÁTICA: Indústria química com vazamento de gás cloro recebe interdição parcial do setor de cloração até a substituição das válvulas de segurança. Perda de produção de R$ 320.000,00/dia. A adequação é concluída em 12 dias, liberada após vistoria. REFERÊNCIA: BRASIL. NR-03: Embargo e Interdição. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-03",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-04",
+                  "titulo": "NR-04: SESMT - Serviços Especializados em Engenharia de Segurança e Medicina do Trabalho",
+                  "definicao": "A NR-04 regulamenta o dimensionamento do Serviço Especializado em Engenharia de Segurança e Medicina do Trabalho (SESMT), estabelecendo a obrigatoriedade de constituição por empresas com grau de risco 1 a 4 e número de empregados conforme Quadro II. Os profissionais que compõem o SESMT são: Engenheiro de Segurança do Trabalho, Técnico de Segurança do Trabalho, Médico do Trabalho, Enfermeiro do Trabalho e Auxiliar de Enfermagem do Trabalho. O dimensionamento considera o grau de risco da atividade principal (CNAE) e o número total de empregados. Os profissionais devem ser registrados em seus respectivos conselhos de classe e possuir especialização na área. PILARES TEÓRICOS: engenharia de segurança sistêmica, medicina do trabalho baseada em evidências. APLICAÇÃO PRÁTICA: Indústria metalúrgica grau 3 com 2.500 empregados exige conforme Quadro II: 2 Engenheiros de Segurança (tempo parcial), 6 Técnicos de Segurança, 1 Médico do Trabalho (6h/dia), 2 Enfermeiros do Trabalho (6h/dia) e 3 Auxiliares de Enfermagem. Custo mensal: R$ 98.000,00. Multa por não constituição: R$ 24.999,98 a R$ 136.383,12. REFERÊNCIA: BRASIL. NR-04: SESMT. Portaria MTb nº 3.214/1978. ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 12. ed. Rio de Janeiro: GVC, 2023.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-04",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-05",
+                  "titulo": "NR-05: CIPA - Comissão Interna de Prevenção de Acidentes",
+                  "definicao": "A NR-05 regulamenta a constituição da Comissão Interna de Prevenção de Acidentes (CIPA), órgão partiário composto por representantes dos empregados e empregadores, com mandato de 1 ano. O dimensionamento da CIPA segue o Quadro I da NR-05, conforme grau de risco e número de empregados. As principais atribuições incluem: identificação de riscos, elaboração do Mapa de Riscos, realização de inspeções, investigação de acidentes, promoção da Semana Interna de Prevenção de Acidentes (SIPAT) e requisição de parada de máquina quando constatado risco grave. O cipeiro possui estabilidade provisória desde o registro da candidatura até 1 ano após o término do mandato. O treinamento da CIPA deve ter carga horária mínima de 20 horas. PILARES TEÓRICOS: teoria da participação, ergonomia participativa, democracia industrial. APLICAÇÃO PRÁTICA: Indústria química grau 3 com 1.200 empregados: CIPA com 8 representantes titulares dos empregados e 8 dos empregadores. Processo eleitoral em 60 dias com urna eletrônica (93% de participação). Mapa de Riscos atualizado semestralmente. SIPAT com 5 dias e 90% de presença. Investimento anual: R$ 42.000,00. REFERÊNCIA: BRASIL. NR-05: CIPA. Portaria MTb nº 3.214/1978. CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-05",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-06",
+                  "titulo": "NR-06: EPI - Equipamento de Proteção Individual",
+                  "definicao": "A NR-06 estabelece as obrigações do empregador quanto ao fornecimento gratuito de Equipamentos de Proteção Individual (EPI) adequados ao risco, em perfeito estado de conservação e funcionamento, com Certificado de Aprovação (CA) emitido pelo MTE. O empregador deve treinar o trabalhador sobre o uso correto, exige seu uso e substitui quando danificado ou extraviado. O trabalhador deve usar o EPI responsavelmente, conservá-lo e comunicar alterações. O CA tem validade de 5 anos (fabricação nacional) ou 2 anos (importados). Os EPIs classificam-se por parte do corpo protegida: cabeça (capacete classe A/B), olhos/face (óculos, viseira), auditiva (plug, concha NRR 15-33 dB), respiratória (PFF1-PFF3), mãos (luvas), pés (calçados biqueira de aço/composite) e queda (cinto paraquedista). PILARES TEÓRICOS: hierarquia de controles, fator de proteção requerido vs. atribuído. APLICAÇÃO PRÁTICA: Fundição com 680 funcionários: 38 tipos de EPI para 8 setores, custo anual de R$ 340.000,00. Controle de validade CA via sistema digital. Programa de substituição semanal de respiradores PFF2 para 230 operários na área de jateamento (custo R$ 68.000,00/ano). REFERÊNCIA: BRASIL. NR-06: Equipamento de Proteção Individual. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-06",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-07",
+                  "titulo": "NR-07: PCMSO - Programa de Controle Médico de Saúde Ocupacional",
+                  "definicao": "A NR-07 estabelece a obrigatoriedade do Programa de Controle Médico de Saúde Ocupacional (PCMSO), visando à promoção e preservação da saúde dos trabalhadores. O programa prevê exames médicos obrigatórios: admissional, periódico (conforme faixa etária e riscos), retorno ao trabalho (afastamento superior a 30 dias), mudança de função e demissional. O Atestado de Saúde Ocupacional (ASO) deve ser emitido em duas vias. O PCMSO deve estar articulado com o PGR (NR-01) e considerar riscos ocupacionais identificados. O médico coordenador deve ser especialista em medicina do trabalho. Os exames complementares devem seguir os índices biológicos máximos permitidos (IBMP) estabelecidos nos Quadros I e II. PILARES TEÓRICOS: medicina do trabalho baseada em evidências, epidemiologia ocupacional. APLICAÇÃO PRÁTICA: Indústria química 1.500 funcionários: 1.500 exames admissionais + 4.500 periódicos + 300 demissionais/ano. Custo anual: R$ 520.000,00. 12 exames de chumbo sérico acima do IBMP geraram afastamentos temporários. Integração com eSocial (eventos S-2210, S-2220, S-2230). REFERÊNCIA: BRASIL. NR-07: PCMSO. Portaria MTP nº 6.730/2021. MENDES, R. Patologia do Trabalho. 3. ed. São Paulo: Atheneu, 2013.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-07",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-08",
+                  "titulo": "NR-08: Edificações",
+                  "definicao": "A NR-08 estabelece requisitos técnicos mínimos para edificações onde se realizam atividades laborais, incluindo dimensões, estruturas de circulação, iluminação natural, ventilação e saídas de emergência. Define que os locais de trabalho devem ter pé-direito conforme a atividade (mínimo 3,00 m para atividades industriais), pisos antiderrapantes e resistentes, e estruturas que garantam segurança estrutural contra sobrecargas. As escadas devem ter largura mínima de 0,80 m, corrimão dos dois lados e degraus antiderrapantes. As rampas devem ter inclinação máxima de 12% para circulação de veículos e 20% para pedestres. A NR-08 remete às normas técnicas oficiais da ABNT para os requisitos construtivos. PILARES TEÓRICOS: engenharia civil, arquitetura industrial, ergonomia do ambiente construído. APLICAÇÃO PRÁTICA: Projeto de galpão industrial 15.000 m² com pé-direito de 8 m, 12 saídas de emergência com largura total de 18 m, piso industrial de concreto polido com resistência 40 MPa, sistema de exaustão natural com 25% de abertura zenital. Investimento adicional de R$ 480.000,00 para adequação à NR-08. REFERÊNCIA: BRASIL. NR-08: Edificações. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-08",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-09",
+                  "titulo": "NR-09: PPRA - Programa de Prevenção de Riscos Ambientais (SUBSTITUÍDO PELO GRO/PGR)",
+                  "definicao": "A NR-09 estabelecia o Programa de Prevenção de Riscos Ambientais (PPRA), que foi substituído pelo PGR (NR-01) após a reformulação de 2021. O PPRA contemplava a antecipação, reconhecimento, avaliação e controle dos riscos ambientais (físicos, químicos e biológicos). Com a nova NR-01, o escopo foi ampliado para incluir riscos de acidentes e ergonômicos no PGR. A NR-09 permanece vigente em seu texto original para aspectos de riscos ambientais durante o período de transição, mas seu conteúdo prático foi incorporado ao GRO. A etapa de antecipação consiste em identificação prévia dos agentes ambientais antes da introdução de novos processos. O reconhecimento envolve caracterização detalhada: fontes geradoras, trajetória, concentração e tempo de exposição. PILARES TEÓRICOS: higiene ocupacional, toxicologia, epidemiologia. APLICAÇÃO PRÁTICA: Serralheria com 120 trabalhadores elabora PPRA/PGR com avaliação quantitativa de fumos de solda: 8 amostragens com bombas a 2,0 L/min, concentração média de Mn = 0,38 mg/m³ (TLV-TWA ACGIH: 0,2 mg/m³). Instalação de sistema de exaustão local por R$ 48.000,00. REFERÊNCIA: BRASIL. NR-09: PPRA. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-09",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-10",
+                  "titulo": "NR-10: Segurança em Instalações e Serviços em Eletricidade",
+                  "definicao": "A NR-10 estabelece requisitos e condições mínimas para instalações elétricas em todas as etapas (projeto, construção, operação, manutenção), garantindo segurança dos trabalhadores e terceiros. Exige medidas de proteção coletiva (desenergização, aterramento elétrico, proteção por dispositivos diferenciais), medidas administrativas (procedimentos de trabalho, permissão de trabalho, sinalização) e EPIs específicos (luvas isolantes, mangas, tapetes, ferramentas isoladas). A NR-10 classifica trabalhadores em: autorizados (capacitados + treinamento específico), capacitados (treinamento formal com carga horária definida) e qualificados (formação técnica). O treinamento obrigatório tem carga mínima de 40h para trabalhador autorizado, com reciclagem bienal. A NR-10 também exige o Prontuário de Instalações Elétricas (PIE). PILARES TEÓRICOS: eletricidade, proteção de sistemas elétricos, NFPA 70E. APLICAÇÃO PRÁTICA: Indústria automotiva com 3.200 funcionários: 230 trabalhadores autorizados NR-10, 45 kits de ferramentas isoladas (R$ 180.000,00), sistema de aterramento com medição semestral de resistência (< 10 Ω). Treinamento de 40h para 60 novos autorizados/ano (R$ 96.000,00). PIE com diagramas unifilares atualizados. Zero acidentes elétricos em 5 anos. REFERÊNCIA: BRASIL. NR-10: Segurança em Eletricidade. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-10",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-11",
+                  "titulo": "NR-11: Transporte, Movimentação, Armazenagem e Manuseio de Materiais",
+                  "definicao": "A NR-11 regulamenta operações de transporte, movimentação, armazenagem e manuseio de materiais, incluindo equipamentos como empilhadeiras, pontes rolantes, guindastes, talhas, elevadores e esteiras transportadoras. Estabelece requisitos para operação segura: operador treinado e habilitado, inspeção periódica dos equipamentos, sinalização de segurança nas áreas de circulação, limites de carga, dispositivos de segurança (fim de curso, limitador de carga, alarme sonoro). Para empilhadeiras, exige cinto de segurança, proteção contra capotamento (ROPS) e extintor de incêndio. As pontes rolantes devem ter certificação de capacidade nominal, freios dimensionados e sistema de emergência. As pilhas de armazenamento não podem exceder 15 m de altura e devem respeitar ângulo de repouso. PILARES TEÓRICOS: mecânica, logística industrial, segurança de máquinas. APLICAÇÃO PRÁTICA: Centro de distribuição com 35 empilhadeiras (12 elétricas + 23 a combustão), 42 operadores certificados. Programa de manutenção preventiva: 450h/homem/mês, custo R$ 28.000,00/mês. Sinalização de corredores com 1,2 m de largura para circulação. 4 acidentes/ano (todos sem lesão). REFERÊNCIA: BRASIL. NR-11: Transporte, Movimentação, Armazenagem e Manuseio. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-11",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-12",
+                  "titulo": "NR-12: Segurança no Trabalho em Máquinas e Equipamentos",
+                  "definicao": "A NR-12 é a mais extensa das NRs, com aproximadamente 200 itens e 15 anexos. Estabelece requisitos para prevenção de acidentes em máquinas e equipamentos em todas as fases: projeto, fabricação, importação, comercialização, exposição, cessão, instalação, operação e manutenção. Exige sistemas de segurança como: enclausuramento de áreas de perigo, dispositivos de intertravamento (ISO 13849), cortinas de luz tipo 2/4 (IEC 61496), comandos bimanuais tipo III-A/III-C, sensores de presença, botões de emergência, sistemas de bloqueio LOTO. As máquinas devem ter manual em português, sinalização de riscos, proteções fixas e móveis, e devem ser submetidas a inventário no PGR. Distâncias de segurança: S = (K x T) + C. Categorias de segurança conforme ISO 13849: B, 1, 2, 3, 4. PILARES TEÓRICOS: diretiva europeia 2006/42/CE, ISO 12100, IEC 61496, ISO 13849, engenharia de segurança de máquinas. APLICAÇÃO PRÁTICA: Adequação de prensa hidráulica 150 t: enclausuramento com portas articuladas, cortina de luz tipo 4, comando bimanual III-C (distância mínima entre acionadores 55 cm), válvula de alívio hidráulica, LOTO. Investimento: R$ 82.000,00. Risco de multa: R$ 24.999,98. REFERÊNCIA: BRASIL. NR-12: Segurança em Máquinas e Equipamentos. Portaria MTP nº 6.730/2021. ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 12. ed. Rio de Janeiro: GVC, 2023.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-12",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-13",
+                  "titulo": "NR-13: Caldeiras, Vasos de Pressão e Tubulações",
+                  "definicao": "A NR-13 regulamenta a instalação, operação, manutenção e inspeção de caldeiras, vasos de pressão e tubulações. Classifica caldeiras por categoria (A, B, C, D) conforme pressão e volume. Exige Prontuário de equipamento, Categoria de equipamento, Plano de Inspeção e certificação de operadores. As inspeções podem ser interna (1 ano), externa (6 meses) e de segurança (teste hidrostático 5/20 anos). O operador de caldeira deve possuir certificado de treinamento (mínimo 40h). Vasos de pressão seguem regras similares, classificados por classe de risco (I a V). Tubulações classificam-se em classes A, B, C conforme fluído e pressão. Todas as inspeções devem ser registradas e assinadas por profissional habilitado. PILARES TEÓRICOS: resistência dos materiais, termodinâmica, mecânica dos fluidos, ASME Section VIII. APLICAÇÃO PRÁTICA: Planta petroquímica com 4 caldeiras (categoria A, 12 kgf/cm², 80 t/h), 38 vasos de pressão (classes I a III) e 12 km de tubulações. Plano de inspeção anual: 12 inspetores credenciados, 1.200h de inspeção, custo anual R$ 480.000,00. 3 não conformidades críticas corrigidas. REFERÊNCIA: BRASIL. NR-13: Caldeiras, Vasos de Pressão e Tubulações. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-13",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-14",
+                  "titulo": "NR-14: Fornos",
+                  "definicao": "A NR-14 estabelece requisitos para construção, operação e manutenção de fornos industriais, sejam elétricos a óleo, gás ou outros combustíveis. Exige: isolamento térmico adequado para proteção contra queimaduras, sistemas de exaustão para retirada de gases e calor, dispositivos de segurança contra explosão (válvulas de bloqueio, purga prévia), sistemas de desligamento automático para casos de anomalia na chama (termostato de segurança), termômetros e indicadores visíveis de temperatura, sinalização de equipamento em operação e acesso restrito durante funcionamento. Os fornos devem ter revestimento refratário dimensionado para a temperatura de trabalho e isolamento externo para limitar temperatura superficial a 60°C. PILARES TEÓRICOS: termodinâmica, transferência de calor, ciência dos materiais refratários. APLICAÇÃO PRÁTICA: Siderúrgica com 8 fornos de reaquecimento (1.200°C), todos com isolamento em fibra cerâmica 200 mm, temperatura superficial < 55°C, sistema de purga automática pré-ignição com temporizador de 3 minutos, chama piloto com termopar de segurança, e desligamento automático por falta de chama em 0,8 segundos. Programa de manutenção preventiva semestral. REFERÊNCIA: BRASIL. NR-14: Fornos. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-14",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-15",
+                  "titulo": "NR-15: Atividades e Operações Insalubres",
+                  "definicao": "A NR-15 estabelece os limites de tolerância para agentes físicos, químicos e biológicos que caracterizam insalubridade, dando direito ao adicional de insalubridade (10%, 20% ou 40% sobre o salário mínimo, conforme grau mínimo, médio ou máximo). Possui 14 Anexos: Anexo 1 (Ruído: 85 dB para 8h, Q=5), Anexo 3 (Calor: IBUTG), Anexo 5 (Vibração), Anexo 7 (Frio), Anexo 8 (Umidade), Anexo 11 (Químicos: benzeno 2,5 ppm, xileno 100 ppm, tolueno 200 ppm), Anexo 12 (Poeiras minerais), Anexo 13 (Agentes biológicos), Anexo 14 (Radiações ionizantes). A avaliação é quantitativa (medições) ou qualitativa (para químicos listados no Quadro I). O Laudo Técnico de Insalubridade deve ser elaborado por engenheiro de segurança ou médico do trabalho. PILARES TEÓRICOS: higiene ocupacional, toxicologia, ACGIH (TLVs), FUNDACENTRO (NHOs). APLICAÇÃO PRÁTICA: Fabril química com 320 trabalhadores expostos a tolueno. Avaliação quantitativa: 8 amostragens pessoais, concentração média 145 ppm (LT 200 ppm). Conclusão: insalubre grau médio (20%). Adicional médio por trabalhador: R$ 303,60/mês. Total anual: R$ 1.165.824,00. Ação: substituição por tinta base água (investimento R$ 420.000,00, payback 4,3 meses). REFERÊNCIA: BRASIL. NR-15: Atividades e Operações Insalubres. Portaria MTb nº 3.214/1978. SALIBA, T. M. Curso Básico de Segurança. 11. ed. São Paulo: LTr, 2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-15",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-16",
+                  "titulo": "NR-16: Atividades e Operações Perigosas",
+                  "definicao": "A NR-16 estabelece as atividades e operações perigosas que conferem direito ao adicional de periculosidade de 30% sobre o salário base, conforme art. 193 da CLT. Abrange: inflamáveis (armazenamento, transporte, abastecimento), explosivos (fabricação, manuseio, armazenamento), energia elétrica (operação em condições de risco acentuado), radiações ionizantes e substâncias radioativas, exposição a roubo ou violência física em atividades de segurança patrimonial e pessoal, e atividades de motocicleta. A caracterização e classificação de periculosidade é feita por perito judicial ou engenheiro de segurança do trabalho. O adicional de periculosidade de 30% incide sobre o salário base, não sobre o mínimo (diferente da insalubridade). É vedada a cumulação de insalubridade e periculosidade. PILARES TEÓRICOS: direito do trabalho, engenharia de segurança. APLICAÇÃO PRÁTICA: Posto de combustível com 12 frentistas: caracterização de periculosidade por armazenamento de inflamáveis (tanques subterrâneos 60.000 L). Adicional: 30% sobre salário base de R$ 1.800,00 = R$ 540,00/mês por trabalhador. Custo anual: R$ 77.760,00. Empresa opta por adequação com sistema de válvulas de segurança e automação de abastecimento. REFERÊNCIA: BRASIL. NR-16: Atividades e Operações Perigosas. Portaria MTb nº 3.214/1978. SALIBA, T. M. Curso Básico de Segurança. 11. ed. São Paulo: LTr, 2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-16",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-17",
+                  "titulo": "NR-17: Ergonomia",
+                  "definicao": "A NR-17 estabelece parâmetros para adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores, visando conforto, segurança e eficiência. Foi reformulada em 2021 para incorporar novos conceitos como a Análise Ergonômica do Trabalho (AET) como obrigação mínima, fatores psicossociais, levantamento de cargas (Equação NIOSH), mobiliário e equipamentos dos postos, organização do trabalho (pausas, rodízio), condições de conforto térmico e acústico e acessibilidade. A AET deve confrontar a tarefa prescrita com a atividade real. O método OCRA para movimentos repetitivos e a Equação NIOSH (LPR = LC x HM x VM x DM x AM x FM x CM) para levantamento de cargas são referências metodológicas. PILARES TEÓRICOS: ergonomia da atividade (Wisner), biomecânica ocupacional (Chaffin), ergonomia cognitiva (Wickens). APLICAÇÃO PRÁTICA: Eletrônica com 2.100 funcionários: AET revela OCRA de 4,2 no setor de montagem (limite 2,2). Redesenho com bancada inclinada 15°, apoio de antebraço e rodízio de 2h reduz para OCRA 1,6. Investimento R$ 180.000,00 com retorno em 14 meses. Redução de sintomas de 38% para 12%. REFERÊNCIA: BRASIL. NR-17: Ergonomia. Portaria MTP nº 423/2021. WISNER, A. Por Dentro do Trabalho. São Paulo: FTD, 1987.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-17",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-18",
+                  "titulo": "NR-18: Condições de Segurança e Saúde no Trabalho na Indústria da Construção",
+                  "definicao": "A NR-18 estabelece diretrizes de segurança para a indústria da construção civil. Define o Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção (PCMAT), obrigatório para estabelecimentos com 20 ou mais trabalhadores. Exige: dimensionamento de vãos de elevadores e guinchos, andaimes com projeto estrutural e Anotação de Responsabilidade Técnica (ART), proteção coletiva contra quedas (guarda-corpo + rodapé), sistema de linha de vida para trabalho em altura, sinalização de segurança, áreas de vivência com vestiário, refeitório e instalações sanitárias, escavações com escoramento e desmonte de rochas controlado. Exige responsável técnico pela segurança. PILARES TEÓRICOS: engenharia civil, geotecnia, segurança em construção. APLICAÇÃO PRÁTICA: Edifício de 20 pavimentos: PCMAT com 280 operações, 45 andaimes com ART, 32 km de linha de vida, 12 guinchos de carga com certificação, área de vivência para 350 trabalhadores. Programa de treinamento admissional (8h) + específico (NR-35 16h) para 450 novos trabalhadores/ano. Investimento: R$ 1.200.000,00 (3,2% do orçamento). REFERÊNCIA: BRASIL. NR-18: Condições de Segurança na Construção. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-18",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-19",
+                  "titulo": "NR-19: Explosivos",
+                  "definicao": "A NR-19 regulamenta o armazenamento, manuseio e transporte de explosivos, estabelecendo requisitos para depósitos de explosivos (construção, distâncias de segurança, sinalização), estoque máximo permitido (conforme classe), procedimentos de transporte interno e externo, e EPIs específicos para operações com explosivos. Os depósitos devem ser isolados, com distâncias mínimas de 200 m de áreas habitadas, para-raios, sistema de combate a incêndio, e piso antifaísca. A NR-19 remete ao Regulamento para Fiscalização de Produtos Controlados (R-105) do Exército Brasileiro para aspectos complementares. É vedado o trabalho com explosivos a menores de 21 anos e a profissionais sem treinamento específico. PILARES TEÓRICOS: engenharia de explosivos, físico-química, segurança de processos. APLICAÇÃO PRÁTICA: Pedreira com desmonte de rochas: depósito de explosivos classe 1.1 (900 kg de ANFO + 500 espoletas), distante 400 m da administração, com bacia de contenção, para-raios e 4 extintores PQS 12 kg. Operador com curso de blaster (80h). Consumo médio: 4.500 kg/mês. REFERÊNCIA: BRASIL. NR-19: Explosivos. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-19",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-20",
+                  "titulo": "NR-20: Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis",
+                  "definicao": "A NR-20 regulamenta todas as atividades com inflamáveis e combustíveis, classificando instalações em classes I, II e III conforme volume armazenado e características. Exige: Plano de Emergência (classe I), Permissão para Trabalho a Quente, Análise Preliminar de Risco, sistemas de proteção contra incêndio (sprinklers, hidrantes, extintores), monitoramento de atmosferas explosivas (detectores de gás fixos), treinamento obrigatório para trabalhadores (40h para classe I, 16h para classe II, 8h para classe III), e sistema de gestão de integridade de equipamentos. Define zonas classificadas (0, 1, 2) conforme probabilidade de atmosfera explosiva. As instalações classe I (acima de 10.000 m³) devem ter Brigada de Emergência própria com no mínimo 12 membros. PILARES TEÓRICOS: IEC 60079, NR-20/ANP, análise de riscos de processos, engenharia de segurança. APLICAÇÃO PRÁTICA: Terminal de armazenamento de combustíveis com 45 tanques (capacidade total 180.000 m³): classe I, 45 trabalhadores, 3 turnos. Brigada de emergência com 28 membros treinados (40h + reciclagem anual). PAE com 8 cenários. 12 detectores de gás fixos + 5 portáteis. Investimento: R$ 2.800.000,00/ano. REFERÊNCIA: BRASIL. NR-20: Segurança com Inflamáveis. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-20",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-21",
+                  "titulo": "NR-21: Trabalho a Céu Aberto",
+                  "definicao": "A NR-21 estabelece condições de segurança e saúde para trabalhos realizados a céu aberto, expostos a intempéries climáticas (sol, chuva, vento, frio, calor). Exige: abrigos para proteção contra condições climáticas adversas, fornecimento de água potável e fresca nos postos de trabalho, instalações sanitárias móveis ou fixas próximas ao local de trabalho, pausas periódicas para recuperação térmica em condições extremas de calor ou frio, e fornecimento de EPIs adequados (protetor solar, óculos de sol com proteção UV, vestuário apropriado para condições climáticas). A NR-21 se aplica a atividades como agricultura, pecuária, construção civil, mineração a céu aberto, serviços de via permanente e coleta de resíduos. PILARES TEÓRICOS: medicina do trabalho, fisiologia térmica, ergonomia ao ar livre. APLICAÇÃO PRÁTICA: Obra de duplicação de rodovia com 280 trabalhadores expostos ao sol: fornece protetor solar FPS 60 + uniforme com proteção UV, programa de hidratação (4 L/água\\/trabalhador/dia), pausas de 15 min a cada 2h quando IBUTG > 28°C, guarda-sol nos postos de trabalho fixos. Custo adicional: R$ 84.000,00/ano. Redução de 60% em casos de insolação. REFERÊNCIA: BRASIL. NR-21: Trabalho a Céu Aberto. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-21",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-22",
+                  "titulo": "NR-22: Segurança e Saúde Ocupacional na Mineração",
+                  "definicao": "A NR-22 é a norma específica para a indústria da mineração, estabelecendo requisitos para todas as fases: pesquisa, lavra, beneficiamento, armazenamento e transporte de minérios. Exige: Programa de Gerenciamento de Riscos (PGR), Plano de Emergência para cada mina, Análise de Risco para atividades críticas como desmonte de rochas e operação de equipamentos móveis, ventilação forçada em minas subterrâneas, monitoramento de poeiras minerais (sílica, asbesto), gases e radiação natural, dimensionamento de vias de acesso e frentes de lavra, estabilidade de taludes, barragens de rejeitos e cavas. A NR-22 tem 8 anexos que detalham especificidades como: minas subterrâneas, lavra a céu aberto, poços, barragens e pilhas de estércil. PILARES TEÓRICOS: engenharia de minas, geotecnia, ventilação de minas. APLICAÇÃO PRÁTICA: Mina subterrânea de ouro com 600 trabalhadores: sistema de ventilação principal com 2 ventiladores de 500.000 m³/h cada, monitoramento contínuo de gases (CO, NO2, CH4, O2) com 32 sensores fixos, PGR com inventário de 180 perigos, PAE com 4 cenários de emergência (incêndio, inundação, desabamento, vazamento de cianeto). Custo anual de SST: R$ 4.200.000,00. REFERÊNCIA: BRASIL. NR-22: Segurança na Mineração. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-22",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-23",
+                  "titulo": "NR-23: Proteção contra Incêndios",
+                  "definicao": "A NR-23 estabelece medidas de proteção contra incêndio nos locais de trabalho, incluindo: saídas de emergência suficientes e adequadas (largura mínima 1,20 m para 100 pessoas), extintores de incêndio distribuídos e sinalizados (um a cada 20 m de caminhamento máximo), equipamentos de combate a incêndio (hidrantes, sprinklers, sistemas fixos), alarme de incêndio audível em toda a área, treinamento periódico para uso de extintores (20h para brigadistas), sinalização visível das rotas de fuga, proteção de materiais inflamáveis e plano de emergência contra incêndio. A NR-23 remete às normas técnicas da ABNT (NBR 12693, NBR 14276, NBR 9077) e ao Corpo de Bombeiros para requisitos complementares. Classes de incêndio: A (sólidos com brasa), B (líquidos inflamáveis), C (elétricos), D (metais combustíveis). PILARES TEÓRICOS: tetraedro do fogo (calor, combustível, comburente, reação em cadeia), NFPA, engenharia de proteção contra incêndio. APLICAÇÃO PRÁTICA: Shopping center 45.000 m²: 300 extintores distribuídos, 16 hidrantes, sistema de sprinklers com 8.000 cabeças, central de alarme com detectores de fumaça em 100% da área, 8 saídas de emergência com largura total 24 m, brigada com 60 membros, treinamento trimestral. Investimento: R$ 1.800.000,00. REFERÊNCIA: BRASIL. NR-23: Proteção contra Incêndios. Portaria MTb nº 3.214/1978. NBR 14276:2020.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-23",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-24",
+                  "titulo": "NR-24: Condições Sanitárias e de Conforto nos Locais de Trabalho",
+                  "definicao": "A NR-24 estabelece condições sanitárias e de conforto nos locais de trabalho: instalações sanitárias (lavatórios, vasos sanitários, mictórios e chuveiros), vestiários com armários individuais, refeitórios com capacidade adequada, cozinhas e copas, alojamentos, cadeiras para descanso, bebedouros e fornecimento de água potável. Define dimensionamento proporcional ao número de trabalhadores: 1 vaso sanitário para cada 20 trabalhadores, 1 lavatório para cada 20, 1 chuveiro para cada 10 (quando expostos a substâncias insalubres ou sujeira excessiva). Refeitórios: 1 m² por usuário, piso lavável, mesas e cadeiras. Os locais de trabalho devem ter bebedouros de água potável a cada 100 m. Os alojamentos devem ter área mínima de 6 m² por cama. PILARES TEÓRICOS: saúde pública, engenharia sanitária, ergonomia ambiental. APLICAÇÃO PRÁTICA: Construção civil com 350 trabalhadores no alojamento: 18 chuveiros, 18 vasos, 18 lavatórios, 10 mictórios, refeitório 350 m² com 70 mesas e 350 cadeiras, vestiário com 350 armários, 5 bebedouros. Custo de instalação: R$ 240.000,00. Manutenção mensal: R$ 18.000,00. REFERÊNCIA: BRASIL. NR-24: Condições Sanitárias. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-24",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-25",
+                  "titulo": "NR-25: Resíduos Industriais",
+                  "definicao": "A NR-25 estabelece medidas de controle e destinação de resíduos industriais (sólidos, líquidos e gasosos), visando proteger a saúde dos trabalhadores e o meio ambiente. Exige: identificação, classificação (perigosos NBR 10004, não perigosos), acondicionamento adequado, transporte interno e externo, tratamento (físico-químico, biológico, térmico) e destinação final controlada. Resíduos perigosos (classe I) devem ter coleta seletiva, armazenamento em área isolada e impermeabilizada, com identificação de risco. É proibido o lançamento de resíduos a céu aberto ou em cursos d'água sem tratamento. Os trabalhadores devem ser treinados para manuseio seguro e uso de EPIs. A NR-25 se articula com a PNRS (Política Nacional de Resíduos Sólidos, Lei 12.305/2010). PILARES TEÓRICOS: engenharia ambiental, gestão de resíduos, toxicologia. APLICAÇÃO PRÁTICA: Indústria farmacêutica com 2.500 funcionários: gera 45 t/mês de resíduos (18 t perigosos classe I: solventes, medicamentos vencidos, EPIs contaminados). Área de armazenamento temporário com piso impermeabilizado, bacia de contenção, exaustão e identificação. Contrato com empresa licenciada para incineração (R$ 180.000,00/ano). Programa de redução de resíduos: reciclagem de 62% em 3 anos. REFERÊNCIA: BRASIL. NR-25: Resíduos Industriais. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-25",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-26",
+                  "titulo": "NR-26: Sinalização de Segurança",
+                  "definicao": "A NR-26 estabelece padrões de sinalização de segurança nos locais de trabalho, definindo cores, pictogramas e formas geométricas para comunicação visual de riscos. Cores convencionais: vermelho (perigo, incêndio, emergência), amarelo (cuidado, atenção), verde (segurança, emergência), azul (informação, obrigação), laranja (partes perigosas de máquinas), roxo (radiação), marrom (substâncias tóxicas), preto (resíduos). Sinalização de segurança: proibição (círculo com barra), alerta (triângulo), obrigação (círculo azul), informação (retângulo verde), combate a incêndio (retângulo vermelho). Uso de pictogramas padronizados pela ABNT NBR 13434 e ISO 7010. Placas devem ser mantidas em bom estado, limpas e legíveis. PILARES TEÓRICOS: comunicação visual, ergonomia cognitiva, ISO 7010/Mercosul. APLICAÇÃO PRÁTICA: Indústria química com 1.000 funcionários: 320 placas instaladas (50 de proibição, 80 de alerta, 90 de obrigação, 60 de informação, 40 de emergência), 4.500 m de fita de demarcação de piso, sinalização de tubulações coloridas padronizadas (ANSI/ASME A13.1). Investimento: R$ 48.000,00. REFERÊNCIA: BRASIL. NR-26: Sinalização de Segurança. Portaria MTb nº 3.214/1978. ABNT NBR 13434:2004.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-26",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-27",
+                  "titulo": "NR-27: Registro Profissional do Técnico de Segurança do Trabalho (REVOGADA) (REVOGADA)",
+                  "definicao": "A NR-27 estabelecia os requisitos para o registro profissional do Técnico de Segurança do Trabalho no Ministério do Trabalho e Emprego (MTE). Exigia: formação em curso técnico de segurança do trabalho (carga horária mínima de 1.200h), registro no órgão regional do MTE, e atualização periódica do registro. O registro era condição indispensável para o exercício profissional e para o dimensionamento do SESMT conforme NR-04. Foi revogada pela Portaria MTP nº 673, de 25 de março de 2021, no contexto de simplificação administrativa e desburocratização. Com a revogação, o registro passou a ser responsabilidade dos conselhos profissionais (CREA/CFT), mas o técnico de segurança continua sendo profissional regulamentado pela Lei nº 7.410/1985. REFERÊNCIA: BRASIL. NR-27: Registro do Técnico de Segurança. Revogada pela Portaria MTP nº 673/2021. BRASIL. Lei nº 7.410, de 27 de novembro de 1985.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Consulta histórica e acadêmica sobre norma revogada",
+                    "Estudo de evolução regulatória brasileira"
+                  ]
+                },
+                {
+                  "id": "nr-28",
+                  "titulo": "NR-28: Fiscalização e Penalidades",
+                  "definicao": "A NR-28 estabelece os procedimentos de fiscalização e os critérios para aplicação de penalidades pelo não cumprimento das NRs. A fiscalização é realizada pelos Auditores-Fiscais do Trabalho do MTE. As infrações são classificadas em: leve, média, grave e gravíssima, com multas entre R$ 682,00 e R$ 136.383,12 (valores de 2023, corrigidos periodicamente). Fatores de dosimetria: gravidade, reincidência e porte da empresa (micro, pequena, média, grande). A multa é dobrada na reincidência. Embargo e interdição são medidas administrativas que podem ser aplicadas para risco grave e iminente. O Auto de Infração deve ser lavrado no prazo de 10 dias. O empregador pode apresentar defesa no prazo de 10 dias úteis. PILARES TEÓRICOS: direito administrativo sancionador, princípio da proporcionalidade. APLICAÇÃO PRÁTICA: Empresa de médio porte (200 funcionários), infração grave por ausência de PGR: multa base de R$ 24.999,98. Reincidência em 12 meses dobra para R$ 49.999,96. Embargo parcial até apresentação do PGR. Custo de adequação: R$ 38.000,00. REFERÊNCIA: BRASIL. NR-28: Fiscalização e Penalidades. Portaria MTb nº 3.214/1978. ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 12. ed. Rio de Janeiro: GVC, 2023.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-28",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-29",
+                  "titulo": "NR-29: Norma Regulamentadora de Segurança e Saúde no Trabalho Portuário",
+                  "definicao": "A NR-29 estabelece requisitos de segurança e saúde para trabalhos em portos organizados e instalações portuárias. Abrange: acesso e circulação de trabalhadores, equipamentos e veículos, operações de carga e descarga (guindastes, empilhadeiras, paleteiras), movimentação de contêineres, amarração e desamarração de navios, armazenamento em pátios e armazéns, sinalização marítima e portuária, emergências (incêndio, vazamento, salvamento aquático), e treinamento específico para trabalhadores portuários. Exige Comissão de Prevenção de Acidentes no Trabalho Portuário (CPATP) com composição partiária. Os operadores portuários devem ter treinamento específico (carga horária conforme função). PILARES TEÓRICOS: engenharia portuária, logística, segurança marítima. APLICAÇÃO PRÁTICA: Terminal de contêineres com 650 trabalhadores: 36 guindastes de cais com manutenção preventiva mensal, sinalização de tráfego em 8 km de vias, CPATP com 12 membros (6 empregados + 6 empregadores), treinamento de 40h para 50 novos operadores/ano. Taxa de acidentes: 2,8/milhão hh (abaixo da média do setor de 5,2). REFERÊNCIA: BRASIL. NR-29: Trabalho Portuário. Portaria MTb nº 3.214/1978.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-29",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-30",
+                  "titulo": "NR-30: Norma Regulamentadora de Segurança e Saúde no Trabalho Aquaviário",
+                  "definicao": "A NR-30 estabelece requisitos de segurança e saúde para trabalhos embarcados em embarcações mercantes nacionais. Aplica-se a: trabalhadores aquaviários (marítimos, fluviais e lacustres), embarcações em navegação interior, marítima e de apoio portuário. Exige: Programa de Gerenciamento de Riscos específico para embarcações, plano de emergência para abandono de navio e combate a incêndio, equipamentos de salvatagem (coletes, botes salva-vidas), treinamento obrigatório para tripulantes (NR-30 módulo específico), controle de jornada e descanso a bordo, condições de habitabilidade (alojamento, alimentação, água potável), e exames médicos específicos (sanidade marítima). A NR-30 se articula com as normas da Autoridade Marítima (NORMAM) e convenções da OIT (MLC 2006). PILARES TEÓRICOS: engenharia naval, segurança marítima (SOLAS, ISM Code), ergonomia naval. APLICAÇÃO PRÁTICA: Embarcação de apoio marítimo com 45 tripulantes: PGR embarcado com 60 perigos identificados, plano de emergência com 5 cenários, 6 botes salva-vidas com capacidade total de 72 pessoas, coletes salva-vidas para 150% da tripulação. Programa de treinamento: 40h/ano/tripulante. Custo anual de SST: R$ 320.000,00. REFERÊNCIA: BRASIL. NR-30: Trabalho Aquaviário. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-30",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-31",
+                  "titulo": "NR-31: Norma Regulamentadora de Segurança e Saúde no Trabalho na Agricultura, Pecuária, Silvicultura, Exploração Florestal e Aquicultura",
+                  "definicao": "A NR-31 estabelece requisitos de segurança e saúde para atividades agrícolas, pecuária, silvicultura, exploração florestal e aquicultura. Abrange: maquinário agrícola (tratores, colheitadeiras com proteção contra capotamento - ROPS), agrotóxicos (armazenamento, preparo e aplicação com receituário agronômico e EPIs), trabalho com animais, ferramentas manuais e motorizadas, transporte de trabalhadores, alojamentos e áreas de vivência, e treinamento de trabalhadores rurais (carga horária mínima de 8h para operação de máquinas, 16h para aplicação de agrotóxicos). Exige Comissão de Prevenção de Acidentes no Trabalho Rural (CPATR) para estabelecimentos com mais de 50 empregados. PILARES TEÓRICOS: engenharia agrícola, toxicologia de defensivos, ergonomia rural. APLICAÇÃO PRÁTICA: Fazenda produtora de grãos com 80 funcionários: 12 tratores com ROPS e cinto de segurança, depósito de agrotóxicos com piso impermeabilizado e exaustão, programa de EPIs para aplicadores (luvas nitrílicas, máscara PFF2, óculos, macacão impermeável), treinamento anual de 16h para 30 aplicadores. Investimento: R$ 85.000,00/ano. Redução de intoxicações de 4 casos/ano para zero. REFERÊNCIA: BRASIL. NR-31: Trabalho na Agricultura. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-31",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-32",
+                  "titulo": "NR-32: Norma Regulamentadora de Segurança e Saúde no Trabalho em Serviços de Saúde",
+                  "definicao": "A NR-32 estabelece requisitos de segurança e saúde para todos os serviços de saúde (hospitais, clínicas, laboratórios, consultórios, bancos de sangue). Abrange: riscos biológicos (classificação de agentes, contingenciamento, vacinação obrigatória, lavagem de mãos, descarte de perfurocortantes), químicos (gases anestésicos, quimioterápicos, desinfetantes), físicos (radiação ionizante), Programa de Prevenção de Riscos Ambientais (PPRA/PGR), PCMSO, Programa de Imunização, gerenciamento de resíduos de serviços de saúde (RSS), lavanderias, cozinhas e serviços de limpeza. Exige Comissão de Controle de Infecção Hospitalar (CCIH). A NR-32 é considerada a mais rigorosa das NRs em termos de multas e requisitos. PILARES TEÓRICOS: epidemiologia, microbiologia, biossegurança, medicina do trabalho. APLICAÇÃO PRÁTICA: Hospital geral com 450 leitos e 2.800 funcionários: programa de imunização com 95% de cobertura, 1.200 caixas de descarte de perfurocortantes distribuídas, 350 lavatórios com álcool gel, treinamento de 8h para 480 novos funcionários/ano. Acidentes com material biológico: redução de 48 para 22/ano (54%) após 3 anos. Investimento: R$ 890.000,00/ano. REFERÊNCIA: BRASIL. NR-32: Serviços de Saúde. Portaria MTE nº 485/2005. MENDES, R. Patologia do Trabalho. 3. ed. São Paulo: Atheneu, 2013.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-32",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-33",
+                  "titulo": "NR-33: Segurança e Saúde nos Trabalhos em Espaços Confinados",
+                  "definicao": "A NR-33 estabelece requisitos para identificação, monitoramento e controle de riscos em espaços confinados. Espaço confinado é qualquer área não projetada para ocupação humana contínua, com meios limitados de entrada e saída, e ventilação desfavorável. Classificação: classe I (risco iminente à vida), classe II (risco potencial), classe III (risco baixo). Exige: Programa de Gerenciamento de Risco em Espaços Confinados (PGREC), Permissão de Entrada e Trabalho (PET), identificação de todos os espaços confinados, monitoramento contínuo de O2 (19,5-23%), LEL, CO, H2S e VOC, ventilação forçada para manter condições seguras, capacitação obrigatória de 40h para trabalhadores autorizados e vigias, 16h para supervisores de entrada, reciclagem anual. EPIs: respirador autônomo (classe I e II), cinto de segurança com talabarte, tripé com guincho de resgate. PILARES TEÓRICOS: OSHA 1910.146, engenharia de segurança, fisiologia respiratória. APLICAÇÃO PRÁTICA: Indústria petroquímica com 38 espaços confinados identificados, 12 tanques classe I, 18 tanques classe II, 8 dutos classe III. PGREC com planta de localização, PET digital com assinatura eletrônica, 24 trabalhadores autorizados com treinamento de 40h vigente. Planilha de emergência: 3 simulados/ano. Custo anual do programa: R$ 240.000,00. Zero acidentes em 5 anos. REFERÊNCIA: BRASIL. NR-33: Espaços Confinados. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-33",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-34",
+                  "titulo": "NR-34: Condições e Meio Ambiente de Trabalho na Indústria da Construção, Reparação e Desmonte Naval",
+                  "definicao": "A NR-34 estabelece requisitos de segurança para a indústria da construção, reparação e desmonte naval (estaleiros). Abrange: trabalhos em cascos e estruturas metálicas, atividades em altura e espaços confinados, movimentação de grandes blocos e seções, soldagem e corte (riscos de explosão e incêndio), pintura e jateamento, operações em docas e carreiras, sistema de bloqueio LOTO para fontes de energia, e treinamento específico. Exige: Programa de Gerenciamento de Riscos (PGR) com análise de riscos de processo, Permissão de Trabalho a Quente (PTQ), plano de emergência contra incêndio para estaleiros, sinalização marítima e industrial, e Comissão de Prevenção de Acidentes no Trabalho Naval (CPATN). Estaleiros com mais de 500 trabalhadores exigem SESMT dimensionado especificamente. PILARES TEÓRICOS: engenharia naval, segurança de processos, ergonomia naval. APLICAÇÃO PRÁTICA: Estaleiro com 5.200 funcionários construindo 2 navios de 50.000 t: PGR com 320 perigos inventariados, PTQ para 80 soldadores/dia, 45 espaços confinados, 680 trabalhadores em altura. SESMT com 12 técnicos, 4 engenheiros, 2 médicos, 4 enfermeiros. Custo SST: R$ 3.200.000,00/ano. Taxa de acidentes: 1,8/milhão hh. REFERÊNCIA: BRASIL. NR-34: Construção e Reparo Naval. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-34",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-35",
+                  "titulo": "NR-35: Trabalho em Altura",
+                  "definicao": "A NR-35 estabelece requisitos para trabalho em altura (acima de 2,00 m do nível inferior). Exige: Análise de Risco (AR) prévia, Permissão de Trabalho (PT), sistema de proteção individual contra quedas (cinto paraquedista, talabarte com absorvedor de energia, trava-quedas), sistema de ancoragem certificado (NBR 16577), pontos de ancoragem dimensionados para 6 kN (1 pessoa) ou 12 kN (2 pessoas), procedimentos de emergência e resgate, treinamento obrigatório de 16h para trabalhadores autorizados e 40h para supervisor de trabalho em altura, reciclagem bienal. Deve-se calcular a distância de queda (DQ = L + D + A + M) para garantir que o trabalhador não colida com o solo ou obstáculo. Sistema de acesso por cordas: NBR 15594. PILARES TEÓRICOS: OSHA 1910.140, ANSI Z359, engenharia de segurança, biomecânica de quedas. APLICAÇÃO PRÁTICA: Manutenção de telhado industrial a 15 m de altura: DQ = 1,5 (L) + 0,8 (D) + 1,75 (A) + 1,0 (M) = 5,05 m. Ancoragem em viga metálica (capacidade 15 kN). Trabalhador autorizado com treinamento NR-35 vigente. Resgate: tripé com guincho manual. Custo do kit de proteção (cinto, talabarte Y, trava-quedas, absorvedor): R$ 3.800,00. Manutenção anual: R$ 800,00. REFERÊNCIA: BRASIL. NR-35: Trabalho em Altura. Portaria MTP nº 6.730/2021. NBR 16577:2017.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-35",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-36",
+                  "titulo": "NR-36: Segurança e Saúde no Trabalho em Empresas de Abate e Processamento de Carnes e Derivados",
+                  "definicao": "A NR-36 estabelece requisitos de segurança e saúde para empresas de abate e processamento de carnes (frigoríficos e abatedouros). Exige: Programa de Gerenciamento de Riscos (PGR) com foco em riscos ergonômicos (LER/DORT), análise ergonômica do trabalho (AET) para postos de corte e desossa, rodízio obrigatório de funções (no mínimo 3 postos diferentes), pausas programadas, dimensionamento de ritmo de trabalho conforme capacidade física, ferramentas e utensílios ergonômicos (facas com empunhadura anatômica), condições de conforto térmico (temperatura entre 12°C e 25°C nas áreas de processamento), exposição ao frio (NR-15 Anexo 7 e NR-36), e gerenciamento de riscos de acidentes (facas, serras, equipamentos de corte). A NR-36 exige que as empresas realizem exames médicos específicos para LER/DORT e mantenham indicadores de sinistralidade. PILARES TEÓRICOS: ergonomia ocupacional, metodologia OCRA. APLICAÇÃO PRÁTICA: Abatedouro de aves com 3.800 funcionários na área de processamento: AET identificou OCRA médio de 5,8 no setor de cortes (superior a 3,5). Implementação de rodízio de 4 funções com pausas de 15 min a cada 2h, ferramentas ergonômicas (R$ 480.000,00), bancadas ajustáveis em altura. Resultado: redução de LER de 18,5% para 6,2% em 24 meses. REFERÊNCIA: BRASIL. NR-36: Abate e Processamento de Carnes. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-36",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-37",
+                  "titulo": "NR-37: Segurança e Saúde em Plataformas de Petróleo",
+                  "definicao": "A NR-37 estabelece requisitos de segurança e saúde para trabalhos em plataformas de petróleo (fixas, semissubmersíveis, navios-sonda e FPSO). Abrange: operações de perfuração e produção (poços, árvore de natal, manifolds), sistemas de controle de poço (BOP), segurança de processos (HAZOP, LOPA), sistemas de alívio e vent, proteção contra incêndio e explosão (sistemas de detecção e supressão), plano de emergência e abandono (embarcações de salvatagem), heliponto (operações de helicóptero), sistema de bloqueio LOTO, e treinamento específico para operações offshore. Exige PGR integrado à gestão de segurança de processos, plano de resposta a emergências (ERP - Emergency Response Plan), e Comissão de Prevenção de Acidentes (CPA). Os trabalhadores devem ter treinamento mínimo de 40h (NR-37 + combate a incêndio offshore + sobrevivência no mar). PILARES TEÓRICOS: segurança de processos (CCPS), API RP, ISO 31000, engenharia offshore. APLICAÇÃO PRÁTICA: FPSO com capacidade de 150.000 bbl/dia e 180 tripulantes: PGR offshore, 12 cenários de análise de consequências, BOP com sistema de corte (shear ram), 8 botes salva-vidas para 220 pessoas, heliponto homologado ANAC, treinamento de sobrevivência no mar para 100% da tripulação. Custo anual de SST: R$ 4.800.000,00. REFERÊNCIA: BRASIL. NR-37: Plataformas de Petróleo. Portaria MTP nº 6.730/2021.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-37",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                },
+                {
+                  "id": "nr-38",
+                  "titulo": "NR-38: Segurança e Saúde no Trabalho nas Atividades de Limpeza Urbana e Manejo de Resíduos Sólidos",
+                  "definicao": "A NR-38 é a mais recente NR, publicada pela Portaria MTP nº 1.069/2023, estabelecendo requisitos de segurança para atividades de limpeza urbana e manejo de resíduos sólidos. Abrange: coleta de resíduos sólidos domiciliares, coleta seletiva e recicláveis, varrição e capina, operação de aterros sanitários e lixões desativados, triagem em cooperativas de reciclagem, transporte de resíduos (caminhões compactadores, basculantes), e estações de transbordo. Exige: PGR específico para riscos biológicos (NR-32) e ergonômicos, EPIs adequados (luvas de raspa, botina com biqueira de aço, uniforme refletivo), vacinação obrigatória (hepatite B, tétano, febre amarela), treinamento de 16h para trabalhadores, sinalização de segurança nos veículos e áreas de trabalho, e plano de emergência para aterros sanitários (explosão de biogás, deslizamento). PILARES TEÓRICOS: biossegurança, engenharia sanitária, ergonomia. APLICAÇÃO PRÁTICA: Empresa de limpeza urbana com 1.200 coletores: uniforme refletivo completo com manga longa, luvas de raspa e borracha, óculos de segurança, protetor solar, calçado com biqueira de aço. Programa de vacinação com 98% de cobertura. 28 caminhões compactadores com sensor de ré e alarme sonoro. Triagem em cooperativa: bancadas ajustáveis com esteiras em 3 velocidades, pausas de 15 min/2h. Investimento anual: R$ 780.000,00. REFERÊNCIA: BRASIL. NR-38: Limpeza Urbana e Manejo de Resíduos. Portaria MTP nº 1.069/2023.",
+                  "topicos": [],
+                  "aplicacoes": [
+                    "Elaboração de laudos técnicos e programas de gestão conforme NR-38",
+                    "Adequação de empresas às exigências legais",
+                    "Treinamento de profissionais de segurança do trabalho",
+                    "Auditoria de conformidade regulamentar",
+                    "Diagnóstico e planejamento de investimentos em SST"
+                  ]
+                }
+              ],
+              "referencias": [
+                {
+                  "tipo": "Legislação",
+                  "ref": "BRASIL. Portaria MTb nº 3.214, de 8 de junho de 1978. Aprova as Normas Regulamentadoras do Capítulo V da CLT. Brasília: MTE, 1978."
+                },
+                {
+                  "tipo": "Legislação",
+                  "ref": "BRASIL. Decreto-Lei nº 5.452, de 1º de maio de 1943. Aprova a Consolidação das Leis do Trabalho (CLT). Brasília: Presidência da República, 1943."
+                },
+                {
+                  "tipo": "Legislação",
+                  "ref": "BRASIL. Lei nº 6.514, de 22 de dezembro de 1977. Altera o Capítulo V da CLT. Brasília: Presidência da República, 1977."
+                },
+                {
+                  "tipo": "Livro",
+                  "ref": "CAMISASSA, M. Q. Segurança e Saúde no Trabalho: NRs 1 a 38 Comentadas e Descomplicadas. 5. ed. São Paulo: Método, 2022."
+                },
+                {
+                  "tipo": "Livro",
+                  "ref": "SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 11. ed. São Paulo: LTr, 2021."
+                },
+                {
+                  "tipo": "Livro",
+                  "ref": "ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 12. ed. Rio de Janeiro: GVC, 2023."
+                },
+                {
+                  "tipo": "Livro",
+                  "ref": "VENDRAME, A. C. Segurança do Trabalho: NRs Comentadas. São Paulo: LTr, 2022."
+                }
+              ]
             },
-            {
-              "nome": "NR-35 Trabalho em altura",
-              "descricao": "Na engenharia de segurança, \"NR-35 Trabalho em altura\" (relacionado a normas regulamentadoras (nrs)) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "NR-6 EPIs",
-              "descricao": "Equipamento de Proteção Individual certificado pelo INMETRO para proteção contra riscos à segurança e saúde no trabalho (NR-6). (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            }
-          ],
-          "formula": "",
-          "aplicacoes": [
-            "Conformidade legal de instalações industriais",
-            "Programas de proteção contra quedas",
-            "Gestão de EPIs em fábricas"
-          ]
-        },
-        {
-          "titulo": "Análise de riscos ocupacionais",
-          "definicao": "Processo sistemático de identificação, avaliação e controle de perigos e riscos no ambiente de trabalho. Utiliza métodos como ARAM, Análise de Falha e Matriz de Probabilidade x Gravidade para priorizar ações preventivas.",
-          "topicos": [
-            {
-              "nome": "ARAM",
-              "descricao": "Análise de Risco Ambiental e Mapeamento: ferramenta para identificar perigos e avaliar riscos ocupacionais. Baseada nas diretrizes da NR-1. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "Perigo vs risco",
-              "descricao": "Perigo é fonte com potencial de causar lesão; risco é a combinação da probabilidade e severidade da lesão. NR-1 define ambos os conceitos. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "Matriz P x G",
-              "descricao": "Matriz Probabilidade x Gravidade para classificar riscos ocupacionais. Ferramenta qualitativa que prioriza intervenções conforme criticidade. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "Controles de engenharia",
-              "descricao": "Na engenharia de segurança, \"Controles de engenharia\" (relacionado a análise de riscos ocupacionais) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            }
-          ],
-          "formula": "Risco = Probabilidade × Gravidade",
-          "aplicacoes": [
-            "Diagnóstico de segurança em plantas fabris",
-            "Avaliação de riscos de novos processos",
-            "Plano de ação para redução de acidentes"
-          ]
-        },
-        {
-          "titulo": "Ergonomia e segurança",
-          "definicao": "Disciplina que integra os princípios de ergonomia com a segurança do trabalho para projetar postos de trabalho seguros e confortáveis. Busca reduzir LER/DORT e acidentes por meio do adequado dimensionamento humano do trabalho.",
-          "topicos": [
-            {
-              "nome": "Posto de trabalho",
-              "descricao": "Local e conjunto de recursos onde o trabalhador realiza suas atividades, incluindo equipamentos e mobiliário. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "LER/DORT",
-              "descricao": "Lesões por Esforços Repetitivos e Distúrbios Osteomusculares Relacionados ao Trabalho, afecções comuns em atividades repetitivas. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "Carga física",
-              "descricao": "Na engenharia de segurança, \"Carga física\" (relacionado a ergonomia e segurança) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "Iluminação e ruído",
-              "descricao": "Na engenharia de segurança, \"Iluminação e ruído\" (relacionado a ergonomia e segurança) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            }
-          ],
-          "formula": "",
-          "aplicacoes": [
-            "Projeto ergonômico de linhas de montagem",
-            "Prevenção de LER em processos repetitivos",
-            "Adequação de estações de trabalho"
-          ]
-        },
-        {
-          "titulo": "Investigação de acidentes",
-          "definicao": "Metodologia para identificar causas raiz de acidentes e incidentes de trabalho, aplicando técnicas como Árvore de Causas, 5 Porquês e Análise de Causa Raiz. Visa implementar ações corretivas e preventivas para evitar recorrência.",
-          "topicos": [
-            {
-              "nome": "Árvore de causas",
-              "descricao": "Na engenharia de segurança, \"Árvore de causas\" (relacionado a investigação de acidentes) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "5 Porquês",
-              "descricao": "Técnica de análise de causa raiz que questiona repetidamente o porquê de um problema até identificar sua causa fundamental. (Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020.)"
-            },
-            {
-              "nome": "Causa raiz",
-              "descricao": "Na engenharia de segurança, \"Causa raiz\" (relacionado a investigação de acidentes) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "Plano de ação",
-              "descricao": "Na engenharia de segurança, \"Plano de ação\" (relacionado a investigação de acidentes) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            }
-          ],
-          "formula": "",
-          "aplicacoes": [
-            "Investigação de acidentes com lesão",
-            "Análise de quase-acidentes",
-            "Relatórios de investigação para o MTE"
-          ]
-        },
-        {
-          "titulo": "Brigada de emergência",
-          "definicao": "Equipe treinada para atuar em situações de emergência como incêndio, vazamentos, desabamentos e acidentes com produtos perigosos. Os brigadistas são selecionados, treinados e equipados conforme as normas de segurança.",
-          "topicos": [
-            {
-              "nome": "Evacuação",
-              "descricao": "Na engenharia de segurança, \"Evacuação\" (relacionado a brigada de emergência) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "Combate a incêndio",
-              "descricao": "Na engenharia de segurança, \"Combate a incêndio\" (relacionado a brigada de emergência) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "Primeiros socorros",
-              "descricao": "Na engenharia de segurança, \"Primeiros socorros\" (relacionado a brigada de emergência) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            },
-            {
-              "nome": "Simulados",
-              "descricao": "Na engenharia de segurança, \"Simulados\" (relacionado a brigada de emergência) é uma medida, norma ou procedimento para prevenção de acidentes e proteção do trabalhador. As NRs estabelecem requisitos obrigatórios. NR-12 (2020) descrevem a aplicação. Referência: BRASIL. NR-12: Segurança no Trabalho em Máquinas e Equipamentos. Brasília: MTP, 2020."
-            }
-          ],
-          "formula": "",
-          "aplicacoes": [
-            "Atuação em emergências industriais",
-            "Evacuação de fábricas",
-            "Primeiros socorros em acidentes"
-          ]
-        }
-      ],
-      "referencias": [
-        {
-          "tipo": "Norma",
-          "ref": "BRASIL. Ministério do Trabalho. NR-1 — Disposições Gerais. Portaria MTP nº 6.730/2021."
-        },
-        {
-          "tipo": "Livro",
-          "ref": "Guedes, H. M. Segurança do Trabalho: Análise de Acidentes. 3. ed. São Paulo: Senac, 2012."
-        },
-        {
-          "tipo": "Livro",
-          "ref": "Heineck, L. F. M. et al. Ergonomia. 2. ed. Rio de Janeiro: LTC, 2015."
-        }
-      ]
-    },
     {
       "id": "eng-reversa",
       "nome": "Engenharia Reversa",
