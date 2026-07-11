@@ -932,7 +932,7 @@
         },
         {
           "titulo": "Poka-Yoke",
-          "definicao": "Dispositivo ou mecanismo á prova de falhas que previne a ocorrência de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo-a-passo, e é uma ferramenta essencial do zero defeito no Lean.",
+          "definicao": "Dispositivo ou mecanismo a prova de falhas que previne a ocorrência de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo a passo, e é uma ferramenta essencial do zero defeito no Lean.",
           "topicos": [
             {
               "nome": "Dispositivos de detecção",
@@ -20128,82 +20128,98 @@
     {
       "id": "fmea",
       "nome": "Planilha FMEA (Análise de Modos de Falha)",
-      "descricao": "Formulério completo de FMEA de processo com campos para função, modo de falha, causa, efeito, NRP e ações recomendadas."
+      "descricao": "Formulário completo de FMEA de processo com campos para função, modo de falha, causa, efeito, NRP e ações recomendadas.",
+      "arquivo": "assets/downloads/formularios/01-fmea-processo.html"
     },
     {
       "id": "ppap",
-      "nome": "PPAP  –  Production Part Approval Process",
-      "descricao": "Checklist completo de PPAP nível 3 conforme AIAG, com 18 itens de submissão."
+      "nome": "PPAP — Production Part Approval Process",
+      "descricao": "Checklist completo de PPAP nível 3 conforme AIAG, com 18 itens de submissão.",
+      "arquivo": "assets/downloads/formularios/02-ppap-checklist.html"
     },
     {
       "id": "8d",
       "nome": "Relatório 8D (Oito Disciplinas)",
-      "descricao": "Template de relatório 8D para análise de não conformidades com campos de D1 a D8."
+      "descricao": "Template de relatório 8D para análise de não conformidades com campos de D1 a D8.",
+      "arquivo": "assets/downloads/formularios/03-relatorio-8d.html"
     },
     {
       "id": "mapeamento",
-      "nome": "Mapeamento de Processos  –  SIPOC",
-      "descricao": "Template de mapeamento SIPOC com Suppliers, Inputs, Process, Outputs e Customers."
+      "nome": "Mapeamento de Processos — SIPOC",
+      "descricao": "Template de mapeamento SIPOC com Suppliers, Inputs, Process, Outputs e Customers.",
+      "arquivo": "assets/downloads/formularios/04-sipoc.html"
     },
     {
       "id": "5s",
       "nome": "Checklist 5S",
-      "descricao": "Checklist de auditoria 5S com critérios para cada S e pontuação de 0 a 5."
+      "descricao": "Checklist de auditoria 5S com critérios para cada S e pontuação de 0 a 5.",
+      "arquivo": "assets/downloads/formularios/05-checklist-5s.html"
     },
     {
       "id": "vsm",
       "nome": "Value Stream Mapping (VSM)",
-      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para métricas."
+      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para métricas.",
+      "arquivo": "assets/downloads/formularios/06-vsm.html"
     },
     {
       "id": "diagrama-ishikawa",
       "nome": "Diagrama de Ishikawa (Espinha de Peixe)",
-      "descricao": "Template editével do diagrama causa-efeito com os 6Ms: Método, Mão de Obra, Máquina, Material, Medida, Meio Ambiente."
+      "descricao": "Template editável do diagrama causa-efeito com os 6Ms: Método, Mão de Obra, Máquina, Material, Medida, Meio Ambiente.",
+      "arquivo": "assets/downloads/formularios/07-ishikawa.html"
     },
     {
       "id": "poka-yoke",
       "nome": "Planilha de Poka-Yoke",
-      "descricao": "Registro de dispositivos á prova de erro com campos para tipo, local e eficiéncia."
+      "descricao": "Registro de dispositivos a prova de erro com campos para tipo, local e eficiência.",
+      "arquivo": "assets/downloads/formularios/08-poka-yoke.html"
     },
     {
       "id": "5w2h",
       "nome": "Plano de Ação 5W2H",
-      "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much."
+      "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much.",
+      "arquivo": "assets/downloads/formularios/09-plano-acao-5w2h.html"
     },
     {
       "id": "auditoria",
       "nome": "Checklist de Auditoria ISO 9001",
-      "descricao": "Checklist baseado na ISO 19011 com requisitos da ISO 9001:2025."
+      "descricao": "Checklist baseado na ISO 19011 com requisitos da ISO 9001:2015.",
+      "arquivo": "assets/downloads/formularios/10-auditoria-iso9001.html"
     },
     {
       "id": "treinamento",
       "nome": "Registro de Treinamento",
-      "descricao": "Planilha de controle de treinamentos com carga horéria, instrutor e avaliação."
+      "descricao": "Planilha de controle de treinamentos com carga horária, instrutor e avaliação.",
+      "arquivo": "assets/downloads/formularios/11-registro-treinamento.html"
     },
     {
       "id": "indicadores",
       "nome": "Dashboard de Indicadores (KPI)",
-      "descricao": "Template de dashboard com OEE, Lead Time, Produtividade, Refugo e OTIF."
+      "descricao": "Template de dashboard com OEE, Lead Time, Produtividade, Refugo e OTIF.",
+      "arquivo": "assets/downloads/formularios/12-dashboard-kpi.html"
     },
     {
       "id": "analise-capacidade",
       "nome": "Análise de Capacidade Produtiva",
-      "descricao": "Formulério para cálculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade."
+      "descricao": "Formulário para cálculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade.",
+      "arquivo": "assets/downloads/formularios/13-capacidade-produtiva.html"
     },
     {
       "id": "sequenciamento",
       "nome": "Planilha de Sequenciamento de Ordens",
-      "descricao": "Template para sequenciamento de produção com regras EDD, SPT, FCFS e CR."
+      "descricao": "Template para sequenciamento de produção com regras EDD, SPT, FCFS e CR.",
+      "arquivo": "assets/downloads/formularios/14-sequenciamento-ordens.html"
     },
     {
       "id": "custos",
       "nome": "Planilha de Custeio ABC",
-      "descricao": "Planilha de custeio baseado em atividades com direcionadores de custos e rateio."
+      "descricao": "Planilha de custeio baseado em atividades com direcionadores de custos e rateio.",
+      "arquivo": "assets/downloads/formularios/15-custeio-abc.html"
     },
     {
       "id": "riscos",
       "nome": "Matriz de Riscos (Probabilidade x Impacto)",
-      "descricao": "Template de matriz de riscos com classificação P x I e planos de ação de resposta."
+      "descricao": "Template de matriz de riscos com classificação P x I e planos de ação de resposta.",
+      "arquivo": "assets/downloads/formularios/16-matriz-riscos.html"
     }
   ]
 };

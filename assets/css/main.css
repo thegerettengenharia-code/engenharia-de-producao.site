@@ -827,6 +827,34 @@ a.topic-card:visited {
 }
 .form-download:hover { transform: scale(1.05); box-shadow: 0 4px 16px rgba(0, 128, 255, 0.3); }
 
+/* ─── Biblioteca Hero Background ─── */
+.biblioteca-hero {
+  position: relative; overflow: hidden;
+  background: var(--bg);
+}
+.biblioteca-hero-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  opacity: 0.18;
+  transition: opacity 0.6s var(--ease-fluid);
+  will-change: transform;
+}
+[data-theme="dark"] .biblioteca-hero-bg { opacity: 0.22; }
+.biblioteca-hero-bg::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, var(--bg) 0%, transparent 30%, transparent 70%, var(--bg-alt) 100%);
+}
+.biblioteca-hero .page-header {
+  position: relative; z-index: 1;
+  background: transparent;
+}
+.biblioteca-hero-bg.parallax-active {
+  transition: none;
+}
+
 /* ─── Contact / Forms ─── */
 .contact-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 32px;

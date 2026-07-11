@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VSM — Mapeamento de Fluxo de Valor — Gerett</title>
+  <style>
+@page {
+  size: A4 portrait;
+  margin: 3cm 2cm 2cm 2cm;
+}
+@media print {
+  body { margin: 0; padding: 0; }
+  .no-print { display: none !important; }
+  .page-break { page-break-before: always; }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #fff;
+  padding: 30px;
+  max-width: 210mm;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-left h2 {
+  font-size: 13pt;
+  color: #003366;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.header-left p {
+  font-size: 9pt;
+  color: #555;
+}
+.header-right {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+}
+.doc-title {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.doc-title h1 {
+  font-size: 16pt;
+  color: #003366;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 3px solid #003366;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+.doc-subtitle {
+  text-align: center;
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 25px;
+}
+.doc-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+  font-size: 9.5pt;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #f5f7fa;
+  border-left: 3px solid #003366;
+  border-radius: 0 4px 4px 0;
+}
+.doc-info span { color: #333; }
+.doc-info strong { color: #003366; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 9.5pt;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #003366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+tr:nth-child(even) { background: #f8f9fb; }
+tr:hover { background: #eef1f6; }
+.field-blank {
+  border-bottom: 1px solid #999;
+  min-height: 22px;
+  display: inline-block;
+  min-width: 120px;
+}
+.section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #003366;
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.footer-doc {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 8pt;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.signature-block {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.signature-line {
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid #333;
+  font-size: 9.5pt;
+}
+.signature-line .name { font-weight: 700; }
+.signature-line .role { font-size: 8.5pt; color: #666; }
+.note {
+  font-size: 8.5pt;
+  color: #666;
+  font-style: italic;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #fffde7;
+  border-left: 3px solid #f9a825;
+  border-radius: 0 3px 3px 0;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.checklist-item input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #003366;
+}
+.priority-high { color: #c62828; font-weight: 700; }
+.priority-med { color: #e65100; font-weight: 600; }
+.priority-low { color: #2e7d32; }
+.rating-bar {
+  display: flex;
+  gap: 2px;
+}
+.rating-dot {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h2>GERETT — BIBLIOTECA ORGANIZACIONAL</h2>
+    <p>Engenharia de Produção | Lean Manufacturing</p>
+  </div>
+  <div class="header-right">
+    <p>Documento: VSM-MAP-001</p>
+    <p>Rev.: 00 | 11/07/2026</p>
+  </div>
+</div>
+
+<div class="doc-title"><h1>Mapeamento de Fluxo de Valor — VSM</h1></div>
+<div class="doc-subtitle">Value Stream Mapping — Conforme Rother & Shook, Learning to See</div>
+
+<div class="doc-info">
+  <span><strong>Família de Produtos:</strong> <span class="field-blank"></span></span>
+  <span><strong>Responsável:</strong> <span class="field-blank"></span></span>
+  <span><strong>Período de Análise:</strong> <span class="field-blank"></span></span>
+  <span><strong>Data de Elaboração:</strong> 11/07/2026</span>
+  <span><strong>Linha de Produto:</strong> <span class="field-blank"></span></span>
+  <span><strong>Versão:</strong> 00</span>
+</div>
+
+<div class="section-title">1. Dados do Cliente</div>
+<div class="doc-info">
+  <span><strong>Cliente(s):</strong> <span class="field-blank" style="min-width:400px"></span></span>
+  <span><strong>Demanda Mensal:</strong> <span class="field-blank"></span> unidades</span>
+  <span><strong>Dias Úteis / Mês:</strong> <span class="field-blank"></span></span>
+  <span><strong>Takt Time:</strong> <span class="field-blank"></span> seg/unid</span>
+</div>
+
+<div class="section-title">2. Fluxo de Informação</div>
+<table>
+  <thead><tr><th>Etapa</th><th>Fornecimento de Dados</th><th>Frequência</th><th>Metodologia</th><th>Lead Time de Informação</th></tr></thead>
+  <tbody>
+    <tr><td>Pedido do Cliente</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Previsão de Demanda</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Programação da Produção</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Ordem de Compra</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">3. Fluxo de Material (Current State Map)</div>
+<table>
+  <thead>
+    <tr>
+      <th style="width:14%">Processo</th>
+      <th style="width:10%">Ciclo (s)</th>
+      <th style="width:10%">Troca (min)</th>
+      <th style="width:10%">Uptime (%)</th>
+      <th style="width:10%">Lotes</th>
+      <th style="width:10%">Nº Operadores</th>
+      <th style="width:10%">Estoque (dias)</th>
+      <th style="width:12%">Disponibilidade</th>
+      <th style="width:14%">Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Fornecedor</td><td></td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td><td></td></tr>
+    <tr><td>Processo 1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Processo 2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Processo 3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Processo 4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Expedição</td><td></td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">4. Timeline do Fluxo de Valor</div>
+<table>
+  <thead><tr><th>Métrica</th><th>Valor Atual</th><th>Valor Futuro (Meta)</th><th>% Melhoria</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Lead Time Total</strong> (dias)</td><td></td><td></td><td></td></tr>
+    <tr><td><strong>Tempo de Processamento</strong> (seg)</td><td></td><td></td><td></td></tr>
+    <tr><td><strong>Valor Adicionado</strong> (%)</td><td></td><td></td><td></td></tr>
+    <tr><td><strong>First Pass Yield</strong> (%)</td><td></td><td></td><td></td></tr>
+    <tr><td><strong>Produção em Processo</strong> (unid)</td><td></td><td></td><td></td></tr>
+    <tr><td><strong>Redução de Estoques</strong> (%)</td><td>—</td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">5. Ícones de Simbologia VSM</div>
+<table>
+  <thead><tr><th>Ícone</th><th>Descrição</th><th>Uso</th></tr></thead>
+  <tbody>
+    <tr><td>⬛ Caixa de estoque</td><td>Estoque entre processos</td><td>Quantidade e dias de estoque</td></tr>
+    <tr><td>▶ Triângulo</td><td>Processo de manufatura</td><td>Ciclo, troca, operadores</td></tr>
+    <tr><td>🔀 Dados de controle</td><td>Bloco de informações do processo</td><td>CQA, freq., batch size</td></tr>
+    <tr><td>⚡ Seta de puxada</td><td>Fluxo de puxada (Kanban)</td><td>Freqüência e quantidade</td></tr>
+    <tr><td>📦 Supermercado</td><td>Estoque tipo supermercado</td><td>Capacidade e reabastecimento</td></tr>
+    <tr><td>⏰ Timeline</td><td>Linha do tempo (VA/NVA)</td><td>Tempo de ciclo vs Lead time</td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">6. Oportunidades de Melhoria</div>
+<table>
+  <thead><tr><th>#</th><th>Oportunidade</th><th>Impacto</th><th>Responsável</th><th>Prazo</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>2</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>3</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>4</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="signature-block">
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Responsável pelo VSM</div></div>
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Coordenador Lean</div></div>
+</div>
+
+  <div class="footer-doc">
+    <span>Gerett — Biblioteca Organizacional</span>
+    <span>Documento elaborado em 11/07/2026</span>
+    <span>Página 1 de 1</span>
+  </div>
+</body>
+</html>
