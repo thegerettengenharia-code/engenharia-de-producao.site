@@ -147,7 +147,7 @@ ul, ol { list-style: none; }
 
 /* ─── Mobile Nav Overlay ─── */
 .mobile-nav-overlay {
-  position: fixed; inset: 0; z-index: 99;
+  position: fixed; inset: 0; z-index: 110;
   background: rgba(11, 14, 17, 0.88);
   backdrop-filter: blur(32px) saturate(180%);
   -webkit-backdrop-filter: blur(32px) saturate(180%);
@@ -860,18 +860,17 @@ a.topic-card:visited {
   display: grid; grid-template-columns: 1fr 1fr; gap: 32px;
   max-width: 900px; margin: 0 auto; padding: 0 24px;
 }
-.form-group { margin-bottom: 20px; }
 .form-label { display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 6px; }
-.form-input, .form-select, .form-textarea {
+.form-select, .form-textarea {
   width: 100%; padding: 12px 16px; border-radius: var(--radius-md);
   background: var(--bg-card); border: 1px solid var(--border);
   font-size: 0.9rem; transition: all .3s var(--ease-fluid);
 }
-.form-input:focus, .form-select:focus, .form-textarea:focus {
+.form-select:focus,
+.form-textarea:focus {
   outline: none; border-color: var(--c-eng-blue);
   box-shadow: 0 0 0 4px var(--brand-light);
 }
-[data-theme="dark"] .form-input:focus,
 [data-theme="dark"] .form-select:focus,
 [data-theme="dark"] .form-textarea:focus { border-color: var(--c-laser-cyan); }
 .form-textarea { resize: vertical; min-height: 120px; }
@@ -922,7 +921,7 @@ a.topic-card:visited {
 
 /* ─── Scroll Top ─── */
 .scroll-top {
-  position: fixed; right: 24px; bottom: 24px; z-index: 90;
+  position: fixed; right: 24px; bottom: 24px; z-index: 1100;
   width: 52px; height: 52px; border-radius: 50%;
   background: var(--bg-card); border: 1px solid var(--border);
   box-shadow: 0 6px 24px var(--shadow-md);
@@ -1220,7 +1219,7 @@ html.has-cursor * { cursor: none !important; }
 
 /* Form Card */
 .networking-form-card {
-  background: var(--card-bg);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 28px;
@@ -1230,7 +1229,7 @@ html.has-cursor * { cursor: none !important; }
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 20px;
-  color: var(--text-primary);
+  color: var(--text);
 }
 
 .networking-form {
@@ -1253,6 +1252,7 @@ html.has-cursor * { cursor: none !important; }
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
@@ -1267,8 +1267,8 @@ html.has-cursor * { cursor: none !important; }
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: var(--bg-main);
-  color: var(--text-primary);
+  background: var(--bg);
+  color: var(--text);
   font-size: 0.9rem;
   font-family: inherit;
   transition: border-color .2s var(--ease-fluid), box-shadow .2s var(--ease-fluid);
@@ -1413,109 +1413,6 @@ select.form-input { cursor: pointer; }
   transform: scale(1.1);
 }
 
-/* Cards de Contato com Foto */
-.contact-card {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 16px;
-  border-radius: 14px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  transition: transform .2s, box-shadow .2s;
-}
-
-.contact-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-}
-
-.contact-avatar {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #fff;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-
-.contact-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.contact-info {
-  flex: 1;
-  min-width: 0;
-}
-
-.contact-name {
-  font-size: 0.95rem;
-  font-weight: 600;
-  margin: 0;
-  color: var(--text-primary);
-}
-
-.contact-role {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  display: block;
-}
-
-.contact-area {
-  font-size: 0.72rem;
-  color: var(--c-eng-blue);
-  font-weight: 500;
-}
-
-.contact-links {
-  display: flex;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.contact-link {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-secondary);
-  background: var(--bg-main);
-  transition: color .2s, background .2s;
-}
-
-.contact-link:hover {
-  color: var(--c-eng-blue);
-  background: rgba(0,85,255,0.08);
-}
-
-[data-theme="dark"] .contact-link:hover {
-  background: rgba(0,229,255,0.1);
-}
-
-.contact-badge {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--c-eng-blue);
-  background: rgba(0,85,255,0.08);
-}
-
-[data-theme="dark"] .contact-badge {
-  background: rgba(0,229,255,0.1);
-}
-
 [data-theme="dark"] .networking-feedback.error {
   color: #ff6e6e;
 }
@@ -1588,7 +1485,7 @@ select.form-input { cursor: pointer; }
   align-items: center;
   gap: 12px;
   padding: 16px;
-  background: var(--card-bg);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 14px;
   transition: all .3s var(--ease-fluid);
@@ -1616,6 +1513,13 @@ select.form-input { cursor: pointer; }
   font-weight: 700;
   color: #fff;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.contact-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact-info {
@@ -1630,7 +1534,7 @@ select.form-input { cursor: pointer; }
   font-size: 0.9rem;
   font-weight: 600;
   margin: 0;
-  color: var(--text-primary);
+  color: var(--text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1699,7 +1603,7 @@ select.form-input { cursor: pointer; }
   position: fixed;
   bottom: 28px;
   right: 28px;
-  z-index: 900;
+  z-index: 1100;
 }
 
 .contact-fab-btn {
@@ -1792,7 +1696,7 @@ select.form-input { cursor: pointer; }
   padding: 8px 14px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  background: var(--bg-main);
+  background: var(--bg);
   color: var(--text-secondary);
   font-size: 0.82rem;
   font-weight: 500;

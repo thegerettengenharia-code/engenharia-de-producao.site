@@ -147,7 +147,8 @@
 
   searchClear?.addEventListener('click', () => {
     if (searchInput) { searchInput.value = ''; searchInput.focus(); }
-    searchClear.hidden = true; renderTopics();
+    if (searchClear) searchClear.hidden = true;
+    renderTopics();
     if (searchHint) searchHint.textContent = '';
     closeSuggestions();
   });
@@ -574,8 +575,8 @@
         ctx.drawImage(img, sx, sy, min, min, 0, 0, size, size);
         uploadedPhoto = canvas.toDataURL('image/jpeg', 0.7);
         if (uploadImg) uploadImg.src = uploadedPhoto;
-        uploadPlaceholder.hidden = true;
-        uploadPreview.hidden = false;
+        if (uploadPlaceholder) uploadPlaceholder.hidden = true;
+        if (uploadPreview) uploadPreview.hidden = false;
       };
       img.src = ev.target.result;
     };
@@ -655,12 +656,13 @@
   var contactFabCopy = document.getElementById('contactFabCopy');
 
   contactFabBtn?.addEventListener('click', function() {
+    if (!contactFabPopup) return;
     var isOpen = !contactFabPopup.hidden;
     contactFabPopup.hidden = isOpen;
   });
 
   document.addEventListener('click', function(e) {
-    if (!e.target.closest('.contact-fab')) {
+    if (!e.target.closest('.contact-fab') && contactFabPopup) {
       contactFabPopup.hidden = true;
     }
   });

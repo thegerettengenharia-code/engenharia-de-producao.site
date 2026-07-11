@@ -3,7 +3,9 @@
 
   if (typeof gsap === 'undefined') return console.warn('GSAP not loaded');
 
-  gsap.registerPlugin(ScrollTrigger);
+  if (typeof ScrollTrigger !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger);
+  }
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
