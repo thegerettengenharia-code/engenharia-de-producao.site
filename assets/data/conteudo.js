@@ -932,7 +932,7 @@
         },
         {
           "titulo": "Poka-Yoke",
-          "definicao": "Dispositivo ou mecanismo á prova de falhas que previne a ocorrência de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo-a-passo, e é uma ferramenta essencial do zero defeito no Lean.",
+          "definicao": "Dispositivo ou mecanismo a prova de falhas que previne a ocorrência de defeitos no momento em que ocorrem ou os detecta imediatamente. Pode ser de contato, valor constante ou passo a passo, e é uma ferramenta essencial do zero defeito no Lean.",
           "topicos": [
             {
               "nome": "Dispositivos de detecção",
@@ -15481,7 +15481,7 @@
       "id": "cad_1",
       "nome": "Engrenagem STEP - 1",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/engrenagem-9ix",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de engrenagem em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -15490,7 +15490,7 @@
       "id": "cad_2",
       "nome": "Valvula Direcional IGES - 2",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/valvula-direcional-fmw",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de valvula direcional em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -15499,7 +15499,7 @@
       "id": "cad_3",
       "nome": "Unidade de Condicionamento STL - 3",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/unidade-de-condicionamento-lqv",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -15508,7 +15508,7 @@
       "id": "cad_4",
       "nome": "Perfil T DWG - 4",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/perfil-t-ruu",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de perfil t em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -15517,7 +15517,7 @@
       "id": "cad_5",
       "nome": "Escada DXF - 5",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/escada-xyt",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -15526,7 +15526,7 @@
       "id": "cad_6",
       "nome": "Atuador Linear SLDPRT - 6",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/atuador-linear-142s",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de atuador linear em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -15535,7 +15535,7 @@
       "id": "cad_7",
       "nome": "Valvula Gaveta SLDASM - 7",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/valvula-gaveta-1a6r",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de valvula gaveta em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -15544,7 +15544,7 @@
       "id": "cad_8",
       "nome": "Mesa Rotativa IPT - 8",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/mesa-rotativa-1gaq",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de mesa rotativa em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -15553,7 +15553,7 @@
       "id": "cad_9",
       "nome": "Compressor IAM - 9",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/compressor-1mep",
+      "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
       "descricao": "Modelo CAD publico de compressor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -15562,7 +15562,7 @@
       "id": "cad_10",
       "nome": "Bancada de Trabalho SAT - 10",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/bancada-de-trabalho-1sio",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de bancada de trabalho em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -15571,7 +15571,7 @@
       "id": "cad_11",
       "nome": "Plataforma Elevatoria BREP - 11",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/plataforma-elevatoria-1ymn",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -15580,7 +15580,7 @@
       "id": "cad_12",
       "nome": "Pino 3DM - 12",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/pino-24qm",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de pino em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -15589,7 +15589,7 @@
       "id": "cad_13",
       "nome": "Cilindro Hidraulico RVT - 13",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/cilindro-hidraulico-2aul",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de cilindro hidraulico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -15598,7 +15598,7 @@
       "id": "cad_14",
       "nome": "Mangueira Pneumatica DWF - 14",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/mangueira-pneumatica-2gyk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de mangueira pneumatica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -15607,7 +15607,7 @@
       "id": "cad_15",
       "nome": "Perfil U STEP - 15",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/perfil-u-2n2j",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de perfil u em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -15616,7 +15616,7 @@
       "id": "cad_16",
       "nome": "Corte Transversal IGES - 16",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/corte-transversal-2t6i",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -15625,7 +15625,7 @@
       "id": "cad_17",
       "nome": "Motor Eletrico STL - 17",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/motor-eletrico-2zah",
+      "url": "https://grabcad.com/library/cnc-router-92",
       "descricao": "Modelo CAD publico de motor eletrico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -15634,7 +15634,7 @@
       "id": "cad_18",
       "nome": "Valvula Esfera DWG - 18",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/valvula-esfera-35eg",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de valvula esfera em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -15643,7 +15643,7 @@
       "id": "cad_19",
       "nome": "Divisor Universal DXF - 19",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/divisor-universal-3bif",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de divisor universal em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -15652,7 +15652,7 @@
       "id": "cad_20",
       "nome": "Bomba Centrifuga SLDPRT - 20",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/bomba-centrifuga-3hme",
+      "url": "https://www.mcmaster.com/product/94205A260",
       "descricao": "Modelo CAD publico de bomba centrifuga em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -15661,7 +15661,7 @@
       "id": "cad_21",
       "nome": "Pallet SLDASM - 21",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/pallet-3nqd",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de pallet em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -15670,7 +15670,7 @@
       "id": "cad_22",
       "nome": "Reboque Industrial IPT - 22",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/reboque-industrial-3tuc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -15679,7 +15679,7 @@
       "id": "cad_23",
       "nome": "Correia IAM - 23",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/correia-3zyb",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de correia em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -15688,7 +15688,7 @@
       "id": "cad_24",
       "nome": "Distribuidor SAT - 24",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/distribuidor-462a",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de distribuidor em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -15697,7 +15697,7 @@
       "id": "cad_25",
       "nome": "Silenciador BREP - 25",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/silenciador-4c69",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de silenciador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -15706,7 +15706,7 @@
       "id": "cad_26",
       "nome": "Chapa de Reforco 3DM - 26",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/chapa-de-reforco-4ia8",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de chapa de reforco em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -15715,7 +15715,7 @@
       "id": "cad_27",
       "nome": "Sacada RVT - 27",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/sacada-4oe7",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -15724,7 +15724,7 @@
       "id": "cad_28",
       "nome": "Disjuntor DWF - 28",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/disjuntor-4ui6",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de disjuntor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -15733,7 +15733,7 @@
       "id": "cad_29",
       "nome": "Curva STEP - 29",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/curva-50m5",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de curva em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -15742,7 +15742,7 @@
       "id": "cad_30",
       "nome": "Mandril IGES - 30",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/mandril-56q4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de mandril em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -15751,7 +15751,7 @@
       "id": "cad_31",
       "nome": "Prensa Hidraulica STL - 31",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/prensa-hidraulica-5cu3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de prensa hidraulica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -15760,7 +15760,7 @@
       "id": "cad_32",
       "nome": "Armario para Ferramentas DWG - 32",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/armario-para-ferramentas-5iy2",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de armario para ferramentas em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -15769,7 +15769,7 @@
       "id": "cad_33",
       "nome": "Carrinho Transportador DXF - 33",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/carrinho-transportador-5p21",
+      "url": "https://grabcad.com/library/brutal-diy-lathe-1",
       "descricao": "Modelo CAD publico de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -15778,7 +15778,7 @@
       "id": "cad_34",
       "nome": "Fuso SLDPRT - 34",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/fuso-5v60",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de fuso em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -15787,7 +15787,7 @@
       "id": "cad_35",
       "nome": "Atuador Rotativo SLDASM - 35",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/atuador-rotativo-619z",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de atuador rotativo em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -15796,7 +15796,7 @@
       "id": "cad_36",
       "nome": "Lubrificador IPT - 36",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/lubrificador-67dy",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de lubrificador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -15805,7 +15805,7 @@
       "id": "cad_37",
       "nome": "Suporte IAM - 37",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/suporte-6dhx",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de suporte em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -15814,7 +15814,7 @@
       "id": "cad_38",
       "nome": "Fundacao SAT - 38",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/fundacao-6jlw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -15823,7 +15823,7 @@
       "id": "cad_39",
       "nome": "Encoder BREP - 39",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/encoder-6ppv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de encoder em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -15832,7 +15832,7 @@
       "id": "cad_40",
       "nome": "Reducao 3DM - 40",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/redução-6vtu",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de redução em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -15841,7 +15841,7 @@
       "id": "cad_41",
       "nome": "Morsa RVT - 41",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/morsa-71xt",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de morsa em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -15850,7 +15850,7 @@
       "id": "cad_42",
       "nome": "Torno Mecanico DWF - 42",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/torno-mecanico-781s",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de torno mecanico em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -15859,7 +15859,7 @@
       "id": "cad_43",
       "nome": "Cadeira STEP - 43",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/cadeira-7e5r",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de cadeira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -15868,7 +15868,7 @@
       "id": "cad_44",
       "nome": "Empilhadeira IGES - 44",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/empilhadeira-7k9q",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de empilhadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -15877,7 +15877,7 @@
       "id": "cad_45",
       "nome": "Mola STL - 45",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/mola-7qdp",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de mola em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -15886,7 +15886,7 @@
       "id": "cad_46",
       "nome": "Acumulador DWG - 46",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/acumulador-7who",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de acumulador em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -15895,7 +15895,7 @@
       "id": "cad_47",
       "nome": "Valvula Solenoide DXF - 47",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/valvula-solenoide-82ln",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de valvula solenoide em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -15904,7 +15904,7 @@
       "id": "cad_48",
       "nome": "Coluna SLDPRT - 48",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/coluna-88pm",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de coluna em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -15913,7 +15913,7 @@
       "id": "cad_49",
       "nome": "Janela SLDASM - 49",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/janela-8etl",
+      "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
       "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -15922,7 +15922,7 @@
       "id": "cad_50",
       "nome": "Contator IPT - 50",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/contator-8kxk",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de contator em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -15931,7 +15931,7 @@
       "id": "cad_51",
       "nome": "Te IAM - 51",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/te-8r1j",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de te em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -15940,7 +15940,7 @@
       "id": "cad_52",
       "nome": "Grampo SAT - 52",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/grampo-8x5i",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de grampo em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -15949,7 +15949,7 @@
       "id": "cad_53",
       "nome": "Fresadora BREP - 53",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/fresadora-939h",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de fresadora em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -15958,7 +15958,7 @@
       "id": "cad_54",
       "nome": "Cabine de Seguranca 3DM - 54",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/cabine-de-seguranca-99dg",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de cabine de seguranca em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -15967,7 +15967,7 @@
       "id": "cad_55",
       "nome": "Paleteira RVT - 55",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/paleteira-9fhf",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de paleteira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -15976,7 +15976,7 @@
       "id": "cad_56",
       "nome": "Polia DWF - 56",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/polia-9lle",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de polia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -15985,7 +15985,7 @@
       "id": "cad_57",
       "nome": "Manometro STEP - 57",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/manometro-9rpd",
+      "url": "https://grabcad.com/library/cnc-lathe-machine-1",
       "descricao": "Modelo CAD publico de manometro em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -15994,7 +15994,7 @@
       "id": "cad_58",
       "nome": "Atuador Pneumatico IGES - 58",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/atuador-pneumatico-9xtc",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de atuador pneumatico em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -16003,7 +16003,7 @@
       "id": "cad_59",
       "nome": "Cantoneira STL - 59",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/cantoneira-a3xb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de cantoneira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -16012,7 +16012,7 @@
       "id": "cad_60",
       "nome": "Telhado DWG - 60",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/telhado-aa1a",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -16021,7 +16021,7 @@
       "id": "cad_61",
       "nome": "Fonte de Alimentacao DXF - 61",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/fonte-de-alimentacao-ag59",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de fonte de alimentacao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
@@ -16030,7 +16030,7 @@
       "id": "cad_62",
       "nome": "Cotovelo 90 SLDPRT - 62",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/cotovelo-90-am98",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de cotovelo 90 em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
@@ -16039,7 +16039,7 @@
       "id": "cad_63",
       "nome": "Calibrador SLDASM - 63",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/calibrador-asd7",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de calibrador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
@@ -16048,7 +16048,7 @@
       "id": "cad_64",
       "nome": "Retifica IPT - 64",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/retifica-ayh6",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de retifica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "PartCommunity"
@@ -16057,7 +16057,7 @@
       "id": "cad_65",
       "nome": "Estante Industrial IAM - 65",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/estante-industrial-b4l5",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de estante industrial em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
@@ -16066,7 +16066,7 @@
       "id": "cad_66",
       "nome": "Guindaste SAT - 66",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/guindaste-bap4",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de guindaste em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Veiculos e Transporte",
       "fonte": "TraceParts"
@@ -16075,7 +16075,7 @@
       "id": "cad_67",
       "nome": "Guia Linear BREP - 67",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/guia-linear-bgt3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de guia linear em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Pecas Mecanicas",
       "fonte": "3D ContentCentral"
@@ -16084,7 +16084,7 @@
       "id": "cad_68",
       "nome": "Conexao Rapida 3DM - 68",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/conexão-rapida-bmx2",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de conexão rapida em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
@@ -16093,7 +16093,7 @@
       "id": "cad_69",
       "nome": "Conexao Pneumatica RVT - 69",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/conexão-pneumatica-bt11",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de conexão pneumatica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
@@ -16102,7 +16102,7 @@
       "id": "cad_70",
       "nome": "Barra Chata DWF - 70",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/barra-chata-bz50",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de barra chata em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
@@ -16111,7 +16111,7 @@
       "id": "cad_71",
       "nome": "Planta Baixa STEP - 71",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/planta-baixa-c58z",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
@@ -16120,7 +16120,7 @@
       "id": "cad_72",
       "nome": "Servomotor IGES - 72",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/servomotor-cbcy",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de servomotor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
@@ -16129,7 +16129,7 @@
       "id": "cad_73",
       "nome": "Flange STL - 73",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/flange-chgx",
+      "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
       "descricao": "Modelo CAD publico de flange em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
@@ -16138,7 +16138,7 @@
       "id": "cad_74",
       "nome": "Suporte de Fixacao DWG - 74",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/suporte-de-fixacao-cnkw",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de suporte de fixacao em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
@@ -16147,7 +16147,7 @@
       "id": "cad_75",
       "nome": "Furadeira de Bancada DXF - 75",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/furadeira-de-bancada-ctov",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de furadeira de bancada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "3D ContentCentral"
@@ -16156,7 +16156,7 @@
       "id": "cad_76",
       "nome": "Rack SLDPRT - 76",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/rack-czsu",
+      "url": "https://www.mcmaster.com/product/94205A260",
       "descricao": "Modelo CAD publico de rack em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
@@ -16165,7 +16165,7 @@
       "id": "cad_77",
       "nome": "Plataforma Elevatoria SLDASM - 77",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/plataforma-elevatoria-d5wt",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Veiculos e Transporte",
       "fonte": "BIMobject"
@@ -16174,7 +16174,7 @@
       "id": "cad_78",
       "nome": "Arruela IPT - 78",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/arruela-dc0s",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de arruela em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Pecas Mecanicas",
       "fonte": "CADdetails"
@@ -16183,7 +16183,7 @@
       "id": "cad_79",
       "nome": "Mangueira IAM - 79",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/mangueira-di4r",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de mangueira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
@@ -16192,7 +16192,7 @@
       "id": "cad_80",
       "nome": "Regulador de Pressao SAT - 80",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/regulador-de-pressao-do8q",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de regulador de pressao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
@@ -16201,7 +16201,7 @@
       "id": "cad_81",
       "nome": "Perfil L BREP - 81",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/perfil-l-ducp",
+      "url": "https://grabcad.com/library/differential-unit-3",
       "descricao": "Modelo CAD publico de perfil l em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
@@ -16210,7 +16210,7 @@
       "id": "cad_82",
       "nome": "Rampa 3DM - 82",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/rampa-e0go",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
@@ -16219,7 +16219,7 @@
       "id": "cad_83",
       "nome": "Sensor de Proximidade RVT - 83",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/sensor-de-proximidade-e6kn",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de sensor de proximidade em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
@@ -16228,7 +16228,7 @@
       "id": "cad_84",
       "nome": "Nipple DWF - 84",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/nipple-ecom",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de nipple em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
@@ -16237,7 +16237,7 @@
       "id": "cad_85",
       "nome": "Gabarito STEP - 85",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/gabarito-eisl",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de gabarito em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
@@ -16246,7 +16246,7 @@
       "id": "cad_86",
       "nome": "Esteira Transportadora IGES - 86",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/esteira-transportadora-eowk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de esteira transportadora em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "CADdetails"
@@ -16255,7 +16255,7 @@
       "id": "cad_87",
       "nome": "Mesa de Inspecao STL - 87",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/mesa-de-inspecao-ev0j",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de mesa de inspecao em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
@@ -16264,7 +16264,7 @@
       "id": "cad_88",
       "nome": "Reboque Industrial DWG - 88",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/reboque-industrial-f14i",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de reboque industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Veiculos e Transporte",
       "fonte": "PartCommunity"
@@ -16273,7 +16273,7 @@
       "id": "cad_89",
       "nome": "Rolamento DXF - 89",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/rolamento-f78h",
+      "url": "https://grabcad.com/library/cnc-lathe-machine-1",
       "descricao": "Modelo CAD publico de rolamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -16282,7 +16282,7 @@
       "id": "cad_90",
       "nome": "Filtro Hidraulico SLDPRT - 90",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/filtro-hidraulico-fdcg",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de filtro hidraulico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -16291,7 +16291,7 @@
       "id": "cad_91",
       "nome": "Cilindro Pneumatico SLDASM - 91",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/cilindro-pneumatico-fjgf",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de cilindro pneumatico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -16300,7 +16300,7 @@
       "id": "cad_92",
       "nome": "Viga I IPT - 92",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/viga-i-fpke",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de viga i em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -16309,7 +16309,7 @@
       "id": "cad_93",
       "nome": "Laje IAM - 93",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/laje-fvod",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -16318,7 +16318,7 @@
       "id": "cad_94",
       "nome": "Transformador SAT - 94",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/transformador-g1sc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de transformador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -16327,7 +16327,7 @@
       "id": "cad_95",
       "nome": "Bocal BREP - 95",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/bocal-g7wb",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de bocal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -16336,7 +16336,7 @@
       "id": "cad_96",
       "nome": "Dispositivo de Torneamento 3DM - 96",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/dispositivo-de-torneamento-ge0a",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de dispositivo de torneamento em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -16345,7 +16345,7 @@
       "id": "cad_97",
       "nome": "Rosqueadeira RVT - 97",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/rosqueadeira-gk49",
+      "url": "https://grabcad.com/library/spur-gear-assembly-14",
       "descricao": "Modelo CAD publico de rosqueadeira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -16354,7 +16354,7 @@
       "id": "cad_98",
       "nome": "Painel de Controle DWF - 98",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/painel-de-controle-gq88",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de painel de controle em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -16363,7 +16363,7 @@
       "id": "cad_99",
       "nome": "Carrinho Transportador STEP - 99",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/carrinho-transportador-gwc7",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de carrinho transportador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -16372,7 +16372,7 @@
       "id": "cad_100",
       "nome": "Bucha IGES - 100",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/bucha-h2g6",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de bucha em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -16381,7 +16381,7 @@
       "id": "cad_101",
       "nome": "Reservatorio STL - 101",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/reservatorio-h8k5",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de reservatorio em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -16390,7 +16390,7 @@
       "id": "cad_102",
       "nome": "Unidade de Condicionamento DWG - 102",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/unidade-de-condicionamento-heo4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -16399,7 +16399,7 @@
       "id": "cad_103",
       "nome": "Bracket DXF - 103",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/bracket-hks3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de bracket em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -16408,7 +16408,7 @@
       "id": "cad_104",
       "nome": "Porta SLDPRT - 104",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/porta-hqw2",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -16417,7 +16417,7 @@
       "id": "cad_105",
       "nome": "Quadro Eletrico SLDASM - 105",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/quadro-eletrico-hx01",
+      "url": "https://grabcad.com/library/cnc-lathe-machine-1",
       "descricao": "Modelo CAD publico de quadro eletrico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -16426,7 +16426,7 @@
       "id": "cad_106",
       "nome": "Spool IPT - 106",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/spool-i340",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de spool em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -16435,7 +16435,7 @@
       "id": "cad_107",
       "nome": "Dispositivo de Fresamento IAM - 107",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/dispositivo-de-fresamento-i97z",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de dispositivo de fresamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -16444,7 +16444,7 @@
       "id": "cad_108",
       "nome": "Misturador Industrial SAT - 108",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/misturador-industrial-ifby",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de misturador industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -16453,7 +16453,7 @@
       "id": "cad_109",
       "nome": "Bancada de Trabalho BREP - 109",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/bancada-de-trabalho-ilfx",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de bancada de trabalho em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -16462,7 +16462,7 @@
       "id": "cad_110",
       "nome": "Empilhadeira 3DM - 110",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/empilhadeira-irjw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de empilhadeira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -16471,7 +16471,7 @@
       "id": "cad_111",
       "nome": "Porca RVT - 111",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/porca-ixnv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de porca em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -16480,7 +16480,7 @@
       "id": "cad_112",
       "nome": "Bomba Hidraulica DWF - 112",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/bomba-hidraulica-j3ru",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de bomba hidraulica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -16489,7 +16489,7 @@
       "id": "cad_113",
       "nome": "Mangueira Pneumatica STEP - 113",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/mangueira-pneumatica-j9vt",
+      "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
       "descricao": "Modelo CAD publico de mangueira pneumatica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -16498,7 +16498,7 @@
       "id": "cad_114",
       "nome": "Base Metalica IGES - 114",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/base-metalica-jfzs",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de base metalica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -16507,7 +16507,7 @@
       "id": "cad_115",
       "nome": "Fachada STL - 115",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/fachada-jm3r",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -16516,7 +16516,7 @@
       "id": "cad_116",
       "nome": "Chave Fim de Curso DWG - 116",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/chave-fim-de-curso-js7q",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de chave fim de curso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -16525,7 +16525,7 @@
       "id": "cad_117",
       "nome": "Junta de Expansao DXF - 117",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/junta-de-expansao-jybp",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de junta de expansao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -16534,7 +16534,7 @@
       "id": "cad_118",
       "nome": "Mesa Rotativa SLDPRT - 118",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/mesa-rotativa-k4fo",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de mesa rotativa em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -16543,7 +16543,7 @@
       "id": "cad_119",
       "nome": "Compressor SLDASM - 119",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/compressor-kajn",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de compressor em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -16552,7 +16552,7 @@
       "id": "cad_120",
       "nome": "Pallet IPT - 120",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/pallet-kgnm",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de pallet em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -16561,7 +16561,7 @@
       "id": "cad_121",
       "nome": "Paleteira IAM - 121",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/paleteira-kmrl",
+      "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
       "descricao": "Modelo CAD publico de paleteira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -16570,7 +16570,7 @@
       "id": "cad_122",
       "nome": "Mancal SAT - 122",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/mancal-ksvk",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de mancal em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -16579,7 +16579,7 @@
       "id": "cad_123",
       "nome": "Valvula de Alivio BREP - 123",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/valvula-de-alivio-kyzj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de valvula de alivio em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -16588,7 +16588,7 @@
       "id": "cad_124",
       "nome": "Silenciador 3DM - 124",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/silenciador-l53i",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de silenciador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -16597,7 +16597,7 @@
       "id": "cad_125",
       "nome": "Trelica RVT - 125",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/trelica-lb7h",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de trelica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -16606,7 +16606,7 @@
       "id": "cad_126",
       "nome": "Marquise DWF - 126",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/marquise-lhbg",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -16615,7 +16615,7 @@
       "id": "cad_127",
       "nome": "Rele STEP - 127",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/rele-lnff",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de rele em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -16624,7 +16624,7 @@
       "id": "cad_128",
       "nome": "Valvula Retencao IGES - 128",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/valvula-retencao-ltje",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de valvula retencao em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -16633,7 +16633,7 @@
       "id": "cad_129",
       "nome": "Divisor Universal STL - 129",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/divisor-universal-lznd",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de divisor universal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -16642,7 +16642,7 @@
       "id": "cad_130",
       "nome": "Bomba Centrifuga DWG - 130",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/bomba-centrifuga-m5rc",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de bomba centrifuga em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -16651,7 +16651,7 @@
       "id": "cad_131",
       "nome": "Armario para Ferramentas DXF - 131",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/armario-para-ferramentas-mbvb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de armario para ferramentas em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -16660,7 +16660,7 @@
       "id": "cad_132",
       "nome": "Guindaste SLDPRT - 132",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/guindaste-mhza",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de guindaste em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -16669,7 +16669,7 @@
       "id": "cad_133",
       "nome": "Anel Elastico SLDASM - 133",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/anel-elastico-mo39",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de anel elastico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -16678,7 +16678,7 @@
       "id": "cad_134",
       "nome": "Valvula Direcional IPT - 134",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/valvula-direcional-mu78",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de valvula direcional em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -16687,7 +16687,7 @@
       "id": "cad_135",
       "nome": "Lubrificador IAM - 135",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/lubrificador-n0b7",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de lubrificador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -16696,7 +16696,7 @@
       "id": "cad_136",
       "nome": "Tubo Estrutural SAT - 136",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/tubo-estrutural-n6f6",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de tubo estrutural em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -16705,7 +16705,7 @@
       "id": "cad_137",
       "nome": "Cobertura BREP - 137",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/cobertura-ncj5",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -16714,7 +16714,7 @@
       "id": "cad_138",
       "nome": "Inversor de Frequencia 3DM - 138",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/inversor-de-frequencia-nin4",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de inversor de frequencia em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -16723,7 +16723,7 @@
       "id": "cad_139",
       "nome": "Valvula Gaveta RVT - 139",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/valvula-gaveta-nor3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de valvula gaveta em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -16732,7 +16732,7 @@
       "id": "cad_140",
       "nome": "Mandril DWF - 140",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/mandril-nuv2",
+      "url": "https://www.mcmaster.com/product/94205A260",
       "descricao": "Modelo CAD publico de mandril em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -16741,7 +16741,7 @@
       "id": "cad_141",
       "nome": "Prensa Hidraulica STEP - 141",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/prensa-hidraulica-o0z1",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de prensa hidraulica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -16750,7 +16750,7 @@
       "id": "cad_142",
       "nome": "Cadeira IGES - 142",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/cadeira-o730",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de cadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -16759,7 +16759,7 @@
       "id": "cad_143",
       "nome": "Plataforma Elevatoria STL - 143",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/plataforma-elevatoria-od6z",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -16768,7 +16768,7 @@
       "id": "cad_144",
       "nome": "Parafuso DWG - 144",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/parafuso-ojay",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de parafuso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -16777,7 +16777,7 @@
       "id": "cad_145",
       "nome": "Cilindro Hidraulico DXF - 145",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/cilindro-hidraulico-opex",
+      "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
       "descricao": "Modelo CAD publico de cilindro hidraulico em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -16786,7 +16786,7 @@
       "id": "cad_146",
       "nome": "Valvula Solenoide SLDPRT - 146",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/valvula-solenoide-oviw",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de valvula solenoide em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -16795,7 +16795,7 @@
       "id": "cad_147",
       "nome": "Perfil T SLDASM - 147",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/perfil-t-p1mv",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de perfil t em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -16804,7 +16804,7 @@
       "id": "cad_148",
       "nome": "Pilar IPT - 148",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/pilar-p7qu",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -16813,7 +16813,7 @@
       "id": "cad_149",
       "nome": "Atuador Linear IAM - 149",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/atuador-linear-pdut",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de atuador linear em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
@@ -16822,7 +16822,7 @@
       "id": "cad_150",
       "nome": "Valvula Esfera SAT - 150",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/valvula-esfera-pjys",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de valvula esfera em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
@@ -16831,7 +16831,7 @@
       "id": "cad_151",
       "nome": "Morsa BREP - 151",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/morsa-pq2r",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de morsa em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
@@ -16840,7 +16840,7 @@
       "id": "cad_152",
       "nome": "Torno Mecanico 3DM - 152",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/torno-mecanico-pw6q",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de torno mecanico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "PartCommunity"
@@ -16849,7 +16849,7 @@
       "id": "cad_153",
       "nome": "Cabine de Seguranca RVT - 153",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/cabine-de-seguranca-q2ap",
+      "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
       "descricao": "Modelo CAD publico de cabine de seguranca em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
@@ -16858,7 +16858,7 @@
       "id": "cad_154",
       "nome": "Reboque Industrial DWF - 154",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/reboque-industrial-q8eo",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de reboque industrial em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Veiculos e Transporte",
       "fonte": "TraceParts"
@@ -16867,7 +16867,7 @@
       "id": "cad_155",
       "nome": "Eixo STEP - 155",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/eixo-qein",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de eixo em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Pecas Mecanicas",
       "fonte": "3D ContentCentral"
@@ -16876,7 +16876,7 @@
       "id": "cad_156",
       "nome": "Distribuidor IGES - 156",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/distribuidor-qkmm",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de distribuidor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
@@ -16885,7 +16885,7 @@
       "id": "cad_157",
       "nome": "Atuador Pneumatico STL - 157",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/atuador-pneumatico-qqql",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de atuador pneumatico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
@@ -16894,7 +16894,7 @@
       "id": "cad_158",
       "nome": "Perfil U DWG - 158",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/perfil-u-qwuk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de perfil u em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
@@ -16903,7 +16903,7 @@
       "id": "cad_159",
       "nome": "Escada DXF - 159",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/escada-r2yj",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
@@ -16912,7 +16912,7 @@
       "id": "cad_160",
       "nome": "Motor Eletrico SLDPRT - 160",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/motor-eletrico-r92i",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de motor eletrico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
@@ -16921,7 +16921,7 @@
       "id": "cad_161",
       "nome": "Curva SLDASM - 161",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/curva-rf6h",
+      "url": "https://grabcad.com/library/cnc-lathe-machine-1",
       "descricao": "Modelo CAD publico de curva em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
@@ -16930,7 +16930,7 @@
       "id": "cad_162",
       "nome": "Grampo IPT - 162",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/grampo-rlag",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de grampo em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
@@ -16939,7 +16939,7 @@
       "id": "cad_163",
       "nome": "Fresadora IAM - 163",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/fresadora-rref",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de fresadora em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "3D ContentCentral"
@@ -16948,7 +16948,7 @@
       "id": "cad_164",
       "nome": "Estante Industrial SAT - 164",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/estante-industrial-rxie",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de estante industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
@@ -16957,7 +16957,7 @@
       "id": "cad_165",
       "nome": "Carrinho Transportador BREP - 165",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/carrinho-transportador-s3md",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de carrinho transportador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Veiculos e Transporte",
       "fonte": "BIMobject"
@@ -16966,7 +16966,7 @@
       "id": "cad_166",
       "nome": "Chaveta 3DM - 166",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/chaveta-s9qc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de chaveta em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Pecas Mecanicas",
       "fonte": "CADdetails"
@@ -16975,7 +16975,7 @@
       "id": "cad_167",
       "nome": "Atuador Rotativo RVT - 167",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/atuador-rotativo-sfub",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de atuador rotativo em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
@@ -16984,7 +16984,7 @@
       "id": "cad_168",
       "nome": "Conexao Pneumatica DWF - 168",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/conexão-pneumatica-slya",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de conexão pneumatica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
@@ -16993,7 +16993,7 @@
       "id": "cad_169",
       "nome": "Chapa de Reforco STEP - 169",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/chapa-de-reforco-ss29",
+      "url": "https://grabcad.com/library/conveyor-belt-142",
       "descricao": "Modelo CAD publico de chapa de reforco em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
@@ -17002,7 +17002,7 @@
       "id": "cad_170",
       "nome": "Corte Transversal IGES - 170",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/corte-transversal-sy68",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
@@ -17011,7 +17011,7 @@
       "id": "cad_171",
       "nome": "Disjuntor STL - 171",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/disjuntor-t4a7",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de disjuntor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
@@ -17020,7 +17020,7 @@
       "id": "cad_172",
       "nome": "Reducao DWG - 172",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/redução-tae6",
+      "url": "https://www.mcmaster.com/product/94205A260",
       "descricao": "Modelo CAD publico de redução em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
@@ -17029,7 +17029,7 @@
       "id": "cad_173",
       "nome": "Calibrador DXF - 173",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/calibrador-tgi5",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de calibrador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
@@ -17038,7 +17038,7 @@
       "id": "cad_174",
       "nome": "Retifica SLDPRT - 174",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/retifica-tmm4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de retifica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "CADdetails"
@@ -17047,7 +17047,7 @@
       "id": "cad_175",
       "nome": "Rack SLDASM - 175",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/rack-tsq3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de rack em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
@@ -17056,7 +17056,7 @@
       "id": "cad_176",
       "nome": "Empilhadeira IPT - 176",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/empilhadeira-tyu2",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de empilhadeira em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Veiculos e Transporte",
       "fonte": "PartCommunity"
@@ -17065,7 +17065,7 @@
       "id": "cad_177",
       "nome": "Acoplamento IAM - 177",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/acoplamento-u4y1",
+      "url": "https://grabcad.com/library/truck-loading-conveyor-4",
       "descricao": "Modelo CAD publico de acoplamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -17074,7 +17074,7 @@
       "id": "cad_178",
       "nome": "Acumulador SAT - 178",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/acumulador-ub20",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de acumulador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -17083,7 +17083,7 @@
       "id": "cad_179",
       "nome": "Regulador de Pressao BREP - 179",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/regulador-de-pressao-uh5z",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de regulador de pressao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -17092,7 +17092,7 @@
       "id": "cad_180",
       "nome": "Suporte 3DM - 180",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/suporte-un9y",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de suporte em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -17101,7 +17101,7 @@
       "id": "cad_181",
       "nome": "Sacada RVT - 181",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/sacada-utdx",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -17110,7 +17110,7 @@
       "id": "cad_182",
       "nome": "Encoder DWF - 182",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/encoder-uzhw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de encoder em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -17119,7 +17119,7 @@
       "id": "cad_183",
       "nome": "Te STEP - 183",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/te-v5lv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de te em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -17128,7 +17128,7 @@
       "id": "cad_184",
       "nome": "Suporte de Fixacao IGES - 184",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/suporte-de-fixacao-vbpu",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de suporte de fixacao em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -17137,7 +17137,7 @@
       "id": "cad_185",
       "nome": "Furadeira de Bancada STL - 185",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/furadeira-de-bancada-vhtt",
+      "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
       "descricao": "Modelo CAD publico de furadeira de bancada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -17146,7 +17146,7 @@
       "id": "cad_186",
       "nome": "Mesa de Inspecao DWG - 186",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/mesa-de-inspecao-vnxs",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de mesa de inspecao em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -17155,7 +17155,7 @@
       "id": "cad_187",
       "nome": "Paleteira DXF - 187",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/paleteira-vu1r",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de paleteira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -17164,7 +17164,7 @@
       "id": "cad_188",
       "nome": "Engrenagem SLDPRT - 188",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/engrenagem-w05q",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de engrenagem em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -17173,7 +17173,7 @@
       "id": "cad_189",
       "nome": "Manometro SLDASM - 189",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/manometro-w69p",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de manometro em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -17182,7 +17182,7 @@
       "id": "cad_190",
       "nome": "Cilindro Pneumatico IPT - 190",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/cilindro-pneumatico-wcdo",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de cilindro pneumatico em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -17191,7 +17191,7 @@
       "id": "cad_191",
       "nome": "Coluna IAM - 191",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/coluna-wihn",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de coluna em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -17200,7 +17200,7 @@
       "id": "cad_192",
       "nome": "Fundacao SAT - 192",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/fundacao-wolm",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -17209,7 +17209,7 @@
       "id": "cad_193",
       "nome": "Contator BREP - 193",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/contator-wupl",
+      "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
       "descricao": "Modelo CAD publico de contator em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -17218,7 +17218,7 @@
       "id": "cad_194",
       "nome": "Cotovelo 90 3DM - 194",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/cotovelo-90-x0tk",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de cotovelo 90 em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -17227,7 +17227,7 @@
       "id": "cad_195",
       "nome": "Gabarito RVT - 195",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/gabarito-x6xj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de gabarito em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -17236,7 +17236,7 @@
       "id": "cad_196",
       "nome": "Esteira Transportadora DWF - 196",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/esteira-transportadora-xd1i",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de esteira transportadora em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -17245,7 +17245,7 @@
       "id": "cad_197",
       "nome": "Painel de Controle STEP - 197",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/painel-de-controle-xj5h",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de painel de controle em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -17254,7 +17254,7 @@
       "id": "cad_198",
       "nome": "Guindaste IGES - 198",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/guindaste-xp9g",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de guindaste em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -17263,7 +17263,7 @@
       "id": "cad_199",
       "nome": "Pino STL - 199",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/pino-xvdf",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de pino em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -17272,7 +17272,7 @@
       "id": "cad_200",
       "nome": "Conexao Rapida DWG - 200",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/conexão-rapida-y1he",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de conexão rapida em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -17281,7 +17281,7 @@
       "id": "cad_201",
       "nome": "Unidade de Condicionamento DXF - 201",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/unidade-de-condicionamento-y7ld",
+      "url": "https://grabcad.com/library/gear-assembly-spur-gear-train-assembly-with-kinematic-setup-3d-cad-model-1",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -17290,7 +17290,7 @@
       "id": "cad_202",
       "nome": "Cantoneira SLDPRT - 202",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/cantoneira-ydpc",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de cantoneira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -17299,7 +17299,7 @@
       "id": "cad_203",
       "nome": "Janela SLDASM - 203",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/janela-yjtb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -17308,7 +17308,7 @@
       "id": "cad_204",
       "nome": "Fonte de Alimentacao IPT - 204",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/fonte-de-alimentacao-ypxa",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de fonte de alimentacao em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -17317,7 +17317,7 @@
       "id": "cad_205",
       "nome": "Flange IAM - 205",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/flange-yw19",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de flange em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -17326,7 +17326,7 @@
       "id": "cad_206",
       "nome": "Dispositivo de Torneamento SAT - 206",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/dispositivo-de-torneamento-z258",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de dispositivo de torneamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -17335,7 +17335,7 @@
       "id": "cad_207",
       "nome": "Rosqueadeira BREP - 207",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/rosqueadeira-z897",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de rosqueadeira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -17344,7 +17344,7 @@
       "id": "cad_208",
       "nome": "Bancada de Trabalho 3DM - 208",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/bancada-de-trabalho-zed6",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de bancada de trabalho em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -17353,7 +17353,7 @@
       "id": "cad_209",
       "nome": "Plataforma Elevatoria RVT - 209",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/plataforma-elevatoria-zkh5",
+      "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -17362,7 +17362,7 @@
       "id": "cad_210",
       "nome": "Correia DWF - 210",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/correia-zql4",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de correia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -17371,7 +17371,7 @@
       "id": "cad_211",
       "nome": "Mangueira STEP - 211",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/mangueira-zwp3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de mangueira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -17380,7 +17380,7 @@
       "id": "cad_212",
       "nome": "Mangueira Pneumatica IGES - 212",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/mangueira-pneumatica-102t2",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de mangueira pneumatica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -17389,7 +17389,7 @@
       "id": "cad_213",
       "nome": "Barra Chata STL - 213",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/barra-chata-108x1",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de barra chata em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -17398,7 +17398,7 @@
       "id": "cad_214",
       "nome": "Telhado DWG - 214",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/telhado-10f10",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -17407,7 +17407,7 @@
       "id": "cad_215",
       "nome": "Servomotor DXF - 215",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/servomotor-10l4z",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de servomotor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -17416,7 +17416,7 @@
       "id": "cad_216",
       "nome": "Nipple SLDPRT - 216",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/nipple-10r8y",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de nipple em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -17425,7 +17425,7 @@
       "id": "cad_217",
       "nome": "Dispositivo de Fresamento SLDASM - 217",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/dispositivo-de-fresamento-10xcx",
+      "url": "https://grabcad.com/library/differential-unit-3",
       "descricao": "Modelo CAD publico de dispositivo de fresamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -17434,7 +17434,7 @@
       "id": "cad_218",
       "nome": "Misturador Industrial IPT - 218",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/misturador-industrial-113gw",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de misturador industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -17443,7 +17443,7 @@
       "id": "cad_219",
       "nome": "Pallet IAM - 219",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/pallet-119kv",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de pallet em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -17452,7 +17452,7 @@
       "id": "cad_220",
       "nome": "Reboque Industrial SAT - 220",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/reboque-industrial-11fou",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de reboque industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -17461,7 +17461,7 @@
       "id": "cad_221",
       "nome": "Fuso BREP - 221",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/fuso-11lst",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de fuso em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -17470,7 +17470,7 @@
       "id": "cad_222",
       "nome": "Filtro Hidraulico 3DM - 222",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/filtro-hidraulico-11rws",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de filtro hidraulico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -17479,7 +17479,7 @@
       "id": "cad_223",
       "nome": "Silenciador RVT - 223",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/silenciador-11y0r",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de silenciador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -17488,7 +17488,7 @@
       "id": "cad_224",
       "nome": "Perfil L DWF - 224",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/perfil-l-1244q",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de perfil l em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -17497,7 +17497,7 @@
       "id": "cad_225",
       "nome": "Planta Baixa STEP - 225",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/planta-baixa-12a8p",
+      "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
       "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -17506,7 +17506,7 @@
       "id": "cad_226",
       "nome": "Sensor de Proximidade IGES - 226",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/sensor-de-proximidade-12gco",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de sensor de proximidade em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -17515,7 +17515,7 @@
       "id": "cad_227",
       "nome": "Bocal STL - 227",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/bocal-12mgn",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de bocal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -17524,7 +17524,7 @@
       "id": "cad_228",
       "nome": "Mesa Rotativa DWG - 228",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/mesa-rotativa-12skm",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de mesa rotativa em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -17533,7 +17533,7 @@
       "id": "cad_229",
       "nome": "Compressor DXF - 229",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/compressor-12yol",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de compressor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -17542,7 +17542,7 @@
       "id": "cad_230",
       "nome": "Armario para Ferramentas SLDPRT - 230",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/armario-para-ferramentas-134sk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de armario para ferramentas em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -17551,7 +17551,7 @@
       "id": "cad_231",
       "nome": "Carrinho Transportador SLDASM - 231",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/carrinho-transportador-13awj",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de carrinho transportador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -17560,7 +17560,7 @@
       "id": "cad_232",
       "nome": "Mola IPT - 232",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/mola-13h0i",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de mola em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -17569,7 +17569,7 @@
       "id": "cad_233",
       "nome": "Reservatorio IAM - 233",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/reservatorio-13n4h",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de reservatorio em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -17578,7 +17578,7 @@
       "id": "cad_234",
       "nome": "Lubrificador SAT - 234",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/lubrificador-13t8g",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de lubrificador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -17587,7 +17587,7 @@
       "id": "cad_235",
       "nome": "Viga I BREP - 235",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/viga-i-13zcf",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de viga i em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -17596,7 +17596,7 @@
       "id": "cad_236",
       "nome": "Rampa 3DM - 236",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/rampa-145ge",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -17605,7 +17605,7 @@
       "id": "cad_237",
       "nome": "Transformador RVT - 237",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/transformador-14bkd",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de transformador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
@@ -17614,7 +17614,7 @@
       "id": "cad_238",
       "nome": "Spool DWF - 238",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/spool-14hoc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de spool em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
@@ -17623,7 +17623,7 @@
       "id": "cad_239",
       "nome": "Divisor Universal STEP - 239",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/divisor-universal-14nsb",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de divisor universal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
@@ -17632,7 +17632,7 @@
       "id": "cad_240",
       "nome": "Bomba Centrifuga IGES - 240",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/bomba-centrifuga-14twa",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de bomba centrifuga em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "PartCommunity"
@@ -17641,7 +17641,7 @@
       "id": "cad_241",
       "nome": "Cadeira STL - 241",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/cadeira-15009",
+      "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
       "descricao": "Modelo CAD publico de cadeira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
@@ -17650,7 +17650,7 @@
       "id": "cad_242",
       "nome": "Empilhadeira DWG - 242",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/empilhadeira-15648",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de empilhadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Veiculos e Transporte",
       "fonte": "TraceParts"
@@ -17659,7 +17659,7 @@
       "id": "cad_243",
       "nome": "Polia DXF - 243",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/polia-15c87",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de polia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Pecas Mecanicas",
       "fonte": "3D ContentCentral"
@@ -17668,7 +17668,7 @@
       "id": "cad_244",
       "nome": "Bomba Hidraulica SLDPRT - 244",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/bomba-hidraulica-15ic6",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de bomba hidraulica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
@@ -17677,7 +17677,7 @@
       "id": "cad_245",
       "nome": "Valvula Solenoide SLDASM - 245",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/valvula-solenoide-15og5",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de valvula solenoide em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
@@ -17686,7 +17686,7 @@
       "id": "cad_246",
       "nome": "Bracket IPT - 246",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/bracket-15uk4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de bracket em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
@@ -17695,7 +17695,7 @@
       "id": "cad_247",
       "nome": "Laje IAM - 247",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/laje-160o3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
@@ -17704,7 +17704,7 @@
       "id": "cad_248",
       "nome": "Quadro Eletrico SAT - 248",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/quadro-eletrico-166s2",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de quadro eletrico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
@@ -17713,7 +17713,7 @@
       "id": "cad_249",
       "nome": "Junta de Expansao BREP - 249",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/junta-de-expansao-16cw1",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de junta de expansao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
@@ -17722,7 +17722,7 @@
       "id": "cad_250",
       "nome": "Mandril 3DM - 250",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/mandril-16j00",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de mandril em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
@@ -17731,7 +17731,7 @@
       "id": "cad_251",
       "nome": "Prensa Hidraulica RVT - 251",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/prensa-hidraulica-16p3z",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de prensa hidraulica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "3D ContentCentral"
@@ -17740,7 +17740,7 @@
       "id": "cad_252",
       "nome": "Cabine de Seguranca DWF - 252",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/cabine-de-seguranca-16v7y",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de cabine de seguranca em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
@@ -17749,7 +17749,7 @@
       "id": "cad_253",
       "nome": "Paleteira STEP - 253",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/paleteira-171bx",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de paleteira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Veiculos e Transporte",
       "fonte": "BIMobject"
@@ -17758,7 +17758,7 @@
       "id": "cad_254",
       "nome": "Guia Linear IGES - 254",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/guia-linear-177fw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de guia linear em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Pecas Mecanicas",
       "fonte": "CADdetails"
@@ -17767,7 +17767,7 @@
       "id": "cad_255",
       "nome": "Valvula de Alivio STL - 255",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/valvula-de-alivio-17djv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de valvula de alivio em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
@@ -17776,7 +17776,7 @@
       "id": "cad_256",
       "nome": "Atuador Pneumatico DWG - 256",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/atuador-pneumatico-17jnu",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de atuador pneumatico em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
@@ -17785,7 +17785,7 @@
       "id": "cad_257",
       "nome": "Base Metalica DXF - 257",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/base-metalica-17prt",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de base metalica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
@@ -17794,7 +17794,7 @@
       "id": "cad_258",
       "nome": "Porta SLDPRT - 258",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/porta-17vvs",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
@@ -17803,7 +17803,7 @@
       "id": "cad_259",
       "nome": "Chave Fim de Curso SLDASM - 259",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/chave-fim-de-curso-181zr",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de chave fim de curso em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
@@ -17812,7 +17812,7 @@
       "id": "cad_260",
       "nome": "Valvula Retencao IPT - 260",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/valvula-retencao-1883q",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de valvula retencao em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
@@ -17821,7 +17821,7 @@
       "id": "cad_261",
       "nome": "Morsa IAM - 261",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/morsa-18e7p",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de morsa em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
@@ -17830,7 +17830,7 @@
       "id": "cad_262",
       "nome": "Torno Mecanico SAT - 262",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/torno-mecanico-18kbo",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de torno mecanico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "CADdetails"
@@ -17839,7 +17839,7 @@
       "id": "cad_263",
       "nome": "Estante Industrial BREP - 263",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/estante-industrial-18qfn",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de estante industrial em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
@@ -17848,7 +17848,7 @@
       "id": "cad_264",
       "nome": "Guindaste 3DM - 264",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/guindaste-18wjm",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de guindaste em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Veiculos e Transporte",
       "fonte": "PartCommunity"
@@ -17857,7 +17857,7 @@
       "id": "cad_265",
       "nome": "Arruela RVT - 265",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/arruela-192nl",
+      "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
       "descricao": "Modelo CAD publico de arruela em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -17866,7 +17866,7 @@
       "id": "cad_266",
       "nome": "Valvula Direcional DWF - 266",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/valvula-direcional-198rk",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de valvula direcional em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -17875,7 +17875,7 @@
       "id": "cad_267",
       "nome": "Conexao Pneumatica STEP - 267",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/conexão-pneumatica-19evj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de conexão pneumatica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -17884,7 +17884,7 @@
       "id": "cad_268",
       "nome": "Trelica IGES - 268",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/trelica-19kzi",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de trelica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -17893,7 +17893,7 @@
       "id": "cad_269",
       "nome": "Fachada STL - 269",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/fachada-19r3h",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -17902,7 +17902,7 @@
       "id": "cad_270",
       "nome": "Rele DWG - 270",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/rele-19x7g",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de rele em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -17911,7 +17911,7 @@
       "id": "cad_271",
       "nome": "Valvula Gaveta DXF - 271",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/valvula-gaveta-1a3bf",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de valvula gaveta em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -17920,7 +17920,7 @@
       "id": "cad_272",
       "nome": "Grampo SLDPRT - 272",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/grampo-1a9fe",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de grampo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -17929,7 +17929,7 @@
       "id": "cad_273",
       "nome": "Fresadora SLDASM - 273",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/fresadora-1afjd",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de fresadora em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -17938,7 +17938,7 @@
       "id": "cad_274",
       "nome": "Rack IPT - 274",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/rack-1alnc",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de rack em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -17947,7 +17947,7 @@
       "id": "cad_275",
       "nome": "Plataforma Elevatoria IAM - 275",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/plataforma-elevatoria-1arrb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -17956,7 +17956,7 @@
       "id": "cad_276",
       "nome": "Rolamento SAT - 276",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/rolamento-1axva",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de rolamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -17965,7 +17965,7 @@
       "id": "cad_277",
       "nome": "Cilindro Hidraulico BREP - 277",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/cilindro-hidraulico-1b3z9",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de cilindro hidraulico em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -17974,7 +17974,7 @@
       "id": "cad_278",
       "nome": "Regulador de Pressao 3DM - 278",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/regulador-de-pressao-1ba38",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de regulador de pressao em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -17983,7 +17983,7 @@
       "id": "cad_279",
       "nome": "Tubo Estrutural RVT - 279",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/tubo-estrutural-1bg77",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de tubo estrutural em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -17992,7 +17992,7 @@
       "id": "cad_280",
       "nome": "Marquise DWF - 280",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/marquise-1bmb6",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -18001,7 +18001,7 @@
       "id": "cad_281",
       "nome": "Inversor de Frequencia STEP - 281",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/inversor-de-frequencia-1bsf5",
+      "url": "https://grabcad.com/library/truck-loading-conveyor-4",
       "descricao": "Modelo CAD publico de inversor de frequencia em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -18010,7 +18010,7 @@
       "id": "cad_282",
       "nome": "Valvula Esfera IGES - 282",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/valvula-esfera-1byj4",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de valvula esfera em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -18019,7 +18019,7 @@
       "id": "cad_283",
       "nome": "Calibrador STL - 283",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/calibrador-1c4n3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de calibrador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -18028,7 +18028,7 @@
       "id": "cad_284",
       "nome": "Retifica DWG - 284",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/retifica-1car2",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de retifica em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -18037,7 +18037,7 @@
       "id": "cad_285",
       "nome": "Mesa de Inspecao DXF - 285",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/mesa-de-inspecao-1cgv1",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de mesa de inspecao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -18046,7 +18046,7 @@
       "id": "cad_286",
       "nome": "Reboque Industrial SLDPRT - 286",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/reboque-industrial-1cmz0",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de reboque industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -18055,7 +18055,7 @@
       "id": "cad_287",
       "nome": "Bucha SLDASM - 287",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/bucha-1ct2z",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de bucha em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -18064,7 +18064,7 @@
       "id": "cad_288",
       "nome": "Distribuidor IPT - 288",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/distribuidor-1cz6y",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de distribuidor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -18073,7 +18073,7 @@
       "id": "cad_289",
       "nome": "Cilindro Pneumatico IAM - 289",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/cilindro-pneumatico-1d5ax",
+      "url": "https://grabcad.com/library/brutal-diy-lathe-1",
       "descricao": "Modelo CAD publico de cilindro pneumatico em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -18082,7 +18082,7 @@
       "id": "cad_290",
       "nome": "Perfil T SAT - 290",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/perfil-t-1dbew",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de perfil t em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -18091,7 +18091,7 @@
       "id": "cad_291",
       "nome": "Cobertura BREP - 291",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/cobertura-1dhiv",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -18100,7 +18100,7 @@
       "id": "cad_292",
       "nome": "Atuador Linear 3DM - 292",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/atuador-linear-1dnmu",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de atuador linear em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -18109,7 +18109,7 @@
       "id": "cad_293",
       "nome": "Curva RVT - 293",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/curva-1dtqt",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de curva em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -18118,7 +18118,7 @@
       "id": "cad_294",
       "nome": "Suporte de Fixacao DWF - 294",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/suporte-de-fixacao-1dzus",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de suporte de fixacao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -18127,7 +18127,7 @@
       "id": "cad_295",
       "nome": "Furadeira de Bancada STEP - 295",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/furadeira-de-bancada-1e5yr",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de furadeira de bancada em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -18136,7 +18136,7 @@
       "id": "cad_296",
       "nome": "Painel de Controle IGES - 296",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/painel-de-controle-1ec2q",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de painel de controle em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -18145,7 +18145,7 @@
       "id": "cad_297",
       "nome": "Carrinho Transportador STL - 297",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/carrinho-transportador-1ei6p",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de carrinho transportador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -18154,7 +18154,7 @@
       "id": "cad_298",
       "nome": "Porca DWG - 298",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/porca-1eoao",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de porca em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -18163,7 +18163,7 @@
       "id": "cad_299",
       "nome": "Atuador Rotativo DXF - 299",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/atuador-rotativo-1euen",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de atuador rotativo em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -18172,7 +18172,7 @@
       "id": "cad_300",
       "nome": "Unidade de Condicionamento SLDPRT - 300",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/unidade-de-condicionamento-1f0im",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -18181,7 +18181,7 @@
       "id": "cad_301",
       "nome": "Perfil U SLDASM - 301",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/perfil-u-1f6ml",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de perfil u em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -18190,7 +18190,7 @@
       "id": "cad_302",
       "nome": "Pilar IPT - 302",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/pilar-1fcqk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -18199,7 +18199,7 @@
       "id": "cad_303",
       "nome": "Motor Eletrico IAM - 303",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/motor-eletrico-1fiuj",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de motor eletrico em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -18208,7 +18208,7 @@
       "id": "cad_304",
       "nome": "Reducao SAT - 304",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/redução-1foyi",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de redução em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -18217,7 +18217,7 @@
       "id": "cad_305",
       "nome": "Gabarito BREP - 305",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/gabarito-1fv2h",
+      "url": "https://grabcad.com/library/conveyor-belt-142",
       "descricao": "Modelo CAD publico de gabarito em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -18226,7 +18226,7 @@
       "id": "cad_306",
       "nome": "Esteira Transportadora 3DM - 306",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/esteira-transportadora-1g16g",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de esteira transportadora em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -18235,7 +18235,7 @@
       "id": "cad_307",
       "nome": "Bancada de Trabalho RVT - 307",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/bancada-de-trabalho-1g7af",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de bancada de trabalho em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -18244,7 +18244,7 @@
       "id": "cad_308",
       "nome": "Empilhadeira DWF - 308",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/empilhadeira-1gdee",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de empilhadeira em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -18253,7 +18253,7 @@
       "id": "cad_309",
       "nome": "Mancal STEP - 309",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/mancal-1gjid",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de mancal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -18262,7 +18262,7 @@
       "id": "cad_310",
       "nome": "Acumulador IGES - 310",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/acumulador-1gpmc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de acumulador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -18271,7 +18271,7 @@
       "id": "cad_311",
       "nome": "Mangueira Pneumatica STL - 311",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/mangueira-pneumatica-1gvqb",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de mangueira pneumatica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -18280,7 +18280,7 @@
       "id": "cad_312",
       "nome": "Chapa de Reforco DWG - 312",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/chapa-de-reforco-1h1ua",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de chapa de reforco em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -18289,7 +18289,7 @@
       "id": "cad_313",
       "nome": "Escada DXF - 313",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/escada-1h7y9",
+      "url": "https://grabcad.com/library/differential-unit-3",
       "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -18298,7 +18298,7 @@
       "id": "cad_314",
       "nome": "Disjuntor SLDPRT - 314",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/disjuntor-1he28",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de disjuntor em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -18307,7 +18307,7 @@
       "id": "cad_315",
       "nome": "Te SLDASM - 315",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/te-1hk67",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de te em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -18316,7 +18316,7 @@
       "id": "cad_316",
       "nome": "Dispositivo de Torneamento IPT - 316",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/dispositivo-de-torneamento-1hqa6",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de dispositivo de torneamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -18325,7 +18325,7 @@
       "id": "cad_317",
       "nome": "Rosqueadeira IAM - 317",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/rosqueadeira-1hwe5",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de rosqueadeira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -18334,7 +18334,7 @@
       "id": "cad_318",
       "nome": "Pallet SAT - 318",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/pallet-1i2i4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de pallet em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -18343,7 +18343,7 @@
       "id": "cad_319",
       "nome": "Paleteira BREP - 319",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/paleteira-1i8m3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de paleteira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -18352,7 +18352,7 @@
       "id": "cad_320",
       "nome": "Anel Elastico 3DM - 320",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/anel-elastico-1ieq2",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de anel elastico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -18361,7 +18361,7 @@
       "id": "cad_321",
       "nome": "Manometro RVT - 321",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/manometro-1iku1",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de manometro em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -18370,7 +18370,7 @@
       "id": "cad_322",
       "nome": "Silenciador DWF - 322",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/silenciador-1iqy0",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de silenciador em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -18379,7 +18379,7 @@
       "id": "cad_323",
       "nome": "Suporte STEP - 323",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/suporte-1ix1z",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de suporte em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -18388,7 +18388,7 @@
       "id": "cad_324",
       "nome": "Corte Transversal IGES - 324",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/corte-transversal-1j35y",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -18397,7 +18397,7 @@
       "id": "cad_325",
       "nome": "Encoder STL - 325",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/encoder-1j99x",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de encoder em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
@@ -18406,7 +18406,7 @@
       "id": "cad_326",
       "nome": "Cotovelo 90 DWG - 326",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/cotovelo-90-1jfdw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de cotovelo 90 em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
@@ -18415,7 +18415,7 @@
       "id": "cad_327",
       "nome": "Dispositivo de Fresamento DXF - 327",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/dispositivo-de-fresamento-1jlhv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de dispositivo de fresamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
@@ -18424,7 +18424,7 @@
       "id": "cad_328",
       "nome": "Misturador Industrial SLDPRT - 328",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/misturador-industrial-1jrlu",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de misturador industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "PartCommunity"
@@ -18433,7 +18433,7 @@
       "id": "cad_329",
       "nome": "Armario para Ferramentas SLDASM - 329",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/armario-para-ferramentas-1jxpt",
+      "url": "https://grabcad.com/library/spur-gear-assembly-14",
       "descricao": "Modelo CAD publico de armario para ferramentas em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
@@ -18442,7 +18442,7 @@
       "id": "cad_330",
       "nome": "Guindaste IPT - 330",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/guindaste-1k3ts",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de guindaste em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Veiculos e Transporte",
       "fonte": "TraceParts"
@@ -18451,7 +18451,7 @@
       "id": "cad_331",
       "nome": "Parafuso IAM - 331",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/parafuso-1k9xr",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de parafuso em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Pecas Mecanicas",
       "fonte": "3D ContentCentral"
@@ -18460,7 +18460,7 @@
       "id": "cad_332",
       "nome": "Conexao Rapida SAT - 332",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/conexão-rapida-1kg1q",
+      "url": "https://www.mcmaster.com/product/94205A260",
       "descricao": "Modelo CAD publico de conexão rapida em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
@@ -18469,7 +18469,7 @@
       "id": "cad_333",
       "nome": "Lubrificador BREP - 333",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/lubrificador-1km5p",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de lubrificador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
@@ -18478,7 +18478,7 @@
       "id": "cad_334",
       "nome": "Coluna 3DM - 334",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/coluna-1ks9o",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de coluna em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
@@ -18487,7 +18487,7 @@
       "id": "cad_335",
       "nome": "Sacada RVT - 335",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/sacada-1kydn",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
@@ -18496,7 +18496,7 @@
       "id": "cad_336",
       "nome": "Contator DWF - 336",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/contator-1l4hm",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de contator em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
@@ -18505,7 +18505,7 @@
       "id": "cad_337",
       "nome": "Flange STEP - 337",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/flange-1lall",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de flange em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
@@ -18514,7 +18514,7 @@
       "id": "cad_338",
       "nome": "Mesa Rotativa IGES - 338",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/mesa-rotativa-1lgpk",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de mesa rotativa em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
@@ -18523,7 +18523,7 @@
       "id": "cad_339",
       "nome": "Compressor STL - 339",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/compressor-1lmtj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de compressor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "3D ContentCentral"
@@ -18532,7 +18532,7 @@
       "id": "cad_340",
       "nome": "Cadeira DWG - 340",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/cadeira-1lsxi",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de cadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
@@ -18541,7 +18541,7 @@
       "id": "cad_341",
       "nome": "Plataforma Elevatoria DXF - 341",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/plataforma-elevatoria-1lz1h",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Veiculos e Transporte",
       "fonte": "BIMobject"
@@ -18550,7 +18550,7 @@
       "id": "cad_342",
       "nome": "Eixo SLDPRT - 342",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/eixo-1m55g",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de eixo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Pecas Mecanicas",
       "fonte": "CADdetails"
@@ -18559,7 +18559,7 @@
       "id": "cad_343",
       "nome": "Mangueira SLDASM - 343",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/mangueira-1mb9f",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de mangueira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
@@ -18568,7 +18568,7 @@
       "id": "cad_344",
       "nome": "Valvula Solenoide IPT - 344",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/valvula-solenoide-1mhde",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de valvula solenoide em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
@@ -18577,7 +18577,7 @@
       "id": "cad_345",
       "nome": "Cantoneira IAM - 345",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/cantoneira-1mnhd",
+      "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
       "descricao": "Modelo CAD publico de cantoneira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
@@ -18586,7 +18586,7 @@
       "id": "cad_346",
       "nome": "Fundacao SAT - 346",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/fundacao-1mtlc",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
@@ -18595,7 +18595,7 @@
       "id": "cad_347",
       "nome": "Fonte de Alimentacao BREP - 347",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/fonte-de-alimentacao-1mzpb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de fonte de alimentacao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
@@ -18604,7 +18604,7 @@
       "id": "cad_348",
       "nome": "Nipple 3DM - 348",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/nipple-1n5ta",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de nipple em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
@@ -18613,7 +18613,7 @@
       "id": "cad_349",
       "nome": "Divisor Universal RVT - 349",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/divisor-universal-1nbx9",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de divisor universal em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
@@ -18622,7 +18622,7 @@
       "id": "cad_350",
       "nome": "Bomba Centrifuga DWF - 350",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/bomba-centrifuga-1ni18",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de bomba centrifuga em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "CADdetails"
@@ -18631,7 +18631,7 @@
       "id": "cad_351",
       "nome": "Cabine de Seguranca STEP - 351",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/cabine-de-seguranca-1no57",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de cabine de seguranca em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
@@ -18640,7 +18640,7 @@
       "id": "cad_352",
       "nome": "Reboque Industrial IGES - 352",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/reboque-industrial-1nu96",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de reboque industrial em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Veiculos e Transporte",
       "fonte": "PartCommunity"
@@ -18649,7 +18649,7 @@
       "id": "cad_353",
       "nome": "Chaveta STL - 353",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/chaveta-1o0d5",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de chaveta em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -18658,7 +18658,7 @@
       "id": "cad_354",
       "nome": "Filtro Hidraulico DWG - 354",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/filtro-hidraulico-1o6h4",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de filtro hidraulico em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -18667,7 +18667,7 @@
       "id": "cad_355",
       "nome": "Atuador Pneumatico DXF - 355",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/atuador-pneumatico-1ocl3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de atuador pneumatico em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -18676,7 +18676,7 @@
       "id": "cad_356",
       "nome": "Barra Chata SLDPRT - 356",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/barra-chata-1oip2",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de barra chata em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -18685,7 +18685,7 @@
       "id": "cad_357",
       "nome": "Janela SLDASM - 357",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/janela-1oot1",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -18694,7 +18694,7 @@
       "id": "cad_358",
       "nome": "Servomotor IPT - 358",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/servomotor-1oux0",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de servomotor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -18703,7 +18703,7 @@
       "id": "cad_359",
       "nome": "Bocal IAM - 359",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/bocal-1p10z",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de bocal em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -18712,7 +18712,7 @@
       "id": "cad_360",
       "nome": "Mandril SAT - 360",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/mandril-1p74y",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de mandril em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -18721,7 +18721,7 @@
       "id": "cad_361",
       "nome": "Prensa Hidraulica BREP - 361",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/prensa-hidraulica-1pd8x",
+      "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
       "descricao": "Modelo CAD publico de prensa hidraulica em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -18730,7 +18730,7 @@
       "id": "cad_362",
       "nome": "Estante Industrial 3DM - 362",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/estante-industrial-1pjcw",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de estante industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -18739,7 +18739,7 @@
       "id": "cad_363",
       "nome": "Carrinho Transportador RVT - 363",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/carrinho-transportador-1ppgv",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de carrinho transportador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -18748,7 +18748,7 @@
       "id": "cad_364",
       "nome": "Acoplamento DWF - 364",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/acoplamento-1pvku",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de acoplamento em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -18757,7 +18757,7 @@
       "id": "cad_365",
       "nome": "Reservatorio STEP - 365",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/reservatorio-1q1ot",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de reservatorio em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -18766,7 +18766,7 @@
       "id": "cad_366",
       "nome": "Conexao Pneumatica IGES - 366",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/conexão-pneumatica-1q7ss",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de conexão pneumatica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -18775,7 +18775,7 @@
       "id": "cad_367",
       "nome": "Perfil L STL - 367",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/perfil-l-1qdwr",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de perfil l em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -18784,7 +18784,7 @@
       "id": "cad_368",
       "nome": "Telhado DWG - 368",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/telhado-1qk0q",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -18793,7 +18793,7 @@
       "id": "cad_369",
       "nome": "Sensor de Proximidade DXF - 369",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/sensor-de-proximidade-1qq4p",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de sensor de proximidade em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -18802,7 +18802,7 @@
       "id": "cad_370",
       "nome": "Spool SLDPRT - 370",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/spool-1qw8o",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de spool em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -18811,7 +18811,7 @@
       "id": "cad_371",
       "nome": "Morsa SLDASM - 371",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/morsa-1r2cn",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de morsa em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -18820,7 +18820,7 @@
       "id": "cad_372",
       "nome": "Torno Mecanico IPT - 372",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/torno-mecanico-1r8gm",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de torno mecanico em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -18829,7 +18829,7 @@
       "id": "cad_373",
       "nome": "Rack IAM - 373",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/rack-1rekl",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de rack em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -18838,7 +18838,7 @@
       "id": "cad_374",
       "nome": "Empilhadeira SAT - 374",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/empilhadeira-1rkok",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de empilhadeira em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -18847,7 +18847,7 @@
       "id": "cad_375",
       "nome": "Engrenagem BREP - 375",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/engrenagem-1rqsj",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de engrenagem em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -18856,7 +18856,7 @@
       "id": "cad_376",
       "nome": "Bomba Hidraulica 3DM - 376",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/bomba-hidraulica-1rwwi",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de bomba hidraulica em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -18865,7 +18865,7 @@
       "id": "cad_377",
       "nome": "Regulador de Pressao RVT - 377",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/regulador-de-pressao-1s30h",
+      "url": "https://grabcad.com/library/brutal-diy-lathe-1",
       "descricao": "Modelo CAD publico de regulador de pressao em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -18874,7 +18874,7 @@
       "id": "cad_378",
       "nome": "Viga I DWF - 378",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/viga-i-1s94g",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de viga i em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -18883,7 +18883,7 @@
       "id": "cad_379",
       "nome": "Planta Baixa STEP - 379",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/planta-baixa-1sf8f",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -18892,7 +18892,7 @@
       "id": "cad_380",
       "nome": "Transformador IGES - 380",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/transformador-1slce",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de transformador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -18901,7 +18901,7 @@
       "id": "cad_381",
       "nome": "Junta de Expansao STL - 381",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/junta-de-expansao-1srgd",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de junta de expansao em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -18910,7 +18910,7 @@
       "id": "cad_382",
       "nome": "Grampo DWG - 382",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/grampo-1sxkc",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de grampo em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -18919,7 +18919,7 @@
       "id": "cad_383",
       "nome": "Fresadora DXF - 383",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/fresadora-1t3ob",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de fresadora em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -18928,7 +18928,7 @@
       "id": "cad_384",
       "nome": "Mesa de Inspecao SLDPRT - 384",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/mesa-de-inspecao-1t9sa",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de mesa de inspecao em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -18937,7 +18937,7 @@
       "id": "cad_385",
       "nome": "Paleteira SLDASM - 385",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/paleteira-1tfw9",
+      "url": "https://grabcad.com/library/cnc-router-92",
       "descricao": "Modelo CAD publico de paleteira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -18946,7 +18946,7 @@
       "id": "cad_386",
       "nome": "Pino IPT - 386",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/pino-1tm08",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de pino em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -18955,7 +18955,7 @@
       "id": "cad_387",
       "nome": "Valvula de Alivio IAM - 387",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/valvula-de-alivio-1ts47",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
       "descricao": "Modelo CAD publico de valvula de alivio em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -18964,7 +18964,7 @@
       "id": "cad_388",
       "nome": "Cilindro Pneumatico SAT - 388",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/cilindro-pneumatico-1ty86",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de cilindro pneumatico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -18973,7 +18973,7 @@
       "id": "cad_389",
       "nome": "Bracket BREP - 389",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/bracket-1u4c5",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de bracket em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -18982,7 +18982,7 @@
       "id": "cad_390",
       "nome": "Rampa 3DM - 390",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/rampa-1uag4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -18991,7 +18991,7 @@
       "id": "cad_391",
       "nome": "Quadro Eletrico RVT - 391",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/quadro-eletrico-1ugk3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de quadro eletrico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -19000,7 +19000,7 @@
       "id": "cad_392",
       "nome": "Valvula Retencao DWF - 392",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/valvula-retencao-1umo2",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de valvula retencao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -19009,7 +19009,7 @@
       "id": "cad_393",
       "nome": "Calibrador STEP - 393",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/calibrador-1uss1",
+      "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
       "descricao": "Modelo CAD publico de calibrador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -19018,7 +19018,7 @@
       "id": "cad_394",
       "nome": "Retifica IGES - 394",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/retifica-1uyw0",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de retifica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -19027,7 +19027,7 @@
       "id": "cad_395",
       "nome": "Painel de Controle STL - 395",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/painel-de-controle-1v4zz",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de painel de controle em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -19036,7 +19036,7 @@
       "id": "cad_396",
       "nome": "Guindaste DWG - 396",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/guindaste-1vb3y",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de guindaste em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -19045,7 +19045,7 @@
       "id": "cad_397",
       "nome": "Correia DXF - 397",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/correia-1vh7x",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de correia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -19054,7 +19054,7 @@
       "id": "cad_398",
       "nome": "Valvula Direcional SLDPRT - 398",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/valvula-direcional-1vnbw",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de valvula direcional em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -19063,7 +19063,7 @@
       "id": "cad_399",
       "nome": "Unidade de Condicionamento SLDASM - 399",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/unidade-de-condicionamento-1vtfv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -19072,7 +19072,7 @@
       "id": "cad_400",
       "nome": "Base Metalica IPT - 400",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/base-metalica-1vzju",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de base metalica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -19081,7 +19081,7 @@
       "id": "cad_401",
       "nome": "Laje IAM - 401",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/laje-1w5nt",
+      "url": "https://grabcad.com/library/brutal-diy-lathe-1",
       "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -19090,7 +19090,7 @@
       "id": "cad_402",
       "nome": "Chave Fim de Curso SAT - 402",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/chave-fim-de-curso-1wbrs",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de chave fim de curso em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -19099,7 +19099,7 @@
       "id": "cad_403",
       "nome": "Valvula Gaveta BREP - 403",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/valvula-gaveta-1whvr",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de valvula gaveta em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -19108,7 +19108,7 @@
       "id": "cad_404",
       "nome": "Suporte de Fixacao 3DM - 404",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/suporte-de-fixacao-1wnzq",
+      "url": "https://www.mcmaster.com/cad-models/",
       "descricao": "Modelo CAD publico de suporte de fixacao em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -19117,7 +19117,7 @@
       "id": "cad_405",
       "nome": "Furadeira de Bancada RVT - 405",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/furadeira-de-bancada-1wu3p",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de furadeira de bancada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -19126,7 +19126,7 @@
       "id": "cad_406",
       "nome": "Bancada de Trabalho DWF - 406",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/bancada-de-trabalho-1x07o",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de bancada de trabalho em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -19135,7 +19135,7 @@
       "id": "cad_407",
       "nome": "Plataforma Elevatoria STEP - 407",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/plataforma-elevatoria-1x6bn",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -19144,7 +19144,7 @@
       "id": "cad_408",
       "nome": "Fuso IGES - 408",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/fuso-1xcfm",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de fuso em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -19153,7 +19153,7 @@
       "id": "cad_409",
       "nome": "Cilindro Hidraulico STL - 409",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/cilindro-hidraulico-1xijl",
+      "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
       "descricao": "Modelo CAD publico de cilindro hidraulico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -19162,7 +19162,7 @@
       "id": "cad_410",
       "nome": "Mangueira Pneumatica DWG - 410",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/mangueira-pneumatica-1xonk",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de mangueira pneumatica em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -19171,7 +19171,7 @@
       "id": "cad_411",
       "nome": "Trelica DXF - 411",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/trelica-1xurj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de trelica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -19180,7 +19180,7 @@
       "id": "cad_412",
       "nome": "Porta SLDPRT - 412",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/porta-1y0vi",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -19189,7 +19189,7 @@
       "id": "cad_413",
       "nome": "Rele SLDASM - 413",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/rele-1y6zh",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de rele em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
@@ -19198,7 +19198,7 @@
       "id": "cad_414",
       "nome": "Valvula Esfera IPT - 414",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/valvula-esfera-1yd3g",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de valvula esfera em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
@@ -19207,7 +19207,7 @@
       "id": "cad_415",
       "nome": "Gabarito IAM - 415",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/gabarito-1yj7f",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de gabarito em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
@@ -19216,7 +19216,7 @@
       "id": "cad_416",
       "nome": "Esteira Transportadora SAT - 416",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/esteira-transportadora-1ypbe",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de esteira transportadora em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "PartCommunity"
@@ -19225,7 +19225,7 @@
       "id": "cad_417",
       "nome": "Pallet BREP - 417",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/pallet-1yvfd",
+      "url": "https://grabcad.com/library/truck-loading-conveyor-4",
       "descricao": "Modelo CAD publico de pallet em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
@@ -19234,7 +19234,7 @@
       "id": "cad_418",
       "nome": "Reboque Industrial 3DM - 418",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/reboque-industrial-1z1jc",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de reboque industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Veiculos e Transporte",
       "fonte": "TraceParts"
@@ -19243,7 +19243,7 @@
       "id": "cad_419",
       "nome": "Mola RVT - 419",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/mola-1z7nb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de mola em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Pecas Mecanicas",
       "fonte": "3D ContentCentral"
@@ -19252,7 +19252,7 @@
       "id": "cad_420",
       "nome": "Distribuidor DWF - 420",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/distribuidor-1zdra",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de distribuidor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
@@ -19261,7 +19261,7 @@
       "id": "cad_421",
       "nome": "Silenciador STEP - 421",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/silenciador-1zjv9",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de silenciador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
@@ -19270,7 +19270,7 @@
       "id": "cad_422",
       "nome": "Tubo Estrutural IGES - 422",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/tubo-estrutural-1zpz8",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de tubo estrutural em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
@@ -19279,7 +19279,7 @@
       "id": "cad_423",
       "nome": "Fachada STL - 423",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/fachada-1zw37",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
@@ -19288,7 +19288,7 @@
       "id": "cad_424",
       "nome": "Inversor de Frequencia DWG - 424",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/inversor-de-frequencia-20276",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de inversor de frequencia em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
@@ -19297,7 +19297,7 @@
       "id": "cad_425",
       "nome": "Curva DXF - 425",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/curva-208b5",
+      "url": "https://grabcad.com/library/spur-gear-assembly-14",
       "descricao": "Modelo CAD publico de curva em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
@@ -19306,7 +19306,7 @@
       "id": "cad_426",
       "nome": "Dispositivo de Torneamento SLDPRT - 426",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/dispositivo-de-torneamento-20ef4",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de dispositivo de torneamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
@@ -19315,7 +19315,7 @@
       "id": "cad_427",
       "nome": "Rosqueadeira SLDASM - 427",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/rosqueadeira-20kj3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de rosqueadeira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "3D ContentCentral"
@@ -19324,7 +19324,7 @@
       "id": "cad_428",
       "nome": "Armario para Ferramentas IPT - 428",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/armario-para-ferramentas-20qn2",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de armario para ferramentas em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
@@ -19333,7 +19333,7 @@
       "id": "cad_429",
       "nome": "Carrinho Transportador IAM - 429",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/carrinho-transportador-20wr1",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de carrinho transportador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Veiculos e Transporte",
       "fonte": "BIMobject"
@@ -19342,7 +19342,7 @@
       "id": "cad_430",
       "nome": "Polia SAT - 430",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/polia-212v0",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de polia em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Pecas Mecanicas",
       "fonte": "CADdetails"
@@ -19351,7 +19351,7 @@
       "id": "cad_431",
       "nome": "Atuador Rotativo BREP - 431",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/atuador-rotativo-218yz",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de atuador rotativo em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
@@ -19360,7 +19360,7 @@
       "id": "cad_432",
       "nome": "Lubrificador 3DM - 432",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/lubrificador-21f2y",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de lubrificador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
@@ -19369,7 +19369,7 @@
       "id": "cad_433",
       "nome": "Perfil T RVT - 433",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/perfil-t-21l6x",
+      "url": "https://grabcad.com/library/truck-loading-conveyor-4",
       "descricao": "Modelo CAD publico de perfil t em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
@@ -19378,7 +19378,7 @@
       "id": "cad_434",
       "nome": "Marquise DWF - 434",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/marquise-21raw",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
@@ -19387,7 +19387,7 @@
       "id": "cad_435",
       "nome": "Atuador Linear STEP - 435",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/atuador-linear-21xev",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de atuador linear em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
@@ -19396,7 +19396,7 @@
       "id": "cad_436",
       "nome": "Reducao IGES - 436",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/redução-223iu",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de redução em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
@@ -19405,7 +19405,7 @@
       "id": "cad_437",
       "nome": "Dispositivo de Fresamento STL - 437",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/dispositivo-de-fresamento-229mt",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de dispositivo de fresamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
@@ -19414,7 +19414,7 @@
       "id": "cad_438",
       "nome": "Misturador Industrial DWG - 438",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/misturador-industrial-22fqs",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de misturador industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "CADdetails"
@@ -19423,7 +19423,7 @@
       "id": "cad_439",
       "nome": "Cadeira DXF - 439",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/cadeira-22lur",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de cadeira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
@@ -19432,7 +19432,7 @@
       "id": "cad_440",
       "nome": "Empilhadeira SLDPRT - 440",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/empilhadeira-22ryq",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de empilhadeira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Veiculos e Transporte",
       "fonte": "PartCommunity"
@@ -19441,7 +19441,7 @@
       "id": "cad_441",
       "nome": "Guia Linear SLDASM - 441",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/guia-linear-22y2p",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de guia linear em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Pecas Mecanicas",
       "fonte": "GrabCAD"
@@ -19450,7 +19450,7 @@
       "id": "cad_442",
       "nome": "Acumulador IPT - 442",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/acumulador-2346o",
+      "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
       "descricao": "Modelo CAD publico de acumulador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
@@ -19459,7 +19459,7 @@
       "id": "cad_443",
       "nome": "Valvula Solenoide IAM - 443",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/valvula-solenoide-23aan",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de valvula solenoide em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
@@ -19468,7 +19468,7 @@
       "id": "cad_444",
       "nome": "Perfil U SAT - 444",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/perfil-u-23gem",
+      "url": "https://www.mcmaster.com/product/6091K58",
       "descricao": "Modelo CAD publico de perfil u em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
@@ -19477,7 +19477,7 @@
       "id": "cad_445",
       "nome": "Cobertura BREP - 445",
       "tipo": "BREP",
-      "url": "https://www.bimobject.com/cobertura-23mil",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
@@ -19486,7 +19486,7 @@
       "id": "cad_446",
       "nome": "Motor Eletrico 3DM - 446",
       "tipo": "3DM",
-      "url": "https://www.caddetails.com/motor-eletrico-23smk",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de motor eletrico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
@@ -19495,7 +19495,7 @@
       "id": "cad_447",
       "nome": "Te RVT - 447",
       "tipo": "RVT",
-      "url": "https://www.openbuildings.com/te-23yqj",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de te em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
@@ -19504,7 +19504,7 @@
       "id": "cad_448",
       "nome": "Mesa Rotativa DWF - 448",
       "tipo": "DWF",
-      "url": "https://www.partcommunity.com/mesa-rotativa-244ui",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de mesa rotativa em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
@@ -19513,7 +19513,7 @@
       "id": "cad_449",
       "nome": "Compressor STEP - 449",
       "tipo": "STEP",
-      "url": "https://grabcad.com/library/compressor-24ayh",
+      "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
       "descricao": "Modelo CAD publico de compressor em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "GrabCAD"
@@ -19522,7 +19522,7 @@
       "id": "cad_450",
       "nome": "Cabine de Seguranca IGES - 450",
       "tipo": "IGES",
-      "url": "https://www.traceparts.com/cabine-de-seguranca-24h2g",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de cabine de seguranca em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
@@ -19531,7 +19531,7 @@
       "id": "cad_451",
       "nome": "Paleteira STL - 451",
       "tipo": "STL",
-      "url": "https://www.3dcontentcentral.com/paleteira-24n6f",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
       "descricao": "Modelo CAD publico de paleteira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Veiculos e Transporte",
       "fonte": "3D ContentCentral"
@@ -19540,7 +19540,7 @@
       "id": "cad_452",
       "nome": "Arruela DWG - 452",
       "tipo": "DWG",
-      "url": "https://www.mcmaster.com/arruela-24tae",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de arruela em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Pecas Mecanicas",
       "fonte": "McMaster-Carr"
@@ -19549,7 +19549,7 @@
       "id": "cad_453",
       "nome": "Manometro DXF - 453",
       "tipo": "DXF",
-      "url": "https://www.bimobject.com/manometro-24zed",
+      "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
       "descricao": "Modelo CAD publico de manometro em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
@@ -19558,7 +19558,7 @@
       "id": "cad_454",
       "nome": "Atuador Pneumatico SLDPRT - 454",
       "tipo": "SLDPRT",
-      "url": "https://www.caddetails.com/atuador-pneumatico-255ic",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de atuador pneumatico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
@@ -19567,7 +19567,7 @@
       "id": "cad_455",
       "nome": "Chapa de Reforco SLDASM - 455",
       "tipo": "SLDASM",
-      "url": "https://www.openbuildings.com/chapa-de-reforco-25bmb",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de chapa de reforco em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
@@ -19576,7 +19576,7 @@
       "id": "cad_456",
       "nome": "Pilar IPT - 456",
       "tipo": "IPT",
-      "url": "https://www.partcommunity.com/pilar-25hqa",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
@@ -19585,7 +19585,7 @@
       "id": "cad_457",
       "nome": "Disjuntor IAM - 457",
       "tipo": "IAM",
-      "url": "https://grabcad.com/library/disjuntor-25nu9",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de disjuntor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
@@ -19594,7 +19594,7 @@
       "id": "cad_458",
       "nome": "Cotovelo 90 SAT - 458",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/cotovelo-90-25ty8",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de cotovelo 90 em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
@@ -19603,7 +19603,7 @@
       "id": "cad_459",
       "nome": "Divisor Universal BREP - 459",
       "tipo": "BREP",
-      "url": "https://www.3dcontentcentral.com/divisor-universal-26027",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de divisor universal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
@@ -19612,7 +19612,7 @@
       "id": "cad_460",
       "nome": "Bomba Centrifuga 3DM - 460",
       "tipo": "3DM",
-      "url": "https://www.mcmaster.com/bomba-centrifuga-26666",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de bomba centrifuga em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "McMaster-Carr"
@@ -19621,7 +19621,7 @@
       "id": "cad_461",
       "nome": "Estante Industrial RVT - 461",
       "tipo": "RVT",
-      "url": "https://www.bimobject.com/estante-industrial-26ca5",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de estante industrial em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
@@ -19630,7 +19630,7 @@
       "id": "cad_462",
       "nome": "Guindaste DWF - 462",
       "tipo": "DWF",
-      "url": "https://www.caddetails.com/guindaste-26ie4",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de guindaste em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Veiculos e Transporte",
       "fonte": "CADdetails"
@@ -19639,7 +19639,7 @@
       "id": "cad_463",
       "nome": "Rolamento STEP - 463",
       "tipo": "STEP",
-      "url": "https://www.openbuildings.com/rolamento-26oi3",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de rolamento em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Pecas Mecanicas",
       "fonte": "OpenBuildings"
@@ -19648,7 +19648,7 @@
       "id": "cad_464",
       "nome": "Conexao Rapida IGES - 464",
       "tipo": "IGES",
-      "url": "https://www.partcommunity.com/conexão-rapida-26um2",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de conexão rapida em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
@@ -19657,7 +19657,7 @@
       "id": "cad_465",
       "nome": "Conexao Pneumatica STL - 465",
       "tipo": "STL",
-      "url": "https://grabcad.com/library/conexão-pneumatica-270q1",
+      "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
       "descricao": "Modelo CAD publico de conexão pneumatica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
@@ -19666,7 +19666,7 @@
       "id": "cad_466",
       "nome": "Suporte DWG - 466",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/suporte-276u0",
+      "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
       "descricao": "Modelo CAD publico de suporte em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
@@ -19675,7 +19675,7 @@
       "id": "cad_467",
       "nome": "Escada DXF - 467",
       "tipo": "DXF",
-      "url": "https://www.3dcontentcentral.com/escada-27cxz",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
       "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
@@ -19684,7 +19684,7 @@
       "id": "cad_468",
       "nome": "Encoder SLDPRT - 468",
       "tipo": "SLDPRT",
-      "url": "https://www.mcmaster.com/encoder-27j1y",
+      "url": "https://www.mcmaster.com/6498K654",
       "descricao": "Modelo CAD publico de encoder em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
@@ -19693,7 +19693,7 @@
       "id": "cad_469",
       "nome": "Flange SLDASM - 469",
       "tipo": "SLDASM",
-      "url": "https://www.bimobject.com/flange-27p5x",
+      "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
       "descricao": "Modelo CAD publico de flange em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
@@ -19702,7 +19702,7 @@
       "id": "cad_470",
       "nome": "Mandril IPT - 470",
       "tipo": "IPT",
-      "url": "https://www.caddetails.com/mandril-27v9w",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de mandril em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
@@ -19711,7 +19711,7 @@
       "id": "cad_471",
       "nome": "Prensa Hidraulica IAM - 471",
       "tipo": "IAM",
-      "url": "https://www.openbuildings.com/prensa-hidraulica-281dv",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de prensa hidraulica em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "OpenBuildings"
@@ -19720,7 +19720,7 @@
       "id": "cad_472",
       "nome": "Rack SAT - 472",
       "tipo": "SAT",
-      "url": "https://www.partcommunity.com/rack-287hu",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de rack em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
@@ -19729,7 +19729,7 @@
       "id": "cad_473",
       "nome": "Plataforma Elevatoria BREP - 473",
       "tipo": "BREP",
-      "url": "https://grabcad.com/library/plataforma-elevatoria-28dlt",
+      "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
       "descricao": "Modelo CAD publico de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Veiculos e Transporte",
       "fonte": "GrabCAD"
@@ -19738,7 +19738,7 @@
       "id": "cad_474",
       "nome": "Bucha 3DM - 474",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/bucha-28jps",
+      "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
       "descricao": "Modelo CAD publico de bucha em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Pecas Mecanicas",
       "fonte": "TraceParts"
@@ -19747,7 +19747,7 @@
       "id": "cad_475",
       "nome": "Mangueira RVT - 475",
       "tipo": "RVT",
-      "url": "https://www.3dcontentcentral.com/mangueira-28ptr",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
       "descricao": "Modelo CAD publico de mangueira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
@@ -19756,7 +19756,7 @@
       "id": "cad_476",
       "nome": "Regulador de Pressao DWF - 476",
       "tipo": "DWF",
-      "url": "https://www.mcmaster.com/regulador-de-pressao-28vxq",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de regulador de pressao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
@@ -19765,7 +19765,7 @@
       "id": "cad_477",
       "nome": "Coluna STEP - 477",
       "tipo": "STEP",
-      "url": "https://www.bimobject.com/coluna-2921p",
+      "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
       "descricao": "Modelo CAD publico de coluna em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
@@ -19774,7 +19774,7 @@
       "id": "cad_478",
       "nome": "Corte Transversal IGES - 478",
       "tipo": "IGES",
-      "url": "https://www.caddetails.com/corte-transversal-2985o",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
@@ -19783,7 +19783,7 @@
       "id": "cad_479",
       "nome": "Contator STL - 479",
       "tipo": "STL",
-      "url": "https://www.openbuildings.com/contator-29e9n",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de contator em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
@@ -19792,7 +19792,7 @@
       "id": "cad_480",
       "nome": "Nipple DWG - 480",
       "tipo": "DWG",
-      "url": "https://www.partcommunity.com/nipple-29kdm",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de nipple em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
@@ -19801,7 +19801,7 @@
       "id": "cad_481",
       "nome": "Morsa DXF - 481",
       "tipo": "DXF",
-      "url": "https://grabcad.com/library/morsa-29qhl",
+      "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
       "descricao": "Modelo CAD publico de morsa em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
@@ -19810,7 +19810,7 @@
       "id": "cad_482",
       "nome": "Torno Mecanico SLDPRT - 482",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/torno-mecanico-29wlk",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
       "descricao": "Modelo CAD publico de torno mecanico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "TraceParts"
@@ -19819,7 +19819,7 @@
       "id": "cad_483",
       "nome": "Mesa de Inspecao SLDASM - 483",
       "tipo": "SLDASM",
-      "url": "https://www.3dcontentcentral.com/mesa-de-inspecao-2a2pj",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
       "descricao": "Modelo CAD publico de mesa de inspecao em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
@@ -19828,7 +19828,7 @@
       "id": "cad_484",
       "nome": "Reboque Industrial IPT - 484",
       "tipo": "IPT",
-      "url": "https://www.mcmaster.com/reboque-industrial-2a8ti",
+      "url": "https://www.mcmaster.com/product/1794A63",
       "descricao": "Modelo CAD publico de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Veiculos e Transporte",
       "fonte": "McMaster-Carr"
@@ -19837,7 +19837,7 @@
       "id": "cad_485",
       "nome": "Porca IAM - 485",
       "tipo": "IAM",
-      "url": "https://www.bimobject.com/porca-2aexh",
+      "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
       "descricao": "Modelo CAD publico de porca em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Pecas Mecanicas",
       "fonte": "BIMobject"
@@ -19846,7 +19846,7 @@
       "id": "cad_486",
       "nome": "Filtro Hidraulico SAT - 486",
       "tipo": "SAT",
-      "url": "https://www.caddetails.com/filtro-hidraulico-2al1g",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de filtro hidraulico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
@@ -19855,7 +19855,7 @@
       "id": "cad_487",
       "nome": "Cilindro Pneumatico BREP - 487",
       "tipo": "BREP",
-      "url": "https://www.openbuildings.com/cilindro-pneumatico-2ar5f",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de cilindro pneumatico em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
@@ -19864,7 +19864,7 @@
       "id": "cad_488",
       "nome": "Cantoneira 3DM - 488",
       "tipo": "3DM",
-      "url": "https://www.partcommunity.com/cantoneira-2ax9e",
+      "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
       "descricao": "Modelo CAD publico de cantoneira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
@@ -19873,7 +19873,7 @@
       "id": "cad_489",
       "nome": "Sacada RVT - 489",
       "tipo": "RVT",
-      "url": "https://grabcad.com/library/sacada-2b3dd",
+      "url": "https://grabcad.com/library/truck-loading-conveyor-4",
       "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
@@ -19882,7 +19882,7 @@
       "id": "cad_490",
       "nome": "Fonte de Alimentacao DWF - 490",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/fonte-de-alimentacao-2b9hc",
+      "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
       "descricao": "Modelo CAD publico de fonte de alimentacao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
@@ -19891,7 +19891,7 @@
       "id": "cad_491",
       "nome": "Bocal STEP - 491",
       "tipo": "STEP",
-      "url": "https://www.3dcontentcentral.com/bocal-2bflb",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de bocal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
@@ -19900,7 +19900,7 @@
       "id": "cad_492",
       "nome": "Grampo IGES - 492",
       "tipo": "IGES",
-      "url": "https://www.mcmaster.com/grampo-2blpa",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de grampo em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
@@ -19909,7 +19909,7 @@
       "id": "cad_493",
       "nome": "Fresadora STL - 493",
       "tipo": "STL",
-      "url": "https://www.bimobject.com/fresadora-2brt9",
+      "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
       "descricao": "Modelo CAD publico de fresadora em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
       "categoria": "Maquinas e Equipamentos",
       "fonte": "BIMobject"
@@ -19918,7 +19918,7 @@
       "id": "cad_494",
       "nome": "Painel de Controle DWG - 494",
       "tipo": "DWG",
-      "url": "https://www.caddetails.com/painel-de-controle-2bxx8",
+      "url": "https://www.caddetails.com/",
       "descricao": "Modelo CAD publico de painel de controle em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
@@ -19927,7 +19927,7 @@
       "id": "cad_495",
       "nome": "Carrinho Transportador DXF - 495",
       "tipo": "DXF",
-      "url": "https://www.openbuildings.com/carrinho-transportador-2c417",
+      "url": "https://www.openbuildings.com/",
       "descricao": "Modelo CAD publico de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
       "categoria": "Veiculos e Transporte",
       "fonte": "OpenBuildings"
@@ -19936,7 +19936,7 @@
       "id": "cad_496",
       "nome": "Mancal SLDPRT - 496",
       "tipo": "SLDPRT",
-      "url": "https://www.partcommunity.com/mancal-2ca56",
+      "url": "https://ptc.partcommunity.com/",
       "descricao": "Modelo CAD publico de mancal em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
       "categoria": "Pecas Mecanicas",
       "fonte": "PartCommunity"
@@ -19945,7 +19945,7 @@
       "id": "cad_497",
       "nome": "Reservatorio SLDASM - 497",
       "tipo": "SLDASM",
-      "url": "https://grabcad.com/library/reservatorio-2cg95",
+      "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
       "descricao": "Modelo CAD publico de reservatorio em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
@@ -19954,7 +19954,7 @@
       "id": "cad_498",
       "nome": "Unidade de Condicionamento IPT - 498",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/unidade-de-condicionamento-2cmd4",
+      "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
       "descricao": "Modelo CAD publico de unidade de condicionamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
@@ -19963,7 +19963,7 @@
       "id": "cad_499",
       "nome": "Barra Chata IAM - 499",
       "tipo": "IAM",
-      "url": "https://www.3dcontentcentral.com/barra-chata-2csh3",
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
       "descricao": "Modelo CAD publico de barra chata em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
@@ -19972,7 +19972,7 @@
       "id": "cad_500",
       "nome": "Fundacao SAT - 500",
       "tipo": "SAT",
-      "url": "https://www.mcmaster.com/fundacao-2cyl2",
+      "url": "https://www.mcmaster.com/product/6381K608",
       "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
@@ -20128,82 +20128,98 @@
     {
       "id": "fmea",
       "nome": "Planilha FMEA (Análise de Modos de Falha)",
-      "descricao": "Formulério completo de FMEA de processo com campos para função, modo de falha, causa, efeito, NRP e ações recomendadas."
+      "descricao": "Formulário completo de FMEA de processo com campos para função, modo de falha, causa, efeito, NRP e ações recomendadas.",
+      "arquivo": "assets/downloads/formularios/01-fmea-processo.html"
     },
     {
       "id": "ppap",
-      "nome": "PPAP  –  Production Part Approval Process",
-      "descricao": "Checklist completo de PPAP nível 3 conforme AIAG, com 18 itens de submissão."
+      "nome": "PPAP — Production Part Approval Process",
+      "descricao": "Checklist completo de PPAP nível 3 conforme AIAG, com 18 itens de submissão.",
+      "arquivo": "assets/downloads/formularios/02-ppap-checklist.html"
     },
     {
       "id": "8d",
       "nome": "Relatório 8D (Oito Disciplinas)",
-      "descricao": "Template de relatório 8D para análise de não conformidades com campos de D1 a D8."
+      "descricao": "Template de relatório 8D para análise de não conformidades com campos de D1 a D8.",
+      "arquivo": "assets/downloads/formularios/03-relatorio-8d.html"
     },
     {
       "id": "mapeamento",
-      "nome": "Mapeamento de Processos  –  SIPOC",
-      "descricao": "Template de mapeamento SIPOC com Suppliers, Inputs, Process, Outputs e Customers."
+      "nome": "Mapeamento de Processos — SIPOC",
+      "descricao": "Template de mapeamento SIPOC com Suppliers, Inputs, Process, Outputs e Customers.",
+      "arquivo": "assets/downloads/formularios/04-sipoc.html"
     },
     {
       "id": "5s",
       "nome": "Checklist 5S",
-      "descricao": "Checklist de auditoria 5S com critérios para cada S e pontuação de 0 a 5."
+      "descricao": "Checklist de auditoria 5S com critérios para cada S e pontuação de 0 a 5.",
+      "arquivo": "assets/downloads/formularios/05-checklist-5s.html"
     },
     {
       "id": "vsm",
       "nome": "Value Stream Mapping (VSM)",
-      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para métricas."
+      "descricao": "Template de Mapeamento de Fluxo de Valor com simbologia completa e campos para métricas.",
+      "arquivo": "assets/downloads/formularios/06-vsm.html"
     },
     {
       "id": "diagrama-ishikawa",
       "nome": "Diagrama de Ishikawa (Espinha de Peixe)",
-      "descricao": "Template editével do diagrama causa-efeito com os 6Ms: Método, Mão de Obra, Máquina, Material, Medida, Meio Ambiente."
+      "descricao": "Template editável do diagrama causa-efeito com os 6Ms: Método, Mão de Obra, Máquina, Material, Medida, Meio Ambiente.",
+      "arquivo": "assets/downloads/formularios/07-ishikawa.html"
     },
     {
       "id": "poka-yoke",
       "nome": "Planilha de Poka-Yoke",
-      "descricao": "Registro de dispositivos á prova de erro com campos para tipo, local e eficiéncia."
+      "descricao": "Registro de dispositivos a prova de erro com campos para tipo, local e eficiência.",
+      "arquivo": "assets/downloads/formularios/08-poka-yoke.html"
     },
     {
       "id": "5w2h",
       "nome": "Plano de Ação 5W2H",
-      "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much."
+      "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much.",
+      "arquivo": "assets/downloads/formularios/09-plano-acao-5w2h.html"
     },
     {
       "id": "auditoria",
       "nome": "Checklist de Auditoria ISO 9001",
-      "descricao": "Checklist baseado na ISO 19011 com requisitos da ISO 9001:2025."
+      "descricao": "Checklist baseado na ISO 19011 com requisitos da ISO 9001:2015.",
+      "arquivo": "assets/downloads/formularios/10-auditoria-iso9001.html"
     },
     {
       "id": "treinamento",
       "nome": "Registro de Treinamento",
-      "descricao": "Planilha de controle de treinamentos com carga horéria, instrutor e avaliação."
+      "descricao": "Planilha de controle de treinamentos com carga horária, instrutor e avaliação.",
+      "arquivo": "assets/downloads/formularios/11-registro-treinamento.html"
     },
     {
       "id": "indicadores",
       "nome": "Dashboard de Indicadores (KPI)",
-      "descricao": "Template de dashboard com OEE, Lead Time, Produtividade, Refugo e OTIF."
+      "descricao": "Template de dashboard com OEE, Lead Time, Produtividade, Refugo e OTIF.",
+      "arquivo": "assets/downloads/formularios/12-dashboard-kpi.html"
     },
     {
       "id": "analise-capacidade",
       "nome": "Análise de Capacidade Produtiva",
-      "descricao": "Formulério para cálculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade."
+      "descricao": "Formulário para cálculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade.",
+      "arquivo": "assets/downloads/formularios/13-capacidade-produtiva.html"
     },
     {
       "id": "sequenciamento",
       "nome": "Planilha de Sequenciamento de Ordens",
-      "descricao": "Template para sequenciamento de produção com regras EDD, SPT, FCFS e CR."
+      "descricao": "Template para sequenciamento de produção com regras EDD, SPT, FCFS e CR.",
+      "arquivo": "assets/downloads/formularios/14-sequenciamento-ordens.html"
     },
     {
       "id": "custos",
       "nome": "Planilha de Custeio ABC",
-      "descricao": "Planilha de custeio baseado em atividades com direcionadores de custos e rateio."
+      "descricao": "Planilha de custeio baseado em atividades com direcionadores de custos e rateio.",
+      "arquivo": "assets/downloads/formularios/15-custeio-abc.html"
     },
     {
       "id": "riscos",
       "nome": "Matriz de Riscos (Probabilidade x Impacto)",
-      "descricao": "Template de matriz de riscos com classificação P x I e planos de ação de resposta."
+      "descricao": "Template de matriz de riscos com classificação P x I e planos de ação de resposta.",
+      "arquivo": "assets/downloads/formularios/16-matriz-riscos.html"
     }
   ]
 };

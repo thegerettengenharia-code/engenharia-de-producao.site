@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custeio ABC — Activity Based Costing — Gerett</title>
+  <style>
+@page {
+  size: A4 portrait;
+  margin: 3cm 2cm 2cm 2cm;
+}
+@media print {
+  body { margin: 0; padding: 0; }
+  .no-print { display: none !important; }
+  .page-break { page-break-before: always; }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #fff;
+  padding: 30px;
+  max-width: 210mm;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-left h2 {
+  font-size: 13pt;
+  color: #003366;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.header-left p {
+  font-size: 9pt;
+  color: #555;
+}
+.header-right {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+}
+.doc-title {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.doc-title h1 {
+  font-size: 16pt;
+  color: #003366;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 3px solid #003366;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+.doc-subtitle {
+  text-align: center;
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 25px;
+}
+.doc-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+  font-size: 9.5pt;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #f5f7fa;
+  border-left: 3px solid #003366;
+  border-radius: 0 4px 4px 0;
+}
+.doc-info span { color: #333; }
+.doc-info strong { color: #003366; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 9.5pt;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #003366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+tr:nth-child(even) { background: #f8f9fb; }
+tr:hover { background: #eef1f6; }
+.field-blank {
+  border-bottom: 1px solid #999;
+  min-height: 22px;
+  display: inline-block;
+  min-width: 120px;
+}
+.section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #003366;
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.footer-doc {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 8pt;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.signature-block {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.signature-line {
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid #333;
+  font-size: 9.5pt;
+}
+.signature-line .name { font-weight: 700; }
+.signature-line .role { font-size: 8.5pt; color: #666; }
+.note {
+  font-size: 8.5pt;
+  color: #666;
+  font-style: italic;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #fffde7;
+  border-left: 3px solid #f9a825;
+  border-radius: 0 3px 3px 0;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.checklist-item input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #003366;
+}
+.priority-high { color: #c62828; font-weight: 700; }
+.priority-med { color: #e65100; font-weight: 600; }
+.priority-low { color: #2e7d32; }
+.rating-bar {
+  display: flex;
+  gap: 2px;
+}
+.rating-dot {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h2>GERETT — BIBLIOTECA ORGANIZACIONAL</h2>
+    <p>Engenharia de Produção | Custeio e Gestão Financeira</p>
+  </div>
+  <div class="header-right">
+    <p>Documento: ABC-PLA-001</p>
+    <p>Rev.: 00 | 11/07/2026</p>
+  </div>
+</div>
+
+<div class="doc-title"><h1>Planilha de Custeio ABC — Activity Based Costing</h1></div>
+<div class="doc-subtitle">Custeio Baseado em Atividades — Conforme Kaplan & Cooper (1998)</div>
+
+<div class="doc-info">
+  <span><strong>Centro de Custo:</strong> <span class="field-blank" style="min-width:350px"></span></span>
+  <span><strong>Responsável:</strong> <span class="field-blank"></span></span>
+  <span><strong>Período:</strong> <span class="field-blank"></span></span>
+  <span><strong>Data de Elaboração:</strong> 11/07/2026</span>
+</div>
+
+<div class="section-title">1. Cadastro de Atividades e Direcionadores de Custos</div>
+<table>
+  <thead>
+    <tr>
+      <th style="width:4%">#</th>
+      <th style="width:16%">Atividade</th>
+      <th style="width:14%">Direcionador de Custo</th>
+      <th style="width:12%">Centro de Custo</th>
+      <th style="width:10%">Custo Total (R$)</th>
+      <th style="width:10%">Qtd. do Direcionador</th>
+      <th style="width:10%">Custo por Unidade (R$)</th>
+      <th style="width:14%">Produto/Serviço A</th>
+      <th style="width:14%">Produto/Serviço B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">3</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">4</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr style="background:#e3f2fd">
+      <td colspan="4"><strong>TOTAL</strong></td>
+      <td><strong></strong></td>
+      <td>—</td>
+      <td>—</td>
+      <td><strong></strong></td>
+      <td><strong></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="section-title">2. Exemplos de Direcionadores de Custos</div>
+<table>
+  <thead><tr><th>Atividade</th><th>Direcionador Sugerido</th><th>Unidade de Medida</th></tr></thead>
+  <tbody>
+    <tr><td>Compras de materiais</td><td>Nº de pedidos de compra emitidos</td><td>pedidos</td></tr>
+    <tr><td>Controle de qualidade</td><td>Nº de inspeções realizadas</td><td>inspeções</td></tr>
+    <tr><td>Programação da produção</td><td>Nº de ordens de produção geradas</td><td>ordens</td></tr>
+    <tr><td>Logística interna</td><td>Nº de movimentações de material</td><td>movimentações</td></tr>
+    <tr><td>Manutenção de equipamentos</td><td>Horas-máquina de manutenção</td><td>horas</td></tr>
+    <tr><td>Atendimento ao cliente</td><td>Nº de atendimentos realizados</td><td>atendimentos</td></tr>
+    <tr><td>Expedição</td><td>Nº de notas fiscais emitidas</td><td>NFs</td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">3. Rateio por Produto</div>
+<table>
+  <thead>
+    <tr>
+      <th>Produto / Serviço</th>
+      <th>Qtd. Produzida</th>
+      <th>Consumo Dir. 1</th>
+      <th>Consumo Dir. 2</th>
+      <th>Consumo Dir. 3</th>
+      <th>Custo Total Atribuído (R$)</th>
+      <th>Custo Unitário (R$)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">4. Classificação ABC de Itens / Clientes</div>
+<table>
+  <thead><tr><th>Classe</th><th>% Itens</th><th>% Valor Acumulado</th><th>Tratamento</th></tr></thead>
+  <tbody>
+    <tr><td><strong>A</strong></td><td>~20%</td><td>~80%</td><td>Controle rigoroso, inventário contínuo, negociação direta</td></tr>
+    <tr><td><strong>B</strong></td><td>~30%</td><td>~15%</td><td>Controle moderado, inventário periódico</td></tr>
+    <tr><td><strong>C</strong></td><td>~50%</td><td>~5%</td><td>Controle simples, estoque máximo, compra em lote</td></tr>
+  </tbody>
+</table>
+
+<div class="signature-block">
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Analista de Custos</div></div>
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Controller Financeiro</div></div>
+</div>
+
+  <div class="footer-doc">
+    <span>Gerett — Biblioteca Organizacional</span>
+    <span>Documento elaborado em 11/07/2026</span>
+    <span>Página 1 de 1</span>
+  </div>
+</body>
+</html>

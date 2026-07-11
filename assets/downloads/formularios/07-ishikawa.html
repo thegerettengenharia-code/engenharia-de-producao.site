@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagrama de Ishikawa — Causa e Efeito — Gerett</title>
+  <style>
+@page {
+  size: A4 portrait;
+  margin: 3cm 2cm 2cm 2cm;
+}
+@media print {
+  body { margin: 0; padding: 0; }
+  .no-print { display: none !important; }
+  .page-break { page-break-before: always; }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #fff;
+  padding: 30px;
+  max-width: 210mm;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-left h2 {
+  font-size: 13pt;
+  color: #003366;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.header-left p {
+  font-size: 9pt;
+  color: #555;
+}
+.header-right {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+}
+.doc-title {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.doc-title h1 {
+  font-size: 16pt;
+  color: #003366;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 3px solid #003366;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+.doc-subtitle {
+  text-align: center;
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 25px;
+}
+.doc-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+  font-size: 9.5pt;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #f5f7fa;
+  border-left: 3px solid #003366;
+  border-radius: 0 4px 4px 0;
+}
+.doc-info span { color: #333; }
+.doc-info strong { color: #003366; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 9.5pt;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #003366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+tr:nth-child(even) { background: #f8f9fb; }
+tr:hover { background: #eef1f6; }
+.field-blank {
+  border-bottom: 1px solid #999;
+  min-height: 22px;
+  display: inline-block;
+  min-width: 120px;
+}
+.section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #003366;
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.footer-doc {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 8pt;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.signature-block {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.signature-line {
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid #333;
+  font-size: 9.5pt;
+}
+.signature-line .name { font-weight: 700; }
+.signature-line .role { font-size: 8.5pt; color: #666; }
+.note {
+  font-size: 8.5pt;
+  color: #666;
+  font-style: italic;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #fffde7;
+  border-left: 3px solid #f9a825;
+  border-radius: 0 3px 3px 0;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.checklist-item input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #003366;
+}
+.priority-high { color: #c62828; font-weight: 700; }
+.priority-med { color: #e65100; font-weight: 600; }
+.priority-low { color: #2e7d32; }
+.rating-bar {
+  display: flex;
+  gap: 2px;
+}
+.rating-dot {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h2>GERETT — BIBLIOTECA ORGANIZACIONAL</h2>
+    <p>Engenharia de Produção | Ferramentas de Qualidade</p>
+  </div>
+  <div class="header-right">
+    <p>Documento: ISHI-DIA-001</p>
+    <p>Rev.: 00 | 11/07/2026</p>
+  </div>
+</div>
+
+<div class="doc-title"><h1>Diagrama de Ishikawa — Causa e Efeito</h1></div>
+<div class="doc-subtitle">Diagrama Espinha de Peixe — Seis Ms (6M)</div>
+
+<div class="doc-info">
+  <span><strong>Problema / Efeito:</strong> <span class="field-blank" style="min-width:400px"></span></span>
+  <span><strong>Data:</strong> 11/07/2026</span>
+  <span><strong>Responsável:</strong> <span class="field-blank"></span></span>
+  <span><strong>Equipe:</strong> <span class="field-blank"></span></span>
+</div>
+
+<div class="note">Preencha as causas potenciais para cada uma das 6 categorias (6M). Use a técnica dos 5 Porquês para aprofundar até a causa raiz. Marcas como <em>Preencha...</em> são apenas exemplos para orientação.</div>
+
+<div style="text-align:center;margin:20px 0 10px">
+  <div style="display:inline-block;background:#c62828;color:#fff;padding:10px 30px;border-radius:6px;font-weight:700;font-size:12pt;letter-spacing:0.05em">
+    PROBLEMA / EFEITO: <span class="field-blank" style="min-width:250px;border-color:#fff"></span>
+  </div>
+  <div style="width:3px;height:20px;background:#333;margin:0 auto"></div>
+  <div style="width:80%;height:3px;background:linear-gradient(90deg,#333,#999);margin:0 auto;border-radius:2px"></div>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:20px 0">
+  
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #1565c0">
+      <h4 style="color:#1565c0;font-size:10pt;margin-bottom:8px;text-align:center">MÉTODO</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Procedimento não padronizado</li><li>Instrução de trabalho desatualizada</li><li>Sequência de operações incorreta</li><li>Falta de procedimento documentado</li><li>Parâmetros de processo não definidos</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #2e7d32">
+      <h4 style="color:#2e7d32;font-size:10pt;margin-bottom:8px;text-align:center">MÃO DE OBRA</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Falta de treinamento</li><li>Fadiga /ergonomia inadequada</li><li>Falta de qualificação</li><li>Erro humano por distração</li><li>Comunicação deficiente entre turnos</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #e65100">
+      <h4 style="color:#e65100;font-size:10pt;margin-bottom:8px;text-align:center">MÁQUINA</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Manutenção preventiva inadequada</li><li>Desgaste de componentes</li><li>Calibração fora de especificação</li><li>Projeto inadequado do equipamento</li><li>Falta de peças de reposição</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #6a1b9a">
+      <h4 style="color:#6a1b9a;font-size:10pt;margin-bottom:8px;text-align:center">MATERIAL</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Matéria-prima fora de especificação</li><li>Fornecedor não aprovado</li><li>Material danificado no transporte</li><li>Variabilidade de lote</li><li>Defeito latente no insumo</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #00695c">
+      <h4 style="color:#00695c;font-size:10pt;margin-bottom:8px;text-align:center">MEDIÇÃO</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Equipamento de medição impreciso</li><li>Método de medição inadequado</li><li>Amostragem não representativa</li><li>Calibração vencida</li><li>Subjetividade na leitura</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+    <div style="background:#f8f9fb;border:1px solid #ddd;border-radius:6px;padding:12px;border-top:3px solid #4e342e">
+      <h4 style="color:#4e342e;font-size:10pt;margin-bottom:8px;text-align:center">MEIO AMBIENTE</h4>
+      <ul style="list-style:disc inside;font-size:9pt;line-height:1.7;color:#333">
+        <li>Temperatura fora de faixa</li><li>Umidade relativa inadequada</li><li>Iluminação insuficiente</li><li>Ruído excessivo</li><li>Contaminação do ambiente</li>
+        <li style="border-bottom:1px dashed #ccc;padding-bottom:4px;margin-top:4px;color:#888"><em>Preencha...</em></li>
+      </ul>
+    </div>
+</div>
+
+<div class="section-title">Ação Prioritária Identificada</div>
+<table>
+  <thead><tr><th>Causa Raiz Identificada</th><th>Responsável</th><th>Ação Corretiva</th><th>Prazo</th></tr></thead>
+  <tbody>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="signature-block">
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Facilitador da Sessão</div></div>
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Responsável pelo Projeto</div></div>
+</div>
+
+  <div class="footer-doc">
+    <span>Gerett — Biblioteca Organizacional</span>
+    <span>Documento elaborado em 11/07/2026</span>
+    <span>Página 1 de 1</span>
+  </div>
+</body>
+</html>

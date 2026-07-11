@@ -3,7 +3,9 @@
 
   if (typeof gsap === 'undefined') return console.warn('GSAP not loaded');
 
-  gsap.registerPlugin(ScrollTrigger);
+  if (typeof ScrollTrigger !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger);
+  }
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
@@ -15,7 +17,7 @@
   /* ─── Magnetic Cursor ─── */
   let cursorCleanup = null;
   function initCursor() {
-    if (isMobile || isTouch) return;
+    if (isTouch) return;
     const dot = document.createElement('div');
     const ring = document.createElement('div');
     dot.className = 'cursor-dot';
@@ -147,36 +149,52 @@
 
   /* ─── Magnetic Buttons ─── */
   function initMagneticButtons() {
-    if (isMobile) return;
     gsap.utils.toArray('.btn, .course-link, .form-download, .cta-link').forEach(btn => {
-      btn.addEventListener('mousemove', e => {
-        const rect = btn.getBoundingClientRect();
-        const x = e.clientX - (rect.left + rect.width / 2);
-        const y = e.clientY - (rect.top + rect.height / 2);
-        gsap.to(btn, { x: x * 0.2, y: y * 0.2, duration: 0.5, ease: 'power4.out' });
-      });
-      btn.addEventListener('mouseleave', () => {
-        gsap.to(btn, { x: 0, y: 0, duration: 0.5, ease: 'elastic.out(1, 0.3)' });
-      });
+      if (isTouch) {
+        btn.addEventListener('touchstart', e => {
+          gsap.to(btn, { scale: 1.05, duration: 0.3, ease: 'power4.out' });
+        }, { passive: true });
+        btn.addEventListener('touchend', () => {
+          gsap.to(btn, { scale: 1, duration: 0.4, ease: 'elastic.out(1, 0.3)' });
+        });
+      } else {
+        btn.addEventListener('mousemove', e => {
+          const rect = btn.getBoundingClientRect();
+          const x = e.clientX - (rect.left + rect.width / 2);
+          const y = e.clientY - (rect.top + rect.height / 2);
+          gsap.to(btn, { x: x * 0.2, y: y * 0.2, duration: 0.5, ease: 'power4.out' });
+        });
+        btn.addEventListener('mouseleave', () => {
+          gsap.to(btn, { x: 0, y: 0, duration: 0.5, ease: 'elastic.out(1, 0.3)' });
+        });
+      }
     });
   }
 
   /* ─── Card 3D Tilt ─── */
   function initCardTilt() {
-    if (isMobile) return;
     gsap.utils.toArray('.visual-card, .topic-card, .course-card, .resource-card, .form-card, .about-card, .stat-card, .news-card').forEach(card => {
-      card.addEventListener('mousemove', e => {
-        const rect = card.getBoundingClientRect();
-        const x = (e.clientX - rect.left) / rect.width - 0.5;
-        const y = (e.clientY - rect.top) / rect.height - 0.5;
-        gsap.to(card, {
-          rotateX: y * -5, rotateY: x * 5, duration: 0.4, ease: 'power4.out',
-          transformPerspective: 1200
+      if (isTouch) {
+        card.addEventListener('touchstart', e => {
+          gsap.to(card, { scale: 0.97, rotateX: 2, duration: 0.3, ease: 'power4.out', transformPerspective: 1200 });
+        }, { passive: true });
+        card.addEventListener('touchend', () => {
+          gsap.to(card, { scale: 1, rotateX: 0, rotateY: 0, duration: 0.4, ease: 'power4.out' });
         });
-      });
-      card.addEventListener('mouseleave', () => {
-        gsap.to(card, { rotateX: 0, rotateY: 0, duration: 0.4, ease: 'power4.out' });
-      });
+      } else {
+        card.addEventListener('mousemove', e => {
+          const rect = card.getBoundingClientRect();
+          const x = (e.clientX - rect.left) / rect.width - 0.5;
+          const y = (e.clientY - rect.top) / rect.height - 0.5;
+          gsap.to(card, {
+            rotateX: y * -5, rotateY: x * 5, duration: 0.4, ease: 'power4.out',
+            transformPerspective: 1200
+          });
+        });
+        card.addEventListener('mouseleave', () => {
+          gsap.to(card, { rotateX: 0, rotateY: 0, duration: 0.4, ease: 'power4.out' });
+        });
+      }
     });
   }
 

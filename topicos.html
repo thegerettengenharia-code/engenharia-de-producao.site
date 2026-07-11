@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-BR" data-theme="auto">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -34,7 +34,7 @@
         <a href="topicos.html" class="nav-link active" role="menuitem" data-section="topicos">Tópicos</a>
         <a href="modelos-cad.html" class="nav-link" role="menuitem" data-section="modelos-cad">Modelos CAD</a>
         <a href="cursos.html" class="nav-link" role="menuitem" data-section="cursos">Cursos</a>
-        <a href="biblioteca.html" class="nav-link" role="menuitem" data-section="biblioteca">Biblioteca</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem" data-section="biblioteca">Formulários</a>
         <a href="sobre.html" class="nav-link" role="menuitem" data-section="sobre">Sobre</a>
       </div>
       <div class="nav-actions">
@@ -57,7 +57,7 @@
         <a href="topicos.html" class="mobile-nav-link active">Tópicos</a>
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-        <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Formulários</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
       <div class="mobile-nav-footer">
@@ -191,7 +191,7 @@
       </nav>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <p>Copyright &copy; 2026 Gerett — Biblioteca Organizacional - Todos os direitos reservados.</p>
       <div class="footer-links">
         <a href="sobre.html" class="footer-link">Sobre</a>
         <span class="footer-link">Privacidade</span>
@@ -201,8 +201,24 @@
   </footer>
 
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
+
+  <div class="contact-fab" id="contactFab">
+    <button class="contact-fab-btn" id="contactFabBtn" aria-label="Contato" title="Fale conosco">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+    </button>
+    <div class="contact-fab-popup" id="contactFabPopup" hidden>
+      <div class="contact-fab-popup-inner">
+        <span class="contact-fab-label">Contato do Criador</span>
+        <a href="mailto:thegerett.engenharia@gmail.com" class="contact-fab-email">thegerett.engenharia@gmail.com</a>
+        <button class="contact-fab-copy" id="contactFabCopy" aria-label="Copiar email">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/data/conteudo.js"></script>
   <script src="assets/js/main.js"></script>

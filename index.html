@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-BR" data-theme="auto">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -60,7 +60,7 @@
         <a href="#indice" class="nav-link" data-section="indice" role="menuitem">Índice</a>
         <a href="topicos.html" class="nav-link" data-section="topicos" role="menuitem">Tópicos</a>
         <a href="cursos.html" class="nav-link" data-section="cursos" role="menuitem">Cursos</a>
-        <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Biblioteca</a>
+        <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Formulários</a>
         <a href="sobre.html" class="nav-link" data-section="sobre" role="menuitem">Sobre</a>
       </div>
 
@@ -87,7 +87,7 @@
         <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-        <a href="biblioteca.html" class="mobile-nav-link">Biblioteca</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Formulários</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
       <div class="mobile-nav-footer">
@@ -345,6 +345,23 @@
               <div class="form-group">
                 <label for="contactLinkedin">LinkedIn (opcional)</label>
                 <input type="url" id="contactLinkedin" class="form-input" placeholder="https://linkedin.com/in/seu-perfil">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactFoto">Foto de Identificação (opcional)</label>
+              <div class="upload-area" id="uploadArea">
+                <input type="file" id="contactFoto" accept="image/*" hidden>
+                <div class="upload-placeholder" id="uploadPlaceholder">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                  <span>Clique ou arraste uma foto</span>
+                  <small>JPG, PNG ou WEBP (max. 2MB)</small>
+                </div>
+                <div class="upload-preview" id="uploadPreview" hidden>
+                  <img id="uploadImg" alt="Pré-visualização">
+                  <button type="button" class="upload-remove" id="uploadRemove" aria-label="Remover foto">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                  </button>
+                </div>
               </div>
             </div>
             <div class="form-group">
@@ -663,7 +680,7 @@
       </nav>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <p>Copyright &copy; 2026 Gerett — Biblioteca Organizacional - Todos os direitos reservados.</p>
       <div class="footer-links">
         <a href="sobre.html" class="footer-link">Sobre</a>
         <span class="footer-link">Privacidade</span>
@@ -675,6 +692,22 @@
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
+
+  <div class="contact-fab" id="contactFab">
+    <button class="contact-fab-btn" id="contactFabBtn" aria-label="Contato" title="Fale conosco">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+    </button>
+    <div class="contact-fab-popup" id="contactFabPopup" hidden>
+      <div class="contact-fab-popup-inner">
+        <span class="contact-fab-label">Contato do Criador</span>
+        <a href="mailto:thegerett.engenharia@gmail.com" class="contact-fab-email">thegerett.engenharia@gmail.com</a>
+        <button class="contact-fab-copy" id="contactFabCopy" aria-label="Copiar email">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="assets/data/conteudo.js"></script>

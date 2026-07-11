@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPAP — Checklist de Submissão Nível 3 — Gerett</title>
+  <style>
+@page {
+  size: A4 portrait;
+  margin: 3cm 2cm 2cm 2cm;
+}
+@media print {
+  body { margin: 0; padding: 0; }
+  .no-print { display: none !important; }
+  .page-break { page-break-before: always; }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #fff;
+  padding: 30px;
+  max-width: 210mm;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-left h2 {
+  font-size: 13pt;
+  color: #003366;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.header-left p {
+  font-size: 9pt;
+  color: #555;
+}
+.header-right {
+  text-align: right;
+  font-size: 9pt;
+  color: #555;
+}
+.doc-title {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.doc-title h1 {
+  font-size: 16pt;
+  color: #003366;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 3px solid #003366;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+.doc-subtitle {
+  text-align: center;
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 25px;
+}
+.doc-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+  font-size: 9.5pt;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #f5f7fa;
+  border-left: 3px solid #003366;
+  border-radius: 0 4px 4px 0;
+}
+.doc-info span { color: #333; }
+.doc-info strong { color: #003366; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 9.5pt;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #003366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+tr:nth-child(even) { background: #f8f9fb; }
+tr:hover { background: #eef1f6; }
+.field-blank {
+  border-bottom: 1px solid #999;
+  min-height: 22px;
+  display: inline-block;
+  min-width: 120px;
+}
+.section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #003366;
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.footer-doc {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 8pt;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.signature-block {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.signature-line {
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid #333;
+  font-size: 9.5pt;
+}
+.signature-line .name { font-weight: 700; }
+.signature-line .role { font-size: 8.5pt; color: #666; }
+.note {
+  font-size: 8.5pt;
+  color: #666;
+  font-style: italic;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #fffde7;
+  border-left: 3px solid #f9a825;
+  border-radius: 0 3px 3px 0;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.checklist-item input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #003366;
+}
+.priority-high { color: #c62828; font-weight: 700; }
+.priority-med { color: #e65100; font-weight: 600; }
+.priority-low { color: #2e7d32; }
+.rating-bar {
+  display: flex;
+  gap: 2px;
+}
+.rating-dot {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h2>GERETT — BIBLIOTECA ORGANIZACIONAL</h2>
+    <p>Engenharia de Produção | Qualidade</p>
+  </div>
+  <div class="header-right">
+    <p>Documento: PPAP-CHK-001</p>
+    <p>Rev.: 00 | 11/07/2026</p>
+  </div>
+</div>
+
+<div class="doc-title"><h1>PPAP — Nível 3 — Checklist de Submissão</h1></div>
+<div class="doc-subtitle">Production Part Approval Process — Conforme AIAG PPAP Manual, 4ª Edição</div>
+
+<div class="doc-info">
+  <span><strong>Fornecedor:</strong> <span class="field-blank"></span></span>
+  <span><strong>Cliente:</strong> <span class="field-blank"></span></span>
+  <span><strong>Nº da Peça:</strong> <span class="field-blank"></span></span>
+  <span><strong>Revisão:</strong> <span class="field-blank"></span></span>
+  <span><strong>Descrição:</strong> <span class="field-blank"></span></span>
+  <span><strong>Data de Submissão:</strong> 11/07/2026</span>
+  <span><strong>Nº da Solicitação:</strong> <span class="field-blank"></span></span>
+  <span><strong>Nível de Submissão:</strong> Nível 3</span>
+</div>
+
+<div class="note">Nível 3: Amostras representativas do lote de produção + toda a documentação completa conforme itens abaixo.</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:5%">#</th>
+      <th style="width:8%">A</th>
+      <th style="width:8%">R</th>
+      <th style="width:8%">N/A</th>
+      <th style="width:8%">S</th>
+      <th style="width:25%">Item de Submissão</th>
+      <th style="width:38%">Descrição / Observação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;width:5%">1</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Registro de Solicitação de Registro (2.1)</td>
+      <td style="width:38%">Carta de solicitação do cliente</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">2</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Aprovação de Desenho (2.2)</td>
+      <td style="width:38%">Desenho revisado com todas as alterações incorporadas</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">3</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Aprovação de Alteração de Desenho (2.3)</td>
+      <td style="width:38%">Documentação de todas as alterações não incorporadas</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">4</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Diagrama de Fluxo do Processo (3.1)</td>
+      <td style="width:38%">Mapa do fluxo do processo com inspeções e controle</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">5</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Diagrama de Ishikawa / Análise de Causa-Raiz (3.2)</td>
+      <td style="width:38%">Análise dos potenciais modos de falha do processo</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">6</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Plano de Controle (3.3)</td>
+      <td style="width:38%">Plano de controle da fase de pré-lote e de produção</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">7</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Estudo de Capacidade do Processo (3.4)</td>
+      <td style="width:38%">Cp, Cpk, Pp, Ppk paracaracterísticas críticas (≥1.67)</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">8</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Análise de Medição (3.5)</td>
+      <td style="width:38%">Estudo R&R para equipamentos de medição utilizados</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">9</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Estudo de Análise de Dimensional (3.6)</td>
+      <td style="width:38%">Relatório de medição dimensional (balizas, CMM)</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">10</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Relatório de Ensaios / Testes de Materiais (3.7)</td>
+      <td style="width:38%">Resultados de laboratório conforme especificação</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">11</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Processo de Aprovação Inicial (3.8)</td>
+      <td style="width:38%">Evidência de aprovação da fase inicial de produção</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">12</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Partes Produzidas (3.9)</td>
+      <td style="width:38%">Amostras da produção inicial para avaliação do cliente</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">13</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Registro de Amostra (3.10)</td>
+      <td style="width:38%">Etiquetas e rastreabilidade das amostras enviadas</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">14</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Requisitos Específicos do Cliente (3.11</td>
+      <td style="width:38%">Atender a requisitos documentados no manual do cliente</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">15</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Registro de Demonstração de Habilidade (3.12)</td>
+      <td style="width:38%">Evidência de capacidade do processo nas características-chave</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">16</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Análise de Material de Embalagem (3.13)</td>
+      <td style="width:38%">Relatório de desempenho de embalagem de transporte</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">17</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Relatório de Conformidade (3.14)</td>
+      <td style="width:38%">Declaração formal de atendimento a todos os requisitos</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;width:5%">18</td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:8%"><input type="checkbox" style="width:14px;height:14px;accent-color:#003366"></td>
+      <td style="width:25%">Submissão de Ficheiro Mestre (3.15)</td>
+      <td style="width:38%">Ficheiro mestre com toda a documentação PPAP</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="section-title">Legenda</div>
+<table>
+  <thead><tr><th>Sigla</th><th>Significado</th></tr></thead>
+  <tbody>
+    <tr><td><strong>A</strong></td><td>Aprovado — o item atende aos requisitos</td></tr>
+    <tr><td><strong>R</strong></td><td>Rejeitado — o item não atende; ação corretiva necessária</td></tr>
+    <tr><td><strong>N/A</strong></td><td>Não Aplicável — o item não se aplica a esta submissão</td></tr>
+    <tr><td><strong>S</strong></td><td>Suplementar — item em processo de conclusão; será entregue posteriormente</td></tr>
+  </tbody>
+</table>
+
+<div class="section-title">Decisão de Aprovação</div>
+<div class="doc-info">
+  <span><strong>☐ APROVADO</strong> — Todos os itens atendidos. Peças aprovadas para fornecimento.</span>
+  <span><strong>☐ APROVADO CONDICIONAL</strong> — Aprovado com ressalvas conforme anexo.</span>
+  <span><strong>☐ REJEITADO</strong> — Ação corretiva obrigatória antes da nova submissão.</span>
+</div>
+
+<div class="signature-block">
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Coordenador de Qualidade — Fornecedor</div></div>
+  <div class="signature-line"><div class="name"><span class="field-blank" style="min-width:200px"></span></div><div class="role">Engenheiro de Qualidade — Cliente</div></div>
+</div>
+
+  <div class="footer-doc">
+    <span>Gerett — Biblioteca Organizacional</span>
+    <span>Documento elaborado em 11/07/2026</span>
+    <span>Página 1 de 1</span>
+  </div>
+</body>
+</html>

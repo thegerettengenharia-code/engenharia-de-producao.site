@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-BR" data-theme="auto">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -33,7 +33,7 @@
         <a href="topicos.html" class="nav-link" role="menuitem" data-section="topicos">Tópicos</a>
         <a href="modelos-cad.html" class="nav-link" role="menuitem" data-section="modelos-cad">Modelos CAD</a>
         <a href="cursos.html" class="nav-link" role="menuitem" data-section="cursos">Cursos</a>
-        <a href="biblioteca.html" class="nav-link active" role="menuitem" data-section="biblioteca">Biblioteca</a>
+        <a href="biblioteca.html" class="nav-link active" role="menuitem" data-section="biblioteca">Formulários</a>
         <a href="sobre.html" class="nav-link" role="menuitem" data-section="sobre">Sobre</a>
       </div>
       <div class="nav-actions">
@@ -55,7 +55,7 @@
         <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-        <a href="biblioteca.html" class="mobile-nav-link active">Biblioteca</a>
+        <a href="biblioteca.html" class="mobile-nav-link active">Formulários</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
       <div class="mobile-nav-footer">
@@ -76,7 +76,8 @@
   </nav>
 
   <main id="main">
-    <section class="page-header">
+    <section class="page-header biblioteca-hero">
+      <div class="biblioteca-hero-bg" id="bibliotecaBg"></div>
       <a href="index.html" class="back-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Voltar ao início
@@ -107,14 +108,30 @@
       </nav>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 Gerett — Biblioteca Organizacional</p>
+      <p>Copyright &copy; 2026 Gerett — Biblioteca Organizacional - Todos os direitos reservados.</p>
       <div class="footer-links"><a href="sobre.html" class="footer-link">Sobre</a><span class="footer-link">Privacidade</span><span class="footer-link">Termos</span></div>
     </div>
   </footer>
 
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
+
+  <div class="contact-fab" id="contactFab">
+    <button class="contact-fab-btn" id="contactFabBtn" aria-label="Contato" title="Fale conosco">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+    </button>
+    <div class="contact-fab-popup" id="contactFabPopup" hidden>
+      <div class="contact-fab-popup-inner">
+        <span class="contact-fab-label">Contato do Criador</span>
+        <a href="mailto:thegerett.engenharia@gmail.com" class="contact-fab-email">thegerett.engenharia@gmail.com</a>
+        <button class="contact-fab-copy" id="contactFabCopy" aria-label="Copiar email">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/data/conteudo.js"></script>
   <script src="assets/js/main.js"></script>
@@ -142,22 +159,42 @@
     window.downloadForm = function(id) {
       const f = S.formularios.find(x => x.id === id);
       if (!f) return;
-      let html = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>' + f.nome + '</title><style>body{font-family:Arial,sans-serif;max-width:800px;margin:40px auto;padding:20px;color:#222}h1{font-size:1.3rem;border-bottom:2px solid #0055FF;padding-bottom:8px}table{width:100%;border-collapse:collapse;margin:16px 0}td,th{border:1px solid #ccc;padding:8px;text-align:left}th{background:#f0f4f8;font-size:.85rem}@media print{body{margin:0}}</style></head><body>';
-      html += '<h1>' + f.nome + '</h1>';
-      if (f.campos) {
-        html += '<table><tr><th>Campo</th><th>Tipo</th><th>Descrição</th></tr>';
-        f.campos.forEach(c => { html += '<tr><td>' + c.nome + '</td><td>' + (c.tipo || 'Texto') + '</td><td>' + (c.descricao || '') + '</td></tr>'; });
-        html += '</table>';
+      if (f.arquivo) {
+        window.open(f.arquivo, '_blank');
       }
-      html += '<p style="margin-top:24px;font-size:.8rem;color:#888">Gerado por Gerett — Biblioteca Organizacional</p>';
-      html += '</body></html>';
-      const blob = new Blob([html], { type: 'text/html' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = f.nome.replace(/[^a-zA-Z0-9]/g, '_') + '.html';
-      a.click();
-      URL.revokeObjectURL(a.href);
     };
+  })();
+  </script>
+  <script>
+  (function(){
+    const bg = document.getElementById('bibliotecaBg');
+    if (!bg || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+    bg.classList.add('parallax-active');
+
+    gsap.to(bg, {
+      y: -80,
+      scale: 1.08,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: bg.parentElement,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1.5,
+        invalidateOnRefresh: true
+      }
+    });
+
+    gsap.to(bg, {
+      opacity: 0.08,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: bg.parentElement,
+        start: 'top top',
+        end: '60% top',
+        scrub: 1
+      }
+    });
   })();
   </script>
   <script src="assets/js/animations.js"></script>
