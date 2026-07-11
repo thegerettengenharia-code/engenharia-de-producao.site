@@ -13,3 +13,10 @@ Thumbs.db
 node_modules/
 *.log
 enriched_categories.json
+
+# Utility scripts
+gerar_json.ps1
+gerar_json.py
+gerar_nr.py
+substituir_categoria.py
+substituir_categoria2.py
