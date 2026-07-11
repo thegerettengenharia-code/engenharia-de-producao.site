@@ -649,5 +649,30 @@
   // Initial render
   renderContacts('');
 
+  // Botão de Contato Flutuante
+  var contactFabBtn = document.getElementById('contactFabBtn');
+  var contactFabPopup = document.getElementById('contactFabPopup');
+  var contactFabCopy = document.getElementById('contactFabCopy');
+
+  contactFabBtn?.addEventListener('click', function() {
+    var isOpen = !contactFabPopup.hidden;
+    contactFabPopup.hidden = isOpen;
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.contact-fab')) {
+      contactFabPopup.hidden = true;
+    }
+  });
+
+  contactFabCopy?.addEventListener('click', function() {
+    navigator.clipboard.writeText('thegerett.engenharia@gmail.com').then(function() {
+      contactFabCopy.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Copiado!';
+      setTimeout(function() {
+        contactFabCopy.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copiar';
+      }, 2000);
+    });
+  });
+
   console.log('%c Gerett v4.0 ', 'background:linear-gradient(135deg,#0055FF,#00E5FF);color:#fff;font-size:14px;padding:8px 16px;border-radius:6px;font-weight:bold;');
 })();

@@ -138,8 +138,24 @@
   </footer>
 
   <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
+
+  <div class="contact-fab" id="contactFab">
+    <button class="contact-fab-btn" id="contactFabBtn" aria-label="Contato" title="Fale conosco">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+    </button>
+    <div class="contact-fab-popup" id="contactFabPopup" hidden>
+      <div class="contact-fab-popup-inner">
+        <span class="contact-fab-label">Contato do Criador</span>
+        <a href="mailto:thegerett.engenharia@gmail.com" class="contact-fab-email">thegerett.engenharia@gmail.com</a>
+        <button class="contact-fab-copy" id="contactFabCopy" aria-label="Copiar email">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/data/conteudo.js"></script>
   <script src="assets/js/main.js"></script>
