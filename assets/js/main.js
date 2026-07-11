@@ -473,11 +473,17 @@
       return;
     }
     grid.innerHTML = contacts.map(function(c) {
-      var initials = (c.nome || '').split(' ').map(function(w) { return w.charAt(0); }).slice(0, 2).join('').toUpperCase();
-      var avatarColors = ['#0055FF','#00E5FF','#6C5CE7','#E040FB','#FF6D00','#00C853','#2979FF','#D500F9','#FF3D00','#00BFA5'];
-      var avatarColor = avatarColors[c.id ? c.id.split('').reduce(function(a,b){return a+b.charCodeAt(0);},0) % avatarColors.length : 0];
+      var avatarContent;
+      if (c.foto) {
+        avatarContent = '<img src="' + c.foto + '" alt="Foto de ' + escapeHtml(c.nome) + '">';
+      } else {
+        var initials = (c.nome || '').split(' ').map(function(w) { return w.charAt(0); }).slice(0, 2).join('').toUpperCase();
+        var avatarColors = ['#0055FF','#00E5FF','#6C5CE7','#E040FB','#FF6D00','#00C853','#2979FF','#D500F9','#FF3D00','#00BFA5'];
+        var avatarColor = avatarColors[c.id ? c.id.split('').reduce(function(a,b){return a+b.charCodeAt(0);},0) % avatarColors.length : 0];
+        avatarContent = '<span style="background:' + avatarColor + '">' + initials + '</span>';
+      }
       return '<div class="contact-card" data-reveal-item>' +
-        '<div class="contact-avatar" style="background:' + avatarColor + '">' + initials + '</div>' +
+        '<div class="contact-avatar">' + avatarContent + '</div>' +
         '<div class="contact-info">' +
           '<h4 class="contact-name">' + escapeHtml(c.nome) + '</h4>' +
           '<span class="contact-role">' + escapeHtml(c.cargo) + '</span>' +
@@ -497,6 +503,83 @@
     var div = document.createElement('div');
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
+  }
+
+  // Upload de Foto
+  var uploadArea = document.getElementById('uploadArea');
+  var uploadInput = document.getElementById('contactFoto');
+  var uploadPlaceholder = document.getElementById('uploadPlaceholder');
+  var uploadPreview = document.getElementById('uploadPreview');
+  var uploadImg = document.getElementById('uploadImg');
+  var uploadRemove = document.getElementById('uploadRemove');
+  var uploadedPhoto = null;
+
+  if (uploadArea && uploadInput) {
+    uploadArea.addEventListener('click', function(e) {
+      if (e.target === uploadRemove || e.target.closest('.upload-remove')) return;
+      uploadInput.click();
+    });
+
+    uploadArea.addEventListener('dragover', function(e) {
+      e.preventDefault();
+      uploadArea.classList.add('dragover');
+    });
+
+    uploadArea.addEventListener('dragleave', function() {
+      uploadArea.classList.remove('dragover');
+    });
+
+    uploadArea.addEventListener('drop', function(e) {
+      e.preventDefault();
+      uploadArea.classList.remove('dragover');
+      var files = e.dataTransfer.files;
+      if (files.length) handlePhotoUpload(files[0]);
+    });
+
+    uploadInput.addEventListener('change', function() {
+      if (uploadInput.files.length) handlePhotoUpload(uploadInput.files[0]);
+    });
+
+    uploadRemove?.addEventListener('click', function(e) {
+      e.stopPropagation();
+      uploadedPhoto = null;
+      uploadInput.value = '';
+      uploadPlaceholder.hidden = false;
+      uploadPreview.hidden = true;
+    });
+  }
+
+  function handlePhotoUpload(file) {
+    if (!file.type.startsWith('image/')) {
+      if (feedback) { feedback.textContent = 'Apenas imagens são aceitas.'; feedback.className = 'networking-feedback error'; feedback.hidden = false; setTimeout(function() { feedback.hidden = true; }, 3000); }
+      return;
+    }
+    if (file.size > 2 * 1024 * 1024) {
+      if (feedback) { feedback.textContent = 'A foto deve ter no máximo 2MB.'; feedback.className = 'networking-feedback error'; feedback.hidden = false; setTimeout(function() { feedback.hidden = true; }, 3000); }
+      return;
+    }
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      // Redimensionar para 200x200 para economizar localStorage
+      var img = new Image();
+      img.onload = function() {
+        var canvas = document.createElement('canvas');
+        var size = 200;
+        canvas.width = size;
+        canvas.height = size;
+        var ctx = canvas.getContext('2d');
+        var min = Math.min(img.width, img.height);
+        var sx = (img.width - min) / 2;
+        var sy = (img.height - min) / 2;
+        ctx.drawImage(img, sx, sy, min, min, 0, 0, size, size);
+        uploadedPhoto = canvas.toDataURL('image/jpeg', 0.7);
+        if (uploadImg) uploadImg.src = uploadedPhoto;
+        uploadPlaceholder.hidden = true;
+        uploadPreview.hidden = false;
+      };
+      img.src = ev.target.result;
+    };
+    reader.readAsDataURL(file);
   }
 
   // Form submission
@@ -533,12 +616,16 @@
       email: email,
       linkedin: linkedin || '',
       especialidades: espec || '',
+      foto: uploadedPhoto || '',
       createdAt: new Date().toISOString()
     };
 
     contacts.push(newContact);
     saveContacts(contacts);
     contactForm.reset();
+    uploadedPhoto = null;
+    if (uploadPlaceholder) uploadPlaceholder.hidden = false;
+    if (uploadPreview) uploadPreview.hidden = true;
     if (feedback) { feedback.textContent = 'Contato publicado com sucesso!'; feedback.className = 'networking-feedback success'; feedback.hidden = false; setTimeout(function() { feedback.hidden = true; }, 4000); }
     renderContacts(document.getElementById('filterArea')?.value || '');
   });
