@@ -1218,6 +1218,13 @@ html.has-cursor * { cursor: none !important; }
 }
 
 /* Form Card */
+.networking-layout-single {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .networking-form-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
