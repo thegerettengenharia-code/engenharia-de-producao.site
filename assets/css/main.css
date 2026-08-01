@@ -423,6 +423,7 @@ ul, ol { list-style: none; }
   padding: 16px 20px; border-radius: var(--radius-md);
   background: var(--bg-card); border: 1px solid var(--border);
   cursor: pointer; transition: all .35s var(--ease-fluid);
+  min-width: 0;
 }
 .index-item:hover {
   background: var(--brand-light); border-color: var(--c-eng-blue);
@@ -955,17 +956,21 @@ a.topic-card:visited {
   .hero {
     height: auto; min-height: 100dvh;
     justify-content: flex-start;
-    padding: 76px 0 0;
+    padding: 84px 18px 0;
+    overflow-x: hidden;
   }
   .hero-video {
     position: relative; inset: auto;
-    width: 100%; height: auto;
+    width: min(86%, 320px); height: auto;
     aspect-ratio: 16 / 9; object-fit: contain;
+    border-radius: 18px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 18px 50px var(--shadow);
     background: var(--bg);
   }
   .hero-video-scrim,
   .hero-video-grid { display: none; }
-  .hero-content { padding: 40px 18px 56px; gap: 32px; }
+  .hero-content { padding: 28px 0 56px; gap: 26px; }
   .hero-stats { flex-wrap: wrap; gap: 24px; }
   .section { padding: 70px 18px; }
   .topics-grid { grid-template-columns: 1fr; }
@@ -981,7 +986,7 @@ a.topic-card:visited {
   .hero-purpose { padding: 20px; }
   .cursor-dot, .cursor-ring { display: none !important; }
   html.has-cursor * { cursor: auto !important; }
-  .hero-title { font-size: 2rem; }
+  .hero-title { font-size: 1.75rem; line-height: 1.15; }
   .hero-cta { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
   .navbar { width: calc(100% - 16px); top: 8px; }
