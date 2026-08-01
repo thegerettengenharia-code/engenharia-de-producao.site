@@ -952,7 +952,20 @@ a.topic-card:visited {
 }
 
 @media (max-width: 768px) {
-  .hero { padding: 100px 18px 120px; }
+  .hero {
+    height: auto; min-height: 100dvh;
+    justify-content: flex-start;
+    padding: 76px 0 0;
+  }
+  .hero-video {
+    position: relative; inset: auto;
+    width: 100%; height: auto;
+    aspect-ratio: 16 / 9; object-fit: contain;
+    background: var(--bg);
+  }
+  .hero-video-scrim,
+  .hero-video-grid { display: none; }
+  .hero-content { padding: 40px 18px 56px; gap: 32px; }
   .hero-stats { flex-wrap: wrap; gap: 24px; }
   .section { padding: 70px 18px; }
   .topics-grid { grid-template-columns: 1fr; }
