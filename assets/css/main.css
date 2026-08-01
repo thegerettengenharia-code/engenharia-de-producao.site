@@ -961,11 +961,8 @@ a.topic-card:visited {
   }
   .hero-video {
     position: relative; inset: auto;
-    width: min(74%, 290px); height: auto;
+    width: min(80%, 320px); height: auto;
     aspect-ratio: 16 / 9; object-fit: contain;
-    border-radius: 16px;
-    border: 1px solid var(--glass-border);
-    box-shadow: 0 16px 44px var(--shadow);
     background: var(--bg);
   }
   .hero-video-scrim,
