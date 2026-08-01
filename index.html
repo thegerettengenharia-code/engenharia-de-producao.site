@@ -553,7 +553,7 @@
     var ctx = canvas.getContext('2d');
     var TOTAL = 72;
     var isMobile = window.matchMedia('(max-width: 768px)').matches;
-    var ZOOM = isMobile ? 1.0 : 1.5;
+    var ZOOM = isMobile ? 1.15 : 1.5;
     var BASE = isMobile ? 'assets/img/spin/mobile/' : 'assets/img/spin/';
     var frames = [];
     var loaded = 0;
@@ -576,7 +576,7 @@
 
     function fit(im, w, h) {
       var iw = im.width, ih = im.height;
-      var s = (isMobile ? Math.min(w / iw, h / ih) : Math.max(w / iw, h / ih)) * ZOOM;
+      var s = Math.max(w / iw, h / ih) * ZOOM;
       var dw = iw * s, dh = ih * s;
       return { dx: (w - dw) / 2, dy: (h - dh) / 2, dw: dw, dh: dh };
     }
