@@ -1829,18 +1829,18 @@ select.form-input { cursor: pointer; }
 #indice .section-header { position: relative; z-index: 2; }
 
 @media (max-width: 768px) {
-  .scroll-hero { height: 320vh; }
+  .scroll-hero { height: 220vh; }
   .scroll-hero-stage {
     height: 100vh;
     height: 100dvh;
-    min-height: 480px;
+    min-height: 420px;
   }
   #scrollCanvas {
     -webkit-mask-image: radial-gradient(88% 76% at 50% 50%, #000 60%, rgba(0,0,0,0.82) 78%, transparent 100%);
     mask-image: radial-gradient(88% 76% at 50% 50%, #000 60%, rgba(0,0,0,0.82) 78%, transparent 100%);
   }
   .scroll-hero-overlay { max-width: 92%; padding: 16px; }
-  .scroll-hero-title { font-size: clamp(1.7rem, 7.5vw, 2.4rem); }
+  .scroll-hero-title { font-size: clamp(1.6rem, 6.5vw, 2.2rem); }
   .scroll-hero-hint { bottom: 22px; }
 }
 
