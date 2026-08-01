@@ -9,9 +9,6 @@
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (isReduced) return;
-
   const deviceFactor = isMobile ? 0.5 : 1;
 
   /* ─── Magnetic Cursor ─── */
@@ -214,7 +211,9 @@
         if (h === '#') return;
         e.preventDefault();
         const t = document.querySelector(h);
-        if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (!t) return;
+        if (window.__lenis) window.__lenis.scrollTo(t, { offset: 0, duration: 1.4 });
+        else t.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
   }

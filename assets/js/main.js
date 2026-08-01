@@ -367,7 +367,10 @@
   window.addEventListener('scroll', () => {
     scrollTop?.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
-  scrollTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  scrollTop?.addEventListener('click', () => {
+    if (window.__lenis) window.__lenis.scrollTo(0, { immediate: false });
+    else window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   /* ─── Homepage: Courses Grid ─── */
   const courseGrid = document.getElementById('courseGrid');
@@ -388,8 +391,7 @@
   }
 
   /* ─── Logo Effects: Vibrate + Metallic Particles ─── */
-  const heroLogo = document.getElementById('heroLogoImg');
-  const heroLogoWrapper = document.getElementById('heroLogoWrapper');
+  const heroVideo = document.querySelector('.hero-video');
   const navLogo = document.getElementById('navLogoImg');
 
   function createMetallicParticles(x, y, count) {
@@ -420,17 +422,11 @@
     }
   }
 
-  if (heroLogo) {
-    heroLogo.addEventListener('mouseenter', () => {
-      heroLogo.classList.add('logo-vibrate');
-    });
-    heroLogo.addEventListener('animationend', () => {
-      heroLogo.classList.remove('logo-vibrate');
-    });
-    heroLogo.addEventListener('click', (e) => {
-      const rect = heroLogo.getBoundingClientRect();
-      const cx = rect.left + rect.width / 2;
-      const cy = rect.top + rect.height / 2;
+  if (heroVideo) {
+    heroVideo.addEventListener('click', (e) => {
+      const rect = heroVideo.getBoundingClientRect();
+      const cx = e.clientX - rect.left;
+      const cy = e.clientY - rect.top;
       createMetallicParticles(cx, cy, 24);
     });
   }
