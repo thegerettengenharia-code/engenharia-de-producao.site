@@ -112,7 +112,7 @@
               "descricao": "O índice de balanceamento é uma métrica que quantifica o grau de equilíbrio entre as cargas de trabalho distribuídas entre os postos operacionais de uma linha de produção. Sua análise baseia-se no cálculo do desvio-padrão dos tempos de ciclo ou na razão entre o tempo total de trabalho e o tempo do gargalo multiplicado pelo número de estações, permitindo identificar assimetrias que geram ociosidade ou sobrecarga. Conforme Slack, Chambers e Johnston (2009), um índice próximo de 1,0 indica distribuição homogênea das tarefas. Por exemplo, uma linha com cinco estações cujos tempos individuais são 8, 7, 9, 6 e 8 minutos resulta em um índice de balanceamento de 0,89, sugerindo a necessidade de reorganização das atividades para reduzir o gargalo de 9 minutos. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             }
           ],
-          "formula": "IE = (Σ× ti / (n × tc)) × 100%",
+          "formula": "IE = (Σ ti / (n × tc)) × 100%",
           "aplicacoes": [
             "Linhas de montagem automotiva",
             "Linhas de eletrônicos",
@@ -133,7 +133,7 @@
             },
             {
               "nome": "SPT",
-              "descricao": "SPT, sigla para Shortest Processing Time, é uma regra de prioridade que sequencia as ordens de produção conforme o menor tempo de processamento, executando primeiro as tarefas mais rápidas e postergando as mais demoradas. Essa heurística demonstra excelente desempenho na minimização do tempo médio de fluxo, redução do estoque em processo e diminuição do número médio de trabalhos na fila, sendo a regra mais eficaz para esses indicadores. Segundo Stevenson (2014), o SPT é matematicamente ótimo para a minimização do makespan em sistemas monoestágio. Por exemplo, ao sequenciar quatro jobs com durações de 2, 8, 4 e 6 horas, o SPT resulta na sequência 2, 4, 6 e 8 horas, gerando um tempo médio de fluxo de apenas 7,5 horas. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "SPT, sigla para Shortest Processing Time, é uma regra de prioridade que sequência as ordens de produção conforme o menor tempo de processamento, executando primeiro as tarefas mais rápidas e postergando as mais demoradas. Essa heurística demonstra excelente desempenho na minimização do tempo médio de fluxo, redução do estoque em processo e diminuição do número médio de trabalhos na fila, sendo a regra mais eficaz para esses indicadores. Segundo Stevenson (2014), o SPT é matematicamente ótimo para a minimização do makespan em sistemas monoestágio. Por exemplo, ao sequenciar quatro jobs com durações de 2, 8, 4 e 6 horas, o SPT resulta na sequência 2, 4, 6 e 8 horas, gerando um tempo médio de fluxo de apenas 7,5 horas. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             },
             {
               "nome": "Johnson para 2 máquinas",
@@ -297,7 +297,7 @@
             },
             {
               "nome": "Simulação de cenários",
-              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e利用率. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e enfileiramentos. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             },
             {
               "nome": "Fechamento do ciclo",
@@ -325,7 +325,7 @@
             },
             {
               "nome": "SAP / Oracle / Totvs",
-              "descricao": "SAP, Oracle e Totvs são as três principais plataformas ERP do mercado brasileiro, respectivamente líderes nos segmentos enterprise, médio e pequeno-médio porte, cada qual com arquitetura e ecossistema próprios. SAP ECC/S4HANA oferece módulos como FI, CO, MM, PP e SD; Oracle E-Business Suite e NetSuite cobrem finanças, supply chain e manufatura; Totvs Protheus e RM atendem às particularidades fiscais e trabalhistas brasileiras com alto grau de parametrização local. De acordo com Souza e Zwicker (2003), a escolha entre essas plataformas deve considerar o custo total de propriedade, que varia de R$ 200 mil (Totvs para 50 usuários) a R$ 15 milhões (SAP para 500 usuários) em projetos de médio porte. Um estudo de caso típico mostra que uma empresa de manufatura com 300 funcionários reduz seus custos operacionais em 25% após 18 meses de operação com SAP S4HANA. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "SAP, Oracle e Totvs são as três principais plataformas ERP do mercado brasileiro, respectivamente líderes nos segmentos enterprise, médio e pequeno-médio porte, cada qual com arquitetura e ecossistema próprios. SAP ECC/S4HANA oferece módulos como FI, CO, MM, PP e SD; Oracle E-Business Suíte e NetSuite cobrem finanças, supply chain e manufatura; Totvs Protheus e RM atendem às particularidades fiscais e trabalhistas brasileiras com alto grau de parametrização local. De acordo com Souza e Zwicker (2003), a escolha entre essas plataformas deve considerar o custo total de propriedade, que varia de R$ 200 mil (Totvs para 50 usuários) a R$ 15 milhões (SAP para 500 usuários) em projetos de médio porte. Um estudo de caso típico mostra que uma empresa de manufatura com 300 funcionários reduz seus custos operacionais em 25% após 18 meses de operação com SAP S4HANA. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             },
             {
               "nome": "Implementação e parametrização",
@@ -333,7 +333,7 @@
             },
             {
               "nome": "Integração com WMS e TMS",
-              "descricao": "A integração entre ERP, WMS (Warehouse Management System) e TMS (Transportation Management System) cria um fluxo logístico contínuo que abrange desde o recebimento de mercadorias até a entrega ao cliente final, com rastreabilidade total dos lotes e documentos fiscais. O WMS gerencia endereçamento, inventário cíclico, picking e expedição, enquanto o TMS otimiza roteirização, consolidação de cargas e auditoria de fretes; ambos trocam dados em tempo real com o ERP via APIs REST ou middlewares EDI. Segundo Bowersox, Closs e Cooper (2013), a integração logística tridimensional pode reduzir o custo logístico total em 15% a 25% em operações de grande escala. Por exemplo, uma indústria alimentícia que processa 200 ordens de separação por dia integrou ERP Protheus a um WMS dedicado e reduziu o tempo de expedição de 4 horas para 1 hora e 20 minutos por turno. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "A integração entre ERP, WMS (Warehouse Management System) e TMS (Transportation Management System) cria um fluxo logístico contínuo que abrange desde o recebimento de mercadorias até a entrega ao cliente final, com rastreabilidade total dos lotes e documentos fiscais. O WMS gerência endereçamento, inventário cíclico, picking e expedição, enquanto o TMS otimiza roteirização, consolidação de cargas e auditoria de fretes; ambos trocam dados em tempo real com o ERP via APIs REST ou middlewares EDI. Segundo Bowersox, Closs e Cooper (2013), a integração logística tridimensional pode reduzir o custo logístico total em 15% a 25% em operações de grande escala. Por exemplo, uma indústria alimentícia que processa 200 ordens de separação por dia integrou ERP Protheus a um WMS dedicado e reduziu o tempo de expedição de 4 horas para 1 hora e 20 minutos por turno. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             }
           ],
           "formula": "",
@@ -361,7 +361,7 @@
             },
             {
               "nome": "Simulação de cenários",
-              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e利用率. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e enfileiramentos. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             }
           ],
           "formula": "",
@@ -596,18 +596,18 @@
         },
         {
           "titulo": "CEP  –  Controle Estatístico do Processo",
-          "definicao": "Metodologia estatística de monitoramento contínuo de processos produtivos por meio de gréficos de controle, detectando variações anormais antes que gerem produtos não conformes. Baseia-se nos princípios de Shewhart e na análise de variabilidade.",
+          "definicao": "Metodologia estatística de monitoramento contínuo de processos produtivos por meio de gráficos de controle, detectando variações anormais antes que gerem produtos não conformes. Baseia-se nos princípios de Shewhart e na análise de variabilidade.",
           "topicos": [
             {
-              "nome": "Gréficos X̄-R",
+              "nome": "Gráficos X̄-R",
               "descricao": "Carta de controle bivariada para monitoramento simultâneo da tendência central e da dispersão de um processo, composta pelo gráfico das médias amostrais (X̄) e pelo gráfico das amplitudes (R). Montgomery (2012) define os limites de controle como LSC = X̄ + A₂R̄ e LIC = X̄ − A₂R̄ para o gráfico X̄, e LSC = D₄R̄ e LIC = D₃R̄ para o gráfico R. Por exemplo, para 25 amostras de tamanho n=5 com X̄ = 50,2 mm e R̄ = 0,8 mm, e A₂ = 0,577, os limites do gráfico X̄ são LSC = 50,66 mm e LIC = 49,74 mm; se uma amostra apresentar X̄ = 51,1 mm, o processo é sinalizado como fora de controle. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
             },
             {
-              "nome": "Gréficos X̄-S",
+              "nome": "Gráficos X̄-S",
               "descricao": "Carta de controle para monitorar a média e o desvio-padrão de processos com amostras de tamanho igual ou superior a 10, substituindo a amplitude pelo desvio-padrão amostral S como medida de dispersão. Segundo Montgomery (2012), os limites são LSC = X̄ + A₃S̄ e LIC = X̄ − A₃S̄ para o gráfico X̄, e LSC = B₄S̄ e LIC = B₃S̄ para o gráfico S. Por exemplo, em 20 amostras de n=12 com X̄ = 150,0 g e S̄ = 2,5 g, e A₃ = 0,886, os limites para X̄ são LSC = 152,2 g e LIC = 147,8 g; uma amostra com X̄ = 146,5 g indica causa especial atuando no processo. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
             },
             {
-              "nome": "Gréficos p, np, c, u",
+              "nome": "Gráficos p, np, c, u",
               "descricao": "Conjunto de cartas de controle para atributos que monitoram a proporção (p) e o número (np) de itens não conformes, bem como o número de defeitos por unidade de inspeção (c) e a taxa média de defeitos (u). Conforme definem Montgomery (2012) e Juran (1993), os limites são calculados com base na distribuição binomial (p e np) ou de Poisson (c e u). Por exemplo, em um lote de 200 peças com proporção histórica de defeitos p̄ = 0,03, o LSC do gráfico p é 0,03 + 3√[0,03(0,97)/200] = 0,066; se uma amostra apresentar 15 defeituosos (p = 0,075), o processo é considerado fora de controle estatístico. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
             },
             {
@@ -643,7 +643,7 @@
               "descricao": "Defeitos Por Milhão de Oportunidades (DPMO) é uma métrica que padroniza a taxa de falhas de um processo, calculada como DPMO = (número de defeitos / (número de unidades × número de oportunidades)) × 10⁶, e o nível sigma converte esse valor na escala de desvios-padrão da distribuição normal, considerando um deslocamento de 1,5σ conforme estabelecido por Harry (1998). Assim, um processo com 3,4 DPMO corresponde a 6σ, referência de excelência operacional. Por exemplo, em uma fábrica que produz 5.000 circuitos impressos por mês, cada um com 200 oportunidades de defeito, registraram-se 80 defeitos no mês; o DPMO = (80/(5000×200))×10⁶ = 80, o que equivale aproximadamente a um nível sigma de 5,25σ, considerado acima da média industrial. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
             }
           ],
-          "formula": "DPMO = (N² defeitos / (N² unidades × N² oportunidades)) × 10⁶",
+          "formula": "DPMO = (Nº defeitos / (Nº unidades × Nº oportunidades)) × 10⁶",
           "aplicacoes": [
             "Redução de refugos em injeção pléstica",
             "Otimização de processos bancérios",
@@ -708,7 +708,7 @@
         },
         {
           "titulo": "MASP  –  Método de Análise e Solução de Problemas",
-          "definicao": "Metodologia estruturada de 8 etapas para identificação, análise e eliminação de problemas crônicos na qualidade. Derivado do QC Story japonês, utiliza ferramentas como diagrama de Ishikawa, 5 porquês e gréfico de Pareto em sua aplicação.",
+          "definicao": "Metodologia estruturada de 8 etapas para identificação, análise e eliminação de problemas crônicos na qualidade. Derivado do QC Story japonês, utiliza ferramentas como diagrama de Ishikawa, 5 porquês e gráfico de Pareto em sua aplicação.",
           "topicos": [
             {
               "nome": "Identificação do problema",
@@ -848,7 +848,7 @@
         },
         {
           "titulo": "SPC  –  Statistical Process Control",
-          "definicao": "Aplicação de métodos estatísticos para monitorar e controlar a variabilidade de processos produtivos em tempo real. Utiliza gréficos de controle, histogramas e análise de capacidade para detectar desvios e manter o processo dentro dos limites especificados.",
+          "definicao": "Aplicação de métodos estatísticos para monitorar e controlar a variabilidade de processos produtivos em tempo real. Utiliza gráficos de controle, histogramas e análise de capacidade para detectar desvios e manter o processo dentro dos limites especificados.",
           "topicos": [
             {
               "nome": "Variação comum vs especial",
@@ -884,7 +884,7 @@
             },
             {
               "nome": "Gemba Kaizen",
-              "descricao": "Gemba Kaizen é a prática sistemática de melhoria contínua realizada no local real onde o trabalho acontece, fundamentada na observação direta dos processos, no respeito às pessoas e na eliminação de desperdícios identificados in loco pela liderança e pelos operadores. A abordagem parte do princípio de que os problemas são visíveis apenas quando se está no gemba, sendo ineficaz gerenciá-los remotamente a partir de relatórios e reuniões de escritório. Segundo Imai (2012), o gemba é o locus de toda a criação de valor e o ponto de partida para qualquer melhoria genuína. Por exemplo, um supervisor que dedica 60 minutos diários ao gemba walk identifica em média cinco desperdícios por semana e implementa três contramedidas imediatas, reduzindo progressivamente os tempos de setup. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
+              "descricao": "Gemba Kaizen é a prática sistemática de melhoria contínua realizada no local real onde o trabalho acontece, fundamentada na observação direta dos processos, no respeito às pessoas e na eliminação de desperdícios identificados in loco pela liderança e pelos operadores. A abordagem parte do princípio de que os problemas são visíveis apenas quando se está no gemba, sendo ineficaz gerenciá-los remotamente a partir de relatórios e reuniões de escritório. Segundo Imai (2012), o gemba é o lócus de toda a criação de valor e o ponto de partida para qualquer melhoria genuína. Por exemplo, um supervisor que dedica 60 minutos diários ao gemba walk identifica em média cinco desperdícios por semana e implementa três contramedidas imediatas, reduzindo progressivamente os tempos de setup. (Referência: MONTGOMERY, D. C. Introdução ao Controle Estatístico da Qualidade. 7. ed. Rio de Janeiro: LTC, 2016.)"
             },
             {
               "nome": "Fluxo contínuo",
@@ -1170,7 +1170,7 @@
               "descricao": "Loop kanban é o circuito fechado de circulação de cartões kanban entre um posto fornecedor e um posto cliente, abrangendo o ponto de produção, o supermercado de peças, o ponto de consumo e o quadro de kanban, com número fixo de cartões determinados pelo dimensionamento do sistema. Cada loop kanban opera de forma autônoma e autorregulada, com a quantidade total de peças em circulação no sistema limitada pela quantidade de cartões emitidos, garantindo que o estoque nunca ultrapasse o valor máximo projetado. Conforme Ohno (1988), o loop kanban cria um sistema auto balanceado que se ajusta naturalmente a variações de demanda sem intervenção centralizada. Por exemplo, um loop kanban entre o centro de usinagem e a linha de montagem com 12 cartões, cada um referente a um contenedor de 50 peças, limita o estoque máximo em 600 peças, e o número de cartões em circulação determina a sensibilidade do sistema a variações de demanda. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             }
           ],
-          "formula": "N² kanbans = (D × L × (1 + S)) / Q",
+          "formula": "Nº kanbans = (D × L × (1 + S)) / Q",
           "aplicacoes": [
             "Abastecimento de linhas na indústria automotiva",
             "Gestão visual de estoques intermediários",
@@ -1263,7 +1263,7 @@
         },
         {
           "titulo": "Takt Time",
-          "definicao": "Ritmo de produção necessário para atender à demanda do cliente no tempo disponível. ë a frequência com que uma peça ou produto deve ser produzido para sincronizar a produção com as vendas. Serve como referência para o balanceamento de linhas.",
+          "definicao": "Ritmo de produção necessário para atender à demanda do cliente no tempo disponível. é a frequência com que uma peça ou produto deve ser produzido para sincronizar a produção com as vendas. Serve como referência para o balanceamento de linhas.",
           "topicos": [
             {
               "nome": "Ritmo da demanda",
@@ -1310,7 +1310,7 @@
               "descricao": "Tempo total decorrido desde a solicitação de um pedido até sua entrega ao cliente, incluindo processamento e transporte. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             }
           ],
-          "formula": "Tempo de Ciclo = Tempo Total de Operação / N² de Peças Produzidas",
+          "formula": "Tempo de Ciclo = Tempo Total de Operação / Nº de Peças Produzidas",
           "aplicacoes": [
             "Medição de produtividade em células de manufatura",
             "Comparação com takt time para identificar gargalos",
@@ -1459,7 +1459,7 @@
         },
         {
           "titulo": "Gestão visual",
-          "definicao": "Conjunto de práticas que tornam as informações do processo visíveis, intuitivas e acessíveis a todos no ambiente de trabalho. Quadros kanban, painéis andon, marcações de piso (shadow boards) e gréficos de desempenho são exemplos típicos.",
+          "definicao": "Conjunto de práticas que tornam as informações do processo visíveis, intuitivas e acessíveis a todos no ambiente de trabalho. Quadros kanban, painéis andon, marcações de piso (shadow boards) e gráficos de desempenho são exemplos típicos.",
           "topicos": [
             {
               "nome": "Painéis de indicadores",
@@ -1527,7 +1527,7 @@
             },
             {
               "nome": "Conversa com operadores",
-              "descricao": "Técnica de escuta ativa e estruturada com os operadores no posto de trabalho para captar sugestões, anomalias e conhecimento tácito sobre o processo. Pilares de análise: frequência de contato, taxa de implementaçao, engajamento. Classic author: Womack e Jones (1996). Exemplo numérico: 20 operadores entrevistados, 35 sugestões registradas, 18 implementadas em 3 meses, taxa de implementaçao = 51,4%, tempo médio por conversa = 8 min. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Técnica de escuta ativa e estruturada com os operadores no posto de trabalho para captar sugestões, anomalias e conhecimento tácito sobre o processo. Pilares de análise: frequência de contato, taxa de implementação, engajamento. Classic author: Womack e Jones (1996). Exemplo numérico: 20 operadores entrevistados, 35 sugestões registradas, 18 implementadas em 3 meses, taxa de implementação = 51,4%, tempo médio por conversa = 8 min. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Identificação de desperdícios",
@@ -1551,15 +1551,15 @@
             },
             {
               "nome": "Desdobramento de metas",
-              "descricao": "Processo hierárquico de traduzir metas estratégicas da alta direção em alvos táticos e operacionais, conectando propósito e execução em todos os níveis. Pilares de análise: cascateamento, indicadores por nível, periodicidade. Classic author: Akao (1991). Exemplo numérico: meta corporativa = redução de 30% em custos; desdobrada em 4 metas departamentais: suprimentos -12%, produçao -10%, logística -5%, qualidade -3%; cada departamento fraciona em metas por célula. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Processo hierárquico de traduzir metas estratégicas da alta direção em alvos táticos e operacionais, conectando propósito e execução em todos os níveis. Pilares de análise: cascateamento, indicadores por nível, periodicidade. Classic author: Akao (1991). Exemplo numérico: meta corporativa = redução de 30% em custos; desdobrada em 4 metas departamentais: suprimentos -12%, produção -10%, logística -5%, qualidade -3%; cada departamento fraciona em metas por célula. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Catchball",
-              "descricao": "Prática iterativa de negociação vertical de metas e meios entre níveis hierárquicos, na qual propostas sao lançadas, recebidas, questionadas e ajustadas até consenso. Pilares de análise: direçao top-down, feedback bottom-up, alinhamento, factibilidade. Classic author: Akao (1991). Exemplo numérico: diretoria projeta meta de 15% de ganho de produtividade; produçao devolve com 10% e propőe 3 contramedidas; após 4 rodadas de catchball, fecha-se em 12% com 5 açoes. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Prática iterativa de negociação vertical de metas e meios entre níveis hierárquicos, na qual propostas são lançadas, recebidas, questionadas e ajustadas até consenso. Pilares de análise: direção top-down, feedback bottom-up, alinhamento, factibilidade. Classic author: Akao (1991). Exemplo numérico: diretoria projeta meta de 15% de ganho de produtividade; produção devolve com 10% e propõe 3 contramedidas; após 4 rodadas de catchball, fecha-se em 12% com 5 açoes. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Revisão periódica",
-              "descricao": "Reunião estruturada em ciclo fixo (diário, semanal, mensal) para acompanhar indicadores, verificar desvios em relaçao ao plano e definir contramedidas imediatas. Pilares de análise: frequência, indicadores visuais, plano de açoes, follow-up. Classic author: Liker e Hoseus (2008). Exemplo numérico: reunião semanal de 30 min com 8 participantes, analisando 5 KPIs; recuperaçao média de 2 desvios por reunião (R$ 4.200 evitados por evento); adesão de 92% das semanas. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Reunião estruturada em ciclo fixo (diário, semanal, mensal) para acompanhar indicadores, verificar desvios em relação ao plano e definir contramedidas imediatas. Pilares de análise: frequência, indicadores visuais, plano de açoes, follow-up. Classic author: Liker e Hoseus (2008). Exemplo numérico: reunião semanal de 30 min com 8 participantes, analisando 5 KPIs; recuperação média de 2 desvios por reunião (R$ 4.200 evitados por evento); adesão de 92% das semanas. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             }
           ],
           "formula": "",
@@ -1575,19 +1575,19 @@
           "topicos": [
             {
               "nome": "A3 de proposta",
-              "descricao": "Relatório sintático em formato A3 que apresenta uma proposta de melhoria, investimento ou mudança com justificativa, benefícios esperados, recursos necessários e cronograma. Pilares de análise: problema x oportunidade, análise de viabilidade, riscos, retorno esperado. Classic author: Sobek e Smalley (2008). Exemplo numérico: proposta de troca de iluminaçao industrial investimento = R$ 28.000; economia anual = R$ 9.500; VPL a 12% a.a. em 5 anos = R$ 6.240; payback = 2,95 anos. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Relatório sintático em formato A3 que apresenta uma proposta de melhoria, investimento ou mudança com justificativa, benefícios esperados, recursos necessários e cronograma. Pilares de análise: problema x oportunidade, análise de viabilidade, riscos, retorno esperado. Classic author: Sobek e Smalley (2008). Exemplo numérico: proposta de troca de iluminação industrial investimento = R$ 28.000; economia anual = R$ 9.500; VPL a 12% a.a. em 5 anos = R$ 6.240; payback = 2,95 anos. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "A3 de solução de problemas",
-              "descricao": "Relatório padronizado no formato A3 que documenta a aplicaçao do ciclo PDCA para resolver um problema crônico, desde a caracterizaçao até a padronizaçao. Pilares de análise: definição do problema, análise de causas, contramedidas, verificação, padronização. Classic author: Sobek e Smalley (2008). Exemplo numérico: defeito de solda = 8,3% (83 peças em 1.000); análise de causa-raiz (Ishikawa + 5 porquês) identificou 2 causas primárias; contramedidas implementadas reduziram para 1,2% (12 peças em 1.000), ganho = 7,1 p.p. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Relatório padronizado no formato A3 que documenta a aplicação do ciclo PDCA para resolver um problema crônico, desde a caracterização até a padronização. Pilares de análise: definição do problema, análise de causas, contramedidas, verificação, padronização. Classic author: Sobek e Smalley (2008). Exemplo numérico: defeito de solda = 8,3% (83 peças em 1.000); análise de causa-raiz (Ishikawa + 5 porquês) identificou 2 causas primárias; contramedidas implementadas reduziram para 1,2% (12 peças em 1.000), ganho = 7,1 p.p. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "A3 de status",
-              "descricao": "Relatório visual no formato A3 utilizado para comunicar o andamento de um projeto, programa ou indicador, destacando avanços, desvios e próximos passos. Pilares de análise: cronograma real x previsto, indicadores de desempenho, riscos, entregas. Classic author: Sobek e Smalley (2008). Exemplo numérico: projeto com 4 entregas previstas em 6 meses; no męs 3 duas entregas concluídas (50%), custo acumulado = R$ 45.000 contra R$ 40.000 orçados (desvio de +12,5%); plano corretivo apresentado. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Relatório visual no formato A3 utilizado para comunicar o andamento de um projeto, programa ou indicador, destacando avanços, desvios e próximos passos. Pilares de análise: cronograma real x previsto, indicadores de desempenho, riscos, entregas. Classic author: Sobek e Smalley (2008). Exemplo numérico: projeto com 4 entregas previstas em 6 meses; no mês 3 duas entregas concluídas (50%), custo acumulado = R$ 45.000 contra R$ 40.000 orçados (desvio de +12,5%); plano corretivo apresentado. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "PDCA no A3",
-              "descricao": "Estruturação do raciocínio de melhoria contínua no formato A3 segundo o ciclo Plan-Do-Check-Act, integrando análise, execução, verificação e padronização. Pilares de análise: clareza do plano, execução disciplinada, checagem com dados, ação de padronização. Classic author: Deming (1950). Exemplo numérico: P = meta de redução de setup de 45 para 25 min; D = implementaçao de 5S e dispositivos de troca rápida (SMED); C = mediçao aponta 27 min (desvio de +8%); A = ajuste no procedimento reduz para 24 min; novo padräo fixado. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Estruturação do raciocínio de melhoria contínua no formato A3 segundo o ciclo Plan-Do-Check-Act, integrando análise, execução, verificação e padronização. Pilares de análise: clareza do plano, execução disciplinada, checagem com dados, ação de padronização. Classic author: Deming (1950). Exemplo numérico: P = meta de redução de setup de 45 para 25 min; D = implementação de 5S e dispositivos de troca rápida (SMED); C = medição aponta 27 min (desvio de +8%); A = ajuste no procedimento reduz para 24 min; novo padrão fixado. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             }
           ],
           "formula": "",
@@ -1603,15 +1603,15 @@
           "topicos": [
             {
               "nome": "Célula em U",
-              "descricao": "Arranjo físico de produçao em formato de U que minimiza deslocamentos, facilita a comunicaçao entre operadores e permite a atribuiçao de múltiplas máquinas a um mesmo operador. Pilares de análise: fluxo unitário, layout, polivalência, distância percorrida. Classic author: Monden (1984). Exemplo numérico: layout anterior = 28 m lineares de deslocamento por peça; célula em U reduz para 6 m (reduçao de 78,6%); estoque em processo cai de 45 para 8 peças; 2 operadores atendem 5 máquinas cada. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Arranjo físico de produção em formato de U que minimiza deslocamentos, facilita a comunicação entre operadores e permite a atribuição de múltiplas máquinas a um mesmo operador. Pilares de análise: fluxo unitário, layout, polivalência, distância percorrida. Classic author: Monden (1984). Exemplo numérico: layout anterior = 28 m lineares de deslocamento por peça; célula em U reduz para 6 m (redução de 78,6%); estoque em processo cai de 45 para 8 peças; 2 operadores atendem 5 máquinas cada. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Multifuncionalidade",
-              "descricao": "Capacidade de um operador executar múltiplas operaçoes e operar diferentes máquinas dentro de uma célula, permitindo flexibilidade de alocaçao e rotaçao de tarefas. Pilares de análise: matriz de habilidades, plano de treinamento, rotaçao, taxa de cobertura. Classic author: Ohno (1988). Exemplo numérico: célula com 6 postos, 4 operadores; cada operador domina 3 postos (média); meta = 5 postos por operador; matriz de habilidades indica lacunas no posto 4 (1 operador habilitado); treinamento programado para 3 meses. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Capacidade de um operador executar múltiplas operaçoes e operar diferentes máquinas dentro de uma célula, permitindo flexibilidade de alocação e rotação de tarefas. Pilares de análise: matriz de habilidades, plano de treinamento, rotação, taxa de cobertura. Classic author: Ohno (1988). Exemplo numérico: célula com 6 postos, 4 operadores; cada operador domina 3 postos (média); meta = 5 postos por operador; matriz de habilidades indica lacunas no posto 4 (1 operador habilitado); treinamento programado para 3 meses. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Automação de ciclo",
-              "descricao": "Dispositivo mecânico, elétrico ou pneumático que permite a uma máquina executar automaticamente seu ciclo produtivo sem necessidade de operaçao manual contínua, liberando o operador para outras tarefas. Pilares de análise: tempo de ciclo automático, supervisao intermitente, segurançaa, custo do dispositivo. Classic author: Shingo (1996). Exemplo numérico: máquina de corte com ciclo manual = 40s de operaçao humana; após automaçao de ciclo, o operador dispara a máquina (3s) e se desloca para outro posto; liberaçao de 37s por peça (92,5%), ganho de 14 peças/turno. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Dispositivo mecânico, elétrico ou pneumático que permite a uma máquina executar automaticamente seu ciclo produtivo sem necessidade de operação manual contínua, liberando o operador para outras tarefas. Pilares de análise: tempo de ciclo automático, supervisao intermitente, segurança, custo do dispositivo. Classic author: Shingo (1996). Exemplo numérico: máquina de corte com ciclo manual = 40s de operação humana; após automação de ciclo, o operador dispara a máquina (3s) e se desloca para outro posto; liberação de 37s por peça (92,5%), ganho de 14 peças/turno. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Separação homem-máquina",
@@ -1635,15 +1635,15 @@
             },
             {
               "nome": "Ponto de reposição",
-              "descricao": "Nível de estoque pré-determinado que dispara uma ordem de reposição de material, calculado para atender a demanda durante o lead time de reabastecimento. Pilares de análise: demanda média, lead time, estoque de segurança, nível de serviço. Classic author: Silver, Pyke e Peterson (1998). Exemplo numérico: demanda média = 50 unidades/dia, lead time = 4 dias, estoque de segurança = 30 unidades; ponto de reposiçao = (50x4) + 30 = 230 unidades; quando estoque atinge 230, emissão de pedido de 200 unidades. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Nível de estoque pré-determinado que dispara uma ordem de reposição de material, calculado para atender a demanda durante o lead time de reabastecimento. Pilares de análise: demanda média, lead time, estoque de segurança, nível de serviço. Classic author: Silver, Pyke e Peterson (1998). Exemplo numérico: demanda média = 50 unidades/dia, lead time = 4 dias, estoque de segurança = 30 unidades; ponto de reposição = (50x4) + 30 = 230 unidades; quando estoque atinge 230, emissão de pedido de 200 unidades. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Kanban de abastecimento",
-              "descricao": "Cartão ou sinal visual que autoriza a movimentaçao de materiais entre um supermercado e o ponto de uso, operando como sistema puxado de reposiçao. Pilares de análise: circuito fechado, quantidade padrão, frequência de entrega, disciplina do operador logístico. Classic author: Ohno (1988). Exemplo numérico: kanban externo com 20 cartőes; cada cartão autoriza 5 peças; consumo médio = 100 peças/turno; entregador percorre rota de 400 m a cada 30 min, abastecendo 6 postos; desvio médio de reposiçao = 4 min. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Cartão ou sinal visual que autoriza a movimentação de materiais entre um supermercado e o ponto de uso, operando como sistema puxado de reposição. Pilares de análise: circuito fechado, quantidade padrão, frequência de entrega, disciplina do operador logístico. Classic author: Ohno (1988). Exemplo numérico: kanban externo com 20 cartões; cada cartão autoriza 5 peças; consumo médio = 100 peças/turno; entregador percorre rota de 400 m a cada 30 min, abastecendo 6 postos; desvio médio de reposição = 4 min. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             },
             {
               "nome": "Gestão visual de estoque",
-              "descricao": "Sistema que utiliza indicadores visuais (cartőes, etiquetas, faixas coloridas, painéis) para comunicar instantaneamente o nível, a localizaçao e a necessidade de reposiçao de materiais sem necessidade de sistemas digitais. Pilares de análise: sinalizaçao, padronizaçao, visibilidade, autonomia do operador. Classic author: Ohno (1988). Exemplo numérico: 20 prateleiras com faixa amarela entre 40% e 60% da capacidade; quando estoque atinge a faixa vermelha (abaixo de 20%), emite-se pedido; lead time = 3 dias; estoque médio = 180 unidades contra capacidade de 300. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
+              "descricao": "Sistema que utiliza indicadores visuais (cartões, etiquetas, faixas coloridas, painéis) para comunicar instantaneamente o nível, a localização e a necessidade de reposição de materiais sem necessidade de sistemas digitais. Pilares de análise: sinalização, padronização, visibilidade, autonomia do operador. Classic author: Ohno (1988). Exemplo numérico: 20 prateleiras com faixa amarela entre 40% e 60% da capacidade; quando estoque atinge a faixa vermelha (abaixo de 20%), emite-se pedido; lead time = 3 dias; estoque médio = 180 unidades contra capacidade de 300. (Referência: WOMACK, J. P.; JONES, D. T.; ROOS, D. A Máquina que Mudou o Mundo. Rio de Janeiro: Campus, 1990.)"
             }
           ],
           "formula": "",
@@ -1678,7 +1678,7 @@
       ]
     },
     {
-      "id": "logistica",
+      "id": "logística",
       "nome": "Logística",
       "icone": "truck",
       "cor": "#7c3aed",
@@ -1690,7 +1690,7 @@
           "topicos": [
             {
               "nome": "Modal rodoviário",
-              "descricao": "Modal de transporte que utiliza veículos automotores (caminhões, carretas, VUC) sobre vias pavimentadas ou nãao, sendo o mais flexível e capilar para movimentaçao de cargas em médias e curtas distâncias. Pilares de análise: capacidade de carga, custo por tonelada-quilômetro, flexibilidade de rota, fretes. Classic author: Ballou (2001). Exemplo numérico: veículo com capacidade de 28 t percorre 650 km; custo total = R$ 3.640; custo por t.km = R$ 3.640 / (28 x 650) = R$ 0,20/t.km; comparado ao ferroviário (R$ 0,08/t.km) o rodoviário é 2,5x mais caro, porém entrega em 1 dia contra 4 dias. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Modal de transporte que utiliza veículos automotores (caminhões, carretas, VUC) sobre vias pavimentadas ou não, sendo o mais flexível e capilar para movimentação de cargas em médias e curtas distâncias. Pilares de análise: capacidade de carga, custo por tonelada-quilômetro, flexibilidade de rota, fretes. Classic author: Ballou (2001). Exemplo numérico: veículo com capacidade de 28 t percorre 650 km; custo total = R$ 3.640; custo por t.km = R$ 3.640 / (28 x 650) = R$ 0,20/t.km; comparado ao ferroviário (R$ 0,08/t.km) o rodoviário é 2,5x mais caro, porém entrega em 1 dia contra 4 dias. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Modal ferroviário",
@@ -1698,11 +1698,11 @@
             },
             {
               "nome": "Modal aquaviário",
-              "descricao": "Modal de transporte que utiliza vias navegáveis (rios, lagos, mares e oceanos) para movimentaçao de cargas, caracterizado pela alta capacidade, baixo custo por tonelada e baixa velocidade. Pilares de análise: calado, capacidade do navio, tempo de viagem, custo portuário. Classic author: Ballou (2001). Exemplo numérico: navio graneleiro Panamax com 65.000 t de capacidade; rota de 5.000 km em 12 dias; custo total = R$ 1.950.000; custo por t.km = R$ 1.950.000 / (65.000 x 5.000) = R$ 0,006/t.km. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Modal de transporte que utiliza vias navegáveis (rios, lagos, marés e oceanos) para movimentação de cargas, caracterizado pela alta capacidade, baixo custo por tonelada e baixa velocidade. Pilares de análise: calado, capacidade do navio, tempo de viagem, custo portuário. Classic author: Ballou (2001). Exemplo numérico: navio graneleiro Panamax com 65.000 t de capacidade; rota de 5.000 km em 12 dias; custo total = R$ 1.950.000; custo por t.km = R$ 1.950.000 / (65.000 x 5.000) = R$ 0,006/t.km. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Multimodalidade e intermodalidade",
-              "descricao": "Multimodalidade é o transporte de carga utilizando mais de um modal sob um único contrato e responsabilidade; intermodalidade utiliza múltiplos modais com contratos separados para cada trecho. Pilares de análise: integraçao de modais, unitizaçao (contêiner), custo total, tempo porta a porta. Classic author: Caixeta-Filho (2001). Exemplo numérico: carga de 25 t percorre 1.800 km: trecho 1 rodoviário 200 km (R$ 1.000), trecho 2 ferroviário 1.200 km (R$ 2.400), trecho 3 rodoviário 400 km (R$ 2.000); custo total multimodal = R$ 5.400; tempo total = 3,5 dias. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Multimodalidade é o transporte de carga utilizando mais de um modal sob um único contrato e responsabilidade; intermodalidade utiliza múltiplos modais com contratos separados para cada trecho. Pilares de análise: integração de modais, unitização (contêiner), custo total, tempo porta a porta. Classic author: Caixeta-Filho (2001). Exemplo numérico: carga de 25 t percorre 1.800 km: trecho 1 rodoviário 200 km (R$ 1.000), trecho 2 ferroviário 1.200 km (R$ 2.400), trecho 3 rodoviário 400 km (R$ 2.000); custo total multimodal = R$ 5.400; tempo total = 3,5 dias. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -1718,11 +1718,11 @@
           "topicos": [
             {
               "nome": "Canais de distribuição",
-              "descricao": "Conjunto de intermediários e estruturas logísticas que conectam o ponto de origem (indústria) ao consumidor final, incluindo atacadistas, varejistas, distribuidores e plataformas digitais. Pilares de análise: níveis de canal, cobertura geográfica, custo de distribuiçao, margem por elo. Classic author: Kotler (2000). Exemplo numérico: canal direto (indústria- consumidor) margem = 12%; canal com 1 intermediário margem = 22% dividida em 14% distribuidor + 8% indústria; canal com 2 intermediários margem = 30% (15% + 9% + 6%); cobertura de 200 km contra 800 km. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Conjunto de intermediários e estruturas logísticas que conectam o ponto de origem (indústria) ao consumidor final, incluindo atacadistas, varejistas, distribuidores e plataformas digitais. Pilares de análise: níveis de canal, cobertura geográfica, custo de distribuição, margem por elo. Classic author: Kotler (2000). Exemplo numérico: canal direto (indústria- consumidor) margem = 12%; canal com 1 intermediário margem = 22% dividida em 14% distribuidor + 8% indústria; canal com 2 intermediários margem = 30% (15% + 9% + 6%); cobertura de 200 km contra 800 km. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Centros de distribuição",
-              "descricao": "Instalação logística dedicada a receber, armazenar, separar e expedir mercadorias de forma planejada, funcionando como ponto de consolidaçao e ruptura entre a origem e o destino. Pilares de análise: capacidade estática, giro de estoque, produtividade na separaçao, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: CD com 8.000 posições-palete; giro mensal = 3,2 vezes; volume expedido = 25.600 paletes/mês; produtividade = 45 linhas/homem-hora; taxa de ocupaçao média = 78% com pico de 92% em outubro. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Instalação logística dedicada a receber, armazenar, separar e expedir mercadorias de forma planejada, funcionando como ponto de consolidação e ruptura entre a origem e o destino. Pilares de análise: capacidade estática, giro de estoque, produtividade na separação, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: CD com 8.000 posições-palete; giro mensal = 3,2 vezes; volume expedido = 25.600 paletes/mês; produtividade = 45 linhas/homem-hora; taxa de ocupação média = 78% com pico de 92% em outubro. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Entregas last mile",
@@ -1746,19 +1746,19 @@
           "topicos": [
             {
               "nome": "Layout de armazém",
-              "descricao": "Disposição física planejada das áreas de recebimento, estocagem, separação, expedição e serviços de apoio dentro de um armazém, visando minimizar deslocamentos e maximizar a produtividade. Pilares de análise: fluxo de materiais, distância percorrida, aproveitamento vertical, zonas de armazenagem. Classic author: Tompkins (2010). Exemplo numérico: armazém de 5.000 m² com 3 zonas: recebimento 500 m² (10%), estocagem 3.000 m² (60%), separaçao 800 m² (16%), expediçao 400 m² (8%), apoio 300 m² (6%); distância média percorrida pelo separador = 180 m por pedido. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Disposição física planejada das áreas de recebimento, estocagem, separação, expedição e serviços de apoio dentro de um armazém, visando minimizar deslocamentos e maximizar a produtividade. Pilares de análise: fluxo de materiais, distância percorrida, aproveitamento vertical, zonas de armazenagem. Classic author: Tompkins (2010). Exemplo numérico: armazém de 5.000 m² com 3 zonas: recebimento 500 m² (10%), estocagem 3.000 m² (60%), separação 800 m² (16%), expedição 400 m² (8%), apoio 300 m² (6%); distância média percorrida pelo separador = 180 m por pedido. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Endereçamento",
-              "descricao": "Sistema de codificação e localização de posições de armazenagem em um armazém, permitindo que cada item seja rapidamente encontrado por meio de coordenadas alfanuméricas. Pilares de análise: precisão da localização, velocidade de localização, acuracidade de estoque, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: endereço B-03-14-2 significa bloco B, rua 3, nível 14, coluna 2; 5.000 endereços codificados; tempo médio de localizaçao = 25s antes do sistema, 8s depois (reduçao de 68%); acuracidade inventário = 99,2%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Sistema de codificação e localização de posições de armazenagem em um armazém, permitindo que cada item seja rapidamente encontrado por meio de coordenadas alfanuméricas. Pilares de análise: precisão da localização, velocidade de localização, acuracidade de estoque, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: endereço B-03-14-2 significa bloco B, rua 3, nível 14, coluna 2; 5.000 endereços codificados; tempo médio de localização = 25s antes do sistema, 8s depois (redução de 68%); acuracidade inventário = 99,2%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Equipamentos de movimentação",
-              "descricao": "Conjunto de máquinas e dispositivos utilizados para transportar, elevar, deslocar e posicionar materiais dentro de um armazém ou unidade produtiva. Pilares de análise: capacidade de carga, alcance vertical, ciclo de operaçao, custo por hora. Classic author: Frazelle (2002). Exemplo numérico: empilhadeira elétrica capacidade 1.600 kg, altura máxima 4,5 m; ciclo médio de 2,5 min (pegar + deslocar 25 m + depositar); 22 ciclos/hora; custo horário = R$ 32,00 (incluindo depreciaçao, energia e manutençao); custo por ciclo = R$ 1,45. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Conjunto de máquinas e dispositivos utilizados para transportar, elevar, deslocar e posicionar materiais dentro de um armazém ou unidade produtiva. Pilares de análise: capacidade de carga, alcance vertical, ciclo de operação, custo por hora. Classic author: Frazelle (2002). Exemplo numérico: empilhadeira elétrica capacidade 1.600 kg, altura máxima 4,5 m; ciclo médio de 2,5 min (pegar + deslocar 25 m + depositar); 22 ciclos/hora; custo horário = R$ 32,00 (incluindo depreciação, energia e manutenção); custo por ciclo = R$ 1,45. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Gestão por zonas",
-              "descricao": "Divisão do armazém em áreas geográficas dedicadas a famílias de produtos, tipos de armazenagem ou etapas do processo logístico para otimizar a separação e reduzir deslocamentos. Pilares de análise: agrupamento ABC, densidade de pedidos, sincronizaçao entre zonas, balanceamento de carga. Classic author: Tompkins (2010). Exemplo numérico: armazém dividido em 4 zonas: A (alta rotatividade = 60% dos pedidos, 15% da área), B (25% dos pedidos, 30% da área), C (15% dos pedidos, 55% da área); distância média percorrida por pedido na zona A = 35m, na zona C = 210m. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Divisão do armazém em áreas geográficas dedicadas a famílias de produtos, tipos de armazenagem ou etapas do processo logístico para otimizar a separação e reduzir deslocamentos. Pilares de análise: agrupamento ABC, densidade de pedidos, sincronização entre zonas, balanceamento de carga. Classic author: Tompkins (2010). Exemplo numérico: armazém dividido em 4 zonas: A (alta rotatividade = 60% dos pedidos, 15% da área), B (25% dos pedidos, 30% da área), C (15% dos pedidos, 55% da área); distância média percorrida por pedido na zona A = 35m, na zona C = 210m. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -1774,19 +1774,19 @@
           "topicos": [
             {
               "nome": "Cross docking pré-distribuído",
-              "descricao": "Operação logística na qual a carga chega ao centro de distribuição já separada e identificada por destino final, sendo apenas transferida do veículo de chegada para o veículo de saída sem estocagem intermediária. Pilares de análise: sincronismo de chegada e saída, pré-separação, tempos de transferência, taxa de cross docking. Classic author: Apte e Viswanathan (2000). Exemplo numérico: 4 fornecedores enviam 80 paletes já separados para 12 lojas; caminhőes chegam entre 6h e 8h e saem entre 9h e 11h; tempo médio no CD = 1,8h; custo de movimentaçao = R$ 3,20/palete; eliminaçao de 100% de armazenagem. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Operação logística na qual a carga chega ao centro de distribuição já separada e identificada por destino final, sendo apenas transferida do veículo de chegada para o veículo de saída sem estocagem intermediária. Pilares de análise: sincronismo de chegada e saída, pré-separação, tempos de transferência, taxa de cross docking. Classic author: Apte e Viswanathan (2000). Exemplo numérico: 4 fornecedores enviam 80 paletes já separados para 12 lojas; caminhões chegam entre 6h e 8h e saem entre 9h e 11h; tempo médio no CD = 1,8h; custo de movimentação = R$ 3,20/palete; eliminação de 100% de armazenagem. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Cross docking consolidado",
-              "descricao": "Operação em que cargas de múltiplos fornecedores com destinos comuns sáo recebidas, reagrupadas por destino e expedidas no mesmo dia, consolidando volumes menores em cargas completas. Pilares de análise: quebra de carga, recombinação, taxa de ocupaçao do veículo, tempo de consolidaçao. Classic author: Apte e Viswanathan (2000). Exemplo numérico: 6 fornecedores enviam 35 paletes para 3 regiőes; descarregamento + recombinação em 3 docas; tempo de processamento = 4h; ocupaçao dos caminhões de saída = 92% (contra 65% sem consolidaçao); economia de frete = R$ 4.800/mês. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Operação em que cargas de múltiplos fornecedores com destinos comuns são recebidas, reagrupadas por destino e expedidas no mesmo dia, consolidando volumes menores em cargas completas. Pilares de análise: quebra de carga, recombinação, taxa de ocupação do veículo, tempo de consolidação. Classic author: Apte e Viswanathan (2000). Exemplo numérico: 6 fornecedores enviam 35 paletes para 3 regiões; descarregamento + recombinação em 3 docas; tempo de processamento = 4h; ocupação dos caminhões de saída = 92% (contra 65% sem consolidação); economia de frete = R$ 4.800/mês. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Flow-through",
-              "descricao": "Modelo híbrido entre cross docking e armazenagem tradicional no qual o produto permanece no CD por período curto (horas a poucos dias) para processos leves como etiquetagem, reembalagem ou montagem de kits antes da expedição. Pilares de análise: tempo de permanência, processamento leve, taxa de agregaçao de valor, sincronismo. Classic author: Frazelle (2002). Exemplo numérico: 1.200 unidades/dia entram sem etiqueta de preço; aplicaçao de etiquetas e reembalagem leva 2,2h; estoque médio no flow-through = 110 unidades (2,2h de cobertura); 48 funcionários dedicados; produtividade = 25 unidades/homem-hora. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Modelo híbrido entre cross docking e armazenagem tradicional no qual o produto permanece no CD por período curto (horas a poucos dias) para processos leves como etiquetagem, reembalagem ou montagem de kits antes da expedição. Pilares de análise: tempo de permanência, processamento leve, taxa de agregação de valor, sincronismo. Classic author: Frazelle (2002). Exemplo numérico: 1.200 unidades/dia entram sem etiqueta de preço; aplicação de etiquetas e reembalagem leva 2,2h; estoque médio no flow-through = 110 unidades (2,2h de cobertura); 48 funcionários dedicados; produtividade = 25 unidades/homem-hora. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Lead time reduzido",
-              "descricao": "Estratégia de compressão do tempo total entre o recebimento de um pedido e a entrega ao cliente, por meio da eliminaçao de esperas, sincronismo de operaçoes e reduçao de estoques intermediários. Pilares de análise: mapeamento do fluxo de valor, tempos de processo x tempos de espera, razão valor agregado. Classic author: Womack e Jones (1996). Exemplo numérico: lead time original = 12 dias (valor agregado = 4,2h; esperas = 11,3 dias); após mapeamento e açoes: lead time = 5 dias (valor agregado mantido em 4h; esperas reduzidas para 4,7 dias); redução de 58,3%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Estratégia de compressão do tempo total entre o recebimento de um pedido e a entrega ao cliente, por meio da eliminação de esperas, sincronismo de operaçoes e redução de estoques intermediários. Pilares de análise: mapeamento do fluxo de valor, tempos de processo x tempos de espera, razão valor agregado. Classic author: Womack e Jones (1996). Exemplo numérico: lead time original = 12 dias (valor agregado = 4,2h; esperas = 11,3 dias); após mapeamento e açoes: lead time = 5 dias (valor agregado mantido em 4h; esperas reduzidas para 4,7 dias); redução de 58,3%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -1802,15 +1802,15 @@
           "topicos": [
             {
               "nome": "Roteiro de coleta",
-              "descricao": "Sequência planejada de paradas para coleta de mercadorias junto a fornecedores ou pontos de origem, otimizada para minimizar distância, tempo e custo dentro de janelas de tempo pré-definidas. Pilares de análise: sequenciamento, capacidade do veículo, janela de coleta, eficiência da rota. Classic author: Ballou (2001). Exemplo numérico: 8 fornecedores em raio de 60 km; roteiro otimizado de 145 km com 8 paradas; tempo total = 5,5h (2h de deslocamento + 3,5h de coleta); volume coletado = 18 t; capacidade do veículo = 22 t; ocupaçao = 18/22 = 81,8%; custo da rota = R$ 580. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Sequência planejada de paradas para coleta de mercadorias junto a fornecedores ou pontos de origem, otimizada para minimizar distância, tempo e custo dentro de janelas de tempo pré-definidas. Pilares de análise: sequenciamento, capacidade do veículo, janela de coleta, eficiência da rota. Classic author: Ballou (2001). Exemplo numérico: 8 fornecedores em raio de 60 km; roteiro otimizado de 145 km com 8 paradas; tempo total = 5,5h (2h de deslocamento + 3,5h de coleta); volume coletado = 18 t; capacidade do veículo = 22 t; ocupação = 18/22 = 81,8%; custo da rota = R$ 580. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Janela de tempo",
-              "descricao": "Intervalo de horário pré-estabelecido dentro do qual uma entrega ou coleta deve obrigatoriamente ocorrer, sob pena de multa, recusa ou reagendamento. Pilares de análise: amplitudes da janela, taxa de cumprimento, penalidades, impacto na roteirizaçao. Classic author: Ballou (2001). Exemplo numérico: 3 clientes com janelas distintas: A 8h-10h, B 9h-12h, C 14h-16h; rota inicia às 6h; janela A = 2h de amplitude; jornada do motorista = 8h; taxa de cumprimento = 92% (23 de 25 entregas no período); multa média por janela perdida = R$ 180. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Intervalo de horário pré-estabelecido dentro do qual uma entrega ou coleta deve obrigatoriamente ocorrer, sob pena de multa, recusa ou reagendamento. Pilares de análise: amplitudes da janela, taxa de cumprimento, penalidades, impacto na roteirização. Classic author: Ballou (2001). Exemplo numérico: 3 clientes com janelas distintas: A 8h-10h, B 9h-12h, C 14h-16h; rota inicia às 6h; janela A = 2h de amplitude; jornada do motorista = 8h; taxa de cumprimento = 92% (23 de 25 entregas no período); multa média por janela perdida = R$ 180. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Consolidação de cargas",
-              "descricao": "Operação logística que agrupa múltiplos embarques menores de diferentes origens ou destinos em uma única carga completa, aproveitando a capacidade do veículo e reduzindo o custo unitário de transporte. Pilares de análise: fator de ocupaçao, economia de escala, frequência versus custo, ponto de consolidaçao. Classic author: Ballou (2001). Exemplo numérico: 12 embarques de 1,5 t cada (total 18 t) para mesma regiäo; sem consolidaçao: 12 fretes a R$ 850 = R$ 10.200; consolidados em um veículo de 20 t: frete único = R$ 4.200; economia = R$ 6.000 (58,8%); ocupaçao = 18/20 = 90%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Operação logística que agrupa múltiplos embarques menores de diferentes origens ou destinos em uma única carga completa, aproveitando a capacidade do veículo e reduzindo o custo unitário de transporte. Pilares de análise: fator de ocupação, economia de escala, frequência versus custo, ponto de consolidação. Classic author: Ballou (2001). Exemplo numérico: 12 embarques de 1,5 t cada (total 18 t) para mesma região; sem consolidação: 12 fretes a R$ 850 = R$ 10.200; consolidados em um veículo de 20 t: frete único = R$ 4.200; economia = R$ 6.000 (58,8%); ocupação = 18/20 = 90%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Abastecimento JIT",
@@ -1894,7 +1894,7 @@
             },
             {
               "nome": "Colaboração entre elos",
-              "descricao": "Prática de gestão compartilhada na qual empresas de diferentes níveis da cadeia atuam conjuntamente no planejamento, previsão e reposição de estoques (CPFR) para reduzir incertezas e ganhar eficiência. Pilares de análise: compartilhamento de risco, previsão colaborativa, reposição automática, indicadores conjuntos. Classic author: VICS (2002). Exemplo numérico: fabricante e varejista adotam CPFR; previsão de demanda com erro médio de 12% cai para 7%; estoque de segurança reduz de 18 para 11 dias; giro de estoque sobe de 8 para 12 vezes/ano; ruptura na gondola cai de 5,2% para 2,1%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Prática de gestão compartilhada na qual empresas de diferentes níveis da cadeia atuam conjuntamente no planejamento, previsão e reposição de estoques (CPFR) para reduzir incertezas e ganhar eficiência. Pilares de análise: compartilhamento de risco, previsão colaborativa, reposição automática, indicadores conjuntos. Classic author: VICS (2002). Exemplo numérico: fabricante e varejista adotam CPFR; previsão de demanda com erro médio de 12% cai para 7%; estoque de segurança reduz de 18 para 11 dias; giro de estoque sobe de 8 para 12 vezes/ano; ruptura na gôndola cai de 5,2% para 2,1%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Indicadores logísticos",
@@ -1922,7 +1922,7 @@
             },
             {
               "nome": "Centros de triagem",
-              "descricao": "Instalação dedicada ao recebimento, separação, classificação e preparação de materiais recicláveis ou residuos, alimentando cadeias reversas de reciclagem, reuso ou destinação final. Pilares de análise: capacidade de processamento, taxa de recuperação, composição gravimétrica, produtividade dos catadores. Classic author: Leite (2003). Exemplo numérico: centro processa 45 t/mês de resíduos secos; 30 funcionários; produtividade = 1,5 t/funcionário/mês; composição: papel/papelão 42%, plástico 28%, vidro 12%, metal 8%, rejeitos 10%; taxa de recuperação = 90%; receita média por tonelada = R$ 420,00; faturamento mensal = R$ 17.010. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Instalação dedicada ao recebimento, separação, classificação e preparação de materiais recicláveis ou residuos, alimentando cadeias reversas de reciclagem, reúso ou destinação final. Pilares de análise: capacidade de processamento, taxa de recuperação, composição gravimétrica, produtividade dos catadores. Classic author: Leite (2003). Exemplo numérico: centro processa 45 t/mês de resíduos secos; 30 funcionários; produtividade = 1,5 t/funcionário/mês; composição: papel/papelão 42%, plástico 28%, vidro 12%, metal 8%, rejeitos 10%; taxa de recuperação = 90%; receita média por tonelada = R$ 420,00; faturamento mensal = R$ 17.010. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Política Nacional de Resíduos Sólidos",
@@ -1998,7 +1998,7 @@
           "topicos": [
             {
               "nome": "Endereçamento dinâmico",
-              "descricao": "Sistema de alocação flexível de produtos em posições de armazenagem sem vínculo fixo, no qual cada item é direcionado ao melhor local disponível no momento do recebimento com base em critérios de rotatividade e cubicagem. Pilares de análise: ocupação dinâmica, racionalização de espaço, redução de deslocamentos, sistema de gerenciamento de armazém. Classic author: Frazelle (2002). Exemplo numérico: armazém com 6.000 posições; antes (endereçamento fixo) ocupaçao média = 67%; depois (dinâmico) ocupaçao = 89%; distância média percorrida por pedido cai de 195 m para 132 m (reduçao de 32,3%); 18% mais pedidos processados por turno com a mesma equipe. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Sistema de alocação flexível de produtos em posições de armazenagem sem vínculo fixo, no qual cada item é direcionado ao melhor local disponível no momento do recebimento com base em critérios de rotatividade e cubicagem. Pilares de análise: ocupação dinâmica, racionalização de espaço, redução de deslocamentos, sistema de gerenciamento de armazém. Classic author: Frazelle (2002). Exemplo numérico: armazém com 6.000 posições; antes (endereçamento fixo) ocupação média = 67%; depois (dinâmico) ocupação = 89%; distância média percorrida por pedido cai de 195 m para 132 m (redução de 32,3%); 18% mais pedidos processados por turno com a mesma equipe. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Picking por onda",
@@ -2030,7 +2030,7 @@
             },
             {
               "nome": "Consolidação de cargas",
-              "descricao": "Operação logística que agrupa múltiplos embarques menores de diferentes origens ou destinos em uma única carga completa, aproveitando a capacidade do veículo e reduzindo o custo unitário de transporte. Pilares de análise: fator de ocupaçao, economia de escala, frequência versus custo, ponto de consolidaçao. Classic author: Ballou (2001). Exemplo numérico: 12 embarques de 1,5 t cada (total 18 t) para mesma regiäo; sem consolidaçao: 12 fretes a R$ 850 = R$ 10.200; consolidados em um veículo de 20 t: frete único = R$ 4.200; economia = R$ 6.000 (58,8%); ocupaçao = 18/20 = 90%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Operação logística que agrupa múltiplos embarques menores de diferentes origens ou destinos em uma única carga completa, aproveitando a capacidade do veículo e reduzindo o custo unitário de transporte. Pilares de análise: fator de ocupação, economia de escala, frequência versus custo, ponto de consolidação. Classic author: Ballou (2001). Exemplo numérico: 12 embarques de 1,5 t cada (total 18 t) para mesma região; sem consolidação: 12 fretes a R$ 850 = R$ 10.200; consolidados em um veículo de 20 t: frete único = R$ 4.200; economia = R$ 6.000 (58,8%); ocupação = 18/20 = 90%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Gestão de fretes",
@@ -2054,7 +2054,7 @@
           "topicos": [
             {
               "nome": "VRP clássico",
-              "descricao": "Problema de roteirização de veículos (Vehicle Routing Problem) que busca determinar o conjunto de rotas de menor custo partindo de um depósito para atender um conjunto de clientes, respeitando a capacidade dos veículos. Pilares de análise: capacidade do veículo, demanda dos clientes, matriz de distâncias, função objetivo de minimização. Classic author: Dantzig e Ramser (1959). Exemplo numérico: 1 depósito, 50 clientes com demanda total = 380 caixas, 4 veículos com capacidade de 120 caixas cada; VRP resolvido por algoritmo de Clarke-Wright gera 4 rotas com distância total = 485 km; tempo computacional = 1,2s; gap para ótimo = 3,8%; cada veículo opera com ocupaçao média de 79%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Problema de roteirização de veículos (Vehicle Routing Problem) que busca determinar o conjunto de rotas de menor custo partindo de um depósito para atender um conjunto de clientes, respeitando a capacidade dos veículos. Pilares de análise: capacidade do veículo, demanda dos clientes, matriz de distâncias, função objetivo de minimização. Classic author: Dantzig e Ramser (1959). Exemplo numérico: 1 depósito, 50 clientes com demanda total = 380 caixas, 4 veículos com capacidade de 120 caixas cada; VRP resolvido por algoritmo de Clarke-Wright gera 4 rotas com distância total = 485 km; tempo computacional = 1,2s; gap para ótimo = 3,8%; cada veículo opera com ocupação média de 79%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Janelas de tempo",
@@ -2062,11 +2062,11 @@
             },
             {
               "nome": "Restrições de capacidade",
-              "descricao": "Conjunto de limitações físicas e operacionais que restringem a alocação de carga em veículos, como peso máximo por eixo, volume útil, cubicagem e resistência estrutural, influênciando diretamente a viabilidade da rota. Pilares de análise: capacidade estática, fator de cubicagem, limitação por eixo, distribuição de peso. Classic author: Ballou (2001). Exemplo numérico: veículo com capacidade máxima = 27 t e volume útil = 70 m³; carga com densidade = 350 kg/m³; peso calculado = 70 m³ x 350 kg/m³ = 24,5 t (dentro do limite); ocupaçao volumétrica = 100%, ocupaçao de peso = 24,5/27 = 90,7%; viável; se densidade fosse 450 kg/m³, peso = 31,5 t > 27 t, restrição de peso aplicada. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Conjunto de limitações físicas e operacionais que restringem a alocação de carga em veículos, como peso máximo por eixo, volume útil, cubicagem e resistência estrutural, influênciando diretamente a viabilidade da rota. Pilares de análise: capacidade estática, fator de cubicagem, limitação por eixo, distribuição de peso. Classic author: Ballou (2001). Exemplo numérico: veículo com capacidade máxima = 27 t e volume útil = 70 m³; carga com densidade = 350 kg/m³; peso calculado = 70 m³ x 350 kg/m³ = 24,5 t (dentro do limite); ocupação volumétrica = 100%, ocupação de peso = 24,5/27 = 90,7%; viável; se densidade fosse 450 kg/m³, peso = 31,5 t > 27 t, restrição de peso aplicada. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Otimização por algoritmos",
-              "descricao": "Aplicação de métodos computacionais (exatos, heurísticos, metaheurísticos) para encontrar soluções de mínimo custo ou máxima eficiência em problemas logísticos complexos como roteirização, alocação e sequenciamento. Pilares de análise: função objetivo, espaço de soluções, tempo computacional, gap de otimalidade. Classic author: Goldberg (1989). Exemplo numérico: problema de roteirização com 200 clientes resolvido por algoritmo genético: populaçao = 500 individuos, 200 gerações, tempo = 45s; custo da melhor soluçao = R$ 8.420; soluçao exata (branch-and-bound) = R$ 8.180 mas leva 6h; gap heurístico = (8.420-8.180)/8.180 = 2,93%; trade-off aceitável para operaçao diária. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Aplicação de métodos computacionais (exatos, heurísticos, metaheurísticos) para encontrar soluções de mínimo custo ou máxima eficiência em problemas logísticos complexos como roteirização, alocação e sequenciamento. Pilares de análise: função objetivo, espaço de soluções, tempo computacional, gap de otimalidade. Classic author: Goldberg (1989). Exemplo numérico: problema de roteirização com 200 clientes resolvido por algoritmo genético: população = 500 indivíduos, 200 gerações, tempo = 45s; custo da melhor solução = R$ 8.420; solução exata (branch-and-bound) = R$ 8.180 mas leva 6h; gap heurístico = (8.420-8.180)/8.180 = 2,93%; trade-off aceitável para operação diária. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2086,7 +2086,7 @@
             },
             {
               "nome": "4PL  –  Fourth Party Logistics",
-              "descricao": "Empresa que atua como integradora de toda a cadeia logística do cliente, gerenciando múltiplos operadores 3PL e provedores de serviços, oferecendo soluções estratégicas, consultoria, tecnologia e gestão de processos sem necessariamente possuir ativos físicos. Pilares de análise: gestão de múltiplos operadores, integração de ponta a ponta, technology backbone, visão estratégica. Classic author: Gattorna (1998). Exemplo numérico: 4PL gerencia 5 operadores 3PL regionais (Norte, Sul, Sudeste, Centro-Oeste, Nordeste) e 3 transportadoras; frota gerenciada = 180 veículos; fornecedores = 45; redução de custo logístico = 14,5% no primeiro ano (de R$ 18,2 mi para R$ 15,6 mi); 3PL + 4PL custam 8,5% do faturamento contra 12% da operação anterior sem integração. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Empresa que atua como integradora de toda a cadeia logística do cliente, gerenciando múltiplos operadores 3PL e provedores de serviços, oferecendo soluções estratégicas, consultoria, tecnologia e gestão de processos sem necessariamente possuir ativos físicos. Pilares de análise: gestão de múltiplos operadores, integração de ponta a ponta, technology backbone, visão estratégica. Classic author: Gattorna (1998). Exemplo numérico: 4PL gerência 5 operadores 3PL regionais (Norte, Sul, Sudeste, Centro-Oeste, Nordeste) e 3 transportadoras; frota gerenciada = 180 veículos; fornecedores = 45; redução de custo logístico = 14,5% no primeiro ano (de R$ 18,2 mi para R$ 15,6 mi); 3PL + 4PL custam 8,5% do faturamento contra 12% da operação anterior sem integração. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Contratos de prestação de serviços",
@@ -2094,7 +2094,7 @@
             },
             {
               "nome": "Indicadores SLA",
-              "descricao": "Conjunto de métricas quantitativas definidas em acordo de nível de serviço (Service Level Agreement) que medem a qualidade, pontualidade e conformidade da operação logística contratada. Pilares de análise: OTIF, acuracidade de estoque, avarias, produtividade, tempo de ciclo. Classic author: Ballou (2001). Exemplo numérico: SLA com 7 indicadores: OTIF = 95% (apurado 93,8%), acuracidade = 99,5% (apurado 99,1%), avarias < 0,5% (apurado 0,42%), produtividade > 40 linhas/h (apurado 38 linhas/h), tempo de ciclo < 24h (apurado 22,4h), ruptura < 2% (apurado 1,8%), devolução < 3% (apurado 2,5%); 2 metas nãao cumpridas geram crédito de R$ 4.800 ao contratante. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Conjunto de métricas quantitativas definidas em acordo de nível de serviço (Service Level Agreement) que medem a qualidade, pontualidade e conformidade da operação logística contratada. Pilares de análise: OTIF, acuracidade de estoque, avarias, produtividade, tempo de ciclo. Classic author: Ballou (2001). Exemplo numérico: SLA com 7 indicadores: OTIF = 95% (apurado 93,8%), acuracidade = 99,5% (apurado 99,1%), avarias < 0,5% (apurado 0,42%), produtividade > 40 linhas/h (apurado 38 linhas/h), tempo de ciclo < 24h (apurado 22,4h), ruptura < 2% (apurado 1,8%), devolução < 3% (apurado 2,5%); 2 metas não cumpridas geram crédito de R$ 4.800 ao contratante. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2110,11 +2110,11 @@
           "topicos": [
             {
               "nome": "Silos e tanques",
-              "descricao": "Estruturas de armazenagem para granéis sólidos (silos) e líquidos/gases (tanques) utilizadas na armazenagem de commodities agrícolas, químicos, combustíveis e derivados, com sistemas de carga, descarga, ventilação e monitoramento. Pilares de análise: capacidade estática, tipo de produto, sistema de movimentação, segurança operacional. Classic author: Ballou (2001). Exemplo numérico: silo metálico para grãos com capacidade = 12.000 t; dimensões: diâmetro 18 m, altura 22 m; temperatura monitorada por 8 termopares internos; taxa de aeração = 0,1 m³/min/t; tempo de enchimento com esteira de 200 t/h = 60h; perda estimada por deterioraçao = 0,3% (36 t) contra 0,8% em armazém convencional (96 t); economia = 60 t x R$ 80,00/t = R$ 4.800/safra. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Estruturas de armazenagem para granéis sólidos (silos) e líquidos/gases (tanques) utilizadas na armazenagem de commodities agrícolas, químicos, combustíveis e derivados, com sistemas de carga, descarga, ventilação e monitoramento. Pilares de análise: capacidade estática, tipo de produto, sistema de movimentação, segurança operacional. Classic author: Ballou (2001). Exemplo numérico: silo metálico para grãos com capacidade = 12.000 t; dimensões: diâmetro 18 m, altura 22 m; temperatura monitorada por 8 termopares internos; taxa de aeração = 0,1 m³/min/t; tempo de enchimento com esteira de 200 t/h = 60h; perda estimada por deterioração = 0,3% (36 t) contra 0,8% em armazém convencional (96 t); economia = 60 t x R$ 80,00/t = R$ 4.800/safra. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Pátios de armazenagem",
-              "descricao": "Área externa delimitada e preparada para estocagem temporária de mercadorias, materiais a granel, contêineres, veículos ou equipamentos, com infraestrutura de drenagem, pavimentação e segurança patrimonial. Pilares de análise: capacidade estática, densidade de armazenagem, rotatividade, segurança. Classic author: Ballou (2001). Exemplo numérico: pátio de 12.000 m² para estocagem de 280 contêineres; ocupaçao média = 72% (202 contêineres); tempo médio de permanência = 5,8 dias; giro mensal = 5,2 vezes (202 x 30/5,8 = 1.045 contêineres/mês); receita por diária = R$ 38,00; faturamento mensal = R$ 202 x 5,8 x R$ 38,00 = R$ 44.561. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Área externa delimitada e preparada para estocagem temporária de mercadorias, materiais a granel, contêineres, veículos ou equipamentos, com infraestrutura de drenagem, pavimentação e segurança patrimonial. Pilares de análise: capacidade estática, densidade de armazenagem, rotatividade, segurança. Classic author: Ballou (2001). Exemplo numérico: pátio de 12.000 m² para estocagem de 280 contêineres; ocupação média = 72% (202 contêineres); tempo médio de permanência = 5,8 dias; giro mensal = 5,2 vezes (202 x 30/5,8 = 1.045 contêineres/mês); receita por diária = R$ 38,00; faturamento mensal = R$ 202 x 5,8 x R$ 38,00 = R$ 44.561. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Controle de temperatura e umidade",
@@ -2122,7 +2122,7 @@
             },
             {
               "nome": "Equipamentos de movimentação",
-              "descricao": "Conjunto de máquinas e dispositivos utilizados para transportar, elevar, deslocar e posicionar materiais dentro de um armazém ou unidade produtiva. Pilares de análise: capacidade de carga, alcance vertical, ciclo de operaçao, custo por hora. Classic author: Frazelle (2002). Exemplo numérico: empilhadeira elétrica capacidade 1.600 kg, altura máxima 4,5 m; ciclo médio de 2,5 min (pegar + deslocar 25 m + depositar); 22 ciclos/hora; custo horário = R$ 32,00 (incluindo depreciaçao, energia e manutençao); custo por ciclo = R$ 1,45. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Conjunto de máquinas e dispositivos utilizados para transportar, elevar, deslocar e posicionar materiais dentro de um armazém ou unidade produtiva. Pilares de análise: capacidade de carga, alcance vertical, ciclo de operação, custo por hora. Classic author: Frazelle (2002). Exemplo numérico: empilhadeira elétrica capacidade 1.600 kg, altura máxima 4,5 m; ciclo médio de 2,5 min (pegar + deslocar 25 m + depositar); 22 ciclos/hora; custo horário = R$ 32,00 (incluindo depreciação, energia e manutenção); custo por ciclo = R$ 1,45. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2150,7 +2150,7 @@
             },
             {
               "nome": "Embalagem e consolidação",
-              "descricao": "Processo de acondicionamento, proteção, unitização e agrupamento de produtos separados em um pedido para formar a carga final a ser expedida, garantindo integridade física e identificação clara. Pilares de análise: tipo de embalagem, fator de cubagem, proteção contra avarias, custo por embalagem. Classic author: Ballou (2001). Exemplo numérico: 45 caixas de produtos diversos consolidados em 8 paletes para expediçao; filme stretch = 280 g/palete x 8 = 2,24 kg (R$ 8,96); etiquetas de identificaçao = 8 unidades (R$ 4,00); fita adesiva = 12 rolos (R$ 6,00); custo de embalagem = R$ 18,96 (R$ 2,37/palete); avarias no transporte reduzidas de 2,8% para 0,9% após melhoria no acondicionamento (economia de R$ 3.400/mês). (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Processo de acondicionamento, proteção, unitização e agrupamento de produtos separados em um pedido para formar a carga final a ser expedida, garantindo integridade física e identificação clara. Pilares de análise: tipo de embalagem, fator de cubagem, proteção contra avarias, custo por embalagem. Classic author: Ballou (2001). Exemplo numérico: 45 caixas de produtos diversos consolidados em 8 paletes para expedição; filme stretch = 280 g/palete x 8 = 2,24 kg (R$ 8,96); etiquetas de identificação = 8 unidades (R$ 4,00); fita adesiva = 12 rolos (R$ 6,00); custo de embalagem = R$ 18,96 (R$ 2,37/palete); avarias no transporte reduzidas de 2,8% para 0,9% após melhoria no acondicionamento (economia de R$ 3.400/mês). (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2170,7 +2170,7 @@
             },
             {
               "nome": "Estocagem e endereçamento",
-              "descricao": "Processo de alocação física das mercadorias recebidas nas posições de armazenagem designadas pelo sistema, seguindo regras de endereçamento fixo, dinâmico ou misto para otimização de espaço e acesso. Pilares de análise: taxa de ocupação, densidade de armazenagem, tempo de put-away, acuracidade locacional. Classic author: Tompkins (2010). Exemplo numérico: 420 paletes recebidos/dia; put-away realizado em 3,2h com 4 operadores (33 paletes/homem-hora); ocupaçao do armazém = 84%; endereçamento dinâmico reduz distância média de put-away de 85 m para 52 m (reduçao de 38,8%); acuracidade locacional = 99,4%; erros de endereçamento = 2,4 por 1.000 movimentaçoes. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Processo de alocação física das mercadorias recebidas nas posições de armazenagem designadas pelo sistema, seguindo regras de endereçamento fixo, dinâmico ou misto para otimização de espaço e acesso. Pilares de análise: taxa de ocupação, densidade de armazenagem, tempo de put-away, acuracidade locacional. Classic author: Tompkins (2010). Exemplo numérico: 420 paletes recebidos/dia; put-away realizado em 3,2h com 4 operadores (33 paletes/homem-hora); ocupação do armazém = 84%; endereçamento dinâmico reduz distância média de put-away de 85 m para 52 m (redução de 38,8%); acuracidade locacional = 99,4%; erros de endereçamento = 2,4 por 1.000 movimentaçoes. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "Inventário rotativo",
@@ -2178,7 +2178,7 @@
             },
             {
               "nome": "Expedição e cross-docking",
-              "descricao": "Etapa final do fluxo de armazenagem que compreende a conferência de saída, carregamento, emissão de documentos fiscais e liberação de veículos, podendo integrar operaçoes de cross-docking. Pilares de análise: tempo de carregamento, taxa de ocupaçao do veículo, acuracidade de expedição, sincronismo docas. Classic author: Frazelle (2002). Exemplo numérico: 42 veículos expedidos/dia em 8 docas; tempo médio de carregamento = 52 min; taxa de ocupaçao dos veículos = 88%; acuracidade de expediçao = 99,3%; divergências = 6,8 por 1.000 volumes; cross-docking representa 22% do volume (280 paletes/dia com permanência média de 2,4h); custo de expediçao = R$ 0,62/palete. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Etapa final do fluxo de armazenagem que compreende a conferência de saída, carregamento, emissão de documentos fiscais e liberação de veículos, podendo integrar operaçoes de cross-docking. Pilares de análise: tempo de carregamento, taxa de ocupação do veículo, acuracidade de expedição, sincronismo docas. Classic author: Frazelle (2002). Exemplo numérico: 42 veículos expedidos/dia em 8 docas; tempo médio de carregamento = 52 min; taxa de ocupação dos veículos = 88%; acuracidade de expedição = 99,3%; divergências = 6,8 por 1.000 volumes; cross-docking representa 22% do volume (280 paletes/dia com permanência média de 2,4h); custo de expedição = R$ 0,62/palete. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2198,7 +2198,7 @@
             },
             {
               "nome": "CD compartilhado",
-              "descricao": "Centro de distribuição que atende múltiplos clientes simultaneamente no mesmo espaço físico, compartilhando infraestrutura, equipe e sistemas, com separação lógica e fiscal dos estoques de cada contratante. Pilares de análise: sinergia entre clientes, rateio de custos, segregação de estoque, conflito de marcas. Classic author: Ballou (2001). Exemplo numérico: CD de 12.000 m² atende 6 clientes (setores alimentício, farmacêutico, cosmético e eletrônico); custo operacional total = R$ 720.000/mês; rateio por metros quadrados ocupados: cliente A (22%) = R$ 158.400, cliente B (18%) = R$ 129.600; cada cliente paga 18% menos que em CD dedicado; sinergia de estoque = 6 SKUs compartilhados entre clientes nãao concorrentes. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Centro de distribuição que atende múltiplos clientes simultaneamente no mesmo espaço físico, compartilhando infraestrutura, equipe e sistemas, com separação lógica e fiscal dos estoques de cada contratante. Pilares de análise: sinergia entre clientes, rateio de custos, segregação de estoque, conflito de marcas. Classic author: Ballou (2001). Exemplo numérico: CD de 12.000 m² atende 6 clientes (setores alimentício, farmacêutico, cosmético e eletrônico); custo operacional total = R$ 720.000/mês; rateio por metros quadrados ocupados: cliente A (22%) = R$ 158.400, cliente B (18%) = R$ 129.600; cada cliente paga 18% menos que em CD dedicado; sinergia de estoque = 6 SKUs compartilhados entre clientes não concorrentes. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             },
             {
               "nome": "CD regional",
@@ -2206,7 +2206,7 @@
             },
             {
               "nome": "Automação de CD",
-              "descricao": "Implantaçao de sistemas mecanizados, robóticos e computadorizados (transportadores, sorter, paletizadores automáticos, AS/RS, AGV) para executar operaçoes de armazenagem com mínima intervençao humana. Pilares de análise: nível de automaçao, capacidade de processamento, custo de capital, TIR do investimento. Classic author: Frazelle (2002). Exemplo numérico: CD automatizado com sorter de 180 pacotes/min, AS/RS com 12.800 posições, 4 paletizadores robóticos e 5 AGVs; investimento = R$ 18,5 mi; reduçao de 42% na equipe (de 85 para 49 operadores); economia anual = R$ 3,2 mi; TIR = 22,4% a.a.; payback = 4,8 anos; produtividade = 78 linhas/homem-hora (contra 38 no CD manual); acuracidade = 99,8%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
+              "descricao": "Implantação de sistemas mecanizados, robóticos e computadorizados (transportadores, sorter, paletizadores automáticos, AS/RS, AGV) para executar operaçoes de armazenagem com mínima intervenção humana. Pilares de análise: nível de automação, capacidade de processamento, custo de capital, TIR do investimento. Classic author: Frazelle (2002). Exemplo numérico: CD automatizado com sorter de 180 pacotes/min, AS/RS com 12.800 posições, 4 paletizadores robóticos e 5 AGVs; investimento = R$ 18,5 mi; redução de 42% na equipe (de 85 para 49 operadores); economia anual = R$ 3,2 mi; TIR = 22,4% a.a.; payback = 4,8 anos; produtividade = 78 linhas/homem-hora (contra 38 no CD manual); acuracidade = 99,8%. (Referência: BALLOU, R. H. Gerenciamento da Cadeia de Suprimentos/Logística Empresarial. 5. ed. Porto Alegre: Bookman, 2006.)"
             }
           ],
           "formula": "",
@@ -2253,19 +2253,19 @@
           "topicos": [
             {
               "nome": "Integração vertical",
-              "descricao": "Estratégia de controle e internalização de múltiplos elos da cadeia produtiva pela mesma empresa, desde a aquisiçao de insumos até a distribuiçao ao consumidor final, reduzindo dependência externa. Pilares de análise: grau de internalizaçao, custo de transação, autonomia estratégica, eficiência x flexibilidade. Classic author: Williamson (1985). Exemplo numérico: empresa integrada verticalmente controla 3 estágios: produçao de matéria-prima (custo = R$ 18,00/kg), transformaçao (R$ 32,00/kg) e distribuiçao (R$ 12,00/kg); custo total = R$ 62,00/kg; margem = 22% (R$ 75,64/kg); fornecedor externo ofereceria matéria-prima a R$ 19,50/kg; diferença de R$ 1,50/kg justificada por independência de mercado e qualidade controlada. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Estratégia de controle e internalização de múltiplos elos da cadeia produtiva pela mesma empresa, desde a aquisição de insumos até a distribuição ao consumidor final, reduzindo dependência externa. Pilares de análise: grau de internalização, custo de transação, autonomia estratégica, eficiência x flexibilidade. Classic author: Williamson (1985). Exemplo numérico: empresa integrada verticalmente controla 3 estágios: produção de matéria-prima (custo = R$ 18,00/kg), transformação (R$ 32,00/kg) e distribuição (R$ 12,00/kg); custo total = R$ 62,00/kg; margem = 22% (R$ 75,64/kg); fornecedor externo ofereceria matéria-prima a R$ 19,50/kg; diferença de R$ 1,50/kg justificada por independência de mercado e qualidade controlada. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Integração horizontal",
-              "descricao": "Estratégia de expansão da empresa por meio da aquisição, fusão ou aliança com concorrentes do mesmo nível da cadeia, visando ganho de escala, participaçao de mercado e poder de barganha. Pilares de análise: participaçao de mercado, sinergia operacional, eliminaçao de concorrência, economias de escala. Classic author: Porter (1980). Exemplo numérico: empresa A (12% de market share) adquire concorrente B (8%); nova participaçao = 20%; sinergia de custos = R$ 4,2 mi/ano (frota unificada, 2 CD fundidos, 18% de reduçao em pessoal administrativo); poder de barganha com transportadoras aumenta 3 p.p. de desconto; receita combinada = R$ 88 mi/ano; margem EBITDA sobe de 12% para 14,5%. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Estratégia de expansão da empresa por meio da aquisição, fusão ou aliança com concorrentes do mesmo nível da cadeia, visando ganho de escala, participação de mercado e poder de barganha. Pilares de análise: participação de mercado, sinergia operacional, eliminação de concorrência, economias de escala. Classic author: Porter (1980). Exemplo numérico: empresa A (12% de market share) adquire concorrente B (8%); nova participação = 20%; sinergia de custos = R$ 4,2 mi/ano (frota unificada, 2 CD fundidos, 18% de redução em pessoal administrativo); poder de barganha com transportadoras aumenta 3 p.p. de desconto; receita combinada = R$ 88 mi/ano; margem EBITDA sobe de 12% para 14,5%. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Parcerias estratégicas",
-              "descricao": "Relacionamento de longo prazo entre duas ou mais empresas que combinam recursos, competências e riscos para alcançar objetivos mútuos de maior valor que cada uma atingiria isoladamente. Pilares de análise: confiança, compartilhamento de riscos, alinhamento de incentivos, governança da parceria. Classic author: Christopher (1998). Exemplo numérico: fabricante e operador logístico firmam parceria de 5 anos com metas compartilhadas: reduçao de 15% no custo logístico total, OTIF > 97%, avarias < 0,3%; bônus de 4% sobre economia gerada; em 2 anos custo cai 11,4% (economia = R$ 680.000); bônus pago = R$ 27.200; índice de confiança medido anualmente = 8,4/10. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Relacionamento de longo prazo entre duas ou mais empresas que combinam recursos, competências e riscos para alcançar objetivos mútuos de maior valor que cada uma atingiria isoladamente. Pilares de análise: confiança, compartilhamento de riscos, alinhamento de incentivos, governança da parceria. Classic author: Christopher (1998). Exemplo numérico: fabricante e operador logístico firmam parceria de 5 anos com metas compartilhadas: redução de 15% no custo logístico total, OTIF > 97%, avarias < 0,3%; bônus de 4% sobre economia gerada; em 2 anos custo cai 11,4% (economia = R$ 680.000); bônus pago = R$ 27.200; índice de confiança medido anualmente = 8,4/10. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Governança da cadeia",
-              "descricao": "Conjunto de estruturas, regras, processos e relacionamentos que coordenam as decisões e ações entre os agentes de uma cadeia de suprimentos, definindo papéis, responsabilidades e mecanismos de controle. Pilares de análise: estrutura de poder, contratos formais e relacionais, mecanismos de coordenação, resolução de conflitos. Classic author: Williamson (1985). Exemplo numérico: cadeia com 1 montante (fornecedor líder) e 8 fornecedores tier 2; governança estruturada por comitê trimestral com 2 representantes de cada nível; 95% das decisões tomadas por consenso em 2025; índice de conformidade contratual = 94%; 3 conflitos resolvidos em mediaçao (0 arbitragem); tempo médio de resolução de disputas = 8 dias. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Conjunto de estruturas, regras, processos e relacionamentos que coordenam as decisões e ações entre os agentes de uma cadeia de suprimentos, definindo papéis, responsabilidades e mecanismos de controle. Pilares de análise: estrutura de poder, contratos formais e relacionais, mecanismos de coordenação, resolução de conflitos. Classic author: Williamson (1985). Exemplo numérico: cadeia com 1 montante (fornecedor líder) e 8 fornecedores tier 2; governança estruturada por comitê trimestral com 2 representantes de cada nível; 95% das decisões tomadas por consenso em 2025; índice de conformidade contratual = 94%; 3 conflitos resolvidos em mediação (0 arbitragem); tempo médio de resolução de disputas = 8 dias. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             }
           ],
           "formula": "",
@@ -2281,7 +2281,7 @@
           "topicos": [
             {
               "nome": "Ciclo de compras",
-              "descricao": "Sequência de etapas que vai da identificação de uma necessidade de aquisição até o pagamento ao fornecedor, incluindo requisição, cotaçao, negociaçao, pedido, recebimento, conferência e liquidação financeira. Pilares de análise: lead time de compra, etapas do processo, aprovações, custo por pedido. Classic author: Ballou (2001). Exemplo numérico: ciclo de compra de materiais indiretos: requisiçao (1h) + aprovaçao gerencial (4h) + cotaçao com 3 fornecedores (8h) + negociaçao (4h) + emissao do pedido (1h) + lead time de entrega (48h) + recebimento e conferência (2h) + pagamento (24h) = 92h úteis (11,5 dias); custo por pedido processado = R$ 84,00; 220 pedidos/mês. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Sequência de etapas que vai da identificação de uma necessidade de aquisição até o pagamento ao fornecedor, incluindo requisição, cotação, negociação, pedido, recebimento, conferência e liquidação financeira. Pilares de análise: lead time de compra, etapas do processo, aprovações, custo por pedido. Classic author: Ballou (2001). Exemplo numérico: ciclo de compra de materiais indiretos: requisição (1h) + aprovação gerencial (4h) + cotação com 3 fornecedores (8h) + negociação (4h) + emissão do pedido (1h) + lead time de entrega (48h) + recebimento e conferência (2h) + pagamento (24h) = 92h úteis (11,5 dias); custo por pedido processado = R$ 84,00; 220 pedidos/mês. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Negociação estratégica",
@@ -2293,7 +2293,7 @@
             },
             {
               "nome": "Compras sustentáveis",
-              "descricao": "Processo de aquisição que integra critérios ambientais, sociais e econômicos na seleção de fornecedores e produtos, promovendo redução de impactos ao longo da cadeia de suprimentos. Pilares de análise: critérios ESG, rastreabilidade de origem, ciclo de vida do produto, conformidade socioambiental. Classic author: Carter e Rogers (2008). Exemplo numérico: 35% dos fornecedores avaliados possuem certificação ISO 14001; redução de 12% nas emissões de CO₂ na cadeia de embalagens (384 t CO₂/ano); 62% dos itens adquiridos possuem conteúdo reciclado; economia de R$ 240.000/ano com redução de resíduos; 18 fornecedores desqualificados por critérios trabalhistas. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Processo de aquisição que integra critérios ambientais, sociais e econômicos na seleção de fornecedores e produtos, promovendo redução de impactos ao longo da cadeia de suprimentos. Pilares de análise: critérios ESG, rastreabilidade de origem, ciclo de vida do produto, conformidade socioambiental. Classic author: Cárter e Rogers (2008). Exemplo numérico: 35% dos fornecedores avaliados possuem certificação ISO 14001; redução de 12% nas emissões de CO₂ na cadeia de embalagens (384 t CO₂/ano); 62% dos itens adquiridos possuem conteúdo reciclado; economia de R$ 240.000/ano com redução de resíduos; 18 fornecedores desqualificados por critérios trabalhistas. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             }
           ],
           "formula": "",
@@ -2373,7 +2373,7 @@
             },
             {
               "nome": "Certificações exigidas",
-              "descricao": "Conjunto de normas e sistemas de gestão certificados por terceira parte que o fornecedor deve comprovar como requisito contratual, abrangendo qualidade, ambiente, segurança, responsabilidade social e setoriais. Pilares de análise: ISO 9001, ISO 14001, ISO 45001, certificações setoriais (INMETRO, ANVISA, FDA, CE). Classic author: Juran (1999). Exemplo numérico: edital de licitaçao exige ISO 9001:2015 (obrigatória), ISO 14001 (desejável = pontuaçao extra), ISO 45001 (obrigatória para serviços de risco); dos 18 fornecedores participantes, 14 possuem ISO 9001, 9 possuem ISO 14001, 7 possuem todas as 3; 4 eliminados por falta de certificaçao obrigatória; custo médio de certificaçao/mantutenção = R$ 28.000/ano. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Conjunto de normas e sistemas de gestão certificados por terceira parte que o fornecedor deve comprovar como requisito contratual, abrangendo qualidade, ambiente, segurança, responsabilidade social e setoriais. Pilares de análise: ISO 9001, ISO 14001, ISO 45001, certificações setoriais (INMETRO, ANVISA, FDA, CE). Classic author: Juran (1999). Exemplo numérico: edital de licitação exige ISO 9001:2015 (obrigatória), ISO 14001 (desejável = pontuação extra), ISO 45001 (obrigatória para serviços de risco); dos 18 fornecedores participantes, 14 possuem ISO 9001, 9 possuem ISO 14001, 7 possuem todas as 3; 4 eliminados por falta de certificação obrigatória; custo médio de certificação/mantutenção = R$ 28.000/ano. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Cadastro de fornecedores",
@@ -2397,7 +2397,7 @@
             },
             {
               "nome": "SLA  –  Service Level Agreement",
-              "descricao": "Acordo formal entre contratante e contratado que define indicadores de desempenho, metas mensuráveis, frequência de medição e consequências (bônus/multa) para cada nível de serviço contratado. Pilares de análise: indicadores contratados, metas, periodicidade de medição, remuneração vinculada. Classic author: Ballou (2001). Exemplo numérico: SLA com 6 indicadores: OTIF (meta 96%, peso 30%), acuracidade (99,5%, peso 20%), avarias (<0,5%, peso 15%), produtividade (45 linhas/h, peso 15%), tempo de ciclo (<24h, peso 10%), conformidade documental (99%, peso 10%); score composto = 94,2% (meta 95%); multa aplicada = 2% sobre faturamento (R$ 2.800); meta nãao atingida pelo 3º mês consecutivo. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Acordo formal entre contratante e contratado que define indicadores de desempenho, metas mensuráveis, frequência de medição e consequências (bônus/multa) para cada nível de serviço contratado. Pilares de análise: indicadores contratados, metas, periodicidade de medição, remuneração vinculada. Classic author: Ballou (2001). Exemplo numérico: SLA com 6 indicadores: OTIF (meta 96%, peso 30%), acuracidade (99,5%, peso 20%), avarias (<0,5%, peso 15%), produtividade (45 linhas/h, peso 15%), tempo de ciclo (<24h, peso 10%), conformidade documental (99%, peso 10%); score composto = 94,2% (meta 95%); multa aplicada = 2% sobre faturamento (R$ 2.800); meta não atingida pelo 3º mês consecutivo. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Reajustes e revisões",
@@ -2453,7 +2453,7 @@
             },
             {
               "nome": "Simulação de cenários",
-              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e利用率. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e enfileiramentos. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Otimização multiobjetivo",
@@ -2517,7 +2517,7 @@
             },
             {
               "nome": "Integração com ERP",
-              "descricao": "Conexão sistêmica entre plataformas de sourcing, compras ou logística e o sistema de gestão empresarial (ERP), permitindo fluxo automático de dados como pedidos, notas fiscais, estoque e contas a pagar. Pilares de análise: sincronismo de dados, automação de fluxos, redução de retrabalho, acuracidade da informação. Classic author: Bowersox e Closs (2001). Exemplo numérico: integraçao ERP-sourcing elimina digitaçao manual de 1.800 pedidos/mês; reduçao de 22 min para 3 min por pedido (economia de 570h/mês); taxa de erro cai de 4,5% para 0,6% (81 erros evitados/mês); custo de integraçao = R$ 120.000; economia anual = R$ 285.000; ROI em 5 meses. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Conexão sistêmica entre plataformas de sourcing, compras ou logística e o sistema de gestão empresarial (ERP), permitindo fluxo automático de dados como pedidos, notas fiscais, estoque e contas a pagar. Pilares de análise: sincronismo de dados, automação de fluxos, redução de retrabalho, acuracidade da informação. Classic author: Bowersox e Closs (2001). Exemplo numérico: integração ERP-sourcing elimina digitação manual de 1.800 pedidos/mês; redução de 22 min para 3 min por pedido (economia de 570h/mês); taxa de erro cai de 4,5% para 0,6% (81 erros evitados/mês); custo de integração = R$ 120.000; economia anual = R$ 285.000; ROI em 5 meses. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             }
           ],
           "formula": "",
@@ -2533,11 +2533,11 @@
           "topicos": [
             {
               "nome": "RFQ  –  Solicitação de cotação",
-              "descricao": "Documento formal enviado a fornecedores pré-qualificados solicitando cotação de preços, prazos e condições comerciais para itens ou serviços com especificações técnicas já definidas e padronizadas. Pilares de análise: escopo tático, especificação fechada, comparabilidade de preços, prazo de resposta. Classic author: Ballou (2001). Exemplo numérico: RFQ enviada a 6 fornecedores para 12 itens de matéria-prima (especificaçao técnica completa anexa); prazo = 5 dias úteis; todos respondem; menor preço global = R$ 184.500; maior = R$ 212.000; prazo médio de entrega = 12,4 dias; condiçao de pagamento mais comum = 28 dias líquidos; fornecedor vencedor = 2º menor preço (R$ 192.000) com prazo de entrega de 10 dias contra 14 do menor preço. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Documento formal enviado a fornecedores pré-qualificados solicitando cotação de preços, prazos e condições comerciais para itens ou serviços com especificações técnicas já definidas e padronizadas. Pilares de análise: escopo tático, especificação fechada, comparabilidade de preços, prazo de resposta. Classic author: Ballou (2001). Exemplo numérico: RFQ enviada a 6 fornecedores para 12 itens de matéria-prima (especificação técnica completa anexa); prazo = 5 dias úteis; todos respondem; menor preço global = R$ 184.500; maior = R$ 212.000; prazo médio de entrega = 12,4 dias; condição de pagamento mais comum = 28 dias líquidos; fornecedor vencedor = 2º menor preço (R$ 192.000) com prazo de entrega de 10 dias contra 14 do menor preço. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "RFP  –  Solicitação de proposta",
-              "descricao": "Documento formal utilizado em processos de compras complexas ou serviços especializados, no qual o comprador descreve necessidades, objetivos e critérios de avaliação, convidando fornecedores a apresentarem soluções técnicas e comerciais. Pilares de análise: escopo estratégico, especificaçao aberta, avaliaçao técnica e comercial, múltiplos critérios. Classic author: Ballou (2001). Exemplo numérico: RFP para contratação de operador logístico 3PL com 28 requisitos técnicos; 12 fornecedores convidados; 8 propostas recebidas; avaliaçao por matriz ponderada (técnico 60%, comercial 40%); 3 finalistas visitam o CD; vencedor obtém nota técnica 84% e preço de R$ 4,8 mi/ano; 5 fornecedores eliminados na fase técnica (nota < 60%). (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Documento formal utilizado em processos de compras complexas ou serviços especializados, no qual o comprador descreve necessidades, objetivos e critérios de avaliação, convidando fornecedores a apresentarem soluções técnicas e comerciais. Pilares de análise: escopo estratégico, especificação aberta, avaliação técnica e comercial, múltiplos critérios. Classic author: Ballou (2001). Exemplo numérico: RFP para contratação de operador logístico 3PL com 28 requisitos técnicos; 12 fornecedores convidados; 8 propostas recebidas; avaliação por matriz ponderada (técnico 60%, comercial 40%); 3 finalistas visitam o CD; vencedor obtém nota técnica 84% e preço de R$ 4,8 mi/ano; 5 fornecedores eliminados na fase técnica (nota < 60%). (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "RFI  –  Solicitação de informação",
@@ -2585,7 +2585,7 @@
         },
         {
           "titulo": "Gestão de categorias",
-          "definicao": "Abordagem estratégica de compras que segmenta os gastos da empresa em categorias homogêneas e desenvolve estratégias específicas para cada uma. Analisa o mercado fornecedor, consolida volumes, negocia contratos globais e gerencia o relacionamento por categoria.",
+          "definicao": "Abordagem estratégica de compras que segmenta os gastos da empresa em categorias homogêneas e desenvolve estratégias específicas para cada uma. Analisa o mercado fornecedor, consolida volumes, negocia contratos globais e gerência o relacionamento por categoria.",
           "topicos": [
             {
               "nome": "Análise de gastos (spend analysis)",
@@ -2621,7 +2621,7 @@
             },
             {
               "nome": "Planos de contingência",
-              "descricao": "Conjunto de procedimentos pré-definidos e recursos alternativos acionados em situações de crise ou ruptura na cadeia de suprimentos para manter a continuidade das operações com impacto mínimo. Pilares de análise: gatilho de ativação, recursos alternativos, tempo de resposta, abrangência. Classic author: Christopher (1998). Exemplo numérico: plano de contingência para ruptura de fornecimento de matéria-prima crítica: ativado quando estoque < 5 dias; ações: acionar fornecedor alternativo homologado (lead time = 8 dias, volume = 60% da necessidade), usar estoque de segurança estratégico (12 dias), reduzir produção em 30% para itens nãao prioritários; custo do plano = R$ 180.000/ano (manutenção de fornecedor reserva + estoque extra); tempo de resposta = 4h; 2 simulações realizadas no ano com 85% de eficácia. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Conjunto de procedimentos pré-definidos e recursos alternativos acionados em situações de crise ou ruptura na cadeia de suprimentos para manter a continuidade das operações com impacto mínimo. Pilares de análise: gatilho de ativação, recursos alternativos, tempo de resposta, abrangência. Classic author: Christopher (1998). Exemplo numérico: plano de contingência para ruptura de fornecimento de matéria-prima crítica: ativado quando estoque < 5 dias; ações: acionar fornecedor alternativo homologado (lead time = 8 dias, volume = 60% da necessidade), usar estoque de segurança estratégico (12 dias), reduzir produção em 30% para itens não prioritários; custo do plano = R$ 180.000/ano (manutenção de fornecedor reserva + estoque extra); tempo de resposta = 4h; 2 simulações realizadas no ano com 85% de eficácia. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Dual sourcing",
@@ -2629,7 +2629,7 @@
             },
             {
               "nome": "Resiliência da cadeia",
-              "descricao": "Capacidade de uma cadeia de suprimentos de antecipar, absorver, adaptar-se e recuperar-se rapidamente de disrupções, mantendo a continuidade das operações e o nível de serviço ao cliente. Pilares de análise: redundância, flexibilidade, visibilidade, velocidade de recuperação. Classic author: Christopher (1998). Exemplo numérico: cadeia com índice de resiliência = 74% (composto por 8 indicadores: diversidade de fornecedores 70%, estoque estratégico 80%, capacidade flexível 65%, visibilidade 82%, tempo de recuperação 68%, redundância logística 72%, resposta a emergências 78%, aprendizado pós-crise 71%); disrupção simulada (greve de 14 dias) resulta em 85% de atendimento (contra 52% antes das melhorias); tempo de recuperaçao total = 5 dias (contra 22 dias no cenário anterior). (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Capacidade de uma cadeia de suprimentos de antecipar, absorver, adaptar-se e recuperar-se rapidamente de disrupções, mantendo a continuidade das operações e o nível de serviço ao cliente. Pilares de análise: redundância, flexibilidade, visibilidade, velocidade de recuperação. Classic author: Christopher (1998). Exemplo numérico: cadeia com índice de resiliência = 74% (composto por 8 indicadores: diversidade de fornecedores 70%, estoque estratégico 80%, capacidade flexível 65%, visibilidade 82%, tempo de recuperação 68%, redundância logística 72%, resposta a emergências 78%, aprendizado pós-crise 71%); disrupção simulada (greve de 14 dias) resulta em 85% de atendimento (contra 52% antes das melhorias); tempo de recuperação total = 5 dias (contra 22 dias no cenário anterior). (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             }
           ],
           "formula": "",
@@ -2653,7 +2653,7 @@
             },
             {
               "nome": "Best practices",
-              "descricao": "Conjunto de práticas, métodos e processos reconhecidos como superiores por organizações de referência ou literatura especializada, adotados para elevar o desempenho logístico e de suprimentos. Pilares de análise: adoção setorial, maturidade do processo, resultados comprovados, adaptabilidade. Classic author: Christopher (1998). Exemplo numérico: 8 best practices implementadas em 24 meses: cross-docking (cobertura de 22% do volume), WMS integrado ao ERP (acuracidade 99,3%), inventário rotativo classe A mensal (divergência 0,4%), voice picking (produtividade +36%), roteirização dinâmica (distância -18%), 5S no armazém (produtividade +12%), kanban interno (WIP -45%), gestão à vista (tempo de informaçao -62%); ganho total = R$ 1,8 mi/ano. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
+              "descricao": "Conjunto de práticas, métodos e processos reconhecidos como superiores por organizações de referência ou literatura especializada, adotados para elevar o desempenho logístico e de suprimentos. Pilares de análise: adoção setorial, maturidade do processo, resultados comprovados, adaptabilidade. Classic author: Christopher (1998). Exemplo numérico: 8 best practices implementadas em 24 meses: cross-docking (cobertura de 22% do volume), WMS integrado ao ERP (acuracidade 99,3%), inventário rotativo classe A mensal (divergência 0,4%), voice picking (produtividade +36%), roteirização dinâmica (distância -18%), 5S no armazém (produtividade +12%), kanban interno (WIP -45%), gestão à vista (tempo de informação -62%); ganho total = R$ 1,8 mi/ano. (Referência: CHOPRA, S.; MEINDL, P. Gestão da Cadeia de Suprimentos. 6. ed. São Paulo: Pearson, 2016.)"
             },
             {
               "nome": "Benchmarking de cadeia",
@@ -2696,7 +2696,7 @@
       "subtopicos": [
         {
           "titulo": "Estoque mínimo",
-          "definicao": "Quantidade mínima de um item que deve ser mantida em estoque para garantir a continuidade das operações durante o tempo de reposição. ë calculado com base no consumo médio diário e no lead time, funcionando como gatilho para iniciar o processo de compra.",
+          "definicao": "Quantidade mínima de um item que deve ser mantida em estoque para garantir a continuidade das operações durante o tempo de reposição. é calculado com base no consumo médio diário e no lead time, funcionando como gatilho para iniciar o processo de compra.",
           "topicos": [
             {
               "nome": "Consumo médio diário",
@@ -2728,7 +2728,7 @@
           "topicos": [
             {
               "nome": "Capacidade de armazenagem",
-              "descricao": "Volume máximo de produtos que pode ser armazenado em uma instalação, expresso em unidades de armazenagem (paletes, caixas, m³), considerando layout, equipamentos, altura útil e restrições de acesso. Pilares de análise: capacidade nominal x real, taxa de ocupação, densidade de armazenagem, fator de estiva. Classic author: Tompkins (2010). Exemplo numérico: armazém com 8.000 posições-palete teóricas; capacidade real = 7.200 posições (fator de perda de 10% por corredores e circulação); ocupaçao atual = 5.832 posições (81% da capacidade real); altura útil = 8,4 m; densidade = 0,48 paletes/m²; giro de estoque = 4,2 vezes/mês; capacidade sazonal de pico = 6.800 posições (95%) em outubro, exigindo 400 posiçoes externas temporárias. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
+              "descricao": "Volume máximo de produtos que pode ser armazenado em uma instalação, expresso em unidades de armazenagem (paletes, caixas, m³), considerando layout, equipamentos, altura útil e restrições de acesso. Pilares de análise: capacidade nominal x real, taxa de ocupação, densidade de armazenagem, fator de estiva. Classic author: Tompkins (2010). Exemplo numérico: armazém com 8.000 posições-palete teóricas; capacidade real = 7.200 posições (fator de perda de 10% por corredores e circulação); ocupação atual = 5.832 posições (81% da capacidade real); altura útil = 8,4 m; densidade = 0,48 paletes/m²; giro de estoque = 4,2 vezes/mês; capacidade sazonal de pico = 6.800 posições (95%) em outubro, exigindo 400 posiçoes externas temporárias. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
             },
             {
               "nome": "Capital de giro",
@@ -2796,7 +2796,7 @@
             },
             {
               "nome": "Dias de cobertura",
-              "descricao": "Indicador que expressa por quantos dias o estoque atual é suficiente para atender a demanda futura projetada, calculado pela razão entre o estoque disponível e o consumo médio diário. Pilares de análise: estoque atual, consumo médio, projeção de demanda, ponto de alerta. Classic author: Ballou (2001). Exemplo numérico: estoque atual do item = 1.850 unidades; consumo médio diário = 82 unidades; dias de cobertura = 1.850/82 = 22,6 dias; lead time de reposiçao = 8 dias + estoque de segurança = 5 dias; cobertura total necessária = 13 dias; cobertura atual = 22,6 dias (excesso de 9,6 dias = 787 unidades a R$ 14,00 = R$ 11.018 em capital empatado); pedido programado adiado em 9 dias para ajuste. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
+              "descricao": "Indicador que expressa por quantos dias o estoque atual é suficiente para atender a demanda futura projetada, calculado pela razão entre o estoque disponível e o consumo médio diário. Pilares de análise: estoque atual, consumo médio, projeção de demanda, ponto de alerta. Classic author: Ballou (2001). Exemplo numérico: estoque atual do item = 1.850 unidades; consumo médio diário = 82 unidades; dias de cobertura = 1.850/82 = 22,6 dias; lead time de reposição = 8 dias + estoque de segurança = 5 dias; cobertura total necessária = 13 dias; cobertura atual = 22,6 dias (excesso de 9,6 dias = 787 unidades a R$ 14,00 = R$ 11.018 em capital empatado); pedido programado adiado em 9 dias para ajuste. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
             }
           ],
           "formula": "Giro = Custo das Mercadorias Vendidas / Estoque Médio",
@@ -2843,8 +2843,8 @@
               "descricao": "Técnica de auditoria contínua de estoques em que itens são contados em intervalos regulares ao longo do ano, sem necessidade de paralisação do armazém. Pilares de análise: frequência de contagem por classe ABC, tolerância de erro, conciliação contábil. Autor clássico: Francis D. Tuggle (Administração de Materiais). Exemplo numérico: empresa conta 20 itens Classe A por dia útil; em 22 dias/mês, totaliza 440 contagens, mantendo acurácia acima de 98%. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
             },
             {
-              "nome": "Acurécia de estoque",
-              "descricao": "Na gestão de estoques, \"Acurécia de estoque\" (inserido em inventários físicos e rotativos) é um parâmetro ou técnica de administração de materiais. Martins e Alt (2009) descrevem classificações, reposição e custos associados. Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009."
+              "nome": "Acurácia de estoque",
+              "descricao": "Na gestão de estoques, \"Acurácia de estoque\" (inserido em inventários físicos e rotativos) é um parâmetro ou técnica de administração de materiais. Martins e Alt (2009) descrevem classificações, reposição e custos associados. Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009."
             },
             {
               "nome": "Classificação ABC para inventário",
@@ -2855,7 +2855,7 @@
               "descricao": "Procedimentos de correção das diferenças apuradas entre o estoque físico e o contábil, podendo originar lançamentos de ajuste, acertos fiscais ou investigação de causas. Pilares de análise: natureza da divergência (falta ou sobra), valor financeiro envolvido, impacto no DRE. Autor clássico: Zbigniew K. Brzezinski (Controladoria). Exemplo numérico: divergência de 50 unidades a menos, custo unitário R$ 12,00; ajuste débito de R$ 600,00 em perda de estoque. (Referência: MARTINS, P. G.; ALT, P. R. C. Administração de Materiais. 4. ed. São Paulo: Saraiva, 2009.)"
             }
           ],
-          "formula": "Acurécia = (N² itens corretos / N² itens contados) × 100%",
+          "formula": "Acurácia = (Nº itens corretos / Nº itens contados) × 100%",
           "aplicacoes": [
             "Contagem rotativa em CDs de grande porte",
             "Recontagem de itens classe A semanal",
@@ -2864,7 +2864,7 @@
         },
         {
           "titulo": "FIFO  –  First In First Out",
-          "definicao": "Método de controle e avaliação de estoques no qual o primeiro item que entra no estoque é o primeiro a sair. ë amplamente utilizado para produtos perecíveis, itens com prazo de validade e materiais sujeitos a obsolescência, garantindo maior frescor e menor perda.",
+          "definicao": "Método de controle e avaliação de estoques no qual o primeiro item que entra no estoque é o primeiro a sair. é amplamente utilizado para produtos perecíveis, itens com prazo de validade e materiais sujeitos a obsolescência, garantindo maior frescor e menor perda.",
           "topicos": [
             {
               "nome": "PEPS (Português)",
@@ -3004,7 +3004,7 @@
         },
         {
           "titulo": "Ponto de pedido",
-          "definicao": "Nível de estoque que dispara a emissão de um novo pedido de compra ou produção. ë calculado multiplicando o consumo médio diário pelo lead time de reposição, acrescido do estoque de segurança para cobrir variações.",
+          "definicao": "Nível de estoque que dispara a emissão de um novo pedido de compra ou produção. é calculado multiplicando o consumo médio diário pelo lead time de reposição, acrescido do estoque de segurança para cobrir variações.",
           "topicos": [
             {
               "nome": "Lead time",
@@ -3088,7 +3088,7 @@
         },
         {
           "titulo": "Estoque pulmão",
-          "definicao": "Estoque estratégico mantido entre processos produtivos sequenciais para desacoplá-los, absorvendo variações de ritmo e evitando que uma parada em uma etapa pare toda a linha ao mesmo tempo. ë um estoque intermediário que protege o fluxo contínuo.",
+          "definicao": "Estoque estratégico mantido entre processos produtivos sequenciais para desacoplá-los, absorvendo variações de ritmo e evitando que uma parada em uma etapa pare toda a linha ao mesmo tempo. é um estoque intermediário que protege o fluxo contínuo.",
           "topicos": [
             {
               "nome": "Estoque em processo (WIP)",
@@ -3144,7 +3144,7 @@
         },
         {
           "titulo": "Estoque especulativo",
-          "definicao": "Estoque adquirido com objetivo de proteção contra aumentos esperados de preço, desabastecimento de mercado, greves ou mudanças cambiais. ë uma decisão estratégica de compra baseada em análise de mercado, não em necessidade imediata de produção.",
+          "definicao": "Estoque adquirido com objetivo de proteção contra aumentos esperados de preço, desabastecimento de mercado, greves ou mudanças cambiais. é uma decisão estratégica de compra baseada em análise de mercado, não em necessidade imediata de produção.",
           "topicos": [
             {
               "nome": "Proteção cambial",
@@ -3275,31 +3275,31 @@
       ]
     },
     {
-      "id": "ciencia-dados",
+      "id": "ciência-dados",
       "nome": "Ciência de Dados",
       "icone": "database",
       "cor": "#6366f1",
-      "descricao": "Disciplina interdisciplinar que aplica metodos cientificos, processos, algoritmos e sistemas para extrair conhecimento e insights de dados estruturados e não estruturados, com aplicação direta na otimização de sistemas produtivos industriais.",
+      "descricao": "Disciplina interdisciplinar que aplica métodos cientificos, processos, algoritmos e sistemas para extrair conhecimento e insights de dados estruturados e não estruturados, com aplicação direta na otimização de sistemas produtivos industriais.",
       "subtopicos": [
         {
-          "titulo": "Fundamentos de Ciencia de Dados Industrial",
-          "definicao": "Conjunto de principios estatísticos, computacionais e de dominio que fundamentam a extracao de conhecimento acionavel a partir de dados de processos industriais, integrando estatistica inferencial, aprendizado de maquina e engenharia de dominio.",
+          "titulo": "Fundamentos de Ciência de Dados Industrial",
+          "definicao": "Conjunto de principios estatísticos, computacionais e de domínio que fundamentam a extração de conhecimento acionável a partir de dados de processos industriais, integrando estatística inferencial, aprendizado de máquina e engenharia de domínio.",
           "topicos": [
             {
               "nome": "Pipeline de dados industriais",
-              "descricao": "Arquitetura de ingestao, armazenamento, processamento e disponibilizacao de dados de sensores, SCADA, MES e ERP, seguindo o padrao bronze-silver-gold (medalhao) para garantir qualidade progressiva. Conforme Kimball e Ross (2013), a modelagem dimensional em camadas permite rastreabilidade e governanca. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Arquitetura de ingestao, armazenamento, processamento e disponibilização de dados de sensores, SCADA, MES e ERP, seguindo o padrão bronze-silver-gold (medalhão) para garantir qualidade progressiva. Conforme Kimball e Ross (2013), a modelagem dimensional em camadas permite rastreabilidade e governança. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Qualidade de dados (Data Quality)",
-              "descricao": "Dimensoes de completude, consistencia, acuracia, pontualidade, validade e unicidade aplicadas a series temporais industriais. Redman (2001) estabelece que custos de ma qualidade de dados chegam a 15-25% da receita operacional. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Dimensoes de completude, consistência, acurácia, pontualidade, validade e unicidade aplicadas a séries temporais industriais. Redman (2001) estabelece que custos de ma qualidade de dados chegam a 15-25% da receita operacional. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Governanca e linhagem de dados",
-              "descricao": "Rastreamento da origem, transformacoes e uso dos dados (data lineage) para auditoria e conformidade (LGPD, ISO 27001). Ferramentas como Apache Atlas e OpenLineage automatizam a captura de metadados tecnicos e de negocio. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Governança e linhagem de dados",
+              "descricao": "Rastreamento da origem, transformações e uso dos dados (data lineage) para auditoria e conformidade (LGPD, ISO 27001). Ferramentas como Apache Atlas e OpenLineage automatizam a captura de metadados técnicos e de negócio. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Etica e vies em dados industriais",
-              "descricao": "Identificação e mitigacao de vies de amostragem (ex.: sensores apenas em equipamentos novos), vies temporal (sazonalidade não considerada) e vies de selecao (apenas falhas registradas). Noble (2018) alerta para riscos de decisoes automatizadas enviesadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Etica e viés em dados industriais",
+              "descricao": "Identificação e mitigação de viés de amostragem (ex.: sensores apenas em equipamentos novos), viés temporal (sazonalidade não considerada) e viés de seleção (apenas falhas registradas). Noble (2018) alerta para riscos de decisões automatizadas enviesadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "",
@@ -3325,23 +3325,23 @@
         },
         {
           "titulo": "Power BI e Dashboards Executivos Industriais",
-          "definicao": "Plataforma de Business Intelligence da Microsoft que integra modelagem de dados (DAX/M), visualização interativa e publicacao em nuvem (Power BI Service), permitindo monitoramento em tempo real de KPIs industriais como OEE, MTBF, yield e custos de conversao.",
+          "definicao": "Plataforma de Business Intelligence da Microsoft que integra modelagem de dados (DAX/M), visualização interativa e publicação em nuvem (Power BI Service), permitindo monitoramento em tempo real de KPIs industriais como OEE, MTBF, yield e custos de conversão.",
           "topicos": [
             {
               "nome": "Modelagem DAX para manufatura",
-              "descricao": "Criacao de medidas de inteligência temporal (YTD, QoQ, rolling 12M), calculos de OEE decomposto (Disponibilidade x Performance x Qualidade) e hierarquias de ativo (Planta -> Area -> Linha -> Equipamento). Conforme Russo e Ferrari (2020), o uso de variaveis e CALCULATE otimiza desempenho em modelos com milhoes de linhas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Criação de medidas de inteligência temporal (YTD, QoQ, rolling 12M), calculos de OEE decomposto (Disponibilidade x Performance x Qualidade) e hierarquias de ativo (Planta -> Área -> Linha -> Equipamento). Conforme Russo e Ferrari (2020), o uso de variáveis e CALCULATE otimiza desempenho em modelos com milhões de linhas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "DirectQuery vs. Import vs. Composite",
-              "descricao": "Import para tabelas de dimensao e agregacoes pre-calculadas; DirectQuery para fatos transacionais em tempo real (ex.: leitura de tags OPC-UA via gateway); Composite model combina ambos. Microsoft (2023) recomenda Composite para cenarios hibridos OT/IT. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Import para tabelas de dimensão e agregacoes pre-calculadas; DirectQuery para fatos transacionais em tempo real (ex.: leitura de tags OPC-UA via gateway); Composite model combina ambos. Microsoft (2023) recomenda Composite para cenarios hibridos OT/IT. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Row-Level Security (RLS) em planta multi-cliente",
-              "descricao": "Filtros dinamicos baseados em UPN ou grupo Azure AD, garantindo que gestores de cada unidade visualizem apenas seus ativos. Implementado via USERPRINCIPALNAME() em regras DAX. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Filtros dinâmicos baseados em UPN ou grupo Azure AD, garantindo que gestores de cada unidade visualizem apenas seus ativos. Implementado via USERPRINCIPALNAME() em regras DAX. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Integracao com Azure IoT e Digital Twins",
-              "descricao": "Conexao nativa a Azure IoT Hub, Time Series Insights e Azure Digital Twins para visualização de gemeos digitais de linhas de produção com telemetria subsegundo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Integração com Azure IoT e Digital Twins",
+              "descricao": "Conexão nativa a Azure IoT Hub, Time Séries Insights e Azure Digital Twins para visualização de gemeos digitais de linhas de produção com telemetria subsegundo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "OEE = Disponibilidade x Performance x Qualidade",
@@ -3356,26 +3356,26 @@
               "ref": "RUSSO, Marco; FERRARI, Alberto. The Definitive Guide to DAX: Business Intelligence with Microsoft Power BI, SQL Server Analysis Services, and Excel. 2. ed. Redmond: Microsoft Press, 2020."
             },
             {
-              "tipo": "Documentacao",
+              "tipo": "Documentação",
               "ref": "MICROSOFT. Power BI Composite Models: Guidance. Microsoft Learn, 2023."
             }
           ]
         },
         {
-          "titulo": "Tableau para Analise Visual de Processos",
-          "definicao": "Plataforma de analytics visual baseada em VizQL (Visual Query Language) que traduz arrastar-e-soltar em consultas SQL/MDX otimizadas, destacando-se em analise exploratoria de dados de processo (ex.: diagramas de dispersao multivariados, boxplots de variaveis criticas, mapas de calor de correlacao).",
+          "titulo": "Tableau para Análise Visual de Processos",
+          "definicao": "Plataforma de analytics visual baseada em VizQL (Visual Query Language) que traduz arrastar-e-soltar em consultas SQL/MDX otimizadas, destacando-se em análise exploratoria de dados de processo (ex.: diagramas de dispersão multivariados, boxplots de variáveis criticas, mapas de calor de correlação).",
           "topicos": [
             {
               "nome": "LOD Expressions (Level of Detail)",
-              "descricao": "FIXED, INCLUDE, EXCLUDE permitem agregacoes em granularidade diferente da visualização -- ex.: media movel de 7 dias do yield por lote, independentemente do filtro de data na view. Conforme McDonald (2016), LODs sao essenciais para calculos de benchmark interno. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "FIXED, INCLUDE, EXCLUDE permitem agregacoes em granularidade diferente da visualização -- ex.: média móvel de 7 dias do yield por lote, independentemente do filtro de data na view. Conforme McDonald (2016), LODs são essenciais para calculos de benchmark interno. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Parameter Actions e Set Actions",
-              "descricao": "Interatividade avancada: clicar em um ponto de dispersao (temperatura x pressao) filtra automaticamente o histograma de qualidade associado, permitindo analise de causa-raiz visual. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Interatividade avancada: clicar em um ponto de dispersão (temperatura x pressão) filtra automaticamente o histograma de qualidade associado, permitindo análise de causa-raiz visual. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Hyper Engine e extracts .hyper",
-              "descricao": "Motor columnar proprietario que comprime e indexa dados para performance subsegundo em bilhoes de linhas -- critico para series temporais de alta frequencia (ex.: 1 Hz de 500 tags por 2 anos ~ 31 bi linhas). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Motor columnar proprietário que comprime e indexa dados para performance subsegundo em bilhoes de linhas -- crítico para séries temporais de alta frequência (ex.: 1 Hz de 500 tags por 2 anos ~ 31 bi linhas). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Tableau Prep Builder para ETL visual",
@@ -3400,24 +3400,24 @@
           ]
         },
         {
-          "titulo": "Excel Avançado e VBA para Engenharia de Producao",
-          "definicao": "Uso profissional do Microsoft Excel como ferramenta de modelagem matematica, otimização, simulação e automação de rotinas repetitivas no chao de fabrica, empregando Power Query (M), Power Pivot (DAX), Solver, @RISK/Palisade e VBA orientado a objetos.",
+          "titulo": "Excel Avançado e VBA para Engenharia de Produção",
+          "definicao": "Uso profissional do Microsoft Excel como ferramenta de modelagem matematica, otimização, simulação e automação de rotinas repetitivas no chão de fabrica, empregando Power Query (M), Power Pivot (DAX), Solver, @RISK/Palisade e VBA orientado a objetos.",
           "topicos": [
             {
-              "nome": "Power Query (M) para ETL de arquivos de maquina",
-              "descricao": "Consumo de CSVs de CLPs, balancas, espectrometros; limpeza de cabecalhos variaveis, unpivot de colunas de tempo, tipagem forte e carga em modelo de dados (Power Pivot). Ken Puls e Miguel Escobar (2021) demonstram padroes reutilizaveis via funcoes personalizadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Power Query (M) para ETL de arquivos de máquina",
+              "descricao": "Consumo de CSVs de CLPs, balancas, espectrometros; limpeza de cabecalhos variáveis, unpivot de colunas de tempo, tipagem forte e carga em modelo de dados (Power Pivot). Ken Puls e Miguel Escobar (2021) demonstram padroes reutilizaveis via funções personalizadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Power Pivot e DAX para custos industriais",
-              "descricao": "Modelagem estrela com tabelas Fato (Apontamento, Consumo, Refugo) e Dimensoes (Produto, Maquina, Turno, Motivo Parada); medidas de custo unitario padrao vs. realizado, variacao por componente (MP, MO, CIF), rateio de OH por driver (horas maquina, m2). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Modelagem estrela com tabelas Fato (Apontamento, Consumo, Refugo) e Dimensoes (Produto, Máquina, Turno, Motivo Parada); medidas de custo unitário padrão vs. realizado, variação por componente (MP, MO, CIF), rateio de OH por driver (horas máquina, m2). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Solver e OpenSolver para otimização linear/integer",
-              "descricao": "Balanceamento de linha (minimizar estacoes s.t. tempo ciclo <= Takt), sequenciamento (minimizar setup total), corte de chapas (cutting stock), programacao de manutenção (maximizar disponibilidade). OpenSolver (Mason, 2012) remove limite de 200 variaveis do Solver nativo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Balanceamento de linha (minimizar estações s.t. tempo ciclo <= Takt), sequenciamento (minimizar setup total), corte de chapas (cutting stock), programação de manutenção (maximizar disponibilidade). OpenSolver (Mason, 2012) remove limite de 200 variáveis do Solver nativo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "VBA orientado a objetos para automação de relatorios",
-              "descricao": "Classes para conexão ADO a bancos (Access, SQL Server, PostgreSQL), geracao de PDFs paginados, envio via Outlook/Teams, integração com SAP GUI Scripting. Walkenbach (2018) preconiza separacao Model-View-Controller em projetos VBA complexos. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Classes para conexão ADO a bancos (Access, SQL Server, PostgreSQL), geração de PDFs paginados, envio via Outlook/Teams, integração com SAP GUI Scripting. Walkenbach (2018) preconiza separação Model-View-Controller em projetos VBA complexos. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "Min Z = Sum c_i x_i  s.t.  Ax <= b, x in Z^n",
@@ -3443,23 +3443,23 @@
         },
         {
           "titulo": "Python para Engenharia: Pandas, NumPy e SciPy",
-          "definicao": "Ecossistema cientifico Python para manipulação vetorizada de dados tabulares (pandas), computacao numerica de alto desempenho (NumPy) e algoritmos de otimização, estatistica, processamento de sinais e interpolacao (SciPy), amplamente adotado em P&D industrial e manutenção preditiva.",
+          "definicao": "Ecossistema científico Python para manipulação vetorizada de dados tabulares (pandas), computação numérica de alto desempenho (NumPy) e algoritmos de otimização, estatística, processamento de sinais e interpolação (SciPy), amplamente adotado em P&D industrial e manutenção preditiva.",
           "topicos": [
             {
-              "nome": "Pandas para series temporais industriais",
-              "descricao": "Resample (down/up), rolling/expanding windows, interpolation (time, spline, akima), deteccao de outliers (IQR, z-score, isolation forest), feature engineering de janelas (lags, medias moveis, derivadas). McKinney (2022) detalha o uso de DatetimeIndex com timezone-aware para dados globais. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Pandas para séries temporais industriais",
+              "descricao": "Resample (down/up), rolling/expanding windows, interpolation (time, spline, akima), detecção de outliers (IQR, z-score, isolation forest), feature engineering de janelas (lags, médias moveis, derivadas). McKinney (2022) detalha o uso de DatetimeIndex com timezone-aware para dados globais. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "NumPy para computacao vetorizada em simulação",
-              "descricao": "Broadcasting, ufuncs, memoria compartilhada (multiprocessing.Array), geracao de numeros aleatorios (PCG64) para Monte Carlo de 10^7 iteracoes em < 2 s. Van der Walt et al. (2011) demonstram ganhos de 50-100x vs. loops Python. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "NumPy para computação vetorizada em simulação",
+              "descricao": "Broadcasting, ufuncs, memória compartilhada (multiprocessing.Array), geração de números aleatorios (PCG64) para Monte Carlo de 10^7 iteracoes em < 2 s. Van der Walt et al. (2011) demonstram ganhos de 50-100x vs. loops Python. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "SciPy.optimize para calibracao de modelos de processo",
-              "descricao": "Least squares (curve_fit), minimizacao constrained (SLSQP, COBYLA), global (differential_evolution, basinhopping) para estimar parametros cineticos (ex.: Arrhenius) ou de desgaste de ferramenta. Virtanen et al. (2020) consolidam a API. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "SciPy.optimize para calibração de modelos de processo",
+              "descricao": "Least squares (curve_fit), minimização constrained (SLSQP, COBYLA), global (differential_evolution, basinhopping) para estimar parametros cineticos (ex.: Arrhenius) ou de desgaste de ferramenta. Virtanen et al. (2020) consolidam a API. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Processamento de sinais (scipy.signal) para vibracao/acustica",
-              "descricao": "FFT, spectrogram (STFT), wavelets (CWT/DWT), envelopamento (Hilbert), order tracking para maquinas rotativas. Randall (2011) e referencia em condition monitoring baseado em sinais. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Processamento de sinais (scipy.signal) para vibração/acustica",
+              "descricao": "FFT, spectrogram (STFT), wavelets (CWT/DWT), envelopamento (Hilbert), order tracking para máquinas rotativas. Randall (2011) e referência em condition monitoring baseado em sinais. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "x_hat = argmin ||y - f(x;theta)||^2  s.t.  g(x) <= 0",
@@ -3484,24 +3484,24 @@
           ]
         },
         {
-          "titulo": "R Estatistico para Controle de Qualidade e DOE",
-          "definicao": "Linguagem e ambiente especializado em computacao estatistica e graficos, com pacotes canonicos para Controle Estatistico de Processo (qcc, IQCC), Design of Experiments (DoE.base, FrF2, rsm), Analise de Capabilidade (SixSigma) e confiabilidade (survival, WeibullR), sendo padrao em academia e industrias farmaceutica/automotiva.",
+          "titulo": "R Estatístico para Controle de Qualidade e DOE",
+          "definicao": "Linguagem e ambiente especializado em computação estatística e gráficos, com pacotes canonicos para Controle Estatístico de Processo (qcc, IQCC), Design of Experiments (DoE.base, FrF2, rsm), Análise de Capabilidade (SixSigma) e confiabilidade (survival, WeibullR), sendo padrão em academia e industrias farmaceutica/automotiva.",
           "topicos": [
             {
               "nome": "qcc para cartas de controle Shewhart e EWMA/CUSUM",
-              "descricao": "Graficos Xbar-R, Xbar-S, p, np, c, u, EWMA, CUSUM com limites de controle adaptativos (Western Electric, Nelson). Scrucca (2004) implementa regras de deteccao de padroes (run tests) automatizadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Gráficos Xbar-R, Xbar-S, p, np, c, u, EWMA, CUSUM com limites de controle adaptativos (Western Electric, Nelson). Scrucca (2004) implementa regras de detecção de padroes (run tests) automatizadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "FrF2 e rsm para Planejamento de Experimentos (DoE)",
-              "descricao": "Fatoriais 2^k, fracoes 2^(k-p), designs de resposta (Central Composite, Box-Behnken), otimização de superficie de resposta (steepest ascent, stationary point). Box, Hunter e Hunter (2005) e a referencia canonica. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Fatoriais 2^k, fracoes 2^(k-p), designs de resposta (Central Composite, Box-Behnken), otimização de superfície de resposta (steepest ascent, stationary point). Box, Hunter e Hunter (2005) e a referência canonica. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "SixSigma para capabilidade Cp/Cpk e DPMO",
-              "descricao": "Calculo de indices uni/bilateral, intervalos de confianca (bootstrap), curvas OC, DPMO short/long term (shift 1.5 sigma). Parametros não-normais via transformacao Box-Cox ou Johnson. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Cálculo de índices uni/bilateral, intervalos de confiança (bootstrap), curvas OC, DPMO short/long term (shift 1.5 sigma). Parametros não-normais via transformação Box-Cox ou Johnson. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "WeibullR e survival para analise de vida/falha",
-              "descricao": "Ajuste de Weibull (2/3 parametros) via MLE, intervalos de confianca perfil verossimilhanca, probabilidade de falha B10/B50, censuras a direita/intervalares. Abernethy (2006) e referencia em Weibull analysis. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "WeibullR e survival para análise de vida/falha",
+              "descricao": "Ajuste de Weibull (2/3 parametros) via MLE, intervalos de confiança perfil verossimilhança, probabilidade de falha B10/B50, censuras a direita/intervalares. Abernethy (2006) e referência em Weibull analysis. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "Cp = (USL - LSL) / 6*sigma_hat;  Cpk = min[(USL-mu)/3*sigma_hat, (mu-LSL)/3*sigma_hat]",
@@ -3527,23 +3527,23 @@
         },
         {
           "titulo": "SQL para Consultas Industriais e Data Warehousing",
-          "definicao": "Linguagem padrao para definicao, manipulação e controle de dados relacionais, essencial para extracao de dados de ERP (SAP, Totvs, Oracle), MES, historiadores (PI System, Wonderware) e data warehouses (Snowflake, BigQuery, Redshift, PostgreSQL), com foco em performance analitica (columnar, partitioning, materialized views).",
+          "definicao": "Linguagem padrão para definição, manipulação e controle de dados relacionais, essencial para extração de dados de ERP (SAP, Totvs, Oracle), MES, historiadores (PI System, Wonderware) e data warehouses (Snowflake, BigQuery, Redshift, PostgreSQL), com foco em performance analítica (columnar, partitioning, materialized views).",
           "topicos": [
             {
-              "nome": "Janela analitica (OVER PARTITION BY) para KPIs industriais",
-              "descricao": "Running totals, moving averages, rank/dense_rank para top-N perdas por linha, LAG/LEAD para calculo de tempo entre paradas consecutivas, NTILE para queueis de performance. ANSI SQL:2003, suportado por todos os principais engines. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Janela analítica (OVER PARTITION BY) para KPIs industriais",
+              "descricao": "Running totals, moving averages, rank/dense_rank para top-N perdas por linha, LAG/LEAD para cálculo de tempo entre paradas consecutivas, NTILE para queueis de performance. ANSI SQL:2003, suportado por todos os principais engines. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "CTE recursiva para hierarquia de ativos (BOM/Asset Tree)",
-              "descricao": "WITH RECURSIVE monta arvore Pai-Filho (Equipamento -> Componente -> Peca) para roll-up de custos de manutenção, criticidade (RAM) e rastreabilidade de recall. PostgreSQL, SQL Server, Oracle, Snowflake suportam. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "WITH RECURSIVE monta árvore Pai-Filho (Equipamento -> Componente -> Peca) para roll-up de custos de manutenção, criticidade (RAM) e rastreabilidade de recall. PostgreSQL, SQL Server, Oracle, Snowflake suportam. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Time-series extensions (TimescaleDB, InfluxQL, Flux)",
-              "descricao": "Hypertables (chunking automatico por tempo), compressao nativa (delta-delta, gorilla), continuous aggregates (materialized views incrementais), downsampling/retention policies. TimescaleDB (2023) atinge 10x compressao vs. PostgreSQL bruto. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Time-séries extensions (TimescaleDB, InfluxQL, Flux)",
+              "descricao": "Hypertables (chunking automatico por tempo), compressão nativa (delta-delta, gorilla), continuous aggregates (materialized views incrementais), downsampling/retention policies. TimescaleDB (2023) atinge 10x compressão vs. PostgreSQL bruto. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Otimizacao: indices, particionamento, columnstore",
-              "descricao": "Indices B-tree compostos (tag_id, timestamp), BRIN para series temporais imutaveis, columnstore clustered (SQL Server, PostgreSQL 12+) para scans analiticos. Partitioning por mes/ano elimina partition pruning. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Otimização: índices, particionamento, columnstore",
+              "descricao": "Índices B-tree compostos (tag_id, timestamp), BRIN para séries temporais imutaveis, columnstore clustered (SQL Server, PostgreSQL 12+) para scans analiticos. Partitioning por mês/ano elimina partition pruning. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "SELECT tag_id, time_bucket(1 hour, ts) AS bucket, AVG(val) FROM tags_data WHERE ts >= NOW() - INTERVAL 30 DAY GROUP BY tag_id, bucket",
@@ -3558,30 +3558,30 @@
               "ref": "CELKO, Joe. Joe Celko's SQL for Smarties: Advanced SQL Programming. 5. ed. Waltham: Morgan Kaufmann, 2014."
             },
             {
-              "tipo": "Documentacao",
+              "tipo": "Documentação",
               "ref": "TIMESCALE. TimescaleDB 2.11 Documentation: Hypertables, Continuous Aggregates, Compression. 2023."
             }
           ]
         },
         {
-          "titulo": "Machine Learning Aplicado a Manutencao Preditiva e Qualidade",
-          "definicao": "Aplicacao de aprendizado supervisionado (classificação de falha, regressao de RUL), não supervisionado (deteccao de anomalias, clustering de regimes operacionais) e reforco (otimização de setpoints) em dados industriais, com validação temporal rigorosa (time-series split, purged K-fold) e explicabilidade (SHAP, LIME).",
+          "titulo": "Machine Learning Aplicado a Manutenção Preditiva e Qualidade",
+          "definicao": "Aplicação de aprendizado supervisionado (classificação de falha, regressão de RUL), não supervisionado (detecção de anomalias, clustering de regimes operacionais) e reforco (otimização de setpoints) em dados industriais, com validação temporal rigorosa (time-séries split, purged K-fold) e explicabilidade (SHAP, LIME).",
           "topicos": [
             {
               "nome": "Classificacao de modo de falha (multi-classe, desbalanceado)",
-              "descricao": "Random Forest, XGBoost/LightGBM, TabNet com tecnicas de balanceamento (SMOTE, class_weight, focal loss). Metricas: F1-macro, PR-AUC, matriz de confusao normalizada. Kuhn e Johnson (2020) detalham pipeline robusto. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Random Forest, XGBoost/LightGBM, TabNet com técnicas de balanceamento (SMOTE, class_weight, focal loss). Metricas: F1-macro, PR-AUC, matriz de confusão normalizada. Kuhn e Johnson (2020) detalham pipeline robusto. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Regressao de RUL (Remaining Useful Life)",
-              "descricao": "Modelos sequencia-a-valor (LSTM/GRU, Temporal Convolutional Networks, Transformer) treinados em run-to-failure (NASA C-MAPSS, PHM08). Metricas: RMSE, Score NASA (assimetrica penalizando predicao tardia). Lei et al. (2018) revisam arquiteturas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Regressão de RUL (Remaining Useful Life)",
+              "descricao": "Modelos sequência-a-valor (LSTM/GRU, Temporal Convolutional Networks, Transformer) treinados em run-to-failure (NASA C-MAPSS, PHM08). Metricas: RMSE, Score NASA (assimetrica penalizando predicao tardia). Lei et al. (2018) revisam arquiteturas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Deteccao de anomalias não supervisionada",
-              "descricao": "Isolation Forest, Autoencoder (LSTM-AE, VAE), One-Class SVM, PCA/T^2-Q estatístico (Hotelling) em espaco latente. Threshold via quantil 99.5% em dados normais. Chandola et al. (2009) e survey classico. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Detecção de anomalias não supervisionada",
+              "descricao": "Isolation Forest, Autoencoder (LSTM-AE, VAE), One-Class SVM, PCA/T^2-Q estatístico (Hotelling) em espaço latente. Threshold via quantil 99.5% em dados normais. Chandola et al. (2009) e survey clássico. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "MLOps para modelos industriais (MLflow, Kubeflow, DVC)",
-              "descricao": "Versionamento de dados (DVC), experiment tracking (MLflow), pipeline CI/CD (GitLab/GitHub Actions -> Docker -> K8s/Kubeflow), monitoramento de data drift (KS-test, PSI) e concept drift (ADWIN, DDM). Kreuzberger et al. (2023) mapeiam praticas MLOps. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Versionamento de dados (DVC), experiment tracking (MLflow), pipeline CI/CD (GitLab/GitHub Actions -> Docker -> K8s/Kubeflow), monitoramento de data drift (KS-test, PSI) e concept drift (ADWIN, DDM). Kreuzberger et al. (2023) mapeiam práticas MLOps. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "y_hat = sigma(W_h*h_t + b_h);  L = Sum w_i*BCE(y_i, y_hat_i)  (focal loss: w_i = alpha*(1-y_hat_i)^gamma)",
@@ -3606,27 +3606,27 @@
           ]
         },
         {
-          "titulo": "Dashboards e KPIs Industriais: Design e Governanca",
-          "definicao": "Disciplina que une visualização de dados (Cleveland, Few, Tufte), teoria da percepcao (preattentive attributes, Gestalt) e gestao de indicadores (KPI trees, OKR cascata) para criar paineis que suportam decisao em tempo real (shop floor) e tatica (gerencia), com governanca de definicao, propriedade e refresh.",
+          "titulo": "Dashboards e KPIs Industriais: Design e Governança",
+          "definicao": "Disciplina que une visualização de dados (Cleveland, Few, Tufte), teoria da percepção (preattentive attributes, Gestalt) e gestão de indicadores (KPI trees, OKR cascata) para criar paineis que suportam decisão em tempo real (shop floor) e tatica (gerência), com governança de definição, propriedade e refresh.",
           "topicos": [
             {
-              "nome": "Tipologia de dashboards: Operacional / Tatico / Estrategico",
-              "descricao": "Operacional (refresh <= 1 min, alarms, Andon digital, OEE tempo real); Tatico (refresh 15-60 min, tendencias, Pareto de perdas, S&OP); Estrategico (refresh diario, KPIs corporativos, Balanced Scorecard). Few (2013) define principios de densidade de informação. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Tipologia de dashboards: Operacional / Tático / Estratégico",
+              "descricao": "Operacional (refresh <= 1 min, alarms, Andon digital, OEE tempo real); Tático (refresh 15-60 min, tendencias, Pareto de perdas, S&OP); Estratégico (refresh diário, KPIs corporativos, Balanced Scorecard). Few (2013) define principios de densidade de informação. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Arvore de KPIs (KPI Tree) e decomposicao DuPont",
-              "descricao": "Decomposicao de ROIC/ROA em margem x giro x alavancagem; OEE em Disponibilidade x Performance x Qualidade; Custo de conversao em MP + MO + CIF. Propriedade unica (owner) por folha da arvore. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Árvore de KPIs (KPI Tree) e decomposição DuPont",
+              "descricao": "Decomposição de ROIC/ROA em margem x giro x alavancagem; OEE em Disponibilidade x Performance x Qualidade; Custo de conversão em MP + MO + CIF. Propriedade unica (owner) por folha da árvore. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Preattentive attributes e design acessivel",
-              "descricao": "Uso de posicao, comprimento, inclinacao, area, intensidade, cor (hue/saturation) para codificar magnitude, variancia, status. Few (2009): evitar 3D, gauges, cores saturadas em area grande; paleta colorblind-safe (viridis, ColorBrewer). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Preattentive attributes e design acessível",
+              "descricao": "Uso de posição, comprimento, inclinação, área, intensidade, cor (hue/saturation) para codificar magnitude, variância, status. Few (2009): evitar 3D, gauges, cores saturadas em área grande; paleta colorblind-safe (viridis, ColorBrewer). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Governanca: Data Dictionary, SLA de refresh, certificação",
-              "descricao": "Catalogo de metricas (definicao, formula, fonte, frequencia, owner, tolerancia), SLA de disponibilidade (99.5%), processo de change request para alteracao de KPI, certificado \"Gold\" para dashboards auditados. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Governança: Data Dictionary, SLA de refresh, certificação",
+              "descricao": "Catálogo de metricas (definição, fórmula, fonte, frequência, owner, tolerância), SLA de disponibilidade (99.5%), processo de change request para alteração de KPI, certificado \"Gold\" para dashboards auditados. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
-          "formula": "OEE = (Tempo Operacional Liquido / Tempo Planejado) x (Producao Real / Producao Teorica) x (Unidades Boas / Total Produzido)",
+          "formula": "OEE = (Tempo Operacional Líquido / Tempo Planejado) x (Produção Real / Produção Teórica) x (Unidades Boas / Total Produzido)",
           "aplicacoes": [
             "Andon digital em 40 celulas de usinagem (refresh 10 s, WebSocket + Grafana)",
             "KPI Tree corporativo desdobrado em 120 metricas com owners e SLAs",
@@ -3644,12 +3644,12 @@
           ]
         },
         {
-          "titulo": "ETL e Integracao de Dados OT/IT",
-          "definicao": "Engenharia de pipelines que extraem dados de sistemas de automação (CLP, SCADA, historiador, MES, balancas, espectrometros), transformam (limpeza, contextualizacao ISA-95, enriquecimento com dados mestres) e carregam em Data Lakehouse (Delta Lake, Iceberg, Hudi) ou DW, com orquestracao (Airflow, Dagster, Prefect) e observabilidade (Great Expectations, Monte Carlo).",
+          "titulo": "ETL e Integração de Dados OT/IT",
+          "definicao": "Engenharia de pipelines que extraem dados de sistemas de automação (CLP, SCADA, historiador, MES, balancas, espectrometros), transformam (limpeza, contextualização ISA-95, enriquecimento com dados mestres) e carregam em Data Lakehouse (Delta Lake, Iceberg, Hudi) ou DW, com orquestração (Airflow, Dagster, Prefect) e observabilidade (Great Expectations, Monte Carlo).",
           "topicos": [
             {
-              "nome": "Arquitetura Medalhao (Bronze -> Silver -> Gold)",
-              "descricao": "Bronze: raw immutable (landing zone, parquet/ORC, schema-on-read); Silver: limpeza, tipagem, deduplicacao, conformed dimensions (ISA-95 Equipment, Material, Personnel); Gold: star schema, agregacoes pre-calculadas, feature store. Databricks (2022) padronizou o termo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Arquitetura Medalhão (Bronze -> Silver -> Gold)",
+              "descricao": "Bronze: raw immutable (landing zone, parquet/ORC, schema-on-read); Silver: limpeza, tipagem, deduplicação, conformed dimensions (ISA-95 Equipment, Material, Personnel); Gold: star schema, agregacoes pre-calculadas, feature store. Databricks (2022) padronizou o termo. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Conectividade industrial: OPC-UA, MQTT, Kafka Connect",
@@ -3676,7 +3676,7 @@
               "ref": "KIMBALL, Ralph; ROSS, Margy. The Data Warehouse Toolkit. 3. ed. Indianapolis: Wiley, 2013."
             },
             {
-              "tipo": "Documentacao",
+              "tipo": "Documentação",
               "ref": "DATABRICKS. The Lakehouse Architecture: A New Paradigm for Data Platforms. White Paper, 2022."
             },
             {
@@ -3687,23 +3687,23 @@
         },
         {
           "titulo": "Big Data Industrial: Arquiteturas Lambda/Kappa e Processamento Distribuido",
-          "definicao": "Tratamento de volume (TB-PB/dia), velocidade (kHz-MHz por tag) e variedade (estruturado, semi-estruturado, não-estruturado: logs, imagens, vibracao, video) de dados industriais via arquiteturas Lambda (batch + speed layer) ou Kappa (unified log), com motores distribuidos (Spark, Flink, Ray) e armazenamento objeto (S3/MinIO, ADLS Gen2).",
+          "definicao": "Tratamento de volume (TB-PB/dia), velocidade (kHz-MHz por tag) e variedade (estruturado, semi-estruturado, não-estruturado: logs, imagens, vibração, video) de dados industriais via arquiteturas Lambda (batch + speed layer) ou Kappa (unified log), com motores distribuidos (Spark, Flink, Ray) e armazenamento objeto (S3/MinIO, ADLS Gen2).",
           "topicos": [
             {
               "nome": "Lambda vs. Kappa Architecture",
-              "descricao": "Lambda: batch (Spark) corrige speed (Flink/Storm) -- complexidade operacional dupla. Kappa: single log (Kafka/Pulsar) reprocessado -- simplicidade, exige idempotencia e exactly-once. Kreps (2014) propôs Kappa; Marz e Warren (2015) detalham Lambda. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Lambda: batch (Spark) corrige speed (Flink/Storm) -- complexidade operacional dupla. Kappa: single log (Kafka/Pulsar) reprocessado -- simplicidade, exige idempotência e exactly-once. Kreps (2014) propôs Kappa; Marz e Warren (2015) detalham Lambda. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Apache Spark Structured Streaming para ETL continuo",
+              "nome": "Apache Spark Structured Streaming para ETL contínuo",
               "descricao": "Watermarking (late data handling), stateful aggregations (mapGroupsWithState), join com dimensoes broadcast, sink Delta Lake (ACID, time travel, schema enforcement). Armbrust et al. (2018) unificam batch/streaming API. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Apache Flink para processamento de eventos complexos (CEP)",
-              "descricao": "Padroes temporais (Pattern API: begin -> next -> within), janelas de sessao, process-time vs. event-time, checkpoints distribuidos (Chandy-Lamport). Carbone et al. (2015) demonstram exactly-once end-to-end. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Padroes temporais (Pattern API: begin -> next -> within), janelas de sessão, process-time vs. event-time, checkpoints distribuidos (Chandy-Lamport). Carbone et al. (2015) demonstram exactly-once end-to-end. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Formatos columnar e table formats (Parquet, ORC, Delta, Iceberg, Hudi)",
-              "descricao": "Parquet/ORC: compressao (Snappy, Zstd), predicate pushdown, schema evolution. Delta/Iceberg/Hudi: transacoes ACID, time travel, partition evolution, merge/upsert (SCD Type 2). O'Neil et al. (1996) fundamentam LSM-trees subjacentes. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Parquet/ORC: compressão (Snappy, Zstd), predicate pushdown, schema evolution. Delta/Iceberg/Hudi: transacoes ACID, time travel, partition evolution, merge/upsert (SCD Type 2). O'Neil et al. (1996) fundamentam LSM-trees subjacentes. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "",
@@ -3729,23 +3729,23 @@
         },
         {
           "titulo": "Data Mining e Descoberta de Padroes em Dados de Processo",
-          "definicao": "Aplicacao de tecnicas de mineracao de dados (association rules, sequential patterns, clustering, outlier detection) em bases historicas de produção, qualidade e manutenção para descobrir relacoes não obvias (ex.: combinação de 3 parametros que precede refugo, sequencias de alarmes que antecedem parada).",
+          "definicao": "Aplicação de técnicas de mineração de dados (association rules, sequential patterns, clustering, outlier detection) em bases históricas de produção, qualidade e manutenção para descobrir relações não obvias (ex.: combinação de 3 parametros que precede refugo, sequencias de alarmes que antecedem parada).",
           "topicos": [
             {
-              "nome": "Regras de associacao (Apriori, FP-Growth) para analise de refugo",
-              "descricao": "Itemsets frequentes (suporte >= 1%), regras com confianca >= 80%, lift > 1.2. Ex.: {temp_forno in [820,840] & tempo_resf in [18,22] & liga = AISI_4140} -> {dureza_fora_espec} (sup=1.4%, conf=87%, lift=3.1). Agrawal et al. (1993) propuseram Apriori; Han et al. (2000) FP-Growth. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Regras de associação (Apriori, FP-Growth) para análise de refugo",
+              "descricao": "Itemsets frequentes (suporte >= 1%), regras com confiança >= 80%, lift > 1.2. Ex.: {temp_forno in [820,840] & tempo_resf in [18,22] & liga = AISI_4140} -> {dureza_fora_espec} (sup=1.4%, conf=87%, lift=3.1). Agrawal et al. (1993) propuseram Apriori; Han et al. (2000) FP-Growth. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Padroes sequenciais (PrefixSpan, SPADE) para alarmes e eventos",
-              "descricao": "Sequencias frequentes de codigos de alarme precedendo parada não programada (gap <= 30 min). Zaki (2001) SPADE usa id-lists verticais para escalabilidade. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Sequencias frequentes de códigos de alarme precedendo parada não programada (gap <= 30 min). Zaki (2001) SPADE usa id-lists verticais para escalabilidade. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Clustering de regimes operacionais (k-means, Gaussian Mixture, DBSCAN, HDBSCAN)",
-              "descricao": "Identificação automatica de modos de operacao (startup, steady-state, grade transition, shutdown) via features estatísticas de janelas (media, dp, assimetria, kurtosis, spectral entropy). Jain (2010) revisa clustering. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Identificação automática de modos de operação (startup, steady-state, grade transition, shutdown) via features estatísticas de janelas (média, dp, assimetria, kurtosis, spectral entropy). Jain (2010) revisa clustering. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Analise de outliers multivariados (Mahalanobis, Isolation Forest, LOF)",
-              "descricao": "Deteccao de lotes/turnos atipicos no espaco de 50+ variaveis de processo. Mahalanobis distance com covariancia robusta (Minimum Covariance Determinant) para dados gaussianos; Isolation Forest para não-lineares. Rousseeuw e Van Driessen (1999) MCD. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Análise de outliers multivariados (Mahalanobis, Isolation Forest, LOF)",
+              "descricao": "Detecção de lotes/turnos atipicos no espaço de 50+ variáveis de processo. Mahalanobis distance com covariancia robusta (Minimum Covariance Determinant) para dados gaussianos; Isolation Forest para não-lineares. Rousseeuw e Van Driessen (1999) MCD. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "Lift(X->Y) = P(X U Y) / (P(X).P(Y))  ;  Conf(X->Y) = P(X U Y) / P(X)",
@@ -3770,24 +3770,24 @@
           ]
         },
         {
-          "titulo": "VBA para Automacao Avancada em Ambiente Industrial",
-          "definicao": "Desenvolvimento profissional em Visual Basic for Applications (VBA) com praticas de engenharia de software (versionamento Git, testes unitarios Rubberduck, CI/CD, documentação, error handling estruturado, classes, interfaces, injeccao de dependencia) para automação de rotinas criticas: geracao de relatorios regulatorios, interface com SAP/MES, programacao de CLPs via OPC, calculos de custeio complexos.",
+          "titulo": "VBA para Automação Avancada em Ambiente Industrial",
+          "definicao": "Desenvolvimento profissional em Visual Basic for Applications (VBA) com práticas de engenharia de software (versionamento Git, testes unitarios Rubberduck, CI/CD, documentação, error handling estruturado, classes, interfaces, injeção de dependência) para automação de rotinas criticas: geração de relatorios regulatorios, interface com SAP/MES, programação de CLPs via OPC, calculos de custeio complexos.",
           "topicos": [
             {
               "nome": "Arquitetura MVC em VBA (Model-View-Controller)",
-              "descricao": "Separacao de responsabilidades: Model (classes de dominio: OrdemProducao, Equipamento, Apontamento), View (UserForms, RibbonX, Worksheets como dashboards), Controller (orquestracao, validação, transacoes). Walkenbach (2018) e Rubberduck VBA (2023) defendem este padrao. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Separação de responsabilidades: Model (classes de domínio: OrdemProducao, Equipamento, Apontamento), View (UserForms, RibbonX, Worksheets como dashboards), Controller (orquestração, validação, transacoes). Walkenbach (2018) e Rubberduck VBA (2023) defendem este padrão. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "ADO/DAO para acesso a bancos industriais",
-              "descricao": "Connection pooling via ADODB.Connection, Command com parametros (prevencao SQL Injection), Recordset client-side (adUseClient) para desconexão rapida, transacoes (BeginTrans/CommitTrans/Rollback) em operacoes criticas (ex.: baixa de ordem + atualizacao estoque). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Connection pooling via ADODB.Connection, Command com parametros (prevenção SQL Injection), Recordset client-side (adUseClient) para desconexão rapida, transacoes (BeginTrans/CommitTrans/Rollback) em operações criticas (ex.: baixa de ordem + atualização estoque). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Integracao SAP GUI Scripting e RFC (BAPI)",
-              "descricao": "Automacao de transacoes (ME21N, CO11N, IW32) via Scripting Engine; chamadas RFC diretas (BAPI_PRODORD_CREATE, BAPI_GOODSMVT_CREATE) via SAP .NET Connector (NCo) chamado por COM Interop do VBA. Requer autorizacao S_RFC. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Integração SAP GUI Scripting e RFC (BAPI)",
+              "descricao": "Automação de transacoes (ME21N, CO11N, IW32) via Scripting Engine; chamadas RFC diretas (BAPI_PRODORD_CREATE, BAPI_GOODSMVT_CREATE) via SAP .NET Connector (NCo) chamado por COM Interop do VBA. Requer autorização S_RFC. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Testes unitarios e CI/CD com Rubberduck e GitHub Actions",
-              "descricao": "Rubberduck (parser COM-based) executa testes unitarios (Assert), analise estatica (code inspections), refatoracao segura (Rename, Extract Method). Pipeline: push -> Rubberduck tests -> build .xlsm assinado -> deploy via PowerShell/SharePoint. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Rubberduck (parser COM-based) executa testes unitarios (Assert), análise estatica (code inspections), refatoracao segura (Rename, Extract Method). Pipeline: push -> Rubberduck tests -> build .xlsm assinado -> deploy via PowerShell/SharePoint. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "",
@@ -3802,30 +3802,30 @@
               "ref": "WALKENBACH, John. Microsoft Excel 2019 Power Programming with VBA. Indianapolis: Wiley, 2018."
             },
             {
-              "tipo": "Documentacao",
+              "tipo": "Documentação",
               "ref": "RUBBERDUCK VBA. Rubberduck 2.5 Documentation: Unit Testing, Code Inspections, Refactorings. 2023."
             }
           ]
         },
         {
-          "titulo": "DAX e Linguagem M (Power Query) para Modelagem Analitica Industrial",
-          "definicao": "Linguagens funcionais (M) e de expressoes analiticas (DAX) do ecossistema Microsoft Power BI / Analysis Services / Excel Power Pivot, essenciais para modelagem semantica de dados industriais: inteligência temporal, hierarquias desbalanceadas (Asset Tree), medidas semi-aditivas (estoque), seguranca em nivel de linha (RLS) e performance (vertipaq optimizer).",
+          "titulo": "DAX e Linguagem M (Power Query) para Modelagem Analítica Industrial",
+          "definicao": "Linguagens funcionais (M) e de expressoes analíticas (DAX) do ecossistema Microsoft Power BI / Analysis Services / Excel Power Pivot, essenciais para modelagem semantica de dados industriais: inteligência temporal, hierarquias desbalanceadas (Asset Tree), medidas semi-aditivas (estoque), segurança em nível de linha (RLS) e performance (vertipaq optimizer).",
           "topicos": [
             {
-              "nome": "Inteligencia temporal avancada (DATESMTD, PARALLELPERIOD, SAMEPERIODLASTYEAR)",
-              "descricao": "Calculos de YTD, QTD, MTD, rolling 12M, YoY%, variacao vs. meta, com tratamento de calendario fiscal (inicio jul/abr) e dias uteis (NETWORKDAYS via DAX ou coluna calculada no M). Russo e Ferrari (2020) dedicam 3 capitulos. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Inteligência temporal avancada (DATESMTD, PARALLELPERIOD, SAMEPERIODLASTYEAR)",
+              "descricao": "Calculos de YTD, QTD, MTD, rolling 12M, YoY%, variação vs. meta, com tratamento de calendário fiscal (início jul/abr) e dias uteis (NETWORKDAYS via DAX ou coluna calculada no M). Russo e Ferrari (2020) dedicam 3 capitulos. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Hierarquias desbalanceadas e Parent-Child (PATH, PATHCONTAINS)",
-              "descricao": "Asset hierarchy (Planta -> Area -> Linha -> Celula -> Equipamento -> Componente) com profundidade variavel; medidas que agregam no nivel correto (ISINSCOPE, ISFILTERED). DAX Patterns (2020) detalha padrao \"Parent-Child Hierarchies\". (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Asset hierarchy (Planta -> Área -> Linha -> Célula -> Equipamento -> Componente) com profundidade variável; medidas que agregam no nível correto (ISINSCOPE, ISFILTERED). DAX Patterns (2020) detalha padrão \"Parent-Child Hierarchies\". (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Medidas semi-aditivas (estoque, WIP, backlog)",
-              "descricao": "Estoque não soma no tempo -- usa LASTNONBLANK / LASTDATE no contexto de tempo; soma nas dimensoes não-temporais (produto, armazem). Padrao \"Snapshot Fact Table\" (Kimball) implementado em DAX. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Estoque não soma no tempo -- usa LASTNONBLANK / LASTDATE no contexto de tempo; soma nas dimensoes não-temporais (produto, armazém). Padrão \"Snapshot Fact Table\" (Kimball) implementado em DAX. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Otimizacao VertiPaq: cardinalidade, encoding, materializacao",
-              "descricao": "Reduzir cardinalidade de colunas (bucketing, hash), preferir VALUE encoding (dictionary) vs. HASH, evitar colunas calculated desnecessarias, usar DAX Studio (DMV $SYSTEM.DISCOVER_STORAGE_TABLES) para medir compressao. Marco Russo (2021) \"VertiPaq Internals\". (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Otimização VertiPaq: cardinalidade, encoding, materialização",
+              "descricao": "Reduzir cardinalidade de colunas (bucketing, hash), preferir VALUE encoding (dictionary) vs. HASH, evitar colunas calculated desnecessarias, usar DAX Studio (DMV $SYSTEM.DISCOVER_STORAGE_TABLES) para medir compressão. Marco Russo (2021) \"VertiPaq Internals\". (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "CALCULATE([Medida], FILTER(ALL(Data[Data]), Data[Data] <= MAX(Data[Data]) && Data[Data] >= MAX(Data[Data]) - 365))",
@@ -3847,23 +3847,23 @@
         },
         {
           "titulo": "Web Scraping e APIs para Coleta de Dados Externos de Mercado",
-          "definicao": "Tecnicas eticas e legais de extracao de dados publicos (precos de commodities LME/Comex, cotacoes de frete Baltic Index, noticias setoriais, patentes INPI/USPTO, normas ABNT/ISO) via HTTP requests (requests, httpx), parsing (BeautifulSoup, lxml, selectolax), automação de navegador (Playwright, Selenium) para sites JS-heavy, e consumo de APIs REST/GraphQL (Alpha Vantage, Quandl, IBGE, BNDES).",
+          "definicao": "Técnicas eticas e legais de extração de dados públicos (preços de commodities LME/Comex, cotacoes de frete Baltic Index, notícias setoriais, patentes INPI/USPTO, normas ABNT/ISO) via HTTP requests (requests, httpx), parsing (BeautifulSoup, lxml, selectolax), automação de navegador (Playwright, Selenium) para sites JS-heavy, e consumo de APIs REST/GraphQL (Alpha Vantage, Quandl, IBGE, BNDES).",
           "topicos": [
             {
-              "nome": "Boas praticas: robots.txt, rate limiting, user-agent, cache",
-              "descricao": "Respeitar robots.txt (Crawl-delay), throttle (1-2 req/s), headers realistas, cache condicional (ETag, Last-Modified, If-None-Match), backoff exponencial em 429/5xx. Mitchell (2018) capitulo 3. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Boas práticas: robots.txt, rate limiting, user-agent, cache",
+              "descricao": "Respeitar robots.txt (Crawl-delay), throttle (1-2 req/s), headers realistas, cache condicional (ETag, Last-Modified, If-None-Match), backoff exponencial em 429/5xx. Mitchell (2018) capítulo 3. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Playwright para sites dinamicos (Shadow DOM, lazy-load, infinite scroll)",
-              "descricao": "Auto-waiting, network interception, stealth mode (--disable-blink-features=AutomationControlled), execucao headless em CI/CD. Microsoft (2023) Playwright supera Selenium em velocidade e confiabilidade. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Playwright para sites dinâmicos (Shadow DOM, lazy-load, infinite scroll)",
+              "descricao": "Auto-waiting, network interception, stealth mode (--disable-blink-features=AutomationControlled), execução headless em CI/CD. Microsoft (2023) Playwright supera Selenium em velocidade e confiabilidade. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "APIs estruturadas: IBGE SIDRA, BNDES, Comex Stat, LME, Alpha Vantage",
-              "descricao": "Consumo via HTTP GET com parametros (codigos NCM, paises, periodicidade), autenticacao API Key/OAuth2, paginacao (cursor/offset), normalização JSON -> Parquet particionado por data. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Consumo via HTTP GET com parametros (códigos NCM, países, periodicidade), autenticação API Key/OAuth2, paginação (cursor/offset), normalização JSON -> Parquet particionado por data. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Aspectos legais: LGPD, Lei de Acesso a Informacao, Termos de Uso",
-              "descricao": "Dados publicos não pessoais -> livre uso (LAI 12.527/2011). Dados pessoais -> base legal (legitimo interesse, consentimento). Scraping de sites com ToS proibitivo -> risco civil. Pinheiro (2021) analisa jurisprudencia brasileira. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Aspectos legais: LGPD, Lei de Acesso a Informação, Termos de Uso",
+              "descricao": "Dados públicos não pessoais -> livre uso (LAI 12.527/2011). Dados pessoais -> base legal (legítimo interesse, consentimento). Scraping de sites com ToS proibitivo -> risco civil. Pinheiro (2021) analisa jurisprudência brasileira. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "",
@@ -3878,30 +3878,30 @@
               "ref": "MITCHELL, Ryan. Web Scraping with Python: Collecting More Data from the Modern Web. 2. ed. Sebastopol: OReilly, 2018."
             },
             {
-              "tipo": "Documentacao",
+              "tipo": "Documentação",
               "ref": "MICROSOFT. Playwright Documentation: Auto-waiting, Network Interception, Stealth. 2023."
             }
           ]
         },
         {
-          "titulo": "Analise Preditiva Avancada: Series Temporais e Forecasting",
-          "definicao": "Modelagem estatistica e de machine learning para previsao de variaveis industriais (demanda, yield, consumo energetico, falhas, lead time) com horizonte de curto (horas-dias), medio (semanas-meses) e longo prazo (anos), incorporando exogenas (calendario, preco commodities, manutenção programada), validação temporal rigorosa (rolling origin, walk-forward) e intervalos de predicao conformais.",
+          "titulo": "Análise Preditiva Avancada: Séries Temporais e Forecasting",
+          "definicao": "Modelagem estatística e de machine learning para previsão de variáveis industriais (demanda, yield, consumo energético, falhas, lead time) com horizonte de curto (horas-dias), médio (semanas-meses) e longo prazo (anos), incorporando exogenas (calendário, preço commodities, manutenção programada), validação temporal rigorosa (rolling origin, walk-forward) e intervalos de predicao conformais.",
           "topicos": [
             {
               "nome": "Modelos estatísticos classicos (ETS, ARIMA/SARIMA, TBATS, Prophet)",
-              "descricao": "ETS (Error-Trend-Seasonal) com damping; SARIMA (p,d,q)(P,D,Q)_s com auto.arima (Hyndman & Khandakar, 2008); TBATS para sazonalidades multiplas complexas; Prophet (Taylor & Letham, 2018) para feriados, changepoints, saturating growth. Hyndman & Athanasopoulos (2021) e referencia unica. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "ETS (Error-Trend-Seasonal) com damping; SARIMA (p,d,q)(P,D,Q)_s com auto.arima (Hyndman & Khandakar, 2008); TBATS para sazonalidades multiplas complexas; Prophet (Taylor & Letham, 2018) para feriados, changepoints, saturating growth. Hyndman & Athanasopoulos (2021) e referência unica. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "ML para forecasting (LightGBM, XGBoost, Tabular Transformers)",
-              "descricao": "Feature engineering: lags, rolling stats, Fourier terms, holiday flags, calendar encoding (cyclical sin/cos). Global models (um modelo para todas as series) com category encoding (target encoding, CatBoost native). M5 Competition (Makridakis et al., 2022) demonstrou superioridade de LightGBM global. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Feature engineering: lags, rolling stats, Fourier terms, holiday flags, calendar encoding (cyclical sin/cos). Global models (um modelo para todas as séries) com category encoding (target encoding, CatBoost native). M5 Competition (Makridakis et al., 2022) demonstrou superioridade de LightGBM global. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Deep Learning para series longas (N-BEATS, TFT, Informer, TimesNet)",
-              "descricao": "N-BEATS (basis expansion), Temporal Fusion Transformer (variaveis estaticas, conhecidas futuras, observadas passadas, attention interpretavel), Informer (ProbSparse attention O(L log L)). Lim et al. (2021) TFT e estado-da-arte em benchmarks M4/M5. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Deep Learning para séries longas (N-BEATS, TFT, Informer, TimesNet)",
+              "descricao": "N-BEATS (basis expansion), Temporal Fusion Transformer (variáveis estaticas, conhecidas futuras, observadas passadas, attention interpretável), Informer (ProbSparse attention O(L log L)). Lim et al. (2021) TFT e estado-da-arte em benchmarks M4/M5. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Intervalos de predicao conformais (Conformal Prediction)",
-              "descricao": "Split conformal (Vovk et al., 2005) garante cobertura marginal finita (ex.: 90%) sem assumir distribuicao dos residuos. Aplicado a residuos de modelo base (LightGBM/TFT) -> intervalos validos e eficientes. Romano et al. (2019) CQR (Conformalized Quantile Regression). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Split conformal (Vovk et al., 2005) garante cobertura marginal finita (ex.: 90%) sem assumir distribuição dos residuos. Aplicado a residuos de modelo base (LightGBM/TFT) -> intervalos validos e eficientes. Romano et al. (2019) CQR (Conformalized Quantile Regression). (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "y_hat_{t+h|t} = f(y_{1:t}, X_{1:t+h});  PI_{1-alpha} = [y_hat - q_{1-alpha/2}, y_hat + q_{1-alpha/2}]  (conformal)",
@@ -3917,7 +3917,7 @@
             },
             {
               "tipo": "Artigo",
-              "ref": "LIM, Bryan et al. Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting. International Journal of Forecasting, v. 37, n. 4, p. 1748-1764, 2021."
+              "ref": "LIM, Bryan et al. Temporal Fusion Transformers for Interpretable Multi-horizon Time Séries Forecasting. International Journal of Forecasting, v. 37, n. 4, p. 1748-1764, 2021."
             },
             {
               "tipo": "Artigo",
@@ -3926,24 +3926,24 @@
           ]
         },
         {
-          "titulo": "Visualizacao de Dados Industriais: Gramatica de Graficos e Storytelling",
-          "definicao": "Aplicacao sistematica da Grammar of Graphics (Wilkinson, 2005) implementada em ggplot2 (R), plotly/altair (Python), Observable Plot (JS) para criar visualizacoes exploratorias e explicativas de dados de processo: boxplots por turno, violin plots de yield por lote, heatmaps de correlacao 200x200, sankey de fluxo de material, parallel coordinates de parametros criticos, control charts interativos.",
+          "titulo": "Visualização de Dados Industriais: Gramatica de Gráficos e Storytelling",
+          "definicao": "Aplicação sistematica da Grammar of Graphics (Wilkinson, 2005) implementada em ggplot2 (R), plotly/altair (Python), Observable Plot (JS) para criar visualizacoes exploratorias e explicativas de dados de processo: boxplots por turno, violin plots de yield por lote, heatmaps de correlação 200x200, sankey de fluxo de material, parallel coordinates de parametros criticos, control charts interativos.",
           "topicos": [
             {
-              "nome": "Gramatica de Graficos: data, aes, geom, stat, scale, coord, facet, theme",
-              "descricao": "Declarativo: mapear variaveis -> esteticas (x, y, color, fill, shape, size, linetype, alpha), escolher geom (point, line, boxplot, violin, density, hexbin2d, tile, path), aplicar transformacoes estatísticas (identity, smooth, density, qq), escalas (continuous, discrete, date, viridis, brewer), coordenadas (cartesian, polar, map), facetas (wrap, grid), temas (minimal, bw, custom corporate). Wickham (2016) ggplot2 book. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Gramatica de Gráficos: data, aes, geom, stat, scale, coord, facet, theme",
+              "descricao": "Declarativo: mapear variáveis -> esteticas (x, y, color, fill, shape, size, linetype, alpha), escolher geom (point, line, boxplot, violin, density, hexbin2d, tile, path), aplicar transformações estatísticas (identity, smooth, density, qq), escalas (continuous, discrete, date, viridis, brewer), coordenadas (cartesian, polar, map), facetas (wrap, grid), temas (minimal, bw, custom corporate). Wickham (2016) ggplot2 book. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Visualizacoes especializadas para manufatura",
-              "descricao": "Control charts (ggQC), capability plots (SixSigma), yield trend por lote com anotacao de eventos (manutenção, troca de ferramenta), sankey de fluxo de valor (VSM), parallel coordinates para otimização multiobjetivo (NSGA-II pareto front), radar/spider para comparacao de fornecedores. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Control charts (ggQC), capability plots (SixSigma), yield trend por lote com anotacao de eventos (manutenção, troca de ferramenta), sankey de fluxo de valor (VSM), parallel coordinates para otimização multiobjetivo (NSGA-II pareto front), radar/spider para comparação de fornecedores. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Interatividade: plotly, ggiraph, altair, Observable Plot",
-              "descricao": "Tooltip rico (valores, imagens, links), zoom/pan, linked brushing (selecao em um grafico filtra outros), drill-down (click -> detail), exportacao PNG/SVG/HTML standalone. Plotly.js (WebGL) renderiza 100k+ pontos fluido. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Tooltip rico (valores, imagens, links), zoom/pan, linked brushing (seleção em um gráfico filtra outros), drill-down (click -> detail), exportação PNG/SVG/HTML standalone. Plotly.js (WebGL) renderiza 100k+ pontos fluido. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Storytelling com dados: estrutura narrativa (context -> conflict -> resolution)",
-              "descricao": "Cole Nussbaumer Knaflic (2015): eliminar ruido (chartjunk), focar atencao (preattentive), contar historia (titulo acao, anotacoes guiadas, sequencia logica). Dashboards não sao storytelling -- historias sao lineares, guiadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Cole Nussbaumer Knaflic (2015): eliminar ruído (chartjunk), focar atenção (preattentive), contar história (título ação, anotações guiadas, sequência logica). Dashboards não são storytelling -- historias são lineares, guiadas. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "",
@@ -3968,24 +3968,24 @@
           ]
         },
         {
-          "titulo": "Estatistica Computacional com Python (SciPy, Statsmodels, PyMC)",
-          "definicao": "Uso de bibliotecas cientificas Python para inferencia estatistica rigorosa em contexto industrial: testes de hipoteses (parametricos/não-parametricos), intervalos de confianca (bootstrap, perfil verossimilhanca), modelos lineares generalizados (GLM), modelos mistos (efeitos aleatorios para equipamentos/lotes), inferencia bayesiana (PyMC, ArviZ) para problemas com poucos dados ou conhecimento previo forte.",
+          "titulo": "Estatística Computacional com Python (SciPy, Statsmodels, PyMC)",
+          "definicao": "Uso de bibliotecas cientificas Python para inferência estatística rigorosa em contexto industrial: testes de hipoteses (parametricos/não-parametricos), intervalos de confiança (bootstrap, perfil verossimilhança), modelos lineares generalizados (GLM), modelos mistos (efeitos aleatorios para equipamentos/lotes), inferência bayesiana (PyMC, ArviZ) para problemas com poucos dados ou conhecimento prévio forte.",
           "topicos": [
             {
               "nome": "Testes de hipoteses e tamanho de efeito (Cohen d, Cliff delta, odds ratio)",
               "descricao": "t-test (Welch), Mann-Whitney U, ANOVA (type II/III), Kruskal-Wallis, Tukey HSD, Games-Howell. Reportar sempre IC 95% e efeito (d, eta^2, r). Lakens (2013) preconiza \"estimation over NHST\". (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Bootstrap e permutacao para IC não-parametricos",
-              "descricao": "Percentil, BCa (bias-corrected accelerated), studentized bootstrap para media, mediana, coeficiente de variacao, Cp/Cpk. Efron & Tibshirani (1993) fundamento; Davison & Hinkley (1997) extensoes. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Bootstrap e permutação para IC não-parametricos",
+              "descricao": "Percentil, BCa (bias-corrected accelerated), studentized bootstrap para média, mediana, coeficiente de variação, Cp/Cpk. Efron & Tibshirani (1993) fundamento; Davison & Hinkley (1997) extensoes. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Modelos lineares mistos (lme4 via rpy2 ou statsmodels MixedLM)",
-              "descricao": "Yield ~ Temperatura + Pressao + (1|Equipamento) + (1|Lote_Materia_Prima). Efeitos aleatorios capturam variabilidade entre equipamentos/lotes; REML para estimativa de variancia. Pinheiro & Bates (2000) referencia. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Yield ~ Temperatura + Pressão + (1|Equipamento) + (1|Lote_Matéria_Prima). Efeitos aleatorios capturam variabilidade entre equipamentos/lotes; REML para estimativa de variância. Pinheiro & Bates (2000) referência. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
-              "nome": "Inferencia bayesiana com PyMC (NUTS sampler) e ArviZ",
-              "descricao": "Prioris fracamente informativas (Normal(0,10), Half-Cauchy(5)), posterior predictive checks (PPC), R-hat < 1.01, ESS > 400. Modelo de degradacao: RUL ~ Weibull(alfa, beta) com alfa,beta hierarquicos por equipamento. Gelman et al. (2013) BDA3; Davidson-Pilon (2015) Bayesian Methods for Hackers. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "nome": "Inferência bayesiana com PyMC (NUTS sampler) e ArviZ",
+              "descricao": "Prioris fracamente informativas (Normal(0,10), Half-Cauchy(5)), posterior predictive checks (PPC), R-hat < 1.01, ESS > 400. Modelo de degradação: RUL ~ Weibull(alfa, beta) com alfa,beta hierarquicos por equipamento. Gelman et al. (2013) BDA3; Davidson-Pilon (2015) Bayesian Methods for Hackers. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             }
           ],
           "formula": "y_ij = beta_0 + beta_1*x_ij + u_j + e_ij;  u_j ~ N(0,sigma^2_u);  e_ij ~ N(0,sigma^2)",
@@ -4372,7 +4372,7 @@
         },
         {
           "titulo": "IHM  –  Interface Homem-Máquina",
-          "definicao": "Interface gréfica que permite a interação entre operadores e máquinas ou processos, exibindo dados em tempo real, alarmes, gréficos de tendência e comandos de controle. Pode ser implementada como painéis dedicados ou software em PC.",
+          "definicao": "Interface gréfica que permite a interação entre operadores e máquinas ou processos, exibindo dados em tempo real, alarmes, gráficos de tendência e comandos de controle. Pode ser implementada como painéis dedicados ou software em PC.",
           "topicos": [
             {
               "nome": "Painéis IHM touch screen",
@@ -4405,7 +4405,7 @@
         },
         {
           "titulo": "Controladores PID",
-          "definicao": "Algoritmo de controle realimentado que calcula o sinal de saída com base no erro entre o valor desejado (setpoint) e o valor medido, aplicando ações proporcional (P), integral (I) e derivativa (D). ë o método mais difundido para controle contínuo de processos.",
+          "definicao": "Algoritmo de controle realimentado que calcula o sinal de saída com base no erro entre o valor desejado (setpoint) e o valor medido, aplicando ações proporcional (P), integral (I) e derivativa (D). é o método mais difundido para controle contínuo de processos.",
           "topicos": [
             {
               "nome": "Ações P, PI, PID e suas características",
@@ -5224,7 +5224,7 @@
               "descricao": "Prevenção de acidentes e doenças ocupacionais. \"Indicadores de segurança (TAE, TTF)\" é um conceito ou ferramenta específica. NRs estabelecem requisitos de segurança. Referência: BRASIL. NR-1: Disposições Gerais. Brasília: MTP, 2020."
             }
           ],
-          "formula": "TAE = (N² de acidentes × 1.000.000) / Horas-homem trabalhadas",
+          "formula": "TAE = (Nº de acidentes × 1.000.000) / Horas-homem trabalhadas",
           "aplicacoes": [
             "Programas de segurança comportamental",
             "Análise de riscos em atividades críticas",
@@ -5366,7 +5366,7 @@
         },
         {
           "titulo": "PPRA e PCMSO",
-          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Prevenção de Riscos Ambientais, substituído pelo PGR) e PCMSO (Programa de Controle Médico de Saúde Ocupacional). O PGR identifica e gerencia riscos ocupacionais; o PCMSO monitora a saúde dos trabalhadores por exames periódicos.",
+          "definicao": "Programas regulamentados pelas NRs brasileiras: PPRA (Programa de Prevenção de Riscos Ambientais, substituído pelo PGR) e PCMSO (Programa de Controle Médico de Saúde Ocupacional). O PGR identifica e gerência riscos ocupacionais; o PCMSO monitora a saúde dos trabalhadores por exames periódicos.",
           "topicos": [
             {
               "nome": "PGR  –  Programa de Gerenciamento de Riscos",
@@ -5630,7 +5630,7 @@
         },
         {
           "titulo": "Análise de riscos (APR)",
-          "definicao": "Ferramenta de segurança que identifica, avalia e controla os riscos de cada etapa de uma atividade ou tarefa, antes de sua execução. ë realizada por meio de formulério padronizado e discutida com a equipe envolvida.",
+          "definicao": "Ferramenta de segurança que identifica, avalia e controla os riscos de cada etapa de uma atividade ou tarefa, antes de sua execução. é realizada por meio de formulário padronizado e discutida com a equipe envolvida.",
           "topicos": [
             {
               "nome": "Etapas da APR: identificação, avaliação, controle",
@@ -5921,7 +5921,7 @@
         },
         {
           "titulo": "Gestão de resíduos sólidos",
-          "definicao": "Conjunto de atividades de coleta, segregação, armazenamento, transporte, tratamento e disposição final de resíduos, seguindo a hierarquia: não geração, redução, reuso, reciclagem, tratamento e disposição final. Regida pela Política Nacional de Resíduos Sólidos (PNRS).",
+          "definicao": "Conjunto de atividades de coleta, segregação, armazenamento, transporte, tratamento e disposição final de resíduos, seguindo a hierarquia: não geração, redução, reúso, reciclagem, tratamento e disposição final. Regida pela Política Nacional de Resíduos Sólidos (PNRS).",
           "topicos": [
             {
               "nome": "Classificação de resíduos (perigosos e não perigosos  –  NBR 10004)",
@@ -5977,7 +5977,7 @@
               "descricao": "Total de emissões GEE (CO₂e) seguindo GHG Protocol (escopos 1, 2, 3). ABNT NBR ISO 14064 estabelece requisitos. Exemplo: 50.000 tCO₂e/ano. (Referência: ELKINGTON, J. Cannibals with Forks. Oxford: Capstone, 1997.)"
             }
           ],
-          "formula": "Pegada de Carbono (tCO₂e) = Σ× (Dado de Atividade × Fator de Emissão)",
+          "formula": "Pegada de Carbono (tCO₂e) = Σ (Dado de Atividade × Fator de Emissão)",
           "aplicacoes": [
             "Inventário corporativo de GEE",
             "Rotulagem de pegada de carbono em produtos",
@@ -6434,7 +6434,7 @@
       "descricao": "Nos fundamentos da engenharia de produção, \"Gestão de projetos\" (inserido em produção por projeto) representa um marco conceitual ou modelo de organização produtiva. A evolução histórica e os princípios associados orientam a compreensão dos sistemas de produção modernos. Slack, Chambers e Johnston (2009) descrevem o contexto e as implicações. Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.",
       "subtopicos": [
         {
-          "titulo": "Cronogramas e Gréfico de Gantt",
+          "titulo": "Cronogramas e Gráfico de Gantt",
           "definicao": "Ferramenta visual de planejamento que representa as atividades do projeto em barras horizontais dispostas ao longo de uma escala temporal. Permite visualizar durações, dependências, responséveis e o progresso de cada tarefa.",
           "topicos": [
             {
@@ -6447,7 +6447,7 @@
             },
             {
               "nome": "Dependências: término-início, início-início",
-              "descricao": "No gerenciamento de projetos, \"Dependências: término-início, início-início\" (inserido em cronogramas e gréfico de gantt) é uma técnica ou documento fundamental para planejamento, execução e controle. O PMBOK (PMI, 2021) descreve práticas para garantir entrega no prazo, custo e qualidade. PMI (2021) complementam a fundamentação teórica. Referência: PMI. Um Guia do Conhecimento em Gerenciamento de Projetos (PMBOK Guide). 7. ed. Newton Square: PMI, 2021."
+              "descricao": "No gerenciamento de projetos, \"Dependências: término-início, início-início\" (inserido em cronogramas e gráfico de gantt) é uma técnica ou documento fundamental para planejamento, execução e controle. O PMBOK (PMI, 2021) descreve práticas para garantir entrega no prazo, custo e qualidade. PMI (2021) complementam a fundamentação teórica. Referência: PMI. Um Guia do Conhecimento em Gerenciamento de Projetos (PMBOK Guide). 7. ed. Newton Square: PMI, 2021."
             },
             {
               "nome": "Folga total e livre",
@@ -6897,7 +6897,7 @@
         },
         {
           "titulo": "Curva S do projeto",
-          "definicao": "Gréfico que representa o valor acumulado (custo, horas ou percentual) ao longo do tempo, formando um formato de 'S' típico. Usada para comparar o planejado (baseline) com o realizado e identificar desvios de cronograma e orçamento.",
+          "definicao": "Gráfico que representa o valor acumulado (custo, horas ou percentual) ao longo do tempo, formando um formato de 'S' típico. Usada para comparar o planejado (baseline) com o realizado e identificar desvios de cronograma e orçamento.",
           "topicos": [
             {
               "nome": "Construção da curva S (planejado × realizado)",
@@ -7033,7 +7033,7 @@
           "topicos": [
             {
               "nome": "Seleção de projetos: alinhamento estratégico e ROI",
-              "descricao": "Gestão estratégica de conjunto de projetos. \"Seleção de projetos: alinhamento estratégico e ROI\" é um método de seleção ou priorização. Cooper, Edgett e Kleinschmidt (2001) descrevem portfolio management. Referência: COOPER, R. G.; EDGETT, S. J.; KLEINSCHMIDT, E. J. Portfolio Management for New Products. 2. ed. Cambridge: Perseus, 2001."
+              "descricao": "Gestão estratégica de conjunto de projetos. \"Seleção de projetos: alinhamento estratégico e ROI\" é um método de seleção ou priorização. Cooper, Edgett e Kleinschmidt (2001) descrevem portfólio management. Referência: COOPER, R. G.; EDGETT, S. J.; KLEINSCHMIDT, E. J. Portfólio Management for New Products. 2. ed. Cambridge: Perseus, 2001."
             },
             {
               "nome": "Priorização: scoring, AHP, diagrama de bolhas",
@@ -7049,7 +7049,7 @@
             },
             {
               "nome": "Governança de portfólio e comitês",
-              "descricao": "Gestão estratégica de conjunto de projetos. \"Governança de portfólio e comitês\" é um método de seleção ou priorização. Cooper, Edgett e Kleinschmidt (2001) descrevem portfolio management. Referência: COOPER, R. G.; EDGETT, S. J.; KLEINSCHMIDT, E. J. Portfolio Management for New Products. 2. ed. Cambridge: Perseus, 2001."
+              "descricao": "Gestão estratégica de conjunto de projetos. \"Governança de portfólio e comitês\" é um método de seleção ou priorização. Cooper, Edgett e Kleinschmidt (2001) descrevem portfólio management. Referência: COOPER, R. G.; EDGETT, S. J.; KLEINSCHMIDT, E. J. Portfólio Management for New Products. 2. ed. Cambridge: Perseus, 2001."
             }
           ],
           "formula": "ROI = (Ganho do projeto - Investimento) / Investimento",
@@ -7684,7 +7684,7 @@
               "descricao": "Projeto para facilitar fabricação e montagem. \"Montagem simplificada\" é um princípio ou técnica DFMA. Boothroyd, Dewhurst e Knight (2010) descrevem método quantitativo. Referência: BOOTHROYD, G.; DEWHURST, P.; KNIGHT, W. Product Design for Manufacture and Assembly. 3. ed. Boca Raton: CRC Press, 2010."
             }
           ],
-          "formula": "Eficiência de montagem = (N² mínimo teórico de peças × 3s) / Tempo real de montagem",
+          "formula": "Eficiência de montagem = (Nº mínimo teórico de peças × 3s) / Tempo real de montagem",
           "aplicacoes": [
             "Projeto de eletrodomésticos com 40% menos peças",
             "Redesenho de conjuntos mecônicos para montagem automatizada",
@@ -8116,7 +8116,7 @@
       ]
     },
     {
-      "id": "gestao-industrial",
+      "id": "gestão-industrial",
       "nome": "Gestão Industrial",
       "icone": "factory",
       "cor": "#dc2626",
@@ -8424,7 +8424,7 @@
             },
             {
               "nome": "Desdobramento de metas",
-              "descricao": "Processo hierárquico de traduzir metas estratégicas da alta direção em alvos táticos e operacionais, conectando propósito e execução em todos os níveis. Pilares de análise: cascateamento, indicadores por nível, periodicidade. Classic author: Akao (1991). Exemplo numérico: meta corporativa = redução de 30% em custos; desdobrada em 4 metas departamentais: suprimentos -12%, produçao -10%, logística -5%, qualidade -3%; cada departamento fraciona em metas por célula. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "Processo hierárquico de traduzir metas estratégicas da alta direção em alvos táticos e operacionais, conectando propósito e execução em todos os níveis. Pilares de análise: cascateamento, indicadores por nível, periodicidade. Classic author: Akao (1991). Exemplo numérico: meta corporativa = redução de 30% em custos; desdobrada em 4 metas departamentais: suprimentos -12%, produção -10%, logística -5%, qualidade -3%; cada departamento fraciona em metas por célula. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             }
           ],
           "formula": "",
@@ -8516,7 +8516,7 @@
             },
             {
               "nome": "Simulação de cenários",
-              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e利用率. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
+              "descricao": "Simulação de cenários é uma técnica analítica que constrói modelos computacionais representando sistemas produtivos reais para experimentar diferentes configurações operacionais, políticas de decisão ou condições de demanda sem interromper as operações em andamento. A abordagem permite testar hipóteses de forma segura, avaliar riscos e quantificar o impacto de variáveis controláveis e incontroláveis sobre indicadores de desempenho como produtividade, filas e enfileiramentos. Conforme Banks (2010), a simulação é uma das ferramentas mais poderosas da pesquisa operacional para ambientes complexos e estocásticos. Por exemplo, simular a operação de um centro de distribuição com 5, 7 e 10 empilhadeiras revela que 7 equipamentos equilibram o custo operacional com o tempo médio de espera em 4,2 minutos por chamado. (Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009.)"
             },
             {
               "nome": "Planejamento por cenários",
@@ -8595,7 +8595,7 @@
               "descricao": "Na gestão industrial, \"Laudo de avaliação\" (inserido em avaliação de empresas) é um conceito ou ferramenta de planejamento, organização e controle da produção. Slack, Chambers e Johnston (2009) descrevem a administração da produção. Slack, Chambers e Johnston (2009) complementam a fundamentação. Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009."
             }
           ],
-          "formula": "VPL = Σ× FCt / (1 + k)^t",
+          "formula": "VPL = Σ FCt / (1 + k)^t",
           "aplicacoes": [
             "Valuation de empresa industrial para venda",
             "Avaliação para planejamento sucessório familiar",
@@ -8619,7 +8619,7 @@
       ]
     },
     {
-      "id": "eng-metodos",
+      "id": "eng-métodos",
       "nome": "Engenharia de Métodos",
       "icone": "stopwatch",
       "cor": "#9333ea",
@@ -8714,7 +8714,7 @@
               "descricao": "Medição do tempo de execução de tarefas com cronômetro. \"Número de ciclos\" é uma etapa da cronoanálise. Barnes (1980) descreve divisão em elementos e número de ciclos. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             }
           ],
-          "formula": "N² de ciclos = (z × s / e × x╠ä)²",
+          "formula": "Nº de ciclos = (z × s / e × x̄)²",
           "aplicacoes": [
             "Levantamento de tempos para novo produto em produção",
             "Validação de tempo padrão em operações existentes",
@@ -8762,7 +8762,7 @@
               "descricao": "Distribuição equilibrada do trabalho entre estações de uma linha. \"Eficiência da linha\" é uma métrica ou técnica específica. Barnes (1980) descreve índice de balanceamento e eficiência da linha. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             }
           ],
-          "formula": "Takt time = Tempo disponível / Demanda do cliente\nEficiência = Σ×(Tempos de tarefa) / (N² de postos × Tempo de ciclo)",
+          "formula": "Takt time = Tempo disponível / Demanda do cliente\nEficiência = Σ(Tempos de tarefa) / (Nº de postos × Tempo de ciclo)",
           "aplicacoes": [
             "Balanceamento de linha de montagem automotiva",
             "Re-balanceamento após mudança de mix de produção",
@@ -8866,20 +8866,20 @@
           ]
         },
         {
-          "titulo": "Gréfico de homem-máquina",
+          "titulo": "Gráfico de homem-máquina",
           "definicao": "Ferramenta de análise que registra simultaneamente as atividades de um operador e de uma ou mais máquinas ao longo do tempo. Permite identificar períodos ociosos do operador ou da máquina e otimizar o atendimento homem-máquina.",
           "topicos": [
             {
               "nome": "Ciclo homem-máquina",
-              "descricao": "Na engenharia de métodos, \"Ciclo homem-máquina\" (relacionado a gréfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "descricao": "Na engenharia de métodos, \"Ciclo homem-máquina\" (relacionado a gráfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             },
             {
-              "nome": "Atividades simultôneas",
-              "descricao": "Na engenharia de métodos, \"Atividades simultôneas\" (relacionado a gréfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "nome": "Atividades simultâneas",
+              "descricao": "Na engenharia de métodos, \"Atividades simultâneas\" (relacionado a gráfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             },
             {
               "nome": "Ociosidade do operador",
-              "descricao": "Na engenharia de métodos, \"Ociosidade do operador\" (relacionado a gréfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "descricao": "Na engenharia de métodos, \"Ociosidade do operador\" (relacionado a gráfico de homem-máquina) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             }
           ],
           "formula": "",
@@ -8938,20 +8938,20 @@
           ]
         },
         {
-          "titulo": "Gréfico de atividades simultôneas",
+          "titulo": "Gráfico de atividades simultâneas",
           "definicao": "Ferramenta que registra as atividades de múltiplos operadores ou operador e máquina no mesmo eixo temporal, permitindo identificar dependências e balancear a carga de trabalho entre membros de uma equipe ou célula.",
           "topicos": [
             {
               "nome": "Atividades em paralelo",
-              "descricao": "Na engenharia de métodos, \"Atividades em paralelo\" (relacionado a gréfico de atividades simultôneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "descricao": "Na engenharia de métodos, \"Atividades em paralelo\" (relacionado a gráfico de atividades simultâneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             },
             {
               "nome": "Carga de trabalho",
-              "descricao": "Na engenharia de métodos, \"Carga de trabalho\" (relacionado a gréfico de atividades simultôneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "descricao": "Na engenharia de métodos, \"Carga de trabalho\" (relacionado a gráfico de atividades simultâneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             },
             {
               "nome": "Balanceamento de equipe",
-              "descricao": "Na engenharia de métodos, \"Balanceamento de equipe\" (relacionado a gréfico de atividades simultôneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "descricao": "Na engenharia de métodos, \"Balanceamento de equipe\" (relacionado a gráfico de atividades simultâneas) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             }
           ],
           "formula": "",
@@ -9038,8 +9038,8 @@
           "definicao": "Ferramenta visual japonesa (literalmente 'empilhamento') que representa graficamente a carga de trabalho de cada posto em uma linha de produção. Cada tarefa é empilhada como uma barra colorida, permitindo identificar desbalanceamento entre postos.",
           "topicos": [
             {
-              "nome": "Gréfico de empilhamento",
-              "descricao": "Na engenharia de métodos, \"Gréfico de empilhamento\" (relacionado a yamazumi) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
+              "nome": "Gráfico de empilhamento",
+              "descricao": "Na engenharia de métodos, \"Gráfico de empilhamento\" (relacionado a yamazumi) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             },
             {
               "nome": "Balanceamento visual",
@@ -9146,7 +9146,7 @@
               "descricao": "Na engenharia de métodos, \"Redução de atravessamento\" (relacionado a tempo de atravessamento) é uma técnica de medição, análise ou otimização do trabalho. A abordagem sistemática permite reduzir desperdícios e aumentar a produtividade. Barnes (1980) descrevem procedimentos e aplicações. Referência: BARNES, R. M. Estudo de Movimentos e Tempos. São Paulo: Edgard Blücher, 1980."
             }
           ],
-          "formula": "Tempo de atravessamento = Σ×(Tempo de processamento + Esperas + Transportes + Inspeções)",
+          "formula": "Tempo de atravessamento = Σ(Tempo de processamento + Esperas + Transportes + Inspeções)",
           "aplicacoes": [
             "Redução de lead time de 15 para 5 dias em linha de produção",
             "Análise de atravessamento para identificação de desperdícios",
@@ -9202,7 +9202,7 @@
         },
         {
           "titulo": "Eventos discretos",
-          "definicao": "Paradigma de simulação onde o sistema muda de estado apenas em momentos discretos no tempo, correspondentes á ocorrência de eventos (chegada de pedido, início de operação, falha de máquina). ë o método mais utilizado para simular sistemas de manufatura e logística.",
+          "definicao": "Paradigma de simulação onde o sistema muda de estado apenas em momentos discretos no tempo, correspondentes à ocorrência de eventos (chegada de pedido, início de operação, falha de máquina). é o método mais utilizado para simular sistemas de manufatura e logística.",
           "topicos": [
             {
               "nome": "Entidades, recursos e filas",
@@ -9449,8 +9449,8 @@
               "descricao": "Na simulação computacional, \"Parômetros críticos\" (relacionado a análise de sensibilidade) é uma técnica ou ferramenta de modelagem para experimentação. Banks et al. (2010) descrevem simulação de eventos discretos. Banks et al. (2010) detalham validação e análise de resultados. Referência: BANKS, J. et al. Discrete-Event System Simulation. 5. ed. Upper Saddle River: Pearson, 2010."
             },
             {
-              "nome": "Gréfico de tornado",
-              "descricao": "Na simulação computacional, \"Gréfico de tornado\" (relacionado a análise de sensibilidade) é uma técnica ou ferramenta de modelagem para experimentação. Banks et al. (2010) descrevem simulação de eventos discretos. Banks et al. (2010) detalham validação e análise de resultados. Referência: BANKS, J. et al. Discrete-Event System Simulation. 5. ed. Upper Saddle River: Pearson, 2010."
+              "nome": "Gráfico de tornado",
+              "descricao": "Na simulação computacional, \"Gráfico de tornado\" (relacionado a análise de sensibilidade) é uma técnica ou ferramenta de modelagem para experimentação. Banks et al. (2010) descrevem simulação de eventos discretos. Banks et al. (2010) detalham validação e análise de resultados. Referência: BANKS, J. et al. Discrete-Event System Simulation. 5. ed. Upper Saddle River: Pearson, 2010."
             },
             {
               "nome": "Impacto nas saídas",
@@ -10364,7 +10364,7 @@
         },
         {
           "titulo": "DPO  –  Days Payable Outstanding",
-          "definicao": "Indicador financeiro que mede o prazo médio em dias que a empresa leva para pagar seus fornecedores. ë um componente do ciclo financeiro e impacta diretamente o capital de giro.",
+          "definicao": "Indicador financeiro que mede o prazo médio em dias que a empresa leva para pagar seus fornecedores. é um componente do ciclo financeiro e impacta diretamente o capital de giro.",
           "topicos": [
             {
               "nome": "Ciclo financeiro",
@@ -10388,7 +10388,7 @@
         },
         {
           "titulo": "Rendimento operacional (Yield)",
-          "definicao": "Proporção de produtos ou serviços que atendem aos critérios de qualidade na primeira passagem, sem necessidade de retrabalho ou reparo. ë uma métrica-chave da qualidade industrial.",
+          "definicao": "Proporção de produtos ou serviços que atendem aos critérios de qualidade na primeira passagem, sem necessidade de retrabalho ou reparo. é uma métrica-chave da qualidade industrial.",
           "topicos": [
             {
               "nome": "First Pass Yield",
@@ -10540,7 +10540,7 @@
         },
         {
           "titulo": "Indicador de entregas no prazo",
-          "definicao": "Percentual de pedidos ou itens entregues aos clientes dentro do prazo prometido. ë um reflexo direto da confiabilidade do sistema produtivo e logístico.",
+          "definicao": "Percentual de pedidos ou itens entregues aos clientes dentro do prazo prometido. é um reflexo direto da confiabilidade do sistema produtivo e logístico.",
           "topicos": [
             {
               "nome": "On Time Delivery",
@@ -10588,7 +10588,7 @@
         },
         {
           "titulo": "Indicador de qualidade (FTT)",
-          "definicao": "First Time Through (FTT) mede a porcentagem de produtos que passam por todo o processo produtivo sem qualquer defeito ou retrabalho na primeira tentativa. ë um indicador mais rigoroso que o yield simples.",
+          "definicao": "First Time Through (FTT) mede a porcentagem de produtos que passam por todo o processo produtivo sem qualquer defeito ou retrabalho na primeira tentativa. é um indicador mais rigoroso que o yield simples.",
           "topicos": [
             {
               "nome": "First Time Through",
@@ -10651,7 +10651,7 @@
       ]
     },
     {
-      "id": "legislacao",
+      "id": "legislação",
       "nome": "Legislação e Normas",
       "icone": "book-open",
       "cor": "#64748b",
@@ -11661,7 +11661,7 @@
               "descricao": "Nos fundamentos da engenharia de produção, \"Estação de trabalho\" (inserido em linha de montagem) representa um marco conceitual ou modelo de organização produtiva. A evolução histórica e os princípios associados orientam a compreensão dos sistemas de produção modernos. Slack, Chambers e Johnston (2009) descrevem o contexto e as implicações. Referência: SLACK, N.; CHAMBERS, S.; JOHNSTON, R. Administração da Produção. 3. ed. São Paulo: Atlas, 2009."
             }
           ],
-          "formula": "Número mínimo de estações = Σ× Tempos das tarefas / Takt time",
+          "formula": "Número mínimo de estações = Σ Tempos das tarefas / Takt time",
           "aplicacoes": [
             "Montagem de veículos e motores",
             "Montagem de eletrônicos",
@@ -11777,7 +11777,7 @@
         },
         {
           "titulo": "Diagrama Ferro-Carbono",
-          "definicao": "Diagrama de equilíbrio de fases do sistema ferro-carbono que relaciona temperatura e composição, mostrando as fases estáveis (ferrita, austenita, cementita) e as transformações eutética e eutetóide. ë a base para tratamentos térmicos de aços e ferros fundidos.",
+          "definicao": "Diagrama de equilíbrio de fases do sistema ferro-carbono que relaciona temperatura e composição, mostrando as fases estáveis (ferrita, austenita, cementita) e as transformações eutética e eutetóide. é a base para tratamentos térmicos de aços e ferros fundidos.",
           "topicos": [
             {
               "nome": "Ferrita α",
@@ -12849,7 +12849,7 @@
           ],
           "formula": "",
           "aplicacoes": [
-            "Gestão de múltiplos projetos simultôneos",
+            "Gestão de múltiplos projetos simultâneos",
             "Rotina de gestão industrial",
             "Cumprimento de prazos de entrega"
           ]
@@ -13310,7 +13310,7 @@
         },
         {
           "tipo": "Relatório",
-          "ref": "World Economic Forum. The Future of Jobs Report. Genebra: WEF, 2016."
+          "ref": "World Economic Fórum. The Future of Jobs Report. Genebra: WEF, 2016."
         },
         {
           "tipo": "Artigo",
@@ -13327,7 +13327,7 @@
       "subtopicos": [
         {
           "titulo": "Excel avançado e VBA",
-          "definicao": "Domínio de funcionalidades avançadas do Microsoft Excel incluindo tabelas dinâmicas, Power Query, funções matriciais, análise de dados, gréficos dinâmicos e automação com VBA (Macros). ë a ferramenta mais universal de análise e modelagem no ambiente industrial.",
+          "definicao": "Domínio de funcionalidades avançadas do Microsoft Excel incluindo tabelas dinâmicas, Power Query, funções matriciais, análise de dados, gráficos dinâmicos e automação com VBA (Macros). é a ferramenta mais universal de análise e modelagem no ambiente industrial.",
           "topicos": [
             {
               "nome": "Tabela dinâmica",
@@ -13455,7 +13455,7 @@
         },
         {
           "titulo": "SAP módulo PP e MM",
-          "definicao": "Módulos do ERP SAP para Planejamento da Produção (PP) e Gestão de Materiais (MM). O PP gerencia ordens de produção, MRP, roteiros e capacidade; o MM controla compras, estoques, movimentações e avaliação de materiais.",
+          "definicao": "Módulos do ERP SAP para Planejamento da Produção (PP) e Gestão de Materiais (MM). O PP gerência ordens de produção, MRP, roteiros e capacidade; o MM controla compras, estoques, movimentações e avaliação de materiais.",
           "topicos": [
             {
               "nome": "MRP",
@@ -13487,7 +13487,7 @@
         },
         {
           "titulo": "Oracle Industrial (EBS, JDE)",
-          "definicao": "Suítes de ERP da Oracle para gestão industrial. Oracle E-Business Suite (EBS) e JD Edwards (JDE) cobrem manufatura, supply chain, finanças e projetos, com módulos para PCP, qualidade, manutenção e custos.",
+          "definicao": "Suítes de ERP da Oracle para gestão industrial. Oracle E-Business Suíte (EBS) e JD Edwards (JDE) cobrem manufatura, supply chain, finanças e projetos, com módulos para PCP, qualidade, manutenção e custos.",
           "topicos": [
             {
               "nome": "Oracle EBS",
@@ -13559,7 +13559,7 @@
             },
             {
               "nome": "Endereçamento",
-              "descricao": "Sistema de codificação e localização de posições de armazenagem em um armazém, permitindo que cada item seja rapidamente encontrado por meio de coordenadas alfanuméricas. Pilares de análise: precisão da localização, velocidade de localização, acuracidade de estoque, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: endereço B-03-14-2 significa bloco B, rua 3, nível 14, coluna 2; 5.000 endereços codificados; tempo médio de localizaçao = 25s antes do sistema, 8s depois (reduçao de 68%); acuracidade inventário = 99,2%. (Referência: WALKENBACH, J. Excel 2016 Power Programming with VBA. Hoboken: Wiley, 2015.)"
+              "descricao": "Sistema de codificação e localização de posições de armazenagem em um armazém, permitindo que cada item seja rapidamente encontrado por meio de coordenadas alfanuméricas. Pilares de análise: precisão da localização, velocidade de localização, acuracidade de estoque, taxa de ocupação. Classic author: Ballou (2001). Exemplo numérico: endereço B-03-14-2 significa bloco B, rua 3, nível 14, coluna 2; 5.000 endereços codificados; tempo médio de localização = 25s antes do sistema, 8s depois (redução de 68%); acuracidade inventário = 99,2%. (Referência: WALKENBACH, J. Excel 2016 Power Programming with VBA. Hoboken: Wiley, 2015.)"
             },
             {
               "nome": "Inventário",
@@ -13875,7 +13875,7 @@
         },
         {
           "titulo": "Scilab",
-          "definicao": "Software de código aberto para computação numérica, similar ao Matlab, desenvolvido pelo INRIA. Oferece ferramentas para élgebra linear, otimização, simulação de sistemas dinâmicos, processamento de sinais e gréficos científicos.",
+          "definicao": "Software de código aberto para computação numérica, similar ao Matlab, desenvolvido pelo INRIA. Oferece ferramentas para álgebra linear, otimização, simulação de sistemas dinâmicos, processamento de sinais e gráficos científicos.",
           "topicos": [
             {
               "nome": "Computação numérica",
@@ -13950,7 +13950,7 @@
       ]
     },
     {
-      "id": "gestao-custos",
+      "id": "gestão-custos",
       "nome": "Gestão de Custos",
       "icone": "coins",
       "cor": "#059669",
@@ -14141,14 +14141,14 @@
       ]
     },
 {
-              "id": "seguranca-trabalho",
+              "id": "segurança-trabalho",
               "nome": "Segurança do Trabalho / Segurança Ocupacional",
               "icone": "shield",
               "cor": "#dc2626",
               "descricao": "A Segurança do Trabalho é uma ciência interdisciplinar que estuda e aplica princípios, técnicas e normativas para prevenir acidentes, lesões e doenças ocupacionais, protegendo a integridade física e mental dos trabalhadores. Fundamenta-se na engenharia de segurança, medicina do trabalho, ergonomia, psicologia organizacional e gestão de riscos, sendo regulamentada por normas técnicas e legais como as Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego. A evolução do campo incorpora abordagens sistêmicas contemporâneas como Safety-II, engenharia de resiliência e fatores humanos, transcendendo o modelo reativo tradicional para uma gestão proativa de riscos baseada em evidências científicas e melhoria contínua.",
               "subtopicos": [
                 {
-                  "id": "fundamentos-seguranca",
+                  "id": "fundamentos-segurança",
                   "titulo": "Fundamentos da Segurança do Trabalho",
                   "definicao": "A Segurança do Trabalho constitui-se como um campo do conhecimento técnico-científico que estuda sistematicamente os fenômenos relacionados à ocorrência de acidentes e doenças ocupacionais, desenvolvendo metodologias de prevenção, controle e mitigação de riscos presentes nos ambientes laborais. Sua gênese remonta à Revolução Industrial, quando as condições degradantes de trabalho e a elevada incidência de acidentes impulsionaram movimentos sociais e a criação dos primeiros dispositivos legais de proteção ao trabalhador, como o Factory Act de 1833 na Inglaterra e, posteriormente, a criação da Organização Internacional do Trabalho (OIT) em 1919. No Brasil, o marco legal inaugural foi o Decreto-Lei nº 5.452 de 1943 (CLT), que estabeleceu as primeiras normas de proteção à saúde e integridade do trabalhador, evoluindo com a Lei nº 6.514 de 1977 e a Portaria nº 3.214 de 1978 que instituiu as Normas Regulamentadoras. A disciplina fundamenta-se em pilares teóricos consolidados: a Teoria da Casualidade Múltipla, que rejeita a noção de causa única e estabelece que todo acidente resulta da interação de múltiplos fatores; o Modelo de Domínio proposto por William Haddon Jr., que utiliza dez estratégias epidemiológicas para a prevenção de lesões; e o Princípio da Hierarquia de Controles, consolidado pela ACGIH e pela hierarquia legal brasileira na NR-01, que estabelece a prioridade de eliminação do risco sobre sua minimização ou uso de proteção individual. O arcabouço conceitual contemporâneo incorpora a visão sistêmica proposta por Nancy Leveson (STAMP) e a Abordagem da Engenharia de Resiliência defendida por Erik Hollnagel. A Segurança do Trabalho moderna integra metodologias quantitativas de análise de risco (FTA, FMEA), indicadores de desempenho (Taxa de Frequência, Taxa de Gravidade) e sistemas de gestão baseados em normas internacionais como ISO 45001, que estabelecem requisitos para políticas de segurança, planejamento, implementação, verificação e melhoria contínua.",
                   "topicos": [
@@ -14202,7 +14202,7 @@
                   ]
                 },
                 {
-                  "id": "gestao-riscos",
+                  "id": "gestão-riscos",
                   "titulo": "Gestão de Riscos Ocupacionais (NR-01 GRO)",
                   "definicao": "A Gestão de Riscos Ocupacionais (GRO) é um processo sistemático instituído pela NR-01 que estabelece requisitos para identificação, avaliação, controle e monitoramento dos riscos ocupacionais. O PGR substitui o antigo PPRA, ampliando seu escopo para riscos de acidentes além dos ambientais. A APR é ferramenta técnica para atividades não rotineiras. A hierarquia de controles estabelece ordem vinculante: eliminação, minimização com proteção coletiva, medidas administrativas e proteção individual. A GRO moderna incorpora riscos psicossociais e a ISO 45001:2018.",
                   "topicos": [
@@ -14283,7 +14283,7 @@
                   ]
                 },
                 {
-                  "id": "cultura-seguranca",
+                  "id": "cultura-segurança",
                   "titulo": "Cultura de Segurança e Fatores Humanos",
                   "definicao": "A Cultura de Segurança representa valores, percepções e comportamentos compartilhados sobre gestão de riscos. O termo foi formalizado após Chernobyl (1986) pelo INSAG. Sidney Dekker em Safety Differently (2014) propõe abandonar a visão do erro humano como causa para compreendê-lo como sintoma de condições sistêmicas, defendendo a Just Culture. Hollnagel (2014) propõe Safety-I (ausência de acidentes) versus Safety-II (capacidade de sucesso sob condições variáveis), com o princípio ETTO. A Engenharia de Resiliência estuda como sistemas antecipam, monitoram, respondem e aprendem.",
                   "topicos": [
@@ -14300,7 +14300,7 @@
                       "descricao": "DEFINIÇÃO FORMAL: Fatores Humanos estuda a interação entre humanos e sistemas (IEA, 2000). Taxonomia SRK de Rasmussen: skill-based (slips/lapses), rule-based (mistakes de regras), knowledge-based (mistakes de conhecimento). PILARES TEÓRICOS: Modelo SHEL (Edwards, 1972), Consciência Situacional (Endsley, 1995), HEART/THERP. AUTOR PRINCIPAL: Jens Rasmussen (1926-2018). EXEMPLO PRÁTICO: Abertura de válvula PSV sem LOTO em plataforma. SRK: rule-based mistake. HEP nominal = 0,01; fatores: fadiga (x3), falta experiência (x5), procedimento pobre (x2). HEP efetivo = 0,60. Ações: pair verification, etiqueta refletiva, e-LOTO RFID. REFERÊNCIA ABNT: DEKKER, S. The Field Guide to Understanding Human Error. 2. ed. Boca Raton: CRC Press, 2006."
                     }
                   ],
-                  "formula": "HEP_efetivo = HEP_nominal x F1 x F2 x ... x Fn | ETTO = Eficiencia/Minucia",
+                  "formula": "HEP_efetivo = HEP_nominal x F1 x F2 x ... x Fn | ETTO = Eficiência/Minúcia",
                   "aplicacoes": [
                     "Implementação de Cultura Justa em organizações de alta confiabilidade",
                     "Avaliação com questionário NOSACQ-50",
@@ -14310,13 +14310,13 @@
                   ]
                 },
                 {
-                  "id": "investigacao-acidentes",
+                  "id": "investigação-acidentes",
                   "titulo": "Investigação e Análise de Acidentes",
                   "definicao": "A investigação de acidentes é um processo sistemático que visa identificar causas imediatas, contribuintes e raízes para prevenir recorrência. Compreende quatro fases: coleta de dados (preservação do local, entrevistas, documentos), análise (aplicação de metodologias causais), elaboração de recomendações e acompanhamento. As principais metodologias incluem Árvore de Causas (método francês do INRS), 5 Porquês (Toyota Production System), Análise de Árvore de Falhas (FTA), Diagrama de Ishikawa e RCA. O princípio fundamental é que todo acidente revela falhas no sistema de gestão e constitui oportunidade de aprendizado.",
                   "topicos": [
                     {
                       "nome": "Método da Árvore de Causas",
-                      "descricao": "DEFINIÇÃO FORMAL: A Árvore de Causas é um método francês (INRS) baseado na teoria da causalidade múltipla, que constrói retroativamente do evento final para identificar fatos encadeados com relações de conjunção, disjunção e independência. PILARES TEÓRICOS: Teoria Sistêmica de Bertalanffy, Modelo de Montmollin. AUTOR PRINCIPAL: INRS (França), adaptado pela Fundacentro. EXEMPLO PRÁTICO: Acidente - trabalhador com fratura exposta ao ser atingido por peça de 12 kg. Árvore: T = F1 ^ F2 (peça caiu e trabalhador estava na área). F1 = F3 ^ F4 (posição instável e cabo rompido). F2 = F5 ^ (F6 v F7) (passou por baixo da carga e sinalização desgastada ou procedimento incompleto). Ações: novo procedimento de amarração (minimo 3 pontos), substituição preventiva de cabos, barreira física. REFERÊNCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
+                      "descricao": "DEFINIÇÃO FORMAL: A Árvore de Causas é um método francês (INRS) baseado na teoria da causalidade múltipla, que constrói retroativamente do evento final para identificar fatos encadeados com relações de conjunção, disjunção e independência. PILARES TEÓRICOS: Teoria Sistêmica de Bertalanffy, Modelo de Montmollin. AUTOR PRINCIPAL: INRS (França), adaptado pela Fundacentro. EXEMPLO PRÁTICO: Acidente - trabalhador com fratura exposta ao ser atingido por peça de 12 kg. Árvore: T = F1 ^ F2 (peça caiu e trabalhador estava na área). F1 = F3 ^ F4 (posição instável e cabo rompido). F2 = F5 ^ (F6 v F7) (passou por baixo da carga e sinalização desgastada ou procedimento incompleto). Ações: novo procedimento de amarração (mínimo 3 pontos), substituição preventiva de cabos, barreira física. REFERÊNCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
                     },
                     {
                       "nome": "Método dos 5 Porquês",
@@ -14327,7 +14327,7 @@
                       "descricao": "DEFINIÇÃO FORMAL: RCA é um conjunto de métodos para identificar causas fundamentais de eventos adversos. Diagrama de Ishikawa organiza causas em 6 categorias (6M): Método, Máquina, Material, Mão de Obra, Medida, Meio Ambiente. PILARES TEÓRICOS: Controle Estatístico da Qualidade (Shewhart, Deming), Gestão da Qualidade Total. AUTOR PRINCIPAL: Kaoru Ishikawa (1915-1989). EXEMPLO PRÁTICO: Acidente fatal em elevador de obra - queda de 18 m. Ishikawa: Método (acesso pelo poço, sem plataforma), Máquina (sensor desativado), Material (guarda-corpo ausente), Mão de obra (treinamento vencido), Medida (sem inspeção diária), Meio ambiente (iluminação 80 lux). Causas raízes: ausência de plataforma de embarque, manutenção preventiva incompleta, treinamento periódico não implementado. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
                     }
                   ],
-                  "formula": "Arvore: T = F1 ^ F2 | 5W: Causa_i+1 = f(Porque_i) | Ishikawa: 6M",
+                  "formula": "Árvore: T = F1 ^ F2 | 5W: Causa_i+1 = f(Porque_i) | Ishikawa: 6M",
                   "aplicacoes": [
                     "Investigação de acidentes fatais em indústrias e construção civil",
                     "Implementação de sistema de gestão de incidentes baseado em RCA",
@@ -14370,18 +14370,18 @@
                   "topicos": [
                     {
                       "nome": "NR-06 e Certificado de Aprovação (CA)",
-                      "descricao": "DEFINIÇÃO FORMAL: NR-06 estabelece que empregador deve fornecer EPI adequado com CA válido, treinar e fiscalizar o uso. CA emitido pelo MTE mediante ensaios INMETRO, validade 5 anos (nacionais) ou 2 anos (importados). PILARES TEÓRICOS: Hierarquia de Controles (EPI como última barreira), NBR 11832 (capacete), NBR 13697 (protetor auditivo). AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Respirador PFF2 para cementação. FPD = 10. Concentração 8 mg/m3 (limite 5 mg/m3), razao 1,6x, FPD 10 adequado. Fit test com sacarina, substituição semanal. Sem CA: multa e responsabilidade civil. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                      "descricao": "DEFINIÇÃO FORMAL: NR-06 estabelece que empregador deve fornecer EPI adequado com CA válido, treinar e fiscalizar o uso. CA emitido pelo MTE mediante ensaios INMETRO, validade 5 anos (nacionais) ou 2 anos (importados). PILARES TEÓRICOS: Hierarquia de Controles (EPI como última barreira), NBR 11832 (capacete), NBR 13697 (protetor auditivo). AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Respirador PFF2 para cementação. FPD = 10. Concentração 8 mg/m3 (limite 5 mg/m3), razão 1,6x, FPD 10 adequado. Fit test com sacarina, substituição semanal. Sem CA: multa e responsabilidade civil. REFERÊNCIA ABNT: ARAÚJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
                     },
                     {
                       "nome": "Proteção Coletiva: Enclausuramento e Ventilação",
-                      "descricao": "DEFINIÇÃO FORMAL: Enclausuramento isola fontes de perigo com barreiras físicas. Ventilação local exaustora capta contaminantes na fonte. PILARES TEÓRICOS: Mecânica dos Fluidos (Bernoulli), ACGIH Industrial Ventilation Manual. AUTOR PRINCIPAL: ACGIH Committee on Industrial Ventilation. EXEMPLO PRÁTICO: Lixadeira 98 dBA. Cabine com paredes sanduíche (aco + la mineral 50 mm). TL = 14,4 log(Mxf) - 23. Para M=10 kg/m2, f=2000 Hz, TL = 34 dB. Ruido externo = 64 dBA. Custo: R$ 28.000. VLE para fumos de soldagem: Q = 3.600 x 0,5 x 0,5 = 900 m3/h, DP = 250 Pa, P = 90 W (motor 0,5 CV). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                      "descricao": "DEFINIÇÃO FORMAL: Enclausuramento isola fontes de perigo com barreiras físicas. Ventilação local exaustora capta contaminantes na fonte. PILARES TEÓRICOS: Mecânica dos Fluidos (Bernoulli), ACGIH Industrial Ventilation Manual. AUTOR PRINCIPAL: ACGIH Committee on Industrial Ventilation. EXEMPLO PRÁTICO: Lixadeira 98 dBA. Cabine com paredes sanduíche (aço + la mineral 50 mm). TL = 14,4 log(Mxf) - 23. Para M=10 kg/m2, f=2000 Hz, TL = 34 dB. Ruído externo = 64 dBA. Custo: R$ 28.000. VLE para fumos de soldagem: Q = 3.600 x 0,5 x 0,5 = 900 m3/h, DP = 250 Pa, P = 90 W (motor 0,5 CV). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
                     },
                     {
                       "nome": "Tipos de EPI e Seleção Adequada",
-                      "descricao": "DEFINIÇÃO FORMAL: EPIs classificam-se por parte protegida: cabeça (capacete classe A/B), olhos (óculos, viseira), auditiva (plug, concha NRR 15-33 dB), respiratória (PFF1 80%, PFF2 94%, PFF3 99,95%), mãos (química: PVC, nitrílica, neoprene), pés (biqueira aco/composite), queda (cinto paraquedista, talabarte, trava-quedas). PILARES TEÓRICOS: FPA - Fator de Proteção Atribuído, FPR - Fator de Proteção Requerido. Criterio: FPA >= FPR. AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Operador de motosserra (105 dBA). Protetor NRR 28: atenuacao real = (28-7)/2 = 10,5 dB, nivel efetivo = 94,5 dBA (insuficiente). Dupla proteção (plug + concha): 5 + 10,5 + 13 = 28,5 dB, nivel = 76,5 dBA (aceitável). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                      "descricao": "DEFINIÇÃO FORMAL: EPIs classificam-se por parte protegida: cabeça (capacete classe A/B), olhos (óculos, viseira), auditiva (plug, concha NRR 15-33 dB), respiratória (PFF1 80%, PFF2 94%, PFF3 99,95%), mãos (química: PVC, nitrílica, neoprene), pés (biqueira aço/composite), queda (cinto paraquedista, talabarte, trava-quedas). PILARES TEÓRICOS: FPA - Fator de Proteção Atribuído, FPR - Fator de Proteção Requerido. Critério: FPA >= FPR. AUTOR PRINCIPAL: Fundacentro e INMETRO. EXEMPLO PRÁTICO: Operador de motosserra (105 dBA). Protetor NRR 28: atenuação real = (28-7)/2 = 10,5 dB, nível efetivo = 94,5 dBA (insuficiente). Dupla proteção (plug + concha): 5 + 10,5 + 13 = 28,5 dB, nível = 76,5 dBA (aceitável). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
                     }
                   ],
-                  "formula": "Atenuacao real = (NRR-7)/2 | FPA >= FPR | Q = 3.600 x v x A | P = Q x DP / (3.600 x n)",
+                  "formula": "Atenuação real = (NRR-7)/2 | FPA >= FPR | Q = 3.600 x v x A | P = Q x DP / (3.600 x n)",
                   "aplicacoes": [
                     "Programa de Proteção Respiratória (PPR) com PFF2/PFF3",
                     "Seleção de protetores auriculares com cálculo de atenuacao (NRR)",
@@ -14393,18 +14393,18 @@
                 {
                   "id": "loto",
                   "titulo": "LOTO - Lockout Tagout",
-                  "definicao": "LOTO e o procedimento padronizado de bloqueio e etiquetagem de fontes de energia perigosa durante manutencao, conforme NR-12 (Itens 12.127 a 12.133) e OSHA 29 CFR 1910.147. Segue seis etapas: (1) Preparacao; (2) Notificacao; (3) Desligamento; (4) Isolamento com cadeado e etiqueta; (5) Verificacao de energia residual; (6) Verificacao de zero energia. O cadeado e individual (cada trabalhador coloca seu cadeado pessoal), o hasp permite multiplos cadeados em um ponto, e a etiqueta contem nome, data e contato.",
+                  "definicao": "LOTO e o procedimento padronizado de bloqueio e etiquetagem de fontes de energia perigosa durante manutenção, conforme NR-12 (Itens 12.127 a 12.133) e OSHA 29 CFR 1910.147. Segue seis etapas: (1) Preparação; (2) Notificação; (3) Desligamento; (4) Isolamento com cadeado e etiqueta; (5) Verificação de energia residual; (6) Verificação de zero energia. O cadeado e individual (cada trabalhador coloca seu cadeado pessoal), o hasp permite multiplos cadeados em um ponto, e a etiqueta contem nome, data e contato.",
                   "topicos": [
                     {
                       "nome": "Procedimento de Bloqueio e Etiquetagem",
-                      "descricao": "DEFINICAO FORMAL: LOTO e sistema padronizado de isolamento energetico com cadeados individuais (one lock, one key), hasps para bloqueio de equipe, e etiquetas de identificacao. PILARES TEORICOS: Principio de Zero Energy State, Hierarquia de Controles. OSHA 1910.147. AUTOR PRINCIPAL: OSHA. EXEMPLO PRATICO: Manutencao de esteira transportadora em mineracao (750 kW). 4 fontes: disjuntor 13,8 kV, motor 480 V, acumulador hidraulico 200 bar, carga gravitacional 50 t. Aplicacao de hasp com 6 cadeados. Verificacao: multimetro fase-fase e fase-terra, alivio de pressao hidraulica, calco mecanico. Tentativa de partida (nao deve funcionar). Custo kit LOTO: R$ 2.800/kit x 6 = R$ 16.800. Acidente evitado: R$ 2.500.000. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                      "descricao": "DEFINICAO FORMAL: LOTO e sistema padronizado de isolamento energético com cadeados individuais (one lock, one key), hasps para bloqueio de equipe, e etiquetas de identificação. PILARES TEORICOS: Principio de Zero Energy State, Hierarquia de Controles. OSHA 1910.147. AUTOR PRINCIPAL: OSHA. EXEMPLO PRATICO: Manutenção de esteira transportadora em mineração (750 kW). 4 fontes: disjuntor 13,8 kV, motor 480 V, acumulador hidráulico 200 bar, carga gravitacional 50 t. Aplicação de hasp com 6 cadeados. Verificação: multímetro fase-fase e fase-terra, alívio de pressão hidráulica, calco mecânico. Tentativa de partida (não deve funcionar). Custo kit LOTO: R$ 2.800/kit x 6 = R$ 16.800. Acidente evitado: R$ 2.500.000. REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     },
                     {
-                      "nome": "Gestao de Energias Perigosas",
-                      "descricao": "DEFINICAO FORMAL: NR-12 (12.127-12.133) lista energias: eletrica, mecanica, hidraulica, pneumatica, termica, quimica, gravitacional, armazenada. Energia residual permanece apos isolamento da fonte. PILARES TEORICOS: Conservacao de Energia, E = mgh, E = 1/2mv2, E = 1/2CV2, NFPA 70E. AUTOR PRINCIPAL: OSHA e NFPA. EXEMPLO PRATICO: Manutencao de prensa hidraulica 500 t. Energias: (1) Eletrica: motor 200 CV, 480 V; (2) Hidraulica: acumulador 300 bar, 50 L; (3) Gravitacional: cilindro 3.000 kg a 2,5 m; (4) Mola: k = 500 kN/m, compressao 0,15 m, E = 5.625 J. Procedimento: descarga do acumulador (3 min), calco mecanico (resistencia 37.500 kg), descarga de capacitores (< 50 V), resfriamento (< 50 graus C). REFERENCIA ABNT: ARAUJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
+                      "nome": "Gestão de Energias Perigosas",
+                      "descricao": "DEFINICAO FORMAL: NR-12 (12.127-12.133) lista energias: elétrica, mecânica, hidráulica, pneumática, termica, química, gravitacional, armazenada. Energia residual permanece após isolamento da fonte. PILARES TEORICOS: Conservação de Energia, E = mgh, E = 1/2mv2, E = 1/2CV2, NFPA 70E. AUTOR PRINCIPAL: OSHA e NFPA. EXEMPLO PRATICO: Manutenção de prensa hidráulica 500 t. Energias: (1) Elétrica: motor 200 CV, 480 V; (2) Hidráulica: acumulador 300 bar, 50 L; (3) Gravitacional: cilindro 3.000 kg a 2,5 m; (4) Mola: k = 500 kN/m, compressão 0,15 m, E = 5.625 J. Procedimento: descarga do acumulador (3 min), calco mecânico (resistência 37.500 kg), descarga de capacitores (< 50 V), resfriamento (< 50 graus C). REFERENCIA ABNT: ARAUJO, G. M. Normas Regulamentadoras Comentadas. 11. ed. Rio de Janeiro: GVC, 2020."
                     }
                   ],
-                  "formula": "E_grav = mgh | E_cin = 1/2mv2 | E_acum = 1/2CV2 | Energia residual = f(tipo, volume, pressao)",
+                  "formula": "E_grav = mgh | E_cin = 1/2mv2 | E_acum = 1/2CV2 | Energia residual = f(tipo, volume, pressão)",
                   "aplicacoes": [
                     "Procedimento padronizado de LOTO para manutencao industrial",
                     "Programa de bloqueio de energias em maquinas NR-12",
@@ -14414,21 +14414,21 @@
                   ]
                 },
                 {
-                  "id": "seguranca-processos",
-                  "titulo": "Seguranca de Processos",
-                  "definicao": "A Seguranca de Processos e a disciplina da engenharia focada na prevencao de liberacoes acidentais de materiais perigosos, diferenciando-se da seguranca ocupacional por seu foco em eventos catastroficos de grande escala. Grandes acidentes: Flixborough (1974, 28 mortes), Seveso (1976), Bhopal (1984, 3.787 mortes), Piper Alpha (1988, 167 mortes), Texas City (2005, 15 mortes) e Deepwater Horizon (2010, 11 mortes). O CCPS/AIChE estabeleceu 20 elementos essenciais de gestao de seguranca de processos (RBPS). A analise de riscos inclui HAZOP, LOPA, QRA e analise de consequencias.",
+                  "id": "segurança-processos",
+                  "titulo": "Segurança de Processos",
+                  "definicao": "A Segurança de Processos e a disciplina da engenharia focada na prevenção de liberacoes acidentais de materiais perigosos, diferenciando-se da segurança ocupacional por seu foco em eventos catastroficos de grande escala. Grandes acidentes: Flixborough (1974, 28 mortes), Seveso (1976), Bhopal (1984, 3.787 mortes), Piper Alpha (1988, 167 mortes), Texas City (2005, 15 mortes) e Deepwater Horizon (2010, 11 mortes). O CCPS/AIChE estabeleceu 20 elementos essenciais de gestão de segurança de processos (RBPS). A análise de riscos inclui HAZOP, LOPA, QRA e análise de consequencias.",
                   "topicos": [
                     {
-                      "nome": "HAZOP e Analise de Perigos",
-                      "descricao": "DEFINICAO FORMAL: HAZOP (Hazard and Operability Study) e tecnica estruturada que utiliza palavras-guia (Nenhum, Mais, Menos, Parte de, Alem de, Inverso, Diferente) combinadas com parametros (Pressao, Temperatura, Vazao, Nivel) para identificar desvios. PILARES TEORICOS: Teoria de Sistemas, Engenharia de Confiabilidade. AUTOR PRINCIPAL: Trevor Kletz (1922-2013), engenheiro quimico da ICI, pai da seguranca de processos. EXEMPLO PRATICO: HAZOP de reator de polimerizacao. No de alimentacao de etileno. Palavra-guia: Mais + Vazao. Causas: falha controlador FCV-101. Consequencias: reacao exotermica descontrolada, pressao > 13 bar, abertura PSV. Salvaguardas: alarme FAL-101, intertravamento PALL-201 (12 bar), PSV-201 (11 bar). Recomendacoes: sensor 2oo2, valvula fail-close, procedimento de partida com verificacao. REFERENCIA ABNT: KLETZ, T. What Went Wrong? 5. ed. Oxford: Butterworth-Heinemann, 2009."
+                      "nome": "HAZOP e Análise de Perigos",
+                      "descricao": "DEFINICAO FORMAL: HAZOP (Hazard and Operability Study) e técnica estruturada que utiliza palavras-guia (Nenhum, Mais, Menos, Parte de, Além de, Inverso, Diferente) combinadas com parametros (Pressão, Temperatura, Vazão, Nível) para identificar desvios. PILARES TEORICOS: Teoria de Sistemas, Engenharia de Confiabilidade. AUTOR PRINCIPAL: Trevor Kletz (1922-2013), engenheiro químico da ICI, pai da segurança de processos. EXEMPLO PRATICO: HAZOP de reator de polimerização. No de alimentação de etileno. Palavra-guia: Mais + Vazão. Causas: falha controlador FCV-101. Consequencias: reacao exotermica descontrolada, pressão > 13 bar, abertura PSV. Salvaguardas: alarme FAL-101, intertravamento PALL-201 (12 bar), PSV-201 (11 bar). Recomendacoes: sensor 2oo2, válvula fail-close, procedimento de partida com verificação. REFERENCIA ABNT: KLETZ, T. What Went Wrong? 5. ed. Oxford: Butterworth-Heinemann, 2009."
                     },
                     {
-                      "nome": "Crowl e Louvar: Metodos de Analise Quantitativa",
-                      "descricao": "DEFINICAO FORMAL: Crowl e Louvar sistematizam metodos quantitativos: calculo de consequencias de explosoes (TNT, TNO), dispersao de nuvens (gaussiano, dense gas), BLEVE, UVCE, dimensionamento de alivio de pressao, taxas de liberacao. PILARES TEORICOS: Termodinamica, Mecanica dos Fluidos, Transferencia de Calor e Massa. AUTOR PRINCIPAL: Daniel A. Crowl (Michigan Tech) e Joseph F. Louvar (Wayne State). EXEMPLO PRATICO: Vazamento de amonia anidra por tubulacao DN 50. Q = A x Cd x sqrt(2 x rho x (P - Patm)) = 0,00196 x 0,61 x 5.222 = 6,25 kg/s. Massa liberada em 30 min: 11.250 kg. Dispersao (SLAB): distancia ate 300 ppm (IDLH) = 1.800 m. Populacao afetada: 500 pessoas. Evacuacao: 30.000 pessoas. REFERENCIA ABNT: CROWL, D. A.; LOUVAR, J. F. Chemical Process Safety. 3. ed. Upper Saddle River: Prentice Hall, 2011."
+                      "nome": "Crowl e Louvar: Métodos de Análise Quantitativa",
+                      "descricao": "DEFINICAO FORMAL: Crowl e Louvar sistematizam métodos quantitativos: cálculo de consequencias de explosoes (TNT, TNO), dispersão de nuvens (gaussiano, dense gas), BLEVE, UVCE, dimensionamento de alívio de pressão, taxas de liberação. PILARES TEORICOS: Termodinamica, Mecânica dos Fluidos, Transferência de Calor e Massa. AUTOR PRINCIPAL: Daniel A. Crowl (Michigan Tech) e Joseph F. Louvar (Wayne State). EXEMPLO PRATICO: Vazamento de amonia anidra por tubulação DN 50. Q = A x Cd x sqrt(2 x rho x (P - Patm)) = 0,00196 x 0,61 x 5.222 = 6,25 kg/s. Massa liberada em 30 min: 11.250 kg. Dispersão (SLAB): distância até 300 ppm (IDLH) = 1.800 m. População afetada: 500 pessoas. Evacuação: 30.000 pessoas. REFERENCIA ABNT: CROWL, D. A.; LOUVAR, J. F. Chemical Process Safety. 3. ed. Upper Saddle River: Prentice Hall, 2011."
                     },
                     {
-                      "nome": "LOPA e Camadas de Protecao",
-                      "descricao": "DEFINICAO FORMAL: LOPA (Layer of Protection Analysis) avalia eficacia de camadas de protecao independentes (IPLs) para reduzir frequencia de evento indesejado. Requisitos IPL: especifica, independente, confiavel (PFD quantificado), auditavel. Camadas tipicas: projeto inerentemente seguro, BPCS, alarmes, SIS, PSV, dique, barreira, plano de emergencia. PILARES TEORICOS: IEC 61508/61511 (SIL 1-4, PFD 10^-1 a 10^-5). AUTOR PRINCIPAL: CCPS e IEC 61511. EXEMPLO PRATICO: LOPA para ruptura de reator. F_iniciadora = 0,1/ano. IPL1: BPCS PFD=0,1. IPL2: SIS SIL2 PFD=0,01. IPL3: PSV PFD=0,01. IPL4: Dique PFD=0,01. Freq_mitigada = 0,1 x 0,1 x 0,01 x 0,01 x 0,01 = 10^-8/ano (aceitavel < 10^-6). Custo IPLs: R$ 485.000. Custo acidente: R$ 50.000.000+. REFERENCIA ABNT: MANNAN, S. Lees Loss Prevention in the Process Industries. 4. ed. Oxford: Butterworth-Heinemann, 2012."
+                      "nome": "LOPA e Camadas de Proteção",
+                      "descricao": "DEFINICAO FORMAL: LOPA (Layer of Protection Analysis) avalia eficácia de camadas de proteção independentes (IPLs) para reduzir frequência de evento indesejado. Requisitos IPL: especifica, independente, confiável (PFD quantificado), auditável. Camadas tipicas: projeto inerentemente seguro, BPCS, alarmes, SIS, PSV, dique, barreira, plano de emergência. PILARES TEORICOS: IEC 61508/61511 (SIL 1-4, PFD 10^-1 a 10^-5). AUTOR PRINCIPAL: CCPS e IEC 61511. EXEMPLO PRATICO: LOPA para ruptura de reator. F_iniciadora = 0,1/ano. IPL1: BPCS PFD=0,1. IPL2: SIS SIL2 PFD=0,01. IPL3: PSV PFD=0,01. IPL4: Dique PFD=0,01. Freq_mitigada = 0,1 x 0,1 x 0,01 x 0,01 x 0,01 = 10^-8/ano (aceitável < 10^-6). Custo IPLs: R$ 485.000. Custo acidente: R$ 50.000.000+. REFERENCIA ABNT: MANNAN, S. Lees Loss Prevention in the Process Industries. 4. ed. Oxford: Butterworth-Heinemann, 2012."
                     }
                   ],
                   "formula": "Q = A x Cd x sqrt(2 x rho x DP) | Freq_mitigada = F_iniciadora x Pi(PFD_i) | SIL PFD: 10^-1 a 10^-5",
@@ -14441,24 +14441,24 @@
                   ]
                 },
                 {
-                  "id": "pcms-saude",
-                  "titulo": "PCMSO e Saude Ocupacional",
-                  "definicao": "O PCMSO (NR-07) e o programa de gestao de saude ocupacional que estabelece requisitos para exames medicos obrigatorios, monitoramento biologico e promocao da saude. Os exames sao: admissional, periodico, retorno ao trabalho (> 30 dias), mudanca de funcao e demissional. O ASO certifica a aptidao do trabalhador. O programa inclui ainda imunizacoes e vigilancia de doencas ocupacionais.",
+                  "id": "pcms-saúde",
+                  "titulo": "PCMSO e Saúde Ocupacional",
+                  "definicao": "O PCMSO (NR-07) e o programa de gestão de saúde ocupacional que estabelece requisitos para exames médicos obrigatorios, monitoramento biológico e promoção da saúde. Os exames são: admissional, periódico, retorno ao trabalho (> 30 dias), mudança de função e demissional. O ASO certifica a aptidão do trabalhador. O programa inclui ainda imunizacoes e vigilância de doenças ocupacionais.",
                   "topicos": [
                     {
                       "nome": "NR-07 e Exames Ocupacionais",
-                      "descricao": "DEFINICAO FORMAL: NR-07 estabelece PCMSO com exames: admissional, periodico (conforme idade e risco), retorno ao trabalho, mudanca de funcao e demissional. ASO deve conter: identificacao, riscos ocupacionais, exames, conclusao (apto/restricao/inapto). PILARES TEORICOS: Medicina do Trabalho baseada em evidencias, BEI. AUTOR PRINCIPAL: Rene Mendes, autor de Patologia do Trabalho (2013). EXEMPLO PRATICO: Exposicao a chumbo em fundicao. Pb-S = 52 ug/dL (limite 40 ug/dL). Afastamento imediato por 30 dias, investigacao de fontes (amostragem: 0,15 mg/m3, TLV 0,05). Melhoria: respirador semipresurizado P3, VLE. Apos 30 dias: Pb-S = 38 ug/dL. Retorno com restricoes. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                      "descricao": "DEFINICAO FORMAL: NR-07 estabelece PCMSO com exames: admissional, periódico (conforme idade e risco), retorno ao trabalho, mudança de função e demissional. ASO deve conter: identificação, riscos ocupacionais, exames, conclusão (apto/restrição/inapto). PILARES TEORICOS: Medicina do Trabalho baseada em evidencias, BEI. AUTOR PRINCIPAL: Rene Mendes, autor de Patologia do Trabalho (2013). EXEMPLO PRATICO: Exposição a chumbo em fundição. Pb-S = 52 ug/dL (limite 40 ug/dL). Afastamento imediato por 30 dias, investigação de fontes (amostragem: 0,15 mg/m3, TLV 0,05). Melhoria: respirador semipresurizado P3, VLE. Após 30 dias: Pb-S = 38 ug/dL. Retorno com restrições. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. São Paulo: Atheneu, 2013."
                     },
                     {
-                      "nome": "Doencas Ocupacionais e Vigilancia",
-                      "descricao": "DEFINICAO FORMAL: Doencas ocupacionais classificam-se em profissional (inerente a atividade) e do trabalho (desencadeada por condicoes). Lista do MS (Portaria 1.339/1999) com 165 doencas. Mais prevalentes no Brasil: LER/DORT (28% dos afastamentos), PAIR (15%), dermatoses (10%). PILARES TEORICOS: Epidemiologia, Fisiopatologia, NTEP (Lei 11.430/2006). AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Vigilancia de silicose em serraria de granito. Exposicao: 0,12 mg/m3 (TLV 0,025). 180 trabalhadores, 8 casos em 3 anos (4,4%), 3 estagio 1, 3 estagio 2, 2 estagio 3. Custo previdenciario: R$ 8.640.000. Prevencao: corte umido (reducao 90%), VLE, PFF3. Investimento: R$ 1.200.000. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                      "nome": "Doenças Ocupacionais e Vigilância",
+                      "descricao": "DEFINICAO FORMAL: Doenças ocupacionais classificam-se em profissional (inerente a atividade) e do trabalho (desencadeada por condições). Lista do MS (Portaria 1.339/1999) com 165 doenças. Mais prevalentes no Brasil: LER/DORT (28% dos afastamentos), PAIR (15%), dermatoses (10%). PILARES TEORICOS: Epidemiologia, Fisiopatologia, NTEP (Lei 11.430/2006). AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Vigilância de silicose em serraria de granito. Exposição: 0,12 mg/m3 (TLV 0,025). 180 trabalhadores, 8 casos em 3 anos (4,4%), 3 estágio 1, 3 estágio 2, 2 estágio 3. Custo previdenciário: R$ 8.640.000. Prevenção: corte úmido (redução 90%), VLE, PFF3. Investimento: R$ 1.200.000. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. São Paulo: Atheneu, 2013."
                     },
                     {
-                      "nome": "ASO e Gestao de Saude Ocupacional",
-                      "descricao": "DEFINICAO FORMAL: ASO emitido pelo medico coordenador do PCMSO em 2 vias, arquivado por 20 anos. Gestao integrada com e-Social (eventos S-2210, S-2220, S-2230) e indicadores de saude. PILARES TEORICOS: Medicina do Trabalho, Bioetica (beneficencia, nao maleficencia, autonomia), LGPD. AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Industria quimica com 1.200 empregados. Sistema integrado: agendamento automatico conforme riscos, ASO com QR code, envio ao e-Social, dashboard de indicadores. 350 ASO em 30 dias, 18 pendencias (5,1%). Convocacao por WhatsApp, resolvido em 48h. Custo sistema: R$ 60.000/ano. Reducao de autuacoes e passivo trabalhista. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                      "nome": "ASO e Gestão de Saúde Ocupacional",
+                      "descricao": "DEFINICAO FORMAL: ASO emitido pelo médico coordenador do PCMSO em 2 vias, arquivado por 20 anos. Gestão integrada com e-Social (eventos S-2210, S-2220, S-2230) e indicadores de saúde. PILARES TEORICOS: Medicina do Trabalho, Bioetica (beneficência, não maleficência, autonomia), LGPD. AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Industria química com 1.200 empregados. Sistema integrado: agendamento automatico conforme riscos, ASO com QR code, envio ao e-Social, dashboard de indicadores. 350 ASO em 30 dias, 18 pendencias (5,1%). Convocação por WhatsApp, resolvido em 48h. Custo sistema: R$ 60.000/ano. Redução de autuacoes e passivo trabalhista. REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     }
                   ],
-                  "formula": "NTEP: Nexo = f(Doenca_CID, Atividade_CNAE) | ASO: Apto <=> Exames OK | Periodicidade: f(Idade, Risco)",
+                  "formula": "NTEP: Nexo = f(Doença_CID, Atividade_CNAE) | ASO: Apto <=> Exames OK | Periodicidade: f(Idade, Risco)",
                   "aplicacoes": [
                     "Programa de exames medicos ocupacionais conforme NR-07",
                     "Emissao e gestao de ASO com integracao e-Social",
@@ -14468,20 +14468,20 @@
                   ]
                 },
                 {
-                  "id": "emergencia-incendio",
-                  "titulo": "Emergencia e Combate a Incendio",
-                  "definicao": "A gestao de emergencias e combate a incendio e o conjunto de medidas preventivas, preparatorias e de resposta para proteger vidas e patrimonio. Classes de incendio: A (solidos), B (liquidos inflamaveis), C (equipamentos eletricos), D (metais combustiveis), K (oleos de cozinha). A Brigada de Incendio (NBR 14276) e a equipe treinada. O PAE estabelece procedimentos de resposta. Metodos de extincao: remocao, resfriamento, abafamento, quebra da reacao em cadeia.",
+                  "id": "emergência-incêndio",
+                  "titulo": "Emergência e Combate a Incêndio",
+                  "definicao": "A gestão de emergencias e combate a incêndio e o conjunto de medidas preventivas, preparatorias e de resposta para proteger vidas e patrimônio. Classes de incêndio: A (solidos), B (liquidos inflamaveis), C (equipamentos eletricos), D (metais combustiveis), K (óleos de cozinha). A Brigada de Incêndio (NBR 14276) e a equipe treinada. O PAE estabelece procedimentos de resposta. Métodos de extinção: remocao, resfriamento, abafamento, quebra da reacao em cadeia.",
                   "topicos": [
                     {
-                      "nome": "Classes de Incendio e Metodos de Extincao",
-                      "descricao": "DEFINICAO FORMAL: Classes baseadas no material combustivel. Classe A: solidos, extintos por resfriamento (agua). Classe B: liquidos inflamaveis, extintos por abafamento (CO2, PQS). Classe C: equipamentos eletricos, extintos com CO2 ou PQS. Classe D: metais, com po quimico especial. Classe K: oleos vegetais, com espuma saponificante. PILARES TEORICOS: Tetraedro do Fogo: combustivel, comburente, calor, reacao em cadeia. AUTOR PRINCIPAL: NFPA (fundada 1896). EXEMPLO PRATICO: Dimensionamento de extintores para galao 960 m2, risco B medio. Capacidade extintora: 2 extintores PQS 12 kg (30B cada). Posicionamento a cada 20 m. Manutencao: teste hidrostatico 5/20 anos. Sprinklers: area 100 m2, 8 cabecas, 80 L/min cada, reserva 38.400 L. REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                      "nome": "Classes de Incêndio e Métodos de Extinção",
+                      "descricao": "DEFINICAO FORMAL: Classes baseadas no material combustível. Classe A: solidos, extintos por resfriamento (água). Classe B: liquidos inflamaveis, extintos por abafamento (CO2, PQS). Classe C: equipamentos eletricos, extintos com CO2 ou PQS. Classe D: metais, com po químico especial. Classe K: óleos vegetais, com espuma saponificante. PILARES TEORICOS: Tetraedro do Fogo: combustível, comburente, calor, reacao em cadeia. AUTOR PRINCIPAL: NFPA (fundada 1896). EXEMPLO PRATICO: Dimensionamento de extintores para galão 960 m2, risco B médio. Capacidade extintora: 2 extintores PQS 12 kg (30B cada). Posicionamento a cada 20 m. Manutenção: teste hidrostático 5/20 anos. Sprinklers: área 100 m2, 8 cabeças, 80 L/min cada, reserva 38.400 L. REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     },
                     {
-                      "nome": "Brigada de Incendio e PAE",
-                      "descricao": "DEFINICAO FORMAL: Brigada de Incendio (NBR 14276) e grupo treinado para prevencao e combate. PAE contem: identificacao de riscos, recursos, procedimentos (abandono, combate, resgate), organograma. PILARES TEORICOS: Gerenciamento de Crises (Mitroff, 1994), NFPA 1600. AUTOR PRINCIPAL: NFPA e ABNT. EXEMPLO PRATICO: Shopping center 45.000 m2, 1.200 funcionarios, 15.000 pessoas/dia. Risco alto: 1 brigadista/20 funcionarios = 60 brigadistas. Treinamento 20h (teoria 8h + pratica 12h). Simulacoes: bloquinho mensal, integrada semestral. PAE: alarme, 4 pontos de encontro, rotas de fuga (largura 1,2 m). Custo: R$ 105.000. Custo de fatalidade: R$ 3.000.000+. REFERENCIA ABNT: VENDRAME, A. C. Seguranca do Trabalho. Sao Paulo: LTr, 2019."
+                      "nome": "Brigada de Incêndio e PAE",
+                      "descricao": "DEFINICAO FORMAL: Brigada de Incêndio (NBR 14276) e grupo treinado para prevenção e combate. PAE contem: identificação de riscos, recursos, procedimentos (abandono, combate, resgate), organograma. PILARES TEORICOS: Gerenciamento de Crises (Mitroff, 1994), NFPA 1600. AUTOR PRINCIPAL: NFPA e ABNT. EXEMPLO PRATICO: Shopping center 45.000 m2, 1.200 funcionarios, 15.000 pessoas/dia. Risco alto: 1 brigadista/20 funcionarios = 60 brigadistas. Treinamento 20h (teoria 8h + prática 12h). Simulacoes: bloquinho mensal, integrada semestral. PAE: alarme, 4 pontos de encontro, rotas de fuga (largura 1,2 m). Custo: R$ 105.000. Custo de fatalidade: R$ 3.000.000+. REFERENCIA ABNT: VENDRAME, A. C. Segurança do Trabalho. São Paulo: LTr, 2019."
                     }
                   ],
-                  "formula": "Cap_extintora = S(CB x Area) | Dimensao Brigada = Populacao_Fixa / Fator_Risco | Q_sprinkler = n x 80 L/min",
+                  "formula": "Cap_extintora = S(CB x Área) | Dimensão Brigada = População_Fixa / Fator_Risco | Q_sprinkler = n x 80 L/min",
                   "aplicacoes": [
                     "Dimensionamento de sistema de protecao contra incendio (extintores, hidrantes, sprinklers)",
                     "Implantacao de Brigada de Incendio conforme NBR 14276",
@@ -14491,21 +14491,21 @@
                   ]
                 },
                 {
-                  "id": "indicadores-seguranca",
-                  "titulo": "Indicadores de Seguranca",
-                  "definicao": "Indicadores de seguranca sao metricas para medir, monitorar e avaliar o desempenho da gestao de SST. Classificam-se em reativos (lagging: acidentes, lesoes, dias perdidos) e proativos (leading: treinamentos, inspecoes, auditorias, quase-acidentes). Principais no Brasil: TFA (Taxa de Frequencia de Acidentes), TG (Taxa de Gravidade), TAE (Taxa de Acidentes com Empregados) e FAP (Fator Acidentario de Prevencao). A ISO 45001 (Clausula 9.1) exige monitoramento e avaliacao do desempenho.",
+                  "id": "indicadores-segurança",
+                  "titulo": "Indicadores de Segurança",
+                  "definicao": "Indicadores de segurança são metricas para medir, monitorar e avaliar o desempenho da gestão de SST. Classificam-se em reativos (lagging: acidentes, lesoes, dias perdidos) e proativos (leading: treinamentos, inspeções, auditorias, quase-acidentes). Principais no Brasil: TFA (Taxa de Frequência de Acidentes), TG (Taxa de Gravidade), TAE (Taxa de Acidentes com Empregados) e FAP (Fator Acidentário de Prevenção). A ISO 45001 (Cláusula 9.1) exige monitoramento e avaliação do desempenho.",
                   "topicos": [
                     {
-                      "nome": "Taxa de Frequencia e Taxa de Gravidade",
-                      "descricao": "DEFINICAO FORMAL: TFA = (N x 1.000.000) / H (acidentes por milhao de horas-homem). TG = (D x 1.000.000) / H (dias perdidos por milhao de horas-homem). Dias debitados conforme NBR 14280 (OIT: obito = 6.000 dias). PILARES TEORICOS: Estatistica descritiva, Epidemiologia Ocupacional, Ciencia Atuarial. AUTOR PRINCIPAL: OIT. EXEMPLO PRATICO: Construcao, 1.200 empregados, H = 2.112.000 Hh. 12 acidentes com afastamento (180 dias), 3 sem afastamento. TFA com afastamento = (12 x 10^6)/2.112.000 = 5,68. TFA total = 7,10. TG = 85,2. FAP: se abaixo da media do CNAE, FAP=0,5 (economia de R$ 720.000/ano). REFERENCIA ABNT: SALIBA, T. M. Curso Basico de Seguranca e Higiene Ocupacional. 10. ed. Sao Paulo: LTr, 2021."
+                      "nome": "Taxa de Frequência e Taxa de Gravidade",
+                      "descricao": "DEFINICAO FORMAL: TFA = (N x 1.000.000) / H (acidentes por milhão de horas-homem). TG = (D x 1.000.000) / H (dias perdidos por milhão de horas-homem). Dias debitados conforme NBR 14280 (OIT: óbito = 6.000 dias). PILARES TEORICOS: Estatística descritiva, Epidemiologia Ocupacional, Ciência Atuarial. AUTOR PRINCIPAL: OIT. EXEMPLO PRATICO: Construção, 1.200 empregados, H = 2.112.000 Hh. 12 acidentes com afastamento (180 dias), 3 sem afastamento. TFA com afastamento = (12 x 10^6)/2.112.000 = 5,68. TFA total = 7,10. TG = 85,2. FAP: se abaixo da média do CNAE, FAP=0,5 (economia de R$ 720.000/ano). REFERENCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
                     },
                     {
                       "nome": "Indicadores Proativos e Balanced Scorecard",
-                      "descricao": "DEFINICAO FORMAL: Leading indicators medem atividades preventivas: treinamentos, inspecoes, auditorias, quase-acidentes reportados, observacoes BBS, acoes corretivas fechadas. BSC de seguranca: (1) Financeira; (2) Clientes; (3) Processos internos; (4) Aprendizado e crescimento. PILARES TEORICOS: Teoria da Medicao de Desempenho (Neely, 2002), Gestao Estrategica (Kaplan, Norton). AUTOR PRINCIPAL: H. James Harrington (1929-). EXEMPLO PRATICO: BSC de seguranca em industria quimica. ICS = media ponderada: lideranca 75%, treinamento 81%, riscos 91%, cultura 91%, quase-acidentes 60% = 80%. Meta: 85%. Apos 6 meses: ICS = 87%. TFA reduziu de 2,5 para 1,8 (28%). REFERENCIA ABNT: CAMISASSA, M. Q. Seguranca e Saude no Trabalho. 5. ed. Sao Paulo: Metodo, 2022."
+                      "descricao": "DEFINICAO FORMAL: Leading indicators medem atividades preventivas: treinamentos, inspeções, auditorias, quase-acidentes reportados, observacoes BBS, ações corretivas fechadas. BSC de segurança: (1) Financeira; (2) Clientes; (3) Processos internos; (4) Aprendizado e crescimento. PILARES TEORICOS: Teoria da Medição de Desempenho (Neely, 2002), Gestão Estratégica (Kaplan, Norton). AUTOR PRINCIPAL: H. James Harrington (1929-). EXEMPLO PRATICO: BSC de segurança em industria química. ICS = média ponderada: liderança 75%, treinamento 81%, riscos 91%, cultura 91%, quase-acidentes 60% = 80%. Meta: 85%. Após 6 meses: ICS = 87%. TFA reduziu de 2,5 para 1,8 (28%). REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     },
                     {
                       "nome": "FAP e Taxa de Acidentes com Empregados (TAE)",
-                      "descricao": "DEFINICAO FORMAL: FAP (Lei 11.430/2006) varia de 0,5 a 2,0 e ajusta alíquota SAT/RAT. Calculado com base em frequencia (TAE), gravidade e custo dos acidentes. TAE = (N_acidentes x 1.000) / n_empregados. PILARES TEORICOS: Teoria Atuarial, Economia do Trabalho, Politica Publica (poluidor-pagador). AUTOR PRINCIPAL: INSS e Ministerio da Previdencia. EXEMPLO PRATICO: Empresa alimenticia, 500 empregados, 15 CATs, 120 dias perdidos, custo R$ 85.000. FAP = 0,5x1,20 + 0,3x1,36 + 0,2x1,42 = 1,292. Aliquota efetiva = 2,0% x 1,292 = 2,584%. Custo adicional: R$ 42.048/ano. Com programa de prevencao: FAP projetado 0,85, economia de R$ 21.600/ano. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. Sao Paulo: Atheneu, 2013."
+                      "descricao": "DEFINICAO FORMAL: FAP (Lei 11.430/2006) varia de 0,5 a 2,0 e ajusta alíquota SAT/RAT. Calculado com base em frequência (TAE), gravidade e custo dos acidentes. TAE = (N_acidentes x 1.000) / n_empregados. PILARES TEORICOS: Teoria Atuarial, Economia do Trabalho, Politica Pública (poluidor-pagador). AUTOR PRINCIPAL: INSS e Ministério da Previdência. EXEMPLO PRATICO: Empresa alimenticia, 500 empregados, 15 CATs, 120 dias perdidos, custo R$ 85.000. FAP = 0,5x1,20 + 0,3x1,36 + 0,2x1,42 = 1,292. Alíquota efetiva = 2,0% x 1,292 = 2,584%. Custo adicional: R$ 42.048/ano. Com programa de prevenção: FAP projetado 0,85, economia de R$ 21.600/ano. REFERENCIA ABNT: MENDES, R. Patologia do Trabalho. 3. ed. São Paulo: Atheneu, 2013."
                     }
                   ],
                   "formula": "TFA = (N x 10^6) / H | TG = (D x 10^6) / H | FAP = 0,5xFreq + 0,3xGrav + 0,2xCusto",
@@ -15308,12 +15308,12 @@
         },
         {
           "tipo": "Livro",
-          "ref": "Iris, G. M. Qualidade de Vida no Trabalho (QVT). São Paulo: LTr, 2014."
+          "ref": "Íris, G. M. Qualidade de Vida no Trabalho (QVT). São Paulo: LTr, 2014."
         }
       ]
     },
     {
-      "id": "gestao-ambiental",
+      "id": "gestão-ambiental",
       "nome": "Gestão Ambiental Industrial",
       "icone": "leaf",
       "cor": "#16a34a",
@@ -15482,16 +15482,16 @@
       "nome": "Engrenagem STEP - 1",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de engrenagem em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de engrenagem em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_2",
-      "nome": "Valvula Direcional IGES - 2",
+      "nome": "Válvula Direcional IGES - 2",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de valvula direcional em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de válvula direcional em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
@@ -15500,7 +15500,7 @@
       "nome": "Unidade de Condicionamento STL - 3",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -15509,7 +15509,7 @@
       "nome": "Perfil T DWG - 4",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de perfil t em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de perfil t em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -15518,7 +15518,7 @@
       "nome": "Escada DXF - 5",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
@@ -15527,16 +15527,16 @@
       "nome": "Atuador Linear SLDPRT - 6",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de atuador linear em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de atuador linear em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_7",
-      "nome": "Valvula Gaveta SLDASM - 7",
+      "nome": "Válvula Gaveta SLDASM - 7",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de valvula gaveta em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de válvula gaveta em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
@@ -15545,7 +15545,7 @@
       "nome": "Mesa Rotativa IPT - 8",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de mesa rotativa em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de mesa rotativa em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
@@ -15554,8 +15554,8 @@
       "nome": "Compressor IAM - 9",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
-      "descricao": "Modelo CAD publico de compressor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de compressor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
@@ -15563,7 +15563,7 @@
       "nome": "Bancada de Trabalho SAT - 10",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de bancada de trabalho em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de bancada de trabalho em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -15572,8 +15572,8 @@
       "nome": "Plataforma Elevatoria BREP - 11",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -15581,25 +15581,25 @@
       "nome": "Pino 3DM - 12",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de pino em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de pino em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_13",
-      "nome": "Cilindro Hidraulico RVT - 13",
+      "nome": "Cilindro Hidráulico RVT - 13",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de cilindro hidraulico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de cilindro hidráulico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_14",
-      "nome": "Mangueira Pneumatica DWF - 14",
+      "nome": "Mangueira Pneumática DWF - 14",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de mangueira pneumatica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de mangueira pneumática em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -15608,7 +15608,7 @@
       "nome": "Perfil U STEP - 15",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de perfil u em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de perfil u em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
@@ -15617,25 +15617,25 @@
       "nome": "Corte Transversal IGES - 16",
       "tipo": "IGES",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_17",
-      "nome": "Motor Eletrico STL - 17",
+      "nome": "Motor Elétrico STL - 17",
       "tipo": "STL",
       "url": "https://grabcad.com/library/cnc-router-92",
-      "descricao": "Modelo CAD publico de motor eletrico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de motor elétrico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_18",
-      "nome": "Valvula Esfera DWG - 18",
+      "nome": "Válvula Esfera DWG - 18",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de valvula esfera em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de válvula esfera em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -15644,7 +15644,7 @@
       "nome": "Divisor Universal DXF - 19",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de divisor universal em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de divisor universal em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
@@ -15653,8 +15653,8 @@
       "nome": "Bomba Centrifuga SLDPRT - 20",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/94205A260",
-      "descricao": "Modelo CAD publico de bomba centrifuga em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de bomba centrifuga em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
@@ -15662,7 +15662,7 @@
       "nome": "Pallet SLDASM - 21",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de pallet em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de pallet em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -15671,8 +15671,8 @@
       "nome": "Reboque Industrial IPT - 22",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -15680,8 +15680,8 @@
       "nome": "Correia IAM - 23",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de correia em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de correia em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
@@ -15689,7 +15689,7 @@
       "nome": "Distribuidor SAT - 24",
       "tipo": "SAT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de distribuidor em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de distribuidor em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
@@ -15698,7 +15698,7 @@
       "nome": "Silenciador BREP - 25",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de silenciador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de silenciador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -15707,7 +15707,7 @@
       "nome": "Chapa de Reforco 3DM - 26",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de chapa de reforco em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de chapa de reforco em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -15716,7 +15716,7 @@
       "nome": "Sacada RVT - 27",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
@@ -15725,7 +15725,7 @@
       "nome": "Disjuntor DWF - 28",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de disjuntor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de disjuntor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
@@ -15734,7 +15734,7 @@
       "nome": "Curva STEP - 29",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de curva em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de curva em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
@@ -15743,25 +15743,25 @@
       "nome": "Mandril IGES - 30",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de mandril em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de mandril em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_31",
-      "nome": "Prensa Hidraulica STL - 31",
+      "nome": "Prensa Hidráulica STL - 31",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de prensa hidraulica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de prensa hidráulica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_32",
-      "nome": "Armario para Ferramentas DWG - 32",
+      "nome": "Armário para Ferramentas DWG - 32",
       "tipo": "DWG",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de armario para ferramentas em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de armário para ferramentas em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -15770,17 +15770,17 @@
       "nome": "Carrinho Transportador DXF - 33",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/brutal-diy-lathe-1",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_34",
       "nome": "Fuso SLDPRT - 34",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de fuso em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de fuso em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
@@ -15788,7 +15788,7 @@
       "nome": "Atuador Rotativo SLDASM - 35",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de atuador rotativo em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de atuador rotativo em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
@@ -15797,7 +15797,7 @@
       "nome": "Lubrificador IPT - 36",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de lubrificador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de lubrificador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -15806,16 +15806,16 @@
       "nome": "Suporte IAM - 37",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de suporte em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de suporte em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_38",
-      "nome": "Fundacao SAT - 38",
+      "nome": "Fundação SAT - 38",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de fundação em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
@@ -15824,16 +15824,16 @@
       "nome": "Encoder BREP - 39",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de encoder em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de encoder em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_40",
-      "nome": "Reducao 3DM - 40",
+      "nome": "Redução 3DM - 40",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de redução em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de redução em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -15842,17 +15842,17 @@
       "nome": "Morsa RVT - 41",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de morsa em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de morsa em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_42",
-      "nome": "Torno Mecanico DWF - 42",
+      "nome": "Torno Mecânico DWF - 42",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de torno mecanico em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de torno mecânico em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
@@ -15860,7 +15860,7 @@
       "nome": "Cadeira STEP - 43",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de cadeira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de cadeira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -15869,8 +15869,8 @@
       "nome": "Empilhadeira IGES - 44",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de empilhadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
@@ -15878,8 +15878,8 @@
       "nome": "Mola STL - 45",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de mola em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de mola em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
@@ -15887,16 +15887,16 @@
       "nome": "Acumulador DWG - 46",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de acumulador em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de acumulador em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_47",
-      "nome": "Valvula Solenoide DXF - 47",
+      "nome": "Válvula Solenoide DXF - 47",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de valvula solenoide em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de válvula solenoide em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -15905,7 +15905,7 @@
       "nome": "Coluna SLDPRT - 48",
       "tipo": "SLDPRT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de coluna em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de coluna em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -15914,7 +15914,7 @@
       "nome": "Janela SLDASM - 49",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
-      "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
@@ -15923,7 +15923,7 @@
       "nome": "Contator IPT - 50",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de contator em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de contator em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
@@ -15932,7 +15932,7 @@
       "nome": "Te IAM - 51",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de te em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de te em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
@@ -15941,7 +15941,7 @@
       "nome": "Grampo SAT - 52",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de grampo em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de grampo em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
@@ -15950,16 +15950,16 @@
       "nome": "Fresadora BREP - 53",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de fresadora em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de fresadora em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_54",
-      "nome": "Cabine de Seguranca 3DM - 54",
+      "nome": "Cabine de Segurança 3DM - 54",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de cabine de seguranca em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de cabine de segurança em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -15968,8 +15968,8 @@
       "nome": "Paleteira RVT - 55",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de paleteira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
@@ -15977,25 +15977,25 @@
       "nome": "Polia DWF - 56",
       "tipo": "DWF",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de polia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de polia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_57",
-      "nome": "Manometro STEP - 57",
+      "nome": "Manômetro STEP - 57",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/cnc-lathe-machine-1",
-      "descricao": "Modelo CAD publico de manometro em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de manômetro em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_58",
-      "nome": "Atuador Pneumatico IGES - 58",
+      "nome": "Atuador Pneumático IGES - 58",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de atuador pneumatico em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de atuador pneumático em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -16004,7 +16004,7 @@
       "nome": "Cantoneira STL - 59",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de cantoneira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de cantoneira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
@@ -16013,16 +16013,16 @@
       "nome": "Telhado DWG - 60",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_61",
-      "nome": "Fonte de Alimentacao DXF - 61",
+      "nome": "Fonte de Alimentação DXF - 61",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de fonte de alimentacao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de fonte de alimentação em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
     },
@@ -16031,7 +16031,7 @@
       "nome": "Cotovelo 90 SLDPRT - 62",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de cotovelo 90 em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de cotovelo 90 em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
     },
@@ -16040,17 +16040,17 @@
       "nome": "Calibrador SLDASM - 63",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de calibrador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de calibrador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_64",
-      "nome": "Retifica IPT - 64",
+      "nome": "Retífica IPT - 64",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de retifica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de retífica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "PartCommunity"
     },
     {
@@ -16058,7 +16058,7 @@
       "nome": "Estante Industrial IAM - 65",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de estante industrial em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de estante industrial em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
     },
@@ -16067,8 +16067,8 @@
       "nome": "Guindaste SAT - 66",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de guindaste em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Veículos e Transporte",
       "fonte": "TraceParts"
     },
     {
@@ -16076,25 +16076,25 @@
       "nome": "Guia Linear BREP - 67",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de guia linear em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de guia linear em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Peças Mecânicas",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_68",
-      "nome": "Conexao Rapida 3DM - 68",
+      "nome": "Conexão Rapida 3DM - 68",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de conexão rapida em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de conexão rapida em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_69",
-      "nome": "Conexao Pneumatica RVT - 69",
+      "nome": "Conexão Pneumática RVT - 69",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de conexão pneumatica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de conexão pneumática em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
     },
@@ -16103,7 +16103,7 @@
       "nome": "Barra Chata DWF - 70",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de barra chata em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de barra chata em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
     },
@@ -16112,7 +16112,7 @@
       "nome": "Planta Baixa STEP - 71",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
     },
@@ -16121,7 +16121,7 @@
       "nome": "Servomotor IGES - 72",
       "tipo": "IGES",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de servomotor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de servomotor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
     },
@@ -16130,16 +16130,16 @@
       "nome": "Flange STL - 73",
       "tipo": "STL",
       "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
-      "descricao": "Modelo CAD publico de flange em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de flange em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_74",
-      "nome": "Suporte de Fixacao DWG - 74",
+      "nome": "Suporte de Fixação DWG - 74",
       "tipo": "DWG",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de suporte de fixacao em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de suporte de fixação em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
     },
@@ -16148,8 +16148,8 @@
       "nome": "Furadeira de Bancada DXF - 75",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de furadeira de bancada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de furadeira de bancada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "3D ContentCentral"
     },
     {
@@ -16157,7 +16157,7 @@
       "nome": "Rack SLDPRT - 76",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/94205A260",
-      "descricao": "Modelo CAD publico de rack em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de rack em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
     },
@@ -16166,8 +16166,8 @@
       "nome": "Plataforma Elevatoria SLDASM - 77",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Veículos e Transporte",
       "fonte": "BIMobject"
     },
     {
@@ -16175,8 +16175,8 @@
       "nome": "Arruela IPT - 78",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de arruela em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de arruela em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Peças Mecânicas",
       "fonte": "CADdetails"
     },
     {
@@ -16184,16 +16184,16 @@
       "nome": "Mangueira IAM - 79",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de mangueira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de mangueira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_80",
-      "nome": "Regulador de Pressao SAT - 80",
+      "nome": "Regulador de Pressão SAT - 80",
       "tipo": "SAT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de regulador de pressao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de regulador de pressão em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
     },
@@ -16202,7 +16202,7 @@
       "nome": "Perfil L BREP - 81",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/differential-unit-3",
-      "descricao": "Modelo CAD publico de perfil l em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de perfil l em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
     },
@@ -16210,8 +16210,8 @@
       "id": "cad_82",
       "nome": "Rampa 3DM - 82",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
     },
@@ -16220,7 +16220,7 @@
       "nome": "Sensor de Proximidade RVT - 83",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de sensor de proximidade em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de sensor de proximidade em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
     },
@@ -16229,7 +16229,7 @@
       "nome": "Nipple DWF - 84",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de nipple em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de nipple em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
     },
@@ -16238,7 +16238,7 @@
       "nome": "Gabarito STEP - 85",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de gabarito em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de gabarito em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
     },
@@ -16247,16 +16247,16 @@
       "nome": "Esteira Transportadora IGES - 86",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de esteira transportadora em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de esteira transportadora em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_87",
-      "nome": "Mesa de Inspecao STL - 87",
+      "nome": "Mesa de Inspeção STL - 87",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de mesa de inspecao em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de mesa de inspeção em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
     },
@@ -16265,8 +16265,8 @@
       "nome": "Reboque Industrial DWG - 88",
       "tipo": "DWG",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de reboque industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Veículos e Transporte",
       "fonte": "PartCommunity"
     },
     {
@@ -16274,25 +16274,25 @@
       "nome": "Rolamento DXF - 89",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/cnc-lathe-machine-1",
-      "descricao": "Modelo CAD publico de rolamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de rolamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_90",
-      "nome": "Filtro Hidraulico SLDPRT - 90",
+      "nome": "Filtro Hidráulico SLDPRT - 90",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de filtro hidraulico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de filtro hidráulico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_91",
-      "nome": "Cilindro Pneumatico SLDASM - 91",
+      "nome": "Cilindro Pneumático SLDASM - 91",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de cilindro pneumatico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de cilindro pneumático em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -16301,7 +16301,7 @@
       "nome": "Viga I IPT - 92",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de viga i em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de viga i em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -16310,7 +16310,7 @@
       "nome": "Laje IAM - 93",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
@@ -16319,7 +16319,7 @@
       "nome": "Transformador SAT - 94",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de transformador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de transformador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
@@ -16328,7 +16328,7 @@
       "nome": "Bocal BREP - 95",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de bocal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de bocal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
@@ -16337,7 +16337,7 @@
       "nome": "Dispositivo de Torneamento 3DM - 96",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de dispositivo de torneamento em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de dispositivo de torneamento em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
@@ -16346,16 +16346,16 @@
       "nome": "Rosqueadeira RVT - 97",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/spur-gear-assembly-14",
-      "descricao": "Modelo CAD publico de rosqueadeira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de rosqueadeira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_98",
       "nome": "Painel de Controle DWF - 98",
       "tipo": "DWF",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de painel de controle em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de painel de controle em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -16364,8 +16364,8 @@
       "nome": "Carrinho Transportador STEP - 99",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -16373,16 +16373,16 @@
       "nome": "Bucha IGES - 100",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de bucha em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de bucha em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_101",
-      "nome": "Reservatorio STL - 101",
+      "nome": "Reservatório STL - 101",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de reservatorio em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de reservatório em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
@@ -16391,7 +16391,7 @@
       "nome": "Unidade de Condicionamento DWG - 102",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -16400,7 +16400,7 @@
       "nome": "Bracket DXF - 103",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de bracket em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de bracket em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
@@ -16409,16 +16409,16 @@
       "nome": "Porta SLDPRT - 104",
       "tipo": "SLDPRT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_105",
-      "nome": "Quadro Eletrico SLDASM - 105",
+      "nome": "Quadro Elétrico SLDASM - 105",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/cnc-lathe-machine-1",
-      "descricao": "Modelo CAD publico de quadro eletrico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de quadro elétrico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
@@ -16427,7 +16427,7 @@
       "nome": "Spool IPT - 106",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de spool em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de spool em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -16436,7 +16436,7 @@
       "nome": "Dispositivo de Fresamento IAM - 107",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de dispositivo de fresamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de dispositivo de fresamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
@@ -16445,8 +16445,8 @@
       "nome": "Misturador Industrial SAT - 108",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de misturador industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de misturador industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
@@ -16454,7 +16454,7 @@
       "nome": "Bancada de Trabalho BREP - 109",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de bancada de trabalho em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de bancada de trabalho em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -16463,8 +16463,8 @@
       "nome": "Empilhadeira 3DM - 110",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de empilhadeira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -16472,25 +16472,25 @@
       "nome": "Porca RVT - 111",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de porca em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de porca em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_112",
-      "nome": "Bomba Hidraulica DWF - 112",
+      "nome": "Bomba Hidráulica DWF - 112",
       "tipo": "DWF",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de bomba hidraulica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de bomba hidráulica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_113",
-      "nome": "Mangueira Pneumatica STEP - 113",
+      "nome": "Mangueira Pneumática STEP - 113",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
-      "descricao": "Modelo CAD publico de mangueira pneumatica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de mangueira pneumática em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -16499,7 +16499,7 @@
       "nome": "Base Metalica IGES - 114",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de base metalica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de base metalica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -16508,7 +16508,7 @@
       "nome": "Fachada STL - 115",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
@@ -16517,16 +16517,16 @@
       "nome": "Chave Fim de Curso DWG - 116",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de chave fim de curso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de chave fim de curso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_117",
-      "nome": "Junta de Expansao DXF - 117",
+      "nome": "Junta de Expansão DXF - 117",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de junta de expansao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de junta de expansão em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
@@ -16535,7 +16535,7 @@
       "nome": "Mesa Rotativa SLDPRT - 118",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de mesa rotativa em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de mesa rotativa em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
@@ -16544,8 +16544,8 @@
       "nome": "Compressor SLDASM - 119",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de compressor em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de compressor em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
@@ -16553,7 +16553,7 @@
       "nome": "Pallet IPT - 120",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de pallet em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de pallet em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -16562,25 +16562,25 @@
       "nome": "Paleteira IAM - 121",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
-      "descricao": "Modelo CAD publico de paleteira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_122",
       "nome": "Mancal SAT - 122",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de mancal em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de mancal em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_123",
-      "nome": "Valvula de Alivio BREP - 123",
+      "nome": "Válvula de Alívio BREP - 123",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de valvula de alivio em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de válvula de alívio em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
@@ -16589,7 +16589,7 @@
       "nome": "Silenciador 3DM - 124",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de silenciador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de silenciador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -16598,7 +16598,7 @@
       "nome": "Trelica RVT - 125",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de trelica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de trelica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
@@ -16607,7 +16607,7 @@
       "nome": "Marquise DWF - 126",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
@@ -16616,16 +16616,16 @@
       "nome": "Rele STEP - 127",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de rele em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de rele em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_128",
-      "nome": "Valvula Retencao IGES - 128",
+      "nome": "Válvula Retencao IGES - 128",
       "tipo": "IGES",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de valvula retencao em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de válvula retencao em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -16634,7 +16634,7 @@
       "nome": "Divisor Universal STL - 129",
       "tipo": "STL",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de divisor universal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de divisor universal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
@@ -16643,16 +16643,16 @@
       "nome": "Bomba Centrifuga DWG - 130",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de bomba centrifuga em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de bomba centrifuga em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_131",
-      "nome": "Armario para Ferramentas DXF - 131",
+      "nome": "Armário para Ferramentas DXF - 131",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de armario para ferramentas em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de armário para ferramentas em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -16661,25 +16661,25 @@
       "nome": "Guindaste SLDPRT - 132",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de guindaste em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_133",
-      "nome": "Anel Elastico SLDASM - 133",
+      "nome": "Anel Elástico SLDASM - 133",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de anel elastico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de anel elástico em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_134",
-      "nome": "Valvula Direcional IPT - 134",
+      "nome": "Válvula Direcional IPT - 134",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de valvula direcional em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de válvula direcional em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
@@ -16688,7 +16688,7 @@
       "nome": "Lubrificador IAM - 135",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de lubrificador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de lubrificador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -16697,7 +16697,7 @@
       "nome": "Tubo Estrutural SAT - 136",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de tubo estrutural em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de tubo estrutural em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -16706,25 +16706,25 @@
       "nome": "Cobertura BREP - 137",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_138",
-      "nome": "Inversor de Frequencia 3DM - 138",
+      "nome": "Inversor de Frequência 3DM - 138",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de inversor de frequencia em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de inversor de frequência em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_139",
-      "nome": "Valvula Gaveta RVT - 139",
+      "nome": "Válvula Gaveta RVT - 139",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de valvula gaveta em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de válvula gaveta em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
@@ -16733,17 +16733,17 @@
       "nome": "Mandril DWF - 140",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/94205A260",
-      "descricao": "Modelo CAD publico de mandril em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de mandril em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_141",
-      "nome": "Prensa Hidraulica STEP - 141",
+      "nome": "Prensa Hidráulica STEP - 141",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de prensa hidraulica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de prensa hidráulica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
@@ -16751,7 +16751,7 @@
       "nome": "Cadeira IGES - 142",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de cadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de cadeira em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -16760,8 +16760,8 @@
       "nome": "Plataforma Elevatoria STL - 143",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
@@ -16769,25 +16769,25 @@
       "nome": "Parafuso DWG - 144",
       "tipo": "DWG",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de parafuso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de parafuso em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_145",
-      "nome": "Cilindro Hidraulico DXF - 145",
+      "nome": "Cilindro Hidráulico DXF - 145",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
-      "descricao": "Modelo CAD publico de cilindro hidraulico em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cilindro hidráulico em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_146",
-      "nome": "Valvula Solenoide SLDPRT - 146",
+      "nome": "Válvula Solenoide SLDPRT - 146",
       "tipo": "SLDPRT",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de valvula solenoide em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de válvula solenoide em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -16796,7 +16796,7 @@
       "nome": "Perfil T SLDASM - 147",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de perfil t em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de perfil t em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
@@ -16805,7 +16805,7 @@
       "nome": "Pilar IPT - 148",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     },
@@ -16814,16 +16814,16 @@
       "nome": "Atuador Linear IAM - 149",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de atuador linear em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de atuador linear em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_150",
-      "nome": "Valvula Esfera SAT - 150",
+      "nome": "Válvula Esfera SAT - 150",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de valvula esfera em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de válvula esfera em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
     },
@@ -16832,25 +16832,25 @@
       "nome": "Morsa BREP - 151",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de morsa em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de morsa em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_152",
-      "nome": "Torno Mecanico 3DM - 152",
+      "nome": "Torno Mecânico 3DM - 152",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de torno mecanico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de torno mecânico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_153",
-      "nome": "Cabine de Seguranca RVT - 153",
+      "nome": "Cabine de Segurança RVT - 153",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
-      "descricao": "Modelo CAD publico de cabine de seguranca em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cabine de segurança em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
     },
@@ -16859,8 +16859,8 @@
       "nome": "Reboque Industrial DWF - 154",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de reboque industrial em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Veículos e Transporte",
       "fonte": "TraceParts"
     },
     {
@@ -16868,8 +16868,8 @@
       "nome": "Eixo STEP - 155",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de eixo em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de eixo em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Peças Mecânicas",
       "fonte": "3D ContentCentral"
     },
     {
@@ -16877,16 +16877,16 @@
       "nome": "Distribuidor IGES - 156",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de distribuidor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de distribuidor em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_157",
-      "nome": "Atuador Pneumatico STL - 157",
+      "nome": "Atuador Pneumático STL - 157",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de atuador pneumatico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de atuador pneumático em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
     },
@@ -16895,7 +16895,7 @@
       "nome": "Perfil U DWG - 158",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de perfil u em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de perfil u em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
     },
@@ -16904,16 +16904,16 @@
       "nome": "Escada DXF - 159",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_160",
-      "nome": "Motor Eletrico SLDPRT - 160",
+      "nome": "Motor Elétrico SLDPRT - 160",
       "tipo": "SLDPRT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de motor eletrico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de motor elétrico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
     },
@@ -16922,7 +16922,7 @@
       "nome": "Curva SLDASM - 161",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/cnc-lathe-machine-1",
-      "descricao": "Modelo CAD publico de curva em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de curva em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
     },
@@ -16930,8 +16930,8 @@
       "id": "cad_162",
       "nome": "Grampo IPT - 162",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de grampo em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de grampo em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
     },
@@ -16940,8 +16940,8 @@
       "nome": "Fresadora IAM - 163",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de fresadora em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de fresadora em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "3D ContentCentral"
     },
     {
@@ -16949,7 +16949,7 @@
       "nome": "Estante Industrial SAT - 164",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de estante industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de estante industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
     },
@@ -16958,8 +16958,8 @@
       "nome": "Carrinho Transportador BREP - 165",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Veículos e Transporte",
       "fonte": "BIMobject"
     },
     {
@@ -16967,8 +16967,8 @@
       "nome": "Chaveta 3DM - 166",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de chaveta em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de chaveta em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Peças Mecânicas",
       "fonte": "CADdetails"
     },
     {
@@ -16976,16 +16976,16 @@
       "nome": "Atuador Rotativo RVT - 167",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de atuador rotativo em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de atuador rotativo em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_168",
-      "nome": "Conexao Pneumatica DWF - 168",
+      "nome": "Conexão Pneumática DWF - 168",
       "tipo": "DWF",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de conexão pneumatica em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de conexão pneumática em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
     },
@@ -16994,7 +16994,7 @@
       "nome": "Chapa de Reforco STEP - 169",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/conveyor-belt-142",
-      "descricao": "Modelo CAD publico de chapa de reforco em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de chapa de reforco em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
     },
@@ -17003,7 +17003,7 @@
       "nome": "Corte Transversal IGES - 170",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
     },
@@ -17012,16 +17012,16 @@
       "nome": "Disjuntor STL - 171",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de disjuntor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de disjuntor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_172",
-      "nome": "Reducao DWG - 172",
+      "nome": "Redução DWG - 172",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/94205A260",
-      "descricao": "Modelo CAD publico de redução em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de redução em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
     },
@@ -17030,17 +17030,17 @@
       "nome": "Calibrador DXF - 173",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de calibrador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de calibrador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_174",
-      "nome": "Retifica SLDPRT - 174",
+      "nome": "Retífica SLDPRT - 174",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de retifica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de retífica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "CADdetails"
     },
     {
@@ -17048,7 +17048,7 @@
       "nome": "Rack SLDASM - 175",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de rack em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de rack em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
     },
@@ -17057,8 +17057,8 @@
       "nome": "Empilhadeira IPT - 176",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de empilhadeira em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Veículos e Transporte",
       "fonte": "PartCommunity"
     },
     {
@@ -17066,8 +17066,8 @@
       "nome": "Acoplamento IAM - 177",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/truck-loading-conveyor-4",
-      "descricao": "Modelo CAD publico de acoplamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de acoplamento em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
@@ -17075,16 +17075,16 @@
       "nome": "Acumulador SAT - 178",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de acumulador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de acumulador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_179",
-      "nome": "Regulador de Pressao BREP - 179",
+      "nome": "Regulador de Pressão BREP - 179",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de regulador de pressao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de regulador de pressão em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -17093,7 +17093,7 @@
       "nome": "Suporte 3DM - 180",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de suporte em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de suporte em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -17102,7 +17102,7 @@
       "nome": "Sacada RVT - 181",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
@@ -17111,7 +17111,7 @@
       "nome": "Encoder DWF - 182",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de encoder em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de encoder em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
@@ -17120,16 +17120,16 @@
       "nome": "Te STEP - 183",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de te em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de te em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_184",
-      "nome": "Suporte de Fixacao IGES - 184",
+      "nome": "Suporte de Fixação IGES - 184",
       "tipo": "IGES",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de suporte de fixacao em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de suporte de fixação em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
@@ -17138,16 +17138,16 @@
       "nome": "Furadeira de Bancada STL - 185",
       "tipo": "STL",
       "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
-      "descricao": "Modelo CAD publico de furadeira de bancada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de furadeira de bancada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_186",
-      "nome": "Mesa de Inspecao DWG - 186",
+      "nome": "Mesa de Inspeção DWG - 186",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de mesa de inspecao em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de mesa de inspeção em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -17156,8 +17156,8 @@
       "nome": "Paleteira DXF - 187",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de paleteira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -17165,25 +17165,25 @@
       "nome": "Engrenagem SLDPRT - 188",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de engrenagem em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de engrenagem em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_189",
-      "nome": "Manometro SLDASM - 189",
+      "nome": "Manômetro SLDASM - 189",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de manometro em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de manômetro em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_190",
-      "nome": "Cilindro Pneumatico IPT - 190",
+      "nome": "Cilindro Pneumático IPT - 190",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de cilindro pneumatico em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de cilindro pneumático em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -17192,16 +17192,16 @@
       "nome": "Coluna IAM - 191",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de coluna em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de coluna em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_192",
-      "nome": "Fundacao SAT - 192",
+      "nome": "Fundação SAT - 192",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de fundação em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
@@ -17210,7 +17210,7 @@
       "nome": "Contator BREP - 193",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
-      "descricao": "Modelo CAD publico de contator em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de contator em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
@@ -17219,7 +17219,7 @@
       "nome": "Cotovelo 90 3DM - 194",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de cotovelo 90 em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de cotovelo 90 em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -17228,7 +17228,7 @@
       "nome": "Gabarito RVT - 195",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de gabarito em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de gabarito em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
@@ -17237,8 +17237,8 @@
       "nome": "Esteira Transportadora DWF - 196",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de esteira transportadora em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de esteira transportadora em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
@@ -17246,7 +17246,7 @@
       "nome": "Painel de Controle STEP - 197",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de painel de controle em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de painel de controle em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -17255,8 +17255,8 @@
       "nome": "Guindaste IGES - 198",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de guindaste em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -17264,16 +17264,16 @@
       "nome": "Pino STL - 199",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de pino em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de pino em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_200",
-      "nome": "Conexao Rapida DWG - 200",
+      "nome": "Conexão Rapida DWG - 200",
       "tipo": "DWG",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de conexão rapida em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de conexão rapida em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
@@ -17282,7 +17282,7 @@
       "nome": "Unidade de Condicionamento DXF - 201",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/gear-assembly-spur-gear-train-assembly-with-kinematic-setup-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -17291,7 +17291,7 @@
       "nome": "Cantoneira SLDPRT - 202",
       "tipo": "SLDPRT",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de cantoneira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de cantoneira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -17300,16 +17300,16 @@
       "nome": "Janela SLDASM - 203",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_204",
-      "nome": "Fonte de Alimentacao IPT - 204",
+      "nome": "Fonte de Alimentação IPT - 204",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de fonte de alimentacao em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de fonte de alimentação em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
@@ -17318,7 +17318,7 @@
       "nome": "Flange IAM - 205",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de flange em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de flange em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
@@ -17327,7 +17327,7 @@
       "nome": "Dispositivo de Torneamento SAT - 206",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de dispositivo de torneamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de dispositivo de torneamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
@@ -17336,8 +17336,8 @@
       "nome": "Rosqueadeira BREP - 207",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de rosqueadeira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de rosqueadeira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
@@ -17345,7 +17345,7 @@
       "nome": "Bancada de Trabalho 3DM - 208",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de bancada de trabalho em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de bancada de trabalho em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -17354,8 +17354,8 @@
       "nome": "Plataforma Elevatoria RVT - 209",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
@@ -17363,8 +17363,8 @@
       "nome": "Correia DWF - 210",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de correia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de correia em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
@@ -17372,16 +17372,16 @@
       "nome": "Mangueira STEP - 211",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de mangueira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de mangueira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_212",
-      "nome": "Mangueira Pneumatica IGES - 212",
+      "nome": "Mangueira Pneumática IGES - 212",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de mangueira pneumatica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de mangueira pneumática em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -17390,7 +17390,7 @@
       "nome": "Barra Chata STL - 213",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de barra chata em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de barra chata em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
@@ -17399,7 +17399,7 @@
       "nome": "Telhado DWG - 214",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
@@ -17408,7 +17408,7 @@
       "nome": "Servomotor DXF - 215",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de servomotor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de servomotor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
@@ -17417,7 +17417,7 @@
       "nome": "Nipple SLDPRT - 216",
       "tipo": "SLDPRT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de nipple em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de nipple em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -17426,7 +17426,7 @@
       "nome": "Dispositivo de Fresamento SLDASM - 217",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/differential-unit-3",
-      "descricao": "Modelo CAD publico de dispositivo de fresamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de dispositivo de fresamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
@@ -17435,8 +17435,8 @@
       "nome": "Misturador Industrial IPT - 218",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de misturador industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de misturador industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
@@ -17444,7 +17444,7 @@
       "nome": "Pallet IAM - 219",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de pallet em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de pallet em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -17453,8 +17453,8 @@
       "nome": "Reboque Industrial SAT - 220",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de reboque industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
@@ -17462,16 +17462,16 @@
       "nome": "Fuso BREP - 221",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de fuso em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de fuso em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_222",
-      "nome": "Filtro Hidraulico 3DM - 222",
+      "nome": "Filtro Hidráulico 3DM - 222",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de filtro hidraulico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de filtro hidráulico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
@@ -17480,7 +17480,7 @@
       "nome": "Silenciador RVT - 223",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de silenciador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de silenciador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -17489,7 +17489,7 @@
       "nome": "Perfil L DWF - 224",
       "tipo": "DWF",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de perfil l em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de perfil l em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -17498,7 +17498,7 @@
       "nome": "Planta Baixa STEP - 225",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
-      "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
@@ -17507,7 +17507,7 @@
       "nome": "Sensor de Proximidade IGES - 226",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de sensor de proximidade em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de sensor de proximidade em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
@@ -17516,7 +17516,7 @@
       "nome": "Bocal STL - 227",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de bocal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de bocal em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
@@ -17525,7 +17525,7 @@
       "nome": "Mesa Rotativa DWG - 228",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de mesa rotativa em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de mesa rotativa em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
@@ -17534,16 +17534,16 @@
       "nome": "Compressor DXF - 229",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de compressor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de compressor em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_230",
-      "nome": "Armario para Ferramentas SLDPRT - 230",
+      "nome": "Armário para Ferramentas SLDPRT - 230",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de armario para ferramentas em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de armário para ferramentas em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -17552,8 +17552,8 @@
       "nome": "Carrinho Transportador SLDASM - 231",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
@@ -17561,16 +17561,16 @@
       "nome": "Mola IPT - 232",
       "tipo": "IPT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de mola em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de mola em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_233",
-      "nome": "Reservatorio IAM - 233",
+      "nome": "Reservatório IAM - 233",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de reservatorio em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de reservatório em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
@@ -17579,7 +17579,7 @@
       "nome": "Lubrificador SAT - 234",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de lubrificador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de lubrificador em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -17588,7 +17588,7 @@
       "nome": "Viga I BREP - 235",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de viga i em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de viga i em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
@@ -17597,7 +17597,7 @@
       "nome": "Rampa 3DM - 236",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     },
@@ -17606,7 +17606,7 @@
       "nome": "Transformador RVT - 237",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de transformador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de transformador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
     },
@@ -17615,7 +17615,7 @@
       "nome": "Spool DWF - 238",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de spool em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de spool em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
     },
@@ -17624,7 +17624,7 @@
       "nome": "Divisor Universal STEP - 239",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de divisor universal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de divisor universal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
     },
@@ -17633,8 +17633,8 @@
       "nome": "Bomba Centrifuga IGES - 240",
       "tipo": "IGES",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de bomba centrifuga em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de bomba centrifuga em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "PartCommunity"
     },
     {
@@ -17642,7 +17642,7 @@
       "nome": "Cadeira STL - 241",
       "tipo": "STL",
       "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
-      "descricao": "Modelo CAD publico de cadeira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cadeira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
     },
@@ -17651,8 +17651,8 @@
       "nome": "Empilhadeira DWG - 242",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de empilhadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Veículos e Transporte",
       "fonte": "TraceParts"
     },
     {
@@ -17660,25 +17660,25 @@
       "nome": "Polia DXF - 243",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de polia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de polia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Peças Mecânicas",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_244",
-      "nome": "Bomba Hidraulica SLDPRT - 244",
+      "nome": "Bomba Hidráulica SLDPRT - 244",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de bomba hidraulica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de bomba hidráulica em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_245",
-      "nome": "Valvula Solenoide SLDASM - 245",
+      "nome": "Válvula Solenoide SLDASM - 245",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de valvula solenoide em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de válvula solenoide em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
     },
@@ -17687,7 +17687,7 @@
       "nome": "Bracket IPT - 246",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de bracket em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de bracket em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
     },
@@ -17696,25 +17696,25 @@
       "nome": "Laje IAM - 247",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_248",
-      "nome": "Quadro Eletrico SAT - 248",
+      "nome": "Quadro Elétrico SAT - 248",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de quadro eletrico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de quadro elétrico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_249",
-      "nome": "Junta de Expansao BREP - 249",
+      "nome": "Junta de Expansão BREP - 249",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de junta de expansao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de junta de expansão em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
     },
@@ -17723,25 +17723,25 @@
       "nome": "Mandril 3DM - 250",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de mandril em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de mandril em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_251",
-      "nome": "Prensa Hidraulica RVT - 251",
+      "nome": "Prensa Hidráulica RVT - 251",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de prensa hidraulica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de prensa hidráulica em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_252",
-      "nome": "Cabine de Seguranca DWF - 252",
+      "nome": "Cabine de Segurança DWF - 252",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de cabine de seguranca em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de cabine de segurança em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
     },
@@ -17750,8 +17750,8 @@
       "nome": "Paleteira STEP - 253",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de paleteira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Veículos e Transporte",
       "fonte": "BIMobject"
     },
     {
@@ -17759,25 +17759,25 @@
       "nome": "Guia Linear IGES - 254",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de guia linear em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de guia linear em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Peças Mecânicas",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_255",
-      "nome": "Valvula de Alivio STL - 255",
+      "nome": "Válvula de Alívio STL - 255",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de valvula de alivio em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de válvula de alívio em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_256",
-      "nome": "Atuador Pneumatico DWG - 256",
+      "nome": "Atuador Pneumático DWG - 256",
       "tipo": "DWG",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de atuador pneumatico em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de atuador pneumático em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
     },
@@ -17786,7 +17786,7 @@
       "nome": "Base Metalica DXF - 257",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de base metalica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de base metalica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
     },
@@ -17795,7 +17795,7 @@
       "nome": "Porta SLDPRT - 258",
       "tipo": "SLDPRT",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
     },
@@ -17804,16 +17804,16 @@
       "nome": "Chave Fim de Curso SLDASM - 259",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de chave fim de curso em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de chave fim de curso em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_260",
-      "nome": "Valvula Retencao IPT - 260",
+      "nome": "Válvula Retencao IPT - 260",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de valvula retencao em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de válvula retencao em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
     },
@@ -17822,17 +17822,17 @@
       "nome": "Morsa IAM - 261",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de morsa em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de morsa em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_262",
-      "nome": "Torno Mecanico SAT - 262",
+      "nome": "Torno Mecânico SAT - 262",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de torno mecanico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de torno mecânico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "CADdetails"
     },
     {
@@ -17840,7 +17840,7 @@
       "nome": "Estante Industrial BREP - 263",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de estante industrial em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de estante industrial em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
     },
@@ -17849,8 +17849,8 @@
       "nome": "Guindaste 3DM - 264",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de guindaste em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Veículos e Transporte",
       "fonte": "PartCommunity"
     },
     {
@@ -17858,25 +17858,25 @@
       "nome": "Arruela RVT - 265",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
-      "descricao": "Modelo CAD publico de arruela em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de arruela em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_266",
-      "nome": "Valvula Direcional DWF - 266",
+      "nome": "Válvula Direcional DWF - 266",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de valvula direcional em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de válvula direcional em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_267",
-      "nome": "Conexao Pneumatica STEP - 267",
+      "nome": "Conexão Pneumática STEP - 267",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de conexão pneumatica em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de conexão pneumática em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -17885,7 +17885,7 @@
       "nome": "Trelica IGES - 268",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de trelica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de trelica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -17894,7 +17894,7 @@
       "nome": "Fachada STL - 269",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
@@ -17903,16 +17903,16 @@
       "nome": "Rele DWG - 270",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de rele em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de rele em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_271",
-      "nome": "Valvula Gaveta DXF - 271",
+      "nome": "Válvula Gaveta DXF - 271",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de valvula gaveta em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de válvula gaveta em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
@@ -17921,7 +17921,7 @@
       "nome": "Grampo SLDPRT - 272",
       "tipo": "SLDPRT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de grampo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de grampo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
@@ -17930,8 +17930,8 @@
       "nome": "Fresadora SLDASM - 273",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de fresadora em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de fresadora em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
@@ -17939,7 +17939,7 @@
       "nome": "Rack IPT - 274",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de rack em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de rack em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -17948,8 +17948,8 @@
       "nome": "Plataforma Elevatoria IAM - 275",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -17957,25 +17957,25 @@
       "nome": "Rolamento SAT - 276",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de rolamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de rolamento em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_277",
-      "nome": "Cilindro Hidraulico BREP - 277",
+      "nome": "Cilindro Hidráulico BREP - 277",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de cilindro hidraulico em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de cilindro hidráulico em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_278",
-      "nome": "Regulador de Pressao 3DM - 278",
+      "nome": "Regulador de Pressão 3DM - 278",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de regulador de pressao em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de regulador de pressão em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -17984,7 +17984,7 @@
       "nome": "Tubo Estrutural RVT - 279",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de tubo estrutural em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de tubo estrutural em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
@@ -17993,25 +17993,25 @@
       "nome": "Marquise DWF - 280",
       "tipo": "DWF",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_281",
-      "nome": "Inversor de Frequencia STEP - 281",
+      "nome": "Inversor de Frequência STEP - 281",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/truck-loading-conveyor-4",
-      "descricao": "Modelo CAD publico de inversor de frequencia em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de inversor de frequência em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_282",
-      "nome": "Valvula Esfera IGES - 282",
+      "nome": "Válvula Esfera IGES - 282",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de valvula esfera em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de válvula esfera em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -18020,25 +18020,25 @@
       "nome": "Calibrador STL - 283",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de calibrador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de calibrador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_284",
-      "nome": "Retifica DWG - 284",
+      "nome": "Retífica DWG - 284",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de retifica em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de retífica em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_285",
-      "nome": "Mesa de Inspecao DXF - 285",
+      "nome": "Mesa de Inspeção DXF - 285",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de mesa de inspecao em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de mesa de inspeção em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -18047,8 +18047,8 @@
       "nome": "Reboque Industrial SLDPRT - 286",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de reboque industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -18056,8 +18056,8 @@
       "nome": "Bucha SLDASM - 287",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de bucha em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de bucha em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
@@ -18065,16 +18065,16 @@
       "nome": "Distribuidor IPT - 288",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de distribuidor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de distribuidor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_289",
-      "nome": "Cilindro Pneumatico IAM - 289",
+      "nome": "Cilindro Pneumático IAM - 289",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/brutal-diy-lathe-1",
-      "descricao": "Modelo CAD publico de cilindro pneumatico em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cilindro pneumático em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -18083,7 +18083,7 @@
       "nome": "Perfil T SAT - 290",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de perfil t em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de perfil t em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -18092,7 +18092,7 @@
       "nome": "Cobertura BREP - 291",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
@@ -18101,7 +18101,7 @@
       "nome": "Atuador Linear 3DM - 292",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de atuador linear em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de atuador linear em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
@@ -18110,16 +18110,16 @@
       "nome": "Curva RVT - 293",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de curva em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de curva em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_294",
-      "nome": "Suporte de Fixacao DWF - 294",
+      "nome": "Suporte de Fixação DWF - 294",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de suporte de fixacao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de suporte de fixação em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
@@ -18128,8 +18128,8 @@
       "nome": "Furadeira de Bancada STEP - 295",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de furadeira de bancada em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de furadeira de bancada em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
@@ -18137,7 +18137,7 @@
       "nome": "Painel de Controle IGES - 296",
       "tipo": "IGES",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de painel de controle em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de painel de controle em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -18146,8 +18146,8 @@
       "nome": "Carrinho Transportador STL - 297",
       "tipo": "STL",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
@@ -18155,8 +18155,8 @@
       "nome": "Porca DWG - 298",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de porca em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de porca em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
@@ -18164,7 +18164,7 @@
       "nome": "Atuador Rotativo DXF - 299",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de atuador rotativo em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de atuador rotativo em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
@@ -18173,7 +18173,7 @@
       "nome": "Unidade de Condicionamento SLDPRT - 300",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -18182,7 +18182,7 @@
       "nome": "Perfil U SLDASM - 301",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de perfil u em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de perfil u em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
@@ -18191,25 +18191,25 @@
       "nome": "Pilar IPT - 302",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_303",
-      "nome": "Motor Eletrico IAM - 303",
+      "nome": "Motor Elétrico IAM - 303",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de motor eletrico em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de motor elétrico em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_304",
-      "nome": "Reducao SAT - 304",
+      "nome": "Redução SAT - 304",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de redução em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de redução em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -18218,7 +18218,7 @@
       "nome": "Gabarito BREP - 305",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/conveyor-belt-142",
-      "descricao": "Modelo CAD publico de gabarito em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de gabarito em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
@@ -18227,8 +18227,8 @@
       "nome": "Esteira Transportadora 3DM - 306",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de esteira transportadora em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de esteira transportadora em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
@@ -18236,7 +18236,7 @@
       "nome": "Bancada de Trabalho RVT - 307",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de bancada de trabalho em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de bancada de trabalho em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -18245,8 +18245,8 @@
       "nome": "Empilhadeira DWF - 308",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de empilhadeira em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
@@ -18254,8 +18254,8 @@
       "nome": "Mancal STEP - 309",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de mancal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de mancal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
@@ -18263,16 +18263,16 @@
       "nome": "Acumulador IGES - 310",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de acumulador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de acumulador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_311",
-      "nome": "Mangueira Pneumatica STL - 311",
+      "nome": "Mangueira Pneumática STL - 311",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de mangueira pneumatica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de mangueira pneumática em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -18281,7 +18281,7 @@
       "nome": "Chapa de Reforco DWG - 312",
       "tipo": "DWG",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de chapa de reforco em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de chapa de reforco em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -18290,7 +18290,7 @@
       "nome": "Escada DXF - 313",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/differential-unit-3",
-      "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
@@ -18299,7 +18299,7 @@
       "nome": "Disjuntor SLDPRT - 314",
       "tipo": "SLDPRT",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de disjuntor em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de disjuntor em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
@@ -18308,7 +18308,7 @@
       "nome": "Te SLDASM - 315",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de te em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de te em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
@@ -18317,7 +18317,7 @@
       "nome": "Dispositivo de Torneamento IPT - 316",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de dispositivo de torneamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de dispositivo de torneamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
@@ -18326,8 +18326,8 @@
       "nome": "Rosqueadeira IAM - 317",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de rosqueadeira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de rosqueadeira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
@@ -18335,7 +18335,7 @@
       "nome": "Pallet SAT - 318",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de pallet em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de pallet em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -18344,25 +18344,25 @@
       "nome": "Paleteira BREP - 319",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de paleteira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_320",
-      "nome": "Anel Elastico 3DM - 320",
+      "nome": "Anel Elástico 3DM - 320",
       "tipo": "3DM",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de anel elastico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de anel elástico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_321",
-      "nome": "Manometro RVT - 321",
+      "nome": "Manômetro RVT - 321",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de manometro em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de manômetro em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
@@ -18371,7 +18371,7 @@
       "nome": "Silenciador DWF - 322",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de silenciador em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de silenciador em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -18380,7 +18380,7 @@
       "nome": "Suporte STEP - 323",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de suporte em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de suporte em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
@@ -18389,7 +18389,7 @@
       "nome": "Corte Transversal IGES - 324",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     },
@@ -18398,7 +18398,7 @@
       "nome": "Encoder STL - 325",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de encoder em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de encoder em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
     },
@@ -18407,7 +18407,7 @@
       "nome": "Cotovelo 90 DWG - 326",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de cotovelo 90 em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de cotovelo 90 em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
     },
@@ -18416,7 +18416,7 @@
       "nome": "Dispositivo de Fresamento DXF - 327",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de dispositivo de fresamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de dispositivo de fresamento em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
     },
@@ -18425,16 +18425,16 @@
       "nome": "Misturador Industrial SLDPRT - 328",
       "tipo": "SLDPRT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de misturador industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de misturador industrial em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_329",
-      "nome": "Armario para Ferramentas SLDASM - 329",
+      "nome": "Armário para Ferramentas SLDASM - 329",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/spur-gear-assembly-14",
-      "descricao": "Modelo CAD publico de armario para ferramentas em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de armário para ferramentas em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
     },
@@ -18442,9 +18442,9 @@
       "id": "cad_330",
       "nome": "Guindaste IPT - 330",
       "tipo": "IPT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de guindaste em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Veiculos e Transporte",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de guindaste em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Veículos e Transporte",
       "fonte": "TraceParts"
     },
     {
@@ -18452,16 +18452,16 @@
       "nome": "Parafuso IAM - 331",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de parafuso em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de parafuso em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Peças Mecânicas",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_332",
-      "nome": "Conexao Rapida SAT - 332",
+      "nome": "Conexão Rapida SAT - 332",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/94205A260",
-      "descricao": "Modelo CAD publico de conexão rapida em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de conexão rapida em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
     },
@@ -18470,7 +18470,7 @@
       "nome": "Lubrificador BREP - 333",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de lubrificador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de lubrificador em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
     },
@@ -18479,7 +18479,7 @@
       "nome": "Coluna 3DM - 334",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de coluna em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de coluna em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
     },
@@ -18488,7 +18488,7 @@
       "nome": "Sacada RVT - 335",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
     },
@@ -18497,7 +18497,7 @@
       "nome": "Contator DWF - 336",
       "tipo": "DWF",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de contator em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de contator em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
     },
@@ -18506,7 +18506,7 @@
       "nome": "Flange STEP - 337",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de flange em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de flange em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
     },
@@ -18515,7 +18515,7 @@
       "nome": "Mesa Rotativa IGES - 338",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de mesa rotativa em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de mesa rotativa em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
     },
@@ -18524,8 +18524,8 @@
       "nome": "Compressor STL - 339",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de compressor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de compressor em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "3D ContentCentral"
     },
     {
@@ -18533,7 +18533,7 @@
       "nome": "Cadeira DWG - 340",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de cadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de cadeira em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
     },
@@ -18542,8 +18542,8 @@
       "nome": "Plataforma Elevatoria DXF - 341",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Veículos e Transporte",
       "fonte": "BIMobject"
     },
     {
@@ -18551,8 +18551,8 @@
       "nome": "Eixo SLDPRT - 342",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de eixo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de eixo em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Peças Mecânicas",
       "fonte": "CADdetails"
     },
     {
@@ -18560,16 +18560,16 @@
       "nome": "Mangueira SLDASM - 343",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de mangueira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de mangueira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_344",
-      "nome": "Valvula Solenoide IPT - 344",
+      "nome": "Válvula Solenoide IPT - 344",
       "tipo": "IPT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de valvula solenoide em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de válvula solenoide em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
     },
@@ -18578,25 +18578,25 @@
       "nome": "Cantoneira IAM - 345",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/l-type-pvc-belt-conveyor-2",
-      "descricao": "Modelo CAD publico de cantoneira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cantoneira em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_346",
-      "nome": "Fundacao SAT - 346",
+      "nome": "Fundação SAT - 346",
       "tipo": "SAT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de fundação em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_347",
-      "nome": "Fonte de Alimentacao BREP - 347",
+      "nome": "Fonte de Alimentação BREP - 347",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de fonte de alimentacao em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de fonte de alimentação em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
     },
@@ -18605,7 +18605,7 @@
       "nome": "Nipple 3DM - 348",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de nipple em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de nipple em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
     },
@@ -18614,7 +18614,7 @@
       "nome": "Divisor Universal RVT - 349",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de divisor universal em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de divisor universal em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
     },
@@ -18623,16 +18623,16 @@
       "nome": "Bomba Centrifuga DWF - 350",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de bomba centrifuga em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de bomba centrifuga em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_351",
-      "nome": "Cabine de Seguranca STEP - 351",
+      "nome": "Cabine de Segurança STEP - 351",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de cabine de seguranca em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de cabine de segurança em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
     },
@@ -18641,8 +18641,8 @@
       "nome": "Reboque Industrial IGES - 352",
       "tipo": "IGES",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de reboque industrial em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Veículos e Transporte",
       "fonte": "PartCommunity"
     },
     {
@@ -18650,25 +18650,25 @@
       "nome": "Chaveta STL - 353",
       "tipo": "STL",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de chaveta em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de chaveta em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_354",
-      "nome": "Filtro Hidraulico DWG - 354",
+      "nome": "Filtro Hidráulico DWG - 354",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de filtro hidraulico em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de filtro hidráulico em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_355",
-      "nome": "Atuador Pneumatico DXF - 355",
+      "nome": "Atuador Pneumático DXF - 355",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de atuador pneumatico em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de atuador pneumático em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -18677,7 +18677,7 @@
       "nome": "Barra Chata SLDPRT - 356",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de barra chata em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de barra chata em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -18686,7 +18686,7 @@
       "nome": "Janela SLDASM - 357",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de janela em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
@@ -18695,7 +18695,7 @@
       "nome": "Servomotor IPT - 358",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de servomotor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de servomotor em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
@@ -18704,7 +18704,7 @@
       "nome": "Bocal IAM - 359",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de bocal em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de bocal em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
@@ -18713,17 +18713,17 @@
       "nome": "Mandril SAT - 360",
       "tipo": "SAT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de mandril em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de mandril em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_361",
-      "nome": "Prensa Hidraulica BREP - 361",
+      "nome": "Prensa Hidráulica BREP - 361",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
-      "descricao": "Modelo CAD publico de prensa hidraulica em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de prensa hidráulica em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
@@ -18731,7 +18731,7 @@
       "nome": "Estante Industrial 3DM - 362",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de estante industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de estante industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -18740,8 +18740,8 @@
       "nome": "Carrinho Transportador RVT - 363",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -18749,25 +18749,25 @@
       "nome": "Acoplamento DWF - 364",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de acoplamento em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de acoplamento em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_365",
-      "nome": "Reservatorio STEP - 365",
+      "nome": "Reservatório STEP - 365",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de reservatorio em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de reservatório em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_366",
-      "nome": "Conexao Pneumatica IGES - 366",
+      "nome": "Conexão Pneumática IGES - 366",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de conexão pneumatica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de conexão pneumática em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -18776,7 +18776,7 @@
       "nome": "Perfil L STL - 367",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de perfil l em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de perfil l em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
@@ -18785,7 +18785,7 @@
       "nome": "Telhado DWG - 368",
       "tipo": "DWG",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de telhado em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
@@ -18794,7 +18794,7 @@
       "nome": "Sensor de Proximidade DXF - 369",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de sensor de proximidade em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de sensor de proximidade em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
@@ -18803,7 +18803,7 @@
       "nome": "Spool SLDPRT - 370",
       "tipo": "SLDPRT",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de spool em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de spool em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -18812,17 +18812,17 @@
       "nome": "Morsa SLDASM - 371",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de morsa em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de morsa em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_372",
-      "nome": "Torno Mecanico IPT - 372",
+      "nome": "Torno Mecânico IPT - 372",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de torno mecanico em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de torno mecânico em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
@@ -18830,7 +18830,7 @@
       "nome": "Rack IAM - 373",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de rack em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de rack em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -18839,8 +18839,8 @@
       "nome": "Empilhadeira SAT - 374",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de empilhadeira em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -18848,25 +18848,25 @@
       "nome": "Engrenagem BREP - 375",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de engrenagem em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de engrenagem em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_376",
-      "nome": "Bomba Hidraulica 3DM - 376",
+      "nome": "Bomba Hidráulica 3DM - 376",
       "tipo": "3DM",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de bomba hidraulica em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de bomba hidráulica em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_377",
-      "nome": "Regulador de Pressao RVT - 377",
+      "nome": "Regulador de Pressão RVT - 377",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/brutal-diy-lathe-1",
-      "descricao": "Modelo CAD publico de regulador de pressao em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de regulador de pressão em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -18875,7 +18875,7 @@
       "nome": "Viga I DWF - 378",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de viga i em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de viga i em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -18884,7 +18884,7 @@
       "nome": "Planta Baixa STEP - 379",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de planta baixa em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
@@ -18893,16 +18893,16 @@
       "nome": "Transformador IGES - 380",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de transformador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de transformador em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_381",
-      "nome": "Junta de Expansao STL - 381",
+      "nome": "Junta de Expansão STL - 381",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de junta de expansao em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de junta de expansão em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
@@ -18911,7 +18911,7 @@
       "nome": "Grampo DWG - 382",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de grampo em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de grampo em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
@@ -18920,16 +18920,16 @@
       "nome": "Fresadora DXF - 383",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de fresadora em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de fresadora em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_384",
-      "nome": "Mesa de Inspecao SLDPRT - 384",
+      "nome": "Mesa de Inspeção SLDPRT - 384",
       "tipo": "SLDPRT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de mesa de inspecao em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de mesa de inspeção em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -18938,8 +18938,8 @@
       "nome": "Paleteira SLDASM - 385",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/cnc-router-92",
-      "descricao": "Modelo CAD publico de paleteira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
@@ -18947,25 +18947,25 @@
       "nome": "Pino IPT - 386",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de pino em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de pino em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_387",
-      "nome": "Valvula de Alivio IAM - 387",
+      "nome": "Válvula de Alívio IAM - 387",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=295&id=73769",
-      "descricao": "Modelo CAD publico de valvula de alivio em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de válvula de alívio em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_388",
-      "nome": "Cilindro Pneumatico SAT - 388",
+      "nome": "Cilindro Pneumático SAT - 388",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de cilindro pneumatico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de cilindro pneumático em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -18974,7 +18974,7 @@
       "nome": "Bracket BREP - 389",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de bracket em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de bracket em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
@@ -18983,25 +18983,25 @@
       "nome": "Rampa 3DM - 390",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de rampa em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_391",
-      "nome": "Quadro Eletrico RVT - 391",
+      "nome": "Quadro Elétrico RVT - 391",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de quadro eletrico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de quadro elétrico em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_392",
-      "nome": "Valvula Retencao DWF - 392",
+      "nome": "Válvula Retencao DWF - 392",
       "tipo": "DWF",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de valvula retencao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de válvula retencao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -19010,17 +19010,17 @@
       "nome": "Calibrador STEP - 393",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/gtn-parametric-timing-belt-pulley-1",
-      "descricao": "Modelo CAD publico de calibrador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de calibrador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_394",
-      "nome": "Retifica IGES - 394",
+      "nome": "Retífica IGES - 394",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de retifica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de retífica em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
@@ -19028,7 +19028,7 @@
       "nome": "Painel de Controle STL - 395",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de painel de controle em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de painel de controle em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -19037,8 +19037,8 @@
       "nome": "Guindaste DWG - 396",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de guindaste em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
@@ -19046,16 +19046,16 @@
       "nome": "Correia DXF - 397",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de correia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de correia em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_398",
-      "nome": "Valvula Direcional SLDPRT - 398",
+      "nome": "Válvula Direcional SLDPRT - 398",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de valvula direcional em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de válvula direcional em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
@@ -19064,7 +19064,7 @@
       "nome": "Unidade de Condicionamento SLDASM - 399",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -19073,7 +19073,7 @@
       "nome": "Base Metalica IPT - 400",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de base metalica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de base metalica em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -19082,7 +19082,7 @@
       "nome": "Laje IAM - 401",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/brutal-diy-lathe-1",
-      "descricao": "Modelo CAD publico de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de laje em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
@@ -19091,25 +19091,25 @@
       "nome": "Chave Fim de Curso SAT - 402",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de chave fim de curso em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de chave fim de curso em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_403",
-      "nome": "Valvula Gaveta BREP - 403",
+      "nome": "Válvula Gaveta BREP - 403",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de valvula gaveta em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de válvula gaveta em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_404",
-      "nome": "Suporte de Fixacao 3DM - 404",
+      "nome": "Suporte de Fixação 3DM - 404",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/cad-models/",
-      "descricao": "Modelo CAD publico de suporte de fixacao em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de suporte de fixação em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
@@ -19118,8 +19118,8 @@
       "nome": "Furadeira de Bancada RVT - 405",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de furadeira de bancada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de furadeira de bancada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
@@ -19127,7 +19127,7 @@
       "nome": "Bancada de Trabalho DWF - 406",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de bancada de trabalho em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de bancada de trabalho em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -19136,8 +19136,8 @@
       "nome": "Plataforma Elevatoria STEP - 407",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
@@ -19145,25 +19145,25 @@
       "nome": "Fuso IGES - 408",
       "tipo": "IGES",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de fuso em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de fuso em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_409",
-      "nome": "Cilindro Hidraulico STL - 409",
+      "nome": "Cilindro Hidráulico STL - 409",
       "tipo": "STL",
       "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
-      "descricao": "Modelo CAD publico de cilindro hidraulico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de cilindro hidráulico em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_410",
-      "nome": "Mangueira Pneumatica DWG - 410",
+      "nome": "Mangueira Pneumática DWG - 410",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de mangueira pneumatica em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de mangueira pneumática em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -19172,7 +19172,7 @@
       "nome": "Trelica DXF - 411",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de trelica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de trelica em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
@@ -19181,7 +19181,7 @@
       "nome": "Porta SLDPRT - 412",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de porta em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     },
@@ -19190,16 +19190,16 @@
       "nome": "Rele SLDASM - 413",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de rele em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de rele em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Eletricos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_414",
-      "nome": "Valvula Esfera IPT - 414",
+      "nome": "Válvula Esfera IPT - 414",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de valvula esfera em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de válvula esfera em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "CADdetails"
     },
@@ -19208,7 +19208,7 @@
       "nome": "Gabarito IAM - 415",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de gabarito em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de gabarito em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "OpenBuildings"
     },
@@ -19217,8 +19217,8 @@
       "nome": "Esteira Transportadora SAT - 416",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de esteira transportadora em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de esteira transportadora em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "PartCommunity"
     },
     {
@@ -19226,7 +19226,7 @@
       "nome": "Pallet BREP - 417",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/truck-loading-conveyor-4",
-      "descricao": "Modelo CAD publico de pallet em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de pallet em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "GrabCAD"
     },
@@ -19234,9 +19234,9 @@
       "id": "cad_418",
       "nome": "Reboque Industrial 3DM - 418",
       "tipo": "3DM",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de reboque industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Veiculos e Transporte",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de reboque industrial em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Veículos e Transporte",
       "fonte": "TraceParts"
     },
     {
@@ -19244,8 +19244,8 @@
       "nome": "Mola RVT - 419",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de mola em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de mola em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Peças Mecânicas",
       "fonte": "3D ContentCentral"
     },
     {
@@ -19253,7 +19253,7 @@
       "nome": "Distribuidor DWF - 420",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de distribuidor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de distribuidor em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "McMaster-Carr"
     },
@@ -19262,7 +19262,7 @@
       "nome": "Silenciador STEP - 421",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de silenciador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de silenciador em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "BIMobject"
     },
@@ -19271,7 +19271,7 @@
       "nome": "Tubo Estrutural IGES - 422",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de tubo estrutural em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de tubo estrutural em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Elementos Estruturais",
       "fonte": "CADdetails"
     },
@@ -19280,16 +19280,16 @@
       "nome": "Fachada STL - 423",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de fachada em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_424",
-      "nome": "Inversor de Frequencia DWG - 424",
+      "nome": "Inversor de Frequência DWG - 424",
       "tipo": "DWG",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de inversor de frequencia em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de inversor de frequência em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Eletricos",
       "fonte": "PartCommunity"
     },
@@ -19298,7 +19298,7 @@
       "nome": "Curva DXF - 425",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/spur-gear-assembly-14",
-      "descricao": "Modelo CAD publico de curva em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de curva em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "GrabCAD"
     },
@@ -19306,8 +19306,8 @@
       "id": "cad_426",
       "nome": "Dispositivo de Torneamento SLDPRT - 426",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de dispositivo de torneamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de dispositivo de torneamento em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "TraceParts"
     },
@@ -19316,16 +19316,16 @@
       "nome": "Rosqueadeira SLDASM - 427",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de rosqueadeira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de rosqueadeira em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_428",
-      "nome": "Armario para Ferramentas IPT - 428",
+      "nome": "Armário para Ferramentas IPT - 428",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de armario para ferramentas em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de armário para ferramentas em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "McMaster-Carr"
     },
@@ -19334,8 +19334,8 @@
       "nome": "Carrinho Transportador IAM - 429",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Veículos e Transporte",
       "fonte": "BIMobject"
     },
     {
@@ -19343,8 +19343,8 @@
       "nome": "Polia SAT - 430",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de polia em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de polia em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Peças Mecânicas",
       "fonte": "CADdetails"
     },
     {
@@ -19352,7 +19352,7 @@
       "nome": "Atuador Rotativo BREP - 431",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de atuador rotativo em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de atuador rotativo em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "OpenBuildings"
     },
@@ -19361,7 +19361,7 @@
       "nome": "Lubrificador 3DM - 432",
       "tipo": "3DM",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de lubrificador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de lubrificador em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "PartCommunity"
     },
@@ -19370,7 +19370,7 @@
       "nome": "Perfil T RVT - 433",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/truck-loading-conveyor-4",
-      "descricao": "Modelo CAD publico de perfil t em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de perfil t em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Elementos Estruturais",
       "fonte": "GrabCAD"
     },
@@ -19379,7 +19379,7 @@
       "nome": "Marquise DWF - 434",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de marquise em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "TraceParts"
     },
@@ -19388,16 +19388,16 @@
       "nome": "Atuador Linear STEP - 435",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de atuador linear em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de atuador linear em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Eletricos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_436",
-      "nome": "Reducao IGES - 436",
+      "nome": "Redução IGES - 436",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de redução em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de redução em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "McMaster-Carr"
     },
@@ -19406,7 +19406,7 @@
       "nome": "Dispositivo de Fresamento STL - 437",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de dispositivo de fresamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de dispositivo de fresamento em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "BIMobject"
     },
@@ -19415,8 +19415,8 @@
       "nome": "Misturador Industrial DWG - 438",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de misturador industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de misturador industrial em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "CADdetails"
     },
     {
@@ -19424,7 +19424,7 @@
       "nome": "Cadeira DXF - 439",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de cadeira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de cadeira em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "OpenBuildings"
     },
@@ -19433,8 +19433,8 @@
       "nome": "Empilhadeira SLDPRT - 440",
       "tipo": "SLDPRT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de empilhadeira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de empilhadeira em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Veículos e Transporte",
       "fonte": "PartCommunity"
     },
     {
@@ -19442,8 +19442,8 @@
       "nome": "Guia Linear SLDASM - 441",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de guia linear em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de guia linear em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Peças Mecânicas",
       "fonte": "GrabCAD"
     },
     {
@@ -19451,16 +19451,16 @@
       "nome": "Acumulador IPT - 442",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/valworx-brass-ball-valve-direct-mount-3",
-      "descricao": "Modelo CAD publico de acumulador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de acumulador em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_443",
-      "nome": "Valvula Solenoide IAM - 443",
+      "nome": "Válvula Solenoide IAM - 443",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de valvula solenoide em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de válvula solenoide em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "3D ContentCentral"
     },
@@ -19469,7 +19469,7 @@
       "nome": "Perfil U SAT - 444",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/6091K58",
-      "descricao": "Modelo CAD publico de perfil u em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de perfil u em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Elementos Estruturais",
       "fonte": "McMaster-Carr"
     },
@@ -19478,16 +19478,16 @@
       "nome": "Cobertura BREP - 445",
       "tipo": "BREP",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de cobertura em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_446",
-      "nome": "Motor Eletrico 3DM - 446",
+      "nome": "Motor Elétrico 3DM - 446",
       "tipo": "3DM",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de motor eletrico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de motor elétrico em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Eletricos",
       "fonte": "CADdetails"
     },
@@ -19496,7 +19496,7 @@
       "nome": "Te RVT - 447",
       "tipo": "RVT",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de te em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de te em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "OpenBuildings"
     },
@@ -19505,7 +19505,7 @@
       "nome": "Mesa Rotativa DWF - 448",
       "tipo": "DWF",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de mesa rotativa em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de mesa rotativa em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "PartCommunity"
     },
@@ -19514,16 +19514,16 @@
       "nome": "Compressor STEP - 449",
       "tipo": "STEP",
       "url": "https://grabcad.com/library/ac-induction-motor-3d-cad-model-1",
-      "descricao": "Modelo CAD publico de compressor em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de compressor em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_450",
-      "nome": "Cabine de Seguranca IGES - 450",
+      "nome": "Cabine de Segurança IGES - 450",
       "tipo": "IGES",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de cabine de seguranca em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de cabine de segurança em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "TraceParts"
     },
@@ -19532,8 +19532,8 @@
       "nome": "Paleteira STL - 451",
       "tipo": "STL",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=166405",
-      "descricao": "Modelo CAD publico de paleteira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de paleteira em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
+      "categoria": "Veículos e Transporte",
       "fonte": "3D ContentCentral"
     },
     {
@@ -19541,25 +19541,25 @@
       "nome": "Arruela DWG - 452",
       "tipo": "DWG",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de arruela em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de arruela em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Peças Mecânicas",
       "fonte": "McMaster-Carr"
     },
     {
       "id": "cad_453",
-      "nome": "Manometro DXF - 453",
+      "nome": "Manômetro DXF - 453",
       "tipo": "DXF",
       "url": "https://www.bimobject.com/en/viewrail/product/floating-stairs_flight-stack-straight",
-      "descricao": "Modelo CAD publico de manometro em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de manômetro em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_454",
-      "nome": "Atuador Pneumatico SLDPRT - 454",
+      "nome": "Atuador Pneumático SLDPRT - 454",
       "tipo": "SLDPRT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de atuador pneumatico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de atuador pneumático em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "CADdetails"
     },
@@ -19568,7 +19568,7 @@
       "nome": "Chapa de Reforco SLDASM - 455",
       "tipo": "SLDASM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de chapa de reforco em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de chapa de reforco em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Elementos Estruturais",
       "fonte": "OpenBuildings"
     },
@@ -19577,7 +19577,7 @@
       "nome": "Pilar IPT - 456",
       "tipo": "IPT",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de pilar em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "PartCommunity"
     },
@@ -19586,7 +19586,7 @@
       "nome": "Disjuntor IAM - 457",
       "tipo": "IAM",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de disjuntor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de disjuntor em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Eletricos",
       "fonte": "GrabCAD"
     },
@@ -19595,7 +19595,7 @@
       "nome": "Cotovelo 90 SAT - 458",
       "tipo": "SAT",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de cotovelo 90 em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de cotovelo 90 em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "TraceParts"
     },
@@ -19604,7 +19604,7 @@
       "nome": "Divisor Universal BREP - 459",
       "tipo": "BREP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de divisor universal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de divisor universal em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "3D ContentCentral"
     },
@@ -19613,8 +19613,8 @@
       "nome": "Bomba Centrifuga 3DM - 460",
       "tipo": "3DM",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de bomba centrifuga em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de bomba centrifuga em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "McMaster-Carr"
     },
     {
@@ -19622,7 +19622,7 @@
       "nome": "Estante Industrial RVT - 461",
       "tipo": "RVT",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de estante industrial em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de estante industrial em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "BIMobject"
     },
@@ -19631,8 +19631,8 @@
       "nome": "Guindaste DWF - 462",
       "tipo": "DWF",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de guindaste em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de guindaste em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
+      "categoria": "Veículos e Transporte",
       "fonte": "CADdetails"
     },
     {
@@ -19640,25 +19640,25 @@
       "nome": "Rolamento STEP - 463",
       "tipo": "STEP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de rolamento em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de rolamento em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Peças Mecânicas",
       "fonte": "OpenBuildings"
     },
     {
       "id": "cad_464",
-      "nome": "Conexao Rapida IGES - 464",
+      "nome": "Conexão Rapida IGES - 464",
       "tipo": "IGES",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de conexão rapida em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de conexão rapida em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_465",
-      "nome": "Conexao Pneumatica STL - 465",
+      "nome": "Conexão Pneumática STL - 465",
       "tipo": "STL",
       "url": "https://grabcad.com/library/001-507-mechanical-movements-1",
-      "descricao": "Modelo CAD publico de conexão pneumatica em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de conexão pneumática em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "GrabCAD"
     },
@@ -19667,7 +19667,7 @@
       "nome": "Suporte DWG - 466",
       "tipo": "DWG",
       "url": "https://www.traceparts.com/en/product/spirax-sarco-lcv3-lcv4-lcv6-and-lcv7-check-valves",
-      "descricao": "Modelo CAD publico de suporte em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de suporte em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Elementos Estruturais",
       "fonte": "TraceParts"
     },
@@ -19676,7 +19676,7 @@
       "nome": "Escada DXF - 467",
       "tipo": "DXF",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=96707",
-      "descricao": "Modelo CAD publico de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de escada em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "3D ContentCentral"
     },
@@ -19685,7 +19685,7 @@
       "nome": "Encoder SLDPRT - 468",
       "tipo": "SLDPRT",
       "url": "https://www.mcmaster.com/6498K654",
-      "descricao": "Modelo CAD publico de encoder em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de encoder em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Eletricos",
       "fonte": "McMaster-Carr"
     },
@@ -19694,7 +19694,7 @@
       "nome": "Flange SLDASM - 469",
       "tipo": "SLDASM",
       "url": "https://www.bimobject.com/en/salter-stairs/product/floating-straight-stairs",
-      "descricao": "Modelo CAD publico de flange em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de flange em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "BIMobject"
     },
@@ -19703,17 +19703,17 @@
       "nome": "Mandril IPT - 470",
       "tipo": "IPT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de mandril em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de mandril em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_471",
-      "nome": "Prensa Hidraulica IAM - 471",
+      "nome": "Prensa Hidráulica IAM - 471",
       "tipo": "IAM",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de prensa hidraulica em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de prensa hidráulica em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "OpenBuildings"
     },
     {
@@ -19721,7 +19721,7 @@
       "nome": "Rack SAT - 472",
       "tipo": "SAT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de rack em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de rack em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "PartCommunity"
     },
@@ -19730,8 +19730,8 @@
       "nome": "Plataforma Elevatoria BREP - 473",
       "tipo": "BREP",
       "url": "https://grabcad.com/library/rack-pinion-mechanism-1",
-      "descricao": "Modelo CAD publico de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de plataforma elevatoria em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
+      "categoria": "Veículos e Transporte",
       "fonte": "GrabCAD"
     },
     {
@@ -19739,8 +19739,8 @@
       "nome": "Bucha 3DM - 474",
       "tipo": "3DM",
       "url": "https://www.traceparts.com/en/product/ntn-europe-ntype-cylindrical-roller-bearing",
-      "descricao": "Modelo CAD publico de bucha em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de bucha em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Peças Mecânicas",
       "fonte": "TraceParts"
     },
     {
@@ -19748,16 +19748,16 @@
       "nome": "Mangueira RVT - 475",
       "tipo": "RVT",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=2840&id=585397",
-      "descricao": "Modelo CAD publico de mangueira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de mangueira em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_476",
-      "nome": "Regulador de Pressao DWF - 476",
+      "nome": "Regulador de Pressão DWF - 476",
       "tipo": "DWF",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de regulador de pressao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de regulador de pressão em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "McMaster-Carr"
     },
@@ -19766,7 +19766,7 @@
       "nome": "Coluna STEP - 477",
       "tipo": "STEP",
       "url": "https://www.bimobject.com/en/redd-team/product/universal-aluminum-stairs",
-      "descricao": "Modelo CAD publico de coluna em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
+      "descricao": "Modelo CAD público de coluna em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
       "categoria": "Elementos Estruturais",
       "fonte": "BIMobject"
     },
@@ -19775,7 +19775,7 @@
       "nome": "Corte Transversal IGES - 478",
       "tipo": "IGES",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de corte transversal em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "CADdetails"
     },
@@ -19784,7 +19784,7 @@
       "nome": "Contator STL - 479",
       "tipo": "STL",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de contator em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de contator em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Eletricos",
       "fonte": "OpenBuildings"
     },
@@ -19793,7 +19793,7 @@
       "nome": "Nipple DWG - 480",
       "tipo": "DWG",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de nipple em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de nipple em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "PartCommunity"
     },
@@ -19802,25 +19802,25 @@
       "nome": "Morsa DXF - 481",
       "tipo": "DXF",
       "url": "https://grabcad.com/library/shell-tube-heat-exchanger-tube-bundle-assembly-with-u-bent-tubes-creo-parametric-detailed-drafting-1",
-      "descricao": "Modelo CAD publico de morsa em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de morsa em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_482",
-      "nome": "Torno Mecanico SLDPRT - 482",
+      "nome": "Torno Mecânico SLDPRT - 482",
       "tipo": "SLDPRT",
-      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-series-nvt9m1vb20",
-      "descricao": "Modelo CAD publico de torno mecanico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
-      "categoria": "Maquinas e Equipamentos",
+      "url": "https://www.traceparts.com/en/product/swagelok-company-2way-straight-needle-valves-ipt-séries-nvt9m1vb20",
+      "descricao": "Modelo CAD público de torno mecânico em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "TraceParts"
     },
     {
       "id": "cad_483",
-      "nome": "Mesa de Inspecao SLDASM - 483",
+      "nome": "Mesa de Inspeção SLDASM - 483",
       "tipo": "SLDASM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=364&id=119094",
-      "descricao": "Modelo CAD publico de mesa de inspecao em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de mesa de inspeção em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "3D ContentCentral"
     },
@@ -19829,8 +19829,8 @@
       "nome": "Reboque Industrial IPT - 484",
       "tipo": "IPT",
       "url": "https://www.mcmaster.com/product/1794A63",
-      "descricao": "Modelo CAD publico de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de reboque industrial em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
+      "categoria": "Veículos e Transporte",
       "fonte": "McMaster-Carr"
     },
     {
@@ -19838,25 +19838,25 @@
       "nome": "Porca IAM - 485",
       "tipo": "IAM",
       "url": "https://www.bimobject.com/en/weland/product/st-stair_last_step_below_floor_level_cp",
-      "descricao": "Modelo CAD publico de porca em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de porca em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Peças Mecânicas",
       "fonte": "BIMobject"
     },
     {
       "id": "cad_486",
-      "nome": "Filtro Hidraulico SAT - 486",
+      "nome": "Filtro Hidráulico SAT - 486",
       "tipo": "SAT",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de filtro hidraulico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de filtro hidráulico em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "CADdetails"
     },
     {
       "id": "cad_487",
-      "nome": "Cilindro Pneumatico BREP - 487",
+      "nome": "Cilindro Pneumático BREP - 487",
       "tipo": "BREP",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de cilindro pneumatico em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
+      "descricao": "Modelo CAD público de cilindro pneumático em formato BREP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "OpenBuildings"
     },
@@ -19865,7 +19865,7 @@
       "nome": "Cantoneira 3DM - 488",
       "tipo": "3DM",
       "url": "https://smc.partcommunity.com/3d-cad-models/my1-mechanically-jointed-rodless-cylinder-smc",
-      "descricao": "Modelo CAD publico de cantoneira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
+      "descricao": "Modelo CAD público de cantoneira em formato 3DM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
       "categoria": "Elementos Estruturais",
       "fonte": "PartCommunity"
     },
@@ -19874,16 +19874,16 @@
       "nome": "Sacada RVT - 489",
       "tipo": "RVT",
       "url": "https://grabcad.com/library/truck-loading-conveyor-4",
-      "descricao": "Modelo CAD publico de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de sacada em formato RVT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "GrabCAD"
     },
     {
       "id": "cad_490",
-      "nome": "Fonte de Alimentacao DWF - 490",
+      "nome": "Fonte de Alimentação DWF - 490",
       "tipo": "DWF",
       "url": "https://www.traceparts.com/en/product/bonney-forge-globe-valves-class-150",
-      "descricao": "Modelo CAD publico de fonte de alimentacao em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de fonte de alimentação em formato DWF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Eletricos",
       "fonte": "TraceParts"
     },
@@ -19892,7 +19892,7 @@
       "nome": "Bocal STEP - 491",
       "tipo": "STEP",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de bocal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de bocal em formato STEP. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Tubulacoes e Conexoes",
       "fonte": "3D ContentCentral"
     },
@@ -19901,7 +19901,7 @@
       "nome": "Grampo IGES - 492",
       "tipo": "IGES",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de grampo em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de grampo em formato IGES. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Ferramentas e Dispositivos",
       "fonte": "McMaster-Carr"
     },
@@ -19910,8 +19910,8 @@
       "nome": "Fresadora STL - 493",
       "tipo": "STL",
       "url": "https://www.bimobject.com/en/weland/product/spiral_staircase",
-      "descricao": "Modelo CAD publico de fresadora em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no BIMobject.",
-      "categoria": "Maquinas e Equipamentos",
+      "descricao": "Modelo CAD público de fresadora em formato STL. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no BIMobject.",
+      "categoria": "Máquinas e Equipamentos",
       "fonte": "BIMobject"
     },
     {
@@ -19919,7 +19919,7 @@
       "nome": "Painel de Controle DWG - 494",
       "tipo": "DWG",
       "url": "https://www.caddetails.com/",
-      "descricao": "Modelo CAD publico de painel de controle em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no CADdetails.",
+      "descricao": "Modelo CAD público de painel de controle em formato DWG. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no CADdetails.",
       "categoria": "Moveis e Layout Industrial",
       "fonte": "CADdetails"
     },
@@ -19928,8 +19928,8 @@
       "nome": "Carrinho Transportador DXF - 495",
       "tipo": "DXF",
       "url": "https://www.openbuildings.com/",
-      "descricao": "Modelo CAD publico de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no OpenBuildings.",
-      "categoria": "Veiculos e Transporte",
+      "descricao": "Modelo CAD público de carrinho transportador em formato DXF. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no OpenBuildings.",
+      "categoria": "Veículos e Transporte",
       "fonte": "OpenBuildings"
     },
     {
@@ -19937,16 +19937,16 @@
       "nome": "Mancal SLDPRT - 496",
       "tipo": "SLDPRT",
       "url": "https://ptc.partcommunity.com/",
-      "descricao": "Modelo CAD publico de mancal em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no PartCommunity.",
-      "categoria": "Pecas Mecanicas",
+      "descricao": "Modelo CAD público de mancal em formato SLDPRT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no PartCommunity.",
+      "categoria": "Peças Mecânicas",
       "fonte": "PartCommunity"
     },
     {
       "id": "cad_497",
-      "nome": "Reservatorio SLDASM - 497",
+      "nome": "Reservatório SLDASM - 497",
       "tipo": "SLDASM",
       "url": "https://grabcad.com/library/brushless-motor-2212-920-kv-1",
-      "descricao": "Modelo CAD publico de reservatorio em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no GrabCAD.",
+      "descricao": "Modelo CAD público de reservatório em formato SLDASM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no GrabCAD.",
       "categoria": "Componentes Hidraulicos",
       "fonte": "GrabCAD"
     },
@@ -19955,7 +19955,7 @@
       "nome": "Unidade de Condicionamento IPT - 498",
       "tipo": "IPT",
       "url": "https://www.traceparts.com/en/product/georg-fischer-ball-valve-type-546",
-      "descricao": "Modelo CAD publico de unidade de condicionamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no TraceParts.",
+      "descricao": "Modelo CAD público de unidade de condicionamento em formato IPT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no TraceParts.",
       "categoria": "Componentes Pneumaticos",
       "fonte": "TraceParts"
     },
@@ -19964,16 +19964,16 @@
       "nome": "Barra Chata IAM - 499",
       "tipo": "IAM",
       "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=558125",
-      "descricao": "Modelo CAD publico de barra chata em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no 3D ContentCentral.",
+      "descricao": "Modelo CAD público de barra chata em formato IAM. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no 3D ContentCentral.",
       "categoria": "Elementos Estruturais",
       "fonte": "3D ContentCentral"
     },
     {
       "id": "cad_500",
-      "nome": "Fundacao SAT - 500",
+      "nome": "Fundação SAT - 500",
       "tipo": "SAT",
       "url": "https://www.mcmaster.com/product/6381K608",
-      "descricao": "Modelo CAD publico de fundacao em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponivel no McMaster-Carr.",
+      "descricao": "Modelo CAD público de fundação em formato SAT. Projeto detalhado, modelagem 3D pronta para download. Arquivo disponível no McMaster-Carr.",
       "categoria": "Desenhos Arquitetonicos",
       "fonte": "McMaster-Carr"
     }
@@ -19982,7 +19982,7 @@
     {
       "nome": "Gestão da Qualidade Total",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educacao/cursos",
+      "url": "https://www.senai.br/educação/cursos",
       "carga": "40h",
       "tipo": "Curso Livre",
       "descricao": "Fundamentos do TQM, ferramentas da qualidade, ISO 9001 e melhoria contínua."
@@ -19998,7 +19998,7 @@
     {
       "nome": "Logística Empresarial",
       "plataforma": "SEBRAE",
-      "url": "https://www.sebrae.com.br/educacao/cursos",
+      "url": "https://www.sebrae.com.br/educação/cursos",
       "carga": "16h",
       "tipo": "Curso Livre",
       "descricao": "Gestão logística, modais, armazenagem, distribuição e indicadores logísticos."
@@ -20030,7 +20030,7 @@
     {
       "nome": "Gestão de Projetos (PMBOK)",
       "plataforma": "SEBRAE",
-      "url": "https://www.sebrae.com.br/educacao/cursos",
+      "url": "https://www.sebrae.com.br/educação/cursos",
       "carga": "24h",
       "tipo": "Curso Livre",
       "descricao": "Fundamentos do PMBOK, cronogramas, EAP, riscos e custos em projetos."
@@ -20038,7 +20038,7 @@
     {
       "nome": "Segurança do Trabalho (NRs)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educacao/cursos",
+      "url": "https://www.senai.br/educação/cursos",
       "carga": "20h",
       "tipo": "Curso Livre",
       "descricao": "Normas Regulamentadoras, EPI/EPC, CIPA, mapa de riscos e prevenção de acidentes."
@@ -20062,7 +20062,7 @@
     {
       "nome": "Indústria 4.0 (SENAI)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educacao/cursos",
+      "url": "https://www.senai.br/educação/cursos",
       "carga": "20h",
       "tipo": "Curso Livre",
       "descricao": "IoT industrial, gêmeo digital, manufatura aditiva, IA e sistemas ciberfísicos."
@@ -20070,7 +20070,7 @@
     {
       "nome": "AutoCAD Básico (SENAI)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educacao/cursos",
+      "url": "https://www.senai.br/educação/cursos",
       "carga": "40h",
       "tipo": "Curso Livre",
       "descricao": "Desenho técnico auxiliado por computador, cotagem, layers e plotagem."
@@ -20078,7 +20078,7 @@
     {
       "nome": "Fundamentos da Gestão Logística (FM2S)",
       "plataforma": "FM2S",
-      "url": "https://www.fm2s.com.br/cursos/fundamentos-da-gestao-logistica",
+      "url": "https://www.fm2s.com.br/cursos/fundamentos-da-gestão-logística",
       "carga": "15h",
       "tipo": "Curso Livre",
       "descricao": "Princípios da gestão logística, estoques, transporte e indicadores."
@@ -20086,7 +20086,7 @@
     {
       "nome": "Programação Linear (Udemy)",
       "plataforma": "Udemy",
-      "url": "https://www.udemy.com/user/nilo-guimaraes/",
+      "url": "https://www.udemy.com/user/nilo-guimarães/",
       "carga": "5h",
       "tipo": "Curso Gratuito",
       "descricao": "Introdução á programação linear, método simplex e otimização de recursos."
@@ -20141,7 +20141,7 @@
       "id": "8d",
       "nome": "Relatório 8D (Oito Disciplinas)",
       "descricao": "Template de relatório 8D para análise de não conformidades com campos de D1 a D8.",
-      "arquivo": "assets/downloads/formularios/03-relatorio-8d.html"
+      "arquivo": "assets/downloads/formularios/03-relatório-8d.html"
     },
     {
       "id": "mapeamento",
@@ -20177,7 +20177,7 @@
       "id": "5w2h",
       "nome": "Plano de Ação 5W2H",
       "descricao": "Template de plano de ação What, Why, Where, When, Who, How, How Much.",
-      "arquivo": "assets/downloads/formularios/09-plano-acao-5w2h.html"
+      "arquivo": "assets/downloads/formularios/09-plano-ação-5w2h.html"
     },
     {
       "id": "auditoria",
@@ -20198,7 +20198,7 @@
       "arquivo": "assets/downloads/formularios/12-dashboard-kpi.html"
     },
     {
-      "id": "analise-capacidade",
+      "id": "análise-capacidade",
       "nome": "Análise de Capacidade Produtiva",
       "descricao": "Formulário para cálculo de capacidade instalada, disponível e efetiva com indicadores de ociosidade.",
       "arquivo": "assets/downloads/formularios/13-capacidade-produtiva.html"
