@@ -200,12 +200,6 @@
         <div class="scroll-hero-stage">
           <canvas id="scrollCanvas" aria-label="Vídeo em giro 360 graus de um ferreiro na oficina"></canvas>
           <div class="scroll-hero-fade" aria-hidden="true"></div>
-          <div class="scroll-hero-overlay">
-            <span class="eyebrow">Produção em Movimento</span>
-            <h3 class="scroll-hero-title"><span class="accent">Gerett</span><br>Biblioteca Organizacional</h3>
-            <p class="scroll-hero-sub">Role a página e gire a cena em 360º — o ferreiro, o metal e a tradição que sustentam a indústria.</p>
-            <span class="scroll-hero-author">Oficina 360º · Gerett</span>
-          </div>
           <div class="scroll-hero-hint" aria-hidden="true">
             <span class="scroll-hero-hint-label">Role para girar</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M19 12l-7 7-7-7"/></svg>
@@ -598,6 +592,14 @@
       ctx.drawImage(im, f.dx, f.dy, f.dw, f.dh);
     }
 
+    var hint = hero.querySelector('.scroll-hero-hint');
+    if (hint) gsap.set(hint, { opacity: 1 });
+
+    function smooth(a, b, x) {
+      x = Math.max(0, Math.min(1, (x - a) / (b - a)));
+      return x * x * (3 - 2 * x);
+    }
+
     var proxy = { frame: 0 };
     gsap.to(proxy, {
       frame: TOTAL - 1,
@@ -610,6 +612,46 @@
         invalidateOnRefresh: true,
         onUpdate: function (self) {
           render(Math.round(self.progress * (TOTAL - 1)));
+          if (hint) hint.style.opacity = 1 - smooth(0, 0.06, self.progress);
+        }
+      }
+    });
+  })();
+
+  /* ─── HERO TITLE: reveal progressivo ao scroll ─── */
+  (function () {
+    'use strict';
+    var heroEl = document.getElementById('inicio');
+    var heroTitle = document.getElementById('hero-title');
+    if (!heroEl || !heroTitle || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+    var eyebrow = heroEl.querySelector('.hero-eyebrow');
+    var subtitle = heroEl.querySelector('.hero-subtitle');
+    var purpose = heroEl.querySelector('.hero-purpose');
+    var items = [subtitle, purpose].filter(Boolean);
+    gsap.set(eyebrow, { opacity: 1, y: 0 });
+    gsap.set(heroTitle, { opacity: 1, y: 0 });
+    items.forEach(function (el) { gsap.set(el, { opacity: 0, y: 18 }); });
+
+    function smooth(a, b, x) {
+      x = Math.max(0, Math.min(1, (x - a) / (b - a)));
+      return x * x * (3 - 2 * x);
+    }
+
+    gsap.to({}, {
+      scrollTrigger: {
+        trigger: heroEl,
+        start: 'top top',
+        end: '35% top',
+        scrub: 0.3,
+        onUpdate: function (self) {
+          var p = self.progress;
+          for (var k = 0; k < items.length; k++) {
+            var start = 0.05 + k * 0.2;
+            var v = smooth(start, start + 0.35, p);
+            items[k].style.opacity = v;
+            items[k].style.transform = 'translateY(' + (18 * (1 - v)) + 'px)';
+          }
         }
       }
     });

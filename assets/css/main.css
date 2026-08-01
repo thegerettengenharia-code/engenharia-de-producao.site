@@ -982,8 +982,6 @@ a.topic-card:visited {
   .topic-detail-panel { max-width: 100%; }
   .detail-title { font-size: 1.35rem; }
   .hero-purpose { padding: 20px; }
-  .cursor-dot, .cursor-ring { display: none !important; }
-  html.has-cursor * { cursor: auto !important; }
   .hero-title { font-size: 1.8rem; line-height: 1.12; letter-spacing: -0.02em; }
   .hero-cta { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
@@ -1003,22 +1001,6 @@ a.topic-card:visited {
   transform: rotate(45deg); text-shadow: 0 0 8px hsla(220, 90%, 55%, 0.3);
 }
 [data-theme="dark"] .corner-badge::before { color: var(--c-laser-cyan); }
-
-/* â”€â”€â”€ Magnetic Cursor â”€â”€â”€ */
-.cursor-dot, .cursor-ring {
-  position: fixed; top: 0; left: 0; width: 8px; height: 8px;
-  border-radius: 50%; pointer-events: none; z-index: 99999;
-  mix-blend-mode: difference; will-change: transform;
-}
-.cursor-dot { background: #fff; width: 8px; height: 8px; }
-.cursor-ring {
-  border: 1.5px solid rgba(255,255,255,0.5); width: 40px; height: 40px;
-  transition: width 0.2s, height 0.2s, border-color 0.2s;
-}
-.cursor-ring.cursor-ring-active { width: 56px; height: 56px; border-color: var(--c-eng-blue); }
-.cursor-dot.cursor-dot-active { width: 4px; height: 4px; }
-.cursor-ring.cursor-ring-down { transform: scale(0.85); }
-html.has-cursor * { cursor: none !important; }
 
 /* â”€â”€â”€ Section Glass â”€â”€â”€ */
 .section-glass {
@@ -1733,71 +1715,19 @@ select.form-input { cursor: pointer; }
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   will-change: transform;
-  -webkit-mask-image: radial-gradient(78% 72% at 50% 50%, #000 62%, rgba(0,0,0,0.82) 78%, transparent 100%);
-  mask-image: radial-gradient(78% 72% at 50% 50%, #000 62%, rgba(0,0,0,0.82) 78%, transparent 100%);
 }
-/* Suaviza as bordas da animação (vignette + fade) */
+/* Acabamento premium: vinheta cinematografica sutil + gradientes de legibilidade */
 .scroll-hero-fade {
   position: absolute;
   inset: 0;
   z-index: 1;
   pointer-events: none;
   background:
-    radial-gradient(90% 84% at 50% 50%, transparent 58%, rgba(5, 8, 11, 0.55) 82%, rgba(4, 6, 8, 0.9) 100%);
-}
-/* Overlay (tÃ­tulo / subtÃ­tulo / autor) */
-.scroll-hero-overlay {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  max-width: 620px;
-  padding: 24px;
-  pointer-events: none;
-  color: #f5f7fa;
-}
-.scroll-hero-overlay .eyebrow {
-  color: var(--c-laser-cyan, #7fd6ff);
-  background: rgba(10, 14, 18, 0.35);
-}
-[data-theme="dark"] .scroll-hero-overlay .eyebrow,
-[data-theme="light"] .scroll-hero-overlay .eyebrow { color: var(--c-laser-cyan, #7fd6ff); }
-.scroll-hero-title {
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 5.4vw, 3.6rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  margin-bottom: 14px;
-  color: #f5f7fa;
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.55);
-}
-.scroll-hero-title .accent {
-  background: linear-gradient(135deg, var(--c-eng-blue), var(--c-laser-cyan));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
-.scroll-hero-sub {
-  font-size: clamp(0.95rem, 1.6vw, 1.1rem);
-  color: #c4ccd6;
-  line-height: 1.6;
-  margin-bottom: 22px;
-  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
-}
-.scroll-hero-author {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--c-laser-cyan, #7fd6ff);
-  border: 1px solid color-mix(in srgb, var(--c-laser-cyan, #7fd6ff) 40%, transparent);
-  border-radius: var(--radius-full, 999px);
-  padding: 7px 16px;
-  background: rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(6px);
+    radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
+    linear-gradient(to bottom, rgba(3, 5, 7, 0.35) 0%, transparent 22%, transparent 70%, rgba(3, 5, 7, 0.45) 100%);
 }
 /* Hint de rolagem */
 .scroll-hero-hint {
@@ -1835,12 +1765,6 @@ select.form-input { cursor: pointer; }
     height: 100dvh;
     min-height: 420px;
   }
-  #scrollCanvas {
-    -webkit-mask-image: radial-gradient(88% 76% at 50% 50%, #000 60%, rgba(0,0,0,0.82) 78%, transparent 100%);
-    mask-image: radial-gradient(88% 76% at 50% 50%, #000 60%, rgba(0,0,0,0.82) 78%, transparent 100%);
-  }
-  .scroll-hero-overlay { max-width: 92%; padding: 16px; }
-  .scroll-hero-title { font-size: clamp(1.6rem, 6.5vw, 2.2rem); }
   .scroll-hero-hint { bottom: 22px; }
 }
 
