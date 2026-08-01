@@ -7617,10 +7617,10 @@
       "nome": "Desenvolvimento de Produtos",
       "icone": "ruler",
       "cor": "#0d9488",
-      "descricao": "Processo de desenvolvimento, engenharia simultônea e gestão do ciclo de vida.",
+      "descricao": "Processo de desenvolvimento, engenharia simultânea e gestão do ciclo de vida.",
       "subtopicos": [
         {
-          "titulo": "Engenharia simultônea",
+          "titulo": "Engenharia simultânea",
           "definicao": "Abordagem integrada de desenvolvimento de produtos onde atividades de projeto, manufatura, suprimentos e qualidade ocorrem em paralelo, não sequencialmente. Reduz o time-to-market e melhora a comunicação entre equipes multidisciplinares.",
           "topicos": [
             {
@@ -7638,7 +7638,7 @@
           ],
           "formula": "",
           "aplicacoes": [
-            "Projeto automotivo com equipes simultôneas de engenharia e manufatura",
+            "Projeto automotivo com equipes simultâneas de engenharia e manufatura",
             "Redução do ciclo de desenvolvimento de eletroeletrônicos",
             "Integração fornecedor-cliente no desenvolvimento"
           ]
