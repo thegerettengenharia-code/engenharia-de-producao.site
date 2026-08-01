@@ -194,6 +194,25 @@
         <h2 id="indice-title" class="section-title">Todas as Áreas<br>da Biblioteca</h2>
         <p class="section-subtitle">Navegue por 30 áreas técnicas com centenas de tópicos detalhados, ferramentas, teorias e referências para a indústria brasileira.</p>
       </div>
+
+      <!-- HERO SCROLL CINEMATOGRAFICO — Giro 360° do Ferreiro -->
+      <div class="scroll-hero" id="scrollHero">
+        <div class="scroll-hero-stage">
+          <canvas id="scrollCanvas" aria-label="Vídeo em giro 360 graus de um ferreiro na oficina"></canvas>
+          <div class="scroll-hero-fade" aria-hidden="true"></div>
+          <div class="scroll-hero-overlay">
+            <span class="eyebrow">Produção em Movimento</span>
+            <h3 class="scroll-hero-title"><span class="accent">Gerett</span><br>Biblioteca Organizacional</h3>
+            <p class="scroll-hero-sub">Role a página e gire a cena em 360º — o ferreiro, o metal e a tradição que sustentam a indústria.</p>
+            <span class="scroll-hero-author">Oficina 360º · Gerett</span>
+          </div>
+          <div class="scroll-hero-hint" aria-hidden="true">
+            <span class="scroll-hero-hint-label">Role para girar</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M19 12l-7 7-7-7"/></svg>
+          </div>
+        </div>
+      </div>
+
       <div class="index-nav" data-reveal>
         <div class="index-nav-grid" id="indexGrid" role="list" aria-label="Indice das areas"></div>
       </div>
@@ -522,6 +541,78 @@
       }
       window.__lenis = lenis;
     }
+  })();
+
+  /* ─── HERO SCROLL CINEMATOGRAFICO: giro 360° amarrado ao scroll ─── */
+  (function () {
+    'use strict';
+    var hero = document.getElementById('scrollHero');
+    var canvas = document.getElementById('scrollCanvas');
+    if (!hero || !canvas || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+    var ctx = canvas.getContext('2d');
+    var TOTAL = 72;
+    var isMobile = window.matchMedia('(max-width: 768px)').matches;
+    var ZOOM = isMobile ? 1.45 : 1.25;
+    var BASE = isMobile ? 'assets/img/spin/mobile/' : 'assets/img/spin/';
+    var frames = [];
+    var loaded = 0;
+    var ready = false;
+
+    for (var i = 1; i <= TOTAL; i++) {
+      (function (idx) {
+        var im = new Image();
+        im.onload = function () {
+          frames[idx - 1] = im;
+          loaded++;
+          if (loaded === TOTAL) {
+            ready = true;
+            render(0);
+          }
+        };
+        im.src = BASE + 'f_' + (idx < 10 ? '00' + idx : idx < 100 ? '0' + idx : idx) + '.webp';
+      })(i);
+    }
+
+    function fit(im, w, h) {
+      var iw = im.width, ih = im.height;
+      var s = Math.max(w / iw, h / ih) * ZOOM;
+      var dw = iw * s, dh = ih * s;
+      return { dx: (w - dw) / 2, dy: (h - dh) / 2, dw: dw, dh: dh };
+    }
+
+    function render(index) {
+      if (!ready) return;
+      var im = frames[index];
+      if (!im) return;
+      var dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+      var cw = canvas.clientWidth || window.innerWidth;
+      var ch = canvas.clientHeight || window.innerHeight;
+      if (canvas.width !== Math.round(cw * dpr) || canvas.height !== Math.round(ch * dpr)) {
+        canvas.width = Math.round(cw * dpr);
+        canvas.height = Math.round(ch * dpr);
+      }
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, cw, ch);
+      var f = fit(im, cw, ch);
+      ctx.drawImage(im, f.dx, f.dy, f.dw, f.dh);
+    }
+
+    var proxy = { frame: 0 };
+    gsap.to(proxy, {
+      frame: TOTAL - 1,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: hero,
+        start: 'top top',
+        end: 'bottom bottom',
+        scrub: 0.2,
+        invalidateOnRefresh: true,
+        onUpdate: function (self) {
+          render(Math.round(self.progress * (TOTAL - 1)));
+        }
+      }
+    });
   })();
   </script>
 </body>
