@@ -1012,13 +1012,6 @@ a.topic-card:visited {
     padding: 84px 18px 120px;
   }
   .hero-video-grid { display: none; }
-  /* Mobile: o elemento que gira 360° absolutamente nítido — sem translucidez
-     e sem o esfumado da borda inferior (máscara removida, igual ao desktop). */
-  .hero-video {
-    opacity: 1;
-    -webkit-mask-image: none;
-    mask-image: none;
-  }
   .hero-video-scrim {
     background:
       linear-gradient(180deg,
