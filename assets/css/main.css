@@ -1012,6 +1012,18 @@ a.topic-card:visited {
     padding: 84px 18px 120px;
   }
   .hero-video-grid { display: none; }
+  /* Mobile: o elemento que gira 360° com zoom reduzido — o vídeo inteiro fica
+     visível e centralizado (contain, sem recorte do cover), com o plano de
+     fundo animado ao redor. */
+  .hero-video {
+    object-fit: contain;
+  }
+  /* Mobile: remove o esfumado da borda superior do ferreiro (máscara) —
+     a animação entra sem o efeito de "emergir do nada" no topo. */
+  .scroll-hero-stage {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
   .hero-video-scrim {
     background:
       linear-gradient(180deg,
