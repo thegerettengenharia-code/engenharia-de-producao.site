@@ -1018,8 +1018,8 @@ a.topic-card:visited {
   .hero-video {
     object-fit: cover;
     object-position: 30% 50%;
-    transform: scale(3.4);
-    transform-origin: 50% 16%;
+    transform: scale(2.4);
+    transform-origin: 50% 20%;
     -webkit-mask-image: none;
     mask-image: none;
   }
