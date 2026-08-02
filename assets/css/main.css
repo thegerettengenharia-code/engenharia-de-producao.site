@@ -1040,9 +1040,9 @@ a.topic-card:visited {
         rgba(6,7,13,0.55) 0%,
         rgba(6,7,13,0.18) 28%,
         rgba(6,7,13,0.08) 50%,
-        rgba(6,7,13,0.30) 70%,
-        rgba(6,7,13,0.55) 84%,
-        rgba(6,7,13,0.60) 100%);
+        rgba(6,7,13,0.28) 68%,
+        rgba(6,7,13,0.18) 82%,
+        transparent 100%);
   }
   /* Mobile: remove a faixa escura no topo do ferreiro (esmaecer na emenda),
      mantendo a vinheta e a sombra da base para o texto do overlay. */
