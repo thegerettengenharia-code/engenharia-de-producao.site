@@ -1012,27 +1012,44 @@ a.topic-card:visited {
     padding: 84px 18px 120px;
   }
   .hero-video-grid { display: none; }
-  /* Mobile: o elemento que gira 360° com zoom reduzido — o vídeo inteiro fica
-     visível e centralizado (contain, sem recorte do cover), com o plano de
-     fundo animado ao redor. */
+  /* Mobile: o elemento que gira 360° ampliado — vídeo em modo cover,
+     cobrindo do topo do site até a parte superior da animação do ferreiro,
+     por trás das letras do hero, sem esfumado na emenda. */
   .hero-video {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 30% 50%;
+    transform: scale(3.4);
+    transform-origin: 50% 16%;
+    -webkit-mask-image: none;
+    mask-image: none;
   }
+  /* Mobile: remove a fumaça (névoa) e os esmaecidos entre o vídeo 360°
+     e a animação do ferreiro — emenda limpa, sem cortes suaves. */
+  #smokeTransition { display: none; }
   /* Mobile: remove o esfumado da borda superior do ferreiro (máscara) —
      a animação entra sem o efeito de "emergir do nada" no topo. */
   .scroll-hero-stage {
     -webkit-mask-image: none;
     mask-image: none;
   }
+  /* Mobile: sem esmaecer na base do vídeo 360° — apenas uma leve sombra
+     para manter as letras legíveis, com o vídeo visível até a emenda. */
   .hero-video-scrim {
     background:
       linear-gradient(180deg,
-        rgba(6,7,13,0.5) 0%,
-        rgba(6,7,13,0.12) 28%,
-        rgba(6,7,13,0.05) 50%,
-        rgba(6,7,13,0.34) 72%,
-        rgba(6,7,13,0.66) 88%,
-        var(--bg) 100%);
+        rgba(6,7,13,0.55) 0%,
+        rgba(6,7,13,0.18) 28%,
+        rgba(6,7,13,0.08) 50%,
+        rgba(6,7,13,0.36) 68%,
+        rgba(6,7,13,0.24) 82%,
+        transparent 100%);
+  }
+  /* Mobile: remove a faixa escura no topo do ferreiro (esmaecer na emenda),
+     mantendo a vinheta e a sombra da base para o texto do overlay. */
+  .scroll-hero-fade {
+    background:
+      radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
+      linear-gradient(to bottom, transparent 0%, transparent 22%, transparent 70%, rgba(3, 5, 7, 0.45) 100%);
   }
   .hero-content { gap: 24px; }
   .hero-stats { flex-wrap: wrap; gap: 24px; }
