@@ -1018,7 +1018,7 @@ a.topic-card:visited {
   .hero-video {
     object-fit: cover;
     object-position: 30% 50%;
-    transform: scale(3.2);
+    transform: scale(2.8);
     transform-origin: 50% 17%;
     -webkit-mask-image: none;
     mask-image: none;
