@@ -561,7 +561,7 @@
     var ctx = canvas.getContext('2d');
     var TOTAL = 72;
     var isMobile = window.matchMedia('(max-width: 768px)').matches;
-    var ZOOM = isMobile ? 1.4 : 1.6;
+    var ZOOM = isMobile ? 1.4 : 1.5;
     var BASE = isMobile ? 'assets/img/spin/mobile/' : 'assets/img/spin/';
     var frames = [];
     var loaded = 0;
@@ -589,10 +589,8 @@
       return { dx: (w - dw) / 2, dy: (h - dh) / 2, dw: dw, dh: dh };
     }
 
-    function render(index) {
+    function render(framePos) {
       if (!ready) return;
-      var im = frames[index];
-      if (!im) return;
       var dpr = Math.min(window.devicePixelRatio || 1, 2);
       var cw = canvas.clientWidth || window.innerWidth;
       var ch = canvas.clientHeight || window.innerHeight;
@@ -602,8 +600,23 @@
       }
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.clearRect(0, 0, cw, ch);
-      var f = fit(im, cw, ch);
-      ctx.drawImage(im, f.dx, f.dy, f.dw, f.dh);
+      var pos = Math.max(0, Math.min(TOTAL - 1, framePos));
+      var i = Math.floor(pos);
+      var j = Math.min(i + 1, TOTAL - 1);
+      var t = pos - i;
+      var im = frames[i];
+      if (!im) return;
+      var f1 = fit(im, cw, ch);
+      ctx.drawImage(im, f1.dx, f1.dy, f1.dw, f1.dh);
+      if (t > 0.001 && j !== i) {
+        var im2 = frames[j];
+        if (im2) {
+          ctx.globalAlpha = t;
+          var f2 = fit(im2, cw, ch);
+          ctx.drawImage(im2, f2.dx, f2.dy, f2.dw, f2.dh);
+          ctx.globalAlpha = 1;
+        }
+      }
     }
 
     var hint = hero.querySelector('.scroll-hero-hint');
@@ -633,6 +646,23 @@
       }
     }
 
+    /* Suavizacao extra: o frame corrente "flutua" em direcao ao alvo (lerp via
+       rAF), garantindo giro lento e fluido mesmo com rolagem irregular. */
+    var targetFrame = 0;
+    var currentFrame = 0;
+    var rafId = null;
+
+    function frameLoop() {
+      currentFrame += (targetFrame - currentFrame) * 0.15;
+      if (Math.abs(targetFrame - currentFrame) < 0.002) currentFrame = targetFrame;
+      render(currentFrame);
+      if (Math.abs(targetFrame - currentFrame) > 0.002) {
+        rafId = requestAnimationFrame(frameLoop);
+      } else {
+        rafId = null;
+      }
+    }
+
     var proxy = { frame: 0 };
     gsap.to(proxy, {
       frame: TOTAL - 1,
@@ -641,11 +671,12 @@
         trigger: hero,
         start: 'top top',
         end: 'bottom bottom',
-        scrub: 0.2,
+        scrub: 0.4,
         invalidateOnRefresh: true,
         onUpdate: function (self) {
           var p = self.progress;
-          render(Math.round(p * (TOTAL - 1)));
+          targetFrame = p * (TOTAL - 1);
+          if (!rafId) rafId = requestAnimationFrame(frameLoop);
           revealText(p);
           if (hint) hint.style.opacity = 1 - smooth(0, 0.06, p);
         }
@@ -653,7 +684,7 @@
     });
 
     window.addEventListener('resize', function () {
-      if (ready) render(proxy.frame);
+      if (ready) render(currentFrame);
     });
   })();
 
@@ -718,34 +749,15 @@
     if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    var heroEl = document.getElementById('inicio');
     var scrollHero = document.getElementById('scrollHero');
     var stage = scrollHero && scrollHero.querySelector('.scroll-hero-stage');
 
-    /* 1) Hero -> Ferreiro -> conteudo:
-       Uma unica timeline controla a opacidade do stage (fade-in no topo,
-       solida no meio, fade-out na base) — evita que dois tweens concorrentes
-       anulem o fade de entrada do ferreiro. O hero esvai conforme ele sai da
-       tela e o stage faz crossfade na mesma janela de rolagem. */
-    if (heroEl) {
-      gsap.fromTo(heroEl, { opacity: 1 }, {
-        opacity: 0,
-        ease: 'power1.inOut',
-        scrollTrigger: {
-          trigger: heroEl, start: 'top top', end: 'bottom top',
-          scrub: 1, invalidateOnRefresh: true
-        }
-      });
-    }
+    /* 1) Hero -> Ferreiro: SEM esmaecer — o video 360 sai da tela naturalmente
+       e o ferreiro entra solido (opacity 1), tambem no mobile. */
+    /* 2) Ferreiro -> conteudo:
+       o stage esvai suavemente ao final, enquanto as secoes seguintes entram
+       em crossfade pelo loop abaixo. */
     if (scrollHero && stage) {
-      gsap.fromTo(stage, { opacity: 0 }, {
-        opacity: 1,
-        ease: 'sine.out',
-        scrollTrigger: {
-          trigger: scrollHero, start: 'top 60%', end: 'top -10%',
-          scrub: 1, invalidateOnRefresh: true
-        }
-      });
       gsap.to(stage, {
         opacity: 0,
         ease: 'sine.inOut',

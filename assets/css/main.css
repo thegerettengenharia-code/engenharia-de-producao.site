@@ -1740,7 +1740,7 @@ select.form-input { cursor: pointer; }
    â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .scroll-hero {
   position: relative;
-  height: 500vh;
+  height: 700vh;
   z-index: 1;
 }
 .scroll-hero-stage {
@@ -1854,7 +1854,7 @@ select.form-input { cursor: pointer; }
 #indice .section-header { position: relative; z-index: 2; }
 
 @media (max-width: 768px) {
-  .scroll-hero { height: 220vh; }
+  .scroll-hero { height: 320vh; }
   .scroll-hero-stage {
     height: 100vh;
     height: 100dvh;
