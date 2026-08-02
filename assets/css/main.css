@@ -1012,12 +1012,6 @@ a.topic-card:visited {
     padding: 84px 18px 120px;
   }
   .hero-video-grid { display: none; }
-  /* Mobile: o elemento que gira 360° um pouco menor, centralizado, para
-     caber melhor na tela. (No mobile o JS não aplica transform no vídeo,
-     então o scale via CSS é seguro e não conflita com a rotação.) */
-  .hero-video {
-    transform: scale(0.9);
-  }
   .hero-video-scrim {
     background:
       linear-gradient(180deg,
