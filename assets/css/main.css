@@ -1018,8 +1018,8 @@ a.topic-card:visited {
   .hero-video {
     object-fit: cover;
     object-position: 30% 50%;
-    transform: scale(1.6);
-    transform-origin: 50% 25%;
+    transform: scale(3.4);
+    transform-origin: 50% 16%;
     -webkit-mask-image: none;
     mask-image: none;
   }
@@ -1040,8 +1040,8 @@ a.topic-card:visited {
         rgba(6,7,13,0.55) 0%,
         rgba(6,7,13,0.18) 28%,
         rgba(6,7,13,0.08) 50%,
-        rgba(6,7,13,0.28) 68%,
-        rgba(6,7,13,0.18) 82%,
+        rgba(6,7,13,0.36) 68%,
+        rgba(6,7,13,0.24) 82%,
         transparent 100%);
   }
   /* Mobile: remove a faixa escura no topo do ferreiro (esmaecer na emenda),
