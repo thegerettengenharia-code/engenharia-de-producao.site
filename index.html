@@ -711,6 +711,98 @@
     if (bgVideo.readyState > 0) playVideo();
     else bgVideo.addEventListener('canplay', playVideo, { once: true });
   })();
+
+  /* ─── TRANSICOES: esmaecimento (crossfade) entre hero, ferreiro e secoes ─── */
+  (function () {
+    'use strict';
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var heroEl = document.getElementById('inicio');
+    var scrollHero = document.getElementById('scrollHero');
+    var stage = scrollHero && scrollHero.querySelector('.scroll-hero-stage');
+    var indice = document.getElementById('indice');
+
+    function set(el, o) { if (el) gsap.set(el, o); }
+
+    /* Estado inicial */
+    if (heroEl) set(heroEl, { opacity: 1 });
+    if (stage) set(stage, { opacity: 0 });
+    gsap.utils.toArray('.section, .footer').forEach(function (s) {
+      if (s === indice) return;
+      set(s, { opacity: 0 });
+    });
+    if (indice) set(indice, { opacity: 0 });
+
+    /* 1) Hero -> Ferreiro:
+       hero esvai conforme ele proprio sai da tela (scroll 0 -> 100vh),
+       enquanto o stage do ferreiro surge conforme o scrollHero entra. */
+    if (heroEl) {
+      ScrollTrigger.create({
+        trigger: heroEl,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+        onUpdate: function (self) {
+          set(heroEl, { opacity: 1 - self.progress });
+        }
+      });
+    }
+    if (scrollHero && stage) {
+      ScrollTrigger.create({
+        trigger: scrollHero,
+        start: 'top bottom',
+        end: 'top top',
+        scrub: true,
+        onUpdate: function (self) {
+          set(stage, { opacity: self.progress });
+        }
+      });
+    }
+
+    /* 2) Ferreiro -> conteudo:
+       stage esvai conforme o scrollHero sai da tela (bottom bottom -> bottom top).
+       #indice, que vem logo apos, entra esvaindo pelos mesmos ~35% iniciais
+       (tratado pelo loop generico abaixo — sem conflito de escrita). */
+    if (scrollHero && stage) {
+      ScrollTrigger.create({
+        trigger: scrollHero,
+        start: 'bottom bottom',
+        end: 'bottom top',
+        scrub: true,
+        onUpdate: function (self) {
+          set(stage, { opacity: 1 - self.progress });
+        }
+      });
+    }
+
+    /* 3) Seções e footer:
+       uma unica trigger por secao (top bottom -> bottom top).
+       Entra esvaindo nos primeiros ~0.75 de viewport de rolagem, fica solida
+       e esvai ao sair nos ultimos ~0.75 de viewport — crossfade na emenda com
+       a proxima, sem conflito de escrita e valido em mobile e desktop
+       (secoes altas e baixas). */
+    var VH = window.innerHeight || 800;
+    gsap.utils.toArray('.section, .footer').forEach(function (cur) {
+      ScrollTrigger.create({
+        trigger: cur,
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true,
+        onUpdate: function (self) {
+          var total = self.end - self.start;
+          var d = self.scroll() - self.start;
+          var inW = Math.min(total * 0.35, VH * 0.75);
+          var outW = Math.min(total * 0.35, VH * 0.75);
+          var o;
+          if (d < inW) o = d / inW;
+          else if (d > total - outW) o = (total - d) / outW;
+          else o = 1;
+          set(cur, { opacity: Math.max(0, Math.min(1, o)) });
+        }
+      });
+    });
+  })();
   </script>
 </body>
 </html>
