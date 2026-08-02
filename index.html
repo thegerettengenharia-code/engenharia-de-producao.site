@@ -563,6 +563,10 @@
     var isMobile = window.matchMedia('(max-width: 768px)').matches;
     var ZOOM = isMobile ? 1.3 : 1.5;
     var BASE = isMobile ? 'assets/img/spin/mobile/' : 'assets/img/spin/';
+    /* Fluidez por dispositivo: no mobile o lerp e mais lento (0.10) e o scrub
+       mais atrasado (0.6) para um giro extra suave no toque. */
+    var SMOOTH = isMobile ? 0.1 : 0.15;
+    var SCRUB = isMobile ? 0.6 : 0.4;
     var frames = [];
     var loaded = 0;
     var ready = false;
@@ -653,7 +657,7 @@
     var rafId = null;
 
     function frameLoop() {
-      currentFrame += (targetFrame - currentFrame) * 0.15;
+      currentFrame += (targetFrame - currentFrame) * SMOOTH;
       if (Math.abs(targetFrame - currentFrame) < 0.002) currentFrame = targetFrame;
       render(currentFrame);
       if (Math.abs(targetFrame - currentFrame) > 0.002) {
@@ -671,7 +675,7 @@
         trigger: hero,
         start: 'top top',
         end: 'bottom bottom',
-        scrub: 0.4,
+        scrub: SCRUB,
         invalidateOnRefresh: true,
         onUpdate: function (self) {
           var p = self.progress;
