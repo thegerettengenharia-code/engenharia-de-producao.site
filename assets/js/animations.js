@@ -11,52 +11,6 @@
   const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   const deviceFactor = isMobile ? 0.5 : 1;
 
-  /* ─── Magnetic Cursor ─── */
-  let cursorCleanup = null;
-  function initCursor() {
-    if (isTouch) return;
-    const dot = document.createElement('div');
-    const ring = document.createElement('div');
-    dot.className = 'cursor-dot';
-    ring.className = 'cursor-ring';
-    document.body.appendChild(dot);
-    document.body.appendChild(ring);
-    document.documentElement.classList.add('has-cursor');
-
-    let mx = 0, my = 0, dx = 0, dy = 0, rx = 0, ry = 0;
-    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
-    document.addEventListener('mousedown', () => ring.classList.add('cursor-ring-down'));
-    document.addEventListener('mouseup', () => ring.classList.remove('cursor-ring-down'));
-
-    gsap.ticker.add(() => {
-      dx += (mx - dx) * 0.4;
-      dy += (my - dy) * 0.4;
-      rx += (mx - rx) * 0.15;
-      ry += (my - ry) * 0.15;
-      gsap.set(dot, { x: dx - 4, y: dy - 4 });
-      gsap.set(ring, { x: rx - 20, y: ry - 20 });
-    });
-
-    const interactives = document.querySelectorAll(
-      'a, button, .topic-card, .visual-card, .btn, .nav-link, .course-card, .resource-card, .form-card, .scroll-top, .theme-toggle, .nav-toggle, .search-clear, .footer-link'
-    );
-    const onEnter = () => { ring.classList.add('cursor-ring-active'); dot.classList.add('cursor-dot-active'); };
-    const onLeave = () => { ring.classList.remove('cursor-ring-active'); dot.classList.remove('cursor-dot-active'); };
-    interactives.forEach(el => {
-      el.addEventListener('mouseenter', onEnter);
-      el.addEventListener('mouseleave', onLeave);
-    });
-
-    cursorCleanup = () => {
-      dot.remove(); ring.remove();
-      document.documentElement.classList.remove('has-cursor');
-      interactives.forEach(el => {
-        el.removeEventListener('mouseenter', onEnter);
-        el.removeEventListener('mouseleave', onLeave);
-      });
-    };
-  }
-
   /* ─── Hero Animations ─── */
   function initHero() {
     const hero = document.querySelector('.hero');
@@ -245,7 +199,6 @@
   /* ─── Init ─── */
   function init() {
     setTimeout(() => {
-      initCursor();
       initHero();
       initScrollReveals();
       initParallax();

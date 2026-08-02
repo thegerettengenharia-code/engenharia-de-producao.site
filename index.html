@@ -46,6 +46,15 @@
   <div class="noise-overlay" aria-hidden="true"></div>
   <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
 
+  <!-- VÍDEO DE FUNDO DO SITE — scroll cinematográfico -->
+  <div class="site-bg" aria-hidden="true">
+    <video class="site-bg-video" autoplay muted loop playsinline preload="metadata">
+      <source src="assets/videos/bg-cinema-desktop.mp4" type="video/mp4" media="(min-width: 769px)">
+      <source src="assets/videos/bg-cinema-mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+    </video>
+    <div class="site-bg-scrim" aria-hidden="true"></div>
+  </div>
+
   <!-- NAVBAR — Desktop -->
   <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
@@ -187,30 +196,29 @@
       </div>
     </section>
 
+    <!-- HERO SCROLL CINEMATOGRAFICO — Giro 360° do Ferreiro (logo abaixo do hero) -->
+    <div class="scroll-hero" id="scrollHero">
+      <div class="scroll-hero-stage">
+        <canvas id="scrollCanvas" aria-label="Vídeo em giro 360 graus de um ferreiro na oficina"></canvas>
+        <div class="scroll-hero-fade" aria-hidden="true"></div>
+        <div class="scroll-hero-overlay">
+          <h3 class="scroll-hero-title"><span class="accent">Gerett</span><br>Biblioteca Organizacional</h3>
+          <p class="scroll-hero-sub">O ferreiro, o metal e a tradição que sustentam a indústria.</p>
+          <span class="scroll-hero-author">Oficina 360º · Gerett</span>
+        </div>
+        <div class="scroll-hero-hint" aria-hidden="true">
+          <span class="scroll-hero-hint-label">Role para girar</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M19 12l-7 7-7-7"/></svg>
+        </div>
+      </div>
+    </div>
+
     <!-- INDICE -->
     <section id="indice" class="section" aria-labelledby="indice-title">
       <div class="section-header" data-reveal>
         <span class="eyebrow">Índice Geral</span>
         <h2 id="indice-title" class="section-title">Todas as Áreas<br>da Biblioteca</h2>
         <p class="section-subtitle">Navegue por 30 áreas técnicas com centenas de tópicos detalhados, ferramentas, teorias e referências para a indústria brasileira.</p>
-      </div>
-
-      <!-- HERO SCROLL CINEMATOGRAFICO — Giro 360° do Ferreiro -->
-      <div class="scroll-hero" id="scrollHero">
-        <div class="scroll-hero-stage">
-          <canvas id="scrollCanvas" aria-label="Vídeo em giro 360 graus de um ferreiro na oficina"></canvas>
-          <div class="scroll-hero-fade" aria-hidden="true"></div>
-          <div class="scroll-hero-overlay">
-            <span class="eyebrow">Produção em Movimento</span>
-            <h3 class="scroll-hero-title"><span class="accent">Gerett</span><br>Biblioteca Organizacional</h3>
-            <p class="scroll-hero-sub">Role a página e gire a cena em 360º — o ferreiro, o metal e a tradição que sustentam a indústria.</p>
-            <span class="scroll-hero-author">Oficina 360º · Gerett</span>
-          </div>
-          <div class="scroll-hero-hint" aria-hidden="true">
-            <span class="scroll-hero-hint-label">Role para girar</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M19 12l-7 7-7-7"/></svg>
-          </div>
-        </div>
       </div>
 
       <div class="index-nav" data-reveal>
@@ -306,7 +314,7 @@
     </section>
 
     <!-- PORTAIS DE NOTICIAS -->
-    <section id="noticias" class="section" style="background:var(--bg-alt)" aria-labelledby="noticias-title">
+    <section id="noticias" class="section" aria-labelledby="noticias-title">
       <div class="section-header" data-reveal>
         <span class="eyebrow">Notícias do Setor</span>
         <h2 id="noticias-title" class="section-title">Portais de <span class="accent">Notícias</span></h2>
@@ -553,7 +561,7 @@
     var ctx = canvas.getContext('2d');
     var TOTAL = 72;
     var isMobile = window.matchMedia('(max-width: 768px)').matches;
-    var ZOOM = isMobile ? 1.15 : 1.5;
+    var ZOOM = isMobile ? 1.4 : 1.7;
     var BASE = isMobile ? 'assets/img/spin/mobile/' : 'assets/img/spin/';
     var frames = [];
     var loaded = 0;
@@ -598,6 +606,33 @@
       ctx.drawImage(im, f.dx, f.dy, f.dw, f.dh);
     }
 
+    var hint = hero.querySelector('.scroll-hero-hint');
+    if (hint) gsap.set(hint, { opacity: 1 });
+
+    var overlay = hero.querySelector('.scroll-hero-overlay');
+    var titleEl = overlay && overlay.querySelector('.scroll-hero-title');
+    var subEl = overlay && overlay.querySelector('.scroll-hero-sub');
+    var authorEl = overlay && overlay.querySelector('.scroll-hero-author');
+    var textItems = [titleEl, subEl, authorEl].filter(Boolean);
+    var i;
+    for (i = 0; i < textItems.length; i++) {
+      gsap.set(textItems[i], { opacity: 0, y: 14 });
+    }
+
+    function smooth(a, b, x) {
+      x = Math.max(0, Math.min(1, (x - a) / (b - a)));
+      return x * x * (3 - 2 * x);
+    }
+
+    function revealText(p) {
+      for (var k = 0; k < textItems.length; k++) {
+        var start = k * 0.12;
+        var v = smooth(start, start + 0.22, p);
+        textItems[k].style.opacity = v;
+        textItems[k].style.transform = 'translateY(' + (14 * (1 - v)) + 'px)';
+      }
+    }
+
     var proxy = { frame: 0 };
     gsap.to(proxy, {
       frame: TOTAL - 1,
@@ -609,10 +644,72 @@
         scrub: 0.2,
         invalidateOnRefresh: true,
         onUpdate: function (self) {
-          render(Math.round(self.progress * (TOTAL - 1)));
+          var p = self.progress;
+          render(Math.round(p * (TOTAL - 1)));
+          revealText(p);
+          if (hint) hint.style.opacity = 1 - smooth(0, 0.06, p);
         }
       }
     });
+
+    window.addEventListener('resize', function () {
+      if (ready) render(proxy.frame);
+    });
+  })();
+
+  /* ─── HERO TITLE: reveal progressivo ao scroll ─── */
+  (function () {
+    'use strict';
+    var heroEl = document.getElementById('inicio');
+    var heroTitle = document.getElementById('hero-title');
+    if (!heroEl || !heroTitle || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+    var eyebrow = heroEl.querySelector('.hero-eyebrow');
+    var subtitle = heroEl.querySelector('.hero-subtitle');
+    var purpose = heroEl.querySelector('.hero-purpose');
+    var items = [subtitle, purpose].filter(Boolean);
+    gsap.set(eyebrow, { opacity: 1, y: 0 });
+    gsap.set(heroTitle, { opacity: 1, y: 0 });
+    items.forEach(function (el) { gsap.set(el, { opacity: 0, y: 18 }); });
+
+    function smooth(a, b, x) {
+      x = Math.max(0, Math.min(1, (x - a) / (b - a)));
+      return x * x * (3 - 2 * x);
+    }
+
+    gsap.to({}, {
+      scrollTrigger: {
+        trigger: heroEl,
+        start: 'top top',
+        end: '35% top',
+        scrub: 0.3,
+        onUpdate: function (self) {
+          var p = self.progress;
+          for (var k = 0; k < items.length; k++) {
+            var start = 0.05 + k * 0.2;
+            var v = smooth(start, start + 0.35, p);
+            items[k].style.opacity = v;
+            items[k].style.transform = 'translateY(' + (18 * (1 - v)) + 'px)';
+          }
+        }
+      }
+    });
+  })();
+
+  /* ─── FUNDO DO SITE: scroll cinematográfico ─── */
+  (function () {
+    'use strict';
+    var bg = document.querySelector('.site-bg');
+    var bgVideo = document.querySelector('.site-bg-video');
+    if (!bg || !bgVideo || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+    function playVideo() {
+      var p = bgVideo.play();
+      if (p) p.catch(function () {});
+    }
+
+    if (bgVideo.readyState > 0) playVideo();
+    else bgVideo.addEventListener('canplay', playVideo, { once: true });
   })();
   </script>
 </body>
