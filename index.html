@@ -718,34 +718,15 @@
     if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    var heroEl = document.getElementById('inicio');
     var scrollHero = document.getElementById('scrollHero');
     var stage = scrollHero && scrollHero.querySelector('.scroll-hero-stage');
 
-    /* 1) Hero -> Ferreiro -> conteudo:
-       Uma unica timeline controla a opacidade do stage (fade-in no topo,
-       solida no meio, fade-out na base) — evita que dois tweens concorrentes
-       anulem o fade de entrada do ferreiro. O hero esvai conforme ele sai da
-       tela e o stage faz crossfade na mesma janela de rolagem. */
-    if (heroEl) {
-      gsap.fromTo(heroEl, { opacity: 1 }, {
-        opacity: 0,
-        ease: 'power1.inOut',
-        scrollTrigger: {
-          trigger: heroEl, start: 'top top', end: 'bottom top',
-          scrub: 1, invalidateOnRefresh: true
-        }
-      });
-    }
+    /* 1) Hero -> Ferreiro: SEM esmaecer — o video 360 sai da tela naturalmente
+       e o ferreiro entra solido (opacity 1), tambem no mobile. */
+    /* 2) Ferreiro -> conteudo:
+       o stage esvai suavemente ao final, enquanto as secoes seguintes entram
+       em crossfade pelo loop abaixo. */
     if (scrollHero && stage) {
-      gsap.fromTo(stage, { opacity: 0 }, {
-        opacity: 1,
-        ease: 'sine.out',
-        scrollTrigger: {
-          trigger: scrollHero, start: 'top 60%', end: 'top -10%',
-          scrub: 1, invalidateOnRefresh: true
-        }
-      });
       gsap.to(stage, {
         opacity: 0,
         ease: 'sine.inOut',
