@@ -262,7 +262,17 @@ ul, ol { list-style: none; }
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   object-fit: cover;
-  background: #07080d;
+  background: transparent;
+  /* O plano de fundo animado do site (.site-bg) aparece por trás do
+     elemento que gira 360°: o vídeo do hero fica translúcido. */
+  opacity: 0.8;
+  /* Esfumado contínuo na junção hero -> ferreiro: a base do vídeo 360°
+     "evapora" suavemente, sem corte seco.
+     INTENSIDADE/EXTENSÃO: altere os percentuais do gradiente.
+     78%/100% = banda curta · 60%/100% = banda longa (mais esfumaçado). */
+  -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
+  will-change: transform;
 }
 .hero-video-scrim {
   position: absolute; inset: 0; z-index: 1; pointer-events: none;
@@ -1735,6 +1745,57 @@ select.form-input { cursor: pointer; }
   .contact-fab-popup { min-width: 220px; right: -4px; }
 }
 
+/* ═══ TRANSIÇÃO DE FUMAÇA — hero (vídeo) → ferreiro (canvas) ═══ */
+.smoke-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  overflow: hidden;
+  will-change: opacity;
+}
+.smoke-puff {
+  position: absolute;
+  width: 70vw;
+  height: 70vw;
+  max-width: 900px;
+  max-height: 900px;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(238, 228, 214, 0.85) 0%,
+    rgba(238, 228, 214, 0.35) 42%,
+    rgba(238, 228, 214, 0) 72%);
+  filter: url(#smokeTurbulence) blur(8px);
+  will-change: transform;
+}
+.smoke-puff-1 { top: -22%; left: -15%; animation: smokeDrift1 14s ease-in-out infinite; }
+.smoke-puff-2 { top: 28%;  left: 55%;  animation: smokeDrift2 18s ease-in-out infinite; animation-delay: -4s; }
+.smoke-puff-3 { top: 55%;  left: -25%; animation: smokeDrift3 16s ease-in-out infinite; animation-delay: -9s; }
+.smoke-puff-4 { top: -12%; left: 40%;  animation: smokeDrift1 20s ease-in-out infinite reverse; animation-delay: -6s; }
+.smoke-puff-5 { top: 20%;  left: 18%;  animation: smokeDrift2 15s ease-in-out infinite; animation-delay: -2s; }
+
+@keyframes smokeDrift1 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  50%      { transform: translate(6vw, 4vh) scale(1.15) rotate(8deg); }
+}
+@keyframes smokeDrift2 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  50%      { transform: translate(-5vw, 6vh) scale(1.1) rotate(-6deg); }
+}
+@keyframes smokeDrift3 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  50%      { transform: translate(7vw, -5vh) scale(1.2) rotate(5deg); }
+}
+/* Mobile: sem turbulência (mais pesada pra renderizar) — só o blur */
+@media (max-width: 768px) {
+  .smoke-puff { filter: blur(18px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .smoke-puff { animation: none; }
+}
+
 /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    HERO SCROLL CINEMATOGRAFICO â€” Giro 360Â° (canvas sticky 500vh)
    â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
@@ -1755,6 +1816,13 @@ select.form-input { cursor: pointer; }
   background:
     radial-gradient(120% 90% at 50% 45%, rgba(20, 26, 34, 0.55) 0%, rgba(6, 9, 12, 0.85) 70%, rgba(4, 6, 8, 0.95) 100%),
     var(--bg, #07090c);
+  /* Esfumado na junção hero -> ferreiro: o ferreiro "emerge do nada" pela
+     borda superior (gradiente suave), sem linha visível — desktop e mobile.
+     INTENSIDADE/EXTENSÃO: percentuais do gradiente (14% = banda sutil;
+     22% = banda mais larga/esfumaçada). */
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 100%);
+  will-change: transform;
 }
 #scrollCanvas {
   position: absolute;
@@ -1774,6 +1842,34 @@ select.form-input { cursor: pointer; }
   background:
     radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
     linear-gradient(to bottom, rgba(3, 5, 7, 0.35) 0%, transparent 22%, transparent 70%, rgba(3, 5, 7, 0.45) 100%);
+}
+/* Somente desktop: remove a sombra escura da borda inferior da animacao */
+@media (min-width: 769px) {
+  .scroll-hero-fade {
+    background:
+      radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
+      linear-gradient(to bottom, transparent 0%, transparent 100%);
+  }
+  /* Desktop: as duas primeiras animacoes (elemento giratorio e ferreiro)
+     totalmente nitidas e completas — sem esfumado/esmaecer. */
+  .hero-video,
+  .scroll-hero-stage {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  /* Hero video 360°: borda superior e inferior sem efeito de escurecimento.
+     Mantém apenas uma vinheta suave no meio, para leitura do texto. */
+  .hero-video-scrim {
+    background:
+      radial-gradient(ellipse 90% 70% at 50% 40%, transparent 0%, rgba(6, 7, 13, 0.18) 55%, transparent 72%),
+      linear-gradient(180deg,
+        transparent 0%,
+        transparent 30%,
+        rgba(6, 7, 13, 0.3) 46%,
+        rgba(6, 7, 13, 0.5) 58%,
+        rgba(6, 7, 13, 0.3) 74%,
+        transparent 100%);
+  }
 }
 /* Overlay de texto sobre o giro 360° do ferreiro (reveal por scroll) */
 .scroll-hero-overlay {
