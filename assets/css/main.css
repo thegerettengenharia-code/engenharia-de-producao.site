@@ -1017,7 +1017,7 @@ a.topic-card:visited {
      por trás das letras do hero, sem esfumado na emenda. */
   .hero-video {
     object-fit: cover;
-    transform: scale(1.15);
+    transform: scale(1.4);
     transform-origin: center;
     -webkit-mask-image: none;
     mask-image: none;
