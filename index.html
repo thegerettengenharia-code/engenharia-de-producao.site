@@ -711,6 +711,99 @@
     if (bgVideo.readyState > 0) playVideo();
     else bgVideo.addEventListener('canplay', playVideo, { once: true });
   })();
+
+  /* ─── TRANSICOES: esmaecimento fluido (crossfade) entre hero, ferreiro e secoes ─── */
+  (function () {
+    'use strict';
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var heroEl = document.getElementById('inicio');
+    var scrollHero = document.getElementById('scrollHero');
+    var stage = scrollHero && scrollHero.querySelector('.scroll-hero-stage');
+
+    function set(el, o) { if (el) gsap.set(el, o); }
+
+    /* Curvas de easing suaves: sem "pulos" no inicio/fim do fade */
+    function smooth(x) { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); }
+    function easeOut(x) { x = Math.max(0, Math.min(1, x)); return x * (2 - x); }
+    function easeIn(x) { x = Math.max(0, Math.min(1, x)); return x * x; }
+
+    /* Estado inicial */
+    if (heroEl) set(heroEl, { opacity: 1 });
+    if (stage) set(stage, { opacity: 0 });
+    gsap.utils.toArray('.section, .footer').forEach(function (s) {
+      set(s, { opacity: 0 });
+    });
+
+    /* 1) Hero -> Ferreiro:
+       hero esvai conforme ele proprio sai da tela (scroll 0 -> 100vh);
+       stage do ferreiro surge suavemente (easeOut) conforme o scrollHero entra. */
+    if (heroEl) {
+      ScrollTrigger.create({
+        trigger: heroEl,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1,
+        onUpdate: function (self) {
+          set(heroEl, { opacity: 1 - smooth(self.progress) });
+        }
+      });
+    }
+    if (scrollHero && stage) {
+      ScrollTrigger.create({
+        trigger: scrollHero,
+        start: 'top bottom',
+        end: 'top top',
+        scrub: 1,
+        onUpdate: function (self) {
+          set(stage, { opacity: easeOut(self.progress) });
+        }
+      });
+    }
+
+    /* 2) Ferreiro -> conteudo:
+       stage esvai (easeIn, linger no inicio e some ao fim) enquanto o scrollHero
+       sai da tela; as secoes seguintes entram em crossfade pelo loop abaixo. */
+    if (scrollHero && stage) {
+      ScrollTrigger.create({
+        trigger: scrollHero,
+        start: 'bottom bottom',
+        end: 'bottom top',
+        scrub: 1,
+        onUpdate: function (self) {
+          set(stage, { opacity: 1 - easeIn(self.progress) });
+        }
+      });
+    }
+
+    /* 3) Seções e footer:
+       uma unica trigger por secao (top bottom -> bottom top).
+       Entra esvaindo no primeiro ~1 viewport de rolagem, fica solida e
+       esvai no ultimo ~1 viewport — crossfade na emenda com a proxima,
+       sem conflito de escrita, com VH recalculado (mobile/desktop e resize). */
+    gsap.utils.toArray('.section, .footer').forEach(function (cur) {
+      ScrollTrigger.create({
+        trigger: cur,
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: 1,
+        onUpdate: function (self) {
+          var total = self.end - self.start;
+          if (total <= 0) return;
+          var vh = window.innerHeight || 800;
+          var d = self.scroll() - self.start;
+          var inW = Math.min(total * 0.45, vh);
+          var outW = Math.min(total * 0.45, vh);
+          var o;
+          if (d < inW) o = smooth(d / inW);
+          else if (d > total - outW) o = smooth((total - d) / outW);
+          else o = 1;
+          set(cur, { opacity: o });
+        }
+      });
+    });
+  })();
   </script>
 </body>
 </html>
