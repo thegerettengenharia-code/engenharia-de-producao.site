@@ -736,45 +736,6 @@
     });
   })();
 
-  /* ─── HERO TITLE: reveal progressivo ao scroll ─── */
-  (function () {
-    'use strict';
-    var heroEl = document.getElementById('inicio');
-    var heroTitle = document.getElementById('hero-title');
-    if (!heroEl || !heroTitle || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
-
-    var eyebrow = heroEl.querySelector('.hero-eyebrow');
-    var subtitle = heroEl.querySelector('.hero-subtitle');
-    var purpose = heroEl.querySelector('.hero-purpose');
-    var items = [subtitle, purpose].filter(Boolean);
-    gsap.set(eyebrow, { opacity: 1, y: 0 });
-    gsap.set(heroTitle, { opacity: 1, y: 0 });
-    items.forEach(function (el) { gsap.set(el, { opacity: 0, y: 18 }); });
-
-    function smooth(a, b, x) {
-      x = Math.max(0, Math.min(1, (x - a) / (b - a)));
-      return x * x * (3 - 2 * x);
-    }
-
-    gsap.to({}, {
-      scrollTrigger: {
-        trigger: heroEl,
-        start: 'top top',
-        end: '35% top',
-        scrub: 0.3,
-        onUpdate: function (self) {
-          var p = self.progress;
-          for (var k = 0; k < items.length; k++) {
-            var start = 0.05 + k * 0.2;
-            var v = smooth(start, start + 0.35, p);
-            items[k].style.opacity = v;
-            items[k].style.transform = 'translateY(' + (18 * (1 - v)) + 'px)';
-          }
-        }
-      }
-    });
-  })();
-
   /* ─── FUNDO DO SITE: scroll cinematográfico ─── */
   (function () {
     'use strict';
