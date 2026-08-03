@@ -16,8 +16,6 @@
     const hero = document.querySelector('.hero');
     if (!hero) return;
 
-    const tl = gsap.timeline({ defaults: { ease: 'power4.out', duration: 1.2 } });
-
     const eyebrow = hero.querySelector('.hero-eyebrow');
     const title = hero.querySelector('.hero-title');
     const subtitle = hero.querySelector('.hero-subtitle');
@@ -25,15 +23,11 @@
     const stats = hero.querySelector('.hero-stats');
     const cta = hero.querySelector('.hero-cta');
 
-    if (eyebrow) tl.from(eyebrow, { y: 40, opacity: 0 }, 0.15);
-    if (title) tl.from(title, { y: 50, opacity: 0 }, 0.25);
-    if (subtitle) tl.from(subtitle, { y: 30, opacity: 0 }, 0.4);
-    if (purpose) tl.from(purpose, { y: 20, opacity: 0, duration: 0.9 }, 0.5);
-    if (stats) {
-      const items = stats.querySelectorAll('.stat');
-      tl.from(items, { y: 30, opacity: 0, stagger: 0.08 }, 0.5);
-    }
-    if (cta) tl.from(cta, { y: 20, opacity: 0 }, 0.6);
+    /* Texto do hero visível de imediato ao abrir — sem esmaecimento nem
+       revelação por rolagem. */
+    [eyebrow, title, subtitle, purpose, stats, cta].filter(Boolean).forEach(function (el) {
+      gsap.set(el, { opacity: 1, y: 0 });
+    });
   }
 
   /* ─── Scroll-Triggered Reveals ─── */
