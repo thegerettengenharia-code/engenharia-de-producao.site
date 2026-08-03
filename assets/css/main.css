@@ -1028,11 +1028,11 @@ a.topic-card:visited {
   /* Mobile: remove a fumaça (névoa) e os esmaecidos entre o vídeo 360°
      e a animação do ferreiro — emenda limpa, sem cortes suaves. */
   #smokeTransition { display: none; }
-  /* Mobile: pequena suavidade nas emendas — o ferreiro entra com leve fade
-     no topo e esvai com o mesmo fade na parte inferior. */
+  /* Mobile: sem degrade no topo do ferreiro — borda superior nitida.
+     Mantém apenas o fade suave na parte inferior. */
   .scroll-hero-stage {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 94%, transparent 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 94%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 94%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 94%, transparent 100%);
   }
   /* Mobile: sem esmaecer na base do vídeo 360° — apenas uma leve sombra
      para manter as letras legíveis, com o vídeo visível até a emenda. */
