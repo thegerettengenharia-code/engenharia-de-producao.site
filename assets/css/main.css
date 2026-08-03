@@ -1012,13 +1012,14 @@ a.topic-card:visited {
     padding: 84px 18px 64px;
   }
   .hero-video-grid { display: none; }
-  /* Mobile: o elemento que gira 360° reduzido — vídeo menor, em modo cover,
-     mostrando mais da cena ao redor, sem cobrir todo o hero. */
+  /* Mobile: o elemento que gira 360° bem enquadrado — vídeo contido,
+     objeto centralizado (50% 50%), mostrando a cena por inteiro sem cortar
+     o assunto e sem cobrir todo o hero. */
   .hero-video {
     object-fit: cover;
-    object-position: 30% 50%;
-    transform: scale(0.4);
-    transform-origin: 50% 17%;
+    object-position: 50% 50%;
+    transform: scale(0.62);
+    transform-origin: 50% 42%;
     -webkit-mask-image: none;
     mask-image: none;
   }
