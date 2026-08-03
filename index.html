@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="assets/css/main.css?v=12">
+  <link rel="stylesheet" href="assets/css/main.css?v=15">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="canonical" href="https://thegerett.com.br/">
   <script type="application/ld+json">
@@ -148,7 +148,8 @@
     <!-- HERO — Vídeo 360º em 4K -->
     <section id="inicio" class="hero" aria-labelledby="hero-title">
       <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/videos/hero-4k-poster.jpg" aria-hidden="true">
-        <source src="assets/videos/hero-4k.mp4" type="video/mp4">
+        <source src="assets/videos/hero-4k.mp4" type="video/mp4" media="(min-width: 769px)">
+        <source src="assets/videos/hero-360.mp4" type="video/mp4" media="(max-width: 768px)">
       </video>
       <div class="hero-video-scrim" aria-hidden="true"></div>
       <div class="hero-video-grid" aria-hidden="true"></div>

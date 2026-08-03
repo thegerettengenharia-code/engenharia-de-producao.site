@@ -1012,13 +1012,12 @@ a.topic-card:visited {
     padding: 84px 18px 64px;
   }
   .hero-video-grid { display: none; }
-  /* Mobile: o elemento que gira 360° ampliado — vídeo em modo cover,
-     cobrindo do topo do site até a parte superior da animação do ferreiro,
-     por trás das letras do hero, sem esfumado na emenda. */
+  /* Mobile: o elemento que gira 360° reduzido — vídeo menor, em modo cover,
+     mostrando mais da cena ao redor, sem cobrir todo o hero. */
   .hero-video {
     object-fit: cover;
     object-position: 30% 50%;
-    transform: scale(1);
+    transform: scale(0.4);
     transform-origin: 50% 17%;
     -webkit-mask-image: none;
     mask-image: none;
