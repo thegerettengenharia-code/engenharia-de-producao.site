@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="assets/css/main.css?v=33">
+  <link rel="stylesheet" href="assets/css/main.css?v=34">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="canonical" href="https://thegerett.com.br/">
   <script type="application/ld+json">
@@ -664,6 +664,26 @@
       return x * x * (3 - 2 * x);
     }
 
+    /* Fades das bordas do ferreiro controlados dinamicamente pelo giro:
+       o fade do topo só existe no primeiro frame (inicio do giro) e o fade
+       da base só no ultimo frame (fim do giro). No meio, bordas nitidas. */
+    var stage = hero.querySelector('.scroll-hero-stage');
+    var FADE_BAND = isMobile ? 6 : 5;
+    var FADE_START = 0.06;
+    var FADE_END = 0.94;
+
+    function updateMask(p) {
+      if (!stage) return;
+      var topT = 1 - smooth(0, FADE_START, p);
+      var botT = smooth(FADE_END, 1, p);
+      var topColor = topT > 0.001 ? 'rgba(0,0,0,' + (1 - topT).toFixed(3) + ')' : '#000';
+      var botColor = botT > 0.001 ? 'rgba(0,0,0,' + (1 - botT).toFixed(3) + ')' : '#000';
+      var mask = 'linear-gradient(to bottom, ' + topColor + ' 0%, #000 ' + FADE_BAND + '%, #000 ' + (100 - FADE_BAND) + '%, ' + botColor + ' 100%)';
+      stage.style.webkitMaskImage = mask;
+      stage.style.maskImage = mask;
+    }
+    updateMask(0);
+
     function revealText(p) {
       for (var k = 0; k < textItems.length; k++) {
         var start = k * 0.12;
@@ -705,6 +725,7 @@
           targetFrame = p * (TOTAL - 1);
           if (!rafId) rafId = requestAnimationFrame(frameLoop);
           revealText(p);
+          updateMask(p);
           if (hint) hint.style.opacity = 1 - smooth(0, 0.06, p);
         }
       }

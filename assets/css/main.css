@@ -1028,11 +1028,11 @@ a.topic-card:visited {
   /* Mobile: remove a fumaça (névoa) e os esmaecidos entre o vídeo 360°
      e a animação do ferreiro — emenda limpa, sem cortes suaves. */
   #smokeTransition { display: none; }
-  /* Mobile: sem degrade no topo do ferreiro — borda superior nitida.
-     Mantém apenas o fade suave na parte inferior. */
+  /* Mobile: os fades do ferreiro (topo no 1º frame, base no último frame)
+     são controlados dinamicamente pelo JS. */
   .scroll-hero-stage {
-    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 94%, transparent 100%);
-    mask-image: linear-gradient(to bottom, #000 0%, #000 94%, transparent 100%);
+    -webkit-mask-image: none;
+    mask-image: none;
   }
   /* Mobile: sem esmaecer na base do vídeo 360° — apenas uma leve sombra
      para manter as letras legíveis, com o vídeo visível até a emenda. */
@@ -1844,12 +1844,10 @@ select.form-input { cursor: pointer; }
   background:
     radial-gradient(120% 90% at 50% 45%, rgba(20, 26, 34, 0.55) 0%, rgba(6, 9, 12, 0.85) 70%, rgba(4, 6, 8, 0.95) 100%),
     var(--bg, #07090c);
-  /* Esfumado na junção hero -> ferreiro: o ferreiro "emerge do nada" pela
-     borda superior (gradiente suave), sem linha visível — desktop e mobile.
-     INTENSIDADE/EXTENSÃO: percentuais do gradiente (14% = banda sutil;
-     22% = banda mais larga/esfumaçada). */
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 100%);
+  /* Os fades das bordas do ferreiro agora são controlados dinamicamente
+     pelo JS: fade do topo só no primeiro frame, fade da base só no último. */
+  -webkit-mask-image: none;
+  mask-image: none;
   will-change: transform;
 }
 #scrollCanvas {
@@ -1878,11 +1876,11 @@ select.form-input { cursor: pointer; }
       radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
       linear-gradient(to bottom, transparent 0%, transparent 100%);
   }
-  /* Desktop: o ferreiro entra com pequena suavidade no topo e esvai com o
-     mesmo fade na parte inferior. O hero video permanece nitido. */
+  /* Desktop: os fades do ferreiro (topo no 1º frame, base no último frame)
+     são controlados dinamicamente pelo JS. */
   .scroll-hero-stage {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
+    -webkit-mask-image: none;
+    mask-image: none;
   }
   .hero-video {
     /* Desktop: mesmo fade suave do ferreiro nas bordas superior e inferior
