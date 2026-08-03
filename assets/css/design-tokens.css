@@ -38,7 +38,9 @@
   --shadow-lg: rgba(11, 14, 17, 0.16);
   --brand-light: hsl(var(--brand-h), 70%, 95%);
   --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-bg-soft: rgba(255, 255, 255, 0.18);
   --glass-border: rgba(11, 14, 17, 0.06);
+  --glass-border-strong: rgba(255, 255, 255, 0.55);
   --grid-line: rgba(11, 14, 17, 0.04);
   --hero-glow-1: hsla(220, 90%, 55%, 0.10);
   --hero-glow-2: hsla(220, 60%, 40%, 0.06);
@@ -83,7 +85,9 @@
   --shadow-lg: rgba(0, 0, 0, 0.64);
   --brand-light: hsl(var(--brand-h), 50%, 14%);
   --glass-bg: rgba(20, 24, 30, 0.55);
+  --glass-bg-soft: rgba(20, 24, 30, 0.12);
   --glass-border: rgba(255, 255, 255, 0.10);
+  --glass-border-strong: rgba(255, 255, 255, 0.16);
   --grid-line: rgba(255, 255, 255, 0.04);
   --hero-glow-1: hsla(220, 90%, 55%, 0.14);
   --hero-glow-2: hsla(220, 70%, 45%, 0.08);
