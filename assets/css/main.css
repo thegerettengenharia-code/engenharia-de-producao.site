@@ -1885,8 +1885,10 @@ select.form-input { cursor: pointer; }
     mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
   }
   .hero-video {
-    -webkit-mask-image: none;
-    mask-image: none;
+    /* Desktop: fade bem suave na parte inferior do vídeo 360° — esvai
+       gradualmente antes da emenda com a animação do ferreiro. */
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 78%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 78%, transparent 100%);
   }
   /* Hero video 360°: borda superior e inferior sem efeito de escurecimento.
      Mantém apenas uma vinheta suave no meio, para leitura do texto. */
