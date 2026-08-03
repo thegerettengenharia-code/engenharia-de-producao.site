@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="assets/css/main.css?v=21">
+  <link rel="stylesheet" href="assets/css/main.css?v=22">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="canonical" href="https://thegerett.com.br/">
   <script type="application/ld+json">
@@ -823,29 +823,8 @@
         .to(stage, { opacity: 1, duration: 0.75 })
         .to(stage, { opacity: 0, ease: 'sine.inOut', duration: 0.13 });
     } else if (isMobile && scrollHero && stage) {
-      /* Mobile — a máscara de esfumado já cuida da entrada; só o stage
-         esvai suavemente ao final. */
-      gsap.to(stage, {
-        opacity: 0,
-        ease: 'sine.inOut',
-        scrollTrigger: {
-          trigger: scrollHero, start: 'bottom 80%', end: 'bottom top',
-          scrub: 1, invalidateOnRefresh: true
-        }
-      });
-
-      /* Versão mais discreta pro mobile, reforçando a máscara
-         .scroll-hero-fade que já cuida da entrada. */
-      if (smoke) {
-        gsap.timeline({
-          scrollTrigger: {
-            trigger: scrollHero, start: 'top bottom', end: 'top 60%',
-            scrub: 0.6, invalidateOnRefresh: true
-          }
-        })
-          .fromTo(smoke, { opacity: 0 }, { opacity: 0.8, ease: 'sine.in', duration: 0.6 })
-          .to(smoke, { opacity: 0, ease: 'sine.out', duration: 0.4 });
-      }
+      /* Mobile — o ferreiro permanece sólido, sem esmaecer ao final
+         (o esfumado de entrada fica por conta da máscara .scroll-hero-fade). */
     }
 
     /* 2) Seções e footer:
