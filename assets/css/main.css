@@ -1028,11 +1028,11 @@ a.topic-card:visited {
   /* Mobile: remove a fumaça (névoa) e os esmaecidos entre o vídeo 360°
      e a animação do ferreiro — emenda limpa, sem cortes suaves. */
   #smokeTransition { display: none; }
-  /* Mobile: pequena suavidade na emenda — o ferreiro emerge com um leve
-     fade no topo (sem linha de corte com o vídeo do hero). */
+  /* Mobile: pequena suavidade nas emendas — o ferreiro entra com leve fade
+     no topo e esvai com o mesmo fade na parte inferior. */
   .scroll-hero-stage {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 94%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, #000 6%, #000 94%, transparent 100%);
   }
   /* Mobile: sem esmaecer na base do vídeo 360° — apenas uma leve sombra
      para manter as letras legíveis, com o vídeo visível até a emenda. */
@@ -1878,11 +1878,11 @@ select.form-input { cursor: pointer; }
       radial-gradient(115% 95% at 50% 50%, transparent 62%, rgba(3, 5, 7, 0.28) 86%, rgba(2, 3, 5, 0.6) 100%),
       linear-gradient(to bottom, transparent 0%, transparent 100%);
   }
-  /* Desktop: o ferreiro entra com uma pequena suavidade no topo (emenda
-     com o hero) — sem linha de corte. O hero video permanece nitido. */
+  /* Desktop: o ferreiro entra com pequena suavidade no topo e esvai com o
+     mesmo fade na parte inferior. O hero video permanece nitido. */
   .scroll-hero-stage {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 95%, transparent 100%);
   }
   .hero-video {
     -webkit-mask-image: none;
