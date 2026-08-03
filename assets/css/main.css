@@ -1020,8 +1020,10 @@ a.topic-card:visited {
     object-position: 50% 50%;
     transform: scale(0.98);
     transform-origin: 50% 42%;
-    -webkit-mask-image: none;
-    mask-image: none;
+    /* Pequeno efeito de transição: a base do vídeo 360° esvai suavemente
+       antes da emenda com a animação do ferreiro. */
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%);
   }
   /* Mobile: remove a fumaça (névoa) e os esmaecidos entre o vídeo 360°
      e a animação do ferreiro — emenda limpa, sem cortes suaves. */
