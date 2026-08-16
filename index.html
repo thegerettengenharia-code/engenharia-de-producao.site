@@ -22,7 +22,8 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="assets/css/main.css?v=34">
+  <link rel="stylesheet" href="assets/css/main.css?v=36">
+  <link rel="stylesheet" href="assets/css/biblioteca.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="canonical" href="https://thegerett.com.br/">
   <script type="application/ld+json">
@@ -80,7 +81,8 @@
         <a href="#indice" class="nav-link" data-section="indice" role="menuitem">Índice</a>
         <a href="topicos.html" class="nav-link" data-section="topicos" role="menuitem">Tópicos</a>
         <a href="cursos.html" class="nav-link" data-section="cursos" role="menuitem">Cursos</a>
-        <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Formulários</a>
+        <a href="biblioteca-digital.html" class="nav-link" data-section="biblioteca-digital" role="menuitem">Biblioteca Digital</a>
+        <a href="biblioteca.html" class="nav-link" data-section="biblioteca" role="menuitem">Formulários Técnicos</a>
         <a href="sobre.html" class="nav-link" data-section="sobre" role="menuitem">Sobre</a>
       </div>
 
@@ -107,7 +109,8 @@
         <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
-        <a href="biblioteca.html" class="mobile-nav-link">Formulários</a>
+        <a href="biblioteca-digital.html" class="mobile-nav-link">Biblioteca Digital</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Formulários Técnicos</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
       <div class="mobile-nav-footer">
@@ -167,43 +170,47 @@
       <div class="hero-content">
           <!-- Texto hero -->
           <div class="hero-left">
-            <span class="hero-eyebrow">Portal Técnico de Referência</span>
-            <h1 id="hero-title" class="hero-title">
-              <span class="accent">Gerett</span><br>Biblioteca Organizacional
-            </h1>
-            <p class="hero-subtitle">
-              Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.
-            </p>
-
-            <div class="hero-purpose">
-              <p>Democratizar o acesso ao conhecimento técnico no ambiente organizacional, oferecendo conteúdo organizado, profundo e referenciado para estudantes, profissionais e gestores.</p>
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Portal Técnico de Referência</span>
+              <h1 id="hero-title" class="hero-title">
+                <span class="accent">Gerett</span><br>Biblioteca Organizacional
+              </h1>
+              <p class="hero-subtitle">
+                Portal técnico de referência em Engenharia de Produção. Conhecimento rigoroso, organizado e gratuito.
+              </p>
             </div>
 
-            <div class="hero-stats">
-              <div class="stat">
-                <div class="stat-num" data-count="30">30+</div>
-                <div class="stat-label">Áreas Técnicas</div>
+            <div class="hero-info-block">
+              <div class="hero-purpose">
+                <p>Democratizar o acesso ao conhecimento técnico no ambiente organizacional, oferecendo conteúdo organizado, profundo e referenciado para estudantes, profissionais e gestores.</p>
               </div>
-              <div class="stat">
-                <div class="stat-num" data-count="500">500+</div>
-                <div class="stat-label">Tópicos Detalhados</div>
-              </div>
-              <div class="stat">
-                <div class="stat-num" data-count="200">200+</div>
-                <div class="stat-label">Ferramentas</div>
-              </div>
-            </div>
 
-            <div class="hero-cta">
-              <a href="#indice" class="btn btn-primary btn-lg">
-                <span>Explorar Índice</span>
-                <span class="btn-icon" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg>
-                </span>
-              </a>
-              <a href="cursos.html" class="btn btn-ghost btn-lg">
-                <span>Cursos Gratuitos</span>
-              </a>
+              <div class="hero-stats">
+                <div class="stat">
+                  <div class="stat-num" data-count="30">30+</div>
+                  <div class="stat-label">Áreas Técnicas</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-num" data-count="500">500+</div>
+                  <div class="stat-label">Tópicos Detalhados</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-num" data-count="200">200+</div>
+                  <div class="stat-label">Ferramentas</div>
+                </div>
+              </div>
+
+              <div class="hero-cta">
+                <a href="#indice" class="btn btn-primary btn-lg">
+                  <span>Explorar Índice</span>
+                  <span class="btn-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9-9M7 7h9v9"/></svg>
+                  </span>
+                </a>
+                <a href="cursos.html" class="btn btn-ghost btn-lg">
+                  <span>Cursos Gratuitos</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -246,6 +253,24 @@
 
       <div class="index-nav" data-reveal>
         <div class="index-nav-grid" id="indexGrid" role="list" aria-label="Indice das areas"></div>
+      </div>
+    </section>
+
+    <!-- BIBLIOTECA DIGITAL -->
+    <section id="biblioteca-digital" class="section" aria-labelledby="bd-home-title">
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Leitura e Referência</span>
+        <h2 id="bd-home-title" class="section-title">Biblioteca <span class="accent">Digital</span></h2>
+        <p class="section-subtitle">Livros, apostilas, cartilhas, normas e periódicos gratuitos e legais — com busca, filtros e indicações verificadas para Engenharia, Indústria e Gestão.</p>
+      </div>
+      <div class="bd-destaques" id="bdHomeGrid" role="list" aria-label="Destaques da Biblioteca Digital"></div>
+      <div class="about-cta" data-reveal>
+        <a href="biblioteca-digital.html" class="btn btn-primary btn-lg">
+          <span>Explorar a Biblioteca Digital</span>
+          <span class="btn-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
       </div>
     </section>
 
@@ -488,6 +513,7 @@
             <li><a href="topicos.html">Tópicos</a></li>
             <li><a href="modelos-cad.html">Modelos CAD</a></li>
             <li><a href="cursos.html">Cursos Gratuitos</a></li>
+            <li><a href="biblioteca-digital.html">Biblioteca Digital</a></li>
             <li><a href="biblioteca.html">Biblioteca</a></li>
           </ul>
         </div>
@@ -496,7 +522,8 @@
           <ul>
             <li><a href="modelos-cad.html">Downloads CAD</a></li>
             <li><a href="cursos.html">Cursos Grátis</a></li>
-            <li><a href="biblioteca.html">Formulários</a></li>
+            <li><a href="biblioteca-digital.html">Leituras Abertas</a></li>
+            <li><a href="biblioteca.html">Formulários Técnicos</a></li>
             <li><a href="topicos.html">Conteúdo Técnico</a></li>
           </ul>
         </div>
@@ -543,7 +570,9 @@
 
   <!-- Scripts -->
   <script src="assets/data/conteudo.js"></script>
+  <script src="assets/data/biblioteca.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/biblioteca.js"></script>
   <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>

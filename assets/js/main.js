@@ -321,13 +321,17 @@
             </button>
             ${temDetalhes ? `<div class="detail-item-body">
               ${definicao ? `<p class="detail-definicao">${definicao}</p>` : ''}
-              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul>${topicosLista.map(t => {
+              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul class="detail-list detail-list-topicos">${topicosLista.map(t => {
   const tnome = typeof t === 'string' ? t : (t.nome || '');
   const tdesc = typeof t === 'object' && t.descricao ? t.descricao : '';
-  return `<li><strong>${tnome}</strong>${tdesc ? `<br><small>${tdesc}</small>` : ''}</li>`;
+  return `<li>${tdesc ? `<span class="detail-list-nome">${tnome}</span><span class="detail-list-desc">${tdesc}</span>` : `<span class="detail-list-nome">${tnome}</span>`}</li>`;
 }).join('')}</ul></div>` : ''}
               ${formula ? `<div class="detail-section"><h5>Formula / Expressao</h5><code class="detail-formula">${formula}</code></div>` : ''}
-              ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicacoes Praticas</h5><ul>${aplicacoes.map(a => `<li>${a}</li>`).join('')}</ul></div>` : ''}
+              ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicacoes Praticas</h5><ul class="detail-list detail-list-aplicacoes">${aplicacoes.map(a => {
+  const anome = typeof a === 'object' && a.nome ? a.nome : (typeof a === 'string' ? a : '');
+  const adesc = typeof a === 'object' && a.descricao ? a.descricao : '';
+  return `<li>${adesc ? `<span class="detail-list-nome">${anome}</span><span class="detail-list-desc">${adesc}</span>` : `<span class="detail-list-nome">${anome}</span>`}</li>`;
+}).join('')}</ul></div>` : ''}
             </div>` : ''}
           </div>`;
       }).join('') + (cat.referencias && cat.referencias.length ? `
@@ -357,9 +361,11 @@
   window.toggleDetail = function(btn) {
     const item = btn.closest('.detail-item');
     if (!item) return;
+    const body = item.querySelector('.detail-item-body');
     const expanded = btn.getAttribute('aria-expanded') === 'true';
     btn.setAttribute('aria-expanded', String(!expanded));
     item.classList.toggle('expanded', !expanded);
+    if (body) body.style.maxHeight = expanded ? '0px' : (body.scrollHeight + 'px');
   };
 
   /* ─── Scroll To Top ─── */

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <meta name="description" content="Biblioteca Digital de Engenharia, Indústria e Gestão: livros, apostilas, cartilhas, normas e periódicos gratuitos e legais para estudantes e profissionais.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gerett">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Biblioteca Digital — Gerett">
+  <meta property="og:description" content="Materiais de leitura gratuitos e legais para Engenharia, Indústria e Gestão: livros, apostilas, cartilhas, normas e periódicos de acesso aberto.">
+  <meta property="og:url" content="https://thegerett.com.br/biblioteca-digital.html">
+  <meta property="og:image" content="https://thegerett.com.br/assets/images/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Biblioteca Digital — Gerett">
+  <meta name="twitter:description" content="Materiais de leitura gratuitos e legais para Engenharia, Indústria e Gestão.">
+  <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
+  <title>Biblioteca Digital — Gerett</title>
+  <link rel="canonical" href="https://thegerett.com.br/biblioteca-digital.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/biblioteca.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Biblioteca Digital — Gerett",
+    "url": "https://thegerett.com.br/biblioteca-digital.html",
+    "description": "Materiais de leitura gratuitos e legais para Engenharia, Indústria e Gestão.",
+    "inLanguage": "pt-BR",
+    "isPartOf": { "@type": "WebSite", "name": "Gerett — Biblioteca Organizacional", "url": "https://thegerett.com.br/" }
+  }
+  </script>
+</head>
+<body data-page="biblioteca-digital">
+
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Gerett — Biblioteca Organizacional">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="19" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+        <span>Gerett</span>
+      </a>
+      <div class="nav-links" id="navLinks" role="menubar">
+        <a href="index.html" class="nav-link" role="menuitem" data-section="home">Home</a>
+        <a href="topicos.html" class="nav-link" role="menuitem" data-section="topicos">Tópicos</a>
+        <a href="modelos-cad.html" class="nav-link" role="menuitem" data-section="modelos-cad">Modelos CAD</a>
+        <a href="cursos.html" class="nav-link" role="menuitem" data-section="cursos">Cursos</a>
+        <a href="biblioteca-digital.html" class="nav-link active" role="menuitem" data-section="biblioteca-digital">Biblioteca Digital</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem" data-section="biblioteca">Formulários Técnicos</a>
+        <a href="sobre.html" class="nav-link" role="menuitem" data-section="sobre">Sobre</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" aria-pressed="false">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger-line" aria-hidden="true"></span><span class="hamburger-line" aria-hidden="true"></span><span class="hamburger-line" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" hidden>
+    <div class="mobile-nav-inner">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link" data-close-nav>Home</a>
+        <a href="topicos.html" class="mobile-nav-link">Tópicos</a>
+        <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
+        <a href="cursos.html" class="mobile-nav-link">Cursos</a>
+        <a href="biblioteca-digital.html" class="mobile-nav-link active">Biblioteca Digital</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Formulários Técnicos</a>
+        <a href="sobre.html" class="mobile-nav-link">Sobre</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <button class="theme-toggle mobile" id="mobileThemeToggle" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <span>Alternar tema</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE BOTTOM NAV -->
+  <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação mobile">
+    <a href="index.html" class="mbn-item" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="topicos.html" class="mbn-item" aria-label="Tópicos">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Tópicos</span>
+    </a>
+    <button class="mbn-item mbn-search" id="mbnSearch" aria-label="Buscar">
+      <div class="mbn-search-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+      <span>Buscar</span>
+    </button>
+    <a href="cursos.html" class="mbn-item" aria-label="Cursos">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>Cursos</span>
+    </a>
+    <button class="mbn-item mbn-theme" id="mbnTheme" aria-label="Alternar tema">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <span>Tema</span>
+    </button>
+  </nav>
+
+  <main id="main">
+
+    <section class="page-header bd-page-header">
+      <div class="bd-header-bg" id="bdHeaderBg" aria-hidden="true"></div>
+      <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar ao início
+      </a>
+      <span class="eyebrow">Leitura e Referência</span>
+      <h1>Biblioteca <span class="accent">Digital</span></h1>
+      <p>Livros, apostilas, cartilhas, normas, periódicos e documentos oficiais — gratuitos e legais — para estudantes e profissionais de Engenharia, Indústria e Gestão.</p>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="section" aria-labelledby="destaques-title">
+      <div class="bd-section-head">
+        <div>
+          <span class="eyebrow">Seleção do Gerett</span>
+          <h2 id="destaques-title" class="bd-section-title">Materiais em <span class="accent">destaque</span></h2>
+        </div>
+        <span class="bd-section-hint" id="destaquesCount" aria-live="polite"></span>
+      </div>
+      <div class="bd-destaques" id="bdDestaques" role="list" aria-label="Materiais em destaque"></div>
+    </section>
+
+    <!-- BUSCA E FILTROS -->
+    <section class="section" aria-labelledby="busca-title">
+      <div class="bd-section-head">
+        <div>
+          <span class="eyebrow">Catálogo</span>
+          <h2 id="busca-title" class="bd-section-title">Buscar <span class="accent">materiais</span></h2>
+        </div>
+        <span class="bd-section-hint" id="resultsCount" aria-live="polite">Carregando…</span>
+      </div>
+
+      <div class="bd-search-row">
+        <div class="search-box bd-search-box">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="search" id="bdSearchInput" class="search-input" placeholder="Buscar por título, autor ou palavra-chave..." aria-label="Buscar materiais" autocomplete="off">
+          <button class="search-clear" id="bdSearchClear" aria-label="Limpar busca" hidden>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <button class="btn btn-ghost bd-report-btn" id="bdOpenSuggest" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+          Indicar um material
+        </button>
+      </div>
+
+      <div class="section-nav bd-cat-nav" id="bdCatNav" role="tablist" aria-label="Filtrar por categoria"></div>
+
+      <div class="bd-filter-bar">
+        <label class="bd-filter-field">
+          <span class="bd-filter-label">Tipo</span>
+          <select id="bdFilterType" class="bd-select">
+            <option value="all">Todos os tipos</option>
+          </select>
+        </label>
+        <label class="bd-filter-field">
+          <span class="bd-filter-label">Ordem</span>
+          <select id="bdFilterSort" class="bd-select">
+            <option value="relevancia">Relevância</option>
+            <option value="recentes">Mais recentes</option>
+            <option value="az">Título (A–Z)</option>
+          </select>
+        </label>
+        <div class="bd-filter-toggles">
+          <label class="bd-check">
+            <input type="checkbox" id="bdFilterPdf">
+            <span>Apenas PDF</span>
+          </label>
+          <label class="bd-check">
+            <input type="checkbox" id="bdFilterOpen">
+            <span>Acesso aberto</span>
+          </label>
+        </div>
+        <button class="bd-clear-btn" id="bdClearFilters" type="button" hidden>Limpar filtros</button>
+      </div>
+
+      <div class="bd-grid" id="bdGrid" role="list" aria-label="Materiais da biblioteca"></div>
+
+      <div class="bd-empty" id="bdEmpty" hidden>
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+        <h3>Nenhum material encontrado</h3>
+        <p>Experimente ajustar a busca ou remover alguns filtros.</p>
+      </div>
+
+      <div class="bd-load-more" id="bdLoadMoreWrap" hidden>
+        <button class="btn btn-ghost btn-lg" id="bdLoadMore" type="button">Carregar mais materiais</button>
+      </div>
+    </section>
+
+    <!-- MODAL INDICAR MATERIAL -->
+    <div class="bd-modal" id="bdSuggestModal" hidden role="dialog" aria-modal="true" aria-labelledby="bdSuggestTitle">
+      <div class="bd-modal-backdrop" data-bd-close="bdSuggestModal" aria-hidden="true"></div>
+      <div class="bd-modal-panel">
+        <header class="bd-modal-header">
+          <div>
+            <span class="eyebrow">Colaboração</span>
+            <h2 id="bdSuggestTitle" class="bd-modal-title">Indicar um material</h2>
+          </div>
+          <button class="bd-modal-close" data-bd-close="bdSuggestModal" aria-label="Fechar">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </header>
+        <form id="bdSuggestForm" class="bd-form" novalidate>
+          <label class="bd-field">
+            <span>Título do material</span>
+            <input type="text" id="bdSuggestTitulo" required maxlength="200" placeholder="Ex.: Gestão de Operações e Processos">
+          </label>
+          <label class="bd-field">
+            <span>URL / link de acesso</span>
+            <input type="url" id="bdSuggestUrl" required maxlength="300" placeholder="https://...">
+          </label>
+          <label class="bd-field">
+            <span>Categoria</span>
+            <select id="bdSuggestCategoria" required></select>
+          </label>
+          <label class="bd-field">
+            <span>Por que este material é útil? <em>(opcional)</em></span>
+            <textarea id="bdSuggestDesc" rows="3" maxlength="500" placeholder="Descreva brevemente o conteúdo…"></textarea>
+          </label>
+          <label class="bd-field">
+            <span>Seu e-mail <em>(opcional)</em></span>
+            <input type="email" id="bdSuggestEmail" maxlength="200" placeholder="voce@exemplo.com">
+          </label>
+          <p class="bd-form-note" aria-live="polite" id="bdSuggestNote"></p>
+          <div class="bd-form-actions">
+            <button type="button" class="btn btn-ghost" data-bd-close="bdSuggestModal">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Enviar sugestão</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- MODAL REPORTAR PROBLEMA -->
+    <div class="bd-modal" id="bdReportModal" hidden role="dialog" aria-modal="true" aria-labelledby="bdReportTitle">
+      <div class="bd-modal-backdrop" data-bd-close="bdReportModal" aria-hidden="true"></div>
+      <div class="bd-modal-panel">
+        <header class="bd-modal-header">
+          <div>
+            <span class="eyebrow">Qualidade do acervo</span>
+            <h2 id="bdReportTitle" class="bd-modal-title">Reportar problema</h2>
+          </div>
+          <button class="bd-modal-close" data-bd-close="bdReportModal" aria-label="Fechar">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </header>
+        <form id="bdReportForm" class="bd-form" novalidate>
+          <label class="bd-field">
+            <span>Material</span>
+            <input type="text" id="bdReportMaterial" readonly class="bd-readonly">
+          </label>
+          <label class="bd-field">
+            <span>Tipo de problema</span>
+            <select id="bdReportTipo" required>
+              <option value="" selected disabled>Selecione…</option>
+              <option value="link">Link quebrado ou página não encontrada</option>
+              <option value="conteudo">Conteúdo não corresponde ao título</option>
+              <option value="acesso">Acesso deixou de ser gratuito</option>
+              <option value="info">Informação desatualizada</option>
+              <option value="outro">Outro problema</option>
+            </select>
+          </label>
+          <label class="bd-field">
+            <span>Observações <em>(opcional)</em></span>
+            <textarea id="bdReportObs" rows="3" maxlength="500" placeholder="Detalhe o que encontrou…"></textarea>
+          </label>
+          <label class="bd-field">
+            <span>Seu e-mail <em>(opcional)</em></span>
+            <input type="email" id="bdReportEmail" maxlength="200" placeholder="voce@exemplo.com">
+          </label>
+          <p class="bd-form-note" aria-live="polite" id="bdReportNote"></p>
+          <div class="bd-form-actions">
+            <button type="button" class="btn btn-ghost" data-bd-close="bdReportModal">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Enviar reporte</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none"><rect x="2" y="2" width="32" height="32" rx="10" stroke="currentColor" stroke-width="1.6" fill="none"/><text x="18" y="25" font-size="18" font-weight="800" text-anchor="middle" fill="currentColor" font-family="Inter Tight,sans-serif">G</text></svg>
+          <span>Gerett</span>
+        </a>
+        <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca-digital.html">Biblioteca Digital</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Recursos</h4><ul><li><a href="modelos-cad.html">Downloads CAD</a></li><li><a href="cursos.html">Cursos Grátis</a></li><li><a href="biblioteca.html">Formulários Técnicos</a></li><li><a href="biblioteca-digital.html">Leituras Abertas</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Áreas</h4><ul><li><a href="topicos.html">PCP</a></li><li><a href="topicos.html">Qualidade</a></li><li><a href="topicos.html">Lean Manufacturing</a></li><li><a href="topicos.html">Supply Chain</a></li></ul></div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2026 Gerett — Biblioteca Organizacional - Todos os direitos reservados.</p>
+      <div class="footer-links"><a href="sobre.html" class="footer-link">Sobre</a><span class="footer-link">Privacidade</span><span class="footer-link">Termos</span></div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <div class="contact-fab" id="contactFab">
+    <button class="contact-fab-btn" id="contactFabBtn" aria-label="Contato" title="Fale conosco">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+    </button>
+    <div class="contact-fab-popup" id="contactFabPopup" hidden>
+      <div class="contact-fab-popup-inner">
+        <span class="contact-fab-label">Contato</span>
+        <a href="mailto:thegerett@gmail.com" class="contact-fab-email">thegerett@gmail.com</a>
+        <button class="contact-fab-copy" id="contactFabCopy" aria-label="Copiar email">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/data/biblioteca.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/biblioteca.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+  (function(){
+    const bg = document.getElementById('bdHeaderBg');
+    if (!bg || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+    gsap.to(bg, {
+      y: -60,
+      scale: 1.06,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: bg.parentElement,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1.5,
+        invalidateOnRefresh: true
+      }
+    });
+  })();
+  </script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>
