@@ -1553,7 +1553,7 @@
                     "aplicacoes": [
             {
               "nome": "Nivelamento de modelos em montadoras",
-              "descricao": "O heijunka nivela a produção em termos de volume e mix, evitando picos e vales que sobrecarregam recursos. Em uma montadora que produz 4 modelos na mesma linha, o sequenciamento era feito em lotes de 50 unidades por modelo. Os picos de peças diferentes sobrecarregavam a logística e criavam filas. A caixa heijunka passou a sequenciar os modelos em uma repetição de 10 unidades com mix proporcional à demanda mensal. O resultado foi a redução de 30% nas flutuações de mão de obra por turno. O abastecimento de componentes ficou estável, reduzindo o estoque de segurança em 25%. O tempo de resposta a pedidos urgentes melhorou porque o mix é previsível. As trocas de modelo na linha são distribuidas ao longo do turno, suavizando o trabalho dos setups. O padrão repetitivo também facilitou o treinamento dos operadores. A produção total não muda, apenas a distribuição ao longo do tempo. O nivelamento é a base para o funcionamento do kanban e do JIT."
+              "descricao": "O heijunka nivela a produção em termos de volume e mix, evitando picos e vales que sobrecarregam recursos. Em uma montadora que produz 4 modelos na mesma linha, o sequenciamento era feito em lotes de 50 unidades por modelo. Os picos de peças diferentes sobrecarregavam a logística e criavam filas. A caixa heijunka passou a sequenciar os modelos em uma repetição de 10 unidades com mix proporcional à demanda mensal. O resultado foi a redução de 30% nas flutuações de mão de obra por turno. O abastecimento de componentes ficou estável, reduzindo o estoque de segurança em 25%. O tempo de resposta a pedidos urgentes melhorou porque o mix é previsível. As trocas de modelo na linha são distribuídas ao longo do turno, suavizando o trabalho dos setups. O padrão repetitivo também facilitou o treinamento dos operadores. A produção total não muda, apenas a distribuição ao longo do tempo. O nivelamento é a base para o funcionamento do kanban e do JIT."
             },
             {
               "nome": "Programação nivelada em indústria de alimentos",
@@ -4418,7 +4418,7 @@
         },
         {
           "titulo": "Excel Avançado e VBA para Engenharia de Produção",
-          "definicao": "Uso profissional do Microsoft Excel como ferramenta de modelagem matematica, otimização, simulação e automação de rotinas repetitivas no chão de fabrica, empregando Power Query (M), Power Pivot (DAX), Solver, @RISK/Palisade e VBA orientado a objetos.",
+          "definicao": "Uso profissional do Microsoft Excel como ferramenta de modelagem matematica, otimização, simulação e automação de rotinas repetitivas no chão de fábrica, empregando Power Query (M), Power Pivot (DAX), Solver, @RISK/Palisade e VBA orientado a objetos.",
           "topicos": [
             {
               "nome": "Power Query (M) para ETL de arquivos de máquina",
@@ -4767,7 +4767,7 @@
         },
         {
           "titulo": "Big Data Industrial: Arquiteturas Lambda/Kappa e Processamento Distribuido",
-          "definicao": "Tratamento de volume (TB-PB/dia), velocidade (kHz-MHz por tag) e variedade (estruturado, semi-estruturado, não-estruturado: logs, imagens, vibração, video) de dados industriais via arquiteturas Lambda (batch + speed layer) ou Kappa (unified log), com motores distribuidos (Spark, Flink, Ray) e armazenamento objeto (S3/MinIO, ADLS Gen2).",
+          "definicao": "Tratamento de volume (TB-PB/dia), velocidade (kHz-MHz por tag) e variedade (estruturado, semi-estruturado, não-estruturado: logs, imagens, vibração, vídeo) de dados industriais via arquiteturas Lambda (batch + speed layer) ou Kappa (unified log), com motores distribuídos (Spark, Flink, Ray) e armazenamento objeto (S3/MinIO, ADLS Gen2).",
           "topicos": [
             {
               "nome": "Lambda vs. Kappa Architecture",
@@ -4779,7 +4779,7 @@
             },
             {
               "nome": "Apache Flink para processamento de eventos complexos (CEP)",
-              "descricao": "Padroes temporais (Pattern API: begin -> next -> within), janelas de sessão, process-time vs. event-time, checkpoints distribuidos (Chandy-Lamport). Carbone et al. (2015) demonstram exactly-once end-to-end. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
+              "descricao": "Padroes temporais (Pattern API: begin -> next -> within), janelas de sessão, process-time vs. event-time, checkpoints distribuídos (Chandy-Lamport). Carbone et al. (2015) demonstram exactly-once end-to-end. (Referência: MCKINNEY, W. Python for Data Analysis. 2. ed. Sebastopol: O'Reilly, 2017.)"
             },
             {
               "nome": "Formatos columnar e table formats (Parquet, ORC, Delta, Iceberg, Hudi)",
@@ -21820,7 +21820,7 @@
                     },
                     {
                       "nome": "Proteção Coletiva: Enclausuramento e Ventilação",
-                      "descricao": "DEFINIÇÃO FORMAL: Enclausuramento isola fontes de perigo com barreiras físicas. Ventilação local exaustora capta contaminantes na fonte. PILARES TEÓRICOS: Mecânica dos Fluidos (Bernoulli), ACGIH Industrial Ventilation Manual. AUTOR PRINCIPAL: ACGIH Committee on Industrial Ventilation. EXEMPLO PRÁTICO: Lixadeira 98 dBA. Cabine com paredes sanduíche (aço + la mineral 50 mm). TL = 14,4 log(Mxf) - 23. Para M=10 kg/m2, f=2000 Hz, TL = 34 dB. Ruído externo = 64 dBA. Custo: R$ 28.000. VLE para fumos de soldagem: Q = 3.600 x 0,5 x 0,5 = 900 m3/h, DP = 250 Pa, P = 90 W (motor 0,5 CV). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
+                      "descricao": "DEFINIÇÃO FORMAL: Enclausuramento isola fontes de perigo com barreiras físicas. Ventilação local exaustora capta contaminantes na fonte. PILARES TEÓRICOS: Mecânica dos Fluidos (Bernoulli), ACGIH Industrial Ventilation Manual. AUTOR PRINCIPAL: ACGIH Committee on Industrial Ventilation. EXEMPLO PRÁTICO: Lixadeira 98 dBA. Cabine com paredes sanduíche (aço + lã mineral 50 mm). TL = 14,4 log(Mxf) - 23. Para M=10 kg/m2, f=2000 Hz, TL = 34 dB. Ruído externo = 64 dBA. Custo: R$ 28.000. VLE para fumos de soldagem: Q = 3.600 x 0,5 x 0,5 = 900 m3/h, DP = 250 Pa, P = 90 W (motor 0,5 CV). REFERÊNCIA ABNT: SALIBA, T. M. Curso Básico de Segurança e Higiene Ocupacional. 10. ed. São Paulo: LTr, 2021."
                     },
                     {
                       "nome": "Tipos de EPI e Seleção Adequada",
@@ -21946,7 +21946,7 @@
                     },
                     {
                       "nome": "ASO e Gestão de Saúde Ocupacional",
-                      "descricao": "DEFINICAO FORMAL: ASO emitido pelo médico coordenador do PCMSO em 2 vias, arquivado por 20 anos. Gestão integrada com e-Social (eventos S-2210, S-2220, S-2230) e indicadores de saúde. PILARES TEORICOS: Medicina do Trabalho, Bioetica (beneficência, não maleficência, autonomia), LGPD. AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRATICO: Industria química com 1.200 empregados. Sistema integrado: agendamento automatico conforme riscos, ASO com QR code, envio ao e-Social, dashboard de indicadores. 350 ASO em 30 dias, 18 pendencias (5,1%). Convocação por WhatsApp, resolvido em 48h. Custo sistema: R$ 60.000/ano. Redução de autuacoes e passivo trabalhista. REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                      "descricao": "DEFINICAO FORMAL: ASO emitido pelo médico coordenador do PCMSO em 2 vias, arquivado por 20 anos. Gestão integrada com e-Social (eventos S-2210, S-2220, S-2230) e indicadores de saúde. PILARES TEORICOS: Medicina do Trabalho, Bioetica (beneficência, não maleficência, autonomia), LGPD. AUTOR PRINCIPAL: Rene Mendes. EXEMPLO PRÁTICO: Indústria química com 1.200 empregados. Sistema integrado: agendamento automatico conforme riscos, ASO com QR code, envio ao e-Social, dashboard de indicadores. 350 ASO em 30 dias, 18 pendencias (5,1%). Convocação por WhatsApp, resolvido em 48h. Custo sistema: R$ 60.000/ano. Redução de autuacoes e passivo trabalhista. REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     }
                   ],
                   "formula": "NTEP: Nexo = f(Doença_CID, Atividade_CNAE) | ASO: Apto <=> Exames OK | Periodicidade: f(Idade, Risco)",
@@ -22022,7 +22022,7 @@
                     },
                     {
                       "nome": "Indicadores Proativos e Balanced Scorecard",
-                      "descricao": "DEFINICAO FORMAL: Leading indicators medem atividades preventivas: treinamentos, inspeções, auditorias, quase-acidentes reportados, observacoes BBS, ações corretivas fechadas. BSC de segurança: (1) Financeira; (2) Clientes; (3) Processos internos; (4) Aprendizado e crescimento. PILARES TEORICOS: Teoria da Medição de Desempenho (Neely, 2002), Gestão Estratégica (Kaplan, Norton). AUTOR PRINCIPAL: H. James Harrington (1929-). EXEMPLO PRATICO: BSC de segurança em industria química. ICS = média ponderada: liderança 75%, treinamento 81%, riscos 91%, cultura 91%, quase-acidentes 60% = 80%. Meta: 85%. Após 6 meses: ICS = 87%. TFA reduziu de 2,5 para 1,8 (28%). REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
+                      "descricao": "DEFINICAO FORMAL: Leading indicators medem atividades preventivas: treinamentos, inspeções, auditorias, quase-acidentes reportados, observacoes BBS, ações corretivas fechadas. BSC de segurança: (1) Financeira; (2) Clientes; (3) Processos internos; (4) Aprendizado e crescimento. PILARES TEORICOS: Teoria da Medição de Desempenho (Neely, 2002), Gestão Estratégica (Kaplan, Norton). AUTOR PRINCIPAL: H. James Harrington (1929-). EXEMPLO PRÁTICO: BSC de segurança em indústria química. ICS = média ponderada: liderança 75%, treinamento 81%, riscos 91%, cultura 91%, quase-acidentes 60% = 80%. Meta: 85%. Após 6 meses: ICS = 87%. TFA reduziu de 2,5 para 1,8 (28%). REFERENCIA ABNT: CAMISASSA, M. Q. Segurança e Saúde no Trabalho. 5. ed. São Paulo: Método, 2022."
                     },
                     {
                       "nome": "FAP e Taxa de Acidentes com Empregados (TAE)",
