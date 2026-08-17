@@ -1447,6 +1447,9 @@ a.topic-card:visited {
 .footer-link { font-size: 0.78rem; color: var(--text-tertiary); transition: color .3s; }
 .footer-link:hover { color: var(--c-eng-blue); }
 [data-theme="dark"] .footer-link:hover { color: var(--c-laser-cyan); }
+.footer-counter { display: flex; align-items: center; }
+.footer-counter img { height: 22px; opacity: 0.7; transition: opacity .3s; }
+.footer-counter img:hover { opacity: 1; }
 
 /* â”€â”€â”€ Scroll Top â”€â”€â”€ */
 .scroll-top {
@@ -1532,6 +1535,7 @@ a.topic-card:visited {
   .contact-grid { grid-template-columns: 1fr; }
   .footer-nav { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+  .footer-counter { justify-content: center; }
   .resource-grid, .course-grid, .form-grid { grid-template-columns: 1fr; padding: 0 18px 40px; }
   .page-header { padding: 130px 18px 44px; }
   .topic-detail-panel { max-width: 100%; }
