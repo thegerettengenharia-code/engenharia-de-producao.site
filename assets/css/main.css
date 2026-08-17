@@ -650,6 +650,7 @@ a.topic-card:visited {
   background: var(--glass-bg); backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--border);
   display: flex; flex-direction: column; gap: 14px;
+  position: sticky; top: 0; z-index: 10;
 }
 .topic-detail-back {
   display: inline-flex; align-items: center; gap: 8px;
