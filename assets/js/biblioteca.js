@@ -16,7 +16,14 @@
     'ufsc-pcp-saas-dissertacao',
     'normas-regulamentadoras-nrs',
     'planalto-pnrs-lei-12305',
-    'ufv-apostila-gestao-logistica'
+    'ufv-apostila-gestao-logistica',
+    'ifsc-nbr-iso-9001',
+    'unicamp-industria-40',
+    'fia-usp-gestao-projetos',
+    'leite-consolidade-leis-trabalho',
+    'elsevier-lean-journal',
+    'unicamp-gestao-qualidade-total',
+    'sebrae-lideranca-pessoas'
   ];
 
   const $ = (sel, ctx) => (ctx || document).querySelector(sel);
