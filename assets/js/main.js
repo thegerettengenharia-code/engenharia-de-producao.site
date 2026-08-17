@@ -462,6 +462,147 @@
     } catch(e) { /* user cancelled */ }
   });
 
+  /* ─── Reading Settings Panel ─── */
+  const tdActionSettings = document.getElementById('tdActionSettings');
+  const readingSettings = document.getElementById('readingSettings');
+  const readingSettingsOverlay = document.getElementById('readingSettingsOverlay');
+  const readingSettingsClose = document.getElementById('readingSettingsClose');
+  const rsFontSize = document.getElementById('rsFontSize');
+  const rsFontSizeVal = document.getElementById('rsFontSizeVal');
+  const rsMargins = document.getElementById('rsMargins');
+  const rsMarginsVal = document.getElementById('rsMarginsVal');
+  const rsLineHeight = document.getElementById('rsLineHeight');
+  const rsLineHeightVal = document.getElementById('rsLineHeightVal');
+  const rsFontOptions = document.getElementById('rsFontOptions');
+  const rsAlignOptions = document.getElementById('rsAlignOptions');
+  const rsResetBtn = document.getElementById('rsResetBtn');
+
+  const RS_KEY = 'gerett_reading_settings';
+  const RS_DEFAULTS = { font: 'Inter Tight, sans-serif', size: 16, margins: 16, lineHeight: 1.6, align: 'justify' };
+
+  function loadRS() {
+    try { return { ...RS_DEFAULTS, ...JSON.parse(localStorage.getItem(RS_KEY)) }; }
+    catch(e) { return { ...RS_DEFAULTS }; }
+  }
+  function saveRS(s) { localStorage.setItem(RS_KEY, JSON.stringify(s)); }
+
+  function applyRS(s) {
+    const c = detailContent;
+    if (!c) return;
+    c.style.setProperty('--rs-font', s.font);
+    c.style.setProperty('--rs-font-size', s.size + 'px');
+    c.style.setProperty('--rs-line-height', s.lineHeight);
+    c.style.setProperty('--rs-align', s.align);
+    c.style.setProperty('--rs-margin', s.margins + 'px');
+    c.classList.add('rs-customized');
+    c.style.fontFamily = s.font;
+    c.style.fontSize = s.size + 'px';
+    c.style.lineHeight = s.lineHeight;
+    c.style.textAlign = s.align;
+    c.style.paddingLeft = s.margins + 'px';
+    c.style.paddingRight = s.margins + 'px';
+  }
+
+  function syncRSUI(s) {
+    if (rsFontSize) { rsFontSize.value = s.size; rsFontSizeVal.textContent = s.size + 'px'; }
+    if (rsMargins) { rsMargins.value = s.margins; rsMarginsVal.textContent = s.margins + 'px'; }
+    if (rsLineHeight) { rsLineHeight.value = s.lineHeight; rsLineHeightVal.textContent = s.lineHeight; }
+    if (rsFontOptions) {
+      rsFontOptions.querySelectorAll('.rs-font-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.font === s.font);
+      });
+    }
+    if (rsAlignOptions) {
+      rsAlignOptions.querySelectorAll('.rs-align-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.align === s.align);
+      });
+    }
+  }
+
+  let rsState = loadRS();
+
+  function openReadingSettings() {
+    if (!readingSettings || !readingSettingsOverlay) return;
+    rsState = loadRS();
+    syncRSUI(rsState);
+    readingSettings.hidden = false;
+    readingSettingsOverlay.hidden = false;
+    requestAnimationFrame(() => {
+      readingSettings.classList.add('open');
+      readingSettingsOverlay.classList.add('open');
+    });
+  }
+
+  function closeReadingSettings() {
+    if (!readingSettings || !readingSettingsOverlay) return;
+    readingSettings.classList.remove('open');
+    readingSettingsOverlay.classList.remove('open');
+    setTimeout(() => {
+      readingSettings.hidden = true;
+      readingSettingsOverlay.hidden = true;
+    }, 350);
+  }
+
+  tdActionSettings?.addEventListener('click', openReadingSettings);
+  readingSettingsClose?.addEventListener('click', closeReadingSettings);
+  readingSettingsOverlay?.addEventListener('click', closeReadingSettings);
+
+  if (rsFontSize) {
+    rsFontSize.addEventListener('input', () => {
+      rsState.size = parseInt(rsFontSize.value);
+      rsFontSizeVal.textContent = rsState.size + 'px';
+      applyRS(rsState);
+      saveRS(rsState);
+    });
+  }
+  document.getElementById('rsFontMinus')?.addEventListener('click', () => {
+    rsState.size = Math.max(13, rsState.size - 1);
+    syncRSUI(rsState); applyRS(rsState); saveRS(rsState);
+  });
+  document.getElementById('rsFontPlus')?.addEventListener('click', () => {
+    rsState.size = Math.min(24, rsState.size + 1);
+    syncRSUI(rsState); applyRS(rsState); saveRS(rsState);
+  });
+
+  if (rsMargins) {
+    rsMargins.addEventListener('input', () => {
+      rsState.margins = parseInt(rsMargins.value);
+      rsMarginsVal.textContent = rsState.margins + 'px';
+      applyRS(rsState); saveRS(rsState);
+    });
+  }
+
+  if (rsLineHeight) {
+    rsLineHeight.addEventListener('input', () => {
+      rsState.lineHeight = parseFloat(rsLineHeight.value);
+      rsLineHeightVal.textContent = rsState.lineHeight;
+      applyRS(rsState); saveRS(rsState);
+    });
+  }
+
+  rsFontOptions?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.rs-font-btn');
+    if (!btn) return;
+    rsState.font = btn.dataset.font;
+    rsFontOptions.querySelectorAll('.rs-font-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyRS(rsState); saveRS(rsState);
+  });
+
+  rsAlignOptions?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.rs-align-btn');
+    if (!btn) return;
+    rsState.align = btn.dataset.align;
+    rsAlignOptions.querySelectorAll('.rs-align-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyRS(rsState); saveRS(rsState);
+  });
+
+  rsResetBtn?.addEventListener('click', () => {
+    rsState = { ...RS_DEFAULTS };
+    syncRSUI(rsState); applyRS(rsState); saveRS(rsState);
+  });
+
   window.toggleDetail = function(btn) {
     const item = btn.closest('.detail-item');
     if (!item) return;
