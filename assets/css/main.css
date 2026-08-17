@@ -684,7 +684,7 @@ a.topic-card:visited {
 }
 .detail-desc { font-size: 0.88rem; color: var(--text-secondary); }
 
-.topic-detail-content { padding: 24px 32px 48px; }
+.topic-detail-content { padding: 24px 32px 48px; flex: 1; }
 .detail-item { border-bottom: 1px solid var(--border); }
 .detail-item-header {
   width: 100%; display: flex; align-items: center; gap: 12px;
@@ -873,6 +873,7 @@ a.topic-card:visited {
   padding: 0;
 }
 .detail-item.expanded .detail-item-body {
+  max-height: 4000px !important;
   opacity: 1;
   padding-bottom: 4px;
 }
