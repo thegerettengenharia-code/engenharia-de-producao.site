@@ -382,6 +382,86 @@
   detailBack?.addEventListener('click', closeDetail);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
+  /* ─── Topic Detail Actions (PDF / Copy / Share) ─── */
+  const tdActionPdf = document.getElementById('tdActionPdf');
+  const tdActionCopy = document.getElementById('tdActionCopy');
+  const tdActionShare = document.getElementById('tdActionShare');
+  let currentTopicId = null;
+
+  function getDetailText() {
+    if (!detailContent) return '';
+    const title = detailTitle?.textContent || '';
+    const desc = detailDesc?.textContent || '';
+    let text = title + '\n' + desc + '\n\n';
+    detailContent.querySelectorAll('.detail-item').forEach(item => {
+      const h = item.querySelector('h4');
+      if (h) text += '▸ ' + h.textContent + '\n';
+      const def = item.querySelector('.detail-definicao');
+      if (def) text += def.textContent + '\n';
+      item.querySelectorAll('.detail-list-topicos li').forEach(li => {
+        text += '  • ' + (li.querySelector('.detail-list-nome')?.textContent || li.textContent) + '\n';
+      });
+      const formula = item.querySelector('.detail-formula');
+      if (formula) text += '  Fórmula: ' + formula.textContent + '\n';
+      item.querySelectorAll('.detail-list-aplicacoes li').forEach(li => {
+        const name = li.querySelector('.app-card-title')?.textContent || '';
+        const full = li.querySelector('.app-structure-text')?.textContent || '';
+        if (name) text += '  Prática: ' + name + '\n';
+        if (full) text += '    ' + full + '\n';
+      });
+      text += '\n';
+    });
+    const refs = detailContent.querySelector('.detail-references-list');
+    if (refs) {
+      text += 'Referências:\n';
+      refs.querySelectorAll('li').forEach(li => { text += '  • ' + li.textContent.trim() + '\n'; });
+    }
+    return text;
+  }
+
+  tdActionPdf?.addEventListener('click', () => {
+    const text = getDetailText();
+    const w = window.open('', '_blank');
+    if (!w) return;
+    w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>Gerett — ' + (detailTitle?.textContent || 'Tópico') + '</title><style>body{font-family:Inter Tight,sans-serif;max-width:800px;margin:40px auto;padding:0 24px;color:#1a1a2e;line-height:1.7}h1{font-size:1.5rem;border-bottom:2px solid #0052FF;padding-bottom:8px}h4{margin:16px 0 4px;color:#0052FF}.detail-formula{background:#f5f5f5;padding:6px 12px;border-radius:6px;display:block;margin:8px 0;font-size:0.9rem}pre{white-space:pre-wrap}</style></head><body><h1>' + (detailTitle?.textContent || '') + '</h1><p style="color:#666">' + (detailDesc?.textContent || '') + '</p><pre>' + text + '</pre><script>setTimeout(()=>window.print(),300)<\/script></body></html>');
+    w.document.close();
+  });
+
+  tdActionCopy?.addEventListener('click', async () => {
+    const text = getDetailText();
+    try {
+      await navigator.clipboard.writeText(text);
+      tdActionCopy.classList.add('copied');
+      tdActionCopy.querySelector('span').textContent = 'Copiado!';
+      setTimeout(() => { tdActionCopy.classList.remove('copied'); tdActionCopy.querySelector('span').textContent = 'Copiar'; }, 2000);
+    } catch(e) {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.left = '-9999px';
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+      tdActionCopy.classList.add('copied');
+      tdActionCopy.querySelector('span').textContent = 'Copiado!';
+      setTimeout(() => { tdActionCopy.classList.remove('copied'); tdActionCopy.querySelector('span').textContent = 'Copiar'; }, 2000);
+    }
+  });
+
+  tdActionShare?.addEventListener('click', async () => {
+    const shareData = {
+      title: detailTitle?.textContent || 'Gerett — Tópico',
+      text: detailDesc?.textContent || 'Confira este tópico de Engenharia de Produção',
+      url: window.location.href
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(shareData.url);
+        tdActionShare.querySelector('span').textContent = 'Link copiado!';
+        setTimeout(() => { tdActionShare.querySelector('span').textContent = 'Compartilhar'; }, 2000);
+      }
+    } catch(e) { /* user cancelled */ }
+  });
+
   window.toggleDetail = function(btn) {
     const item = btn.closest('.detail-item');
     if (!item) return;

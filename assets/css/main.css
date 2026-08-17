@@ -684,6 +684,30 @@ a.topic-card:visited {
 }
 .detail-desc { font-size: 0.88rem; color: var(--text-secondary); }
 
+.topic-detail-actions {
+  display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;
+}
+.td-action-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 14px; border-radius: 8px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-secondary); font-size: 0.78rem; font-weight: 600;
+  cursor: pointer; transition: all .2s var(--ease-fluid);
+  font-family: var(--font-body); white-space: nowrap;
+}
+.td-action-btn:hover {
+  background: var(--brand-light); color: var(--c-eng-blue);
+  border-color: var(--c-eng-blue);
+}
+[data-theme="dark"] .td-action-btn:hover {
+  background: rgba(0,210,255,.08); color: var(--c-laser-cyan);
+  border-color: var(--c-laser-cyan);
+}
+.td-action-btn svg { flex-shrink: 0; }
+.td-action-btn.copied {
+  background: var(--c-success); color: #fff; border-color: var(--c-success);
+}
+
 .topic-detail-content { padding: 24px 24px 120px; flex: 1; }
 .detail-item { border-bottom: 1px solid var(--border); }
 .detail-item-header {
@@ -2474,6 +2498,12 @@ select.form-input { cursor: pointer; }
   .detail-desc {
     font-size: 0.8rem;
     line-height: 1.55;
+  }
+  .topic-detail-actions {
+    gap: 6px; margin-top: 12px;
+  }
+  .td-action-btn {
+    padding: 7px 11px; font-size: 0.72rem; border-radius: 7px;
   }
   .topic-detail-content {
     padding: 16px 16px 100px;
