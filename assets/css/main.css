@@ -995,7 +995,7 @@ a.topic-card:visited {
   border-radius: var(--radius-md) !important;
   background: var(--bg-card) !important;
   border: 1px solid var(--border) !important;
-  overflow: hidden;
+  overflow: visible;
   transition: border-color .25s var(--ease-fluid), box-shadow .25s var(--ease-fluid);
 }
 .detail-list-aplicacoes > li:active {
@@ -1048,22 +1048,12 @@ a.topic-card:visited {
   font-size: 0.78rem;
   color: var(--text-secondary);
   line-height: 1.6;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 /* Estrutura interna: Contexto/Problema/Solução/Resultado */
 .app-card-structure {
   padding: 0 16px 14px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .4s var(--ease-expo), padding .3s ease;
-}
-.detail-list-aplicacoes > li.expanded-app .app-card-structure {
-  max-height: 3000px;
-  padding: 0 16px 14px;
+  display: block;
 }
 .app-card-structure .app-structure-item {
   padding: 10px 12px;
@@ -1110,34 +1100,7 @@ a.topic-card:visited {
 
 /* Botão expandir aplicação */
 .app-expand-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  width: 100%;
-  padding: 10px;
-  border-top: 1px solid var(--border);
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--c-eng-blue);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  transition: background .2s;
-  background: transparent;
-}
-.app-expand-btn:active {
-  background: var(--bg-alt);
-}
-[data-theme="dark"] .app-expand-btn {
-  color: var(--c-laser-cyan);
-}
-.app-expand-btn svg {
-  transition: transform .3s var(--ease-fluid);
-  width: 14px;
-  height: 14px;
-}
-.detail-list-aplicacoes > li.expanded-app .app-expand-btn svg {
-  transform: rotate(180deg);
+  display: none;
 }
 
 /* ─── Referências ─── */
@@ -1191,13 +1154,11 @@ a.topic-card:visited {
   .app-card-header { padding: 16px 18px 12px; }
   .app-card-title { font-size: 0.92rem; }
   .app-card-summary {
-    -webkit-line-clamp: unset;
     padding: 0 18px 14px;
     font-size: 0.85rem;
   }
-  .app-card-structure { padding: 0 18px 16px; display: block !important; }
+  .app-card-structure { padding: 0 18px 16px; }
   .app-structure-text { font-size: 0.84rem; }
-  .app-expand-btn { display: none; }
 }
 
 /* ==========================================================================
