@@ -308,35 +308,59 @@
         const definicao = typeof s === 'object' ? (s.definicao || '') : '';
         const topicosLista = typeof s === 'object' ? (s.topicos || []) : [];
         const formula = typeof s === 'object' ? (s.formula || '') : '';
-        const aplicacoes = typeof s === 'object' ? (s.aplicacoes || []) : '';
+        const aplicacoes = typeof s === 'object' ? (s.aplicacoes || []) : [];
         const temDetalhes = definicao || topicosLista.length || formula || aplicacoes;
+        const idx = String(i + 1).padStart(2, '0');
+        const conteudoCount = (topicosLista.length || 0) + (aplicacoes.length || 0) + (formula ? 1 : 0);
         return `
           <div class="detail-item" data-index="${i}">
             <button class="detail-item-header" onclick="toggleDetail(this)" aria-expanded="false">
-              <div class="detail-item-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
+              <div class="detail-item-icon">${idx}</div>
               <h4>${titulo}</h4>
+              ${conteudoCount ? `<span class="detail-item-count" style="font-size:0.68rem;color:var(--text-tertiary);font-family:var(--font-mono);font-weight:600;white-space:nowrap">${conteudoCount} itens</span>` : ''}
               ${temDetalhes ? '<svg class="detail-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>' : ''}
             </button>
             ${temDetalhes ? `<div class="detail-item-body">
               ${definicao ? `<p class="detail-definicao">${definicao}</p>` : ''}
-              ${topicosLista.length ? `<div class="detail-section"><h5>Topicos Relacionados</h5><ul class="detail-list detail-list-topicos">${topicosLista.map(t => {
+              ${topicosLista.length ? `<div class="detail-section"><h5>Tópicos Relacionados</h5><ul class="detail-list detail-list-topicos">${topicosLista.map(t => {
   const tnome = typeof t === 'string' ? t : (t.nome || '');
   const tdesc = typeof t === 'object' && t.descricao ? t.descricao : '';
   return `<li>${tdesc ? `<span class="detail-list-nome">${tnome}</span><span class="detail-list-desc">${tdesc}</span>` : `<span class="detail-list-nome">${tnome}</span>`}</li>`;
 }).join('')}</ul></div>` : ''}
-              ${formula ? `<div class="detail-section"><h5>Formula / Expressao</h5><code class="detail-formula">${formula}</code></div>` : ''}
-              ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicacoes Praticas</h5><ul class="detail-list detail-list-aplicacoes">${aplicacoes.map(a => {
+              ${formula ? `<div class="detail-section"><h5>Fórmula / Expressão</h5><code class="detail-formula">${formula}</code></div>` : ''}
+              ${aplicacoes.length ? `<div class="detail-section"><h5>Aplicações Práticas</h5><ul class="detail-list detail-list-aplicacoes">${aplicacoes.map((a, ai) => {
   const anome = typeof a === 'object' && a.nome ? a.nome : (typeof a === 'string' ? a : '');
   const adesc = typeof a === 'object' && a.descricao ? a.descricao : '';
-  return `<li>${adesc ? `<span class="detail-list-nome">${anome}</span><span class="detail-list-desc">${adesc}</span>` : `<span class="detail-list-nome">${anome}</span>`}</li>`;
+  const appIdx = ai + 1;
+  if (!adesc) return `<li><span class="detail-list-nome">${anome}</span></li>`;
+  const shortDesc = adesc.length > 180 ? adesc.substring(0, 180) + '...' : adesc;
+  const hasLongDesc = adesc.length > 180;
+  return `<li data-app="${i}-${ai}">
+    <div class="app-card-header">
+      <span class="app-card-badge">Prática ${appIdx}</span>
+      <span class="app-card-title">${anome}</span>
+    </div>
+    <div class="app-card-summary">${shortDesc}</div>
+    ${hasLongDesc ? `<div class="app-card-structure">
+      <div class="app-structure-item ctx">
+        <div class="app-structure-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Conteúdo Completo
+        </div>
+        <div class="app-structure-text">${adesc}</div>
+      </div>
+    </div>` : ''}
+    ${hasLongDesc ? `<button class="app-expand-btn" onclick="toggleApp(this)" aria-expanded="false">
+      <span>Ver completo</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>` : ''}
+  </li>`;
 }).join('')}</ul></div>` : ''}
             </div>` : ''}
           </div>`;
       }).join('') + (cat.referencias && cat.referencias.length ? `
         <div class="detail-references">
-          <h5 class="detail-references-title">Referencias Academicas</h5>
+          <h5 class="detail-references-title">Referências Acadêmicas</h5>
           <ul class="detail-references-list">
             ${cat.referencias.map(r => `<li><span class="ref-tipo">${r.tipo}</span> ${r.ref}</li>`).join('')}
           </ul>
@@ -365,7 +389,27 @@
     const expanded = btn.getAttribute('aria-expanded') === 'true';
     btn.setAttribute('aria-expanded', String(!expanded));
     item.classList.toggle('expanded', !expanded);
-    if (body) body.style.maxHeight = expanded ? '0px' : (body.scrollHeight + 'px');
+    if (body) {
+      if (expanded) {
+        body.style.maxHeight = '0px';
+      } else {
+        body.style.maxHeight = body.scrollHeight + 4000 + 'px';
+      }
+    }
+  };
+
+  window.toggleApp = function(btn) {
+    const li = btn.closest('.detail-list-aplicacoes > li');
+    if (!li) return;
+    const isExpanded = li.classList.contains('expanded-app');
+    li.classList.toggle('expanded-app', !isExpanded);
+    btn.setAttribute('aria-expanded', String(!isExpanded));
+    const span = btn.querySelector('span');
+    if (span) span.textContent = isExpanded ? 'Ver completo' : 'Recolher';
+    if (!isExpanded) {
+      const structure = li.querySelector('.app-card-structure');
+      if (structure) structure.style.maxHeight = structure.scrollHeight + 'px';
+    }
   };
 
   /* ─── Scroll To Top ─── */

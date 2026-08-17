@@ -788,6 +788,418 @@ a.topic-card:visited {
 }
 
 /* ==========================================================================
+   MOBILE REDESIGN — SUBTÓPICOS + APLICAÇÕES PRÁTICAS
+   Premium mobile-first: cards, badges, chips, accordion suave
+   ========================================================================== */
+
+/* ─── Subtópico Card (mobile) ─── */
+.detail-item {
+  border-bottom: 1px solid var(--border) !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 2px;
+}
+.detail-item-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0 !important;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  transition: background .2s var(--ease-fluid);
+}
+.detail-item-header:active {
+  background: var(--bg-alt);
+}
+.detail-item-icon {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 10px !important;
+  background: var(--brand-light) !important;
+  color: var(--c-eng-blue) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  transition: transform .2s var(--ease-spring);
+}
+[data-theme="dark"] .detail-item-icon {
+  color: var(--c-laser-cyan) !important;
+  background: rgba(0, 229, 255, 0.08) !important;
+}
+.detail-item.expanded .detail-item-icon {
+  transform: scale(1.08);
+  background: var(--c-eng-blue) !important;
+  color: #fff !important;
+}
+[data-theme="dark"] .detail-item.expanded .detail-item-icon {
+  background: var(--c-laser-cyan) !important;
+  color: var(--c-matte-black) !important;
+}
+.detail-item-header h4 {
+  flex: 1;
+  font-size: 0.88rem !important;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+.detail-chevron {
+  color: var(--text-tertiary) !important;
+  transition: transform .35s var(--ease-fluid) !important;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.detail-item.expanded .detail-chevron {
+  transform: rotate(180deg) !important;
+  opacity: 1;
+  color: var(--c-eng-blue);
+}
+[data-theme="dark"] .detail-item.expanded .detail-chevron {
+  color: var(--c-laser-cyan);
+}
+
+/* ─── Accordion Body (mobile) ─── */
+.detail-item-body {
+  max-height: 0 !important;
+  overflow: hidden;
+  transition: max-height .45s var(--ease-expo), opacity .3s ease;
+  opacity: 0;
+  padding: 0;
+}
+.detail-item.expanded .detail-item-body {
+  opacity: 1;
+  padding-bottom: 4px;
+}
+
+/* ─── Definição do Subtópico ─── */
+.detail-definicao {
+  font-size: 0.82rem !important;
+  color: var(--text-secondary);
+  line-height: 1.7 !important;
+  margin-bottom: 20px !important;
+  padding: 14px 16px;
+  background: var(--bg-alt);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--c-eng-blue);
+}
+[data-theme="dark"] .detail-definicao {
+  border-left-color: var(--c-laser-cyan);
+  background: rgba(0, 229, 255, 0.04);
+}
+
+/* ─── Seções internas ─── */
+.detail-section {
+  margin-bottom: 20px !important;
+}
+.detail-section h5 {
+  font-size: 0.68rem !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-tertiary);
+  margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.detail-section h5::before {
+  content: '';
+  width: 3px;
+  height: 12px;
+  border-radius: 2px;
+  background: var(--c-eng-blue);
+  flex-shrink: 0;
+}
+[data-theme="dark"] .detail-section h5::before {
+  background: var(--c-laser-cyan);
+}
+
+/* ─── Tópicos Relacionados (lista compacta) ─── */
+.detail-list-topicos {
+  display: flex !important;
+  flex-direction: column;
+  gap: 6px !important;
+}
+.detail-list-topicos li {
+  padding: 10px 14px !important;
+  border-radius: var(--radius-sm) !important;
+  background: var(--glass-bg) !important;
+  border: 1px solid var(--glass-border) !important;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.detail-list-topicos li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--c-eng-blue);
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+[data-theme="dark"] .detail-list-topicos li::before {
+  background: var(--c-laser-cyan);
+}
+.detail-list-nome {
+  display: block !important;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.82rem !important;
+  line-height: 1.45;
+}
+.detail-list-desc {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.76rem !important;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* ─── Fórmula ─── */
+.detail-formula {
+  display: block !important;
+  padding: 14px 16px !important;
+  border-radius: var(--radius-md) !important;
+  background: var(--bg-alt) !important;
+  font-family: var(--font-mono);
+  font-size: 0.78rem !important;
+  overflow-x: auto;
+  border: 1px solid var(--border) !important;
+  color: var(--c-eng-blue);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+[data-theme="dark"] .detail-formula {
+  color: var(--c-laser-cyan);
+  background: rgba(0, 229, 255, 0.04) !important;
+}
+
+/* ─── Aplicações Práticas ( cards premium ) ─── */
+.detail-list-aplicacoes {
+  display: flex !important;
+  flex-direction: column;
+  gap: 14px !important;
+}
+.detail-list-aplicacoes > li {
+  padding: 0 !important;
+  border-radius: var(--radius-md) !important;
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  overflow: hidden;
+  transition: border-color .25s var(--ease-fluid), box-shadow .25s var(--ease-fluid);
+}
+.detail-list-aplicacoes > li:active {
+  border-color: var(--c-eng-blue);
+  box-shadow: 0 2px 12px rgba(0, 85, 255, 0.08);
+}
+[data-theme="dark"] .detail-list-aplicacoes > li:active {
+  border-color: var(--c-laser-cyan);
+  box-shadow: 0 2px 12px rgba(0, 229, 255, 0.08);
+}
+
+/* Card header da aplicação */
+.app-card-header {
+  padding: 14px 16px 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.app-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--brand-light);
+  color: var(--c-eng-blue);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+[data-theme="dark"] .app-card-badge {
+  background: rgba(0, 229, 255, 0.1);
+  color: var(--c-laser-cyan);
+}
+.app-card-title {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+/* Descrição resumida da aplicação */
+.app-card-summary {
+  padding: 0 16px 12px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Estrutura interna: Contexto/Problema/Solução/Resultado */
+.app-card-structure {
+  padding: 0 16px 14px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s var(--ease-expo), padding .3s ease;
+}
+.detail-list-aplicacoes > li.expanded-app .app-card-structure {
+  max-height: 3000px;
+  padding: 0 16px 14px;
+}
+.app-card-structure .app-structure-item {
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-alt);
+  border-left: 3px solid var(--border);
+}
+.app-card-structure .app-structure-item:last-child {
+  margin-bottom: 0;
+}
+.app-structure-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
+}
+.app-structure-label svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.app-structure-text {
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.app-structure-item.ctx { border-left-color: var(--c-eng-blue); }
+.app-structure-item.prob { border-left-color: #e53935; }
+.app-structure-item.sol { border-left-color: #00c853; }
+.app-structure-item.res { border-left-color: var(--c-copper); }
+.app-structure-item.area { border-left-color: #7c4dff; }
+
+[data-theme="dark"] .app-structure-item.ctx { border-left-color: var(--c-laser-cyan); }
+[data-theme="dark"] .app-structure-item.prob { border-left-color: #ff6e6e; }
+[data-theme="dark"] .app-structure-item.sol { border-left-color: #69f0ae; }
+[data-theme="dark"] .app-structure-item.res { border-left-color: var(--c-copper-light); }
+[data-theme="dark"] .app-structure-item.area { border-left-color: #b388ff; }
+
+/* Botão expandir aplicação */
+.app-expand-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--c-eng-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: background .2s;
+  background: transparent;
+}
+.app-expand-btn:active {
+  background: var(--bg-alt);
+}
+[data-theme="dark"] .app-expand-btn {
+  color: var(--c-laser-cyan);
+}
+.app-expand-btn svg {
+  transition: transform .3s var(--ease-fluid);
+  width: 14px;
+  height: 14px;
+}
+.detail-list-aplicacoes > li.expanded-app .app-expand-btn svg {
+  transform: rotate(180deg);
+}
+
+/* ─── Referências ─── */
+.detail-references {
+  margin-top: 28px !important;
+  padding-top: 20px !important;
+  border-top: 1px solid var(--border) !important;
+}
+.detail-references-title {
+  font-size: 0.68rem !important;
+}
+.detail-references-list li {
+  font-size: 0.76rem !important;
+  padding-left: 10px !important;
+}
+
+/* ─── Desktop overrides (mantém layout desktop existente) ─── */
+@media (min-width: 769px) {
+  .detail-item {
+    border: 1px solid var(--border) !important;
+    border-radius: var(--radius-lg) !important;
+    padding: 0 24px !important;
+    background: var(--glass-bg) !important;
+    margin-bottom: 0 !important;
+  }
+  .detail-item-header { padding: 20px 0 !important; gap: 16px; }
+  .detail-item-icon { width: 34px !important; height: 34px !important; }
+  .detail-item-header h4 { font-size: 1.06rem !important; }
+  .detail-definicao {
+    font-size: 1rem !important;
+    line-height: 1.8 !important;
+    max-width: 72ch;
+    padding: 18px 22px;
+    border-left-width: 4px;
+  }
+  .detail-section h5 { font-size: 0.8rem !important; margin-bottom: 12px !important; }
+  .detail-list-topicos { gap: 12px !important; }
+  .detail-list-topicos li { padding: 18px 22px !important; }
+  .detail-list-nome { font-size: 0.98rem !important; }
+  .detail-list-desc { font-size: 0.93rem !important; }
+  .detail-formula { font-size: 0.9rem !important; padding: 18px 20px !important; }
+
+  .detail-list-aplicacoes {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px !important;
+  }
+  .detail-list-aplicacoes > li {
+    border-radius: var(--radius-md) !important;
+  }
+  .app-card-header { padding: 16px 18px 12px; }
+  .app-card-title { font-size: 0.92rem; }
+  .app-card-summary {
+    -webkit-line-clamp: unset;
+    padding: 0 18px 14px;
+    font-size: 0.85rem;
+  }
+  .app-card-structure { padding: 0 18px 16px; display: block !important; }
+  .app-structure-text { font-size: 0.84rem; }
+  .app-expand-btn { display: none; }
+}
+
+/* ==========================================================================
    COURSE / RESOURCE / FORM CARDS
    ========================================================================== */
 .resource-grid, .course-grid, .form-grid {
@@ -2066,5 +2478,49 @@ select.form-input { cursor: pointer; }
   .scroll-hero-title { font-size: clamp(1.7rem, 7vw, 2.3rem); margin-bottom: 10px; }
   .scroll-hero-sub { font-size: 0.9rem; margin-bottom: 16px; }
   .scroll-hero-hint { bottom: calc(76px + env(safe-area-inset-bottom)); }
+
+  /* ─── Topic Detail Panel — Mobile Premium ─── */
+  .topic-detail-panel {
+    max-width: 100%;
+    border-left: none;
+  }
+  .topic-detail-header {
+    padding: 20px 20px 16px;
+    gap: 10px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .topic-detail-back {
+    padding: 6px 12px 6px 8px;
+    font-size: 0.78rem;
+  }
+  .detail-tag {
+    font-size: 0.62rem;
+    padding: 3px 10px;
+  }
+  .detail-close {
+    width: 36px;
+    height: 36px;
+  }
+  .detail-title {
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+  }
+  .detail-desc {
+    font-size: 0.8rem;
+    line-height: 1.55;
+  }
+  .topic-detail-content {
+    padding: 16px 16px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
 }
 
