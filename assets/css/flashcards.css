@@ -1,0 +1,489 @@
+/* ==========================================================================
+   GERETT — FLASHCARDS DE ESTUDO
+   Cartões 3D com flip • Feedback acerto/erro • 100% responsivo
+   Depende dos tokens de design-tokens.css (--bg-card, --brand, --ease-*, …)
+   ========================================================================== */
+
+:root {
+  /* Cores semânticas do jogo (acerto / erro) */
+  --fc-ok: #16a34a;
+  --fc-ok-glow: rgba(22, 163, 74, 0.35);
+  --fc-no: #dc2626;
+  --fc-no-glow: rgba(220, 38, 38, 0.35);
+  /* Altura do cartão acompanha a viewport (bom em desktop e celular) */
+  --fc-card-h: clamp(320px, 52vh, 460px);
+}
+
+/* ===== Palco central do jogo ===== */
+.fc-stage {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+/* Garante que [hidden] vença regras de display das classes abaixo
+   (ex.: .fc-actions tem display:grid e esconderia mal durante o load) */
+.fc-card[hidden],
+.fc-actions[hidden],
+.fc-loading[hidden],
+.fc-game[hidden],
+.fc-setup[hidden],
+.fc-result[hidden] {
+  display: none !important;
+}
+
+/* ==========================================================
+   ESTADO 1 · SELEÇÃO DE TEMA
+   ========================================================== */
+.fc-setup {
+  display: grid;
+  place-items: center;
+  padding-block: clamp(8px, 3vh, 32px);
+}
+.fc-setup-card {
+  width: min(100%, 560px);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 20px 60px var(--shadow-md), inset 0 1px 0 var(--glass-border);
+  padding: clamp(24px, 4vw, 40px);
+  display: grid;
+  gap: 18px;
+  text-align: left;
+}
+.fc-setup-icon {
+  width: 54px; height: 54px;
+  display: grid; place-items: center;
+  border-radius: var(--radius-md);
+  color: var(--brand);
+  background: var(--brand-light);
+  border: 1px solid var(--border);
+}
+.fc-setup-label {
+  font-family: var(--font-display);
+  font-size: 1.15rem; font-weight: 700;
+  color: var(--text);
+}
+.fc-setup-hint {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}
+
+/* Select estilizado no padrão industrial do portal */
+.fc-select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 14px 44px 14px 16px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text);
+  background:
+    linear-gradient(45deg, transparent 50%, var(--text-secondary) 50%) calc(100% - 22px) calc(50% - 2px) / 6px 6px no-repeat,
+    linear-gradient(135deg, var(--text-secondary) 50%, transparent 50%) calc(100% - 16px) calc(50% - 2px) / 6px 6px no-repeat,
+    var(--bg-alt);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color .2s var(--ease-fluid), box-shadow .2s var(--ease-fluid);
+}
+.fc-select:focus-visible {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px hsla(var(--brand-h), var(--brand-s), var(--brand-l), .25);
+}
+
+/* ==========================================================
+   ESTADO 2 · JOGO
+   ========================================================== */
+.fc-game {
+  display: grid;
+  gap: 18px;
+}
+
+/* --- Cabeçalho: tema + estatísticas --- */
+.fc-game-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.fc-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand);
+  background: var(--brand-light);
+  border: 1px solid var(--border);
+}
+.fc-game-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin-top: 8px;
+}
+.fc-stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fc-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-strong);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+}
+.fc-stat b { font-family: var(--font-mono); font-weight: 600; }
+.fc-stat-ok svg { color: var(--fc-ok); }
+.fc-stat-no svg { color: var(--fc-no); }
+.fc-exit {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-tertiary);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  transition: color .2s, border-color .2s;
+}
+.fc-exit:hover { color: var(--text); border-color: var(--border-strong); }
+
+/* --- Barra de progresso: estudados / total --- */
+.fc-progress {
+  position: relative;
+  height: 30px;
+  border-radius: var(--radius-full);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.fc-progress-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--brand-dark), var(--brand));
+  transition: width .5s var(--ease-fluid);
+}
+.fc-progress-label {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  /* Branco em blend "difference" garante contraste sobre o trilho claro
+     (tema dia) e sobre o preenchimento azul (tema noite). */
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+/* ==========================================================
+   CARTÃO 3D COM FLIP
+   ========================================================== */
+.fc-card {
+  perspective: 1400px;           /* profundidade do giro */
+  height: var(--fc-card-h);
+  cursor: pointer;
+  border-radius: var(--radius-lg);
+  outline-offset: 4px;
+  transition: filter .25s;
+}
+.fc-card:focus-visible { outline: 2px solid var(--brand); }
+.fc-card-inner {
+  position: relative;
+  width: 100%; height: 100%;
+  transform-style: preserve-3d;  /* mantém as duas faces no espaço 3D */
+  transition: transform .65s var(--ease-fluid);
+  will-change: transform;
+}
+.fc-card.flipped .fc-card-inner { transform: rotateY(180deg); }
+
+/* Faces (frente = pergunta, verso = resposta) */
+.fc-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;   /* esconde a face oposta durante o giro */
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(22px, 4vw, 36px);
+  border-radius: var(--radius-lg);
+  overflow-y: auto;              /* respostas longas rolam dentro da carta */
+  scrollbar-width: thin;
+}
+.fc-front {
+  align-items: flex-start;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 24px 70px var(--shadow-lg), inset 0 1px 0 var(--glass-border);
+}
+/* Verso: gradiente industrial com o azul de engenharia da marca */
+.fc-back {
+  transform: rotateY(180deg);
+  justify-content: flex-start;
+  color: #F8F9FA;
+  background:
+    radial-gradient(120% 90% at 85% -10%, hsla(var(--brand-h), var(--brand-s), var(--brand-l), .28), transparent 60%),
+    linear-gradient(160deg, var(--c-graphite), var(--c-matte-black));
+  border: 1px solid hsla(var(--brand-h), var(--brand-s), var(--brand-l), .35);
+  box-shadow: 0 24px 70px var(--shadow-lg);
+}
+
+.fc-face-tag {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+.fc-front .fc-face-tag { color: var(--brand); background: var(--brand-light); }
+.fc-back  .fc-face-tag { color: var(--c-laser-cyan); background: rgba(255,255,255,0.08); }
+
+.fc-face-text {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: clamp(1.05rem, 2.6vw, 1.3rem);
+  line-height: 1.55;
+  overflow-wrap: break-word;
+}
+.fc-back .fc-face-text { font-weight: 400; font-size: clamp(0.95rem, 2.3vw, 1.08rem); opacity: .95; }
+
+.fc-face-hint {
+  margin-top: auto;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+.fc-face-hint::before {
+  content: "";
+  width: 26px; height: 26px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  background:
+    linear-gradient(45deg, transparent 48%, currentColor 48% 52%, transparent 52%) center / 100% 100% no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpath d='M13 19V9m0 0l-4 4m4-4l4 4' stroke='%238892A0' stroke-width='1.6' fill='none'/%3E%3C/svg%3E") center / cover no-repeat;
+  opacity: .7;
+}
+
+/* ==========================================================
+   FEEDBACK VISUAL — borda verde/vermelha por ~meio segundo
+   ========================================================== */
+@keyframes fcPulseOk {
+  0%, 100% { box-shadow: 0 0 0 0 var(--fc-ok-glow); }
+  50%      { box-shadow: 0 0 0 10px transparent; }
+}
+@keyframes fcPulseNo {
+  0%, 100% { box-shadow: 0 0 0 0 var(--fc-no-glow); }
+  50%      { box-shadow: 0 0 0 10px transparent; }
+}
+@keyframes fcShake {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(-7px); }
+  75%      { transform: translateX(7px); }
+}
+.fc-card.is-right { animation: fcPulseOk .55s ease-out; }
+.fc-card.is-right .fc-card-inner { box-shadow: 0 0 0 3px var(--fc-ok); border-radius: var(--radius-lg); }
+.fc-card.is-wrong { animation: fcPulseNo .55s ease-out; }
+.fc-card.is-wrong .fc-card-inner {
+  box-shadow: 0 0 0 3px var(--fc-no);
+  border-radius: var(--radius-lg);
+  animation: fcShake .4s ease-in-out;
+}
+
+/* Transição de troca de cartão */
+.fc-card.is-leaving .fc-card-inner { opacity: 0; transform: translateY(14px); transition: opacity .28s, transform .28s; }
+.fc-card.is-entering .fc-card-inner { opacity: 0; transform: translateY(-14px); }
+
+/* ==========================================================
+   AÇÕES (Virar / Errei / Acertei)
+   ========================================================== */
+.fc-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.fc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 24px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s var(--ease-fluid), box-shadow .25s, filter .2s, opacity .2s;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.fc-btn:active { transform: scale(.97); }
+.fc-btn:disabled { opacity: .5; pointer-events: none; }
+
+.fc-btn-reveal {
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand));
+  border-color: transparent;
+  box-shadow: 0 10px 30px hsla(var(--brand-h), var(--brand-s), var(--brand-l), .35);
+}
+.fc-btn-reveal:hover { filter: brightness(1.08); }
+
+/* Errei / Acertei dividem a linha em dois botões equivalentes */
+.fc-btn-wrong {
+  color: var(--fc-no);
+  background: transparent;
+  border-color: var(--fc-no);
+}
+.fc-btn-wrong:hover { background: color-mix(in srgb, var(--fc-no) 10%, transparent); }
+.fc-btn-right {
+  color: #fff;
+  background: linear-gradient(135deg, var(--fc-ok), color-mix(in srgb, var(--fc-ok) 75%, black));
+  border-color: transparent;
+  box-shadow: 0 10px 30px var(--fc-ok-glow);
+}
+.fc-btn-right:hover { filter: brightness(1.07); }
+
+/* Estado "avaliação visível": errei | acertei lado a lado */
+.fc-actions.evaluating { grid-template-columns: 1fr 1fr; }
+.fc-actions.evaluating .fc-btn-reveal { display: none; }
+
+.fc-shortcut {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+}
+.fc-shortcut kbd {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-alt);
+}
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Skeleton de carregamento do deck */
+.fc-loading {
+  height: var(--fc-card-h);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(100deg, var(--bg-alt) 40%, var(--bg-card) 50%, var(--bg-alt) 60%);
+  background-size: 200% 100%;
+  animation: fcShimmer 1.2s linear infinite;
+  border: 1px solid var(--border);
+}
+@keyframes fcShimmer { to { background-position-x: -200%; } }
+
+/* ==========================================================
+   ESTADO 3 · RESULTADO DA RODADA
+   ========================================================== */
+.fc-result { display: grid; place-items: center; }
+.fc-result-card {
+  width: min(100%, 520px);
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 20px 60px var(--shadow-md);
+  padding: clamp(28px, 5vw, 44px);
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+}
+.fc-result-medal {
+  width: 76px; height: 76px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  color: var(--copper-light);
+  background: color-mix(in srgb, var(--c-copper) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c-copper) 40%, transparent);
+}
+.fc-result-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem; font-weight: 800;
+}
+.fc-result-sub { color: var(--text-secondary); font-size: 0.95rem; }
+.fc-result-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.fc-result-item {
+  padding: 14px 8px;
+  border-radius: var(--radius-md);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+}
+.fc-result-item dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text-tertiary);
+}
+.fc-result-item dd {
+  font-family: var(--font-mono);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.fc-res-ok dd { color: var(--fc-ok); }
+.fc-res-no dd { color: var(--fc-no); }
+.fc-result-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ==========================================================
+   RESPONSIVO
+   ========================================================== */
+@media (min-width: 480px) {
+  .fc-actions:not(.evaluating) .fc-btn-reveal { width: 100%; }
+}
+@media (max-width: 479px) {
+  :root { --fc-card-h: clamp(300px, 56vh, 420px); }
+  .fc-game-title { font-size: 1.15rem; }
+  .fc-stats { width: 100%; justify-content: flex-start; }
+}
+@media (max-width: 380px) {
+  .fc-result-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Acessibilidade: movimento reduzido já é tratado globalmente em
+   design-tokens.css; aqui apenas garantimos o flip instantâneo. */
+@media (prefers-reduced-motion: reduce) {
+  .fc-card-inner { transition: none; }
+  .fc-progress-fill { transition: none; }
+}

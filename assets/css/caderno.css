@@ -1,0 +1,380 @@
+/* ==========================================================================
+   GERETT — CADERNO DIGITAL DE ESTUDOS
+   Documento gerado a partir do acervo do portal • Anotações persistentes
+   • Exercícios com gabarito • Exportação em Markdown • Impressão
+   Reaproveita .fc-setup-card / .fc-select / .fc-chip de flashcards.css
+   ========================================================================== */
+
+/* ===== Palco ===== */
+.cd-stage {
+  max-width: 860px;
+  margin-inline: auto;
+}
+
+/* [hidden] deve vencer qualquer display de classe */
+.cd-artigo[hidden], .cd-setup[hidden] { display: none !important; }
+
+/* ==========================================================
+   ESTADO 1 · SELEÇÃO
+   ========================================================== */
+.cd-setup { display: grid; place-items: center; padding-block: clamp(8px, 3vh, 32px); }
+
+/* ==========================================================
+   ESTADO 2 · DOCUMENTO (estética de caderno/papel)
+   ========================================================== */
+.cd-artigo {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 20px 60px var(--shadow-md), inset 0 1px 0 var(--glass-border);
+  padding: clamp(22px, 4.5vw, 52px);
+}
+
+/* --- Barra de ações --- */
+.cd-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: clamp(18px, 3vw, 30px);
+  padding-bottom: 16px;
+  border-bottom: 1px dashed var(--border-strong);
+}
+.cd-tools-right { display: flex; gap: 8px; flex-wrap: wrap; }
+.cd-tool-btn { padding: 9px 16px; font-size: 0.88rem; }
+
+/* --- Cabeçalho do documento --- */
+.cd-doc-head { margin-bottom: clamp(20px, 4vw, 34px); }
+.cd-titulo {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4.5vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-top: 12px;
+}
+.cd-subtitulo {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+/* --- Seções genéricas do documento --- */
+.cd-secao { margin-bottom: clamp(24px, 4vw, 40px); }
+.cd-secao h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+  padding-left: 14px;
+  border-left: 4px solid var(--brand);
+}
+.cd-secao p { line-height: 1.75; color: var(--text); overflow-wrap: break-word; }
+.cd-divisor {
+  border: none;
+  border-top: 1px solid var(--border-strong);
+  margin: clamp(20px, 4vw, 34px) 0;
+}
+
+/* ==========================================================
+   APRESENTAÇÃO DO PROFESSOR + OBJETIVOS
+   ========================================================== */
+.cd-prof-apresentacao {
+  font-size: 1.02rem;
+  background: var(--brand-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+}
+.cd-objetivos-lista {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  counter-reset: obj;
+}
+.cd-objetivos-lista li {
+  counter-increment: obj;
+  position: relative;
+  padding-left: 44px;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+}
+.cd-objetivos-lista li::before {
+  content: counter(obj, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  width: 30px; height: 30px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand));
+}
+
+/* ==========================================================
+   REFERÊNCIAS (padrão ABNT simplificado)
+   ========================================================== */
+.cd-refs-lista {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+.cd-refs-lista li {
+  padding-left: 18px;
+  position: relative;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+.cd-refs-lista li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.62em;
+  width: 7px; height: 7px;
+  border-radius: 2px;
+  background: var(--c-copper);
+}
+.cd-ref-tipo {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--c-copper-light);
+  margin-right: 6px;
+}
+.cd-refs-nota { margin-top: 12px; font-size: 0.8rem; color: var(--text-tertiary); }
+
+/* ==========================================================
+   PARTE 1 · TEORIA
+   ========================================================== */
+.cd-definicao-box {
+  border: 1px solid var(--border-strong);
+  border-left: 5px solid var(--brand);
+  border-radius: var(--radius-md);
+  background: var(--bg-alt);
+  padding: 18px 20px;
+  margin-bottom: 26px;
+}
+.cd-definicao-box .cd-box-tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand);
+}
+.cd-teoria h4 {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  margin: 26px 0 10px;
+  scroll-margin-top: calc(var(--nav-h) + 16px);
+}
+.cd-teoria h4 small {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  margin-right: 8px;
+}
+
+/* Fórmula em bloco de código */
+.cd-formula {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  background: var(--c-matte-black);
+  color: var(--c-laser-cyan);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  overflow-x: auto;
+  margin: 12px 0 22px;
+}
+
+/* Aplicações práticas como cartões */
+.cd-app-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-alt);
+  padding: 16px 18px;
+  margin-top: 12px;
+}
+.cd-app-card h5 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cd-app-card h5::before {
+  content: "▶";
+  font-size: 0.62rem;
+  color: var(--c-copper-light);
+}
+.cd-app-card p { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; }
+
+/* ==========================================================
+   PARTE 2 · ANOTAÇÕES DO ALUNO (persistem em localStorage)
+   ========================================================== */
+.cd-anotacoes-wrap {
+  border: 2px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  background:
+    repeating-linear-gradient(var(--bg-card) 0px, var(--bg-card) 31px, var(--grid-line) 32px),
+    var(--bg-card);
+  padding: 20px;
+}
+.cd-anotacoes-wrap > strong { font-family: var(--font-display); }
+.cd-anotacoes textarea {
+  width: 100%;
+  min-height: 180px;
+  margin-top: 14px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  line-height: 32px; /* casa com as linhas do papel */
+  caret-color: var(--brand);
+}
+.cd-anotacoes-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--fc-ok);
+  opacity: 0;
+  transition: opacity .3s;
+}
+.cd-anotacoes-status.visivel { opacity: 1; }
+.cd-prompts-lista { margin: 16px 0 0; display: grid; gap: 8px; }
+.cd-prompts-lista li {
+  list-style: none;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  padding-left: 24px;
+  position: relative;
+  line-height: 1.6;
+}
+.cd-prompts-lista li::before {
+  content: "✎";
+  position: absolute;
+  left: 0;
+  color: var(--c-copper-light);
+}
+
+/* ==========================================================
+   PARTE 3 · EXERCÍCIOS + GABARITO (<details> nativo)
+   ========================================================== */
+.cd-exercicio {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  margin-top: 14px;
+  background: var(--bg-alt);
+}
+.cd-exercicio-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.cd-ex-numero {
+  flex-shrink: 0;
+  width: 30px; height: 30px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand));
+}
+.cd-ex-tipo {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.cd-exercicio p.enunciado { line-height: 1.7; }
+details.cd-gabarito { margin-top: 14px; }
+details.cd-gabarito summary {
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--fc-ok);
+  list-style: none;
+}
+details.cd-gabarito summary::-webkit-details-marker { display: none; }
+details.cd-gabarito summary::before {
+  content: "▸";
+  transition: transform .25s var(--ease-fluid);
+}
+details.cd-gabarito[open] summary::before { transform: rotate(90deg); }
+details.cd-gabarito .cd-gab-corpo {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--fc-ok);
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--fc-ok) 7%, transparent);
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+details.cd-gabarito .cd-gab-corpo b { color: var(--fc-ok); }
+
+/* Skeleton de geração */
+.cd-loading-doc {
+  height: 420px;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(100deg, var(--bg-alt) 40%, var(--bg-card) 50%, var(--bg-alt) 60%);
+  background-size: 200% 100%;
+  animation: fcShimmer 1.2s linear infinite;
+  border: 1px solid var(--border);
+}
+
+/* ==========================================================
+   RESPONSIVO
+   ========================================================== */
+@media (max-width: 520px) {
+  .cd-toolbar { flex-direction: column; align-items: stretch; }
+  .cd-tools-right { justify-content: stretch; }
+  .cd-tools-right .cd-tool-btn { flex: 1; justify-content: center; }
+  .cd-secao h3 { font-size: 1.12rem; }
+}
+
+/* ==========================================================
+   IMPRESSÃO — só o documento vai para o papel
+   ========================================================== */
+@media print {
+  .no-print,
+  .navbar, .mobile-nav-overlay, .mobile-bottom-nav,
+  .footer, .scroll-top, .contact-fab, .progress-bar, .noise-overlay { display: none !important; }
+  body { padding: 0; background: #fff; color: #000; }
+  .cd-stage { max-width: 100%; }
+  .cd-artigo { border: none; box-shadow: none; padding: 0; }
+  .cd-secao { break-inside: avoid-page; }
+  details.cd-gabarito { display: none; } /* gabarito não sai na impressão do aluno */
+  .cd-anotacoes textarea { border: 1px solid #ccc; min-height: 220px; }
+}
