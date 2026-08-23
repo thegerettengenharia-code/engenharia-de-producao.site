@@ -146,6 +146,24 @@
 .bd-card-cta svg { transition: transform .3s var(--ease-spring); }
 .bd-card-cta:hover svg { transform: translateX(4px); }
 
+/* Botão "Flashcards" nos cartões da Biblioteca Digital (deep-link p/ modo estudo) */
+.bd-card-fc {
+  display: inline-flex; align-items: center; gap: 7px;
+  align-self: flex-start;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.78rem; font-weight: 700;
+  transition: color .25s var(--ease-fluid), border-color .25s var(--ease-fluid), background .25s var(--ease-fluid);
+}
+.bd-card-fc:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+  background: var(--brand-light);
+}
+
 /* ---------- Search row ---------- */
 .bd-search-row {
   display: flex; gap: 12px; align-items: stretch;

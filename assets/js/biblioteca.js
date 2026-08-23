@@ -80,6 +80,9 @@
           (m.year ? '<span class="bd-card-year">' + esc(m.year) + '</span>' : '') +
         '</div>' +
         '<div class="bd-card-tags">' + tags + '</div>' +
+        '<a class="bd-card-fc" href="flashcards.html?topico=' + encodeURIComponent(m.title) + '" aria-label="Estudar ' + esc(m.title) + ' com flashcards">' +
+          '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="5" width="14" height="15" rx="2"/><path d="M20 3h-9a2 2 0 0 0-2 2"/><path d="M6 10h6M6 14h6M6 18h4"/></svg>' +
+          'Flashcards</a>' +
         '<a class="bd-card-cta" href="' + esc(m.url) + '" target="_blank" rel="noopener noreferrer">Acessar material <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>' +
       '</article>'
     );

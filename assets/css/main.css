@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    GERETT â€” BIBLIOTECA ORGANIZACIONAL
    UI Premium Industrial-grade â€” v4.0
    ========================================================================== */
@@ -2636,3 +2636,10 @@ select.form-input { cursor: pointer; }
   }
 }
 
+
+/* ==========================================================================
+   FLASHCARDS — CTA nos paineis de detalhe de topicos (index + topicos)
+   ========================================================================== */
+.detail-fc-cta { margin-top: 20px; }
+.detail-caderno-cta { margin-top: 20px; }
+.detail-fc-cta + .detail-caderno-cta { margin-left: 10px; }
