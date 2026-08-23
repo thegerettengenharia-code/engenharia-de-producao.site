@@ -110,7 +110,7 @@
         <div class="index-item-num">${String(i + 1).padStart(2, '0')}</div>
         <div class="index-item-text">
           <div class="index-item-name">${c.nome}</div>
-          <div class="index-item-meta">${c.subtopicos?.length || 0} topicos</div>
+          <div class="index-item-meta">${c.subtopicos?.length || 0} tópicos</div>
         </div>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="flex-shrink:0;color:var(--text-tertiary)"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
@@ -174,7 +174,7 @@
         <div class="topic-card-icon">${getIcon(c.icone)}</div>
         <h3>${c.nome}</h3>
         <p>${c.descricao || ''}</p>
-        <span class="topic-count">${c.subtopicos?.length || 0} topicos</span>
+        <span class="topic-count">${c.subtopicos?.length || 0} tópicos</span>
       </article>
     `).join('');
     grid.querySelectorAll('.topic-card').forEach(card => {
@@ -272,7 +272,7 @@
   function getSuggestions(query, maxResults) {
     const results = []; const q = query.toLowerCase();
     (S && S.categorias || []).forEach(cat => {
-      if (cat.nome.toLowerCase().includes(q)) results.push({ title: cat.nome, parent: 'Area', categoryId: cat.id });
+      if (cat.nome.toLowerCase().includes(q)) results.push({ title: cat.nome, parent: 'Área', categoryId:cat.id });
       (cat.subtopicos || []).forEach((sub, i) => {
         const titulo = typeof sub === 'string' ? sub : (sub.titulo || '');
         if (titulo.toLowerCase().includes(q)) results.push({ title: titulo, parent: cat.nome, categoryId: cat.id });
@@ -356,6 +356,14 @@
     </button>` : ''}
   </li>`;
 }).join('')}</ul></div>` : ''}
+              <a class="btn btn-ghost detail-fc-cta" href="flashcards.html?topico=${encodeURIComponent(titulo)}">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="14" height="15" rx="2"/><path d="M20 3h-9a2 2 0 0 0-2 2"/><path d="M6 10h6M6 14h6M6 18h4"/></svg>
+                Estudar com Flashcards
+              </a>
+              <a class="btn btn-ghost detail-caderno-cta" href="caderno.html?topico=${encodeURIComponent(titulo)}">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h5"/></svg>
+                Caderno de Estudos
+              </a>
             </div>` : ''}
           </div>`;
       }).join('') + (cat.referencias && cat.referencias.length ? `

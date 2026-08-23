@@ -3,32 +3,33 @@
 <head>
   <script>var t=localStorage.getItem('theme')||((window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);</script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
-  <meta name="description" content="Biblioteca de formulários técnicos e diagramas para Engenharia de Produção. Downloads em .html para impressão e edição.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Flashcards de estudo em Engenharia de Produção. Escolha um tema do portal e revise com cartões de pergunta e resposta — gratuito.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Gerett">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Biblioteca — Gerett">
-  <meta property="og:description" content="Formulários técnicos e diagramas para Engenharia de Produção.">
-  <meta property="og:url" content="https://thegerett.com.br/biblioteca.html">
+  <meta property="og:title" content="Flashcards de Estudo — Gerett">
+  <meta property="og:description" content="Revise qualquer tema de Engenharia de Produção com cartões de pergunta e resposta gerados a partir do conteúdo do portal.">
+  <meta property="og:url" content="https://thegerett.com.br/flashcards.html">
   <meta property="og:image" content="https://thegerett.com.br/assets/images/og-image.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Biblioteca — Gerett">
-  <meta name="twitter:description" content="Formulários técnicos e diagramas para Engenharia de Produção.">
+  <meta name="twitter:title" content="Flashcards de Estudo — Gerett">
+  <meta name="twitter:description" content="Revise qualquer tema de Engenharia de Produção com cartões de pergunta e resposta.">
   <meta name="twitter:image" content="https://thegerett.com.br/assets/images/og-image.svg">
-  <link rel="canonical" href="https://thegerett.com.br/biblioteca.html">
+  <link rel="canonical" href="https://thegerett.com.br/flashcards.html">
   <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#F8F9FA" media="(prefers-color-scheme: light)">
-  <title>Biblioteca — Gerett</title>
+  <title>Flashcards de Estudo — Gerett</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/flashcards.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
-<body data-page="biblioteca">
+<body data-page="flashcards">
 
   <div class="noise-overlay" aria-hidden="true"></div>
   <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
@@ -46,9 +47,8 @@
         <a href="modelos-cad.html" class="nav-link" role="menuitem" data-section="modelos-cad">Modelos CAD</a>
         <a href="cursos.html" class="nav-link" role="menuitem" data-section="cursos">Cursos</a>
         <a href="biblioteca-digital.html" class="nav-link" role="menuitem" data-section="biblioteca-digital">Biblioteca Digital</a>
-        <a href="biblioteca.html" class="nav-link active" role="menuitem" data-section="biblioteca">Formulários Técnicos</a>
-        <a href="flashcards.html" class="nav-link" role="menuitem" data-section="flashcards">Flashcards</a>
-        <a href="caderno.html" class="nav-link" role="menuitem" data-section="caderno">Caderno</a>
+        <a href="biblioteca.html" class="nav-link" role="menuitem" data-section="biblioteca">Formulários Técnicos</a>
+        <a href="flashcards.html" class="nav-link active" role="menuitem" data-section="flashcards">Flashcards</a>
         <a href="sobre.html" class="nav-link" role="menuitem" data-section="sobre">Sobre</a>
       </div>
       <div class="nav-actions">
@@ -71,9 +71,8 @@
         <a href="modelos-cad.html" class="mobile-nav-link">Modelos CAD</a>
         <a href="cursos.html" class="mobile-nav-link">Cursos</a>
         <a href="biblioteca-digital.html" class="mobile-nav-link">Biblioteca Digital</a>
-        <a href="biblioteca.html" class="mobile-nav-link active">Formulários Técnicos</a>
-        <a href="flashcards.html" class="mobile-nav-link">Flashcards</a>
-        <a href="caderno.html" class="mobile-nav-link">Caderno</a>
+        <a href="biblioteca.html" class="mobile-nav-link">Formulários Técnicos</a>
+        <a href="flashcards.html" class="mobile-nav-link active">Flashcards</a>
         <a href="sobre.html" class="mobile-nav-link">Sobre</a>
       </nav>
       <div class="mobile-nav-footer">
@@ -94,19 +93,118 @@
   </nav>
 
   <main id="main">
-    <section class="page-header biblioteca-hero">
-      <div class="biblioteca-hero-bg" id="bibliotecaBg"></div>
+
+    <!-- Cabeçalho da página -->
+    <section class="page-header fc-hero">
       <a href="index.html" class="back-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         Voltar ao início
       </a>
-      <span class="eyebrow">Formulários Técnicos</span>
-      <h1>Biblioteca de <span class="accent">Formulários</span></h1>
-      <p>Formulários técnicos prontos para download. Gere um .html formatado, pronto para impressão ou conversão em PDF.</p>
+      <span class="eyebrow">Modo Estudo</span>
+      <h1>Flashcards <span class="accent">de Estudo</span></h1>
+      <p>Escolha qualquer conteúdo do portal e estude com cartões de pergunta e resposta gerados automaticamente. Acertou, segue o jogo. Errou, o cartão volta para o fim da fila até você dominar o tema.</p>
     </section>
 
-    <section class="section">
-      <div class="form-grid" id="formGrid"></div>
+    <section class="section fc-stage">
+
+      <!-- ===== ESTADO 1 · SELEÇÃO DE TEMA ===== -->
+      <div class="fc-setup" id="fcSetup">
+        <div class="fc-setup-card">
+          <div class="fc-setup-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="5" width="14" height="15" rx="2"/><path d="M20 3h-9a2 2 0 0 0-2 2v0"/><path d="M6 10h6M6 14h6M6 18h4"/></svg>
+          </div>
+          <label class="fc-setup-label" for="fcTopicSelect">Qual conteúdo você quer estudar?</label>
+          <select class="fc-select" id="fcTopicSelect"></select>
+          <p class="fc-setup-hint">Dica: em qualquer página de conteúdo, o botão “Estudar com Flashcards” abre os flashcards desse título aqui.</p>
+          <button class="btn btn-primary btn-lg btn-full" id="fcStartBtn">
+            Começar a estudar
+            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== ESTADO 2 · JOGO ===== -->
+      <div class="fc-game" id="fcGame" hidden>
+        <!-- Cabeçalho do jogo: tema + contadores -->
+        <header class="fc-game-head">
+          <div class="fc-game-title-wrap">
+            <span class="fc-chip" id="fcChipCategoria">Categoria</span>
+            <h2 class="fc-game-title" id="fcTituloTema">Tema</h2>
+          </div>
+          <div class="fc-stats" aria-label="Estatísticas da rodada">
+            <span class="fc-stat fc-stat-ok" title="Acertos"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg><b id="fcStatAcertos">0</b></span>
+            <span class="fc-stat fc-stat-no" title="Erros"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg><b id="fcStatErros">0</b></span>
+            <button class="fc-exit" id="fcBtnSair" type="button" title="Encerrar rodada">Sair</button>
+          </div>
+        </header>
+
+        <!-- Barra de progresso (cartões estudados / total) -->
+        <div class="fc-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Cartões estudados" id="fcProgresso">
+          <div class="fc-progress-fill" id="fcProgressFill"></div>
+          <span class="fc-progress-label" id="fcProgressLabel">0/0</span>
+        </div>
+
+        <!-- Skeleton de carregamento do baralho -->
+        <div class="fc-loading" id="fcLoading" hidden></div>
+
+        <!-- Cartão 3D (clique vira) -->
+        <div class="fc-card" id="fcCard" tabindex="0" role="button" aria-label="Cartão. Pressione Enter ou Espaço para virar.">
+          <div class="fc-card-inner">
+            <!-- FRENTE = PERGUNTA -->
+            <div class="fc-face fc-front">
+              <span class="fc-face-tag">Pergunta</span>
+              <p class="fc-face-text" id="fcPergunta">…</p>
+              <span class="fc-face-hint">Clique para revelar a resposta</span>
+            </div>
+            <!-- VERSO = RESPOSTA -->
+            <div class="fc-face fc-back">
+              <span class="fc-face-tag">Resposta</span>
+              <p class="fc-face-text" id="fcResposta">…</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ações -->
+        <div class="fc-actions">
+          <button class="fc-btn fc-btn-reveal" id="fcBtnVirar" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
+            Virar cartão
+          </button>
+          <!-- Avaliação: só aparece depois de virar -->
+          <button class="fc-btn fc-btn-wrong" id="fcBtnErrei" type="button" hidden>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            Errei
+          </button>
+          <button class="fc-btn fc-btn-right" id="fcBtnAcertei" type="button" hidden>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg>
+            Acertei
+          </button>
+        </div>
+        <p class="fc-shortcut" aria-hidden="true">Atalhos: <kbd>Espaço</kbd> vira o cartão · <kbd>←</kbd> errei · <kbd>→</kbd> acertei</p>
+        <p class="sr-only" aria-live="polite" id="fcAriaLive"></p>
+      </div>
+
+      <!-- ===== ESTADO 3 · RESULTADO ===== -->
+      <div class="fc-result" id="fcResult" hidden>
+        <div class="fc-result-card">
+          <div class="fc-result-medal" id="fcResultMedal" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="6"/><path d="M15.5 13l1.5 8-5-3-5 3 1.5-8"/></svg>
+          </div>
+          <h2>Rodada concluída!</h2>
+          <p class="fc-result-sub" id="fcResultSub">Você revisou todos os cartões do tema.</p>
+          <dl class="fc-result-grid">
+            <div class="fc-result-item"><dt>Cartões</dt><dd id="fcResTotal">0</dd></div>
+            <div class="fc-result-item fc-res-ok"><dt>Acertos</dt><dd id="fcResAcertos">0</dd></div>
+            <div class="fc-result-item fc-res-no"><dt>Erros</dt><dd id="fcResErros">0</dd></div>
+            <div class="fc-result-item"><dt>Precisão</dt><dd id="fcResPrecisao">0%</dd></div>
+          </dl>
+          <div class="fc-result-actions">
+            <button class="btn btn-primary" id="fcBtnRepetir" type="button">Estudar novamente</button>
+            <button class="btn btn-ghost" id="fcBtnTrocar" type="button">Escolher outro tema</button>
+          </div>
+        </div>
+      </div>
+
     </section>
   </main>
 
@@ -120,7 +218,7 @@
         <p class="footer-tagline">Portal técnico de referência em Engenharia de Produção. Conteúdo gratuito e rigoroso para a indústria brasileira.</p>
       </div>
       <nav class="footer-nav">
-        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca-digital.html">Biblioteca Digital</a></li><li><a href="biblioteca.html">Biblioteca</a></li></ul></div>
+        <div class="footer-nav-group"><h4>Navegação</h4><ul><li><a href="topicos.html">Tópicos</a></li><li><a href="modelos-cad.html">Modelos CAD</a></li><li><a href="cursos.html">Cursos Gratuitos</a></li><li><a href="biblioteca-digital.html">Biblioteca Digital</a></li><li><a href="biblioteca.html">Biblioteca</a></li><li><a href="flashcards.html">Flashcards</a></li></ul></div>
         <div class="footer-nav-group"><h4>Recursos</h4><ul><li><a href="modelos-cad.html">Downloads CAD</a></li><li><a href="cursos.html">Cursos Grátis</a></li><li><a href="biblioteca-digital.html">Leituras Abertas</a></li><li><a href="biblioteca.html">Formulários Técnicos</a></li><li><a href="topicos.html">Conteúdo Técnico</a></li></ul></div>
         <div class="footer-nav-group"><h4>Áreas</h4><ul><li><a href="topicos.html">PCP</a></li><li><a href="topicos.html">Qualidade</a></li><li><a href="topicos.html">Lean Manufacturing</a></li><li><a href="topicos.html">Supply Chain</a></li></ul></div>
       </nav>
@@ -152,70 +250,11 @@
     </div>
   </div>
 
+  <!-- Dados do portal + núcleo + lógica dos flashcards -->
   <script src="assets/data/conteudo.js"></script>
+  <script src="assets/data/biblioteca.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script>
-  (function(){
-    const S = window.SITE_DATA;
-    if (!S) return;
-    const grid = document.getElementById('formGrid');
-    if (!grid) return;
-    grid.innerHTML = (S.formularios || []).map(f => `
-      <div class="form-card">
-        <div class="form-card-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        </div>
-        <div class="form-card-info">
-          <h3>${f.nome}</h3>
-          <p>${f.descricao || 'Formulário técnico para download'}</p>
-        </div>
-        <button class="form-download" onclick="downloadForm('${f.id}')">Baixar</button>
-      </div>
-    `).join('');
-
-    window.downloadForm = function(id) {
-      const f = S.formularios.find(x => x.id === id);
-      if (!f) return;
-      if (f.arquivo) {
-        window.open(f.arquivo, '_blank');
-      }
-    };
-  })();
-  </script>
-  <script>
-  (function(){
-    const bg = document.getElementById('bibliotecaBg');
-    if (!bg || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
-
-    bg.classList.add('parallax-active');
-
-    gsap.to(bg, {
-      y: -80,
-      scale: 1.08,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: bg.parentElement,
-        start: 'top top',
-        end: 'bottom top',
-        scrub: 1.5,
-        invalidateOnRefresh: true
-      }
-    });
-
-    gsap.to(bg, {
-      opacity: 0.08,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: bg.parentElement,
-        start: 'top top',
-        end: '60% top',
-        scrub: 1
-      }
-    });
-  })();
-  </script>
+  <script src="assets/js/flashcards.js"></script>
   <script src="assets/js/animations.js"></script>
 </body>
 </html>

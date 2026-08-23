@@ -1,4 +1,4 @@
-﻿window.SITE_DATA = {
+window.SITE_DATA = {
   "categorias": [
     {
       "id": "pcp",
@@ -46,7 +46,7 @@
         },
         {
           "titulo": "Programação da produção",
-          "definicao": "Etapa que detalha o sequenciamento das ordens de produção no tempo, definindo quais produtos serão fabricados, em quais máquinas, em quais quantidades e em que momento. Traduz o plano mestre em ordens executéveis no chão de fábrica.",
+          "definicao": "Etapa que detalha o sequenciamento das ordens de produção no tempo, definindo quais produtos serão fabricados, em quais máquinas, em quais quantidades e em que momento. Traduz o plano mestre em ordens executáveis no chão de fábrica.",
           "topicos": [
             {
               "nome": "Sequenciamento",
