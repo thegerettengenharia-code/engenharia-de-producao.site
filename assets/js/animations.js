@@ -173,9 +173,16 @@
     const h1 = header.querySelector('h1');
     const p = header.querySelector('p');
     const eyebrow = header.querySelector('.eyebrow');
-    if (eyebrow) gsap.from(eyebrow, { y: 20, opacity: 0, duration: 0.8, ease: 'power4.out', delay: 0.2 });
-    if (h1) gsap.from(h1, { y: 40, opacity: 0, duration: 1, ease: 'power4.out', delay: 0.3 });
-    if (p) gsap.from(p, { y: 20, opacity: 0, duration: 0.8, ease: 'power4.out', delay: 0.45 });
+    const els = [eyebrow, h1, p].filter(Boolean);
+    if (eyebrow) gsap.set(eyebrow, { y: 20, opacity: 0 });
+    if (h1) gsap.set(h1, { y: 40, opacity: 0 });
+    if (p) gsap.set(p, { y: 20, opacity: 0 });
+    if (eyebrow) gsap.to(eyebrow, { y: 0, opacity: 1, duration: 0.8, ease: 'power4.out', delay: 0.2 });
+    if (h1) gsap.to(h1, { y: 0, opacity: 1, duration: 1, ease: 'power4.out', delay: 0.3 });
+    if (p) gsap.to(p, { y: 0, opacity: 1, duration: 0.8, ease: 'power4.out', delay: 0.45 });
+    /* Rede de segurança: garante título visível mesmo se o rAF
+       for suspenso (aba em segundo plano) ou a timeline interrompida. */
+    setTimeout(() => els.forEach(el => gsap.set(el, { y: 0, opacity: 1 })), 2500);
   }
 
   /* ─── Card Stagger Reveals ─── */
