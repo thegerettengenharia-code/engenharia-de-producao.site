@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1080px; overflow: hidden; }
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #F8F9FA;
+    color: #0B0E11;
+    position: relative;
+  }
+  .side { position: absolute; top: 0; right: 0; width: 14px; height: 100%;
+    background: linear-gradient(180deg, #0055FF, #00E5FF); }
+  .frame { height: 100%; padding: 84px 90px; display: flex; flex-direction: column; position: relative; }
+  .brand-row { display: flex; align-items: center; gap: 16px; }
+  .mark {
+    width: 54px; height: 54px; border-radius: 14px;
+    background: linear-gradient(135deg, #0055FF, #00E5FF);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Inter Tight'; font-weight: 800; font-size: 28px; color: #fff;
+  }
+  .bname { font-family: 'Inter Tight'; font-weight: 800; font-size: 32px; }
+  .bsub { font-size: 17px; color: #8892A0; letter-spacing: 2.6px; text-transform: uppercase; margin-top: 1px; }
+  h2 {
+    font-family: 'Inter Tight'; font-weight: 800; font-size: 58px; line-height: 1.12;
+    letter-spacing: -1.5px; margin-top: 64px; max-width: 900px;
+  }
+  h2 em { font-style: normal; color: #0055FF; }
+  .big { margin-top: 56px; }
+  .big b {
+    font-family: 'Inter Tight'; font-weight: 800; font-size: 210px; line-height: 0.95;
+    letter-spacing: -7px;
+    background: linear-gradient(90deg, #0055FF, #00A3FF);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .big span { display: block; font-size: 36px; font-weight: 700; margin-top: 18px; color: #4A5160; }
+  .rows { margin-top: 52px; display: flex; flex-direction: column; gap: 22px; }
+  .row { display: flex; align-items: baseline; gap: 20px; border-bottom: 1.5px solid rgba(11,14,17,0.08); padding-bottom: 20px; }
+  .row b { font-family: 'Inter Tight'; font-weight: 800; font-size: 46px; min-width: 220px; color: #0B0E11; }
+  .row i { font-style: normal; font-size: 27px; color: #4A5160; font-weight: 600; }
+  .cta-bar {
+    margin-top: auto; display: flex; align-items: center; justify-content: space-between;
+    background: #0B0E11; border-radius: 24px; padding: 34px 46px;
+  }
+  .cta-url { font-family: 'Inter Tight'; font-weight: 800; font-size: 42px; color: #fff; }
+  .cta-btn {
+    background: linear-gradient(90deg, #0055FF, #0080FF); color: #fff; font-weight: 700; font-size: 27px;
+    padding: 20px 44px; border-radius: 999px;
+  }
+</style>
+</head>
+<body>
+  <div class="side"></div>
+  <div class="frame">
+    <div class="brand-row">
+      <div class="mark">G</div>
+      <div>
+        <div class="bname">Gerett</div>
+        <div class="bsub">Biblioteca Organizacional</div>
+      </div>
+    </div>
+
+    <h2>O acervo de estudos que faltava na sua <em>Engenharia de Produção.</em></h2>
+
+    <div class="big">
+      <b>2.343</b>
+      <span>tópicos detalhados, com aplicações reais da indústria</span>
+    </div>
+
+    <div class="rows">
+      <div class="row"><b>+1.955</b><i>aplicações práticas documentadas</i></div>
+      <div class="row"><b>89</b><i>materiais gratuitos para download (PDF)</i></div>
+    </div>
+
+    <div class="cta-bar">
+      <div class="cta-url">thegerett.com.br</div>
+      <div class="cta-btn">Acesse grátis</div>
+    </div>
+  </div>
+</body>
+</html>
