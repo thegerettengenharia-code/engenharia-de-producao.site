@@ -1493,7 +1493,7 @@
     if (!f) return;
     ev.preventDefault();
     var p = cur();
-    if (!p) return;
+    if (!p && f.getAttribute('data-form') !== 'novo-projeto') return;
     var v = formVals(f);
 
     if (f.hasAttribute('data-add')) {
@@ -1600,7 +1600,9 @@
     if (ev.target.closest('[data-close]')) closeModal();
   });
 
-  root.addEventListener('click', function (ev) {
+  // Ações de botões [data-a]: os modais vivem em #gpModalRoot (fora de #gpRoot),
+  // então o mesmo handler precisa escutar as duas raízes.
+  function handleActions(ev) {
     var btn = ev.target.closest('[data-a]');
     if (!btn) return;
     var a = btn.getAttribute('data-a');
@@ -1608,7 +1610,7 @@
     var id = btn.getAttribute('data-id') || '';
     var i = parseInt(btn.getAttribute('data-i'), 10);
     var p = cur();
-    if (!p && a !== 'new-projeto') return;
+    if (!p && a !== 'new-projeto' && a !== 'create-project') return;
 
     switch (a) {
       case 'goto-mod':
@@ -1713,9 +1715,11 @@
       default:
         break;
     }
-  });
+  }
+  root.addEventListener('click', handleActions);
+  modalRoot.addEventListener('click', handleActions);
 
-  root.addEventListener('click', function (ev) {
+  function handleEditDel(ev) {
     var btn = ev.target.closest('[data-a]');
     if (!btn) return;
     var a = btn.getAttribute('data-a');
@@ -2106,7 +2110,9 @@
       default:
         break;
     }
-  });
+  }
+  root.addEventListener('click', handleEditDel);
+  modalRoot.addEventListener('click', handleEditDel);
 
   load();
   render();

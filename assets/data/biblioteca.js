@@ -1190,22 +1190,22 @@ window.SITE_BIBLIOTECA = {
       last_verified: '2026-08-23'
     },
     {
-      id: 'ifsp-materiais-engenharia',
-      title: 'Materiais de Engenharia — Apostila IFSP',
-      authors: ['Instituto Federal de São Paulo (IFSP)'],
-      institution: 'Instituto Federal de São Paulo (IFSP)',
+      id: 'cecierj-ciencia-dos-materiais',
+      title: 'Ciência dos Materiais — Volume Único (Fundação CECIERJ)',
+      authors: ['Nadja Valéria Vasconcellos de Ávila'],
+      institution: 'Fundação CECIERJ',
       category: 'metalurgia',
       subcategory: 'Ciência dos Materiais',
       type: 'apostila',
-      description: 'Apostila sobre classificação dos materiais de engenharia: metais, polímeros, cerâmicos, compósitos e suas propriedades.',
-      keywords: ['materiais de engenharia', 'metais', 'polímeros', 'compósitos'],
-      url: 'https://www.ifsp.edu.br/images/Ensino/Tecnologias_e_Ciencias_Aplicadas/Materiais_de_Engenharia.pdf',
-      source: 'IFSP',
+      description: 'Apostila completa de ciência dos materiais: estrutura dos materiais, propriedades e aplicações de metais, polímeros, cerâmicos e compósitos na engenharia.',
+      keywords: ['ciência dos materiais', 'materiais de engenharia', 'metais', 'polímeros'],
+      url: 'https://canal.cecierj.edu.br/112019/b895f40932f58cc137c89b0a974144d9.pdf',
+      source: 'Canal CECIERJ',
       language: 'pt',
       open_access: true,
       has_pdf: true,
       verified: true,
-      last_verified: '2026-08-16'
+      last_verified: '2026-08-24'
     },
 
     /* ─── LOGÍSTICA (extras) ─── */
@@ -1320,22 +1320,22 @@ window.SITE_BIBLIOTECA = {
       last_verified: '2026-08-23'
     },
     {
-      id: 'ifsp-manufatura-aditiva',
-      title: 'Manufatura Aditiva — Apostila e Materiais',
-      authors: ['Instituto Federal de São Paulo (IFSP)'],
-      institution: 'Instituto Federal de São Paulo (IFSP)',
+      id: 'ifpe-manufatura-aditiva',
+      title: 'Introdução à Manufatura Aditiva: Fatiamento com Software Cura e Materiais de Impressão (IFPE)',
+      authors: ['Jailson de Carvalho Araújo', 'Rafael Mendonça Rocha Barros (orientador)'],
+      institution: 'Instituto Federal de Pernambuco (IFPE) — Campus Garanhuns',
       category: 'automacao',
       subcategory: 'Manufatura Aditiva',
       type: 'apostila',
-      description: 'Material sobre manufatura aditiva (impressão 3D): processos, materiais, aplicações industriais e design para manufatura aditiva.',
-      keywords: ['manufatura aditiva', 'impressão 3D', 'prototipagem', 'DFM'],
-      url: 'https://www.ifsp.edu.br/images/Ensino/Tecnologias_e_Ciencias_Aplicadas/Manufatura_Aditiva.pdf',
-      source: 'IFSP',
+      description: 'Apostila do GSEL/IFPE sobre impressão 3D: conceitos básicos e avançados da manufatura aditiva, fatiamento com o software Cura, materiais de impressão e fatores que influenciam a qualidade das peças produzidas.',
+      keywords: ['manufatura aditiva', 'impressão 3D', 'FDM', 'fatiamento'],
+      url: 'https://repositorio.ifpe.edu.br/xmlui/bitstream/handle/123456789/1610/Vol2%20-%20Introdu%C3%A7%C3%A3o%20a%20manufatura%20aditiva%20-%20Fatiamento%20com%20software%20Cura%20e%20materiais%20de%20impress%C3%A3o.pdf?sequence=1&isAllowed=y',
+      source: 'Repositório Institucional IFPE',
       language: 'pt',
       open_access: true,
       has_pdf: true,
       verified: true,
-      last_verified: '2026-08-16'
+      last_verified: '2026-08-24'
     },
 
     /* ─── DESENVOLVIMENTO DE PRODUTOS (extras) ─── */

@@ -1094,6 +1094,10 @@
 
   function maybeTour() {
     if (db.tourSeen) return;
+    // Não exibir o tour enquanto a aba PDP estiver oculta: o overlay é de tela
+    // cheia e bloquearia os cliques nas outras ferramentas (ex.: Gestão de Projetos).
+    var panel = document.getElementById('tool-pdp');
+    if (panel && panel.hidden) return;
     db.tourSeen = true; save();
     var ov = openModal(
       '<h3>Bem-vindo à Ferramenta Organizacional</h3>' +
@@ -1115,6 +1119,18 @@
 
   render();
   maybeTour();
+
+  // Coordena o modal com a aba: abre o tour quando a aba PDP fica visível
+  // pela 1ª vez e fecha um eventual overlay do PDP ao sair da aba (o overlay
+  // é de tela cheia e bloquearia os cliques nas demais ferramentas).
+  (function () {
+    var panel = document.getElementById('tool-pdp');
+    if (!panel || !window.MutationObserver) return;
+    new MutationObserver(function () {
+      if (panel.hidden) closeModal();
+      else maybeTour();
+    }).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
+  })();
 
   window.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closeModal();
