@@ -97,7 +97,7 @@ window.SITE_BIBLIOTECA = {
       year: 2020,
       description: 'Livro de acesso aberto (CC BY 3.0) sobre a integração entre Lean Manufacturing e Seis Sigma, com abordagens para a indústria de manufatura moderna.',
       keywords: ['lean manufacturing', 'seis sigma', 'manufatura', 'melhoria contínua'],
-      url: 'https://directory.doabooks.org/handle/20.500.12854/67291',
+      url: 'https://mts.intechopen.com/storage/books/8453/authors_book/authors_book.pdf',
       pdf_url: 'https://mts.intechopen.com/storage/books/8453/authors_book/authors_book.pdf',
       source: 'Directory of Open Access Books (DOAB) / IntechOpen',
       language: 'en',
@@ -260,24 +260,7 @@ window.SITE_BIBLIOTECA = {
     },
 
     /* ─────────────────────────── SEGURANÇA DO TRABALHO ─────────────────────────── */
-    {
-      id: 'normas-regulamentadoras-nrs',
-      title: 'Normas Regulamentadoras (NRs) — Vigentes',
-      authors: ['Ministério do Trabalho e Emprego'],
-      institution: 'Governo Federal do Brasil',
-      category: 'seguranca-trabalho',
-      subcategory: 'Normas',
-      type: 'norma',
-      description: 'Portal oficial com todas as Normas Regulamentadoras de segurança e saúde no trabalho vigentes no Brasil, com acesso gratuito aos textos completos.',
-      keywords: ['NRs', 'segurança do trabalho', 'normas regulamentadoras', 'SST'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/normas-regulamentadoras-nrs',
-      source: 'Ministério do Trabalho e Emprego (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
+
     {
       id: 'fundacentro-publicacoes',
       title: 'Biblioteca Digital da Fundacentro',
@@ -564,24 +547,7 @@ window.SITE_BIBLIOTECA = {
       verified: true,
       last_verified: '2026-08-16'
     },
-    {
-      id: 'educapes-cartilha-residuos',
-      title: 'Resíduos Sólidos — Materiais Educativos EducaRES (MMA)',
-      authors: ['Ministério do Meio Ambiente e Mudança do Clima'],
-      institution: 'Ministério do Meio Ambiente e Mudança do Clima',
-      category: 'meio-ambiente',
-      subcategory: 'Resíduos Sólidos',
-      type: 'portal',
-      description: 'Página oficial do programa EducaRES (MMA), com cartilhas, guias e materiais educativos sobre resíduos sólidos, coleta seletiva e educação ambiental.',
-      keywords: ['resíduos sólidos', 'cartilha', 'educação ambiental', 'reciclagem'],
-      url: 'https://educambiental.mma.gov.br/index.php?id=308&option=com_educaresmapa&view=educaressingle',
-      source: 'EducaRES — Ministério do Meio Ambiente (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: false,
-      verified: true,
-      last_verified: '2026-08-23'
-    },
+
     {
       id: 'ufpr-cartilha-pnrs',
       title: 'Resíduos Sólidos — Cartilha Educativa (Governo de SP)',
@@ -601,24 +567,7 @@ window.SITE_BIBLIOTECA = {
       verified: true,
       last_verified: '2026-08-23'
     },
-    {
-      id: 'mma-educacao-residuos-solidos',
-      title: 'Educação para Resíduos Sólidos (página temática)',
-      authors: ['Ministério do Meio Ambiente e Mudança do Clima'],
-      institution: 'Ministério do Meio Ambiente e Mudança do Clima',
-      category: 'meio-ambiente',
-      subcategory: 'Resíduos Sólidos',
-      type: 'documento',
-      description: 'Página oficial do MMA sobre educação ambiental e gestão de resíduos sólidos, com referências à PNRS, EducaRES e materiais educativos.',
-      keywords: ['resíduos sólidos', 'educação ambiental', 'PNRS', 'MMA'],
-      url: 'https://www.gov.br/mma/pt-br/assuntos/educacao-ambiental/glossario-ea/educacao-para-residuos-solidos',
-      source: 'Ministério do Meio Ambiente (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: false,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
+
 
     /* ─────────────────────────── GESTÃO DA QUALIDADE ─────────────────────────── */
     {
@@ -1039,100 +988,11 @@ window.SITE_BIBLIOTECA = {
     },
 
     /* ─── SEGURANÇA DO TRABALHO (extras) ─── */
-    {
-      id: 'nr-12-seguranca-maquinas',
-      title: 'NR-12 — Segurança no Trabalho em Máquinas e Equipamentos',
-      authors: ['Ministério do Trabalho e Emprego'],
-      institution: 'Governo Federal do Brasil',
-      category: 'seguranca-trabalho',
-      subcategory: 'Normas',
-      type: 'norma',
-      year: 2022,
-      description: 'Norma Regulamentadora NR-12, que estabelece os requisitos de segurança para projetos, instalação, operação e manutenção de máquinas.',
-      keywords: ['NR-12', 'segurança em máquinas', 'norma regulamentadora', 'SST'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-12-nr-12',
-      source: 'Ministério do Trabalho e Emprego (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
-    {
-      id: 'nr-6-epi',
-      title: 'NR-6 — Equipamentos de Proteção Individual (EPI)',
-      authors: ['Ministério do Trabalho e Emprego'],
-      institution: 'Governo Federal do Brasil',
-      category: 'seguranca-trabalho',
-      subcategory: 'Normas',
-      type: 'norma',
-      year: 2001,
-      description: 'Norma Regulamentadora NR-6 sobre fornecimento, uso, guarda e conservação dos Equipamentos de Proteção Individual.',
-      keywords: ['NR-6', 'EPI', 'proteção individual', 'segurança do trabalho'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-6-nr-6',
-      source: 'Ministério do Trabalho e Emprego (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
-    {
-      id: 'nr-5-cipa',
-      title: 'NR-5 — Comissão Interna de Prevenção de Acidentes (CIPA)',
-      authors: ['Ministério do Trabalho e Emprego'],
-      institution: 'Governo Federal do Brasil',
-      category: 'seguranca-trabalho',
-      subcategory: 'Normas',
-      type: 'norma',
-      year: 2022,
-      description: 'Norma Regulamentadora NR-5 que regulamenta a constituição e funcionamento da CIPA nas empresas.',
-      keywords: ['NR-5', 'CIPA', 'prevenção de acidentes', 'comissão interna'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-5-nr-5',
-      source: 'Ministério do Trabalho e Emprego (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
-    {
-      id: 'nr-17-ergonomia',
-      title: 'NR-17 — Ergonomia',
-      authors: ['Ministério do Trabalho e Emprego'],
-      institution: 'Governo Federal do Brasil',
-      category: 'seguranca-trabalho',
-      subcategory: 'Normas',
-      type: 'norma',
-      year: 2021,
-      description: 'Norma Regulamentadora NR-17 sobre ergonomia no trabalho: condições de trabalho, posturas, mobiliário, esforços repetitivos e jornada.',
-      keywords: ['NR-17', 'ergonomia', 'postura', 'esforço repetitivo'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17',
-      source: 'Ministério do Trabalho e Emprego (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-16'
-    },
-    {
-      id: 'fundaçao-cruz-ergonomia-aplicada',
-      title: 'Manual de Aplicação da NR-17 — Ergonomia (Gov.br)',
-      authors: ['Fundacentro / Ministério do Trabalho e Emprego'],
-      institution: 'Ministério do Trabalho e Emprego (gov.br)',
-      category: 'seguranca-trabalho',
-      subcategory: 'Ergonomia',
-      type: 'guia',
-      description: 'Manual prático de aplicação da NR-17 (ergonomia) elaborado pela Escola da Inspeção do Trabalho: levantamento e transporte de cargas, mobiliário, posturas e organização do trabalho.',
-      keywords: ['ergonomia', 'NR-17', 'LER/DORT', 'postura', 'mobiliário'],
-      url: 'https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/escola/e-biblioteca/manual-de-aplicacao-da-nr-17-ano-2002.pdf',
-      source: 'Escola da Inspeção do Trabalho — gov.br',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-23'
-    },
+
+
+
+
+
 
     /* ─── METALURGIA E MATERIAIS (extras) ─── */
     {
@@ -1227,24 +1087,7 @@ window.SITE_BIBLIOTECA = {
       verified: true,
       last_verified: '2026-08-23'
     },
-    {
-      id: 'fgv-estrategia-logistica',
-      title: 'Gestão da Cadeia de Suprimentos: Lições de Honda e Toyota — Dissertação (FGV)',
-      authors: ['Dissertação de mestrado — EAESP/FGV'],
-      institution: 'Fundação Getulio Vargas (FGV)',
-      category: 'logistica',
-      subcategory: 'Estratégia Logística',
-      type: 'dissertacao',
-      description: 'Dissertação de mestrado da FGV-EAESP sobre gestão da cadeia de suprimentos na indústria automobilística, comparando as práticas de supply chain management da Honda e da Toyota.',
-      keywords: ['estratégia logística', 'supply chain', 'automobilística', 'custos'],
-      url: 'https://repositorio.fgv.br/server/api/core/bitstreams/8704c85f-13ee-4d21-abc0-0512c1586ce9/content',
-      source: 'Repositório Institucional FGV',
-      language: 'pt',
-      open_access: true,
-      has_pdf: true,
-      verified: true,
-      last_verified: '2026-08-23'
-    },
+
     {
       id: 'senai-logistica-reversa',
       title: 'Logística Reversa — Portal SINIR/MMA',
@@ -1416,24 +1259,7 @@ window.SITE_BIBLIOTECA = {
       verified: true,
       last_verified: '2026-08-16'
     },
-    {
-      id: 'ibama-licenciamento-ambiental',
-      title: 'Licenciamento Ambiental — IBAMA (página oficial)',
-      authors: ['IBAMA'],
-      institution: 'Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)',
-      category: 'meio-ambiente',
-      subcategory: 'Licenciamento',
-      type: 'documento',
-      description: 'Página oficial do IBAMA sobre o Licenciamento Ambiental Federal (LAF): etapas, tipos de licença (LP, LI, LO), procedimentos, condicionantes e legislação aplicável a atividades industriais.',
-      keywords: ['licenciamento ambiental', 'EIA/RIMA', 'IBAMA', 'condicionantes'],
-      url: 'https://www.gov.br/ibama/pt-br/assuntos/laf/sobre',
-      source: 'IBAMA (gov.br)',
-      language: 'pt',
-      open_access: true,
-      has_pdf: false,
-      verified: true,
-      last_verified: '2026-08-23'
-    },
+
     {
       id: 'unesp-gestao-ambiental-industrial',
       title: 'Gestão Ambiental Industrial — Estudo de Caso',
@@ -1692,24 +1518,6 @@ window.SITE_BIBLIOTECA = {
       keywords: ['periódico', 'acesso aberto', 'produção', 'operações'],
       url: 'https://doaj.org/',
       source: 'DOAJ',
-      language: 'en',
-      open_access: true,
-      has_pdf: false,
-      verified: true,
-      last_verified: '2026-08-23'
-    },
-    {
-      id: 'intechopen-production-operations',
-      title: 'DOAB — Directory of Open Access Books',
-      authors: ['OAPEN Foundation / OpenEdition'],
-      institution: 'DOAB',
-      category: 'revistas-periodicos',
-      subcategory: 'Coleções',
-      type: 'portal',
-      description: 'Diretório internacional de livros acadêmicos de acesso aberto, com coleções completas em engenharia, manufatura, operações e supply chain disponíveis para download gratuito.',
-      keywords: ['livros abertos', 'operações', 'manufatura', 'supply chain'],
-      url: 'https://directory.doabooks.org/',
-      source: 'DOAB',
       language: 'en',
       open_access: true,
       has_pdf: false,

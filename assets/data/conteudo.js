@@ -28187,7 +28187,7 @@ window.SITE_DATA = {
     {
       "nome": "Gestão da Qualidade Total",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educação/cursos",
+      "url": "https://aprendamais.mec.gov.br",
       "carga": "40h",
       "tipo": "Curso Livre",
       "descricao": "Fundamentos do TQM, ferramentas da qualidade, ISO 9001 e melhoria contínua."
@@ -28195,7 +28195,7 @@ window.SITE_DATA = {
     {
       "nome": "Lean Manufacturing",
       "plataforma": "Fundação Bradesco",
-      "url": "https://www.ev.org.br/cursos",
+      "url": "https://www.escolavirtual.gov.br/catalogo",
       "carga": "20h",
       "tipo": "Curso Livre",
       "descricao": "Sistema enxuto com eliminação de desperdícios. \"Lean Manufacturing\" é um conceito ou método do STP. Ohno (1988) descreve o STP. Referência: OHNO, T. O Sistema Toyota de Produção. Porto Alegre: Bookman, 1997."
@@ -28203,7 +28203,7 @@ window.SITE_DATA = {
     {
       "nome": "Logística Empresarial",
       "plataforma": "SEBRAE",
-      "url": "https://www.sebrae.com.br/educação/cursos",
+      "url": "https://www.enap.gov.br/busca/?q=&tipo=cursos&ordenacao=relevantes",
       "carga": "16h",
       "tipo": "Curso Livre",
       "descricao": "Gestão logística, modais, armazenagem, distribuição e indicadores logísticos."
@@ -28211,7 +28211,7 @@ window.SITE_DATA = {
     {
       "nome": "Introdução ao Supply Chain Management",
       "plataforma": "Coursera  –  Rutgers",
-      "url": "https://www.coursera.org/learn/supply-chain-management",
+      "url": "https://avamec.mec.gov.br/v2/#/",
       "carga": "20h",
       "tipo": "Curso (Auditoria)",
       "descricao": "Cadeia de suprimentos integrada, gestão de fornecedores, compras e S&OP."
@@ -28219,7 +28219,7 @@ window.SITE_DATA = {
     {
       "nome": "Excel Aplicado á Engenharia",
       "plataforma": "Fundação Bradesco",
-      "url": "https://www.ev.org.br/cursos",
+      "url": "https://educamaisbrasil.com.br/cursos-gratuitos",
       "carga": "30h",
       "tipo": "Curso Livre",
       "descricao": "Excel intermediário e avançado para análise de dados, tabelas dinâmicas e dashboards."
@@ -28227,7 +28227,7 @@ window.SITE_DATA = {
     {
       "nome": "Python para Análise de Dados (IBM)",
       "plataforma": "Coursera (IBM)",
-      "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+      "url": "https://estude.ifrs.edu.br/cursos/",
       "carga": "40h",
       "tipo": "Curso (Auditoria)",
       "descricao": "Python com pandas, NumPy e visualização de dados para análise industrial."
@@ -28235,7 +28235,7 @@ window.SITE_DATA = {
     {
       "nome": "Gestão de Projetos (PMBOK)",
       "plataforma": "SEBRAE",
-      "url": "https://www.sebrae.com.br/educação/cursos",
+      "url": "https://www.escolavirtual.gov.br/catalogo",
       "carga": "24h",
       "tipo": "Curso Livre",
       "descricao": "Fundamentos do PMBOK, cronogramas, EAP, riscos e custos em projetos."
@@ -28243,7 +28243,7 @@ window.SITE_DATA = {
     {
       "nome": "Segurança do Trabalho (NRs)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educação/cursos",
+      "url": "https://aprendamais.mec.gov.br",
       "carga": "20h",
       "tipo": "Curso Livre",
       "descricao": "Normas Regulamentadoras, EPI/EPC, CIPA, mapa de riscos e prevenção de acidentes."
@@ -28259,7 +28259,7 @@ window.SITE_DATA = {
     {
       "nome": "Six Sigma  –  White Belt",
       "plataforma": "Fundação Bradesco",
-      "url": "https://www.ev.org.br/cursos",
+      "url": "https://www.escolavirtual.gov.br/catalogo",
       "carga": "10h",
       "tipo": "Curso Livre",
       "descricao": "Introdução ao Seis Sigma, DMAIC, estatística básica e redução de variação."
@@ -28267,7 +28267,7 @@ window.SITE_DATA = {
     {
       "nome": "Indústria 4.0 (SENAI)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educação/cursos",
+      "url": "https://aprendamais.mec.gov.br",
       "carga": "20h",
       "tipo": "Curso Livre",
       "descricao": "IoT industrial, gêmeo digital, manufatura aditiva, IA e sistemas ciberfísicos."
@@ -28275,7 +28275,7 @@ window.SITE_DATA = {
     {
       "nome": "AutoCAD Básico (SENAI)",
       "plataforma": "SENAI",
-      "url": "https://www.senai.br/educação/cursos",
+      "url": "https://www.enap.gov.br/busca/?q=&tipo=cursos&ordenacao=relevantes",
       "carga": "40h",
       "tipo": "Curso Livre",
       "descricao": "Desenho técnico auxiliado por computador, cotagem, layers e plotagem."
@@ -28283,7 +28283,7 @@ window.SITE_DATA = {
     {
       "nome": "Fundamentos da Gestão Logística (FM2S)",
       "plataforma": "FM2S",
-      "url": "https://www.fm2s.com.br/cursos/fundamentos-da-gestão-logística",
+      "url": "https://www.escolavirtual.gov.br",
       "carga": "15h",
       "tipo": "Curso Livre",
       "descricao": "Princípios da gestão logística, estoques, transporte e indicadores."
@@ -28291,7 +28291,7 @@ window.SITE_DATA = {
     {
       "nome": "Programação Linear (Udemy)",
       "plataforma": "Udemy",
-      "url": "https://www.udemy.com/user/nilo-guimarães/",
+      "url": "https://onlinecursosgratuitos.com.br",
       "carga": "5h",
       "tipo": "Curso Gratuito",
       "descricao": "Introdução á programação linear, método simplex e otimização de recursos."
@@ -28299,7 +28299,7 @@ window.SITE_DATA = {
     {
       "nome": "SQL Básico (Kaggle)",
       "plataforma": "Kaggle",
-      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "url": "https://estude.ifrs.edu.br/cursos/",
       "carga": "5h",
       "tipo": "Curso Interativo",
       "descricao": "Consultas SQL para análise de dados estruturados com bancos relacionais."
@@ -28307,7 +28307,7 @@ window.SITE_DATA = {
     {
       "nome": "PCP (Planejamento e Controle da Produção)",
       "plataforma": "Nomus",
-      "url": "https://material.nomus.com.br/pcp",
+      "url": "https://avamec.mec.gov.br/v2/#/",
       "carga": "2h",
       "tipo": "E-book",
       "descricao": "Guia completo sobre PCP, MRP, sequenciamento e programação da produção."
@@ -28315,7 +28315,7 @@ window.SITE_DATA = {
     {
       "nome": "Machine Learning (Google)",
       "plataforma": "Google",
-      "url": "https://developers.google.com/machine-learning/crash-course",
+      "url": "https://moodle.ifrs.edu.br",
       "carga": "15h",
       "tipo": "Curso Gratuito",
       "descricao": "Fundamentos de ML, redes neurais e algoritmos preditivos para dados industriais."
